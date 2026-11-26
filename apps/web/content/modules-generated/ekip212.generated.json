@@ -1,0 +1,481 @@
+{
+  "institution": "unknown",
+  "moduleCode": "EKIP212",
+  "sourceFiles": [
+    {
+      "path": "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/EKIP 212 Workplan_2026.pdf",
+      "name": "EKIP 212 Workplan_2026.pdf",
+      "ext": ".pdf",
+      "kind": "schedule",
+      "moduleCode": "EKIP212",
+      "sourceType": "workplan",
+      "sourceLabel": "EKIP212 workplan",
+      "provenance": {
+        "manifestPath": "content/module-source-manifest.json",
+        "manifestVersion": 2,
+        "manifestModuleCode": "EKIP212",
+        "manifestSourceType": "workplan",
+        "manifestLabel": "EKIP212 workplan",
+        "resolvedFromManifest": true,
+        "sourcePath": "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/EKIP 212 Workplan_2026.pdf"
+      }
+    },
+    {
+      "path": "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/Study+Unit+1+-+Absolute+and+comparative+advantage EKIP212.pdf",
+      "name": "Study+Unit+1+-+Absolute+and+comparative+advantage EKIP212.pdf",
+      "ext": ".pdf",
+      "kind": "reading",
+      "moduleCode": "EKIP212",
+      "sourceType": "reading",
+      "sourceLabel": "Absolute and comparative advantage",
+      "provenance": {
+        "manifestPath": "content/module-source-manifest.json",
+        "manifestVersion": 2,
+        "manifestModuleCode": "EKIP212",
+        "manifestSourceType": "reading",
+        "manifestLabel": "Absolute and comparative advantage",
+        "resolvedFromManifest": true,
+        "sourcePath": "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/Study+Unit+1+-+Absolute+and+comparative+advantage EKIP212.pdf"
+      }
+    },
+    {
+      "path": "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/Study+Unit+1.1+Trade+theories EKIP212.pdf",
+      "name": "Study+Unit+1.1+Trade+theories EKIP212.pdf",
+      "ext": ".pdf",
+      "kind": "reading",
+      "moduleCode": "EKIP212",
+      "sourceType": "reading",
+      "sourceLabel": "Trade theories",
+      "provenance": {
+        "manifestPath": "content/module-source-manifest.json",
+        "manifestVersion": 2,
+        "manifestModuleCode": "EKIP212",
+        "manifestSourceType": "reading",
+        "manifestLabel": "Trade theories",
+        "resolvedFromManifest": true,
+        "sourcePath": "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/Study+Unit+1.1+Trade+theories EKIP212.pdf"
+      }
+    },
+    {
+      "path": "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/Study+Unit+2.2+Nontariff+barriers+to+trade+_2025_ EKIP212.pdf",
+      "name": "Study+Unit+2.2+Nontariff+barriers+to+trade+_2025_ EKIP212.pdf",
+      "ext": ".pdf",
+      "kind": "reading",
+      "moduleCode": "EKIP212",
+      "sourceType": "reading",
+      "sourceLabel": "Nontariff barriers to trade",
+      "provenance": {
+        "manifestPath": "content/module-source-manifest.json",
+        "manifestVersion": 2,
+        "manifestModuleCode": "EKIP212",
+        "manifestSourceType": "reading",
+        "manifestLabel": "Nontariff barriers to trade",
+        "resolvedFromManifest": true,
+        "sourcePath": "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/Study+Unit+2.2+Nontariff+barriers+to+trade+_2025_ EKIP212.pdf"
+      }
+    },
+    {
+      "path": "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/How+to+assess+the+impact+of+a+quota EKIP212.pdf",
+      "name": "How+to+assess+the+impact+of+a+quota EKIP212.pdf",
+      "ext": ".pdf",
+      "kind": "unknown",
+      "moduleCode": "EKIP212",
+      "sourceType": "reference",
+      "sourceLabel": "Quota impact reference",
+      "provenance": {
+        "manifestPath": "content/module-source-manifest.json",
+        "manifestVersion": 2,
+        "manifestModuleCode": "EKIP212",
+        "manifestSourceType": "reference",
+        "manifestLabel": "Quota impact reference",
+        "resolvedFromManifest": true,
+        "sourcePath": "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/How+to+assess+the+impact+of+a+quota EKIP212.pdf"
+      }
+    },
+    {
+      "path": "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/Calculating+the+effective+rate+of+protection EKIP212.pdf",
+      "name": "Calculating+the+effective+rate+of+protection EKIP212.pdf",
+      "ext": ".pdf",
+      "kind": "unknown",
+      "moduleCode": "EKIP212",
+      "sourceType": "reference",
+      "sourceLabel": "Effective rate of protection",
+      "provenance": {
+        "manifestPath": "content/module-source-manifest.json",
+        "manifestVersion": 2,
+        "manifestModuleCode": "EKIP212",
+        "manifestSourceType": "reference",
+        "manifestLabel": "Effective rate of protection",
+        "resolvedFromManifest": true,
+        "sourcePath": "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/Calculating+the+effective+rate+of+protection EKIP212.pdf"
+      }
+    },
+    {
+      "path": "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/Ch+2+-+Constant+and+increasing+cost EKIP212.pdf",
+      "name": "Ch+2+-+Constant+and+increasing+cost EKIP212.pdf",
+      "ext": ".pdf",
+      "kind": "unknown",
+      "moduleCode": "EKIP212",
+      "sourceType": "reading",
+      "sourceLabel": "Constant and increasing cost",
+      "provenance": {
+        "manifestPath": "content/module-source-manifest.json",
+        "manifestVersion": 2,
+        "manifestModuleCode": "EKIP212",
+        "manifestSourceType": "reading",
+        "manifestLabel": "Constant and increasing cost",
+        "resolvedFromManifest": true,
+        "sourcePath": "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/Ch+2+-+Constant+and+increasing+cost EKIP212.pdf"
+      }
+    },
+    {
+      "path": "/mnt/c/Users/molot/Desktop/EKIP.pdf",
+      "name": "EKIP.pdf",
+      "ext": ".pdf",
+      "kind": "unknown",
+      "moduleCode": "EKIP212",
+      "sourceType": "study-guide",
+      "sourceLabel": "EKIP master pack",
+      "provenance": {
+        "manifestPath": "content/module-source-manifest.json",
+        "manifestVersion": 2,
+        "manifestModuleCode": "EKIP212",
+        "manifestSourceType": "study-guide",
+        "manifestLabel": "EKIP master pack",
+        "resolvedFromManifest": true,
+        "sourcePath": "/mnt/c/Users/molot/Desktop/EKIP.pdf"
+      }
+    },
+    {
+      "path": "/mnt/c/Users/molot/Desktop/EKIP 1.2.pdf",
+      "name": "EKIP 1.2.pdf",
+      "ext": ".pdf",
+      "kind": "unknown",
+      "moduleCode": "EKIP212",
+      "sourceType": "reading",
+      "sourceLabel": "EKIP supplementary unit",
+      "provenance": {
+        "manifestPath": "content/module-source-manifest.json",
+        "manifestVersion": 2,
+        "manifestModuleCode": "EKIP212",
+        "manifestSourceType": "reading",
+        "manifestLabel": "EKIP supplementary unit",
+        "resolvedFromManifest": true,
+        "sourcePath": "/mnt/c/Users/molot/Desktop/EKIP 1.2.pdf"
+      }
+    }
+  ],
+  "classSchedule": [
+    {
+      "label": "Week 1:",
+      "summary": "9 February Introduction and orientation 9-13 February"
+    },
+    {
+      "label": "Week 2:",
+      "summary": "16 February SU 1.1: Modern trade theory 16-20 February 3 23 February Guest lecture – Prof David Luke (London School of Economics) 23-27 February 27 February SU 1.2: Sources of comparative advantage 4 2 March SU 2.1: Tariffs 2-6 March 6 March Test 1 – Study Unit 1.1 & 1.2"
+    },
+    {
+      "label": "Week 5:",
+      "summary": "13 March SU 2.2: Non-tariff barriers 9-13 March"
+    },
+    {
+      "label": "Week 6:",
+      "summary": "16 March SU 3: International trade regulation 16-20 March"
+    },
+    {
+      "label": "Week 7:",
+      "summary": "23 March SU 4.1: Trade policies for developing nations 23-27 March"
+    },
+    {
+      "label": "Week 8 & 9:",
+      "summary": "Assessment Test 2: Study Unit 2.1 & 2.2 30 March – 10 April"
+    },
+    {
+      "label": "Week 10:",
+      "summary": "17 April SU 4.2: Regional trade agreements & extra notes 14-17 April"
+    },
+    {
+      "label": "Week 11:",
+      "summary": "24 April Test 3: Study Unit 3 & 4.1 20-24 April"
+    },
+    {
+      "label": "Week 12:",
+      "summary": "Recess 27 April – 1 May"
+    },
+    {
+      "label": "Week 13:",
+      "summary": "4 May SU 5: exchange rate systems and South Africa’s balance of payments 4-8 May"
+    },
+    {
+      "label": "Week 14:",
+      "summary": "11 May Test 4: Study Unit 4.2 & 5 11-15 May"
+    },
+    {
+      "label": "Week 15:",
+      "summary": "18 May Exam revision 18-22 May"
+    },
+    {
+      "label": "Week 16:",
+      "summary": "26 May - 19 June First exam opp"
+    },
+    {
+      "label": "Week 17:",
+      "summary": "29 June - 10 July Second exam opp"
+    }
+  ],
+  "assessmentPlan": [
+    {
+      "name": "Test 1",
+      "due": "16 February",
+      "scope": "Study Unit 1.1 & 1.2"
+    },
+    {
+      "name": "Test 2",
+      "due": "30 March – 10 April",
+      "scope": "Study Unit 2.1 & 2.2"
+    },
+    {
+      "name": "Test 3",
+      "due": "24 April",
+      "scope": "Study Unit 3 & 4.1"
+    },
+    {
+      "name": "Test 4",
+      "due": "11 May",
+      "scope": "Study Unit 4.2 & 5"
+    },
+    {
+      "name": "Exam revision",
+      "due": "18 May"
+    },
+    {
+      "name": "First exam opp",
+      "due": "26 May - 19 June"
+    },
+    {
+      "name": "Second exam opp",
+      "due": "29 June - 10 July"
+    }
+  ],
+  "studyUnits": [
+    "Study Unit 1.1",
+    "Study Unit 1.2",
+    "Study Unit 2.1",
+    "Study Unit 2.2",
+    "Study Unit 3",
+    "Study Unit 4.1",
+    "Study Unit 4.2",
+    "Study Unit 5",
+    "Study Unit 1",
+    "Study Unit 2",
+    "Study Unit 1.1 & 1.2",
+    "Study Unit 2.1 & 2.2",
+    "Study Unit 3 & 4.1",
+    "Study Unit 4.2 & 5"
+  ],
+  "chapters": [
+    "Chapter 2",
+    "Chapter 5"
+  ],
+  "topicSeeds": [
+    "EKIP 212 Workplan 2026",
+    "Study Unit 1 Absolute and comparative advantage",
+    "Study Unit 1.1 Trade theories",
+    "Study Unit 2.2 Nontariff barriers to trade 2025",
+    "How to assess the impact of a quota",
+    "Calculating the effective rate of protection",
+    "Ch 2 Constant and increasing cost",
+    "EKIP",
+    "EKIP 1.2"
+  ],
+  "keyTopics": [],
+  "quizSignals": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "chapterInsights": [],
+  "chapterStudyItems": [
+    {
+      "chapter": "Chapter 2",
+      "flashcards": [],
+      "quizItems": [],
+      "workedExamples": [
+        {
+          "id": "chapter-2-quota-imports-example",
+          "chapter": "Chapter 2",
+          "title": "Compute imports under a quota-style trade diagram",
+          "summary": "The quota reference solves Ecuador's free-trade quantities at a world price of $300.",
+          "problem": "At a price of $300, Ecuador produces 15 computers and demands 85 computers. How many computers must be imported?",
+          "steps": [
+            {
+              "label": "Identify domestic production",
+              "explanation": "The source states Ecuador produces 15 computers at the world price."
+            },
+            {
+              "label": "Identify domestic demand",
+              "explanation": "The source states Ecuador demands 85 computers at the same price."
+            },
+            {
+              "label": "Compute imports",
+              "explanation": "Imports = demand - domestic production = 85 - 15 = 70."
+            }
+          ],
+          "answer": "Ecuador imports 70 computers.",
+          "source": "Quota impact reference",
+          "metadata": {
+            "reviewStatus": "source-backed",
+            "confidence": 0.94,
+            "version": 1,
+            "generatedBy": "module-ingestion",
+            "generatedFrom": [
+              "reference",
+              "source-file"
+            ],
+            "sources": [
+              {
+                "path": "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/How+to+assess+the+impact+of+a+quota EKIP212.pdf",
+                "label": "Quota impact reference",
+                "sourceType": "reference",
+                "manifestPath": "content/module-source-manifest.json",
+                "manifestVersion": 2,
+                "excerpt": "quantity produced equals 15; quantity demanded equals 85; imported = 70"
+              }
+            ]
+          }
+        },
+        {
+          "id": "chapter-2-effective-protection-example",
+          "chapter": "Chapter 2",
+          "title": "Calculate the effective rate of protection",
+          "summary": "The protection reference uses steel worth $1,000,000, imported taconite worth $100,000, and tariffs of 20% and 10%.",
+          "problem": "Given n = 0.2, a = 0.1, and b = 0.1, calculate the effective rate of protection.",
+          "formula": "e = (n - ab) / (1 - a)",
+          "steps": [
+            {
+              "label": "Compute the input share",
+              "explanation": "a = 100,000 / 1,000,000 = 0.1."
+            },
+            {
+              "label": "Substitute the tariff values",
+              "explanation": "e = (0.2 - (0.1 x 0.1)) / (1 - 0.1) = (0.2 - 0.01) / 0.9."
+            },
+            {
+              "label": "Finish the calculation",
+              "explanation": "0.19 / 0.9 = 0.21, which is 21%."
+            }
+          ],
+          "answer": "The effective rate of protection is 21%.",
+          "source": "Effective rate of protection",
+          "metadata": {
+            "reviewStatus": "source-backed",
+            "confidence": 0.96,
+            "version": 1,
+            "generatedBy": "module-ingestion",
+            "generatedFrom": [
+              "reference",
+              "source-file"
+            ],
+            "sources": [
+              {
+                "path": "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/Calculating+the+effective+rate+of+protection EKIP212.pdf",
+                "label": "Effective rate of protection",
+                "sourceType": "reference",
+                "manifestPath": "content/module-source-manifest.json",
+                "manifestVersion": 2,
+                "excerpt": "e = (n - ab) / (1 - a); 0.19 / 0.9 = 0.21 or 21%"
+              }
+            ]
+          }
+        }
+      ],
+      "calculators": [
+        {
+          "id": "ekip212-terms-of-trade",
+          "chapter": "Chapter 2",
+          "title": "Terms of trade calculator",
+          "description": "Test whether export prices are improving fast enough relative to import prices.",
+          "calculatorType": "terms-of-trade",
+          "formulaLabel": "Terms of trade index = (export price index / import price index) x 100",
+          "outputLabel": "Terms of trade index",
+          "inputs": [
+            {
+              "key": "exportPriceIndex",
+              "label": "Export price index",
+              "defaultValue": 112,
+              "min": 1,
+              "step": 1
+            },
+            {
+              "key": "importPriceIndex",
+              "label": "Import price index",
+              "defaultValue": 100,
+              "min": 1,
+              "step": 1
+            }
+          ]
+        }
+      ],
+      "graphs": []
+    }
+  ],
+  "resourcePointers": [
+    "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/EKIP 212 Workplan_2026.pdf",
+    "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/Study+Unit+1+-+Absolute+and+comparative+advantage EKIP212.pdf",
+    "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/Study+Unit+1.1+Trade+theories EKIP212.pdf",
+    "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/Study+Unit+2.2+Nontariff+barriers+to+trade+_2025_ EKIP212.pdf",
+    "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/How+to+assess+the+impact+of+a+quota EKIP212.pdf",
+    "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/Calculating+the+effective+rate+of+protection EKIP212.pdf",
+    "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/Ch+2+-+Constant+and+increasing+cost EKIP212.pdf",
+    "/mnt/c/Users/molot/Desktop/EKIP.pdf",
+    "/mnt/c/Users/molot/Desktop/EKIP 1.2.pdf"
+  ],
+  "confidence": 0.7999999999999999,
+  "missingContent": [],
+  "generatedAt": "2026-03-22T17:24:03.387Z",
+  "discipline": "international_economics",
+  "referenceList": [
+    {
+      "title": "WTO — Trade Topics Gateway",
+      "publisher": "World Trade Organization",
+      "url": "https://www.wto.org/english/tratop_e/tratop_e.htm",
+      "note": "Authoritative source on tariffs, NTBs, subsidies, rules of origin, dispute settlement.",
+      "sourceHash": "ed974f9a694ba5ade13627578a4ead42d39ff5e71cf275d675efd48f3174b8cf"
+    },
+    {
+      "title": "Krugman, Obstfeld & Melitz — International Economics: Theory & Policy (Pearson)",
+      "publisher": "Pearson",
+      "url": "https://www.pearson.com/en-us/subjects/economics/international-economics.html",
+      "note": "Leading text on comparative advantage, trade theory, and protection.",
+      "sourceHash": "f00ed68cad0d3f17f8ff186f4ec8dadec3f396e20dcc1a0ce485bf5359c53465"
+    },
+    {
+      "title": "World Bank — World Development Indicators",
+      "publisher": "World Bank",
+      "url": "https://databank.worldbank.org/source/world-development-indicators",
+      "note": "Trade/GDP/openness data for empirical examples.",
+      "sourceHash": "fcaa58bd7ee437b687baa3fc990eb8eda963c832b9b8dd50a8a2fc586384920c"
+    },
+    {
+      "title": "ITC — Trade Map",
+      "publisher": "International Trade Centre",
+      "url": "https://www.trademap.org/",
+      "note": "Bilateral trade-flow data; useful for effective-rate-of-protection examples.",
+      "sourceHash": "f4c4b6c94ddd8dc627d65043b9b85ffeb4a19834b4706f22f7a57fae11258a51"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: EKIP212 (BCom, unknown). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "This module's detailed chapter insights were not present in the generated file. Before teaching, map each study unit to its prescribed textbook chapter and add outcome-level notes. Use the reference list as the canonical reading.",
+    "Pedagogy tip (quantitative): work at least one fully solved example on the board per topic, then assign a parallel guided-practice problem. Common student errors: sign errors in debit/credit (accounting), confusing correlation with causation (stats/econ), and unit/percentage mistakes in ratio work. Build a short weekly formative quiz from the module's own revision prompts.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "ed974f9a694ba5ade13627578a4ead42d39ff5e71cf275d675efd48f3174b8cf",
+    "f00ed68cad0d3f17f8ff186f4ec8dadec3f396e20dcc1a0ce485bf5359c53465",
+    "fcaa58bd7ee437b687baa3fc990eb8eda963c832b9b8dd50a8a2fc586384920c",
+    "f4c4b6c94ddd8dc627d65043b9b85ffeb4a19834b4706f22f7a57fae11258a51"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

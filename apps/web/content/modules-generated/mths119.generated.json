@@ -1,0 +1,2130 @@
+{
+  "institution": "North-West University",
+  "moduleCode": "MTHS119",
+  "moduleName": "Mathematics 119",
+  "semester": "Semester 1, 2024",
+  "programme": "BCom",
+  "confidence": 0.82,
+  "generatedAt": "2026-04-03T00:00:00.000Z",
+  "sourceFiles": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "missingContent": [],
+  "studyUnits": [
+    "Chapter 1 — Number Systems & Algebra Review",
+    "Chapter 2 — Functions & Graphs",
+    "Chapter 3 — Linear & Quadratic Functions",
+    "Chapter 4 — Exponential & Logarithmic Functions",
+    "Chapter 5 — Financial Mathematics",
+    "Chapter 6 — Sequences & Series",
+    "Chapter 7 — Introduction to Calculus (Limits)",
+    "Chapter 8 — Introduction to Derivatives"
+  ],
+  "chapters": [
+    "Chapter 1",
+    "Chapter 2",
+    "Chapter 3",
+    "Chapter 4",
+    "Chapter 5",
+    "Chapter 6",
+    "Chapter 7",
+    "Chapter 8"
+  ],
+  "topicSeeds": [
+    "Ch1 - real numbers",
+    "Ch1 - exponent laws",
+    "Ch1 - factorisation",
+    "Ch1 - algebraic fractions",
+    "Ch2 - domain and range",
+    "Ch2 - function notation",
+    "Ch2 - graph transformations",
+    "Ch3 - linear function slope-intercept",
+    "Ch3 - quadratic formula",
+    "Ch3 - vertex of parabola",
+    "Ch4 - exponential growth and decay",
+    "Ch4 - laws of logarithms",
+    "Ch4 - solving exponential equations",
+    "Ch5 - simple interest",
+    "Ch5 - compound interest",
+    "Ch5 - future value annuity",
+    "Ch5 - present value annuity",
+    "Ch6 - arithmetic sequence",
+    "Ch6 - geometric sequence",
+    "Ch6 - sum of arithmetic series",
+    "Ch6 - sum of geometric series",
+    "Ch7 - limit definition",
+    "Ch7 - limits at infinity",
+    "Ch7 - continuity",
+    "Ch8 - derivative from first principles",
+    "Ch8 - power rule",
+    "Ch8 - tangent line"
+  ],
+  "keyTopics": [
+    "exponent laws",
+    "factorisation techniques",
+    "function notation and domain/range",
+    "linear and quadratic functions",
+    "solving equations",
+    "exponential and logarithmic functions",
+    "simple vs compound interest",
+    "annuities and future value",
+    "arithmetic and geometric sequences and series",
+    "limits of functions",
+    "derivative from first principles",
+    "power rule for differentiation",
+    "tangent line equation"
+  ],
+  "quizSignals": [
+    "How do you apply exponent laws?",
+    "How do you find the vertex of a parabola?",
+    "What is the difference between simple and compound interest?",
+    "What is a limit and how do you evaluate one?",
+    "How do you find a derivative from first principles?"
+  ],
+  "assessmentPlan": [
+    {
+      "name": "Class Test 1",
+      "weight": "20%",
+      "due": "March",
+      "scope": "Ch 1-2"
+    },
+    {
+      "name": "Class Test 2",
+      "weight": "20%",
+      "due": "April",
+      "scope": "Ch 3-4"
+    },
+    {
+      "name": "Class Test 3",
+      "weight": "20%",
+      "due": "May",
+      "scope": "Ch 5-6"
+    },
+    {
+      "name": "Assignment",
+      "weight": "20%",
+      "due": "April",
+      "scope": "Ch 1-5"
+    },
+    {
+      "name": "Semester Test",
+      "weight": "20%",
+      "due": "June",
+      "scope": "Ch 1-8"
+    }
+  ],
+  "classSchedule": [
+    {
+      "label": "Week 1",
+      "summary": "Number systems; exponent laws; algebraic manipulation.",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 2",
+      "summary": "Factorisation; algebraic fractions; solving linear equations.",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 3",
+      "summary": "Functions: domain, range, function notation; graph sketching.",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 4",
+      "summary": "Graph transformations; TEST 1 — Ch 1-2.",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 5",
+      "summary": "Linear functions; slope and y-intercept; applications.",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 6",
+      "summary": "Quadratic functions; vertex, roots, parabola sketching.",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 7",
+      "summary": "Exponential functions; growth and decay models.",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 8",
+      "summary": "Logarithms: laws, solving equations; TEST 2 — Ch 3-4.",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 9",
+      "summary": "Simple and compound interest; nominal vs effective rates.",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 10",
+      "summary": "Annuities: future value and present value.",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 11",
+      "summary": "Arithmetic sequences and series; TEST 3 — Ch 5.",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 12",
+      "summary": "Geometric sequences and series; infinite geometric series.",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 13",
+      "summary": "Introduction to limits: definition and evaluation.",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 14",
+      "summary": "Limits at infinity; continuity.",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 15",
+      "summary": "Derivative from first principles; power rule introduction.",
+      "chapter": "Chapter 8"
+    },
+    {
+      "label": "Week 16",
+      "summary": "Tangent lines; Semester Test revision — Ch 1-8.",
+      "chapter": "Chapter 8"
+    }
+  ],
+  "chapterInsights": [
+    {
+      "chapter": "Chapter 1",
+      "title": "Number Systems & Algebra Review",
+      "outcomes": [
+        "Apply the laws of exponents",
+        "Factorise algebraic expressions",
+        "Simplify algebraic fractions"
+      ],
+      "formulas": [
+        "aᵐ·aⁿ = aᵐ⁺ⁿ",
+        "(aᵐ)ⁿ = aᵐⁿ",
+        "a⁻ⁿ = 1/aⁿ",
+        "Difference of squares: a²−b² = (a−b)(a+b)"
+      ],
+      "definitions": [
+        {
+          "term": "Rational number",
+          "definition": "A number expressible as p/q where p and q are integers and q ≠ 0."
+        },
+        {
+          "term": "Factorisation",
+          "definition": "Writing an expression as a product of its factors — the reverse of expansion."
+        }
+      ],
+      "revisionPrompts": [
+        "Simplify (2x³y²)·(3x⁻¹y).",
+        "Factorise 6x² − x − 2."
+      ],
+      "saContext": "Algebra underpins all financial calculations — from SARS tax computations to compound interest calculations on home loans.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 2",
+      "title": "Functions & Graphs",
+      "outcomes": [
+        "Define a function and identify domain and range",
+        "Use function notation f(x)",
+        "Sketch and interpret graph transformations"
+      ],
+      "formulas": [
+        "Vertical shift: f(x) + k",
+        "Horizontal shift: f(x − h)",
+        "Reflection: −f(x)"
+      ],
+      "definitions": [
+        {
+          "term": "Function",
+          "definition": "A rule that assigns exactly one output to each input — each x-value maps to exactly one y-value."
+        },
+        {
+          "term": "Domain",
+          "definition": "The set of all valid input (x) values for a function."
+        },
+        {
+          "term": "Range",
+          "definition": "The set of all possible output (y) values of a function."
+        }
+      ],
+      "revisionPrompts": [
+        "What is the domain of f(x) = √(x − 3)?",
+        "If f(x) = 2x + 1, find f(3)."
+      ],
+      "saContext": "Functions model real-world relationships: demand as a function of price, cost as a function of output — core tools for SA business analysis.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 3",
+      "title": "Linear & Quadratic Functions",
+      "outcomes": [
+        "Determine the equation of a line given slope and point",
+        "Find roots of a quadratic using factorisation or formula",
+        "Find the vertex of a parabola"
+      ],
+      "formulas": [
+        "Line: y = mx + c",
+        "Quadratic formula: x = (−b ± √(b²−4ac)) / 2a",
+        "Vertex: x = −b/(2a)",
+        "Discriminant: Δ = b²−4ac"
+      ],
+      "definitions": [
+        {
+          "term": "Slope (gradient)",
+          "definition": "The rate of change of y with respect to x: m = (y₂−y₁)/(x₂−x₁)."
+        },
+        {
+          "term": "Vertex",
+          "definition": "The turning point of a parabola — the minimum (a>0) or maximum (a<0) point."
+        }
+      ],
+      "revisionPrompts": [
+        "Find the roots of x² − 5x + 6 = 0.",
+        "A line passes through (2, 3) with slope 4. Find its equation."
+      ],
+      "saContext": "Break-even analysis in SA business uses linear cost and revenue functions. The break-even point is the intersection — solving a linear equation.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 4",
+      "title": "Exponential & Logarithmic Functions",
+      "outcomes": [
+        "Sketch exponential growth and decay curves",
+        "Apply the laws of logarithms",
+        "Solve exponential and logarithmic equations"
+      ],
+      "formulas": [
+        "Exponential: y = aᵇˣ",
+        "log(ab) = log a + log b",
+        "log(a/b) = log a − log b",
+        "log(aⁿ) = n·log a",
+        "Change of base: logₐb = log b / log a"
+      ],
+      "definitions": [
+        {
+          "term": "Exponential function",
+          "definition": "f(x) = aˣ (a > 0, a ≠ 1) — models growth (a > 1) or decay (0 < a < 1)."
+        },
+        {
+          "term": "Logarithm",
+          "definition": "The inverse of an exponential: logₐ(x) = y means aʸ = x."
+        }
+      ],
+      "revisionPrompts": [
+        "Solve for x: 2ˣ = 32.",
+        "Simplify: log 100 + log 5 − log 50."
+      ],
+      "saContext": "Exponential growth models compound interest on SA home loans and investment accounts. Logarithmic models appear in Richter scale and sound decibels.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 5",
+      "title": "Financial Mathematics",
+      "outcomes": [
+        "Calculate simple and compound interest",
+        "Distinguish nominal from effective interest rates",
+        "Calculate future and present value of annuities"
+      ],
+      "formulas": [
+        "Simple interest: A = P(1 + rt)",
+        "Compound interest: A = P(1 + i)ⁿ",
+        "Future value annuity: Fv = PMT·[(1+i)ⁿ−1]/i",
+        "Present value annuity: Pv = PMT·[1−(1+i)⁻ⁿ]/i"
+      ],
+      "definitions": [
+        {
+          "term": "Principal (P)",
+          "definition": "The initial amount invested or borrowed."
+        },
+        {
+          "term": "Annuity",
+          "definition": "A series of equal periodic payments made at regular intervals."
+        },
+        {
+          "term": "Effective interest rate",
+          "definition": "The annual rate that accounts for compounding — always ≥ nominal rate."
+        }
+      ],
+      "revisionPrompts": [
+        "Calculate compound interest on R10 000 at 8% per year for 3 years.",
+        "What is the future value of monthly R500 payments for 5 years at 6% p.a.?"
+      ],
+      "saContext": "SA home loan calculations use present value annuity formulas. SARS tax tables and retirement annuity planning rely on compound interest and annuity mathematics.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 6",
+      "title": "Sequences & Series",
+      "outcomes": [
+        "Identify arithmetic and geometric sequences",
+        "Find the nth term of each sequence",
+        "Calculate partial and infinite sums"
+      ],
+      "formulas": [
+        "Arithmetic: Tₙ = a + (n−1)d; Sₙ = n/2·(2a + (n−1)d)",
+        "Geometric: Tₙ = a·rⁿ⁻¹; Sₙ = a(1−rⁿ)/(1−r) for r≠1",
+        "Infinite geometric: S∞ = a/(1−r) if |r| < 1"
+      ],
+      "definitions": [
+        {
+          "term": "Arithmetic sequence",
+          "definition": "A sequence with a constant difference (d) between consecutive terms: e.g. 3, 7, 11, 15 (d=4)."
+        },
+        {
+          "term": "Geometric sequence",
+          "definition": "A sequence with a constant ratio (r) between consecutive terms: e.g. 2, 6, 18, 54 (r=3)."
+        }
+      ],
+      "revisionPrompts": [
+        "Find the 10th term of the arithmetic sequence 5, 8, 11, ...",
+        "Find the sum of the geometric series 1 + 2 + 4 + ... to 8 terms."
+      ],
+      "saContext": "Geometric sequences model compound interest growth — the balance after each compounding period forms a geometric sequence with ratio r = (1+i).",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 7",
+      "title": "Introduction to Calculus (Limits)",
+      "outcomes": [
+        "Define a limit informally and formally",
+        "Evaluate limits algebraically",
+        "Determine continuity at a point"
+      ],
+      "formulas": [
+        "lim[x→a] f(x) = L",
+        "lim[x→∞] (1/x) = 0",
+        "Factoring to remove holes: cancel common factors"
+      ],
+      "definitions": [
+        {
+          "term": "Limit",
+          "definition": "The value that f(x) approaches as x gets closer to a specific value — written lim[x→a] f(x)."
+        },
+        {
+          "term": "Continuity",
+          "definition": "f(x) is continuous at x=a if: f(a) is defined, lim[x→a] f(x) exists, and lim[x→a] f(x) = f(a)."
+        }
+      ],
+      "revisionPrompts": [
+        "Evaluate lim[x→3] (x²−9)/(x−3).",
+        "Is f(x) = 1/(x−2) continuous at x=2?"
+      ],
+      "saContext": "Limits are the mathematical foundation for calculus — essential for understanding marginal analysis (marginal cost/revenue) used throughout economics.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 8",
+      "title": "Introduction to Derivatives",
+      "outcomes": [
+        "Find the derivative from first principles",
+        "Apply the power rule",
+        "Determine the equation of a tangent line"
+      ],
+      "formulas": [
+        "First principles: f'(x) = lim[h→0] [f(x+h)−f(x)]/h",
+        "Power rule: d/dx[xⁿ] = n·xⁿ⁻¹",
+        "Tangent line: y − f(a) = f'(a)(x − a)"
+      ],
+      "definitions": [
+        {
+          "term": "Derivative",
+          "definition": "The instantaneous rate of change of a function — f'(x) = lim[h→0] [f(x+h)−f(x)]/h."
+        },
+        {
+          "term": "Tangent line",
+          "definition": "A line that touches a curve at exactly one point with slope equal to the derivative at that point."
+        }
+      ],
+      "revisionPrompts": [
+        "Find f'(x) from first principles for f(x) = x².",
+        "Use the power rule to differentiate g(x) = 3x⁴ − 2x + 7."
+      ],
+      "saContext": "Derivatives underpin marginal analysis — the foundation of business optimisation (profit max, cost min) applied throughout SA economics and accounting.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    }
+  ],
+  "chapterStudyItems": [
+    {
+      "chapter": "Chapter 1",
+      "flashcards": [
+        {
+          "id": "ch1-fc-1",
+          "chapter": "Chapter 1",
+          "front": "State the product rule for exponents.",
+          "back": "aᵐ · aⁿ = aᵐ⁺ⁿ — when multiplying powers with the same base, add the exponents.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-2",
+          "chapter": "Chapter 1",
+          "front": "Simplify: (3x²y)³",
+          "back": "= 3³ · x⁶ · y³ = 27x⁶y³. Apply the power rule: raise each factor to the power 3.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-3",
+          "chapter": "Chapter 1",
+          "front": "Factorise: x² − 9",
+          "back": "= (x − 3)(x + 3). Difference of two squares: a² − b² = (a−b)(a+b).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-4",
+          "chapter": "Chapter 1",
+          "front": "What does a⁰ equal (a ≠ 0)?",
+          "back": "a⁰ = 1. Any non-zero base raised to the power zero equals 1.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch1-q1",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Simplify: x⁵ · x⁻² =",
+          "options": [
+            "x⁻¹⁰",
+            "x³",
+            "x⁷",
+            "x¹⁰"
+          ],
+          "answer": "x³",
+          "explanation": "x⁵ · x⁻² = x^(5+(−2)) = x³. Product rule: add exponents when multiplying same base.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q2",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Factorise: 2x² + 5x − 3",
+          "options": [
+            "(2x − 1)(x + 3)",
+            "(x + 3)(2x − 1)",
+            "(2x + 1)(x − 3)",
+            "(x − 1)(2x + 3)"
+          ],
+          "answer": "(2x − 1)(x + 3)",
+          "explanation": "Check: (2x−1)(x+3) = 2x²+6x−x−3 = 2x²+5x−3. ✓",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q3",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "What is (a³)² equal to?",
+          "options": [
+            "a⁵",
+            "a⁹",
+            "a⁶",
+            "a¹"
+          ],
+          "answer": "a⁶",
+          "explanation": "Power of a power: (a³)² = a^(3×2) = a⁶.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch1-we-1",
+          "chapter": "Chapter 1",
+          "title": "Simplifying Algebraic Fractions",
+          "summary": "Simplify a fraction by factorising numerator and denominator.",
+          "problem": "Simplify: (x² − 4) / (x² + 4x + 4)",
+          "steps": [
+            {
+              "label": "Factorise numerator",
+              "explanation": "x² − 4 = (x−2)(x+2). Difference of squares."
+            },
+            {
+              "label": "Factorise denominator",
+              "explanation": "x² + 4x + 4 = (x+2)². Perfect square trinomial."
+            },
+            {
+              "label": "Cancel common factor",
+              "explanation": "[(x−2)(x+2)] / (x+2)² = (x−2)/(x+2). Cancel one (x+2) factor."
+            }
+          ],
+          "answer": "(x−2)/(x+2), with restriction x ≠ −2.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 2",
+      "flashcards": [
+        {
+          "id": "ch2-fc-1",
+          "chapter": "Chapter 2",
+          "front": "What is the domain of f(x) = √(x − 4)?",
+          "back": "x − 4 ≥ 0 → x ≥ 4. Domain: [4, ∞).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-2",
+          "chapter": "Chapter 2",
+          "front": "If f(x) = 3x² − 2x + 1, find f(−1).",
+          "back": "f(−1) = 3(1) − 2(−1) + 1 = 3 + 2 + 1 = 6.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-3",
+          "chapter": "Chapter 2",
+          "front": "How does adding k to f(x) transform the graph?",
+          "back": "f(x) + k shifts the graph vertically UP by k units (if k > 0) or DOWN (if k < 0).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-4",
+          "chapter": "Chapter 2",
+          "front": "What does the vertical line test check?",
+          "back": "Whether a graph represents a function — if any vertical line intersects the graph at more than one point, it is NOT a function.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch2-q1",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "The domain of f(x) = 1/(x − 3) is:",
+          "options": [
+            "All real numbers",
+            "All real numbers except x = 0",
+            "All real numbers except x = 3",
+            "x > 3 only"
+          ],
+          "answer": "All real numbers except x = 3",
+          "explanation": "The denominator cannot be zero: x − 3 ≠ 0 → x ≠ 3. Domain: ℝ \\ {3}.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q2",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "f(x) = 2x + 5. Find f(−2).",
+          "options": [
+            "1",
+            "9",
+            "−4",
+            "−1"
+          ],
+          "answer": "1",
+          "explanation": "f(−2) = 2(−2) + 5 = −4 + 5 = 1.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q3",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "The graph of f(x−2) compared to f(x) is shifted:",
+          "options": [
+            "2 units up",
+            "2 units down",
+            "2 units to the right",
+            "2 units to the left"
+          ],
+          "answer": "2 units to the right",
+          "explanation": "f(x − h) shifts the graph h units to the RIGHT. f(x−2) shifts f(x) right by 2.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch2-we-1",
+          "chapter": "Chapter 2",
+          "title": "Finding Domain and Range",
+          "summary": "Determine domain and range for common functions.",
+          "problem": "Find the domain and range of: (a) f(x) = √(2x − 6) (b) g(x) = x² + 1.",
+          "steps": [
+            {
+              "label": "(a) Domain of f(x)",
+              "explanation": "Radicand must be ≥ 0: 2x − 6 ≥ 0 → x ≥ 3. Domain: [3, ∞)."
+            },
+            {
+              "label": "(a) Range of f(x)",
+              "explanation": "√(...) ≥ 0, so f(x) ≥ 0. Range: [0, ∞)."
+            },
+            {
+              "label": "(b) Domain of g(x)",
+              "explanation": "x² is defined for all x. Domain: ℝ (all real numbers)."
+            },
+            {
+              "label": "(b) Range of g(x)",
+              "explanation": "x² ≥ 0, so x² + 1 ≥ 1. Range: [1, ∞)."
+            }
+          ],
+          "answer": "f(x): Domain [3,∞), Range [0,∞). g(x): Domain ℝ, Range [1,∞).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 3",
+      "flashcards": [
+        {
+          "id": "ch3-fc-1",
+          "chapter": "Chapter 3",
+          "front": "What is the slope-intercept form of a line?",
+          "back": "y = mx + c, where m is the slope and c is the y-intercept (value of y when x = 0).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-2",
+          "chapter": "Chapter 3",
+          "front": "State the quadratic formula.",
+          "back": "x = (−b ± √(b²−4ac)) / 2a for ax² + bx + c = 0.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-3",
+          "chapter": "Chapter 3",
+          "front": "Find the x-coordinate of the vertex of y = 2x² − 8x + 3.",
+          "back": "x = −b/(2a) = −(−8)/(2·2) = 8/4 = 2.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-4",
+          "chapter": "Chapter 3",
+          "front": "What does the discriminant Δ = b²−4ac tell you?",
+          "back": "Δ > 0: two real roots. Δ = 0: one real (repeated) root. Δ < 0: no real roots (complex roots).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch3-q1",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "The roots of x² − 7x + 12 = 0 are:",
+          "options": [
+            "x = 3 and x = 4",
+            "x = −3 and x = −4",
+            "x = 6 and x = 2",
+            "x = 1 and x = 12"
+          ],
+          "answer": "x = 3 and x = 4",
+          "explanation": "Factorise: (x−3)(x−4) = 0 → x = 3 or x = 4. Check: 3×4=12 ✓, 3+4=7 ✓.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q2",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "The vertex of y = x² − 6x + 5 is at:",
+          "options": [
+            "(3, −4)",
+            "(−3, 4)",
+            "(6, 5)",
+            "(3, 5)"
+          ],
+          "answer": "(3, −4)",
+          "explanation": "x = −(−6)/(2·1) = 3. y(3) = 9 − 18 + 5 = −4. Vertex: (3, −4).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q3",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "If Δ < 0 for a quadratic equation, there are:",
+          "options": [
+            "Two distinct real roots",
+            "One repeated real root",
+            "No real roots",
+            "Infinitely many roots"
+          ],
+          "answer": "No real roots",
+          "explanation": "When the discriminant is negative, the square root is imaginary — no real solutions exist.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch3-we-1",
+          "chapter": "Chapter 3",
+          "title": "Break-Even Analysis Using Linear Functions",
+          "summary": "Find the break-even quantity for a SA business.",
+          "problem": "Thabo's food truck has fixed costs R2 000/day. Variable cost is R15 per meal. He sells each meal for R35. Find the break-even quantity.",
+          "steps": [
+            {
+              "label": "Write total cost function",
+              "explanation": "TC(x) = 2000 + 15x."
+            },
+            {
+              "label": "Write total revenue function",
+              "explanation": "TR(x) = 35x."
+            },
+            {
+              "label": "Set TR = TC",
+              "explanation": "35x = 2000 + 15x → 20x = 2000 → x = 100 meals."
+            },
+            {
+              "label": "Verify",
+              "explanation": "TR(100) = R3500. TC(100) = R2000 + R1500 = R3500. ✓"
+            }
+          ],
+          "answer": "Break-even at x = 100 meals per day.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 4",
+      "flashcards": [
+        {
+          "id": "ch4-fc-1",
+          "chapter": "Chapter 4",
+          "front": "Solve: 2ˣ = 64",
+          "back": "2ˣ = 2⁶ → x = 6. Express both sides as powers of the same base.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-2",
+          "chapter": "Chapter 4",
+          "front": "State the product law of logarithms.",
+          "back": "log(ab) = log a + log b. The log of a product equals the sum of the logs.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-3",
+          "chapter": "Chapter 4",
+          "front": "Convert: log₂(32) = x to exponential form and solve.",
+          "back": "2ˣ = 32 = 2⁵ → x = 5.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-4",
+          "chapter": "Chapter 4",
+          "front": "What is the shape of an exponential DECAY curve (0 < b < 1)?",
+          "back": "Decreasing from left to right; approaches but never reaches zero (x-axis is a horizontal asymptote). Example: y = (1/2)ˣ.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch4-q1",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Solve 3ˣ = 81.",
+          "options": [
+            "x = 3",
+            "x = 4",
+            "x = 27",
+            "x = 9"
+          ],
+          "answer": "x = 4",
+          "explanation": "81 = 3⁴, so 3ˣ = 3⁴ → x = 4.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q2",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "log₁₀(1000) = ?",
+          "options": [
+            "1",
+            "10",
+            "3",
+            "100"
+          ],
+          "answer": "3",
+          "explanation": "log₁₀(1000) = log₁₀(10³) = 3.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q3",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Simplify: log 6 + log 5 − log 3",
+          "options": [
+            "log 8",
+            "log 10",
+            "log 18",
+            "log 2"
+          ],
+          "answer": "log 10",
+          "explanation": "log 6 + log 5 = log 30. log 30 − log 3 = log(30/3) = log 10 = 1. So answer = log 10.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch4-we-1",
+          "chapter": "Chapter 4",
+          "title": "Exponential Growth — Population Model",
+          "summary": "Apply exponential growth to a SA population model.",
+          "problem": "A city's population grows according to P(t) = 500 000 × (1.03)ᵗ, where t is years from 2024. (a) What is the population in 2034? (b) When will population double?",
+          "steps": [
+            {
+              "label": "(a) t = 10 (2034)",
+              "explanation": "P(10) = 500 000 × (1.03)¹⁰ = 500 000 × 1.3439 ≈ 671 950."
+            },
+            {
+              "label": "(b) Doubling: P(t) = 1 000 000",
+              "explanation": "1 000 000 = 500 000 × (1.03)ᵗ → (1.03)ᵗ = 2."
+            },
+            {
+              "label": "Take log of both sides",
+              "explanation": "t·log(1.03) = log(2) → t = log(2)/log(1.03) = 0.3010/0.01284 ≈ 23.4 years."
+            }
+          ],
+          "answer": "(a) ≈ 671 950 in 2034. (b) Population doubles in ≈23.4 years (around 2047).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 5",
+      "flashcards": [
+        {
+          "id": "ch5-fc-1",
+          "chapter": "Chapter 5",
+          "front": "Formula for compound interest.",
+          "back": "A = P(1 + i)ⁿ. A = accumulated amount, P = principal, i = interest rate per period, n = number of periods.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-2",
+          "chapter": "Chapter 5",
+          "front": "R10 000 invested at 9% p.a. compounded annually for 4 years. Find A.",
+          "back": "A = 10 000 × (1.09)⁴ = 10 000 × 1.4116 = R14 116.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-3",
+          "chapter": "Chapter 5",
+          "front": "Formula for future value of an annuity.",
+          "back": "Fv = PMT × [(1+i)ⁿ − 1] / i. Used when you want to know how much periodic savings will accumulate to.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-4",
+          "chapter": "Chapter 5",
+          "front": "What is the difference between nominal and effective interest rates?",
+          "back": "Nominal rate is the stated annual rate; effective rate accounts for compounding within the year. Effective rate > nominal rate when compounding is more frequent than annually.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch5-q1",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "R5 000 is invested at 10% simple interest for 3 years. Accumulated amount = ?",
+          "options": [
+            "R5 500",
+            "R6 655",
+            "R6 500",
+            "R6 050"
+          ],
+          "answer": "R6 500",
+          "explanation": "Simple interest: A = P(1 + rt) = 5000(1 + 0.10 × 3) = 5000 × 1.3 = R6 500.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q2",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "Compound interest differs from simple interest in that compound interest:",
+          "options": [
+            "Is always calculated monthly",
+            "Is charged on both principal and accumulated interest",
+            "Is lower than simple interest over the same period",
+            "Cannot be used for savings accounts"
+          ],
+          "answer": "Is charged on both principal and accumulated interest",
+          "explanation": "Compound interest earns interest on interest — leading to exponential growth, unlike simple interest which is linear.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q3",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "The present value annuity formula is used to find:",
+          "options": [
+            "How much you will save over time",
+            "The current value of a series of future equal payments",
+            "The simple interest on a loan",
+            "The doubling time of an investment"
+          ],
+          "answer": "The current value of a series of future equal payments",
+          "explanation": "PV annuity calculates today's lump sum equivalent of future equal payments — used for home loan calculations.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch5-we-1",
+          "chapter": "Chapter 5",
+          "title": "Home Loan Monthly Repayment",
+          "summary": "Calculate the monthly repayment on a SA home loan.",
+          "problem": "Sipho takes a R800 000 home loan at 11.5% p.a. compounded monthly for 20 years. Find monthly payment.",
+          "steps": [
+            {
+              "label": "Identify variables",
+              "explanation": "Pv = 800 000; i = 11.5%/12 = 0.9583% per month = 0.009583; n = 20 × 12 = 240 months."
+            },
+            {
+              "label": "Apply PV annuity formula",
+              "explanation": "Pv = PMT × [1 − (1+i)⁻ⁿ] / i → 800 000 = PMT × [1 − (1.009583)⁻²⁴⁰] / 0.009583."
+            },
+            {
+              "label": "Calculate bracket",
+              "explanation": "(1.009583)²⁴⁰ ≈ 10.04. [1 − 1/10.04] / 0.009583 = [1 − 0.0996] / 0.009583 = 0.9004/0.009583 ≈ 93.96."
+            },
+            {
+              "label": "Solve for PMT",
+              "explanation": "PMT = 800 000 / 93.96 ≈ R8 514 per month."
+            }
+          ],
+          "answer": "Monthly repayment ≈ R8 514. Total repaid over 20 years ≈ R2.04 million.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 6",
+      "flashcards": [
+        {
+          "id": "ch6-fc-1",
+          "chapter": "Chapter 6",
+          "front": "Find the 15th term of the arithmetic sequence: 3, 7, 11, 15, ...",
+          "back": "a=3, d=4. T₁₅ = 3 + (15−1)×4 = 3 + 56 = 59.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-2",
+          "chapter": "Chapter 6",
+          "front": "Find the sum of the first 10 terms of the arithmetic series 2 + 5 + 8 + ...",
+          "back": "a=2, d=3, n=10. S₁₀ = 10/2 × (2·2 + 9·3) = 5 × (4+27) = 5 × 31 = 155.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-3",
+          "chapter": "Chapter 6",
+          "front": "Find T₅ for the geometric sequence 3, 6, 12, 24, ...",
+          "back": "a=3, r=2. T₅ = 3 × 2⁴ = 3 × 16 = 48.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-4",
+          "chapter": "Chapter 6",
+          "front": "When does an infinite geometric series have a sum?",
+          "back": "When |r| < 1 (the common ratio is between −1 and 1). S∞ = a/(1−r).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch6-q1",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "The 8th term of the arithmetic sequence 10, 14, 18, ... is:",
+          "options": [
+            "38",
+            "34",
+            "42",
+            "46"
+          ],
+          "answer": "38",
+          "explanation": "a=10, d=4. T₈ = 10 + (8−1)×4 = 10 + 28 = 38.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q2",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "The common ratio of the geometric sequence 5, 15, 45, 135 is:",
+          "options": [
+            "5",
+            "10",
+            "3",
+            "30"
+          ],
+          "answer": "3",
+          "explanation": "r = 15/5 = 3. Check: 45/15 = 3 ✓.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q3",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "The sum to infinity of 8 + 4 + 2 + 1 + ... is:",
+          "options": [
+            "15",
+            "16",
+            "∞",
+            "64"
+          ],
+          "answer": "16",
+          "explanation": "a=8, r=1/2. |r|<1 so convergent. S∞ = 8/(1−1/2) = 8/(1/2) = 16.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch6-we-1",
+          "chapter": "Chapter 6",
+          "title": "Compound Interest as a Geometric Sequence",
+          "summary": "Show how compound interest is a geometric sequence.",
+          "problem": "R1 000 is invested at 10% compound interest. Show the balance each year as a geometric sequence and find the balance after 5 years.",
+          "steps": [
+            {
+              "label": "Year 0",
+              "explanation": "T₁ = 1000."
+            },
+            {
+              "label": "Year 1",
+              "explanation": "T₂ = 1000 × 1.1 = 1100."
+            },
+            {
+              "label": "Year 2",
+              "explanation": "T₃ = 1100 × 1.1 = 1210."
+            },
+            {
+              "label": "Identify as geometric",
+              "explanation": "a = 1000, r = 1.1. Tₙ = 1000 × (1.1)ⁿ⁻¹."
+            },
+            {
+              "label": "Year 5",
+              "explanation": "T₆ = 1000 × (1.1)⁵ = 1000 × 1.6105 = R1 610.50."
+            }
+          ],
+          "answer": "Balance after 5 years = R1 610.50. The annual balances form a geometric sequence with a=1000, r=1.1.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 7",
+      "flashcards": [
+        {
+          "id": "ch7-fc-1",
+          "chapter": "Chapter 7",
+          "front": "Define: lim[x→2] f(x) = L.",
+          "back": "As x gets arbitrarily close to 2 (but ≠ 2), f(x) gets arbitrarily close to L.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-2",
+          "chapter": "Chapter 7",
+          "front": "Evaluate lim[x→3] (x²−9)/(x−3).",
+          "back": "Factor: (x−3)(x+3)/(x−3) = x+3. As x→3: limit = 3+3 = 6.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-3",
+          "chapter": "Chapter 7",
+          "front": "What are the three conditions for f(x) to be continuous at x = a?",
+          "back": "1) f(a) is defined. 2) lim[x→a] f(x) exists. 3) lim[x→a] f(x) = f(a).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-4",
+          "chapter": "Chapter 7",
+          "front": "What is lim[x→∞] (1/x)?",
+          "back": "0. As x grows infinitely large, 1/x approaches 0 (x-axis is a horizontal asymptote).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch7-q1",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "lim[x→4] (x² − 16)/(x − 4) = ?",
+          "options": [
+            "0",
+            "8",
+            "4",
+            "Does not exist"
+          ],
+          "answer": "8",
+          "explanation": "Factor: (x−4)(x+4)/(x−4) = x+4. As x→4: limit = 4+4 = 8.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q2",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "lim[x→∞] (3x² + 2x) / (x²) = ?",
+          "options": [
+            "0",
+            "3",
+            "∞",
+            "2"
+          ],
+          "answer": "3",
+          "explanation": "Divide top and bottom by x²: (3 + 2/x) / 1 → 3 + 0 = 3 as x→∞.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q3",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "f(x) is continuous at x = a if:",
+          "options": [
+            "f(a) = 0",
+            "The limit exists and equals f(a)",
+            "f(a) is undefined",
+            "The limit does not exist"
+          ],
+          "answer": "The limit exists and equals f(a)",
+          "explanation": "Continuity requires: f(a) defined, limit exists, and the limit equals f(a) — all three conditions must hold.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch7-we-1",
+          "chapter": "Chapter 7",
+          "title": "Evaluating a Limit by Factorising",
+          "summary": "Remove the 0/0 indeterminate form and evaluate the limit.",
+          "problem": "Evaluate lim[x→5] (x²−25)/(x−5).",
+          "steps": [
+            {
+              "label": "Check direct substitution",
+              "explanation": "x=5: (25−25)/(5−5) = 0/0 → indeterminate form. Cannot substitute directly."
+            },
+            {
+              "label": "Factorise numerator",
+              "explanation": "x²−25 = (x−5)(x+5)."
+            },
+            {
+              "label": "Cancel",
+              "explanation": "(x−5)(x+5)/(x−5) = x+5, for x ≠ 5."
+            },
+            {
+              "label": "Take the limit",
+              "explanation": "lim[x→5] (x+5) = 5+5 = 10."
+            }
+          ],
+          "answer": "lim[x→5] (x²−25)/(x−5) = 10.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 8",
+      "flashcards": [
+        {
+          "id": "ch8-fc-1",
+          "chapter": "Chapter 8",
+          "front": "State the first principles definition of the derivative.",
+          "back": "f'(x) = lim[h→0] [f(x+h) − f(x)] / h.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-2",
+          "chapter": "Chapter 8",
+          "front": "Use the power rule to differentiate f(x) = 7x⁵.",
+          "back": "f'(x) = 7 · 5 · x⁴ = 35x⁴.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-3",
+          "chapter": "Chapter 8",
+          "front": "The derivative f'(a) gives the slope of the __________ at x = a.",
+          "back": "Tangent line to the curve y = f(x) at the point (a, f(a)).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-4",
+          "chapter": "Chapter 8",
+          "front": "Find the equation of the tangent to y = x² at x = 3.",
+          "back": "f'(x) = 2x → f'(3) = 6. Point: (3, 9). Tangent: y − 9 = 6(x − 3) → y = 6x − 9.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch8-q1",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "Using the power rule, d/dx[6x⁴] = ?",
+          "options": [
+            "24x³",
+            "6x³",
+            "24x⁵",
+            "4x³"
+          ],
+          "answer": "24x³",
+          "explanation": "Power rule: 6 × 4 × x³ = 24x³.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-q2",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "The derivative of a constant c is:",
+          "options": [
+            "c",
+            "1",
+            "0",
+            "cx"
+          ],
+          "answer": "0",
+          "explanation": "Constants have no rate of change — d/dx[c] = 0.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-q3",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "f'(x) represents the __________ of a function at a point.",
+          "options": [
+            "Average rate of change",
+            "Instantaneous rate of change",
+            "Total area under the curve",
+            "Value of the function"
+          ],
+          "answer": "Instantaneous rate of change",
+          "explanation": "The derivative measures the rate at which the function changes at a specific instant — not an average over an interval.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch8-we-1",
+          "chapter": "Chapter 8",
+          "title": "Derivative from First Principles",
+          "summary": "Derive the derivative of f(x) = x² using the limit definition.",
+          "problem": "Find f'(x) for f(x) = x² using first principles.",
+          "steps": [
+            {
+              "label": "Write the definition",
+              "explanation": "f'(x) = lim[h→0] [f(x+h) − f(x)] / h."
+            },
+            {
+              "label": "Substitute f(x) = x²",
+              "explanation": "= lim[h→0] [(x+h)² − x²] / h."
+            },
+            {
+              "label": "Expand (x+h)²",
+              "explanation": "= lim[h→0] [x²+2xh+h² − x²] / h = lim[h→0] [2xh + h²] / h."
+            },
+            {
+              "label": "Factor and cancel h",
+              "explanation": "= lim[h→0] h(2x + h) / h = lim[h→0] (2x + h) = 2x."
+            }
+          ],
+          "answer": "f'(x) = 2x. This confirms the power rule: d/dx[x²] = 2x.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    }
+  ],
+  "discipline": "mathematics",
+  "referenceList": [
+    {
+      "title": "OpenStax — College Algebra 2e (free, CC BY)",
+      "publisher": "OpenStax / Rice University",
+      "url": "https://openstax.org/details/books/college-algebra",
+      "note": "Open-access algebra text; functions, equations, finance mathematics foundations.",
+      "sourceHash": "5c526129f1e660d5277f4706dbad3197819fd851b169dbe1e6c42b6d55d2dc10"
+    },
+    {
+      "title": "Stewart — Calculus (Cengage)",
+      "publisher": "Cengage",
+      "url": "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+      "note": "Standard calculus reference for optimisation topics in business maths.",
+      "sourceHash": "e6948dab9afd03707e7aec29dea9872228d540028424ec9ad5fdb4b76fbf3c7f"
+    },
+    {
+      "title": "Lial, Greenwell & Ritchey — Finite Mathematics and Calculus with Applications (Pearson)",
+      "publisher": "Pearson",
+      "url": "https://www.pearson.com/en-us/subjects/mathematics.html",
+      "note": "Business-oriented maths text (linear programming, finance, probability).",
+      "sourceHash": "cdfa4011fe4f116fa419cc3910682ef95a8bc7723d0e4820446f1734ae386b6e"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: Mathematics 119 (BCom, North-West University). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "Chapter-by-chapter teaching focus (derived from the module's own learning outcomes and key definitions):",
+    "  • Chapter 1 — Number Systems & Algebra Review. Emphasise: Apply the laws of exponents; Factorise algebraic expressions; Simplify algebraic fractions. Local context: Algebra underpins all financial calculations — from SARS tax computations to compound interest calculations on home loans.",
+    "  • Chapter 2 — Functions & Graphs. Emphasise: Define a function and identify domain and range; Use function notation f(x); Sketch and interpret graph transformations. Local context: Functions model real-world relationships: demand as a function of price, cost as a function of output — core tools for SA business analysis.",
+    "  • Chapter 3 — Linear & Quadratic Functions. Emphasise: Determine the equation of a line given slope and point; Find roots of a quadratic using factorisation or formula; Find the vertex of a parabola. Local context: Break-even analysis in SA business uses linear cost and revenue functions. The break-even point is the intersection — solving a linear equation.",
+    "  • Chapter 4 — Exponential & Logarithmic Functions. Emphasise: Sketch exponential growth and decay curves; Apply the laws of logarithms; Solve exponential and logarithmic equations. Local context: Exponential growth models compound interest on SA home loans and investment accounts. Logarithmic models appear in Richter scale and sound decibels.",
+    "  • Chapter 5 — Financial Mathematics. Emphasise: Calculate simple and compound interest; Distinguish nominal from effective interest rates; Calculate future and present value of annuities. Local context: SA home loan calculations use present value annuity formulas. SARS tax tables and retirement annuity planning rely on compound interest and annuity mathematics.",
+    "  • Chapter 6 — Sequences & Series. Emphasise: Identify arithmetic and geometric sequences; Find the nth term of each sequence; Calculate partial and infinite sums. Local context: Geometric sequences model compound interest growth — the balance after each compounding period forms a geometric sequence with ratio r = (1+i).",
+    "  • Chapter 7 — Introduction to Calculus (Limits). Emphasise: Define a limit informally and formally; Evaluate limits algebraically; Determine continuity at a point. Local context: Limits are the mathematical foundation for calculus — essential for understanding marginal analysis (marginal cost/revenue) used throughout economics.",
+    "  • Chapter 8 — Introduction to Derivatives. Emphasise: Find the derivative from first principles; Apply the power rule; Determine the equation of a tangent line. Local context: Derivatives underpin marginal analysis — the foundation of business optimisation (profit max, cost min) applied throughout SA economics and accounting.",
+    "Pedagogy tip (quantitative): work at least one fully solved example on the board per topic, then assign a parallel guided-practice problem. Common student errors: sign errors in debit/credit (accounting), confusing correlation with causation (stats/econ), and unit/percentage mistakes in ratio work. Build a short weekly formative quiz from the module's own revision prompts.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "5c526129f1e660d5277f4706dbad3197819fd851b169dbe1e6c42b6d55d2dc10",
+    "e6948dab9afd03707e7aec29dea9872228d540028424ec9ad5fdb4b76fbf3c7f",
+    "cdfa4011fe4f116fa419cc3910682ef95a8bc7723d0e4820446f1734ae386b6e"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

@@ -1,0 +1,2177 @@
+{
+  "institution": "North-West University",
+  "moduleCode": "BMAR213",
+  "moduleName": "Marketing Management 213",
+  "semester": "Semester 1, 2025",
+  "programme": "BCom",
+  "confidence": 0.82,
+  "generatedAt": "2026-04-03T00:00:00.000Z",
+  "sourceFiles": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "missingContent": [],
+  "studyUnits": [
+    "Chapter 1 — Marketing Fundamentals & Environment",
+    "Chapter 2 — Consumer Behaviour",
+    "Chapter 3 — Market Research",
+    "Chapter 4 — Market Segmentation & Targeting",
+    "Chapter 5 — Product Strategy & Branding",
+    "Chapter 6 — Pricing Strategy",
+    "Chapter 7 — Distribution & Supply Chain",
+    "Chapter 8 — Integrated Marketing Communication"
+  ],
+  "chapters": [
+    "Chapter 1",
+    "Chapter 2",
+    "Chapter 3",
+    "Chapter 4",
+    "Chapter 5",
+    "Chapter 6",
+    "Chapter 7",
+    "Chapter 8"
+  ],
+  "topicSeeds": [
+    "Ch1 - Marketing concept and philosophy",
+    "Ch1 - The marketing environment (micro, market, macro)",
+    "Ch1 - PESTLE analysis",
+    "Ch2 - Consumer decision-making process",
+    "Ch2 - Psychological and social influences on buying",
+    "Ch3 - Primary vs secondary research",
+    "Ch3 - Qualitative vs quantitative methods",
+    "Ch4 - Segmentation bases (demographic, geographic, psychographic, behavioural)",
+    "Ch4 - Target market selection strategies",
+    "Ch5 - Product life cycle",
+    "Ch5 - Branding and brand equity",
+    "Ch6 - Pricing objectives and methods",
+    "Ch6 - Price elasticity of demand",
+    "Ch7 - Distribution channels and intermediaries",
+    "Ch7 - Logistics and supply chain management",
+    "Ch8 - Advertising, PR, sales promotion, personal selling",
+    "Ch8 - Digital and social media marketing"
+  ],
+  "keyTopics": [
+    "marketing mix (4Ps)",
+    "consumer behaviour",
+    "market segmentation",
+    "brand management",
+    "pricing strategies",
+    "distribution channels",
+    "integrated marketing communication",
+    "market research",
+    "PESTLE analysis",
+    "product life cycle"
+  ],
+  "quizSignals": [
+    "What are the components of the marketing mix?",
+    "How does the consumer decision-making process work?",
+    "What is the difference between primary and secondary research?",
+    "How do companies segment their markets?",
+    "What is brand equity and why does it matter?",
+    "How is a penetration pricing strategy different from a skimming strategy?",
+    "What are the functions of distribution channel intermediaries?",
+    "What is integrated marketing communication?"
+  ],
+  "assessmentPlan": [
+    {
+      "name": "Assignment",
+      "weight": "30%",
+      "due": "March",
+      "scope": "Ch 1-4"
+    },
+    {
+      "name": "Test 1",
+      "weight": "35%",
+      "due": "April",
+      "scope": "Ch 1-4"
+    },
+    {
+      "name": "Test 2",
+      "weight": "35%",
+      "due": "May",
+      "scope": "Ch 5-8"
+    }
+  ],
+  "classSchedule": [
+    {
+      "label": "Week 1",
+      "summary": "Introduction to marketing and the marketing concept",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 2",
+      "summary": "The marketing environment and PESTLE analysis",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 3",
+      "summary": "Understanding consumer decision-making",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 4",
+      "summary": "Psychological and social influences on consumer behaviour",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 5",
+      "summary": "Introduction to market research and research design",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 6",
+      "summary": "Data collection methods and research ethics",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 7",
+      "summary": "Market segmentation bases and targeting strategies",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 8",
+      "summary": "Product strategy, branding, and brand equity",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 9",
+      "summary": "Product life cycle and new product development",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 10",
+      "summary": "Pricing objectives, methods and strategies",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 11",
+      "summary": "Distribution channels and supply chain management",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 12",
+      "summary": "Integrated marketing communication and digital marketing",
+      "chapter": "Chapter 8"
+    }
+  ],
+  "chapterInsights": [
+    {
+      "chapter": "Chapter 1",
+      "title": "Marketing Fundamentals & Environment",
+      "outcomes": [
+        "Define marketing and explain the marketing concept",
+        "Distinguish between the micro, market, and macro environments",
+        "Conduct a PESTLE analysis for a South African business",
+        "Explain the components of the marketing mix (4Ps)"
+      ],
+      "formulas": [
+        "Marketing Mix = Product + Price + Place + Promotion",
+        "Customer Value = Benefits - Costs"
+      ],
+      "definitions": [
+        {
+          "term": "Marketing",
+          "definition": "The process by which companies create value for customers and build strong customer relationships in order to capture value from customers in return."
+        },
+        {
+          "term": "Marketing mix (4Ps)",
+          "definition": "The set of tactical marketing tools — Product, Price, Place, and Promotion — that a firm blends to produce the response it wants in the target market."
+        },
+        {
+          "term": "PESTLE analysis",
+          "definition": "A framework for analysing the macro-environment using six factors: Political, Economic, Social, Technological, Legal, and Environmental."
+        },
+        {
+          "term": "Macro environment",
+          "definition": "The larger societal forces that affect the microenvironment: demographic, economic, natural, technological, political, and cultural forces."
+        }
+      ],
+      "revisionPrompts": [
+        "Explain the difference between the marketing concept and the selling concept.",
+        "Identify two PESTLE factors currently affecting a South African retailer like Shoprite.",
+        "How does the micro environment differ from the macro environment?"
+      ],
+      "saContext": "South African marketers must navigate a unique macro environment that includes load-shedding (energy policy), a diverse multilingual population, high unemployment rates affecting disposable income, and a rapidly growing mobile-first digital consumer base. Retailers like Shoprite and Woolworths constantly adjust their marketing mix in response to these local pressures.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.pearson.com/en-us/subjects/marketing/principles-of-marketing.html",
+          "https://www.ama.org/topics/",
+          "https://www.statista.com/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 2",
+      "title": "Consumer Behaviour",
+      "outcomes": [
+        "Describe the five stages of the consumer decision-making process",
+        "Explain psychological factors influencing consumer behaviour",
+        "Identify social and cultural influences on buying decisions",
+        "Apply consumer behaviour concepts to South African market scenarios"
+      ],
+      "formulas": [
+        "Consumer Decision Process = Need Recognition → Information Search → Evaluation → Purchase → Post-Purchase"
+      ],
+      "definitions": [
+        {
+          "term": "Consumer behaviour",
+          "definition": "The study of how individuals, groups, and organisations select, buy, use, and dispose of goods, services, ideas, or experiences to satisfy their needs and wants."
+        },
+        {
+          "term": "Cognitive dissonance",
+          "definition": "Post-purchase discomfort felt when the product does not fully meet the buyer's expectations, leading to doubt about the purchase decision."
+        },
+        {
+          "term": "Reference group",
+          "definition": "Any group that has a direct or indirect influence on a person's attitudes or behaviour, including family, friends, and social media influencers."
+        },
+        {
+          "term": "Motivation",
+          "definition": "A need that is sufficiently pressing to direct a person to seek satisfaction; often explained using Maslow's Hierarchy of Needs."
+        }
+      ],
+      "revisionPrompts": [
+        "Walk through the five stages of the consumer decision-making process using the example of buying an MTN data package.",
+        "How does culture influence buying behaviour in the South African context?",
+        "What marketing tactics can a company use to reduce post-purchase cognitive dissonance?"
+      ],
+      "saContext": "South African consumer behaviour is shaped by 11 official languages, diverse cultural traditions, and stark income inequality. Township economies and the growing black middle class (often called the 'black diamond' segment) represent significant and distinct consumer groups. MTN and Vodacom, for example, heavily tailor their data bundle offerings and advertising to different LSM (Living Standards Measure) groups.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.pearson.com/en-us/subjects/marketing/principles-of-marketing.html",
+          "https://www.ama.org/topics/",
+          "https://www.statista.com/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 3",
+      "title": "Market Research",
+      "outcomes": [
+        "Outline the market research process",
+        "Distinguish between primary and secondary research",
+        "Compare qualitative and quantitative research methods",
+        "Evaluate the importance of research ethics in South Africa"
+      ],
+      "formulas": [
+        "Market Research Process = Define Problem → Research Design → Data Collection → Analysis → Report"
+      ],
+      "definitions": [
+        {
+          "term": "Primary research",
+          "definition": "Original data collected for a specific marketing problem through surveys, interviews, focus groups, or observation."
+        },
+        {
+          "term": "Secondary research",
+          "definition": "Data that already exists and was collected for a different purpose, such as government statistics, industry reports, or academic journals."
+        },
+        {
+          "term": "Qualitative research",
+          "definition": "Non-numerical research that explores attitudes, motivations, and perceptions through methods such as focus groups and in-depth interviews."
+        },
+        {
+          "term": "Sampling",
+          "definition": "The process of selecting a subset of a population to represent the whole, using either probability or non-probability sampling methods."
+        }
+      ],
+      "revisionPrompts": [
+        "What is the difference between a focus group and a survey? When would you use each?",
+        "Why is secondary data useful as a starting point for market research?",
+        "Outline the steps of the market research process for a company wanting to launch a new product in SA."
+      ],
+      "saContext": "Market research in South Africa often uses the Living Standards Measure (LSM) or the newer Socio-Economic Measure (SEM) to segment respondents. Organisations like the South African Advertising Research Foundation (SAARF) publish valuable secondary data. Researchers must also be aware of research ethics guidelines, particularly around data privacy under the Protection of Personal Information Act (POPIA).",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.pearson.com/en-us/subjects/marketing/principles-of-marketing.html",
+          "https://www.ama.org/topics/",
+          "https://www.statista.com/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 4",
+      "title": "Market Segmentation & Targeting",
+      "outcomes": [
+        "Identify and apply the four main segmentation bases",
+        "Evaluate the criteria for effective segmentation",
+        "Compare undifferentiated, differentiated, and concentrated targeting strategies",
+        "Develop a basic positioning statement"
+      ],
+      "formulas": [
+        "STP Process = Segmentation → Targeting → Positioning"
+      ],
+      "definitions": [
+        {
+          "term": "Market segmentation",
+          "definition": "The process of dividing a total market into distinct groups of buyers with different needs, characteristics, or behaviours who might require separate products or marketing mixes."
+        },
+        {
+          "term": "Target market",
+          "definition": "A set of buyers sharing common needs or characteristics that a company decides to serve."
+        },
+        {
+          "term": "Positioning",
+          "definition": "Arranging for a product to occupy a clear, distinctive, and desirable place relative to competing products in the minds of target consumers."
+        },
+        {
+          "term": "Psychographic segmentation",
+          "definition": "Dividing a market into different groups based on social class, lifestyle, or personality characteristics."
+        }
+      ],
+      "revisionPrompts": [
+        "What are the four bases of market segmentation? Give an SA example for each.",
+        "Why would a small business use a concentrated targeting strategy?",
+        "Write a positioning statement for Woolworths Food targeting health-conscious urban consumers."
+      ],
+      "saContext": "South African marketers use the nine LSM/SEM groups extensively to target consumers. For example, Shoprite targets lower-income LSM groups with everyday value, while Woolworths targets higher LSM groups with premium quality. Geographic segmentation is also critical given SA's urban/rural divide and provincial differences in purchasing power.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.pearson.com/en-us/subjects/marketing/principles-of-marketing.html",
+          "https://www.ama.org/topics/",
+          "https://www.statista.com/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 5",
+      "title": "Product Strategy & Branding",
+      "outcomes": [
+        "Distinguish between core, actual, and augmented product levels",
+        "Explain the product life cycle and its marketing implications",
+        "Define brand equity and its components",
+        "Analyse branding strategies used by South African companies"
+      ],
+      "formulas": [
+        "Brand Equity = Brand Awareness + Brand Associations + Perceived Quality + Brand Loyalty"
+      ],
+      "definitions": [
+        {
+          "term": "Product life cycle (PLC)",
+          "definition": "The course a product's sales and profits take over its lifetime, consisting of four stages: introduction, growth, maturity, and decline."
+        },
+        {
+          "term": "Brand equity",
+          "definition": "The added value endowed on products and services by a well-known brand name, reflecting consumer perceptions and associations."
+        },
+        {
+          "term": "Augmented product",
+          "definition": "The additional consumer services and benefits built around the core and actual product, such as warranty, delivery, and after-sales support."
+        },
+        {
+          "term": "Brand extension",
+          "definition": "Using an existing brand name to launch a new product in a different category, leveraging existing brand equity."
+        }
+      ],
+      "revisionPrompts": [
+        "Describe the three levels of a product using a Sasol product as an example.",
+        "What marketing strategies are appropriate at the maturity stage of the product life cycle?",
+        "How has MTN built brand equity in South Africa?"
+      ],
+      "saContext": "South African brands such as Nando's, Amarula, and Castle Lager have built strong brand equity both locally and internationally. Local brand extensions are common — for example, Shoprite's house brands like Ritebrand compete on price. SA companies must also manage brand reputation carefully in a socially conscious consumer environment increasingly influenced by B-BBEE compliance perceptions.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.pearson.com/en-us/subjects/marketing/principles-of-marketing.html",
+          "https://www.ama.org/topics/",
+          "https://www.statista.com/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 6",
+      "title": "Pricing Strategy",
+      "outcomes": [
+        "Identify pricing objectives companies pursue",
+        "Apply cost-based, value-based, and competition-based pricing methods",
+        "Explain price elasticity of demand and its marketing relevance",
+        "Compare penetration and price-skimming strategies"
+      ],
+      "formulas": [
+        "Cost-Plus Price = Total Cost + (Markup % × Total Cost)",
+        "Break-Even Units = Fixed Costs ÷ (Selling Price − Variable Cost per Unit)",
+        "Price Elasticity of Demand (PED) = % Change in Quantity Demanded ÷ % Change in Price"
+      ],
+      "definitions": [
+        {
+          "term": "Penetration pricing",
+          "definition": "Setting a low initial price to attract a large number of buyers and gain market share quickly, planning to raise the price later."
+        },
+        {
+          "term": "Price skimming",
+          "definition": "Setting a high initial price for a new product to skim maximum revenue from segments willing to pay the high price before lowering the price."
+        },
+        {
+          "term": "Price elasticity of demand",
+          "definition": "A measure of how sensitive consumer demand is to a change in price; elastic demand means a price increase leads to a large drop in sales."
+        },
+        {
+          "term": "Value-based pricing",
+          "definition": "Setting price based on buyers' perceptions of value rather than on the seller's cost."
+        }
+      ],
+      "revisionPrompts": [
+        "Explain why Woolworths uses value-based pricing while Shoprite uses cost-based pricing.",
+        "Calculate the break-even point for a product with fixed costs of R50 000, selling price of R100, and variable cost of R60.",
+        "When would a company use price skimming versus penetration pricing? Give an SA example."
+      ],
+      "saContext": "Pricing in South Africa is highly sensitive to consumer income levels and inflation. With load-shedding increasing production costs, many SA businesses have had to revise pricing strategies. The Competition Commission also monitors price-fixing and predatory pricing practices, particularly in industries like fuel (regulated by government) and food retail where Shoprite, Pick n Pay, and Checkers compete intensely on price.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.pearson.com/en-us/subjects/marketing/principles-of-marketing.html",
+          "https://www.ama.org/topics/",
+          "https://www.statista.com/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 7",
+      "title": "Distribution & Supply Chain",
+      "outcomes": [
+        "Describe the functions of distribution channel intermediaries",
+        "Compare direct and indirect distribution channels",
+        "Explain the concept of supply chain management",
+        "Identify distribution intensity levels: intensive, selective, exclusive"
+      ],
+      "formulas": [
+        "Supply Chain = Supplier → Manufacturer → Wholesaler → Retailer → Consumer"
+      ],
+      "definitions": [
+        {
+          "term": "Distribution channel",
+          "definition": "The set of interdependent organisations that help make a product or service available for use or consumption by the consumer or business user."
+        },
+        {
+          "term": "Logistics",
+          "definition": "The process of planning, implementing, and controlling the efficient, effective flow and storage of goods, services, and related information from point of origin to point of consumption."
+        },
+        {
+          "term": "Intensive distribution",
+          "definition": "Stocking the product in as many outlets as possible, used for convenience products that consumers buy frequently."
+        },
+        {
+          "term": "Vertical marketing system (VMS)",
+          "definition": "A distribution channel structure in which producers, wholesalers, and retailers act as a unified system, with one channel member owning the others or having power over them."
+        }
+      ],
+      "revisionPrompts": [
+        "What is the difference between a wholesaler and a retailer? Give SA examples of each.",
+        "Why might a luxury brand like Mercedes-Benz use exclusive distribution?",
+        "How has e-commerce changed distribution strategies for South African retailers like Takealot?"
+      ],
+      "saContext": "South Africa's distribution landscape is complex due to geographic challenges (vast rural areas with poor road infrastructure), a strong informal retail sector (spaza shops, street vendors), and a highly concentrated formal retail market dominated by large groups like Shoprite Holdings, Pick n Pay, Spar, and Woolworths. Sasol and fuel companies use exclusive distribution through branded service station networks.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.pearson.com/en-us/subjects/marketing/principles-of-marketing.html",
+          "https://www.ama.org/topics/",
+          "https://www.statista.com/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 8",
+      "title": "Integrated Marketing Communication",
+      "outcomes": [
+        "Define integrated marketing communication (IMC) and explain its importance",
+        "Describe the main elements of the promotional mix",
+        "Explain the communication process model",
+        "Evaluate digital and social media as modern IMC tools"
+      ],
+      "formulas": [
+        "Communication Process = Sender → Encoding → Message/Channel → Decoding → Receiver → Feedback"
+      ],
+      "definitions": [
+        {
+          "term": "Integrated marketing communication (IMC)",
+          "definition": "The concept of carefully integrating and coordinating all of a company's communication channels to deliver a clear, consistent, and compelling message about the organisation and its products."
+        },
+        {
+          "term": "Advertising",
+          "definition": "Any paid form of non-personal presentation and promotion of ideas, goods, or services by an identified sponsor."
+        },
+        {
+          "term": "Public relations (PR)",
+          "definition": "Building good relations with the company's various publics by obtaining favourable publicity, building a good corporate image, and handling unfavourable rumours, stories, and events."
+        },
+        {
+          "term": "Sales promotion",
+          "definition": "Short-term incentives to encourage the purchase or sale of a product or service, such as coupons, discounts, contests, and free samples."
+        }
+      ],
+      "revisionPrompts": [
+        "What are the five elements of the promotional mix? Provide an SA example of each.",
+        "How does IMC differ from traditional fragmented marketing communication?",
+        "Analyse how MTN uses IMC tools to reach different consumer segments in South Africa."
+      ],
+      "saContext": "South African brands invest heavily in local IMC strategies. MTN's 'Ayoba' platform and Vodacom's social media campaigns demonstrate digital-first IMC. Television advertising remains powerful (SABC, DStv), while community radio stations are important for reaching rural and township consumers. SA's high social media penetration (especially Facebook and WhatsApp) has made digital PR and influencer marketing key components of modern IMC.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.pearson.com/en-us/subjects/marketing/principles-of-marketing.html",
+          "https://www.ama.org/topics/",
+          "https://www.statista.com/"
+        ]
+      }
+    }
+  ],
+  "chapterStudyItems": [
+    {
+      "chapter": "Chapter 1",
+      "flashcards": [
+        {
+          "id": "ch1-fc-1",
+          "chapter": "Chapter 1",
+          "front": "What are the 4Ps of the marketing mix?",
+          "back": "Product, Price, Place, and Promotion — the four controllable tactical tools a company blends to produce a desired response in its target market.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-2",
+          "chapter": "Chapter 1",
+          "front": "What does PESTLE stand for?",
+          "back": "Political, Economic, Social, Technological, Legal, and Environmental — a framework for analysing the macro-marketing environment.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-3",
+          "chapter": "Chapter 1",
+          "front": "What is the difference between the micro environment and the macro environment?",
+          "back": "The micro environment consists of forces close to the company (suppliers, intermediaries, competitors, customers) that it can influence. The macro environment consists of larger societal forces (PESTLE factors) that affect all players and cannot be controlled.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-4",
+          "chapter": "Chapter 1",
+          "front": "Define the 'marketing concept'.",
+          "back": "A business philosophy that holds that achieving organisational goals depends on knowing the needs and wants of target markets and delivering the desired satisfactions better than competitors do.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch1-q1",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following best describes the marketing mix?",
+          "options": [
+            "The set of controllable tactical marketing tools: Product, Price, Place, and Promotion",
+            "A strategy for entering new international markets",
+            "A technique for conducting market research surveys",
+            "The process of hiring and training a sales force"
+          ],
+          "answer": "The set of controllable tactical marketing tools: Product, Price, Place, and Promotion",
+          "explanation": "The marketing mix (4Ps) refers to the four controllable tactical tools — Product, Price, Place, and Promotion — that a firm blends to produce the response it wants in the target market.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q2",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Load-shedding in South Africa is best categorised under which PESTLE factor?",
+          "options": [
+            "Political",
+            "Economic",
+            "Environmental",
+            "Technological"
+          ],
+          "answer": "Technological",
+          "explanation": "Load-shedding relates primarily to the state of the national electricity infrastructure, making it a Technological (and also Economic) PESTLE factor. It affects production capacity and operating costs across all industries.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q3",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "A company that focuses on producing at the highest volume and lowest cost is following which marketing philosophy?",
+          "options": [
+            "The marketing concept",
+            "The selling concept",
+            "The production concept",
+            "The societal marketing concept"
+          ],
+          "answer": "The production concept",
+          "explanation": "The production concept holds that consumers prefer products that are widely available and affordable. Companies following this concept focus on improving production efficiency and distribution to lower costs.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch1-we-1",
+          "chapter": "Chapter 1",
+          "title": "Conducting a PESTLE Analysis for Shoprite",
+          "summary": "Applying the PESTLE framework to analyse Shoprite's macro-marketing environment in South Africa.",
+          "problem": "You are a marketing manager at Shoprite. Conduct a brief PESTLE analysis identifying one key factor per category that affects Shoprite's marketing decisions.",
+          "steps": [
+            {
+              "label": "Step 1 — Political",
+              "explanation": "Government regulations on food safety, B-BBEE compliance requirements, and minimum wage legislation all influence Shoprite's operating costs and supplier relationships."
+            },
+            {
+              "label": "Step 2 — Economic",
+              "explanation": "High unemployment (approx. 33%) limits consumer spending power. Shoprite targets value-conscious shoppers, keeping prices low through bulk buying and private labels."
+            },
+            {
+              "label": "Step 3 — Social",
+              "explanation": "South Africa's diverse population requires multi-language advertising and culturally relevant product ranges (e.g., pap, vetkoek alongside imported goods)."
+            },
+            {
+              "label": "Step 4 — Technological",
+              "explanation": "Load-shedding forces investment in generators and solar panels; simultaneously, mobile payment adoption (SnapScan, Zapper) opens new checkout options."
+            },
+            {
+              "label": "Step 5 — Legal",
+              "explanation": "POPIA governs how Shoprite collects and uses customer loyalty programme data. Competition law prevents anti-competitive pricing practices."
+            },
+            {
+              "label": "Step 6 — Environmental",
+              "explanation": "Pressure to reduce plastic packaging and food waste is growing. Shoprite has introduced reusable bag campaigns and food donation programmes."
+            }
+          ],
+          "answer": "A completed PESTLE identifies one Political, Economic, Social, Technological, Legal, and Environmental factor, explaining its specific impact on Shoprite's marketing mix decisions.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 2",
+      "flashcards": [
+        {
+          "id": "ch2-fc-1",
+          "chapter": "Chapter 2",
+          "front": "What are the five stages of the consumer decision-making process?",
+          "back": "1. Need Recognition, 2. Information Search, 3. Evaluation of Alternatives, 4. Purchase Decision, 5. Post-Purchase Behaviour.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-2",
+          "chapter": "Chapter 2",
+          "front": "What is cognitive dissonance?",
+          "back": "Post-purchase doubt or discomfort felt when a product does not fully meet the buyer's expectations. Marketers can reduce it through follow-up communication, warranties, and reassurance.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-3",
+          "chapter": "Chapter 2",
+          "front": "Name the four key psychological factors that influence consumer behaviour.",
+          "back": "Motivation, Perception, Learning, and Beliefs & Attitudes.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-4",
+          "chapter": "Chapter 2",
+          "front": "What is a reference group and how does it influence buying behaviour?",
+          "back": "A reference group is any group that has a direct or indirect influence on a person's attitudes or behaviour. They influence buying by setting norms for what brands, products, or lifestyles are desirable (e.g., peers influencing smartphone brand choices).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch2-q1",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "A consumer realises their old phone can no longer run key apps. Which stage of the consumer decision-making process is this?",
+          "options": [
+            "Information Search",
+            "Need Recognition",
+            "Evaluation of Alternatives",
+            "Post-Purchase Behaviour"
+          ],
+          "answer": "Need Recognition",
+          "explanation": "Need Recognition is the first stage, where the consumer realises a gap between their current state (inadequate phone) and desired state (functional phone). This triggers the buying process.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q2",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is a SOCIAL factor influencing consumer behaviour?",
+          "options": [
+            "Perception",
+            "Motivation",
+            "Family roles and influence",
+            "Personality"
+          ],
+          "answer": "Family roles and influence",
+          "explanation": "Family is a key social factor. Other social factors include reference groups and social roles/status. Perception, motivation, and personality are psychological (individual) factors.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q3",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "According to Maslow's Hierarchy of Needs, which level must be satisfied before a consumer seeks esteem needs?",
+          "options": [
+            "Self-actualisation needs",
+            "Social (belonging) needs",
+            "Physiological needs",
+            "Safety needs"
+          ],
+          "answer": "Social (belonging) needs",
+          "explanation": "Maslow's hierarchy from bottom to top is: Physiological → Safety → Social (belonging) → Esteem → Self-actualisation. Social needs must be reasonably satisfied before esteem needs become the primary motivator.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch2-we-1",
+          "chapter": "Chapter 2",
+          "title": "Applying the Consumer Decision-Making Process: Buying an MTN Data Bundle",
+          "summary": "Tracing a South African student's journey through all five decision-making stages when selecting a mobile data bundle.",
+          "problem": "Sipho, an NWU student, wants to buy a monthly data bundle. Trace his decision-making process through all five stages.",
+          "steps": [
+            {
+              "label": "Stage 1 — Need Recognition",
+              "explanation": "Sipho's existing data runs out during an important online lecture on eFundi. He recognises the need: reliable, affordable mobile data for studying."
+            },
+            {
+              "label": "Stage 2 — Information Search",
+              "explanation": "Sipho checks the MTN, Vodacom, and Telkom websites, reads reviews on Twitter/X, and asks his roommates which network has the best campus coverage."
+            },
+            {
+              "label": "Stage 3 — Evaluation of Alternatives",
+              "explanation": "He compares bundles on criteria: price per GB, data expiry, network speed on campus, and whether the bundle includes eFundi zero-rating. MTN scores highest on zero-rating."
+            },
+            {
+              "label": "Stage 4 — Purchase Decision",
+              "explanation": "Sipho buys the MTN Student Bundle via the MyMTN app using instant EFT, as it offers the best value and zero-rated eFundi access."
+            },
+            {
+              "label": "Stage 5 — Post-Purchase Behaviour",
+              "explanation": "If the speeds are good and he doesn't run out of data mid-month, he will experience satisfaction and repurchase. If data is slow, he may experience cognitive dissonance and switch to Vodacom next month."
+            }
+          ],
+          "answer": "All five stages are clearly applied: Need Recognition (data runs out) → Information Search (websites, word-of-mouth) → Evaluation (price, zero-rating) → Purchase (MTN Student Bundle) → Post-Purchase (satisfaction or cognitive dissonance).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 3",
+      "flashcards": [
+        {
+          "id": "ch3-fc-1",
+          "chapter": "Chapter 3",
+          "front": "What is the difference between primary and secondary data?",
+          "back": "Primary data is collected first-hand for a specific research problem (e.g., surveys, interviews). Secondary data already exists and was collected for another purpose (e.g., StatsSA reports, industry publications).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-2",
+          "chapter": "Chapter 3",
+          "front": "What is a focus group?",
+          "back": "A qualitative research method where a small group (6–10 people) is brought together to discuss a topic in depth under the guidance of a moderator, providing rich insights into attitudes and perceptions.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-3",
+          "chapter": "Chapter 3",
+          "front": "What is sampling and why is it used in market research?",
+          "back": "Sampling is selecting a representative subset of a population to gather data. It is used because it is impractical and too costly to survey every member of a population (a census).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-4",
+          "chapter": "Chapter 3",
+          "front": "What is POPIA and why is it relevant to market research in South Africa?",
+          "back": "POPIA (Protection of Personal Information Act) is South Africa's data privacy legislation. It governs how researchers collect, store, and use personal data, requiring informed consent and secure data handling.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch3-q1",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "A company uses data from StatsSA's census report to understand population trends. This is an example of:",
+          "options": [
+            "Primary quantitative research",
+            "Secondary research",
+            "Observational primary research",
+            "Experimental research"
+          ],
+          "answer": "Secondary research",
+          "explanation": "Secondary research uses data that already exists and was collected for a different purpose. StatsSA census data is a classic example of external secondary data.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q2",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "Which research method would be BEST suited to understanding why consumers feel emotionally connected to a brand?",
+          "options": [
+            "Online quantitative survey with 500 respondents",
+            "Point-of-sale sales data analysis",
+            "In-depth qualitative interviews",
+            "Analysis of secondary government statistics"
+          ],
+          "answer": "In-depth qualitative interviews",
+          "explanation": "Emotional connections and motivations are best explored through qualitative methods that allow probing and open-ended responses, such as in-depth interviews or focus groups.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q3",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "What is the FIRST step in the market research process?",
+          "options": [
+            "Collecting data",
+            "Defining the problem and research objectives",
+            "Analysing the data",
+            "Writing the research report"
+          ],
+          "answer": "Defining the problem and research objectives",
+          "explanation": "The market research process begins with clearly defining the problem and setting research objectives. Without a clear problem definition, the research effort lacks focus and may produce irrelevant findings.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch3-we-1",
+          "chapter": "Chapter 3",
+          "title": "Designing a Research Plan for a New SA Product Launch",
+          "summary": "Developing a market research plan for a new energy drink targeting South African university students.",
+          "problem": "A company wants to launch a new energy drink aimed at South African university students. Outline a market research plan using the five-step research process.",
+          "steps": [
+            {
+              "label": "Step 1 — Define the Problem & Objectives",
+              "explanation": "Problem: Will university students buy our new energy drink at R25 per can? Objectives: (a) Identify student energy drink purchasing habits, (b) assess price sensitivity, (c) determine preferred flavours and packaging."
+            },
+            {
+              "label": "Step 2 — Develop the Research Plan",
+              "explanation": "Use a mixed-methods approach: (1) Secondary research — review existing energy drink market reports and Nielsen retail sales data. (2) Primary qualitative — four focus groups on three SA campuses. (3) Primary quantitative — online survey of 400 students."
+            },
+            {
+              "label": "Step 3 — Collect Data",
+              "explanation": "Administer the online survey via SurveyMonkey, distributed through student WhatsApp groups and campus email lists. Run focus groups in Johannesburg, Cape Town, and Potchefstroom (NWU). Ensure POPIA-compliant informed consent forms."
+            },
+            {
+              "label": "Step 4 — Analyse Data",
+              "explanation": "Quantitative data: calculate frequencies, averages, and cross-tabulations by campus and age group. Qualitative data: thematic analysis of focus group transcripts to identify common themes around taste, brand image, and price."
+            },
+            {
+              "label": "Step 5 — Present Findings & Recommendations",
+              "explanation": "Prepare a research report with executive summary, methodology, key findings (e.g., 68% of students would trial at R25; tropical flavour preferred), and recommendations for product launch strategy."
+            }
+          ],
+          "answer": "A complete 5-step research plan: Problem definition → Mixed-methods design (secondary + qualitative + quantitative) → POPIA-compliant data collection → Analysis → Report with launch recommendations.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 4",
+      "flashcards": [
+        {
+          "id": "ch4-fc-1",
+          "chapter": "Chapter 4",
+          "front": "What are the four main bases for market segmentation?",
+          "back": "1. Geographic (location, climate, region), 2. Demographic (age, income, gender, education), 3. Psychographic (lifestyle, values, personality), 4. Behavioural (usage rate, loyalty, benefits sought).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-2",
+          "chapter": "Chapter 4",
+          "front": "What is the STP process?",
+          "back": "Segmentation (dividing the market into distinct groups), Targeting (selecting which segment(s) to serve), and Positioning (creating a distinct image in the target consumers' minds).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-3",
+          "chapter": "Chapter 4",
+          "front": "What is a concentrated targeting strategy?",
+          "back": "Focused marketing where a company targets a single market segment or niche with one marketing mix. Suitable for companies with limited resources seeking a strong position in one segment.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-4",
+          "chapter": "Chapter 4",
+          "front": "What criteria make a market segment effectively usable?",
+          "back": "A useful segment must be: Measurable (size and purchasing power can be measured), Accessible (can be reached effectively), Substantial (large enough to be profitable), Differentiable (responds differently to marketing mixes), and Actionable (company can develop effective programmes for it).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch4-q1",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Woolworths targets consumers who value premium quality, organic food, and a health-conscious lifestyle. This is primarily which type of segmentation?",
+          "options": [
+            "Geographic segmentation",
+            "Demographic segmentation",
+            "Psychographic segmentation",
+            "Behavioural segmentation"
+          ],
+          "answer": "Psychographic segmentation",
+          "explanation": "Psychographic segmentation divides the market based on lifestyle, values, and personality. Targeting 'health-conscious, quality-oriented' consumers reflects psychographic variables, not purely demographics.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q2",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "A company that designs one product for the entire market without differentiation is using which targeting strategy?",
+          "options": [
+            "Differentiated marketing",
+            "Concentrated marketing",
+            "Undifferentiated (mass) marketing",
+            "Micromarketing"
+          ],
+          "answer": "Undifferentiated (mass) marketing",
+          "explanation": "Undifferentiated (mass) marketing ignores segment differences and targets the whole market with a single offer, treating the market as one large group.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q3",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is a requirement for a market segment to be considered 'actionable'?",
+          "options": [
+            "The segment must be larger than 10 000 consumers",
+            "Effective programmes can be designed to attract and serve the segment",
+            "The segment must be located in a major urban area",
+            "The segment must respond identically to all marketing efforts"
+          ],
+          "answer": "Effective programmes can be designed to attract and serve the segment",
+          "explanation": "Actionable means the company can develop effective marketing programmes to attract and serve the segment. A small company might identify many segments but lack the resources to act on all of them.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch4-we-1",
+          "chapter": "Chapter 4",
+          "title": "STP Analysis for MTN South Africa",
+          "summary": "Applying the Segmentation, Targeting, and Positioning framework to MTN's consumer mobile market strategy.",
+          "problem": "Apply the STP process to analyse how MTN approaches the South African consumer mobile market.",
+          "steps": [
+            {
+              "label": "Step 1 — Segmentation",
+              "explanation": "MTN segments the SA market using: Demographic (income level, age — youth vs. corporate), Geographic (urban vs. rural, province), Behavioural (data-heavy users vs. voice-heavy users, prepaid vs. contract), and Psychographic (tech-savvy early adopters vs. basic connectivity seekers)."
+            },
+            {
+              "label": "Step 2 — Evaluate Segment Attractiveness",
+              "explanation": "The largest and most profitable segments are: (1) Urban youth (18–35) who are high data consumers, and (2) Small-medium business owners needing data and voice bundles. Rural consumers are substantial in size but cost more to serve."
+            },
+            {
+              "label": "Step 3 — Targeting",
+              "explanation": "MTN uses a differentiated strategy: Youth segment targeted with affordable data bundles and the Ayoba app; corporate segment targeted with business solutions; rural segment targeted with low-cost voice bundles and USSD-based services."
+            },
+            {
+              "label": "Step 4 — Positioning",
+              "explanation": "MTN positions itself as 'the network that enables progress' — connecting South Africans to opportunities. For youth, the positioning emphasises digital freedom and entertainment; for business, reliability and connectivity."
+            }
+          ],
+          "answer": "MTN uses differentiated marketing across at least three distinct segments (youth, corporate, rural), each with tailored marketing mixes. Its positioning emphasises connectivity and progress, adapted per segment.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 5",
+      "flashcards": [
+        {
+          "id": "ch5-fc-1",
+          "chapter": "Chapter 5",
+          "front": "What are the four stages of the Product Life Cycle (PLC)?",
+          "back": "1. Introduction (low sales, high costs, no or negative profit), 2. Growth (rising sales and profits, new competitors enter), 3. Maturity (sales peak, profits level off, intense competition), 4. Decline (falling sales and profits, possible withdrawal).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-2",
+          "chapter": "Chapter 5",
+          "front": "What are the three levels of a product?",
+          "back": "1. Core product (the fundamental benefit or need satisfied), 2. Actual product (brand name, features, packaging, quality level, design), 3. Augmented product (additional services like warranty, delivery, after-sales support).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-3",
+          "chapter": "Chapter 5",
+          "front": "What is brand equity?",
+          "back": "The additional value that a brand name adds to a product beyond its functional characteristics. High brand equity means consumers will pay a premium, show loyalty, and actively seek out the brand.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-4",
+          "chapter": "Chapter 5",
+          "front": "What is a brand extension?",
+          "back": "A strategy where a company uses an existing, successful brand name to launch a new product in a different category, leveraging existing brand equity to reduce launch risk.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch5-q1",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "A product in the maturity stage of its life cycle would typically require which marketing strategy?",
+          "options": [
+            "Heavy investment in awareness advertising to launch the product",
+            "Rapid price increases to maximise short-term profit",
+            "Market modification, product modification, or marketing mix modification to extend the cycle",
+            "Immediate product withdrawal from all markets"
+          ],
+          "answer": "Market modification, product modification, or marketing mix modification to extend the cycle",
+          "explanation": "At maturity, sales plateau and competition is intense. Companies try to extend the maturity stage or revive sales through market modification (finding new users), product modification (improving features), or marketing mix changes (new promotions, repositioning).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q2",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "A consumer buys a Nando's meal. The core product is:",
+          "options": [
+            "The flame-grilled peri-peri chicken",
+            "The Nando's brand and restaurant atmosphere",
+            "Satisfying hunger",
+            "The loyalty rewards card"
+          ],
+          "answer": "Satisfying hunger",
+          "explanation": "The core product is the fundamental benefit or need being satisfied. When buying food, the core benefit is satisfying hunger (or the social experience of dining). The actual product is the chicken itself; the augmented product includes the brand, ambiance, and loyalty programme.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q3",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is an example of a brand extension?",
+          "options": [
+            "Shoprite opening a new store in a different province",
+            "Woolworths launching a WFood banking product under the Woolworths brand",
+            "MTN changing its logo colour",
+            "Pick n Pay reducing prices on private label products"
+          ],
+          "answer": "Woolworths launching a WFood banking product under the Woolworths brand",
+          "explanation": "A brand extension uses an existing brand name in a new product category. Woolworths (primarily a food/clothing retailer) extending into financial services (WFood/WCash) under the same brand is a classic brand extension.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch5-we-1",
+          "chapter": "Chapter 5",
+          "title": "Analysing the Product Life Cycle: Castle Lager in South Africa",
+          "summary": "Placing Castle Lager in the product life cycle and recommending appropriate marketing strategies.",
+          "problem": "Castle Lager is one of South Africa's oldest and best-known beer brands, launched in 1895. Identify its current PLC stage and recommend marketing strategies accordingly.",
+          "steps": [
+            {
+              "label": "Step 1 — Identify PLC Stage",
+              "explanation": "Castle Lager is clearly in the Maturity stage. It has been on the market for over 125 years, has strong brand awareness, but faces intense competition from craft beers, Heineken, and other AB InBev brands like Carling Black Label."
+            },
+            {
+              "label": "Step 2 — Maturity Characteristics",
+              "explanation": "Sales growth has slowed; margins are under pressure from competitors; heavy promotional spending is needed to maintain market share; distribution is near-universal in SA (intensive distribution)."
+            },
+            {
+              "label": "Step 3 — Market Modification Strategy",
+              "explanation": "Expand into new consumer segments: attract younger drinkers (21–30) who currently prefer craft beers, by repositioning Castle Lager with authenticity/heritage messaging targeting the township pride consumer."
+            },
+            {
+              "label": "Step 4 — Product Modification Strategy",
+              "explanation": "Introduce line extensions: Castle Lite (already successful), Castle Free (alcohol-free), and Castle Double Malt to premiumise and attract health-conscious and premium-seeking consumers."
+            },
+            {
+              "label": "Step 5 — Marketing Mix Modification",
+              "explanation": "Increase sponsorship of major SA events (PSL soccer, Springboks rugby) to reinforce the national brand identity. Use social media campaigns and township influencers to refresh brand relevance."
+            }
+          ],
+          "answer": "Castle Lager is in the maturity stage. Recommended strategies: market modification (new segments), product modification (Castle Lite, Castle Free), and marketing mix modification (sports sponsorship, influencer marketing) to extend the cycle and defend market share.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 6",
+      "flashcards": [
+        {
+          "id": "ch6-fc-1",
+          "chapter": "Chapter 6",
+          "front": "What is the difference between penetration pricing and price skimming?",
+          "back": "Penetration pricing sets a LOW initial price to quickly gain market share (used in price-sensitive markets). Price skimming sets a HIGH initial price to earn maximum revenue from early adopters before gradually lowering the price.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-2",
+          "chapter": "Chapter 6",
+          "front": "What is cost-plus pricing?",
+          "back": "A pricing method where the company adds a standard markup to the cost of the product. Formula: Selling Price = Total Cost + (Markup% × Total Cost).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-3",
+          "chapter": "Chapter 6",
+          "front": "What does price elasticity of demand measure?",
+          "back": "How sensitive consumer demand is to a change in price. PED = % Change in Quantity Demanded ÷ % Change in Price. If |PED| > 1, demand is elastic (price-sensitive); if |PED| < 1, demand is inelastic.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-4",
+          "chapter": "Chapter 6",
+          "front": "What is value-based pricing?",
+          "back": "Setting price based on the buyer's perception of value rather than on the seller's cost. The company must first understand what value its product creates for customers, then price accordingly.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch6-q1",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "A manufacturer has fixed costs of R100 000, a variable cost of R40 per unit, and sells at R90 per unit. What is the break-even quantity?",
+          "options": [
+            "1 111 units",
+            "2 000 units",
+            "2 500 units",
+            "1 000 units"
+          ],
+          "answer": "2 000 units",
+          "explanation": "Break-even quantity = Fixed Costs ÷ (Selling Price − Variable Cost) = R100 000 ÷ (R90 − R40) = R100 000 ÷ R50 = 2 000 units.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q2",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "A new luxury Samsung smartphone launches at R25 000. After 6 months, the price drops to R18 000 as newer buyers enter the market. This is an example of:",
+          "options": [
+            "Penetration pricing",
+            "Competitive pricing",
+            "Price skimming",
+            "Psychological pricing"
+          ],
+          "answer": "Price skimming",
+          "explanation": "Price skimming starts with a high price to extract maximum revenue from consumers willing to pay a premium, then gradually lowers the price to attract more price-sensitive buyers.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q3",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "If the price of bread increases by 10% and the quantity demanded falls by only 3%, demand for bread is:",
+          "options": [
+            "Elastic",
+            "Perfectly elastic",
+            "Inelastic",
+            "Unit elastic"
+          ],
+          "answer": "Inelastic",
+          "explanation": "|PED| = 3% ÷ 10% = 0.3, which is less than 1, so demand is inelastic. Consumers need bread regardless of a moderate price increase, making it price-insensitive.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch6-we-1",
+          "chapter": "Chapter 6",
+          "title": "Cost-Plus Pricing and Break-Even Analysis for a SA Small Business",
+          "summary": "Calculating a selling price using cost-plus pricing and finding the break-even point for a small bakery in South Africa.",
+          "problem": "Thandi runs a small bakery in Potchefstroom. Her fixed costs are R15 000/month (rent, equipment). Variable costs per cake are R80 (ingredients, packaging). She wants a 50% markup on total cost. How should she price each cake, and how many cakes must she sell monthly to break even if she sells 200 cakes per month?",
+          "steps": [
+            {
+              "label": "Step 1 — Calculate Total Cost per Unit",
+              "explanation": "Total cost per cake = Variable cost + (Fixed cost ÷ expected units) = R80 + (R15 000 ÷ 200) = R80 + R75 = R155 per cake."
+            },
+            {
+              "label": "Step 2 — Apply Cost-Plus Markup",
+              "explanation": "Selling price = Total cost × (1 + markup%) = R155 × (1 + 0.50) = R155 × 1.50 = R232.50 per cake. Thandi could round to R235 for simplicity."
+            },
+            {
+              "label": "Step 3 — Break-Even Calculation",
+              "explanation": "Break-even units = Fixed Costs ÷ (Selling Price − Variable Cost) = R15 000 ÷ (R235 − R80) = R15 000 ÷ R155 ≈ 97 cakes per month."
+            },
+            {
+              "label": "Step 4 — Interpret the Result",
+              "explanation": "Thandi must sell at least 97 cakes per month to cover all costs. At her expected 200 cakes, she generates profit of (200 − 97) × R155 = 103 × R155 = R15 965 profit per month."
+            }
+          ],
+          "answer": "Selling price = R235 per cake. Break-even = 97 cakes/month. At 200 units, monthly profit ≈ R15 965.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 7",
+      "flashcards": [
+        {
+          "id": "ch7-fc-1",
+          "chapter": "Chapter 7",
+          "front": "What is a distribution channel?",
+          "back": "The set of interdependent organisations involved in making a product or service available for use or consumption by the consumer or business user. Also called a marketing channel.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-2",
+          "chapter": "Chapter 7",
+          "front": "What are the three levels of distribution intensity?",
+          "back": "1. Intensive distribution — maximum outlets, used for convenience products (e.g., Coca-Cola). 2. Selective distribution — a few chosen outlets (e.g., Samsung TVs in major retailers). 3. Exclusive distribution — single outlet per area, used for luxury/specialist products (e.g., Ferrari dealerships).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-3",
+          "chapter": "Chapter 7",
+          "front": "What is the difference between a wholesaler and a retailer?",
+          "back": "A wholesaler buys goods in bulk from manufacturers and sells in smaller quantities to retailers or business users. A retailer sells goods directly to final consumers. Example: Makro (wholesaler) vs. Shoprite (retailer).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-4",
+          "chapter": "Chapter 7",
+          "front": "What is supply chain management?",
+          "back": "Managing upstream and downstream value-added flows of materials, final goods, and related information among suppliers, the company, resellers, and final consumers to deliver superior customer value at less cost.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch7-q1",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "Which distribution intensity strategy would be MOST appropriate for a high-end Swiss watch brand selling in South Africa?",
+          "options": [
+            "Intensive distribution",
+            "Exclusive distribution",
+            "Selective distribution",
+            "Direct distribution"
+          ],
+          "answer": "Exclusive distribution",
+          "explanation": "Luxury/premium products use exclusive distribution (single or very few authorised dealers per region) to maintain brand prestige, control the customer experience, and avoid price undercutting by mass retailers.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q2",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "Sasol distributes its petrol through branded service station franchises across South Africa. This is an example of:",
+          "options": [
+            "A vertical marketing system (VMS)",
+            "Intensive distribution through independent retailers",
+            "A horizontal marketing system",
+            "Direct-to-consumer distribution"
+          ],
+          "answer": "A vertical marketing system (VMS)",
+          "explanation": "A vertical marketing system is a channel structure where producers, wholesalers, and retailers act as a unified system. Sasol's franchisor-franchisee service station network is a contractual VMS.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q3",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is a key advantage of using channel intermediaries (e.g., retailers)?",
+          "options": [
+            "They allow manufacturers to set final retail prices",
+            "They eliminate the need for manufacturers to produce quality products",
+            "They reduce the number of transactions needed to reach consumers",
+            "They always increase the final price paid by consumers"
+          ],
+          "answer": "They reduce the number of transactions needed to reach consumers",
+          "explanation": "Intermediaries create transaction efficiency. Without retailers, each manufacturer would have to deal directly with millions of consumers. Retailers consolidate this, reducing total transactions needed and providing consumer convenience.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch7-we-1",
+          "chapter": "Chapter 7",
+          "title": "Designing a Distribution Strategy for a New SA Product",
+          "summary": "Choosing an appropriate distribution channel and intensity level for a new South African organic snack brand.",
+          "problem": "'SnackSA' is launching a range of premium organic snack bars in South Africa, priced at R35 each. Recommend a distribution strategy, including channel structure and intensity level, with justification.",
+          "steps": [
+            {
+              "label": "Step 1 — Define the Product and Target Market",
+              "explanation": "SnackSA is a premium, health-oriented convenience product. The target market is health-conscious, urban professionals and students in LSM 8–10. These consumers shop at Woolworths, Checkers, Pick n Pay, and health specialty stores."
+            },
+            {
+              "label": "Step 2 — Choose Channel Structure",
+              "explanation": "Recommended: Indirect channel — Manufacturer → Distributor/Wholesaler → Retailer → Consumer. Using a food distributor (e.g., Bidfood SA) allows SnackSA to access multiple retail chains simultaneously without managing hundreds of retail relationships directly."
+            },
+            {
+              "label": "Step 3 — Choose Distribution Intensity",
+              "explanation": "Selective distribution: list in Woolworths, Checkers Hyper, Pick n Pay Select, and health stores like Faithful-to-Nature and Dis-Chem. Avoid mass discounters like Shoprite to maintain the premium positioning."
+            },
+            {
+              "label": "Step 4 — Consider Logistics",
+              "explanation": "Partner with a cold-chain logistics provider since organic products may have limited shelf life. Implement just-in-time restocking using electronic data interchange (EDI) with major retailers to reduce waste."
+            },
+            {
+              "label": "Step 5 — Online Channel",
+              "explanation": "Launch on Takealot.com and the brand's own e-commerce store for direct-to-consumer sales, allowing nationwide reach beyond the physical store footprint and capturing data on consumer preferences."
+            }
+          ],
+          "answer": "Recommended strategy: Indirect selective distribution through a food distributor to Woolworths, Pick n Pay Select, Checkers, Dis-Chem, and Faithful-to-Nature, supplemented by direct-to-consumer e-commerce via Takealot and own website.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 8",
+      "flashcards": [
+        {
+          "id": "ch8-fc-1",
+          "chapter": "Chapter 8",
+          "front": "What are the five elements of the promotional mix?",
+          "back": "1. Advertising (paid, mass media), 2. Personal Selling (direct salesperson interaction), 3. Sales Promotion (short-term incentives), 4. Public Relations/PR (earned media, reputation management), 5. Direct Marketing (direct communication to targeted individuals).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-2",
+          "chapter": "Chapter 8",
+          "front": "What is Integrated Marketing Communication (IMC)?",
+          "back": "IMC is the concept of carefully coordinating all communication channels to deliver a clear, consistent, and compelling message about the organisation and its products, ensuring all brand touchpoints reinforce the same positioning.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-3",
+          "chapter": "Chapter 8",
+          "front": "What is the difference between a push and pull promotional strategy?",
+          "back": "Push strategy: the company promotes the product through channel members (trade promotions, personal selling to retailers) to push the product through the channel. Pull strategy: heavy consumer advertising and sales promotion to create demand that pulls the product through the channel.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-4",
+          "chapter": "Chapter 8",
+          "front": "What is the communication process model in marketing?",
+          "back": "Sender → Encoding → Message/Channel (medium) → Decoding → Receiver → Feedback. Noise can disrupt any stage. Effective communication requires the sender's encoding to match the receiver's ability to decode the message.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch8-q1",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "Shoprite places prominent 'R5 off' stickers on selected products for a weekend only. This is an example of:",
+          "options": [
+            "Advertising",
+            "Personal selling",
+            "Sales promotion",
+            "Public relations"
+          ],
+          "answer": "Sales promotion",
+          "explanation": "Sales promotions are short-term incentives to encourage the purchase of a product. Price-off stickers and limited-time discounts are classic consumer sales promotion tools.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-q2",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "In the communication process, 'decoding' refers to:",
+          "options": [
+            "The sender converting an idea into symbols, words, or images",
+            "The channel through which the message is transmitted",
+            "The receiver converting the message back into a meaningful interpretation",
+            "The feedback signal sent back to the original sender"
+          ],
+          "answer": "The receiver converting the message back into a meaningful interpretation",
+          "explanation": "Decoding is the process by which the receiver assigns meaning to the symbols transmitted by the sender. Effective communication occurs when the sender and receiver assign the same meaning (encoding matches decoding).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-q3",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "A brand issues a press release after a product recall to manage media coverage and reassure the public. This IMC tool is:",
+          "options": [
+            "Advertising",
+            "Direct marketing",
+            "Sales promotion",
+            "Public relations"
+          ],
+          "answer": "Public relations",
+          "explanation": "Public relations involves managing the company's image and relationships with publics through media coverage, press releases, events, and crisis communication. A product recall press release is a reactive PR activity.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch8-we-1",
+          "chapter": "Chapter 8",
+          "title": "Developing an IMC Campaign for MTN South Africa",
+          "summary": "Designing a coordinated IMC campaign for a new MTN student data product launch.",
+          "problem": "MTN is launching a new 'MTN Student Bundle' offering 10GB of data + free eFundi access for R99/month. Design an IMC campaign targeting NWU students.",
+          "steps": [
+            {
+              "label": "Step 1 — Define the Target Audience",
+              "explanation": "Primary: NWU students aged 18–25, living in Potchefstroom and Vanderbijlpark. Tech-savvy, mobile-first, budget-conscious. Secondary: parents who pay the bills."
+            },
+            {
+              "label": "Step 2 — Set IMC Objectives",
+              "explanation": "Awareness: 70% of NWU students aware of the bundle within 4 weeks of launch. Trial: 20% conversion within 8 weeks. Key message: 'Study Smarter — Never Run Out of Data.'"
+            },
+            {
+              "label": "Step 3 — Advertising",
+              "explanation": "Digital ads on Instagram, TikTok, and Facebook targeting 18–25 SA students. Campus radio spots on NWU's student radio station. Digital billboards near the NWU Potchefstroom main gate."
+            },
+            {
+              "label": "Step 4 — Sales Promotion",
+              "explanation": "First month free for all new subscribers activating before 30 April. Bundle with a R30 Takealot voucher for first 500 sign-ups. Campus activation booths with free SIM swaps."
+            },
+            {
+              "label": "Step 5 — Personal Selling & PR",
+              "explanation": "Personal Selling: Trained campus brand ambassadors at MTN booths in the NWU student centre. PR: Issue press release to Perdeby (NWU student newspaper); partner with NWU SRC to co-announce the zero-rated eFundi access."
+            },
+            {
+              "label": "Step 6 — Ensure Consistency (IMC)",
+              "explanation": "All channels use the same logo, colour scheme, tagline ('Study Smarter'), and QR code linking to the bundle sign-up page. Weekly team meetings ensure messaging stays coordinated across digital, PR, and on-ground activation."
+            }
+          ],
+          "answer": "IMC campaign using advertising (digital + campus radio + billboards), sales promotion (first month free, campus activations), personal selling (brand ambassadors), and PR (Perdeby, SRC partnership), all carrying a consistent 'Study Smarter' message with coordinated visual identity.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    }
+  ],
+  "discipline": "marketing",
+  "referenceList": [
+    {
+      "title": "Kotler & Armstrong — Principles of Marketing (Pearson)",
+      "publisher": "Pearson",
+      "url": "https://www.pearson.com/en-us/subjects/marketing/principles-of-marketing.html",
+      "note": "Canonical marketing text; segmentation, 4Ps, branding, digital marketing.",
+      "sourceHash": "40ecf5865c67fbedba6be76f7c546f02f8432fcee3abceb01a3bbbe7fa28b276"
+    },
+    {
+      "title": "American Marketing Association — Marketing Definitions & Resources",
+      "publisher": "AMA",
+      "url": "https://www.ama.org/topics/",
+      "note": "Authoritative definitions of marketing concepts.",
+      "sourceHash": "33395bc378f25f40028b6dfec49654e3635bd36d65565ee4047e812d0a691a75"
+    },
+    {
+      "title": "Statista — Consumer & market data",
+      "publisher": "Statista",
+      "url": "https://www.statista.com/",
+      "note": "Market-size and consumer-behaviour statistics for examples (institutional access may be required).",
+      "sourceHash": "e910e59afb6ae1975b58cf87b4a60eefc896a506ffc17e74f83c10a2450e3a51"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: Marketing Management 213 (BCom, North-West University). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "Chapter-by-chapter teaching focus (derived from the module's own learning outcomes and key definitions):",
+    "  • Chapter 1 — Marketing Fundamentals & Environment. Emphasise: Define marketing and explain the marketing concept; Distinguish between the micro, market, and macro environments; Conduct a PESTLE analysis for a South African business. Local context: South African marketers must navigate a unique macro environment that includes load-shedding (energy policy), a diverse multilingual population, high unemployment rates affecting disposable income, and a rapidly growing mobile-first digital consumer base. Retailers like Shoprite and Woolworths constantly adjust their marketing mix in response to these local pressures.",
+    "  • Chapter 2 — Consumer Behaviour. Emphasise: Describe the five stages of the consumer decision-making process; Explain psychological factors influencing consumer behaviour; Identify social and cultural influences on buying decisions. Local context: South African consumer behaviour is shaped by 11 official languages, diverse cultural traditions, and stark income inequality. Township economies and the growing black middle class (often called the 'black diamond' segment) represent significant and distinct consumer groups. MTN and Vodacom, for example, heavily tailor their data bundle offerings and advertising to different LSM (Living Standards Measure) groups.",
+    "  • Chapter 3 — Market Research. Emphasise: Outline the market research process; Distinguish between primary and secondary research; Compare qualitative and quantitative research methods. Local context: Market research in South Africa often uses the Living Standards Measure (LSM) or the newer Socio-Economic Measure (SEM) to segment respondents. Organisations like the South African Advertising Research Foundation (SAARF) publish valuable secondary data. Researchers must also be aware of research ethics guidelines, particularly around data privacy under the Protection of Personal Information Act (POPIA).",
+    "  • Chapter 4 — Market Segmentation & Targeting. Emphasise: Identify and apply the four main segmentation bases; Evaluate the criteria for effective segmentation; Compare undifferentiated, differentiated, and concentrated targeting strategies. Local context: South African marketers use the nine LSM/SEM groups extensively to target consumers. For example, Shoprite targets lower-income LSM groups with everyday value, while Woolworths targets higher LSM groups with premium quality. Geographic segmentation is also critical given SA's urban/rural divide and provincial differences in purchasing power.",
+    "  • Chapter 5 — Product Strategy & Branding. Emphasise: Distinguish between core, actual, and augmented product levels; Explain the product life cycle and its marketing implications; Define brand equity and its components. Local context: South African brands such as Nando's, Amarula, and Castle Lager have built strong brand equity both locally and internationally. Local brand extensions are common — for example, Shoprite's house brands like Ritebrand compete on price. SA companies must also manage brand reputation carefully in a socially conscious consumer environment increasingly influenced by B-BBEE compliance perceptions.",
+    "  • Chapter 6 — Pricing Strategy. Emphasise: Identify pricing objectives companies pursue; Apply cost-based, value-based, and competition-based pricing methods; Explain price elasticity of demand and its marketing relevance. Local context: Pricing in South Africa is highly sensitive to consumer income levels and inflation. With load-shedding increasing production costs, many SA businesses have had to revise pricing strategies. The Competition Commission also monitors price-fixing and predatory pricing practices, particularly in industries like fuel (regulated by government) and food retail where Shoprite, Pick n Pay, and Checkers compete intensely on price.",
+    "  • Chapter 7 — Distribution & Supply Chain. Emphasise: Describe the functions of distribution channel intermediaries; Compare direct and indirect distribution channels; Explain the concept of supply chain management. Local context: South Africa's distribution landscape is complex due to geographic challenges (vast rural areas with poor road infrastructure), a strong informal retail sector (spaza shops, street vendors), and a highly concentrated formal retail market dominated by large groups like Shoprite Holdings, Pick n Pay, Spar, and Woolworths. Sasol and fuel companies use exclusive distribution through branded service station networks.",
+    "  • Chapter 8 — Integrated Marketing Communication. Emphasise: Define integrated marketing communication (IMC) and explain its importance; Describe the main elements of the promotional mix; Explain the communication process model. Local context: South African brands invest heavily in local IMC strategies. MTN's 'Ayoba' platform and Vodacom's social media campaigns demonstrate digital-first IMC. Television advertising remains powerful (SABC, DStv), while community radio stations are important for reaching rural and township consumers. SA's high social media penetration (especially Facebook and WhatsApp) has made digital PR and influencer marketing key components of modern IMC.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "40ecf5865c67fbedba6be76f7c546f02f8432fcee3abceb01a3bbbe7fa28b276",
+    "33395bc378f25f40028b6dfec49654e3635bd36d65565ee4047e812d0a691a75",
+    "e910e59afb6ae1975b58cf87b4a60eefc896a506ffc17e74f83c10a2450e3a51"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

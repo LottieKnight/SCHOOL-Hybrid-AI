@@ -1,0 +1,523 @@
+.page {
+  display: grid;
+  gap: 24px;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.headerCopy {
+  display: grid;
+  gap: 10px;
+}
+
+.headerActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.moduleRoomsRow {
+  display: grid;
+  gap: 10px;
+}
+
+.moduleRoomsLabel {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.moduleRoomsLinks {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.moduleRoomLink {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--inst-border);
+  background: var(--inst-surface);
+  color: var(--inst-primary);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  transition: all var(--t) var(--ease);
+}
+
+.moduleRoomLink:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+.stateCard {
+  display: grid;
+  gap: 12px;
+  padding: 28px;
+  border-radius: var(--r-xl);
+  border: 1px solid var(--border);
+  background: linear-gradient(160deg, var(--surface) 0%, var(--surface-2) 100%);
+  box-shadow: var(--sh-md);
+}
+
+.selectorSection {
+  display: grid;
+}
+
+.gradeBands {
+  display: grid;
+  gap: 20px;
+}
+
+.gradeBand {
+  display: grid;
+  gap: 14px;
+}
+
+.bandTitle {
+  font-size: 18px;
+}
+
+.gradeGrid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.gradeCard {
+  display: grid;
+  gap: 6px;
+  text-align: left;
+  padding: 18px;
+  border-radius: var(--r-lg);
+  border: 1px solid var(--border);
+  background: linear-gradient(160deg, var(--surface-2) 0%, var(--surface-3) 100%);
+  transition: all var(--t) var(--ease);
+}
+
+.gradeCard:hover {
+  border-color: var(--gold-border);
+  box-shadow: var(--sh-gold);
+  transform: translateY(-2px);
+}
+
+.gradeCardTitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-1);
+}
+
+.gradeCardMeta {
+  color: var(--text-2);
+  font-size: 12px;
+}
+
+.selectorActions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+
+.selectorButtons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.subjectGroups {
+  display: grid;
+  gap: 18px;
+}
+
+.subjectGroup {
+  display: grid;
+  gap: 14px;
+}
+
+.subjectGroupHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.subjectGrid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.subjectCard {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+  padding: 14px 16px;
+  border-radius: var(--r-lg);
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  transition: all var(--t) var(--ease);
+}
+
+.subjectCard:hover {
+  border-color: var(--gold-border);
+  background: rgba(255, 215, 0, 0.05);
+}
+
+.subjectCardSelected {
+  border-color: var(--gold-border);
+  background: var(--gold-dim);
+}
+
+.subjectColor {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.subjectCardCopy {
+  display: grid;
+  gap: 4px;
+  flex: 1;
+}
+
+.subjectCardTitle {
+  color: var(--text-1);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.subjectCardMeta {
+  color: var(--text-3);
+  font-size: 11px;
+}
+
+.subjectCardCheck {
+  color: var(--gold);
+  font-family: var(--font-mono);
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 2px;
+}
+
+.tab {
+  color: var(--text-3);
+  padding: 8px 0;
+  border-bottom: 2px solid transparent;
+  transition: all var(--t) var(--ease);
+}
+
+.tab:hover {
+  color: var(--text-2);
+}
+
+.tabActive {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+  font-weight: 700;
+}
+
+.weekGrid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.weekCard {
+  display: grid;
+  gap: 16px;
+  padding: 16px;
+  border-radius: var(--r-lg);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: var(--sh-sm);
+}
+
+.weekCardCurrent {
+  border-color: var(--gold-border);
+  box-shadow: var(--sh-gold);
+}
+
+.weekCardPast {
+  opacity: 0.78;
+}
+
+.weekCardHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.weekBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: var(--gold-dim);
+  color: var(--gold);
+  border: 1px solid var(--gold-border);
+  font-family: var(--font-mono);
+  font-size: 11px;
+}
+
+.weekTitle {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.weekStatus {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.weekRows {
+  display: grid;
+  gap: 6px;
+}
+
+.subjectRow {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.subjectRow:last-child {
+  border-bottom: none;
+}
+
+.subjectRowDot {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.subjectRowCopy {
+  display: grid;
+  gap: 4px;
+  flex: 1;
+}
+
+.subjectRowCopy strong {
+  font-size: 12px;
+}
+
+.subjectRowCopy span {
+  color: var(--text-2);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.hiddenInput {
+  display: none;
+}
+
+.uploadShell {
+  display: grid;
+  place-items: center;
+}
+
+.uploadCard {
+  width: min(760px, 100%);
+  display: grid;
+  gap: 18px;
+  padding: 48px;
+  text-align: center;
+  border-radius: var(--r-xl);
+  border: 1px dashed var(--gold-border);
+  background: var(--surface);
+}
+
+.uploadIcon {
+  font-size: 40px;
+}
+
+.uploadZone {
+  display: grid;
+  gap: 12px;
+  place-items: center;
+  padding: 32px;
+  border-radius: var(--r-lg);
+  border: 1px dashed var(--border-2);
+  background: var(--surface-2);
+  transition: all var(--t) var(--ease);
+}
+
+.uploadZone:hover,
+.uploadZoneActive {
+  border-color: var(--gold-border);
+  background: var(--gold-dim);
+}
+
+.uploadProgress {
+  width: 100%;
+  display: grid;
+  gap: 10px;
+}
+
+.progressBar {
+  width: 100%;
+  height: 10px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.progressBarFill {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold), var(--amber));
+}
+
+.uploadArrow {
+  font-size: 32px;
+  color: var(--text-3);
+}
+
+.uploadPills {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.uploadPills span {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--surface-3);
+  border: 1px solid var(--border);
+  color: var(--text-3);
+  font-family: var(--font-mono);
+  font-size: 10px;
+}
+
+.orDivider {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.orDivider::before {
+  content: "";
+  position: absolute;
+  inset: 50% 0 auto;
+  border-top: 1px solid var(--border);
+}
+
+.orDivider span {
+  position: relative;
+  z-index: 1;
+  background: var(--surface);
+  padding: 0 10px;
+  color: var(--text-3);
+  font-family: var(--font-mono);
+  font-size: 11px;
+}
+
+.manualEntry {
+  display: grid;
+  gap: 12px;
+  text-align: left;
+}
+
+.manualTextarea {
+  min-height: 180px;
+}
+
+.whyToggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: var(--r-md);
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text-2);
+}
+
+.whyBody {
+  padding: 0 12px;
+  color: var(--text-2);
+  line-height: 1.7;
+}
+
+.activeBanner {
+  padding: 10px 14px;
+  border-radius: var(--r-md);
+  border: 1px solid var(--gold-border);
+  background: var(--gold-dim);
+  color: var(--gold);
+  font-size: 12px;
+}
+
+.planOverview {
+  display: grid;
+  gap: 14px;
+}
+
+.planPreview {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+.weekNotes {
+  min-height: 140px;
+  font-size: 12px !important;
+}
+
+.weekCheckbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-2);
+  font-size: 12px;
+}
+
+@media (max-width: 900px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .selectorActions {
+    flex-direction: column;
+  }
+
+  .uploadCard {
+    padding: 24px;
+  }
+}

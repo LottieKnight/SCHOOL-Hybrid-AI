@@ -1,0 +1,1960 @@
+{
+  "institution": "North-West University",
+  "moduleCode": "ECAT121",
+  "moduleName": "Economic Analysis 121",
+  "semester": "Semester 2, 2025",
+  "programme": "BCom Economic Sciences",
+  "confidence": 0.82,
+  "generatedAt": "2026-04-03T00:00:00.000Z",
+  "sourceFiles": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "missingContent": [],
+  "studyUnits": [
+    "Chapter 1 — Introduction to Econometrics",
+    "Chapter 2 — Simple Linear Regression",
+    "Chapter 3 — Multiple Regression",
+    "Chapter 4 — Hypothesis Testing in Regression",
+    "Chapter 5 — Model Specification & Diagnostics",
+    "Chapter 6 — Dummy Variables & Functional Form",
+    "Chapter 7 — Introduction to Time Series"
+  ],
+  "chapters": [
+    "Chapter 1",
+    "Chapter 2",
+    "Chapter 3",
+    "Chapter 4",
+    "Chapter 5",
+    "Chapter 6",
+    "Chapter 7"
+  ],
+  "topicSeeds": [
+    "Ch1 - What is econometrics and its role in economics",
+    "Ch1 - Types of economic data: cross-sectional, time series, panel",
+    "Ch2 - The simple linear regression model",
+    "Ch2 - OLS estimation and interpretation of coefficients",
+    "Ch3 - Multiple regression model setup",
+    "Ch3 - Interpreting multiple regression coefficients",
+    "Ch4 - t-tests for individual coefficients",
+    "Ch4 - F-test for overall model significance",
+    "Ch5 - Multicollinearity, heteroskedasticity, autocorrelation",
+    "Ch5 - Residual diagnostics and model fit",
+    "Ch6 - Dummy variable construction and interpretation",
+    "Ch6 - Log-linear and log-log functional forms",
+    "Ch7 - Stationarity and unit root tests",
+    "Ch7 - Autocorrelation in time series"
+  ],
+  "keyTopics": [
+    "OLS estimation",
+    "Coefficient interpretation",
+    "R-squared and goodness of fit",
+    "t-test and F-test",
+    "Multicollinearity",
+    "Heteroskedasticity",
+    "Dummy variables",
+    "Stationarity and unit roots"
+  ],
+  "quizSignals": [
+    "What is the difference between cross-sectional and time series data?",
+    "How do you interpret the slope coefficient in a simple linear regression?",
+    "What does R-squared measure?",
+    "When do you use a t-test vs an F-test in regression analysis?",
+    "What is multicollinearity and how does it affect regression results?",
+    "How do you interpret a dummy variable coefficient?"
+  ],
+  "assessmentPlan": [
+    {
+      "name": "Assignment 1",
+      "weight": "20%",
+      "due": "September",
+      "scope": "Ch 1-3"
+    },
+    {
+      "name": "Assignment 2",
+      "weight": "20%",
+      "due": "October",
+      "scope": "Ch 4-5"
+    },
+    {
+      "name": "Test 1",
+      "weight": "30%",
+      "due": "September",
+      "scope": "Ch 1-3"
+    },
+    {
+      "name": "Test 2",
+      "weight": "30%",
+      "due": "November",
+      "scope": "Ch 4-7"
+    }
+  ],
+  "classSchedule": [
+    {
+      "label": "Week 1",
+      "summary": "What is econometrics? Types of data and research questions",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 2",
+      "summary": "Data collection, measurement scales, and EViews/Excel introduction",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 3",
+      "summary": "Simple linear regression: model setup and OLS derivation",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 4",
+      "summary": "OLS estimation, fitted values, and residuals",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 5",
+      "summary": "R-squared, interpreting coefficients, and practical EViews",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 6",
+      "summary": "Multiple regression model: extending simple regression",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 7",
+      "summary": "Interpreting partial coefficients and adjusted R-squared",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 8",
+      "summary": "t-test for individual coefficients",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 9",
+      "summary": "F-test for overall significance and coefficient restrictions",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 10",
+      "summary": "Multicollinearity: detection and remedies",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 11",
+      "summary": "Heteroskedasticity and autocorrelation: tests and corrections",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 12",
+      "summary": "Dummy variables: construction and interpretation",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 13",
+      "summary": "Functional forms: log-linear and log-log models",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 14",
+      "summary": "Time series basics: stationarity and unit root tests",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 15",
+      "summary": "Autocorrelation in time series and practical applications",
+      "chapter": "Chapter 7"
+    }
+  ],
+  "chapterInsights": [
+    {
+      "chapter": "Chapter 1",
+      "title": "Introduction to Econometrics",
+      "outcomes": [
+        "Define econometrics and explain its role in economic analysis",
+        "Distinguish between cross-sectional, time series, and panel data",
+        "Explain the steps of an empirical economic study",
+        "Understand the difference between correlation and causation"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Econometrics",
+          "definition": "The application of statistical and mathematical methods to economic data to test economic theories and forecast future trends."
+        },
+        {
+          "term": "Cross-sectional data",
+          "definition": "Data collected from many subjects (individuals, firms, countries) at a single point in time."
+        },
+        {
+          "term": "Time series data",
+          "definition": "Data collected on a single subject over multiple time periods (e.g., monthly GDP from 2000–2025)."
+        },
+        {
+          "term": "Panel data",
+          "definition": "Data that combines cross-sectional and time series dimensions — multiple subjects observed over multiple time periods."
+        }
+      ],
+      "revisionPrompts": [
+        "What is the difference between cross-sectional and time series data?",
+        "Why is the distinction between correlation and causation important in econometrics?",
+        "What are the main steps in conducting an empirical economic study?",
+        "Give an example of a research question suited to cross-sectional data."
+      ],
+      "saContext": "South African econometric applications include analysing the effect of education on wages (using NIDS data), studying the relationship between the repo rate and inflation (SARB time series), or examining provincial GDP differences (cross-sectional data from Stats SA).",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 2",
+      "title": "Simple Linear Regression",
+      "outcomes": [
+        "Set up and interpret a simple linear regression model",
+        "Understand and apply OLS estimation",
+        "Interpret slope and intercept coefficients in context",
+        "Calculate and interpret R-squared"
+      ],
+      "formulas": [
+        "Y = β₀ + β₁X + ε (population regression model)",
+        "Ŷ = b₀ + b₁X (estimated regression line)",
+        "b₁ = Σ(Xᵢ - X̄)(Yᵢ - Ȳ) / Σ(Xᵢ - X̄)²  (OLS slope estimator)",
+        "R² = 1 - SSR/SST = ESS/SST (coefficient of determination)",
+        "SST = SSR + ESS (decomposition of total variation)"
+      ],
+      "definitions": [
+        {
+          "term": "OLS (Ordinary Least Squares)",
+          "definition": "An estimation method that finds the regression line by minimising the sum of squared residuals (differences between observed and fitted values)."
+        },
+        {
+          "term": "Residual (ε̂)",
+          "definition": "The difference between an observed Y value and the fitted value predicted by the regression line: ε̂ = Y - Ŷ."
+        },
+        {
+          "term": "R-squared (R²)",
+          "definition": "A measure of goodness of fit ranging from 0 to 1, indicating the proportion of variation in Y explained by X."
+        },
+        {
+          "term": "Slope coefficient (β₁)",
+          "definition": "The change in Y for a one-unit increase in X, holding all else constant."
+        }
+      ],
+      "revisionPrompts": [
+        "What does the OLS estimator minimise?",
+        "How do you interpret a slope coefficient of 0.5 in a wage-education regression?",
+        "What does an R-squared of 0.75 mean?",
+        "What is the difference between SST, SSR, and ESS?"
+      ],
+      "saContext": "A common SA example is regressing workers' wages on years of education using Stats SA labour force data. The slope tells us how much average wages increase for each additional year of schooling in South Africa.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 3",
+      "title": "Multiple Regression",
+      "outcomes": [
+        "Extend the simple regression model to include multiple explanatory variables",
+        "Interpret partial regression coefficients",
+        "Calculate and interpret adjusted R-squared",
+        "Understand the concept of ceteris paribus in multiple regression"
+      ],
+      "formulas": [
+        "Y = β₀ + β₁X₁ + β₂X₂ + ... + βₖXₖ + ε",
+        "Adjusted R² = 1 - (1 - R²)(n - 1)/(n - k - 1)",
+        "Partial coefficient: ΔY/ΔXᵢ = βᵢ (holding other X constant)"
+      ],
+      "definitions": [
+        {
+          "term": "Multiple regression",
+          "definition": "A regression model with two or more explanatory variables used to predict the dependent variable."
+        },
+        {
+          "term": "Partial coefficient",
+          "definition": "The estimated effect of one explanatory variable on Y, holding all other explanatory variables constant (ceteris paribus)."
+        },
+        {
+          "term": "Adjusted R-squared",
+          "definition": "A version of R-squared that penalises for adding irrelevant variables, allowing fair comparison of models with different numbers of predictors."
+        },
+        {
+          "term": "Ceteris paribus",
+          "definition": "Latin for 'all other things being equal' — isolating the effect of one variable while holding others constant."
+        }
+      ],
+      "revisionPrompts": [
+        "Why is adjusted R-squared preferred over R-squared when comparing models?",
+        "What does the partial coefficient β₂ represent in a multiple regression?",
+        "Why do we add more variables to a regression model?",
+        "What is the ceteris paribus interpretation of a regression coefficient?"
+      ],
+      "saContext": "A South African multiple regression might model house prices using size, number of bedrooms, and suburb location — isolating the effect of each factor on property values in Gauteng.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 4",
+      "title": "Hypothesis Testing in Regression",
+      "outcomes": [
+        "Conduct and interpret t-tests for individual regression coefficients",
+        "Conduct and interpret F-tests for overall model significance",
+        "Calculate p-values and compare to significance levels",
+        "Form and test null and alternative hypotheses"
+      ],
+      "formulas": [
+        "t-statistic = b̂ᵢ / SE(b̂ᵢ)",
+        "F-statistic = (ESS/k) / (SSR/(n-k-1))",
+        "Reject H₀ if |t| > tα/2 or p-value < α",
+        "95% confidence interval: b̂ ± tα/2 · SE(b̂)"
+      ],
+      "definitions": [
+        {
+          "term": "Null hypothesis (H₀)",
+          "definition": "The hypothesis of no effect: typically H₀: βᵢ = 0 (the variable has no effect on Y)."
+        },
+        {
+          "term": "t-statistic",
+          "definition": "A test statistic measuring how many standard errors a coefficient estimate is from zero. Used to test significance of individual coefficients."
+        },
+        {
+          "term": "F-statistic",
+          "definition": "Tests whether all slope coefficients are simultaneously zero — i.e., whether the model as a whole has explanatory power."
+        },
+        {
+          "term": "p-value",
+          "definition": "The probability of observing a test statistic as extreme as the one calculated, assuming the null hypothesis is true. Reject H₀ if p < 0.05."
+        }
+      ],
+      "revisionPrompts": [
+        "What is the null hypothesis in a t-test on a regression coefficient?",
+        "If the p-value is 0.03 and α = 0.05, do you reject H₀?",
+        "What does the F-test in regression test?",
+        "How do you construct a 95% confidence interval for a coefficient?"
+      ],
+      "saContext": "In South African applied research, hypothesis tests are used to determine whether factors like education, province, or gender have statistically significant effects on wages or income inequality.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 5",
+      "title": "Model Specification & Diagnostics",
+      "outcomes": [
+        "Detect and understand the effects of multicollinearity",
+        "Test for heteroskedasticity using the White or Breusch-Pagan test",
+        "Test for autocorrelation using the Durbin-Watson statistic",
+        "Apply remedies for specification problems"
+      ],
+      "formulas": [
+        "VIF = 1/(1 - Rⱼ²) — Variance Inflation Factor for multicollinearity",
+        "Durbin-Watson statistic d ≈ 2(1 - ρ̂) — tests autocorrelation",
+        "Rule of thumb: VIF > 10 indicates serious multicollinearity"
+      ],
+      "definitions": [
+        {
+          "term": "Multicollinearity",
+          "definition": "A situation where two or more explanatory variables in a regression are highly correlated, making it difficult to isolate individual effects."
+        },
+        {
+          "term": "Heteroskedasticity",
+          "definition": "When the variance of the regression error term is not constant across observations, violating an OLS assumption."
+        },
+        {
+          "term": "Autocorrelation",
+          "definition": "When error terms in a regression are correlated with each other across observations, common in time series data."
+        },
+        {
+          "term": "VIF (Variance Inflation Factor)",
+          "definition": "A measure of how much multicollinearity inflates the variance of a coefficient estimate. VIF > 10 is problematic."
+        }
+      ],
+      "revisionPrompts": [
+        "What is multicollinearity and how does it affect OLS estimates?",
+        "What does a Durbin-Watson statistic of 0.8 suggest?",
+        "What are the consequences of heteroskedasticity for OLS?",
+        "How would you detect multicollinearity in EViews?"
+      ],
+      "saContext": "In SA economic models, multicollinearity often arises when including both income and wealth as predictors. Autocorrelation is common in South African macroeconomic time series such as CPI inflation and interest rates.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 6",
+      "title": "Dummy Variables & Functional Form",
+      "outcomes": [
+        "Construct dummy variables for categorical data",
+        "Interpret dummy variable coefficients as differential intercepts",
+        "Apply log-linear and log-log functional forms",
+        "Interpret coefficients as elasticities and semi-elasticities"
+      ],
+      "formulas": [
+        "Dummy variable: D = 1 if condition met, 0 otherwise",
+        "Log-linear: ln(Y) = β₀ + β₁X → β₁ × 100 = % change in Y per unit X",
+        "Log-log: ln(Y) = β₀ + β₁ln(X) → β₁ = elasticity of Y with respect to X",
+        "Dummy trap: use (k-1) dummies for k categories"
+      ],
+      "definitions": [
+        {
+          "term": "Dummy variable",
+          "definition": "A binary variable (0 or 1) that represents a categorical characteristic, such as gender (1=female, 0=male)."
+        },
+        {
+          "term": "Differential intercept",
+          "definition": "The coefficient on a dummy variable, representing the difference in the intercept (average Y) between the two groups."
+        },
+        {
+          "term": "Log-linear model",
+          "definition": "A regression model where the dependent variable is in log form: ln(Y) = β₀ + β₁X. The coefficient β₁ gives the approximate percentage change in Y per unit change in X."
+        },
+        {
+          "term": "Elasticity",
+          "definition": "The percentage change in Y for a 1% change in X, measured by the coefficient in a log-log model."
+        }
+      ],
+      "revisionPrompts": [
+        "Why do we use (k-1) dummy variables for a variable with k categories?",
+        "How do you interpret a dummy variable coefficient of 2000 in a wage regression?",
+        "What is the elasticity interpretation in a log-log model?",
+        "When would you choose a log-linear over a linear model?"
+      ],
+      "saContext": "In South African wage equations, dummy variables capture the wage gap between racial groups, provinces, or formal vs informal employment sectors. Log-linear models are used to estimate the returns to education.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 7",
+      "title": "Introduction to Time Series",
+      "outcomes": [
+        "Define stationarity and explain why it matters for time series regression",
+        "Conduct an Augmented Dickey-Fuller (ADF) unit root test",
+        "Understand spurious regression and how to avoid it",
+        "Apply first differencing to achieve stationarity"
+      ],
+      "formulas": [
+        "AR(1) model: Yₜ = ρYₜ₋₁ + εₜ; stationary if |ρ| < 1",
+        "First difference: ΔYₜ = Yₜ - Yₜ₋₁",
+        "ADF test: ΔYₜ = α + βYₜ₋₁ + Σγᵢ ΔYₜ₋ᵢ + εₜ; H₀: β = 0 (unit root)"
+      ],
+      "definitions": [
+        {
+          "term": "Stationarity",
+          "definition": "A property of a time series where the mean, variance, and autocovariance are constant over time."
+        },
+        {
+          "term": "Unit root",
+          "definition": "A characteristic of a non-stationary time series where shocks have permanent effects. Tested using the ADF test."
+        },
+        {
+          "term": "Spurious regression",
+          "definition": "A regression between two non-stationary series that shows a high R-squared and significant t-statistics by chance, not a real relationship."
+        },
+        {
+          "term": "First differencing",
+          "definition": "Transforming a time series by subtracting consecutive values (ΔYₜ = Yₜ - Yₜ₋₁) to achieve stationarity."
+        }
+      ],
+      "revisionPrompts": [
+        "What does it mean for a time series to be stationary?",
+        "Why is spurious regression a problem?",
+        "How do you test for a unit root using the ADF test?",
+        "What is first differencing and when should you use it?"
+      ],
+      "saContext": "South African macroeconomic series such as CPI, GDP, and the rand/dollar exchange rate are typically non-stationary. The SARB and National Treasury analysts must account for unit roots before modelling these series.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    }
+  ],
+  "chapterStudyItems": [
+    {
+      "chapter": "Chapter 1",
+      "flashcards": [
+        {
+          "id": "ch1-fc-1",
+          "chapter": "Chapter 1",
+          "front": "What is econometrics?",
+          "back": "The application of statistical and mathematical methods to economic data to test economic theories, quantify relationships, and forecast outcomes.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-2",
+          "chapter": "Chapter 1",
+          "front": "What is the difference between time series and cross-sectional data?",
+          "back": "Time series data tracks one subject over multiple time periods (e.g., monthly SA inflation 2000-2025). Cross-sectional data observes many subjects at one point in time (e.g., household incomes across SA provinces in 2024).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-3",
+          "chapter": "Chapter 1",
+          "front": "What is panel data?",
+          "back": "Data combining both cross-sectional and time series dimensions — multiple subjects observed over multiple time periods. Example: tracking employment rates across SA provinces from 2015 to 2025.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-4",
+          "chapter": "Chapter 1",
+          "front": "Why is the distinction between correlation and causation important?",
+          "back": "Correlation shows two variables move together, but does not prove one causes the other. Econometrics aims to establish causal relationships through careful model design, not just correlation.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch1-q1",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Which type of data tracks a single economic variable over multiple time periods?",
+          "options": [
+            "Cross-sectional data",
+            "Panel data",
+            "Time series data",
+            "Survey data"
+          ],
+          "answer": "Time series data",
+          "explanation": "Time series data records values of one or more variables at successive points in time, such as monthly GDP or quarterly inflation.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q2",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Which data type combines both cross-sectional and time series dimensions?",
+          "options": [
+            "Primary data",
+            "Time series data",
+            "Cross-sectional data",
+            "Panel data"
+          ],
+          "answer": "Panel data",
+          "explanation": "Panel data (also called longitudinal data) tracks multiple subjects over multiple time periods, combining the features of both data types.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q3",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Econometrics is best described as:",
+          "options": [
+            "Pure mathematics applied to physics",
+            "The study of economic history",
+            "Statistical methods applied to economic data",
+            "Accounting and financial analysis"
+          ],
+          "answer": "Statistical methods applied to economic data",
+          "explanation": "Econometrics uses statistical and mathematical tools to analyse economic data, test theories, and make forecasts.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch1-we-1",
+          "chapter": "Chapter 1",
+          "title": "Identifying Data Types in SA Research",
+          "summary": "Classifying South African economic datasets by data type.",
+          "problem": "Classify each of the following datasets: (a) Stats SA household survey data from 2024 across all provinces; (b) SARB repo rate from January 2015 to December 2025; (c) firm-level employment data across SA companies tracked quarterly from 2018–2024.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Dataset (a): Provincial household survey at one point in time — this is cross-sectional data (many subjects, one time period)."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Dataset (b): SARB repo rate over time — this is time series data (one subject, many time periods)."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Dataset (c): Multiple firms tracked over multiple quarters — this is panel data (many subjects, many time periods)."
+            }
+          ],
+          "answer": "(a) Cross-sectional  (b) Time series  (c) Panel data",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 2",
+      "flashcards": [
+        {
+          "id": "ch2-fc-1",
+          "chapter": "Chapter 2",
+          "front": "What does OLS minimise?",
+          "back": "OLS (Ordinary Least Squares) minimises the sum of squared residuals: min Σ(Yᵢ - Ŷᵢ)² = min Σε̂ᵢ²",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-2",
+          "chapter": "Chapter 2",
+          "front": "How do you interpret R-squared = 0.65?",
+          "back": "65% of the variation in the dependent variable Y is explained by the explanatory variable(s) in the model. The remaining 35% is unexplained.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-3",
+          "chapter": "Chapter 2",
+          "front": "In the model Wage = 5000 + 800×Education, how do you interpret the slope?",
+          "back": "Each additional year of education is associated with an average increase of R800 in monthly wages, holding other factors constant.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-4",
+          "chapter": "Chapter 2",
+          "front": "What is a residual in regression analysis?",
+          "back": "The difference between the observed Y value and the fitted (predicted) value: ε̂ = Y - Ŷ. Residuals measure how well the model fits each data point.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch2-q1",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "OLS estimation minimises which of the following?",
+          "options": [
+            "The sum of residuals",
+            "The sum of squared residuals",
+            "The mean of residuals",
+            "The absolute value of residuals"
+          ],
+          "answer": "The sum of squared residuals",
+          "explanation": "OLS finds the line of best fit by minimising Σ(Yᵢ - Ŷᵢ)², the sum of squared differences between observed and fitted values.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q2",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "An R-squared of 0.90 means:",
+          "options": [
+            "90% of observations lie on the regression line",
+            "The model has 90 explanatory variables",
+            "90% of the variation in Y is explained by the model",
+            "The slope coefficient is 0.90"
+          ],
+          "answer": "90% of the variation in Y is explained by the model",
+          "explanation": "R² measures the proportion of total variation in Y that is explained by the regression model. R² = 0.90 means 90% is explained.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q3",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "In the simple regression Y = β₀ + β₁X + ε, β₁ represents:",
+          "options": [
+            "The intercept",
+            "The average value of Y",
+            "The change in Y for a one-unit increase in X",
+            "The error term"
+          ],
+          "answer": "The change in Y for a one-unit increase in X",
+          "explanation": "β₁ is the slope coefficient, representing the estimated change in Y associated with a one-unit increase in X.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch2-we-1",
+          "chapter": "Chapter 2",
+          "title": "Wage-Education Regression Interpretation",
+          "summary": "Interpreting OLS output from a wage-education regression using South African data.",
+          "problem": "EViews output shows: Wage = 4500 + 750×Education, R² = 0.58, n = 200. Interpret the results.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Interpret the intercept (4500): A worker with zero years of education has an estimated average monthly wage of R4,500. (Note: may not be economically meaningful.)"
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Interpret the slope (750): Each additional year of education is associated with an average increase of R750 in monthly wages."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Interpret R² = 0.58: 58% of the variation in wages across workers is explained by differences in education. 42% is unexplained."
+            },
+            {
+              "label": "Step 4",
+              "explanation": "Sample size n = 200 provides reasonable precision for OLS estimation."
+            }
+          ],
+          "answer": "Workers earn R4,500 base + R750 per year of education. Education explains 58% of wage variation in this sample.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 3",
+      "flashcards": [
+        {
+          "id": "ch3-fc-1",
+          "chapter": "Chapter 3",
+          "front": "What is the multiple regression model?",
+          "back": "Y = β₀ + β₁X₁ + β₂X₂ + ... + βₖXₖ + ε, where multiple explanatory variables (X₁...Xₖ) predict Y simultaneously.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-2",
+          "chapter": "Chapter 3",
+          "front": "Why use adjusted R-squared instead of R-squared in multiple regression?",
+          "back": "R-squared always increases when you add more variables, even irrelevant ones. Adjusted R-squared penalises for adding variables that don't improve the model, making it a better comparison tool.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-3",
+          "chapter": "Chapter 3",
+          "front": "In Wage = 3000 + 600×Education + 50×Experience, how do you interpret the coefficient on Experience?",
+          "back": "Each additional year of experience is associated with a R50 increase in monthly wages, holding education constant (ceteris paribus).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-4",
+          "chapter": "Chapter 3",
+          "front": "What does 'ceteris paribus' mean in regression analysis?",
+          "back": "'All other things being equal' — when interpreting one coefficient, we assume all other explanatory variables remain constant.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch3-q1",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "Why is adjusted R-squared preferred over R-squared for comparing models with different numbers of predictors?",
+          "options": [
+            "It is always larger than R-squared",
+            "It penalises for adding irrelevant variables",
+            "It is easier to calculate",
+            "It removes heteroskedasticity"
+          ],
+          "answer": "It penalises for adding irrelevant variables",
+          "explanation": "Adjusted R-squared adjusts for the number of predictors, penalising model complexity. R-squared never decreases when variables are added, even irrelevant ones.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q2",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "The partial coefficient β₂ in a multiple regression measures:",
+          "options": [
+            "The total effect of X₂ on Y",
+            "The effect of X₂ on Y holding all other variables constant",
+            "The correlation between X₂ and Y",
+            "The intercept when X₂ = 0"
+          ],
+          "answer": "The effect of X₂ on Y holding all other variables constant",
+          "explanation": "In multiple regression, each coefficient is a partial coefficient — it shows the effect of one variable on Y while controlling for all other variables in the model.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q3",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "Adding an irrelevant variable to a multiple regression will:",
+          "options": [
+            "Increase R-squared",
+            "Decrease R-squared",
+            "Not change R-squared",
+            "Eliminate multicollinearity"
+          ],
+          "answer": "Increase R-squared",
+          "explanation": "R-squared always increases (or stays the same) when any variable is added, even if it is irrelevant. This is why adjusted R-squared is used for model comparison.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch3-we-1",
+          "chapter": "Chapter 3",
+          "title": "Multiple Regression Wage Model",
+          "summary": "Estimating and interpreting a multiple regression for South African wages.",
+          "problem": "EViews output: Wage = 2800 + 580×Education + 45×Experience + 300×Urban, Adj. R² = 0.72. Interpret all coefficients.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Intercept (2800): Estimated base wage for someone with zero education, zero experience, and living in a rural area."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Education (580): Each additional year of education increases wages by R580/month, holding experience and location constant."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Experience (45): Each additional year of work experience increases wages by R45/month, holding education and location constant."
+            },
+            {
+              "label": "Step 4",
+              "explanation": "Urban (300): Urban workers earn R300/month more than rural workers, holding education and experience constant."
+            },
+            {
+              "label": "Step 5",
+              "explanation": "Adj. R² = 0.72: The model explains 72% of wage variation — a good fit."
+            }
+          ],
+          "answer": "All three variables have positive effects on wages. Education has the largest per-unit effect. The model fits the data well (Adj. R² = 0.72).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 4",
+      "flashcards": [
+        {
+          "id": "ch4-fc-1",
+          "chapter": "Chapter 4",
+          "front": "What is the null hypothesis in a t-test for a regression coefficient?",
+          "back": "H₀: βᵢ = 0 (the explanatory variable has no effect on Y). The alternative is H₁: βᵢ ≠ 0 (two-tailed) or one-sided.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-2",
+          "chapter": "Chapter 4",
+          "front": "How do you calculate the t-statistic for a coefficient?",
+          "back": "t = b̂ᵢ / SE(b̂ᵢ), where b̂ᵢ is the estimated coefficient and SE(b̂ᵢ) is its standard error. Reject H₀ if |t| > critical value or p < α.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-3",
+          "chapter": "Chapter 4",
+          "front": "What does the F-test in regression test?",
+          "back": "The F-test tests whether all slope coefficients are jointly zero: H₀: β₁ = β₂ = ... = βₖ = 0. It assesses overall model significance.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-4",
+          "chapter": "Chapter 4",
+          "front": "If the p-value for a coefficient is 0.03 and α = 0.05, what is your conclusion?",
+          "back": "Reject H₀. Since p = 0.03 < α = 0.05, the coefficient is statistically significant at the 5% level. The variable has a significant effect on Y.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch4-q1",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "The t-statistic for a coefficient is calculated as:",
+          "options": [
+            "coefficient × standard error",
+            "coefficient / standard error",
+            "standard error / coefficient",
+            "coefficient - standard error"
+          ],
+          "answer": "coefficient / standard error",
+          "explanation": "t = b̂ / SE(b̂). This measures how many standard errors the estimated coefficient is from zero.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q2",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "At a 5% significance level, you reject H₀ when the p-value is:",
+          "options": [
+            "Greater than 0.05",
+            "Equal to 0.05",
+            "Less than 0.05",
+            "Greater than 0.10"
+          ],
+          "answer": "Less than 0.05",
+          "explanation": "You reject the null hypothesis when the p-value is less than the significance level (α = 0.05). p < 0.05 means the result is statistically significant.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q3",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "The F-test in multiple regression tests whether:",
+          "options": [
+            "All coefficients are equal to one",
+            "At least one coefficient is negative",
+            "All slope coefficients are simultaneously zero",
+            "The intercept is zero"
+          ],
+          "answer": "All slope coefficients are simultaneously zero",
+          "explanation": "The F-test null hypothesis is H₀: β₁ = β₂ = ... = βₖ = 0. Rejecting it means at least one variable has a significant effect on Y.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch4-we-1",
+          "chapter": "Chapter 4",
+          "title": "Testing Significance of Education in Wage Model",
+          "summary": "Performing a t-test on the education coefficient in a SA wage regression.",
+          "problem": "EViews output: b_education = 580, SE = 145, n = 200, k = 3. Test H₀: β_education = 0 at 5% significance.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "State hypotheses: H₀: β_education = 0  vs  H₁: β_education ≠ 0"
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Calculate t-statistic: t = 580 / 145 = 4.00"
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Find critical value: degrees of freedom = n - k - 1 = 200 - 3 - 1 = 196. t_critical (α=0.05, two-tail) ≈ 1.972"
+            },
+            {
+              "label": "Step 4",
+              "explanation": "Compare: |t| = 4.00 > 1.972, so reject H₀"
+            },
+            {
+              "label": "Step 5",
+              "explanation": "Conclusion: Education has a statistically significant positive effect on wages at the 5% significance level."
+            }
+          ],
+          "answer": "Reject H₀. The education coefficient is statistically significant (t = 4.00 > 1.972).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 5",
+      "flashcards": [
+        {
+          "id": "ch5-fc-1",
+          "chapter": "Chapter 5",
+          "front": "What is multicollinearity and what does it cause?",
+          "back": "Multicollinearity occurs when explanatory variables are highly correlated. It inflates standard errors, makes t-statistics unreliable, and makes it hard to isolate individual variable effects.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-2",
+          "chapter": "Chapter 5",
+          "front": "How is the Variance Inflation Factor (VIF) interpreted?",
+          "back": "VIF = 1/(1-Rⱼ²). VIF = 1 means no multicollinearity. VIF > 5 is moderate concern; VIF > 10 indicates serious multicollinearity requiring action.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-3",
+          "chapter": "Chapter 5",
+          "front": "What is heteroskedasticity?",
+          "back": "A violation of the OLS assumption of constant error variance. Heteroskedasticity means Var(εᵢ) is not constant across observations, causing inefficient OLS estimates and invalid standard errors.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-4",
+          "chapter": "Chapter 5",
+          "front": "What does the Durbin-Watson statistic test?",
+          "back": "It tests for first-order autocorrelation in regression residuals. Values near 2 indicate no autocorrelation; values near 0 suggest positive autocorrelation; values near 4 suggest negative autocorrelation.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch5-q1",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "A VIF of 12 for a variable indicates:",
+          "options": [
+            "No multicollinearity",
+            "Mild multicollinearity",
+            "Serious multicollinearity",
+            "Perfect fit"
+          ],
+          "answer": "Serious multicollinearity",
+          "explanation": "VIF > 10 is the rule-of-thumb threshold for serious multicollinearity, which inflates standard errors and distorts hypothesis tests.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q2",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "Heteroskedasticity means that the:",
+          "options": [
+            "Explanatory variables are correlated",
+            "Error variance is not constant across observations",
+            "Regression coefficients are biased",
+            "Model has too many variables"
+          ],
+          "answer": "Error variance is not constant across observations",
+          "explanation": "Heteroskedasticity is a violation of the OLS constant-variance assumption. It makes standard errors unreliable, affecting hypothesis tests.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q3",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "A Durbin-Watson statistic close to 0 suggests:",
+          "options": [
+            "No autocorrelation",
+            "Negative autocorrelation",
+            "Positive autocorrelation",
+            "Heteroskedasticity"
+          ],
+          "answer": "Positive autocorrelation",
+          "explanation": "DW values near 0 indicate strong positive autocorrelation (consecutive residuals are positively correlated). DW ≈ 2 is ideal (no autocorrelation).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch5-we-1",
+          "chapter": "Chapter 5",
+          "title": "Diagnosing Model Problems",
+          "summary": "Identifying specification problems in a regression model using diagnostic statistics.",
+          "problem": "A regression model of SA house prices shows: VIF for size = 14.2, VIF for bedrooms = 11.8; DW = 0.95; White test p-value = 0.02. Identify and explain the problems.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "VIF for size (14.2) and bedrooms (11.8) are both > 10 — serious multicollinearity. Size and bedrooms are highly correlated, inflating standard errors."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "DW = 0.95 (well below 2) suggests positive autocorrelation in residuals — possibly because houses in the same neighbourhood have similar prices."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "White test p-value = 0.02 < 0.05 — reject H₀ of homoskedasticity. Heteroskedasticity is present (larger houses show more price variability)."
+            },
+            {
+              "label": "Step 4",
+              "explanation": "Remedies: Drop one collinear variable; use robust standard errors for heteroskedasticity; add spatial controls for autocorrelation."
+            }
+          ],
+          "answer": "Three problems detected: serious multicollinearity (VIF > 10), positive autocorrelation (DW ≈ 1), and heteroskedasticity (White test p = 0.02).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 6",
+      "flashcards": [
+        {
+          "id": "ch6-fc-1",
+          "chapter": "Chapter 6",
+          "front": "What is a dummy variable and when is it used?",
+          "back": "A dummy variable takes values 0 or 1 to represent a categorical characteristic. Used when a variable is qualitative (e.g., gender, region). For k categories, include k-1 dummies to avoid the dummy trap.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-2",
+          "chapter": "Chapter 6",
+          "front": "In Wage = 4000 + 1500×Female, how do you interpret the dummy coefficient?",
+          "back": "Female workers earn R1,500 more per month than male workers on average, holding other factors constant. (Or if the coefficient were negative: female workers earn less.)",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-3",
+          "chapter": "Chapter 6",
+          "front": "How do you interpret the slope in a log-linear model: ln(Wage) = 8.2 + 0.08×Education?",
+          "back": "Each additional year of education is associated with an approximate 8% increase in wages (0.08 × 100 = 8%). This is a semi-elasticity interpretation.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-4",
+          "chapter": "Chapter 6",
+          "front": "What is the elasticity interpretation in a log-log model?",
+          "back": "In ln(Y) = β₀ + β₁ln(X), β₁ is the elasticity: a 1% increase in X leads to a β₁% change in Y.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch6-q1",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "If a variable has 4 categories, how many dummy variables should you include in a regression?",
+          "options": [
+            "4",
+            "3",
+            "2",
+            "1"
+          ],
+          "answer": "3",
+          "explanation": "To avoid perfect multicollinearity (the dummy variable trap), include k-1 dummies for k categories. For 4 categories, include 3 dummy variables.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q2",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "In a log-log regression ln(Y) = 2 + 0.6ln(X), the coefficient 0.6 represents:",
+          "options": [
+            "A R0.60 change in Y per unit X",
+            "A 0.6% change in Y per unit X",
+            "The elasticity of Y with respect to X",
+            "The intercept when X = 1"
+          ],
+          "answer": "The elasticity of Y with respect to X",
+          "explanation": "In a log-log model, the coefficient on ln(X) is the elasticity: a 1% increase in X leads to a 0.6% increase in Y.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q3",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "In a wage regression, a dummy variable D_Urban = 1 for urban workers has a coefficient of 800. This means:",
+          "options": [
+            "Urban workers earn R800 less than rural workers",
+            "Urban workers earn R800 more than rural workers on average",
+            "80% of workers are urban",
+            "The model has an R-squared of 0.80"
+          ],
+          "answer": "Urban workers earn R800 more than rural workers on average",
+          "explanation": "The dummy variable coefficient measures the difference in the intercept (average outcome) between the two groups, holding other variables constant.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch6-we-1",
+          "chapter": "Chapter 6",
+          "title": "Gender Wage Gap with Dummy Variable",
+          "summary": "Using a dummy variable to measure the gender wage gap in a South African wage model.",
+          "problem": "Estimate the model: Wage = β₀ + β₁Education + β₂Female + ε. EViews output: β₀ = 3500, β₁ = 600, β₂ = -900. Interpret and discuss the gender wage gap.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Define the dummy: Female = 1 if female worker, 0 if male."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Intercept (3500): Average base wage for male workers (reference group) with zero education."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Education (600): Each additional year of education raises wages by R600/month, for both male and female workers."
+            },
+            {
+              "label": "Step 4",
+              "explanation": "Female (-900): Female workers earn R900/month less than male workers with the same education level — the gender wage gap."
+            },
+            {
+              "label": "Step 5",
+              "explanation": "Policy implication: Even after controlling for education, a significant wage gap exists, suggesting labour market discrimination or other factors in SA."
+            }
+          ],
+          "answer": "Controlling for education, female workers earn R900/month less than male workers — a significant gender wage gap in the SA labour market.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 7",
+      "flashcards": [
+        {
+          "id": "ch7-fc-1",
+          "chapter": "Chapter 7",
+          "front": "What is a stationary time series?",
+          "back": "A time series where the mean, variance, and autocovariance are constant over time. Stationarity is required for valid regression with time series data.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-2",
+          "chapter": "Chapter 7",
+          "front": "What is a spurious regression?",
+          "back": "When two non-stationary series appear to be related (high R-squared, significant t-stats) purely by chance — not because of any real economic relationship.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-3",
+          "chapter": "Chapter 7",
+          "front": "What does the ADF test test?",
+          "back": "The Augmented Dickey-Fuller (ADF) test tests H₀: the series has a unit root (is non-stationary). Rejecting H₀ means the series is stationary.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-4",
+          "chapter": "Chapter 7",
+          "front": "How does first differencing achieve stationarity?",
+          "back": "First differencing computes ΔYₜ = Yₜ - Yₜ₋₁. If the original series is I(1) (has one unit root), the differenced series ΔY is stationary (I(0)).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch7-q1",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "A spurious regression occurs when:",
+          "options": [
+            "Two stationary series are regressed on each other",
+            "Two non-stationary series show a high R-squared by chance",
+            "The model has too many dummy variables",
+            "The F-statistic is very small"
+          ],
+          "answer": "Two non-stationary series show a high R-squared by chance",
+          "explanation": "Spurious regression produces misleadingly high R-squared and significant t-statistics between non-stationary series that have no real economic relationship.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q2",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "The null hypothesis of the ADF test is that the series:",
+          "options": [
+            "Is stationary",
+            "Has a unit root (is non-stationary)",
+            "Is normally distributed",
+            "Has no autocorrelation"
+          ],
+          "answer": "Has a unit root (is non-stationary)",
+          "explanation": "The ADF test H₀ is that the series has a unit root. Rejecting H₀ (when ADF stat < critical value) means the series is stationary.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q3",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "First differencing a time series is used to:",
+          "options": [
+            "Add a trend variable",
+            "Achieve stationarity",
+            "Remove heteroskedasticity",
+            "Increase R-squared"
+          ],
+          "answer": "Achieve stationarity",
+          "explanation": "First differencing (ΔYₜ = Yₜ - Yₜ₋₁) removes stochastic trends and typically produces a stationary series from a non-stationary I(1) series.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch7-we-1",
+          "chapter": "Chapter 7",
+          "title": "Testing Stationarity of SA Inflation Data",
+          "summary": "Applying the ADF test to South African CPI inflation data in EViews.",
+          "problem": "You have monthly SA CPI data from 2010–2024. Conduct an ADF test and determine whether to use levels or first differences.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Plot the CPI series. If it shows an upward trend, it is likely non-stationary (I(1))."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Run the ADF test on CPI levels in EViews. Include a constant and trend. Obtain the ADF t-statistic."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Compare ADF statistic to critical value (e.g., -3.44 at 5%). If ADF stat > -3.44 (less negative), fail to reject H₀ — series is non-stationary."
+            },
+            {
+              "label": "Step 4",
+              "explanation": "Take first difference: ΔCPI = CPI - CPI(-1). Run ADF test on ΔCPI."
+            },
+            {
+              "label": "Step 5",
+              "explanation": "If ADF stat < critical value for ΔCPI, reject H₀ — ΔCPI is stationary. Use first differences in any regression model."
+            }
+          ],
+          "answer": "SA CPI is typically non-stationary (I(1)). Use first differences (inflation rate = change in CPI) in regression models to avoid spurious results.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    }
+  ],
+  "discipline": "economics",
+  "referenceList": [
+    {
+      "title": "Mankiw, N.G. — Principles of Economics, 9th Edition (Cengage)",
+      "publisher": "Cengage",
+      "url": "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+      "note": "Canonical introductory economics text; covers supply/demand, macro measures, and policy.",
+      "sourceHash": "60578e43514380ac67848c11a702b3e079a32e31a815df36d25d1d308aec9341"
+    },
+    {
+      "title": "OpenStax — Principles of Economics 2e (free, CC BY)",
+      "publisher": "OpenStax / Rice University",
+      "url": "https://openstax.org/details/books/principles-economics-2e",
+      "note": "Open-access alternative textbook; peer-reviewed, suitable for student self-study.",
+      "sourceHash": "7a4bb52a2181defcd7dcc29f8b817732bfd3878a2c30c799e4fbca601d09332c"
+    },
+    {
+      "title": "South African Reserve Bank — Quarterly Bulletin & data",
+      "publisher": "SARB",
+      "url": "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+      "note": "Primary source for SA macro data (inflation, GDP, interest rates) used in local examples.",
+      "sourceHash": "573ee763894dcff28f43b687c734096359363bc521979b0b5cd61c8c3452e466"
+    },
+    {
+      "title": "Statistics South Africa — GDP & CPI releases",
+      "publisher": "Stats SA",
+      "url": "https://www.statssa.gov.za/",
+      "note": "Official SA economic statistics; cite for any South-Africa-specific macro figures.",
+      "sourceHash": "196b319e1f53048b59686b7ec0bec1696105083f544cd87cd216893c4684c11d"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: Economic Analysis 121 (BCom Economic Sciences, North-West University). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "Chapter-by-chapter teaching focus (derived from the module's own learning outcomes and key definitions):",
+    "  • Chapter 1 — Introduction to Econometrics. Emphasise: Define econometrics and explain its role in economic analysis; Distinguish between cross-sectional, time series, and panel data; Explain the steps of an empirical economic study. Local context: South African econometric applications include analysing the effect of education on wages (using NIDS data), studying the relationship between the repo rate and inflation (SARB time series), or examining provincial GDP differences (cross-sectional data from Stats SA).",
+    "  • Chapter 2 — Simple Linear Regression. Emphasise: Set up and interpret a simple linear regression model; Understand and apply OLS estimation; Interpret slope and intercept coefficients in context. Local context: A common SA example is regressing workers' wages on years of education using Stats SA labour force data. The slope tells us how much average wages increase for each additional year of schooling in South Africa.",
+    "  • Chapter 3 — Multiple Regression. Emphasise: Extend the simple regression model to include multiple explanatory variables; Interpret partial regression coefficients; Calculate and interpret adjusted R-squared. Local context: A South African multiple regression might model house prices using size, number of bedrooms, and suburb location — isolating the effect of each factor on property values in Gauteng.",
+    "  • Chapter 4 — Hypothesis Testing in Regression. Emphasise: Conduct and interpret t-tests for individual regression coefficients; Conduct and interpret F-tests for overall model significance; Calculate p-values and compare to significance levels. Local context: In South African applied research, hypothesis tests are used to determine whether factors like education, province, or gender have statistically significant effects on wages or income inequality.",
+    "  • Chapter 5 — Model Specification & Diagnostics. Emphasise: Detect and understand the effects of multicollinearity; Test for heteroskedasticity using the White or Breusch-Pagan test; Test for autocorrelation using the Durbin-Watson statistic. Local context: In SA economic models, multicollinearity often arises when including both income and wealth as predictors. Autocorrelation is common in South African macroeconomic time series such as CPI inflation and interest rates.",
+    "  • Chapter 6 — Dummy Variables & Functional Form. Emphasise: Construct dummy variables for categorical data; Interpret dummy variable coefficients as differential intercepts; Apply log-linear and log-log functional forms. Local context: In South African wage equations, dummy variables capture the wage gap between racial groups, provinces, or formal vs informal employment sectors. Log-linear models are used to estimate the returns to education.",
+    "  • Chapter 7 — Introduction to Time Series. Emphasise: Define stationarity and explain why it matters for time series regression; Conduct an Augmented Dickey-Fuller (ADF) unit root test; Understand spurious regression and how to avoid it. Local context: South African macroeconomic series such as CPI, GDP, and the rand/dollar exchange rate are typically non-stationary. The SARB and National Treasury analysts must account for unit roots before modelling these series.",
+    "Pedagogy tip (quantitative): work at least one fully solved example on the board per topic, then assign a parallel guided-practice problem. Common student errors: sign errors in debit/credit (accounting), confusing correlation with causation (stats/econ), and unit/percentage mistakes in ratio work. Build a short weekly formative quiz from the module's own revision prompts.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "60578e43514380ac67848c11a702b3e079a32e31a815df36d25d1d308aec9341",
+    "7a4bb52a2181defcd7dcc29f8b817732bfd3878a2c30c799e4fbca601d09332c",
+    "573ee763894dcff28f43b687c734096359363bc521979b0b5cd61c8c3452e466",
+    "196b319e1f53048b59686b7ec0bec1696105083f544cd87cd216893c4684c11d"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

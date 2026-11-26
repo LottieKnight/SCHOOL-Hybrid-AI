@@ -1,0 +1,29 @@
+/* Shell entrance without a motion library or a blur filter.
+   Blur on first paint is expensive on low-end Android GPUs. */
+
+.shell-root[data-entered="false"] .shell-content {
+  opacity: 0;
+}
+
+.shell-root[data-entered="true"] .shell-content {
+  opacity: 1;
+  transition: opacity 0.28s ease;
+}
+
+html.lite-mode .shell-ambient {
+  display: none;
+}
+
+html.lite-mode .shell-root[data-entered="false"] .shell-content,
+html.lite-mode .shell-content {
+  opacity: 1;
+  transition: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shell-root[data-entered="false"] .shell-content,
+  .shell-content {
+    opacity: 1;
+    transition: none;
+  }
+}

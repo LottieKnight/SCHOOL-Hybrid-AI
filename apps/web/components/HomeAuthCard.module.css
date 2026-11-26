@@ -1,0 +1,241 @@
+.card {
+  display: grid;
+  gap: 0;
+  height: 100%;
+}
+
+.signIn {
+  display: grid;
+  gap: 14px;
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 2.4vw, 2rem);
+  line-height: 1.1;
+  color: var(--text-1);
+  text-align: center;
+}
+
+.form {
+  display: grid;
+  gap: 12px;
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--text-2);
+  text-transform: uppercase;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: var(--r-md);
+  border: 1px solid var(--border-2);
+  background: var(--surface-2);
+  color: var(--text-1);
+  font-size: 0.93rem;
+  transition: border-color var(--t) var(--ease);
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--gold-border);
+  box-shadow: 0 0 0 2px var(--gold-dim);
+}
+
+.error {
+  margin: 0;
+  padding: 10px 14px;
+  border-radius: var(--r-md);
+  background: color-mix(in srgb, #ef4444 12%, transparent);
+  border: 1px solid color-mix(in srgb, #ef4444 30%, transparent);
+  color: #f87171;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.passwordWrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.inputWithToggle {
+  padding-right: 54px;
+}
+
+.eyeBtn {
+  position: absolute;
+  right: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-3);
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  border-radius: var(--r-md);
+}
+
+.eyeBtn:hover {
+  color: var(--text-2);
+  background: color-mix(in srgb, var(--text-3) 8%, transparent);
+}
+
+.submitBtn {
+  width: 100%;
+  justify-content: center;
+  font-size: 0.95rem;
+  padding: 12px 20px;
+}
+
+.divider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+.dividerText {
+  padding: 0 12px;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  font-family: var(--font-mono);
+}
+
+.signUp {
+  display: grid;
+  gap: 12px;
+}
+
+.signUpCopy {
+  margin: 0;
+  text-align: center;
+  color: var(--text-2);
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.signUpBtn {
+  display: block;
+  text-align: center;
+  font-size: 0.93rem;
+  padding: 12px 20px;
+}
+
+.proof {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-3);
+  letter-spacing: 0.04em;
+}
+
+.guestBtn {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  background: transparent;
+  color: var(--text-3);
+  font-size: 0.88rem;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: border-color 0.15s, color 0.15s;
+}
+.guestBtn:hover {
+  border-color: rgba(255, 255, 255, 0.25);
+  color: var(--text-1);
+}
+.guestHint {
+  font-size: 0.75rem;
+  color: var(--text-3);
+  text-align: center;
+  margin-top: 6px;
+}
+
+/* ── Authenticated quick-jump ── */
+.quickJump {
+  display: grid;
+  gap: 14px;
+}
+
+.quickJumpTag {
+  margin: 0;
+  text-align: center;
+  color: var(--text-2);
+  font-size: 0.88rem;
+}
+
+.quickJumpLinks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.quickJumpBtn {
+  text-align: center;
+  font-size: 0.85rem;
+  padding: 10px 12px;
+}
+
+.guestBtn {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  background: transparent;
+  color: var(--text-3);
+  font-size: 0.88rem;
+  font-weight: 500;
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  cursor: pointer;
+  text-align: center;
+  transition: border-color var(--t) var(--ease), color var(--t) var(--ease);
+  font-family: inherit;
+}
+
+.guestBtn:hover {
+  border-color: var(--border-2);
+  color: var(--text-2);
+}
+
+.guestHint {
+  font-size: 0.75rem;
+  color: var(--text-3);
+  text-align: center;
+  margin: 6px 0 0;
+}
+
+.guestSection {
+  display: grid;
+  gap: 4px;
+}

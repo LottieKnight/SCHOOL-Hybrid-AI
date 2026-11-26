@@ -1,0 +1,105 @@
+﻿.filterRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 18px 0 24px;
+}
+
+.notice {
+  border-radius: 14px;
+  padding: 12px 16px;
+  border: 1px solid rgba(54, 45, 30, 0.12);
+  background: rgba(255, 255, 255, 0.65);
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+}
+
+.noticeSuccess {
+  border-color: rgba(43, 122, 61, 0.25);
+  color: var(--green);
+}
+
+.noticeError {
+  border-color: rgba(138, 58, 43, 0.35);
+  color: var(--red);
+}
+
+.noticeInfo {
+  border-color: rgba(54, 45, 30, 0.2);
+  color: var(--muted);
+}
+
+.status {
+  margin: 0 0 16px;
+  color: var(--muted);
+}
+
+.statusError {
+  margin: 0 0 16px;
+  color: var(--red);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+}
+
+.card {
+  padding: 18px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(54, 45, 30, 0.12);
+  background: rgba(255, 255, 255, 0.55);
+  display: grid;
+  gap: 12px;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.free,
+.paid {
+  font-size: 0.85rem;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(54, 45, 30, 0.12);
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.free {
+  color: var(--green);
+}
+
+.paid {
+  color: var(--red);
+}
+
+.description {
+  margin: 0;
+  color: var(--muted);
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px dashed rgba(54, 45, 30, 0.2);
+  background: rgba(255, 255, 255, 0.65);
+  font-size: 0.8rem;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+

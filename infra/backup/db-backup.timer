@@ -1,0 +1,9 @@
+[Unit]
+Description=Run daily backup of PostgreSQL database to S3 at 2 AM
+
+[Timer]
+OnCalendar=*-*-* 02:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

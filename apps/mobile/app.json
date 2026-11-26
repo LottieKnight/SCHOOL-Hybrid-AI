@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "SCHOOL Mobile",
+    "slug": "school-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "backgroundColor": "#07101f",
+          "resizeMode": "contain",
+          "animationDuration": 300,
+          "ios": {
+            "image": "./assets/splash-icon.png",
+            "backgroundColor": "#07101f",
+            "resizeMode": "contain",
+            "animationDuration": 300
+          },
+          "android": {
+            "image": "./assets/splash-icon.png",
+            "backgroundColor": "#07101f",
+            "resizeMode": "contain",
+            "animationDuration": 300
+          }
+        }
+      ],
+      "expo-secure-store",
+      "expo-font",
+      "@sentry/react-native",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#07101f",
+          "defaultChannel": "default",
+          "enableBackgroundRemoteNotifications": false
+        }
+      ]
+    ]
+  }
+}

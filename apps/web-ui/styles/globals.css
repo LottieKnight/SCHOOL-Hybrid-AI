@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+:root {
+  --font-base: 'Inter', sans-serif;
+  --color-primary: hsl(210, 85%, 55%);
+  --color-secondary: hsl(215, 70%, 45%);
+  --color-bg: hsl(220, 10%, 12%);
+  --color-bg-light: hsl(220, 10%, 18%);
+  --color-text: hsl(0, 0%, 95%);
+  --radius: 0.75rem;
+  --shadow-glass: 0 8px 32px rgba(0,0,0,0.12);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin:0; padding:0; }
+html { font-family: var(--font-base); color: var(--color-text); background: var(--color-bg); scroll-behavior: smooth; }
+a { color: var(--color-primary); text-decoration: none; transition: opacity .2s; }
+a:hover { opacity: .85; }
+
+@media (prefers-color-scheme: dark) {
+  :root { --color-bg: hsl(220,10%,12%); --color-bg-light: hsl(220,10%,18%); }
+}
+
+.glass-card {
+  background: rgba(255,255,255,0.08);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-glass);
+  backdrop-filter: blur(12px);
+  padding: 1.5rem;
+  transition: transform .2s;
+}
+.glass-card:hover { transform: translateY(-4px); }

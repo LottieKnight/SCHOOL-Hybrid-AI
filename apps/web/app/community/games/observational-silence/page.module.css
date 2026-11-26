@@ -1,0 +1,262 @@
+.wrap {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+  color: var(--text, #e9e7df);
+  font-family: var(--font-body, system-ui, sans-serif);
+}
+
+/* AURA × SCHOOL research lockup */
+.lockup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  margin-bottom: 18px;
+}
+
+.back {
+  align-self: flex-start;
+  font-size: 14px;
+  color: var(--text, #e9e7df);
+  opacity: 0.6;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.back:hover {
+  opacity: 1;
+}
+
+.mark {
+  color: var(--gold, #e8c15a);
+  letter-spacing: 10px;
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+
+.org {
+  font-family: var(--font-display, "Cormorant Garamond", Georgia, serif);
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.partner {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.55;
+}
+
+.divider {
+  width: 120px;
+  height: 1px;
+  background: var(--gold, #e8c15a);
+  opacity: 0.5;
+  margin: 10px 0 8px;
+}
+
+.badge {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold, #e8c15a);
+  border: 1px solid var(--gold, #e8c15a);
+  border-radius: 999px;
+  padding: 3px 12px;
+}
+
+.title {
+  font-family: var(--font-display, "Cormorant Garamond", Georgia, serif);
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 0 0 18px;
+}
+
+.subhead {
+  font-family: var(--font-display, "Cormorant Garamond", Georgia, serif);
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+.stage {
+  background: var(--surface, #0c1628);
+  border: 1px solid rgba(255, 215, 0, 0.12);
+  border-radius: var(--radius-md, 12px);
+  padding: 14px;
+}
+
+.canvas {
+  display: block;
+  width: 100%;
+  aspect-ratio: 640 / 380;
+  border-radius: 8px;
+}
+
+.panel {
+  margin-top: 18px;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.muted {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.teal {
+  color: #5dcaa5;
+}
+
+.intruderWord {
+  color: #ed93b1;
+}
+
+.error {
+  margin-top: 12px;
+  color: #ff9b9b;
+  font-size: 14px;
+}
+
+.checkRow {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0;
+  font-size: 14px;
+}
+
+.field {
+  display: block;
+  margin: 12px 0 4px;
+  font-size: 14px;
+}
+
+.fieldLabel {
+  margin: 14px 0 4px;
+  font-size: 15px;
+}
+
+.primary {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 11px 20px;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: var(--radius-md, 10px);
+  background: var(--gold, #e8c15a);
+  color: #07101f;
+  cursor: pointer;
+  text-decoration: none;
+}
+.primary:hover {
+  background: var(--gold-strong, #ffe033);
+}
+.primary:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.choice {
+  padding: 10px 18px;
+  font: inherit;
+  font-size: 15px;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  border-radius: var(--radius-md, 10px);
+  background: transparent;
+  color: var(--text, #e9e7df);
+  cursor: pointer;
+}
+.choice:hover {
+  background: rgba(255, 215, 0, 0.08);
+}
+
+.choiceOn {
+  padding: 10px 18px;
+  font: inherit;
+  font-size: 15px;
+  border: 1px solid var(--gold, #e8c15a);
+  border-radius: var(--radius-md, 10px);
+  background: rgba(255, 215, 0, 0.15);
+  color: var(--text, #e9e7df);
+  cursor: pointer;
+}
+
+.number,
+.text {
+  display: block;
+  margin: 8px 0;
+  padding: 10px 12px;
+  font: inherit;
+  border: 1px solid rgba(255, 215, 0, 0.25);
+  border-radius: var(--radius-md, 10px);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text, #e9e7df);
+}
+.number {
+  width: 110px;
+}
+.text {
+  width: 100%;
+  max-width: 320px;
+}
+
+.confidence {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+.confidence button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.confNum {
+  font-weight: 600;
+  color: var(--gold, #e8c15a);
+  width: 18px;
+}
+
+.confLabel {
+  font-size: 14px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 14px 0;
+}
+
+.card {
+  background: rgba(255, 215, 0, 0.06);
+  border: 1px solid rgba(255, 215, 0, 0.12);
+  border-radius: var(--radius-md, 10px);
+  padding: 12px;
+}
+
+.k {
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.v {
+  font-family: var(--font-display, "Cormorant Garamond", Georgia, serif);
+  font-size: 26px;
+  font-weight: 600;
+}

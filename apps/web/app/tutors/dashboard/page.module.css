@@ -1,0 +1,175 @@
+﻿.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.notice {
+  margin: 12px 0;
+  padding: 10px 12px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.success {
+  background: rgba(50, 205, 50, 0.12);
+  color: var(--green);
+}
+
+.error {
+  background: rgba(255, 0, 0, 0.1);
+  color: var(--red);
+}
+
+.info {
+  background: rgba(0, 128, 255, 0.1);
+  color: var(--gold);
+}
+
+.profileCard {
+  padding: 18px;
+  border-radius: var(--r-lg);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  display: grid;
+  gap: 10px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 0 16px 34px rgba(0,0,0,0.14);
+}
+
+.profileMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.profileLine {
+  font-size: 0.85rem;
+  color: var(--text);
+}
+
+.badgeRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.badgePill {
+  font-size: 0.7rem;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(54, 45, 30, 0.12);
+  background: rgba(255, 255, 255, 0.6);
+  color: var(--muted);
+}
+
+.grid {
+  margin-top: 18px;
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.panel {
+  padding: 18px;
+  border-radius: var(--r-lg);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  display: grid;
+  gap: 12px;
+}
+
+.sessionRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  border-top: 1px dashed rgba(54, 45, 30, 0.12);
+  padding-top: 10px;
+}
+
+.sessionActions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.earnings {
+  display: grid;
+  gap: 12px;
+}
+
+.earningsLabel {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.historyGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.historyCard {
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(54, 45, 30, 0.12);
+  background: rgba(255, 255, 255, 0.6);
+  display: grid;
+  gap: 6px;
+}
+
+.empty {
+  display: grid;
+  gap: 12px;
+  padding: 12px 0;
+}
+
+.legal {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px dashed rgba(54, 45, 30, 0.18);
+  font-size: 0.8rem;
+  color: var(--muted);
+  display: grid;
+  gap: 8px;
+}
+
+.legalLine {
+  font-size: 0.85rem;
+}
+
+@media (max-width: 720px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .sessionRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .sessionActions {
+    width: 100%;
+  }
+
+  .sessionActions :global(.button) {
+    width: 100%;
+  }
+}
+

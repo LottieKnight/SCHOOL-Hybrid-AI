@@ -1,0 +1,251 @@
+// Scholar Credits - Cross-Venture Ledger Schema
+// Extends the existing Prisma schema for unified credits across all Ditshego ventures
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum VentureType {
+  SCHOOL
+  AURA
+  SPHERE
+  NPC
+  ROCKIT
+  SCENE
+  LOGISTICS
+  V4NTAG3
+  DITSHGO_VENTURES
+}
+
+enum CreditTransactionType {
+  EARN
+  SPEND
+  TRANSFER_IN
+  TRANSFER_OUT
+  BONUS
+  PENALTY
+  REFUND
+  ADJUSTMENT
+}
+
+enum CreditSource {
+  // SCHOOL sources
+  QUESTION_ACCEPTED
+  ANSWER_POSTED
+  DAILY_QUIZ_COMPLETE
+  DAILY_QUIZ_STREAK
+  PAST_PAPER_UPLOAD
+  MODULE_ROOM_PARTICIPATION
+  GAME_BRAZIL_COMPLETE
+  GAME_EXAM_DASH_HIGH_SCORE
+  STUDY_PLANNER_TASK_COMPLETE
+  REFERRAL_SIGNUP
+  CONTENT_CONTRIBUTION
+
+  // NPC sources
+  INCUBATOR_APPLICATION
+  INCUBATOR_ACCEPTANCE
+  MENTORSHIP_SESSION
+  WORKSHOP_ATTENDANCE
+  PITCH_EVENT_PARTICIPATION
+  FUNDING_MILESTONE
+
+  // V4NTAG3 sources
+  TOURNAMENT_PARTICIPATION
+  TOURNAMENT_WIN
+  TOURNAMENT_PLACEMENT
+  ESPORTS_TEAM_JOIN
+  STREAM_VIEWERSHIP
+
+  // SPHERE sources
+  PAPER_TRADE_PROFIT
+  STRATEGY_SUBMISSION
+  BACKTEST_VALIDATION
+  RISK_MANAGEMENT_PASS
+
+  // AURA sources
+  MODEL_FEEDBACK
+  TRANSLATION_CONTRIBUTION
+  BENCHMARK_RUN
+  DATASET_CONTRIBUTION
+
+  // Cross-venture
+  CROSS_VENTURE_BONUS
+  LOYALTY_MILESTONE
+  FOUNDER_RECOGNITION
+  COMMUNITY_CHAMPION
+
+  // Redemption
+  DATA_BUNDLE_PURCHASE
+  MERCHANDISE_PURCHASE
+  WORKSHOP_FEE
+  TOURNAMENT_ENTRY
+  PREMIUM_FEATURE_UNLOCK
+  BURSARY_APPLICATION_BOOST
+  MENTORSHIP_CREDITS
+}
+
+model User {
+  id                Int                    @id @default(autoincrement())
+  email             String                 @unique
+  name              String?
+  oktaId            String                 @unique
+  creditsBalance    Int                    @default(0)
+  lifetimeEarned    Int                    @default(0)
+  lifetimeSpent     Int                    @default(0)
+  currentStreak     Int                    @default(0)
+  longestStreak     Int                    @default(0)
+  lastActiveDate    DateTime?
+  preferredLanguage String                 @default("en")
+  timezone          String                 @default("Africa/Johannesburg")
+  createdAt         DateTime               @default(now())
+  updatedAt         DateTime               @updatedAt
+
+  creditTransactions CreditTransaction[]
+  creditWallets      CreditWallet[]
+  streakHistory      StreakHistory[]
+  ventureProfiles    VentureProfile[]
+  creditRedemptions  CreditRedemption[]
+
+  @@index([oktaId])
+  @@index([email])
+}
+
+model CreditWallet {
+  id          Int          @id @default(autoincrement())
+  user        User         @relation(fields: [userId], references: [id])
+  userId      Int
+  venture     VentureType
+  balance     Int          @default(0)
+  locked      Int          @default(0)
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+
+  transactions CreditTransaction[]
+
+  @@unique([userId, venture])
+  @@index([userId])
+  @@index([venture])
+}
+
+model CreditTransaction {
+  id              String             @id @default(uuid())
+  user            User               @relation(fields: [userId], references: [id])
+  userId          Int
+  wallet          CreditWallet?      @relation(fields: [walletId], references: [id])
+  walletId        Int?
+  venture         VentureType
+  type            CreditTransactionType
+  source          CreditSource
+  amount          Int
+  balanceBefore   Int
+  balanceAfter    Int
+  description     String
+  metadata        Json?
+  idempotencyKey  String?            @unique
+  referenceId     String?
+  referenceType   String?
+  processedAt     DateTime           @default(now())
+  createdAt       DateTime           @default(now())
+
+  @@index([userId, createdAt])
+  @@index([venture, createdAt])
+  @@index([source, createdAt])
+  @@index([idempotencyKey])
+  @@index([referenceId, referenceType])
+}
+
+model StreakHistory {
+  id          Int       @id @default(autoincrement())
+  user        User      @relation(fields: [userId], references: [id])
+  userId      Int
+  venture     VentureType
+  streakType  String
+  count       Int
+  startDate   DateTime
+  endDate     DateTime?
+  isActive    Boolean   @default(true)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@index([userId, venture])
+  @@index([isActive])
+}
+
+model VentureProfile {
+  id            Int       @id @default(autoincrement())
+  user          User      @relation(fields: [userId], references: [id])
+  userId        Int
+  venture       VentureType
+  externalId    String?
+  metadata      Json?
+  linkedAt      DateTime  @default(now())
+  lastSyncedAt  DateTime?
+  isActive      Boolean   @default(true)
+
+  @@unique([userId, venture])
+  @@index([userId])
+  @@index([venture])
+  @@index([externalId])
+}
+
+model CreditRedemption {
+  id              String    @id @default(uuid())
+  user            User      @relation(fields: [userId], references: [id])
+  userId          Int
+  venture         VentureType
+  source          CreditSource
+  amount          Int
+  itemId          String
+  itemType        String
+  itemName        String
+  status          String    @default("PENDING")
+  metadata        Json?
+  processedAt     DateTime?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  @@index([userId, createdAt])
+  @@index([status])
+}
+
+model CreditRateLimit {
+  id          String   @id @default(uuid())
+  userId      Int
+  venture     VentureType
+  source      CreditSource
+  windowStart DateTime
+  windowEnd   DateTime
+  count       Int      @default(0)
+  maxCount    Int
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([userId, venture, source, windowStart])
+  @@index([userId, venture])
+}
+
+model CreditAuditLog {
+  id          String   @id @default(uuid())
+  userId      Int
+  venture     VentureType
+  action      String
+  entityType  String
+  entityId    String
+  oldValue    Json?
+  newValue    Json?
+  performedBy String?
+  reason      String?
+  ipAddress   String?
+  userAgent   String?
+  createdAt   DateTime @default(now())
+
+  @@index([userId, createdAt])
+  @@index([entityType, entityId])
+}

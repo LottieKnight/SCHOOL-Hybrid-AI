@@ -1,0 +1,248 @@
+/* ── Intro ──────────────────────────────────────── */
+.intro {
+  display: grid;
+  gap: 16px;
+  place-items: center;
+  text-align: center;
+  padding: 32px 16px;
+}
+
+.introIcon { font-size: 2.5rem; }
+
+.introTitle {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  color: var(--text-1);
+  margin: 0;
+}
+
+.introDesc {
+  color: var(--text-2);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  max-width: 420px;
+  margin: 0;
+}
+
+.emptyMsg {
+  color: var(--text-2);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+.startBtn {
+  padding: 12px 32px;
+  border-radius: var(--r-md);
+  border: 1px solid rgba(232, 193, 90, 0.4);
+  background: rgba(232, 193, 90, 0.1);
+  color: #f0d27a;
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, transform 0.1s;
+}
+
+.startBtn:hover {
+  background: rgba(232, 193, 90, 0.18);
+  border-color: #f0d27a;
+  transform: translateY(-1px);
+}
+
+/* ── Timer bar ──────────────────────────────────── */
+.exam { display: grid; gap: 20px; }
+
+.timerBar {
+  position: sticky;
+  top: calc(var(--chrome-offset, 80px) + 8px);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 16px;
+  border-radius: var(--r-md);
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  backdrop-filter: blur(8px);
+}
+
+.timerLabel { font-size: 0.78rem; color: var(--text-2); }
+
+.timer {
+  font-size: 1.15rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-1);
+  transition: color 0.3s;
+}
+
+.timer[data-urgent="true"] { color: #ef4444; animation: blink 1s step-end infinite; }
+
+@keyframes blink { 50% { opacity: 0.5; } }
+
+.timerProgress { font-size: 0.78rem; color: var(--text-2); }
+
+/* ── Question blocks ─────────────────────────────── */
+.form { display: grid; gap: 16px; }
+
+.qBlock {
+  display: grid;
+  gap: 10px;
+  padding: 16px;
+  border-radius: var(--r-md);
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+}
+
+.qMeta { display: flex; align-items: center; gap: 10px; }
+
+.qNum {
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: rgba(232, 193, 90, 0.12);
+  color: #f0d27a;
+  border: 1px solid rgba(232, 193, 90, 0.22);
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.qWeek { font-size: 0.72rem; color: var(--text-3, var(--text-2)); }
+
+.qPrompt { font-size: 0.95rem; font-weight: 600; color: var(--text-1); line-height: 1.5; }
+
+.options { display: grid; gap: 7px; }
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  border-radius: var(--r-sm, 10px);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  cursor: pointer;
+  font-size: 0.88rem;
+  color: var(--text-1);
+  transition: border-color 0.12s, background 0.12s;
+}
+
+.option[data-selected="true"] {
+  border-color: #f0d27a;
+  background: rgba(232, 193, 90, 0.08);
+  color: #f0d27a;
+}
+
+.option input[type="radio"] { accent-color: #f0d27a; }
+
+.textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: var(--r-sm, 10px);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-1);
+  font: inherit;
+  font-size: 0.88rem;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.textarea:focus { outline: none; border-color: #f0d27a; }
+
+.submitRow { display: flex; justify-content: center; padding: 8px 0; }
+
+.submitBtn {
+  padding: 12px 40px;
+  border-radius: var(--r-md);
+  border: 1px solid rgba(232, 193, 90, 0.4);
+  background: rgba(232, 193, 90, 0.1);
+  color: #f0d27a;
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, transform 0.1s;
+}
+
+.submitBtn:hover { background: rgba(232, 193, 90, 0.18); border-color: #f0d27a; transform: translateY(-1px); }
+
+/* ── Results ─────────────────────────────────────── */
+.results { display: grid; gap: 20px; }
+
+.scoreCircle {
+  display: grid;
+  place-items: center;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 3px solid var(--border);
+  background: var(--surface-2);
+  margin: 0 auto;
+}
+
+.scoreCircle[data-pass="true"] { border-color: var(--green); background: var(--green-dim); }
+.scoreCircle[data-pass="false"] { border-color: #ef4444; background: rgba(239, 68, 68, 0.08); }
+
+.scorePct { font-size: 1.6rem; font-weight: 800; color: var(--text-1); }
+.scoreLabel { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-2); }
+
+.scoreSummary { text-align: center; font-size: 0.9rem; color: var(--text-2); margin: 0; }
+
+.weakSection { display: grid; gap: 10px; }
+.weakTitle { font-family: var(--font-display); font-size: 1rem; color: var(--text-1); margin: 0; }
+
+.weakList { display: grid; gap: 8px; }
+
+.weakItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  border-radius: var(--r-sm, 10px);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  background: rgba(239, 68, 68, 0.06);
+  color: var(--text-1);
+  text-decoration: none;
+  font-size: 0.88rem;
+  transition: background 0.12s;
+}
+
+.weakItem:hover { background: rgba(239, 68, 68, 0.12); }
+.weakCount { font-size: 0.78rem; color: #ef4444; font-weight: 600; }
+
+.reviewList { display: grid; gap: 10px; }
+
+.reviewItem {
+  padding: 12px 14px;
+  border-radius: var(--r-sm, 10px);
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  display: grid;
+  gap: 5px;
+}
+
+.reviewItem[data-correct="true"] { border-color: rgba(16, 185, 129, 0.25); background: var(--green-dim); }
+.reviewItem[data-correct="false"] { border-color: rgba(239, 68, 68, 0.2); background: rgba(239, 68, 68, 0.05); }
+
+.reviewQ { font-size: 0.88rem; font-weight: 600; color: var(--text-1); }
+.reviewAnswer { font-size: 0.82rem; color: var(--green); font-weight: 600; }
+.reviewExplanation { font-size: 0.8rem; color: var(--text-2); line-height: 1.5; }
+
+.retryBtn {
+  margin: 0 auto;
+  display: block;
+  padding: 10px 28px;
+  border-radius: var(--r-md);
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text-1);
+  font: inherit;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: border-color 0.12s, background 0.12s;
+}
+
+.retryBtn:hover { border-color: var(--gold-border); background: var(--gold-dim); color: var(--gold); }

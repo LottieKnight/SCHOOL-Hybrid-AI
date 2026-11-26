@@ -1,0 +1,2168 @@
+{
+  "institution": "North-West University",
+  "moduleCode": "EKRP211",
+  "moduleName": "Investment Management",
+  "semester": "Semester 1, 2026",
+  "programme": "BCom",
+  "confidence": 0.87,
+  "generatedAt": "2026-04-02T00:00:00.000Z",
+  "sourceFiles": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "missingContent": [
+    "Official study guide",
+    "Past exam papers",
+    "Prescribed textbook chapter references"
+  ],
+  "studyUnits": [
+    "Introduction to Investment",
+    "Risk and Return",
+    "Required Rate of Return",
+    "Portfolio Theory",
+    "Bond Valuation",
+    "Share Valuation",
+    "Capital Asset Pricing Model"
+  ],
+  "chapters": [
+    "Introduction to Investment",
+    "Risk and Return",
+    "Required Rate of Return",
+    "Portfolio Theory",
+    "Bond Valuation",
+    "Share Valuation",
+    "Capital Asset Pricing Model"
+  ],
+  "topicSeeds": [
+    "Ch1 - Introduction to Investment",
+    "Ch2 - Risk and Return",
+    "Ch3 - Required Rate of Return",
+    "Ch4 - Portfolio Theory",
+    "Ch5 - Bond Valuation",
+    "Ch6 - Share Valuation",
+    "Ch7 - Capital Asset Pricing Model"
+  ],
+  "keyTopics": [
+    "Investment definition and objectives",
+    "Types of investments (real vs financial)",
+    "Investment process and steps",
+    "JSE and South African capital markets",
+    "Time value of money basics",
+    "Risk-return trade-off",
+    "Investment vehicles in SA",
+    "Role of financial institutions",
+    "Definition of risk and return",
+    "Holding period return",
+    "Expected return calculation",
+    "Standard deviation as risk measure",
+    "Variance of returns",
+    "Historical vs expected returns",
+    "Coefficient of variation",
+    "Risk premium",
+    "Nominal vs real interest rates",
+    "Fisher effect",
+    "Risk-free rate",
+    "Default risk premium",
+    "Liquidity premium",
+    "Maturity risk premium",
+    "Inflation premium",
+    "Required return formula",
+    "Portfolio expected return",
+    "Portfolio risk and diversification",
+    "Correlation coefficient",
+    "Covariance of returns",
+    "Efficient frontier",
+    "Minimum variance portfolio",
+    "Systematic vs unsystematic risk",
+    "Benefits of diversification",
+    "Bond terminology (par, coupon, maturity)",
+    "Bond pricing formula",
+    "Yield to maturity (YTM)",
+    "Current yield",
+    "Bond price-yield relationship",
+    "Semi-annual coupon bonds",
+    "Premium and discount bonds",
+    "Duration concept",
+    "Dividend Discount Model (DDM)",
+    "Gordon Growth Model",
+    "Zero-growth model",
+    "Price-earnings (P/E) ratio valuation",
+    "Free cash flow valuation",
+    "Intrinsic value vs market price",
+    "Growth stock vs value stock",
+    "Book value per share",
+    "CAPM formula and derivation",
+    "Beta coefficient interpretation",
+    "Security Market Line (SML)",
+    "Market portfolio",
+    "Systematic risk measurement",
+    "Alpha (Jensen's alpha)",
+    "Over/undervalued securities using CAPM",
+    "Limitations of CAPM"
+  ],
+  "quizSignals": [
+    "Calculate the holding period return for a JSE-listed share given purchase price, sale price and dividends received.",
+    "Explain the difference between systematic and unsystematic risk and why only systematic risk is rewarded in efficient markets.",
+    "Using the Fisher effect, determine the required nominal return given a real return and expected inflation rate.",
+    "Construct a two-asset portfolio and calculate its expected return and standard deviation given correlation.",
+    "Calculate the price of a government bond given its coupon rate, YTM and years to maturity.",
+    "Apply the Gordon Growth Model to value a share given dividends, growth rate and required return.",
+    "Determine whether a share is overvalued or undervalued using the Security Market Line.",
+    "Describe how diversification reduces portfolio risk and identify the point at which diversification benefits are exhausted.",
+    "Calculate beta from covariance and variance data and interpret the result.",
+    "Distinguish between the current yield and yield to maturity of a bond.",
+    "Explain the inverse relationship between bond prices and interest rates with a numerical example.",
+    "Apply the CAPM to calculate the required rate of return for a South African listed company given its beta."
+  ],
+  "assessmentPlan": [
+    {
+      "name": "Unprepared Class Tests (Best 3 of 4)",
+      "weight": "20%",
+      "scope": "Cumulative — chapters covered to date",
+      "format": "Short unprepared in-class tests, VC A18 G04"
+    },
+    {
+      "name": "Sit-down Tests (Best 3 of 4)",
+      "weight": "80%",
+      "scope": "Cumulative — chapters covered to date",
+      "format": "Formal sit-down test papers"
+    }
+  ],
+  "classSchedule": [
+    {
+      "label": "Week 1",
+      "summary": "Introduction to Investment: investment objectives, types, process and the role of the JSE",
+      "chapter": "Introduction to Investment"
+    },
+    {
+      "label": "Week 2",
+      "summary": "Introduction continued: time value of money review, investment vehicles in SA",
+      "chapter": "Introduction to Investment"
+    },
+    {
+      "label": "Week 3",
+      "summary": "Risk and Return: defining and measuring return — holding period return, expected return",
+      "chapter": "Risk and Return"
+    },
+    {
+      "label": "Week 4",
+      "summary": "Risk and Return: standard deviation, variance, coefficient of variation, risk premium",
+      "chapter": "Risk and Return"
+    },
+    {
+      "label": "Week 5",
+      "summary": "Required Rate of Return: nominal vs real rates, Fisher effect, risk premiums",
+      "chapter": "Required Rate of Return"
+    },
+    {
+      "label": "Week 6",
+      "summary": "Required Rate of Return: building up required return components; TEST 1",
+      "chapter": "Required Rate of Return"
+    },
+    {
+      "label": "Week 7",
+      "summary": "Portfolio Theory: portfolio return and risk, diversification, correlation and covariance",
+      "chapter": "Portfolio Theory"
+    },
+    {
+      "label": "Week 8",
+      "summary": "Portfolio Theory: efficient frontier, minimum variance portfolio, systematic vs unsystematic risk",
+      "chapter": "Portfolio Theory"
+    },
+    {
+      "label": "Week 9",
+      "summary": "Bond Valuation: terminology, pricing formula, YTM, current yield; TEST 2",
+      "chapter": "Bond Valuation"
+    },
+    {
+      "label": "Week 10",
+      "summary": "Bond Valuation: price-yield relationship, semi-annual bonds, duration concept",
+      "chapter": "Bond Valuation"
+    },
+    {
+      "label": "Week 11",
+      "summary": "Share Valuation: DDM, Gordon Growth Model, zero-growth model",
+      "chapter": "Share Valuation"
+    },
+    {
+      "label": "Week 12",
+      "summary": "Share Valuation: P/E ratio valuation, free cash flow, intrinsic vs market value; TEST 3",
+      "chapter": "Share Valuation"
+    },
+    {
+      "label": "Week 13",
+      "summary": "Capital Asset Pricing Model: CAPM formula, beta, Security Market Line",
+      "chapter": "Capital Asset Pricing Model"
+    },
+    {
+      "label": "Week 14",
+      "summary": "CAPM continued: alpha, over/undervalued securities, CAPM limitations; TEST 4",
+      "chapter": "Capital Asset Pricing Model"
+    }
+  ],
+  "chapterInsights": [
+    {
+      "chapter": "Ch1",
+      "title": "Introduction to Investment",
+      "outcomes": [
+        "Define investment and distinguish between real and financial investments",
+        "Describe the investment process and its key steps",
+        "Identify major investment vehicles available to South African investors",
+        "Explain the role of the JSE and other financial markets in the investment process",
+        "Apply time value of money principles to basic investment decisions",
+        "Describe the risk-return trade-off and why it underpins all investment decisions"
+      ],
+      "formulas": [
+        "Future Value: FV = PV × (1 + r)^n",
+        "Present Value: PV = FV / (1 + r)^n",
+        "Risk-Return Trade-off: Higher expected return ↔ Higher risk"
+      ],
+      "definitions": [
+        {
+          "term": "Investment",
+          "definition": "The commitment of funds today with the expectation of receiving more funds in the future."
+        },
+        {
+          "term": "Real investment",
+          "definition": "Investment in tangible assets such as property, equipment or infrastructure."
+        },
+        {
+          "term": "Financial investment",
+          "definition": "Investment in financial instruments such as shares, bonds and money market instruments."
+        },
+        {
+          "term": "JSE (Johannesburg Stock Exchange)",
+          "definition": "South Africa's primary securities exchange where shares, bonds and other instruments are traded."
+        },
+        {
+          "term": "Time value of money",
+          "definition": "The concept that a rand received today is worth more than a rand received in the future due to its earning potential."
+        },
+        {
+          "term": "Risk-return trade-off",
+          "definition": "The principle that higher potential returns are associated with higher levels of risk."
+        }
+      ],
+      "revisionPrompts": [
+        "Distinguish between real and financial investments using South African examples.",
+        "Outline the five steps of the investment process.",
+        "Explain why an investor on the JSE would require a higher return on a small-cap share than on a government bond.",
+        "Calculate the future value of R10 000 invested at 8% per annum for 5 years.",
+        "Describe three investment vehicles available to a South African retail investor and their key characteristics."
+      ],
+      "saContext": "The JSE is Africa's largest stock exchange and plays a central role in South African capital markets. Investors can access shares, bonds, ETFs and derivatives. SARB repo rate movements directly affect required returns across all asset classes.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.85,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cfainstitute.org/en/programs/cfa",
+          "https://www.mheducation.com/highered/product/investments-bodie/M9781260565509.html",
+          "https://www.jse.co.za/about/our-services/investor-relations"
+        ]
+      }
+    },
+    {
+      "chapter": "Ch2",
+      "title": "Risk and Return",
+      "outcomes": [
+        "Calculate holding period return for a given investment",
+        "Compute expected return using probability-weighted outcomes",
+        "Measure risk using variance and standard deviation",
+        "Interpret the coefficient of variation as a relative risk measure",
+        "Explain the concept of risk premium and its determinants",
+        "Compare historical returns across different asset classes"
+      ],
+      "formulas": [
+        "Holding Period Return: HPR = (P1 - P0 + D) / P0",
+        "Expected Return: E(R) = Σ [pi × Ri]",
+        "Variance: σ² = Σ [pi × (Ri - E(R))²]",
+        "Standard Deviation: σ = √σ²",
+        "Coefficient of Variation: CV = σ / E(R)",
+        "Risk Premium: RP = E(R) - Rf"
+      ],
+      "definitions": [
+        {
+          "term": "Holding period return (HPR)",
+          "definition": "The total return earned on an investment over the period it is held, including capital gains and income."
+        },
+        {
+          "term": "Expected return",
+          "definition": "The probability-weighted average of all possible returns from an investment."
+        },
+        {
+          "term": "Standard deviation (σ)",
+          "definition": "A statistical measure of the dispersion of returns around the expected return; the most common measure of total risk."
+        },
+        {
+          "term": "Coefficient of variation (CV)",
+          "definition": "Standard deviation divided by expected return; measures risk per unit of return for comparing investments with different expected returns."
+        },
+        {
+          "term": "Risk premium",
+          "definition": "The additional return above the risk-free rate that investors require to compensate for bearing risk."
+        },
+        {
+          "term": "Variance (σ²)",
+          "definition": "The probability-weighted average of squared deviations from the expected return."
+        }
+      ],
+      "revisionPrompts": [
+        "An investor buys a share at R50, receives a R3 dividend and sells it for R56. Calculate the HPR.",
+        "Given three economic scenarios with probabilities 0.2, 0.5 and 0.3 and returns of 30%, 12% and -5%, calculate the expected return and standard deviation.",
+        "Explain why the coefficient of variation is more useful than standard deviation alone when comparing two investments.",
+        "If the risk-free rate is 7% and an investment has an expected return of 14%, what is the risk premium?",
+        "Describe how an investor could use historical return data to estimate the expected return on a JSE-listed share."
+      ],
+      "saContext": "South African asset class returns are influenced by SARB monetary policy, rand volatility and commodity prices. SA equities have historically provided higher long-run returns than bonds but with greater volatility, consistent with the risk-return trade-off.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.88,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cfainstitute.org/en/programs/cfa",
+          "https://www.mheducation.com/highered/product/investments-bodie/M9781260565509.html",
+          "https://www.jse.co.za/about/our-services/investor-relations"
+        ]
+      }
+    },
+    {
+      "chapter": "Ch3",
+      "title": "Required Rate of Return",
+      "outcomes": [
+        "Distinguish between nominal and real interest rates",
+        "Apply the Fisher effect to convert between nominal and real rates",
+        "Identify and explain the components of the required rate of return",
+        "Calculate the required return given risk-free rate and risk premiums",
+        "Explain the role of inflation expectations in determining required returns",
+        "Describe how SARB policy rate decisions affect required returns"
+      ],
+      "formulas": [
+        "Fisher Effect (approximate): r_nominal ≈ r_real + inflation rate",
+        "Fisher Effect (exact): (1 + r_nominal) = (1 + r_real)(1 + inflation)",
+        "Required Return: k = Rf + default risk premium + liquidity premium + maturity risk premium",
+        "Real Rate: r_real = (1 + r_nominal)/(1 + inflation) - 1"
+      ],
+      "definitions": [
+        {
+          "term": "Nominal interest rate",
+          "definition": "The interest rate stated without adjustment for inflation; the rate quoted in the market."
+        },
+        {
+          "term": "Real interest rate",
+          "definition": "The nominal interest rate adjusted for inflation; reflects the true increase in purchasing power."
+        },
+        {
+          "term": "Fisher effect",
+          "definition": "The theory that the nominal interest rate equals the real interest rate plus the expected inflation rate."
+        },
+        {
+          "term": "Risk-free rate (Rf)",
+          "definition": "The theoretical return on an investment with zero risk, typically proxied by short-term government securities (e.g. SA Treasury bills)."
+        },
+        {
+          "term": "Default risk premium",
+          "definition": "The additional return required to compensate for the possibility that a borrower may not repay."
+        },
+        {
+          "term": "Maturity risk premium",
+          "definition": "The additional return required for investing in longer-term securities to compensate for greater interest rate risk."
+        }
+      ],
+      "revisionPrompts": [
+        "If the nominal interest rate is 11% and expected inflation is 5%, calculate the real interest rate using both the approximate and exact Fisher formulas.",
+        "List and explain four components of the required rate of return for a South African corporate bond.",
+        "Explain how an increase in the SARB repo rate would affect required returns across different asset classes.",
+        "Why do long-term bonds generally have higher required returns than short-term bonds, all else equal?",
+        "Calculate the nominal required return for an investor who requires a 4% real return in an environment of 6% expected inflation."
+      ],
+      "saContext": "The SARB Monetary Policy Committee sets the repo rate, which serves as the anchor for risk-free rates in South Africa. SA inflation (CPI) targets of 3–6% directly affect nominal required returns. SA government bonds (RSA bonds) are widely used as the risk-free rate proxy.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.86,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cfainstitute.org/en/programs/cfa",
+          "https://www.mheducation.com/highered/product/investments-bodie/M9781260565509.html",
+          "https://www.jse.co.za/about/our-services/investor-relations"
+        ]
+      }
+    },
+    {
+      "chapter": "Ch4",
+      "title": "Portfolio Theory",
+      "outcomes": [
+        "Calculate the expected return of a two-asset portfolio",
+        "Calculate the standard deviation of a two-asset portfolio using correlation",
+        "Explain the role of diversification in reducing portfolio risk",
+        "Distinguish between systematic and unsystematic risk",
+        "Describe the efficient frontier and the minimum variance portfolio",
+        "Explain why only systematic risk is priced in equilibrium",
+        "Interpret correlation coefficients and their impact on portfolio risk"
+      ],
+      "formulas": [
+        "Portfolio Expected Return: E(Rp) = w1·E(R1) + w2·E(R2)",
+        "Portfolio Variance (2 assets): σ²p = w1²σ1² + w2²σ2² + 2w1w2σ1σ2ρ12",
+        "Covariance: Cov(R1,R2) = ρ12·σ1·σ2",
+        "Correlation: ρ12 = Cov(R1,R2) / (σ1·σ2)"
+      ],
+      "definitions": [
+        {
+          "term": "Portfolio",
+          "definition": "A collection of financial assets (shares, bonds, cash) held by an investor."
+        },
+        {
+          "term": "Diversification",
+          "definition": "The process of spreading investments across different assets to reduce unsystematic risk."
+        },
+        {
+          "term": "Systematic risk",
+          "definition": "Market-wide risk that cannot be eliminated through diversification (also called non-diversifiable or market risk)."
+        },
+        {
+          "term": "Unsystematic risk",
+          "definition": "Firm-specific or industry-specific risk that can be eliminated through diversification (also called diversifiable risk)."
+        },
+        {
+          "term": "Efficient frontier",
+          "definition": "The set of optimal portfolios that offer the highest expected return for a given level of risk."
+        },
+        {
+          "term": "Correlation coefficient (ρ)",
+          "definition": "A measure of the degree to which two returns move together, ranging from -1 (perfect negative) to +1 (perfect positive)."
+        }
+      ],
+      "revisionPrompts": [
+        "Portfolio A consists of 60% in Share X (E(R)=15%, σ=20%) and 40% in Share Y (E(R)=10%, σ=12%) with ρ=0.3. Calculate the portfolio expected return and standard deviation.",
+        "Explain why adding a negatively correlated asset to a portfolio can reduce total portfolio risk.",
+        "Distinguish between systematic and unsystematic risk and give a South African example of each.",
+        "Describe the efficient frontier and explain what makes a portfolio efficient.",
+        "At what correlation coefficient does diversification provide the maximum risk reduction benefit?"
+      ],
+      "saContext": "South African investors can diversify across JSE sectors (financials, resources, industrials) or internationally. Resource stocks (e.g. Anglo American, Naspers) often have lower correlations with each other, providing diversification benefits.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.87,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cfainstitute.org/en/programs/cfa",
+          "https://www.mheducation.com/highered/product/investments-bodie/M9781260565509.html",
+          "https://www.jse.co.za/about/our-services/investor-relations"
+        ]
+      }
+    },
+    {
+      "chapter": "Ch5",
+      "title": "Bond Valuation",
+      "outcomes": [
+        "Define key bond terminology including par value, coupon rate, maturity and yield",
+        "Calculate the price of a bond using the present value formula",
+        "Calculate yield to maturity (YTM) given bond price and cash flows",
+        "Distinguish between current yield and yield to maturity",
+        "Explain the inverse relationship between bond prices and interest rates",
+        "Value semi-annual coupon-paying bonds",
+        "Explain the concept of duration and its use in bond management"
+      ],
+      "formulas": [
+        "Bond Price: P = Σ[C / (1+r)^t] + [FV / (1+r)^n]",
+        "Current Yield: CY = Annual Coupon / Current Price",
+        "Approximate YTM: YTM ≈ [C + (FV - P)/n] / [(FV + P)/2]",
+        "Semi-annual Bond Price: P = Σ[C/2 / (1+r/2)^t] + [FV / (1+r/2)^2n]"
+      ],
+      "definitions": [
+        {
+          "term": "Par value (face value)",
+          "definition": "The principal amount of a bond that will be repaid at maturity, typically R1 000 per bond."
+        },
+        {
+          "term": "Coupon rate",
+          "definition": "The annual interest rate stated on the bond, expressed as a percentage of par value."
+        },
+        {
+          "term": "Yield to maturity (YTM)",
+          "definition": "The total return anticipated if the bond is held until it matures; the internal rate of return of the bond."
+        },
+        {
+          "term": "Current yield",
+          "definition": "Annual coupon payment divided by the current market price of the bond."
+        },
+        {
+          "term": "Discount bond",
+          "definition": "A bond trading below its par value, which occurs when market interest rates exceed the coupon rate."
+        },
+        {
+          "term": "Premium bond",
+          "definition": "A bond trading above its par value, which occurs when the coupon rate exceeds market interest rates."
+        }
+      ],
+      "revisionPrompts": [
+        "A bond has a par value of R1 000, coupon rate of 10%, 5 years to maturity and a YTM of 12%. Calculate its current market price.",
+        "Explain why a bond's price decreases when market interest rates rise, using the present value concept.",
+        "A bond is currently priced at R950, has annual coupons of R80 and matures in 4 years at R1 000. Calculate the approximate YTM.",
+        "Distinguish between the current yield and YTM of a discount bond — which will be higher and why?",
+        "How would the price of a 10-year RSA government bond change if the SARB unexpectedly raises the repo rate by 100 basis points?"
+      ],
+      "saContext": "South African government bonds (RSA bonds) are traded on the JSE's Interest Rate Market. The benchmark bond yield (e.g. R186, R2030) is widely followed as an indicator of long-term interest rates in South Africa.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.88,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cfainstitute.org/en/programs/cfa",
+          "https://www.mheducation.com/highered/product/investments-bodie/M9781260565509.html",
+          "https://www.jse.co.za/about/our-services/investor-relations"
+        ]
+      }
+    },
+    {
+      "chapter": "Ch6",
+      "title": "Share Valuation",
+      "outcomes": [
+        "Apply the Dividend Discount Model (DDM) to value ordinary shares",
+        "Use the Gordon Growth Model for constant-growth share valuation",
+        "Value zero-growth (perpetuity) shares",
+        "Apply the price-earnings (P/E) ratio approach to share valuation",
+        "Explain the concept of intrinsic value and compare it to market price",
+        "Distinguish between growth stocks and value stocks",
+        "Calculate book value per share and explain its limitations"
+      ],
+      "formulas": [
+        "DDM General: P0 = Σ[Dt / (1+k)^t] + [Pn / (1+k)^n]",
+        "Gordon Growth Model: P0 = D1 / (k - g)",
+        "Zero-Growth Model: P0 = D / k",
+        "P/E Ratio: P0 = EPS × P/E multiple",
+        "Required return from GGM: k = D1/P0 + g"
+      ],
+      "definitions": [
+        {
+          "term": "Dividend Discount Model (DDM)",
+          "definition": "A share valuation model that prices a share as the present value of all expected future dividends."
+        },
+        {
+          "term": "Gordon Growth Model",
+          "definition": "A simplified DDM that assumes dividends grow at a constant rate forever: P0 = D1/(k-g)."
+        },
+        {
+          "term": "Intrinsic value",
+          "definition": "The estimated true or fundamental value of a share based on expected cash flows, as opposed to its current market price."
+        },
+        {
+          "term": "Price-earnings (P/E) ratio",
+          "definition": "The market price per share divided by earnings per share; used to compare valuation across companies."
+        },
+        {
+          "term": "Growth rate (g)",
+          "definition": "The constant rate at which dividends are expected to grow indefinitely in the Gordon Growth Model."
+        },
+        {
+          "term": "Book value per share",
+          "definition": "Total shareholders' equity divided by number of shares outstanding; represents accounting value per share."
+        }
+      ],
+      "revisionPrompts": [
+        "A share just paid a dividend of R2.00 and dividends are expected to grow at 6% per year. If the required return is 14%, calculate the share's intrinsic value using the Gordon Growth Model.",
+        "Explain the key assumptions of the Gordon Growth Model and discuss their limitations.",
+        "A company has EPS of R5.50 and the industry average P/E ratio is 12. Estimate the share's value.",
+        "If a share is trading at R45 on the JSE but your DDM calculation gives an intrinsic value of R60, what investment decision would you make?",
+        "Describe two situations where the Gordon Growth Model cannot be applied directly."
+      ],
+      "saContext": "Share valuation is critical for JSE-listed companies. South African analysts regularly apply DDM and P/E ratio approaches to companies like Naspers, Standard Bank, and Sasol. Dividend yields on the JSE average around 3–5%.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.86,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cfainstitute.org/en/programs/cfa",
+          "https://www.mheducation.com/highered/product/investments-bodie/M9781260565509.html",
+          "https://www.jse.co.za/about/our-services/investor-relations"
+        ]
+      }
+    },
+    {
+      "chapter": "Ch7",
+      "title": "Capital Asset Pricing Model",
+      "outcomes": [
+        "State and apply the CAPM formula to calculate required returns",
+        "Interpret beta as a measure of systematic risk",
+        "Plot and interpret the Security Market Line (SML)",
+        "Use the SML to identify overvalued and undervalued securities",
+        "Calculate Jensen's alpha and interpret its meaning",
+        "Explain the assumptions and limitations of the CAPM",
+        "Distinguish between the CML (Capital Market Line) and SML"
+      ],
+      "formulas": [
+        "CAPM: E(Ri) = Rf + βi × [E(Rm) - Rf]",
+        "Beta: βi = Cov(Ri, Rm) / σ²m",
+        "Market Risk Premium: MRP = E(Rm) - Rf",
+        "Jensen's Alpha: α = Actual Return - CAPM Required Return"
+      ],
+      "definitions": [
+        {
+          "term": "CAPM (Capital Asset Pricing Model)",
+          "definition": "An equilibrium model that describes the relationship between systematic risk (beta) and expected return for a security."
+        },
+        {
+          "term": "Beta (β)",
+          "definition": "A measure of a security's systematic risk relative to the market; β=1 means the security moves in line with the market."
+        },
+        {
+          "term": "Security Market Line (SML)",
+          "definition": "A graphical representation of the CAPM showing the linear relationship between beta and expected return."
+        },
+        {
+          "term": "Market risk premium",
+          "definition": "The excess return of the market portfolio over the risk-free rate: E(Rm) - Rf."
+        },
+        {
+          "term": "Jensen's alpha",
+          "definition": "The difference between a security's actual return and its CAPM-required return; positive alpha indicates outperformance."
+        },
+        {
+          "term": "Market portfolio",
+          "definition": "A theoretical portfolio containing all risky assets in proportion to their market value; proxied by a broad market index like the JSE All Share Index."
+        }
+      ],
+      "revisionPrompts": [
+        "The risk-free rate is 8%, the market return is 16% and a share has a beta of 1.3. Calculate the required return using CAPM.",
+        "A security plots above the SML — is it overvalued or undervalued? Explain the arbitrage mechanism that would restore equilibrium.",
+        "Interpret the following beta values: β = 0.5, β = 1.0, β = 1.8, β = -0.3.",
+        "List three key assumptions of the CAPM and briefly explain one major criticism of the model.",
+        "Calculate Jensen's alpha for a fund that earned 18% when the risk-free rate was 7%, market return was 14% and the fund's beta was 1.2."
+      ],
+      "saContext": "In South Africa, the JSE All Share Index (ALSI) is typically used as a proxy for the market portfolio in CAPM applications. South African equity risk premiums have historically been estimated at around 6–8% above the risk-free rate.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.88,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cfainstitute.org/en/programs/cfa",
+          "https://www.mheducation.com/highered/product/investments-bodie/M9781260565509.html",
+          "https://www.jse.co.za/about/our-services/investor-relations"
+        ]
+      }
+    }
+  ],
+  "chapterStudyItems": [
+    {
+      "chapter": "Ch1",
+      "flashcards": [
+        {
+          "id": "ekrp211-ch1-fc1",
+          "chapter": "Ch1",
+          "front": "What is the definition of investment?",
+          "back": "The commitment of funds today with the expectation of receiving more funds in the future.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.85,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch1-fc2",
+          "chapter": "Ch1",
+          "front": "What is the difference between a real investment and a financial investment?",
+          "back": "Real investments involve tangible assets (property, equipment). Financial investments involve financial instruments (shares, bonds).",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.85,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch1-fc3",
+          "chapter": "Ch1",
+          "front": "What does JSE stand for and what is its role?",
+          "back": "Johannesburg Stock Exchange — South Africa's primary securities exchange where shares, bonds and derivatives are traded.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.87,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch1-fc4",
+          "chapter": "Ch1",
+          "front": "State the future value formula.",
+          "back": "FV = PV × (1 + r)^n, where PV is present value, r is the interest rate per period and n is the number of periods.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch1-fc5",
+          "chapter": "Ch1",
+          "front": "What is the risk-return trade-off?",
+          "back": "The principle that investments with higher potential returns come with higher levels of risk. Investors must be compensated with higher expected returns to accept greater risk.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ekrp211-ch1-q1",
+          "chapter": "Ch1",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is an example of a FINANCIAL investment?",
+          "options": [
+            "Purchasing a factory building",
+            "Buying shares listed on the JSE",
+            "Acquiring a delivery truck",
+            "Installing new production machinery"
+          ],
+          "answer": "Buying shares listed on the JSE",
+          "explanation": "Financial investments involve financial instruments such as shares, bonds and money market instruments. The other options are real (tangible asset) investments.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch1-q2",
+          "chapter": "Ch1",
+          "questionType": "multiple-choice",
+          "prompt": "An investor deposits R5 000 at 10% per annum for 3 years. What is the future value?",
+          "options": [
+            "R5 500",
+            "R6 500",
+            "R6 655",
+            "R7 000"
+          ],
+          "answer": "R6 655",
+          "explanation": "FV = 5000 × (1.10)^3 = 5000 × 1.331 = R6 655.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch1-q3",
+          "chapter": "Ch1",
+          "questionType": "multiple-choice",
+          "prompt": "The risk-return trade-off implies that:",
+          "options": [
+            "Lower risk always leads to higher returns",
+            "Higher expected returns are associated with higher risk",
+            "All investments have the same risk-return profile",
+            "Government bonds are always the best investment"
+          ],
+          "answer": "Higher expected returns are associated with higher risk",
+          "explanation": "The risk-return trade-off is a fundamental investment principle: to earn higher expected returns, investors must accept greater risk.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ekrp211-ch1-we1",
+          "chapter": "Ch1",
+          "title": "Future Value Calculation",
+          "summary": "Calculating the future value of a lump-sum investment using compound interest.",
+          "problem": "Thabo invests R20 000 in a JSE-listed unit trust that is expected to earn 12% per annum compounded annually. How much will his investment be worth after 4 years?",
+          "steps": [
+            {
+              "label": "Identify the variables",
+              "explanation": "PV = R20 000; r = 12% = 0.12; n = 4 years"
+            },
+            {
+              "label": "Apply the future value formula",
+              "explanation": "FV = PV × (1 + r)^n = 20 000 × (1.12)^4"
+            },
+            {
+              "label": "Calculate (1.12)^4",
+              "explanation": "(1.12)^4 = 1.12 × 1.12 × 1.12 × 1.12 = 1.5735"
+            },
+            {
+              "label": "Calculate FV",
+              "explanation": "FV = 20 000 × 1.5735 = R31 470"
+            }
+          ],
+          "answer": "Thabo's investment will be worth R31 470 after 4 years.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Ch2",
+      "flashcards": [
+        {
+          "id": "ekrp211-ch2-fc1",
+          "chapter": "Ch2",
+          "front": "What is the holding period return (HPR) formula?",
+          "back": "HPR = (P1 - P0 + D) / P0, where P1 = selling price, P0 = purchase price, D = dividends received.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch2-fc2",
+          "chapter": "Ch2",
+          "front": "What is the coefficient of variation (CV) and when is it used?",
+          "back": "CV = σ / E(R). It measures risk per unit of return and is used to compare investments with different expected returns.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch2-fc3",
+          "chapter": "Ch2",
+          "front": "How is expected return calculated?",
+          "back": "E(R) = Σ[pi × Ri] — the sum of each possible return multiplied by its probability.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch2-fc4",
+          "chapter": "Ch2",
+          "front": "What does standard deviation measure in finance?",
+          "back": "Standard deviation (σ) measures the dispersion of returns around the expected return and is the most common measure of total investment risk.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch2-fc5",
+          "chapter": "Ch2",
+          "front": "What is a risk premium?",
+          "back": "Risk premium = E(R) - Rf. It is the additional return above the risk-free rate required to compensate an investor for taking on risk.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ekrp211-ch2-q1",
+          "chapter": "Ch2",
+          "questionType": "multiple-choice",
+          "prompt": "A share is purchased at R80, pays a R4 dividend and is sold at R88. What is the holding period return?",
+          "options": [
+            "5%",
+            "10%",
+            "15%",
+            "20%"
+          ],
+          "answer": "15%",
+          "explanation": "HPR = (88 - 80 + 4) / 80 = 12/80 = 0.15 = 15%.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch2-q2",
+          "chapter": "Ch2",
+          "questionType": "multiple-choice",
+          "prompt": "Investment A has E(R) = 12% and σ = 6%. Investment B has E(R) = 18% and σ = 12%. Based on the coefficient of variation, which investment has MORE risk per unit of return?",
+          "options": [
+            "Investment A (CV = 0.50)",
+            "Investment B (CV = 0.67)",
+            "They have equal risk per unit of return",
+            "Cannot be determined"
+          ],
+          "answer": "Investment B (CV = 0.67)",
+          "explanation": "CV(A) = 6/12 = 0.50; CV(B) = 12/18 = 0.67. A higher CV means more risk per unit of return, so Investment B has more risk relative to its return.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch2-q3",
+          "chapter": "Ch2",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is the BEST measure of total risk for a single asset?",
+          "options": [
+            "Beta",
+            "Variance only",
+            "Standard deviation",
+            "Covariance"
+          ],
+          "answer": "Standard deviation",
+          "explanation": "Standard deviation measures the total variability of returns around the expected return and is the most commonly used measure of total risk for a single asset.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ekrp211-ch2-we1",
+          "chapter": "Ch2",
+          "title": "Expected Return and Standard Deviation",
+          "summary": "Calculating expected return and risk using probability-weighted outcomes.",
+          "problem": "Share Z has the following possible returns: Boom (probability 0.3, return 25%), Normal (probability 0.5, return 10%), Recession (probability 0.2, return -8%). Calculate the expected return and standard deviation.",
+          "steps": [
+            {
+              "label": "Calculate expected return",
+              "explanation": "E(R) = (0.3 × 25%) + (0.5 × 10%) + (0.2 × -8%) = 7.5% + 5% - 1.6% = 10.9%"
+            },
+            {
+              "label": "Calculate variance",
+              "explanation": "σ² = 0.3(25-10.9)² + 0.5(10-10.9)² + 0.2(-8-10.9)² = 0.3(198.81) + 0.5(0.81) + 0.2(357.21) = 59.643 + 0.405 + 71.442 = 131.49 (%²)"
+            },
+            {
+              "label": "Calculate standard deviation",
+              "explanation": "σ = √131.49 = 11.47%"
+            }
+          ],
+          "answer": "Expected return = 10.9%; Standard deviation = 11.47%.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Ch3",
+      "flashcards": [
+        {
+          "id": "ekrp211-ch3-fc1",
+          "chapter": "Ch3",
+          "front": "State the approximate Fisher effect formula.",
+          "back": "r_nominal ≈ r_real + expected inflation rate. E.g. if real rate = 4% and inflation = 6%, nominal rate ≈ 10%.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch3-fc2",
+          "chapter": "Ch3",
+          "front": "What is the risk-free rate and how is it proxied in South Africa?",
+          "back": "The risk-free rate is the return on a zero-risk investment. In SA it is proxied by short-term government Treasury bills or the SARB repo rate.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.87,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch3-fc3",
+          "chapter": "Ch3",
+          "front": "What is the default risk premium?",
+          "back": "The additional return required above the risk-free rate to compensate investors for the risk that a borrower may default on their obligations.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch3-fc4",
+          "chapter": "Ch3",
+          "front": "What is the maturity risk premium?",
+          "back": "Additional return required for investing in longer-maturity instruments to compensate for greater interest rate risk and uncertainty over longer horizons.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch3-fc5",
+          "chapter": "Ch3",
+          "front": "What is the liquidity premium?",
+          "back": "Additional return required for investments that cannot be easily converted to cash at fair value. Illiquid investments require higher returns.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.87,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ekrp211-ch3-q1",
+          "chapter": "Ch3",
+          "questionType": "multiple-choice",
+          "prompt": "If the nominal interest rate is 12% and expected inflation is 7%, what is the approximate real interest rate?",
+          "options": [
+            "1.9%",
+            "5%",
+            "7%",
+            "19%"
+          ],
+          "answer": "5%",
+          "explanation": "Using the approximate Fisher formula: r_real ≈ r_nominal - inflation = 12% - 7% = 5%.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch3-q2",
+          "chapter": "Ch3",
+          "questionType": "multiple-choice",
+          "prompt": "Which component of the required rate of return compensates investors for the possibility that a company cannot repay its debt?",
+          "options": [
+            "Inflation premium",
+            "Liquidity premium",
+            "Default risk premium",
+            "Maturity risk premium"
+          ],
+          "answer": "Default risk premium",
+          "explanation": "The default risk premium compensates investors for the risk that the issuer may fail to make promised payments.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch3-q3",
+          "chapter": "Ch3",
+          "questionType": "multiple-choice",
+          "prompt": "An investor requires a real return of 3.5% and expects inflation of 5.5%. Using the exact Fisher formula, what nominal return is required?",
+          "options": [
+            "9.0%",
+            "9.19%",
+            "8.5%",
+            "9.5%"
+          ],
+          "answer": "9.19%",
+          "explanation": "(1 + r_nominal) = (1.035)(1.055) = 1.0919; r_nominal = 9.19%.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ekrp211-ch3-we1",
+          "chapter": "Ch3",
+          "title": "Building the Required Rate of Return",
+          "summary": "Constructing a required return by adding risk premium components to the risk-free rate.",
+          "problem": "The current SA Treasury bill rate is 8.5% (risk-free rate). An investor is considering a 10-year corporate bond. The default risk premium is 2%, the liquidity premium is 0.5% and the maturity risk premium is 1.5%. Calculate the required rate of return.",
+          "steps": [
+            {
+              "label": "Identify the risk-free rate",
+              "explanation": "Rf = 8.5% (SA Treasury bill rate)"
+            },
+            {
+              "label": "List all risk premiums",
+              "explanation": "Default risk premium = 2%; Liquidity premium = 0.5%; Maturity risk premium = 1.5%"
+            },
+            {
+              "label": "Sum all components",
+              "explanation": "Required return = 8.5% + 2% + 0.5% + 1.5% = 12.5%"
+            }
+          ],
+          "answer": "The required rate of return on the corporate bond is 12.5%.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Ch4",
+      "flashcards": [
+        {
+          "id": "ekrp211-ch4-fc1",
+          "chapter": "Ch4",
+          "front": "What is the formula for portfolio expected return (2 assets)?",
+          "back": "E(Rp) = w1·E(R1) + w2·E(R2), where w1 and w2 are the portfolio weights (w1 + w2 = 1).",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch4-fc2",
+          "chapter": "Ch4",
+          "front": "What is systematic risk?",
+          "back": "Market-wide risk that cannot be eliminated through diversification. Also called non-diversifiable or market risk (e.g. recessions, interest rate changes).",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch4-fc3",
+          "chapter": "Ch4",
+          "front": "What is unsystematic risk?",
+          "back": "Firm-specific or industry-specific risk that CAN be eliminated through diversification. Also called diversifiable risk (e.g. a strike at one company).",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch4-fc4",
+          "chapter": "Ch4",
+          "front": "What does a correlation coefficient of -1 between two assets mean for a portfolio?",
+          "back": "Perfect negative correlation. The two assets move in exactly opposite directions. Combining them can theoretically eliminate all portfolio risk.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch4-fc5",
+          "chapter": "Ch4",
+          "front": "What is the efficient frontier?",
+          "back": "The set of portfolios that offer the maximum expected return for a given level of risk (or minimum risk for a given return). Rational investors choose portfolios on the efficient frontier.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ekrp211-ch4-q1",
+          "chapter": "Ch4",
+          "questionType": "multiple-choice",
+          "prompt": "A portfolio consists of 70% in Share A (E(R) = 18%) and 30% in Share B (E(R) = 10%). What is the portfolio expected return?",
+          "options": [
+            "14%",
+            "15.6%",
+            "16%",
+            "12.4%"
+          ],
+          "answer": "15.6%",
+          "explanation": "E(Rp) = 0.70 × 18% + 0.30 × 10% = 12.6% + 3% = 15.6%.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch4-q2",
+          "chapter": "Ch4",
+          "questionType": "multiple-choice",
+          "prompt": "Which type of risk can be eliminated through portfolio diversification?",
+          "options": [
+            "Systematic risk",
+            "Market risk",
+            "Unsystematic risk",
+            "Interest rate risk"
+          ],
+          "answer": "Unsystematic risk",
+          "explanation": "Unsystematic (diversifiable/firm-specific) risk can be eliminated by holding a well-diversified portfolio. Systematic risk cannot be diversified away.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch4-q3",
+          "chapter": "Ch4",
+          "questionType": "multiple-choice",
+          "prompt": "For diversification benefits to exist, the correlation between two assets must be:",
+          "options": [
+            "Exactly +1",
+            "Greater than +1",
+            "Less than +1",
+            "Equal to 0 only"
+          ],
+          "answer": "Less than +1",
+          "explanation": "Any correlation less than +1 provides some diversification benefit. Maximum benefit occurs at correlation = -1.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ekrp211-ch4-we1",
+          "chapter": "Ch4",
+          "title": "Two-Asset Portfolio Risk Calculation",
+          "summary": "Calculating portfolio standard deviation using the two-asset portfolio variance formula.",
+          "problem": "Portfolio consists of 50% in Naspers (σ=25%) and 50% in Vodacom (σ=15%) with correlation ρ=0.2. Calculate the portfolio standard deviation.",
+          "steps": [
+            {
+              "label": "State the formula",
+              "explanation": "σ²p = w1²σ1² + w2²σ2² + 2·w1·w2·σ1·σ2·ρ12"
+            },
+            {
+              "label": "Substitute values",
+              "explanation": "σ²p = (0.5)²(0.25)² + (0.5)²(0.15)² + 2(0.5)(0.5)(0.25)(0.15)(0.2)"
+            },
+            {
+              "label": "Calculate each term",
+              "explanation": "= 0.25(0.0625) + 0.25(0.0225) + 2(0.25)(0.25)(0.15)(0.2) = 0.015625 + 0.005625 + 0.00375 = 0.025"
+            },
+            {
+              "label": "Find standard deviation",
+              "explanation": "σp = √0.025 = 0.1581 = 15.81%"
+            }
+          ],
+          "answer": "The portfolio standard deviation is 15.81%, which is less than the weighted average of the individual standard deviations (20%), demonstrating diversification benefits.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.87,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Ch5",
+      "flashcards": [
+        {
+          "id": "ekrp211-ch5-fc1",
+          "chapter": "Ch5",
+          "front": "What is the bond pricing formula?",
+          "back": "P = Σ[C / (1+r)^t] + [FV / (1+r)^n], where C = annual coupon, r = YTM, FV = face value, n = years to maturity.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch5-fc2",
+          "chapter": "Ch5",
+          "front": "What is yield to maturity (YTM)?",
+          "back": "The total return expected if a bond is held to maturity, expressed as an annual rate. It is the internal rate of return of the bond's cash flows.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch5-fc3",
+          "chapter": "Ch5",
+          "front": "When does a bond trade at a discount?",
+          "back": "A bond trades at a discount (below par value) when the market interest rate (YTM) is HIGHER than the bond's coupon rate.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch5-fc4",
+          "chapter": "Ch5",
+          "front": "What is the formula for current yield?",
+          "back": "Current Yield = Annual Coupon Payment / Current Market Price of the Bond.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch5-fc5",
+          "chapter": "Ch5",
+          "front": "What is the relationship between bond prices and interest rates?",
+          "back": "Inverse relationship: when interest rates (YTM) rise, bond prices fall; when interest rates fall, bond prices rise.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ekrp211-ch5-q1",
+          "chapter": "Ch5",
+          "questionType": "multiple-choice",
+          "prompt": "A bond has a par value of R1 000, a coupon rate of 8% and is currently priced at R920. What is the current yield?",
+          "options": [
+            "8.0%",
+            "8.7%",
+            "9.2%",
+            "10.0%"
+          ],
+          "answer": "8.7%",
+          "explanation": "Annual coupon = 8% × R1 000 = R80. Current yield = R80 / R920 = 8.70%.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch5-q2",
+          "chapter": "Ch5",
+          "questionType": "multiple-choice",
+          "prompt": "If market interest rates rise above a bond's coupon rate, the bond will trade:",
+          "options": [
+            "At par value",
+            "At a premium",
+            "At a discount",
+            "At its book value"
+          ],
+          "answer": "At a discount",
+          "explanation": "When YTM > coupon rate, the bond's price falls below par value (trades at a discount) because investors can get better returns elsewhere.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch5-q3",
+          "chapter": "Ch5",
+          "questionType": "multiple-choice",
+          "prompt": "Which bond is MORE sensitive to interest rate changes?",
+          "options": [
+            "A 2-year bond",
+            "A 5-year bond",
+            "A 10-year bond",
+            "A 20-year bond"
+          ],
+          "answer": "A 20-year bond",
+          "explanation": "Longer-maturity bonds have greater price sensitivity (duration) to interest rate changes. A 20-year bond will experience the largest price change for a given change in YTM.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ekrp211-ch5-we1",
+          "chapter": "Ch5",
+          "title": "Bond Valuation",
+          "summary": "Pricing a bond using the present value of cash flows.",
+          "problem": "An RSA government bond has a par value of R1 000, a coupon rate of 9% paid annually and matures in 3 years. If the required yield (YTM) is 11%, what is the bond's current price?",
+          "steps": [
+            {
+              "label": "Identify cash flows",
+              "explanation": "Annual coupon = 9% × R1 000 = R90. Par value at maturity = R1 000."
+            },
+            {
+              "label": "Calculate PV of coupons",
+              "explanation": "PV(coupons) = 90/(1.11)^1 + 90/(1.11)^2 + 90/(1.11)^3 = 81.08 + 73.04 + 65.80 = R219.92"
+            },
+            {
+              "label": "Calculate PV of par value",
+              "explanation": "PV(par) = 1 000/(1.11)^3 = 1 000/1.3676 = R731.19"
+            },
+            {
+              "label": "Sum to get bond price",
+              "explanation": "P = R219.92 + R731.19 = R951.11"
+            }
+          ],
+          "answer": "The bond's current price is R951.11. Since YTM (11%) > coupon rate (9%), the bond trades at a discount.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Ch6",
+      "flashcards": [
+        {
+          "id": "ekrp211-ch6-fc1",
+          "chapter": "Ch6",
+          "front": "State the Gordon Growth Model formula.",
+          "back": "P0 = D1 / (k - g), where D1 = next expected dividend, k = required return, g = constant dividend growth rate.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch6-fc2",
+          "chapter": "Ch6",
+          "front": "What is intrinsic value?",
+          "back": "The estimated fundamental value of a share based on the present value of expected future cash flows. If intrinsic value > market price, the share is undervalued.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch6-fc3",
+          "chapter": "Ch6",
+          "front": "What is the zero-growth DDM?",
+          "back": "P0 = D / k (perpetuity formula). Used when dividends are expected to remain constant forever.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch6-fc4",
+          "chapter": "Ch6",
+          "front": "What is the P/E ratio valuation approach?",
+          "back": "P0 = EPS × P/E multiple. The earnings per share is multiplied by the appropriate P/E ratio (often the industry average) to estimate share value.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch6-fc5",
+          "chapter": "Ch6",
+          "front": "What two conditions must hold for the Gordon Growth Model to be applicable?",
+          "back": "1) The required return (k) must be greater than the growth rate (g); k > g. 2) The dividend growth rate must be constant and sustainable.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ekrp211-ch6-q1",
+          "chapter": "Ch6",
+          "questionType": "multiple-choice",
+          "prompt": "Standard Bank just paid a dividend of R3.00. Dividends are expected to grow at 5% per year and investors require a 13% return. What is the intrinsic value of the share?",
+          "options": [
+            "R33.33",
+            "R37.50",
+            "R39.38",
+            "R23.08"
+          ],
+          "answer": "R39.38",
+          "explanation": "D1 = 3.00 × 1.05 = R3.15. P0 = D1/(k-g) = 3.15/(0.13-0.05) = 3.15/0.08 = R39.38.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch6-q2",
+          "chapter": "Ch6",
+          "questionType": "multiple-choice",
+          "prompt": "If a share's intrinsic value (R65) is HIGHER than its current market price (R55), an investor should:",
+          "options": [
+            "Sell the share immediately",
+            "Buy the share (it is undervalued)",
+            "Hold the share but not buy more",
+            "Short-sell the share"
+          ],
+          "answer": "Buy the share (it is undervalued)",
+          "explanation": "If intrinsic value > market price, the share is undervalued and is trading below its fundamental worth — this signals a buy opportunity.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch6-q3",
+          "chapter": "Ch6",
+          "questionType": "multiple-choice",
+          "prompt": "Which valuation model would be MOST appropriate for a mature, stable South African utility company with consistently growing dividends?",
+          "options": [
+            "Free cash flow model",
+            "Book value approach",
+            "Gordon Growth Model",
+            "Zero-growth DDM"
+          ],
+          "answer": "Gordon Growth Model",
+          "explanation": "The Gordon Growth Model is most suited to stable, dividend-paying companies with predictable, constant dividend growth rates — typical of mature utilities.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ekrp211-ch6-we1",
+          "chapter": "Ch6",
+          "title": "Gordon Growth Model Valuation",
+          "summary": "Valuing a share using the constant-growth Dividend Discount Model.",
+          "problem": "Absa Group's most recent dividend (D0) was R8.50 per share. Dividends have been growing at 7% per year and are expected to continue at this rate. If the required return for Absa shares is 15%, calculate the intrinsic value and determine if the share is over- or undervalued at a current market price of R120.",
+          "steps": [
+            {
+              "label": "Calculate D1 (next dividend)",
+              "explanation": "D1 = D0 × (1 + g) = R8.50 × 1.07 = R9.095"
+            },
+            {
+              "label": "Apply Gordon Growth Model",
+              "explanation": "P0 = D1 / (k - g) = 9.095 / (0.15 - 0.07) = 9.095 / 0.08 = R113.69"
+            },
+            {
+              "label": "Compare to market price",
+              "explanation": "Intrinsic value (R113.69) < Market price (R120), so the share is OVERVALUED by R6.31."
+            }
+          ],
+          "answer": "Intrinsic value = R113.69. The share is overvalued at R120 — a rational investor should not buy at the current market price.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Ch7",
+      "flashcards": [
+        {
+          "id": "ekrp211-ch7-fc1",
+          "chapter": "Ch7",
+          "front": "State the CAPM formula.",
+          "back": "E(Ri) = Rf + βi × [E(Rm) - Rf], where Rf = risk-free rate, βi = beta, E(Rm) = expected market return.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.95,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch7-fc2",
+          "chapter": "Ch7",
+          "front": "What does a beta of 1.5 mean?",
+          "back": "The security is 50% more volatile than the market. For every 1% change in the market, the security is expected to change by 1.5%.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch7-fc3",
+          "chapter": "Ch7",
+          "front": "What is Jensen's alpha and what does a positive alpha indicate?",
+          "back": "Alpha = Actual Return - CAPM Required Return. Positive alpha means the investment outperformed what CAPM predicted (risk-adjusted outperformance).",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch7-fc4",
+          "chapter": "Ch7",
+          "front": "What is the Security Market Line (SML)?",
+          "back": "A graphical representation of CAPM, plotting the linear relationship between beta (x-axis) and expected return (y-axis). Securities above the SML are undervalued; below the SML are overvalued.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch7-fc5",
+          "chapter": "Ch7",
+          "front": "What is the market risk premium?",
+          "back": "Market Risk Premium = E(Rm) - Rf. The excess return of the market portfolio over the risk-free rate; represents the reward per unit of market risk.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ekrp211-ch7-q1",
+          "chapter": "Ch7",
+          "questionType": "multiple-choice",
+          "prompt": "The risk-free rate is 7%, expected market return is 15% and a share has a beta of 1.25. What is the CAPM required return?",
+          "options": [
+            "15.0%",
+            "17.0%",
+            "16.25%",
+            "17.5%"
+          ],
+          "answer": "17.0%",
+          "explanation": "E(R) = 7% + 1.25 × (15% - 7%) = 7% + 1.25 × 8% = 7% + 10% = 17.0%.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.95,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch7-q2",
+          "chapter": "Ch7",
+          "questionType": "multiple-choice",
+          "prompt": "A security plots ABOVE the Security Market Line. This means the security is:",
+          "options": [
+            "Overvalued — investors should sell",
+            "Undervalued — investors should buy",
+            "Fairly priced at equilibrium",
+            "Too risky to invest in"
+          ],
+          "answer": "Undervalued — investors should buy",
+          "explanation": "A security above the SML offers a higher return than CAPM requires for its level of risk — it is undervalued (positive alpha) and investors should buy it.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ekrp211-ch7-q3",
+          "chapter": "Ch7",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is a key ASSUMPTION of the CAPM?",
+          "options": [
+            "Investors have different investment horizons",
+            "Markets are perfectly efficient with no transaction costs",
+            "Investors can borrow and lend at different rates",
+            "Taxes significantly affect investment decisions"
+          ],
+          "answer": "Markets are perfectly efficient with no transaction costs",
+          "explanation": "CAPM assumes perfect capital markets: no taxes, no transaction costs, all investors can borrow and lend at the same risk-free rate.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ekrp211-ch7-we1",
+          "chapter": "Ch7",
+          "title": "CAPM Required Return and SML Analysis",
+          "summary": "Applying CAPM to determine required return and evaluate if a security is over or undervalued.",
+          "problem": "The SA risk-free rate is 8%, the JSE All Share Index expected return is 16%. Two shares have the following data: Share P — beta = 0.8, expected return = 13%; Share Q — beta = 1.4, expected return = 22%. Determine the CAPM required return for each share and identify whether each is fairly priced, overvalued or undervalued.",
+          "steps": [
+            {
+              "label": "Calculate market risk premium",
+              "explanation": "MRP = E(Rm) - Rf = 16% - 8% = 8%"
+            },
+            {
+              "label": "CAPM required return for Share P",
+              "explanation": "E(Rp) = 8% + 0.8 × 8% = 8% + 6.4% = 14.4%"
+            },
+            {
+              "label": "Evaluate Share P",
+              "explanation": "Expected return (13%) < CAPM required (14.4%). Share P plots BELOW the SML → OVERVALUED. Alpha = 13% - 14.4% = -1.4%."
+            },
+            {
+              "label": "CAPM required return for Share Q",
+              "explanation": "E(Rq) = 8% + 1.4 × 8% = 8% + 11.2% = 19.2%"
+            },
+            {
+              "label": "Evaluate Share Q",
+              "explanation": "Expected return (22%) > CAPM required (19.2%). Share Q plots ABOVE the SML → UNDERVALUED. Alpha = 22% - 19.2% = +2.8%."
+            }
+          ],
+          "answer": "Share P is overvalued (alpha = -1.4%); Share Q is undervalued (alpha = +2.8%). Investors should sell P and buy Q.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    }
+  ],
+  "discipline": "investment",
+  "referenceList": [
+    {
+      "title": "CFA Institute — CFA Program Curriculum",
+      "publisher": "CFA Institute",
+      "url": "https://www.cfainstitute.org/en/programs/cfa",
+      "note": "Gold-standard investment-analysis curriculum; ethics, valuation, portfolio management.",
+      "sourceHash": "3eb1d98a33b3c92909e729272964a9aee07eef155cb9c30fdbf9dddbd9144e0f"
+    },
+    {
+      "title": "Bodie, Kane & Marcus — Investments (McGraw-Hill)",
+      "publisher": "McGraw-Hill Education",
+      "url": "https://www.mheducation.com/highered/product/investments-bodie/M9781260565509.html",
+      "note": "Standard investments text; risk/return, portfolio theory, asset pricing.",
+      "sourceHash": "94e7dd4b13c17150da0b8ae4402b7c56f2a1771ad677e4692ac1df86979ffec9"
+    },
+    {
+      "title": "JSE — Investor Education",
+      "publisher": "Johannesburg Stock Exchange",
+      "url": "https://www.jse.co.za/about/our-services/investor-relations",
+      "note": "Local market context for SA investment examples.",
+      "sourceHash": "80a0bf819f7985ac7ec3a156542825099e33a955ab4d5ab882268dc390f63b9a"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: Investment Management (BCom, North-West University). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "Chapter-by-chapter teaching focus (derived from the module's own learning outcomes and key definitions):",
+    "  • Ch1 — Introduction to Investment. Emphasise: Define investment and distinguish between real and financial investments; Describe the investment process and its key steps; Identify major investment vehicles available to South African investors. Local context: The JSE is Africa's largest stock exchange and plays a central role in South African capital markets. Investors can access shares, bonds, ETFs and derivatives. SARB repo rate movements directly affect required returns across all asset classes.",
+    "  • Ch2 — Risk and Return. Emphasise: Calculate holding period return for a given investment; Compute expected return using probability-weighted outcomes; Measure risk using variance and standard deviation. Local context: South African asset class returns are influenced by SARB monetary policy, rand volatility and commodity prices. SA equities have historically provided higher long-run returns than bonds but with greater volatility, consistent with the risk-return trade-off.",
+    "  • Ch3 — Required Rate of Return. Emphasise: Distinguish between nominal and real interest rates; Apply the Fisher effect to convert between nominal and real rates; Identify and explain the components of the required rate of return. Local context: The SARB Monetary Policy Committee sets the repo rate, which serves as the anchor for risk-free rates in South Africa. SA inflation (CPI) targets of 3–6% directly affect nominal required returns. SA government bonds (RSA bonds) are widely used as the risk-free rate proxy.",
+    "  • Ch4 — Portfolio Theory. Emphasise: Calculate the expected return of a two-asset portfolio; Calculate the standard deviation of a two-asset portfolio using correlation; Explain the role of diversification in reducing portfolio risk. Local context: South African investors can diversify across JSE sectors (financials, resources, industrials) or internationally. Resource stocks (e.g. Anglo American, Naspers) often have lower correlations with each other, providing diversification benefits.",
+    "  • Ch5 — Bond Valuation. Emphasise: Define key bond terminology including par value, coupon rate, maturity and yield; Calculate the price of a bond using the present value formula; Calculate yield to maturity (YTM) given bond price and cash flows. Local context: South African government bonds (RSA bonds) are traded on the JSE's Interest Rate Market. The benchmark bond yield (e.g. R186, R2030) is widely followed as an indicator of long-term interest rates in South Africa.",
+    "  • Ch6 — Share Valuation. Emphasise: Apply the Dividend Discount Model (DDM) to value ordinary shares; Use the Gordon Growth Model for constant-growth share valuation; Value zero-growth (perpetuity) shares. Local context: Share valuation is critical for JSE-listed companies. South African analysts regularly apply DDM and P/E ratio approaches to companies like Naspers, Standard Bank, and Sasol. Dividend yields on the JSE average around 3–5%.",
+    "  • Ch7 — Capital Asset Pricing Model. Emphasise: State and apply the CAPM formula to calculate required returns; Interpret beta as a measure of systematic risk; Plot and interpret the Security Market Line (SML). Local context: In South Africa, the JSE All Share Index (ALSI) is typically used as a proxy for the market portfolio in CAPM applications. South African equity risk premiums have historically been estimated at around 6–8% above the risk-free rate.",
+    "Pedagogy tip (quantitative): work at least one fully solved example on the board per topic, then assign a parallel guided-practice problem. Common student errors: sign errors in debit/credit (accounting), confusing correlation with causation (stats/econ), and unit/percentage mistakes in ratio work. Build a short weekly formative quiz from the module's own revision prompts.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "3eb1d98a33b3c92909e729272964a9aee07eef155cb9c30fdbf9dddbd9144e0f",
+    "94e7dd4b13c17150da0b8ae4402b7c56f2a1771ad677e4692ac1df86979ffec9",
+    "80a0bf819f7985ac7ec3a156542825099e33a955ab4d5ab882268dc390f63b9a"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

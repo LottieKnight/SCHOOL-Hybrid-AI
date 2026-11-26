@@ -1,0 +1,374 @@
+/* ═══════════════════════════════════════════════════════════════
+   SCHOOL PREMIUM OVERRIDES — Material refinements over globals.css
+   Load order: after globals.css
+═══════════════════════════════════════════════════════════════ */
+
+:root {
+  --glass-fill:   rgba(255, 255, 255, 0.030);
+  --glass-stroke: rgba(255, 255, 255, 0.085);
+  /* RGB channels of the gold accent for use in rgba() */
+  --brand-primary-rgb:   232, 193, 90;
+  --brand-secondary-rgb: 34, 211, 238;
+
+  /* ── Old-money gold identity (applied site-wide via .home-gold / .gateway-gold) ── */
+  --om-gold:       #e8c15a;   /* house gold */
+  --om-gold-2:     #f0d27a;   /* champagne highlight */
+  --om-gold-3:     #b8860b;   /* dark goldenrod (edge/decoration) */
+  --om-gold-soft:  #fff3c4;   /* highlight tint for roles */
+  --om-navy:       #081120;
+  --om-navy-2:     #10203b;
+  --om-edge:       rgba(232, 193, 90, 0.26);
+  --om-edge-soft:  rgba(232, 193, 90, 0.12);
+  --om-glow:       0 0 0 1px rgba(232, 193, 90, 0.18),
+                   0 0 0 4px rgba(232, 193, 90, 0.05),
+                   0 10px 30px rgba(232, 193, 90, 0.16),
+                   0 24px 56px rgba(0, 0, 0, 0.50);
+  --om-lift:       0 18px 40px -12px rgba(0, 0, 0, 0.55),
+                   0 6px 16px -8px rgba(0, 0, 0, 0.45);
+  --om-title-depth:
+    drop-shadow(0 1px 0 rgba(0, 0, 0, 0.45))
+    drop-shadow(0 3px 0 rgba(0, 0, 0, 0.30))
+    drop-shadow(0 10px 24px rgba(0, 0, 0, 0.45))
+    drop-shadow(0 0 42px rgba(232, 193, 90, 0.18));
+  --om-engrave:
+    0 1px 1px rgba(0, 0, 0, 0.85),
+    0 2px 0 rgba(232, 193, 90, 0.25),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.55);
+}
+
+/* ── Homepage gold scope: re-point the legacy --gold accent to real gold ── */
+.home-gold {
+  --gold:              var(--om-gold);
+  --gold-strong:       var(--om-gold-soft);
+  --gold-dim:          rgba(232, 193, 90, 0.10);
+  --gold-border:       rgba(232, 193, 90, 0.24);
+  --border-gold:       rgba(232, 193, 90, 0.32);
+  --text-gold:         var(--om-gold-soft);
+  --sh-gold:           var(--om-glow);
+  --glow-gold:         0 0 24px rgba(232, 193, 90, 0.22), 0 0 48px rgba(232, 193, 90, 0.10);
+  --inst-primary:      var(--om-gold);
+  --inst-border:       rgba(232, 193, 90, 0.22);
+  --inst-surface:      rgba(232, 193, 90, 0.06);
+  --inst-text-on-p:    #0b1526;
+  --brand-primary:     var(--om-gold);
+  --brand-surface:     rgba(232, 193, 90, 0.05);
+  --brand-border:      rgba(232, 193, 90, 0.16);
+  --brand-primary-foreground: #0b1526;
+}
+
+/* ── Elevation / banner / depth utilities (homepage + gateway) ── */
+.om-banner {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--om-edge);
+  border-radius: var(--r-xl);
+  background:
+    radial-gradient(ellipse 90% 120% at 15% -20%, rgba(232, 193, 90, 0.16) 0%, transparent 55%),
+    radial-gradient(ellipse 60% 100% at 105% 115%, rgba(7, 89, 133, 0.35) 0%, transparent 55%),
+    linear-gradient(150deg, var(--surface-2) 0%, var(--navy) 100%);
+  box-shadow: var(--sh-inset-top), var(--om-lift);
+}
+.om-banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.05) 40%,
+      rgba(232, 193, 90, 0.10) 50%,
+      rgba(255, 255, 255, 0.05) 60%,
+      transparent 100%);
+  transform: translateX(-120%);
+  animation: omSheen 5.5s ease-in-out infinite;
+}
+@keyframes omSheen {
+  0%   { transform: translateX(-120%); }
+  55%  { transform: translateX(120%); }
+  100% { transform: translateX(120%); }
+}
+
+.om-3d-headline {
+  filter: var(--om-title-depth);
+}
+.om-engrave {
+  filter: var(--om-engrave);
+}
+
+.om-vignette::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  background: radial-gradient(ellipse 120% 90% at 50% 0%, transparent 55%, rgba(0, 0, 0, 0.35) 100%);
+}
+.om-grid-bg {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: radial-gradient(ellipse 75% 70% at 50% 40%, #000 30%, transparent 75%);
+  -webkit-mask-image: radial-gradient(ellipse 75% 70% at 50% 40%, #000 30%, transparent 75%);
+}
+
+.om-throbber {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+}
+.om-throbber > i {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--om-gold);
+  animation: omThrob 1s ease-in-out infinite;
+}
+.om-throbber > i:nth-child(2) { animation-delay: 0.16s; }
+.om-throbber > i:nth-child(3) { animation-delay: 0.32s; }
+@keyframes omThrob {
+  0%, 100% { opacity: 0.25; transform: scale(0.85); }
+  50%      { opacity: 1;    transform: scale(1); }
+}
+
+.om-spinner {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid rgba(232, 193, 90, 0.25);
+  border-top-color: var(--om-gold);
+  animation: omSpin 0.7s linear infinite;
+}
+@keyframes omSpin { to { transform: rotate(360deg); } }
+
+/* ── Gold primary CTAs inside the homepage scope ── */
+.home-gold .button,
+.home-gold a.button {
+  background: linear-gradient(145deg, #f0d27a 0%, #e8c15a 45%, #c9a24b 100%);
+  color: #0b1526;
+  border: 1px solid rgba(232, 193, 90, 0.50);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    inset 0 -1px 0 rgba(120, 90, 0, 0.45),
+    0 6px 20px rgba(232, 193, 90, 0.28),
+    0 14px 32px rgba(0, 0, 0, 0.40);
+}
+.home-gold .button:hover,
+.home-gold a.button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(145deg, #f5dfa0 0%, #e8c15a 40%, #b8862f 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    0 10px 28px rgba(232, 193, 90, 0.38),
+    0 22px 48px rgba(0, 0, 0, 0.45);
+}
+.home-gold .prestigious-shine:hover {
+  box-shadow:
+    0 0 0 1px rgba(232, 193, 90, 0.30),
+    0 16px 48px rgba(232, 193, 90, 0.20),
+    0 32px 72px rgba(0, 0, 0, 0.45) !important;
+}
+
+/* ── Unified wordmark lockup ── */
+.home-gold .home-wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-body);
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  font-size: 13px;
+  color: var(--text-1);
+  text-decoration: none;
+}
+.home-gold .home-wordmark strong {
+  color: var(--om-gold-soft);
+  font-weight: 800;
+}
+
+/* ── Performance hints ── */
+.ui-button,
+.ui-card,
+.ui-stat-card,
+.ui-badge,
+.school-logo,
+.sidebar-link,
+.bezel-gem,
+.prestigious-shine {
+  will-change: transform;
+}
+
+/* ── School Logo gem (gold edge) ── */
+.school-logo {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  padding: 6px;
+  background: linear-gradient(145deg, rgba(232, 193, 90, 0.14) 0%, rgba(8, 17, 32, 0.35) 100%);
+  border: 1px solid rgba(232, 193, 90, 0.30);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    0 8px 24px rgba(0, 0, 0, 0.40),
+    0 0 0 1px rgba(232, 193, 90, 0.08);
+}
+
+.school-logo__svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+/* ── Button base refinements ── */
+.button,
+.ui-button {
+  min-height: calc(var(--space-4) + var(--space-2));
+  border-radius: var(--r-lg);
+  padding-inline: var(--space-4);
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  position: relative;
+  overflow: hidden;
+}
+
+.ui-button--sm { padding: var(--space-2) var(--space-3); }
+.ui-button--md { padding: var(--space-2) var(--space-4); }
+.ui-button--lg { padding: var(--space-3) var(--space-5); }
+
+/* ── Primary gold button (real old-money gold) ── */
+.ui-button--gold {
+  background: linear-gradient(145deg, #f0d27a 0%, #e8c15a 45%, #c9a24b 100%);
+  color: #0b1526;
+  border: 1px solid rgba(232, 193, 90, 0.55);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    inset 0 -1px 0 rgba(120, 90, 0, 0.45),
+    0 6px 20px rgba(232, 193, 90, 0.30),
+    0 16px 40px rgba(0, 0, 0, 0.38);
+}
+
+/* ── Outline button ── */
+.ui-button--outline {
+  color: var(--text-2);
+  border: 1px solid var(--border-2);
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: var(--sh-inset-top);
+}
+
+/* ── Ghost button ── */
+.ui-button--ghost {
+  color: var(--text-3);
+  border: 1px solid transparent;
+}
+
+/* ── Danger button ── */
+.ui-button--danger {
+  color: #fff;
+}
+
+/* ── Badge refinements ── */
+.ui-badge {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.ui-badge--gold {
+  background: rgba(232, 193, 90, 0.10);
+  color: var(--om-gold);
+  border-color: rgba(232, 193, 90, 0.28);
+}
+
+.ui-badge--neutral {
+  color: var(--text-2);
+  background: var(--border);
+  border-color: var(--border-2);
+}
+
+/* ── Card glass material ── */
+.ui-card,
+.ui-stat-card {
+  background:
+    linear-gradient(145deg, rgba(255,255,255,0.025) 0%, transparent 100%),
+    var(--surface);
+  border: 1px solid var(--border-2);
+  backdrop-filter: none;
+  box-shadow: var(--sh-inset-top), var(--sh-sm);
+}
+
+.ui-card-header,
+.ui-card-body {
+  padding: var(--space-4);
+}
+
+.ui-stat-card {
+  padding: var(--space-4);
+}
+
+/* ── Card title: mono + smaller for premium feel ── */
+.ui-card-title {
+  font-family: var(--font-mono);
+  font-size: 0.70rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-2);
+}
+
+.ui-card-title::before {
+  width: 6px;
+  height: 6px;
+  background: var(--gold);
+  box-shadow: 0 0 0 4px rgba(232, 193, 90, 0.14);
+  animation: ambientGlow 2.4s ease-in-out infinite;
+}
+
+.ui-card-action {
+  color: var(--text-3);
+}
+
+.ui-card-action:hover {
+  color: var(--gold);
+}
+
+/* ── Stat card sub-elements ── */
+.ui-stat-card__icon {
+  color: var(--om-gold);
+}
+
+.ui-stat-card__line {
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(232, 193, 90, 0.40) 30%,
+    rgba(127, 181, 224, 0.30) 70%,
+    transparent 100%);
+  opacity: 0.55;
+  transition: opacity 220ms ease;
+}
+
+.ui-stat-card:hover .ui-stat-card__line {
+  opacity: 1;
+}
+
+.ui-stat-card__label {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.20em;
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+
+.ui-stat-card__value {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(2.2rem, 2.8vw, 3rem);
+  line-height: 0.90;
+  letter-spacing: -0.04em;
+}
+
+.ui-stat-card__delta--neutral {
+  background: rgba(255, 255, 255, 0.07);
+  color: var(--text-2);
+}

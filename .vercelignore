@@ -1,0 +1,41 @@
+# ML training artifacts — never deploy these
+models/
+unsloth_compiled_cache/
+*.jsonl
+scripts/__pycache__/
+scripts/finetune_*.py
+scripts/ingest_*.py
+scripts/scrape_*.py
+
+# Misc local artifacts
+.superpowers/
+caps_finetune*.jsonl
+
+# Build caches — never deploy; the webpack *.pack files exceed Vercel's
+# 100 MB per-file upload limit and abort `vercel deploy` mid-upload.
+**/.next/cache
+**/*.pack
+**/*.pack.old
+
+# Dependencies are installed by Vercel's own build (installCommand) —
+# shipping local node_modules bloats the upload and is never used.
+node_modules
+**/node_modules
+
+# Local build output — rebuilt remotely.
+**/.next
+
+# Repo-local tooling
+.git
+**/*.log
+screenshots/
+.devcontainer/
+
+# Full duplicate repo copies checked out under Claude worktrees —
+# thousands of files that would otherwise blow past Vercel's upload cap.
+.claude/
+
+# Local static/analysis artifacts
+output/
+Brazil_Pro_Assets/
+Brazil_Pro_Assets_Generated/

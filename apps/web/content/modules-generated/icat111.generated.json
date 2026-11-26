@@ -1,0 +1,1970 @@
+{
+  "institution": "North-West University",
+  "moduleCode": "ICAT111",
+  "moduleName": "Computer Literacy and Information Technology 111",
+  "semester": "Semester 1, 2025",
+  "programme": "BCom",
+  "confidence": 0.82,
+  "generatedAt": "2026-04-03T00:00:00.000Z",
+  "sourceFiles": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "missingContent": [],
+  "studyUnits": [
+    "Chapter 1 — Computer Fundamentals & Hardware",
+    "Chapter 2 — Operating Systems & File Management",
+    "Chapter 3 — Word Processing (MS Word)",
+    "Chapter 4 — Spreadsheets Basics (MS Excel)",
+    "Chapter 5 — Excel Advanced (Formulas, Charts, Pivot Tables)",
+    "Chapter 6 — Presentations (MS PowerPoint)",
+    "Chapter 7 — Internet, Email & Cloud Services",
+    "Chapter 8 — Information Security & Ethics"
+  ],
+  "chapters": [
+    "Chapter 1",
+    "Chapter 2",
+    "Chapter 3",
+    "Chapter 4",
+    "Chapter 5",
+    "Chapter 6",
+    "Chapter 7",
+    "Chapter 8"
+  ],
+  "topicSeeds": [
+    "Ch1 - hardware components",
+    "Ch2 - file management",
+    "Ch3 - MS Word formatting",
+    "Ch4 - Excel basics",
+    "Ch5 - Excel advanced formulas",
+    "Ch6 - PowerPoint",
+    "Ch7 - internet and email",
+    "Ch8 - security and ethics"
+  ],
+  "keyTopics": [
+    "CPU, RAM, ROM",
+    "file explorer",
+    "mail merge",
+    "cell references",
+    "VLOOKUP",
+    "slide master",
+    "OneDrive",
+    "POPIA"
+  ],
+  "quizSignals": [
+    "What does RAM stand for?",
+    "What is the difference between relative and absolute cell references?",
+    "What does POPIA stand for?",
+    "How do you insert a header in Word?"
+  ],
+  "assessmentPlan": [
+    {
+      "name": "Practical Test 1",
+      "weight": "30%",
+      "due": "March",
+      "scope": "Ch 1-4"
+    },
+    {
+      "name": "Practical Test 2",
+      "weight": "30%",
+      "due": "May",
+      "scope": "Ch 5-8"
+    },
+    {
+      "name": "Assignments",
+      "weight": "40%",
+      "due": "Ongoing",
+      "scope": "Ch 1-8"
+    }
+  ],
+  "classSchedule": [
+    {
+      "label": "Week 1",
+      "summary": "Hardware components and software types.",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 2",
+      "summary": "Windows file management and File Explorer.",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 3",
+      "summary": "Word formatting, styles, and tables.",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 4",
+      "summary": "Excel cell references and basic formulas.",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 5",
+      "summary": "IF, VLOOKUP, charts, and pivot tables.",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 6",
+      "summary": "PowerPoint design, transitions, and slide master.",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 7",
+      "summary": "Web browsers, email etiquette, and cloud storage.",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 8",
+      "summary": "Copyright, POPIA, cybercrime, and ethical use.",
+      "chapter": "Chapter 8"
+    }
+  ],
+  "chapterInsights": [
+    {
+      "chapter": "Chapter 1",
+      "title": "Computer Fundamentals & Hardware",
+      "outcomes": [
+        "Identify hardware components and explain their roles.",
+        "Distinguish between system software and application software."
+      ],
+      "formulas": [
+        "1 KB = 1024 bytes",
+        "1 MB = 1024 KB",
+        "1 GB = 1024 MB"
+      ],
+      "definitions": [
+        {
+          "term": "CPU",
+          "definition": "Central Processing Unit; the main processor that executes instructions."
+        },
+        {
+          "term": "RAM",
+          "definition": "Random Access Memory; volatile memory used for active processes."
+        },
+        {
+          "term": "ROM",
+          "definition": "Read-Only Memory; non-volatile memory storing firmware."
+        }
+      ],
+      "revisionPrompts": [
+        "What is the role of the CPU?",
+        "Difference between RAM and ROM?"
+      ],
+      "saContext": "South African students commonly use Windows 10/11 PCs in NWU computer labs.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://support.microsoft.com/en-us/training",
+          "https://support.google.com/a/users/?hl=en#topic=9009323"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 2",
+      "title": "Operating Systems & File Management",
+      "outcomes": [
+        "Navigate Windows File Explorer efficiently.",
+        "Create, rename, move, and search for files."
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Operating System",
+          "definition": "Software that manages hardware and provides services for applications."
+        },
+        {
+          "term": "File Explorer",
+          "definition": "Windows tool for browsing and managing files and folders."
+        }
+      ],
+      "revisionPrompts": [
+        "How do you move a file in File Explorer?",
+        "What is a folder hierarchy?"
+      ],
+      "saContext": "NWU uses Windows 10/11 across all campuses; students access eFundi via browser.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://support.microsoft.com/en-us/training",
+          "https://support.google.com/a/users/?hl=en#topic=9009323"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 3",
+      "title": "Word Processing (MS Word)",
+      "outcomes": [
+        "Apply styles, headers/footers, and tables in Word.",
+        "Use mail merge and track changes."
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Mail Merge",
+          "definition": "Feature that combines a template document with a data source to produce personalised copies."
+        },
+        {
+          "term": "Track Changes",
+          "definition": "Word feature that records edits for review and acceptance."
+        }
+      ],
+      "revisionPrompts": [
+        "Steps to perform a mail merge?",
+        "How do you save a Word doc as PDF?"
+      ],
+      "saContext": "NWU assignments are submitted via eFundi; PDF submission is standard.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://support.microsoft.com/en-us/training",
+          "https://support.google.com/a/users/?hl=en#topic=9009323"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 4",
+      "title": "Spreadsheets Basics (MS Excel)",
+      "outcomes": [
+        "Write basic Excel formulas using SUM, AVERAGE, MIN, MAX, COUNT.",
+        "Distinguish relative from absolute cell references."
+      ],
+      "formulas": [
+        "=SUM(A1:A10)",
+        "=AVERAGE(B1:B5)",
+        "=$A$1 (absolute reference)"
+      ],
+      "definitions": [
+        {
+          "term": "Cell Reference",
+          "definition": "Address of a cell in A1 notation used in formulas."
+        },
+        {
+          "term": "Absolute Reference",
+          "definition": "A cell address locked with $ so it does not change when copied."
+        }
+      ],
+      "revisionPrompts": [
+        "What does $ do in a formula?",
+        "Difference between COUNT and COUNTA?"
+      ],
+      "saContext": "Excel is used in NWU practical tests; Microsoft 365 is available via student licences.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://support.microsoft.com/en-us/training",
+          "https://support.google.com/a/users/?hl=en#topic=9009323"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 5",
+      "title": "Excel Advanced (Formulas, Charts, Pivot Tables)",
+      "outcomes": [
+        "Use IF and VLOOKUP functions.",
+        "Create bar, pie, and line charts; build a basic pivot table."
+      ],
+      "formulas": [
+        "=IF(condition,value_if_true,value_if_false)",
+        "=VLOOKUP(lookup_value,table_array,col_index,FALSE)"
+      ],
+      "definitions": [
+        {
+          "term": "VLOOKUP",
+          "definition": "Searches first column of a range and returns a value from a specified column."
+        },
+        {
+          "term": "Pivot Table",
+          "definition": "Interactive table that summarises large data sets dynamically."
+        }
+      ],
+      "revisionPrompts": [
+        "When does VLOOKUP return #N/A?",
+        "Which argument makes VLOOKUP exact-match?"
+      ],
+      "saContext": "Pivot tables appear in NWU practical tests for data summarisation tasks.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://support.microsoft.com/en-us/training",
+          "https://support.google.com/a/users/?hl=en#topic=9009323"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 6",
+      "title": "Presentations (MS PowerPoint)",
+      "outcomes": [
+        "Apply design themes, transitions, and animations.",
+        "Use the slide master to ensure consistent formatting."
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Slide Master",
+          "definition": "Template slide that controls the layout and formatting of all slides."
+        },
+        {
+          "term": "Transition",
+          "definition": "Visual effect applied when moving from one slide to the next."
+        }
+      ],
+      "revisionPrompts": [
+        "What is the slide master used for?",
+        "Difference between transition and animation?"
+      ],
+      "saContext": "Presentations are used in NWU group assignments and class demonstrations.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://support.microsoft.com/en-us/training",
+          "https://support.google.com/a/users/?hl=en#topic=9009323"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 7",
+      "title": "Internet, Email & Cloud Services",
+      "outcomes": [
+        "Apply professional email etiquette.",
+        "Use OneDrive/Google Drive for cloud storage."
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Cloud Storage",
+          "definition": "Remote server storage accessed via the internet (e.g., OneDrive, Google Drive)."
+        },
+        {
+          "term": "Search Engine",
+          "definition": "Web service that indexes and retrieves web pages based on keywords."
+        }
+      ],
+      "revisionPrompts": [
+        "What is phishing?",
+        "Name two cloud storage services."
+      ],
+      "saContext": "NWU students use Microsoft 365 email and OneDrive provided through the university.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://support.microsoft.com/en-us/training",
+          "https://support.google.com/a/users/?hl=en#topic=9009323"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 8",
+      "title": "Information Security & Ethics",
+      "outcomes": [
+        "Explain POPIA and its implications for data handling.",
+        "Identify types of cybercrime and ethical technology use."
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "POPIA",
+          "definition": "Protection of Personal Information Act; South African law governing personal data processing."
+        },
+        {
+          "term": "Plagiarism",
+          "definition": "Using someone else's work without attribution, constituting academic dishonesty."
+        }
+      ],
+      "revisionPrompts": [
+        "What rights does POPIA give individuals?",
+        "Give two examples of cybercrime."
+      ],
+      "saContext": "POPIA came into full effect in South Africa in July 2021 and affects all organisations.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://support.microsoft.com/en-us/training",
+          "https://support.google.com/a/users/?hl=en#topic=9009323"
+        ]
+      }
+    }
+  ],
+  "chapterStudyItems": [
+    {
+      "chapter": "Chapter 1",
+      "flashcards": [
+        {
+          "id": "ch1-fc-1",
+          "chapter": "Chapter 1",
+          "front": "What does CPU stand for?",
+          "back": "Central Processing Unit; it executes program instructions.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-2",
+          "chapter": "Chapter 1",
+          "front": "Difference between RAM and ROM?",
+          "back": "RAM is volatile temporary memory; ROM is non-volatile and stores firmware.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-3",
+          "chapter": "Chapter 1",
+          "front": "How many bytes in 1 MB?",
+          "back": "1 048 576 bytes (1024 × 1024).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-4",
+          "chapter": "Chapter 1",
+          "front": "Name two output devices.",
+          "back": "Monitor and printer.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch1-q1",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Which component is the 'brain' of the computer?",
+          "options": [
+            "RAM",
+            "CPU",
+            "ROM",
+            "HDD"
+          ],
+          "answer": "CPU",
+          "explanation": "The CPU executes all instructions and is called the brain of the computer.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q2",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Which type of memory loses its contents when the computer is switched off?",
+          "options": [
+            "ROM",
+            "RAM",
+            "Flash storage",
+            "DVD"
+          ],
+          "answer": "RAM",
+          "explanation": "RAM is volatile; it requires power to retain data.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q3",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "1 GB equals how many MB?",
+          "options": [
+            "100 MB",
+            "512 MB",
+            "1024 MB",
+            "2048 MB"
+          ],
+          "answer": "1024 MB",
+          "explanation": "Binary prefixes: 1 GB = 1024 MB.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch1-we-1",
+          "chapter": "Chapter 1",
+          "title": "Identifying Hardware Components",
+          "summary": "Classify a list of items as input, output, or storage devices.",
+          "problem": "Classify: keyboard, monitor, USB drive, printer, webcam.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Input devices accept data from the user: keyboard, webcam."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Output devices display or produce results: monitor, printer."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Storage devices hold data: USB drive."
+            }
+          ],
+          "answer": "Input: keyboard, webcam. Output: monitor, printer. Storage: USB drive.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 2",
+      "flashcards": [
+        {
+          "id": "ch2-fc-1",
+          "chapter": "Chapter 2",
+          "front": "What is File Explorer?",
+          "back": "Windows tool for navigating the file system and managing folders and files.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-2",
+          "chapter": "Chapter 2",
+          "front": "Keyboard shortcut to open File Explorer?",
+          "back": "Windows key + E.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-3",
+          "chapter": "Chapter 2",
+          "front": "What is a file path?",
+          "back": "The full address of a file's location, e.g., C:\\Users\\Student\\Documents\\file.docx.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-4",
+          "chapter": "Chapter 2",
+          "front": "How do you rename a file in File Explorer?",
+          "back": "Right-click the file and select Rename, or press F2.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch2-q1",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "Which shortcut opens File Explorer in Windows?",
+          "options": [
+            "Ctrl+E",
+            "Windows + E",
+            "Alt+F4",
+            "Ctrl+F"
+          ],
+          "answer": "Windows + E",
+          "explanation": "The Windows key + E shortcut opens File Explorer directly.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q2",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "What operation copies a file to a new location and removes it from the original?",
+          "options": [
+            "Copy",
+            "Paste",
+            "Move",
+            "Duplicate"
+          ],
+          "answer": "Move",
+          "explanation": "Moving transfers the file; copying creates a duplicate leaving the original intact.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q3",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "Where are deleted files temporarily stored in Windows?",
+          "options": [
+            "Downloads folder",
+            "Recycle Bin",
+            "Temp folder",
+            "AppData"
+          ],
+          "answer": "Recycle Bin",
+          "explanation": "Deleted files go to the Recycle Bin and can be restored until emptied.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch2-we-1",
+          "chapter": "Chapter 2",
+          "title": "Organising Student Files",
+          "summary": "Create a logical folder structure for a BCom student.",
+          "problem": "Organise files for modules ICAT111, ECON112, BMAN111 in Documents.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Open File Explorer and navigate to Documents (Windows + E)."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Create a parent folder named '2025 Semester 1'."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Inside it, create subfolders: ICAT111, ECON112, BMAN111."
+            }
+          ],
+          "answer": "Documents > 2025 Semester 1 > [ICAT111, ECON112, BMAN111]",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 3",
+      "flashcards": [
+        {
+          "id": "ch3-fc-1",
+          "chapter": "Chapter 3",
+          "front": "What is a Style in MS Word?",
+          "back": "A named set of formatting attributes (font, size, colour) applied consistently.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-2",
+          "chapter": "Chapter 3",
+          "front": "How do you insert a header in Word?",
+          "back": "Go to Insert tab > Header, then choose a style.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-3",
+          "chapter": "Chapter 3",
+          "front": "What is mail merge used for?",
+          "back": "To create personalised letters or labels from a single template and a data source.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-4",
+          "chapter": "Chapter 3",
+          "front": "How do you save a Word document as PDF?",
+          "back": "File > Save As > select PDF from the file type dropdown.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch3-q1",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "Which Word feature records edits so a reviewer can accept or reject them?",
+          "options": [
+            "AutoCorrect",
+            "Track Changes",
+            "Styles",
+            "Mail Merge"
+          ],
+          "answer": "Track Changes",
+          "explanation": "Track Changes marks insertions and deletions for collaborative editing.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q2",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "What tab in Word contains the Mail Merge wizard?",
+          "options": [
+            "Home",
+            "Insert",
+            "Mailings",
+            "Review"
+          ],
+          "answer": "Mailings",
+          "explanation": "The Mailings tab hosts the Step-by-Step Mail Merge Wizard.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q3",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "Which keyboard shortcut inserts a page break in Word?",
+          "options": [
+            "Ctrl+Enter",
+            "Ctrl+Shift+P",
+            "Alt+Enter",
+            "Ctrl+P"
+          ],
+          "answer": "Ctrl+Enter",
+          "explanation": "Ctrl+Enter inserts a manual page break at the cursor position.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch3-we-1",
+          "chapter": "Chapter 3",
+          "title": "Basic Mail Merge",
+          "summary": "Merge a letter template with a student names list.",
+          "problem": "Create personalised letters for 3 students using a Word template and an Excel data source.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Open the letter template in Word; go to Mailings > Start Mail Merge > Letters."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Click Select Recipients > Use an Existing List and choose the Excel file."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Insert merge fields (e.g., «FirstName») where personalisation is needed."
+            },
+            {
+              "label": "Step 4",
+              "explanation": "Click Finish & Merge > Print Documents or Edit Individual Documents."
+            }
+          ],
+          "answer": "3 personalised letters generated, one per student row in the data source.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 4",
+      "flashcards": [
+        {
+          "id": "ch4-fc-1",
+          "chapter": "Chapter 4",
+          "front": "What does an absolute cell reference look like?",
+          "back": "$A$1 — the $ locks the column and row so it does not change when copied.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-2",
+          "chapter": "Chapter 4",
+          "front": "What does =COUNT(A1:A10) count?",
+          "back": "The number of cells in A1:A10 that contain numeric values.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-3",
+          "chapter": "Chapter 4",
+          "front": "What is the syntax for the AVERAGE function?",
+          "back": "=AVERAGE(range) — returns the arithmetic mean of all numeric values in the range.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-4",
+          "chapter": "Chapter 4",
+          "front": "What does a relative cell reference do when copied?",
+          "back": "It adjusts automatically relative to the new position of the formula.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch4-q1",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Which formula returns the largest value in B1:B20?",
+          "options": [
+            "=MAX(B1:B20)",
+            "=LARGE(B1:B20)",
+            "=TOP(B1:B20)",
+            "=HIGH(B1:B20)"
+          ],
+          "answer": "=MAX(B1:B20)",
+          "explanation": "MAX returns the highest value in a range.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q2",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "In Excel, what symbol makes a cell reference absolute?",
+          "options": [
+            "#",
+            "&",
+            "$",
+            "@"
+          ],
+          "answer": "$",
+          "explanation": "The $ symbol locks a row or column reference so it does not shift when copied.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q3",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "What does =SUM(A1:A5) calculate?",
+          "options": [
+            "Average of A1 to A5",
+            "Count of A1 to A5",
+            "Total of A1 to A5",
+            "Minimum of A1 to A5"
+          ],
+          "answer": "Total of A1 to A5",
+          "explanation": "SUM adds all numeric values in the specified range.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch4-we-1",
+          "chapter": "Chapter 4",
+          "title": "Calculating Student Marks",
+          "summary": "Use SUM, AVERAGE, MIN, and MAX on a marks sheet.",
+          "problem": "Marks in B2:B11. Calculate total, average, highest, and lowest.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Total: =SUM(B2:B11) in cell B12."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Average: =AVERAGE(B2:B11) in cell B13."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Highest: =MAX(B2:B11) in B14; Lowest: =MIN(B2:B11) in B15."
+            }
+          ],
+          "answer": "Four summary statistics computed using built-in Excel functions.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 5",
+      "flashcards": [
+        {
+          "id": "ch5-fc-1",
+          "chapter": "Chapter 5",
+          "front": "Syntax of the IF function?",
+          "back": "=IF(logical_test, value_if_true, value_if_false)",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-2",
+          "chapter": "Chapter 5",
+          "front": "What does the last argument FALSE mean in VLOOKUP?",
+          "back": "FALSE specifies exact match; TRUE allows approximate match.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-3",
+          "chapter": "Chapter 5",
+          "front": "What is a pivot table?",
+          "back": "An interactive Excel table that summarises and analyses large data sets dynamically.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-4",
+          "chapter": "Chapter 5",
+          "front": "Which chart type best shows proportions of a whole?",
+          "back": "Pie chart.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch5-q1",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "=IF(A1>=50,\"Pass\",\"Fail\") — what does the formula return if A1 is 45?",
+          "options": [
+            "Pass",
+            "Fail",
+            "0",
+            "Error"
+          ],
+          "answer": "Fail",
+          "explanation": "45 < 50, so the false branch returns \"Fail\".",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q2",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "What error does VLOOKUP return when no match is found?",
+          "options": [
+            "#DIV/0!",
+            "#REF!",
+            "#N/A",
+            "#VALUE!"
+          ],
+          "answer": "#N/A",
+          "explanation": "#N/A means 'not available' — VLOOKUP could not find the lookup value.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q3",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "Which chart type is best for showing a trend over time?",
+          "options": [
+            "Pie chart",
+            "Bar chart",
+            "Line chart",
+            "Scatter plot"
+          ],
+          "answer": "Line chart",
+          "explanation": "Line charts connect data points chronologically, making trends clear.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch5-we-1",
+          "chapter": "Chapter 5",
+          "title": "VLOOKUP Grade Lookup",
+          "summary": "Use VLOOKUP to retrieve a student's grade from a grade table.",
+          "problem": "Student number in A2; grade table in D2:E10 (col 1 = student no, col 2 = grade). Write the formula.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Identify: lookup_value = A2; table_array = $D$2:$E$10; col_index = 2."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Use exact match: =VLOOKUP(A2,$D$2:$E$10,2,FALSE)."
+            }
+          ],
+          "answer": "=VLOOKUP(A2,$D$2:$E$10,2,FALSE)",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 6",
+      "flashcards": [
+        {
+          "id": "ch6-fc-1",
+          "chapter": "Chapter 6",
+          "front": "What is the slide master?",
+          "back": "A master template slide that controls fonts, colours, and layout for all slides.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-2",
+          "chapter": "Chapter 6",
+          "front": "Difference between transition and animation?",
+          "back": "Transition is the effect between slides; animation is movement of objects on a slide.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-3",
+          "chapter": "Chapter 6",
+          "front": "How do you start a slideshow from the beginning?",
+          "back": "Press F5 or go to Slide Show tab > From Beginning.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-4",
+          "chapter": "Chapter 6",
+          "front": "What is a design theme in PowerPoint?",
+          "back": "A predefined combination of colours, fonts, and effects applied to all slides.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch6-q1",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "Which key starts a PowerPoint slideshow from the beginning?",
+          "options": [
+            "F1",
+            "F5",
+            "F7",
+            "Esc"
+          ],
+          "answer": "F5",
+          "explanation": "F5 begins the presentation from slide 1.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q2",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "Where do you edit the Slide Master in PowerPoint?",
+          "options": [
+            "Home tab",
+            "Design tab",
+            "View tab > Slide Master",
+            "Insert tab"
+          ],
+          "answer": "View tab > Slide Master",
+          "explanation": "View > Slide Master opens the master editing view.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q3",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "What does a slide layout define?",
+          "options": [
+            "The colour theme",
+            "The position of placeholders on a slide",
+            "The transition effect",
+            "The font size only"
+          ],
+          "answer": "The position of placeholders on a slide",
+          "explanation": "Layouts specify where title, content, and other placeholders appear.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch6-we-1",
+          "chapter": "Chapter 6",
+          "title": "Applying a Consistent Theme",
+          "summary": "Apply one theme via the slide master to ensure uniform branding.",
+          "problem": "A presentation has mixed fonts and colours. Standardise it using the Slide Master.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Go to View > Slide Master."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Select the top (parent) master slide and apply the desired Design Theme."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Close Slide Master view; all slides inherit the new theme."
+            }
+          ],
+          "answer": "All slides now share a uniform font, colour scheme, and layout.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 7",
+      "flashcards": [
+        {
+          "id": "ch7-fc-1",
+          "chapter": "Chapter 7",
+          "front": "What is phishing?",
+          "back": "A cyberattack where fraudulent emails/sites trick users into revealing personal information.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-2",
+          "chapter": "Chapter 7",
+          "front": "Name two cloud storage services.",
+          "back": "OneDrive (Microsoft) and Google Drive.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-3",
+          "chapter": "Chapter 7",
+          "front": "What does CC mean in an email?",
+          "back": "Carbon Copy — sends a visible copy of the email to additional recipients.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-4",
+          "chapter": "Chapter 7",
+          "front": "What is a URL?",
+          "back": "Uniform Resource Locator — the web address used to access a resource online.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch7-q1",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "Which cloud service is provided to NWU students through Microsoft 365?",
+          "options": [
+            "Google Drive",
+            "Dropbox",
+            "OneDrive",
+            "iCloud"
+          ],
+          "answer": "OneDrive",
+          "explanation": "NWU provides Microsoft 365 which includes OneDrive cloud storage.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q2",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "What is the purpose of BCC in an email?",
+          "options": [
+            "Reply to all",
+            "Send a visible copy",
+            "Send a hidden copy",
+            "Forward the email"
+          ],
+          "answer": "Send a hidden copy",
+          "explanation": "BCC (Blind Carbon Copy) hides recipient addresses from other recipients.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q3",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "What does HTTPS indicate in a web address?",
+          "options": [
+            "The site is government-owned",
+            "The connection is encrypted",
+            "The page loads faster",
+            "The site requires login"
+          ],
+          "answer": "The connection is encrypted",
+          "explanation": "HTTPS uses TLS/SSL to encrypt data between the browser and server.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch7-we-1",
+          "chapter": "Chapter 7",
+          "title": "Professional Email Etiquette",
+          "summary": "Write a professional email to a lecturer requesting an extension.",
+          "problem": "Compose an email to Dr Ndlovu requesting a 2-day assignment extension.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Subject line: clear and specific, e.g., 'Assignment Extension Request — ICAT111'."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Salutation: 'Dear Dr Ndlovu,' — formal and respectful."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Body: state reason briefly and politely; close with 'Kind regards' and your student number."
+            }
+          ],
+          "answer": "A concise, formal email with clear subject, professional tone, and full signature.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 8",
+      "flashcards": [
+        {
+          "id": "ch8-fc-1",
+          "chapter": "Chapter 8",
+          "front": "What does POPIA stand for?",
+          "back": "Protection of Personal Information Act — South Africa's data privacy law.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-2",
+          "chapter": "Chapter 8",
+          "front": "Define plagiarism.",
+          "back": "Presenting someone else's work or ideas as your own without proper attribution.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-3",
+          "chapter": "Chapter 8",
+          "front": "Give two examples of cybercrime.",
+          "back": "Phishing and identity theft.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-4",
+          "chapter": "Chapter 8",
+          "front": "What is copyright?",
+          "back": "Legal protection giving creators exclusive rights over their original works.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch8-q1",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "POPIA came into full effect in South Africa in which year?",
+          "options": [
+            "2018",
+            "2019",
+            "2021",
+            "2023"
+          ],
+          "answer": "2021",
+          "explanation": "POPIA's enforcement date was 1 July 2021.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-q2",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "Which act governs personal data processing in South Africa?",
+          "options": [
+            "ECTA",
+            "CPA",
+            "POPIA",
+            "NCA"
+          ],
+          "answer": "POPIA",
+          "explanation": "POPIA is the primary South African legislation protecting personal information.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-q3",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is an example of plagiarism?",
+          "options": [
+            "Citing a source in a bibliography",
+            "Quoting with quotation marks and reference",
+            "Copying text without attribution",
+            "Paraphrasing with a citation"
+          ],
+          "answer": "Copying text without attribution",
+          "explanation": "Using another's words without credit is plagiarism regardless of intent.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch8-we-1",
+          "chapter": "Chapter 8",
+          "title": "POPIA Compliance Scenario",
+          "summary": "Determine whether a scenario violates POPIA.",
+          "problem": "A student shares a classmate's ID number and address in a WhatsApp group without consent. Is this a POPIA violation?",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "POPIA requires consent before processing (sharing) personal information."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "ID number and address are personal information under POPIA."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Sharing without consent violates POPIA's lawful processing condition."
+            }
+          ],
+          "answer": "Yes, this is a POPIA violation — personal data was shared without the subject's consent.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    }
+  ],
+  "discipline": "computer_literacy",
+  "referenceList": [
+    {
+      "title": "Microsoft 365 Training Center",
+      "publisher": "Microsoft",
+      "url": "https://support.microsoft.com/en-us/training",
+      "note": "Official how-to for Office productivity tools used in the module.",
+      "sourceHash": "f45efad455a9d442b86e12d7e087fded168f1b9f0e6d85465678fd3286b98dc2"
+    },
+    {
+      "title": "Google Workspace Learning Center",
+      "publisher": "Google",
+      "url": "https://support.google.com/a/users/?hl=en#topic=9009323",
+      "note": "Reference for cloud-collaboration and productivity skills.",
+      "sourceHash": "5836af72659264b44e3ed3538150de62649056f96d3f5c869612f5bb12964e88"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: Computer Literacy and Information Technology 111 (BCom, North-West University). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "Chapter-by-chapter teaching focus (derived from the module's own learning outcomes and key definitions):",
+    "  • Chapter 1 — Computer Fundamentals & Hardware. Emphasise: Identify hardware components and explain their roles.; Distinguish between system software and application software.. Local context: South African students commonly use Windows 10/11 PCs in NWU computer labs.",
+    "  • Chapter 2 — Operating Systems & File Management. Emphasise: Navigate Windows File Explorer efficiently.; Create, rename, move, and search for files.. Local context: NWU uses Windows 10/11 across all campuses; students access eFundi via browser.",
+    "  • Chapter 3 — Word Processing (MS Word). Emphasise: Apply styles, headers/footers, and tables in Word.; Use mail merge and track changes.. Local context: NWU assignments are submitted via eFundi; PDF submission is standard.",
+    "  • Chapter 4 — Spreadsheets Basics (MS Excel). Emphasise: Write basic Excel formulas using SUM, AVERAGE, MIN, MAX, COUNT.; Distinguish relative from absolute cell references.. Local context: Excel is used in NWU practical tests; Microsoft 365 is available via student licences.",
+    "  • Chapter 5 — Excel Advanced (Formulas, Charts, Pivot Tables). Emphasise: Use IF and VLOOKUP functions.; Create bar, pie, and line charts; build a basic pivot table.. Local context: Pivot tables appear in NWU practical tests for data summarisation tasks.",
+    "  • Chapter 6 — Presentations (MS PowerPoint). Emphasise: Apply design themes, transitions, and animations.; Use the slide master to ensure consistent formatting.. Local context: Presentations are used in NWU group assignments and class demonstrations.",
+    "  • Chapter 7 — Internet, Email & Cloud Services. Emphasise: Apply professional email etiquette.; Use OneDrive/Google Drive for cloud storage.. Local context: NWU students use Microsoft 365 email and OneDrive provided through the university.",
+    "  • Chapter 8 — Information Security & Ethics. Emphasise: Explain POPIA and its implications for data handling.; Identify types of cybercrime and ethical technology use.. Local context: POPIA came into full effect in South Africa in July 2021 and affects all organisations.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "f45efad455a9d442b86e12d7e087fded168f1b9f0e6d85465678fd3286b98dc2",
+    "5836af72659264b44e3ed3538150de62649056f96d3f5c869612f5bb12964e88"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

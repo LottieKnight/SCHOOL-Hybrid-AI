@@ -1,0 +1,89 @@
+.container {
+  padding: 32px;
+  background: var(--surface);
+  border-radius: var(--r-xl);
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.title {
+  margin: 0 0 40px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-2);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.map {
+  position: relative;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centerNode {
+  width: 80px;
+  height: 80px;
+  background: var(--gold);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+  text-align: center;
+  padding: 8px;
+}
+
+.rootLabel {
+  color: #000;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.nodes {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.node {
+  position: absolute;
+  width: 100px;
+  padding: 10px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.node[data-completed="true"] {
+  border-color: var(--green);
+  background: rgba(16, 185, 129, 0.1);
+}
+
+.nodeLabel {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text-1);
+}
+
+.connector {
+  position: absolute;
+  height: 1px;
+  background: var(--border);
+  z-index: 1;
+  pointer-events: none;
+  top: 50%;
+  right: 0;
+}
+
+.node[data-completed="true"] .connector {
+  background: var(--green-border);
+}

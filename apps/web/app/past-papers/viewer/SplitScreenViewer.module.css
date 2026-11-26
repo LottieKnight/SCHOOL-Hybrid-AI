@@ -1,0 +1,126 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  background: var(--bg-card, rgba(255, 255, 255, 0.05));
+  backdrop-filter: blur(12px);
+  padding: 12px 18px;
+  border-radius: 14px;
+  border: 1px solid var(--stroke, rgba(255, 255, 255, 0.1));
+}
+
+.navGroup {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.paperTitle {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text-1, #fff);
+  max-width: 400px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.modeGroup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.actionGroup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.viewerGrid {
+  display: grid;
+  gap: 16px;
+  height: 82vh;
+  width: 100%;
+}
+
+.viewerGrid[data-mode="single"] {
+  grid-template-columns: 1fr;
+}
+
+.viewerGrid[data-mode="split"] {
+  grid-template-columns: 1fr 1fr;
+}
+
+.viewerGrid[data-mode="notes"] {
+  grid-template-columns: 1.2fr 0.8fr;
+}
+
+@media (max-width: 900px) {
+  .viewerGrid[data-mode="split"],
+  .viewerGrid[data-mode="notes"] {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+}
+
+.pane, .notesPane {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-card, rgba(0, 0, 0, 0.2));
+  border-radius: 14px;
+  border: 1px solid var(--stroke, rgba(255, 255, 255, 0.1));
+  overflow: hidden;
+}
+
+.paneHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.04);
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-bottom: 1px solid var(--stroke, rgba(255, 255, 255, 0.08));
+}
+
+.savedTag {
+  font-size: 0.75rem;
+  color: var(--accent, #10b981);
+  font-weight: 400;
+}
+
+.iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: #fff;
+  border-radius: 0 0 14px 14px;
+}
+
+.notesInput {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  padding: 16px;
+  background: transparent;
+  color: var(--text-1, #fff);
+  border: none;
+  resize: none;
+  font-family: inherit;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.notesInput:focus {
+  outline: none;
+}

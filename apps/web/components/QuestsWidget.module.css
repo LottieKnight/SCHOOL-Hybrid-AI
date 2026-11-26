@@ -1,0 +1,26 @@
+.container { background: var(--surface); border: 1px solid var(--border); }
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.title { margin: 0; font-size: 16px; font-weight: 700; color: var(--text-1); }
+.timer { font-size: 11px; color: var(--text-3); text-transform: uppercase; font-weight: 600; }
+
+.list { display: grid; gap: 16px; }
+
+.quest { display: grid; gap: 10px; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
+.quest:last-child { border: none; padding-bottom: 0; }
+.quest[data-claimed="true"] { opacity: 0.5; }
+
+.questMain { display: flex; justify-content: space-between; align-items: flex-start; }
+.questInfo { display: grid; gap: 2px; }
+.questTitle { font-size: 14px; font-weight: 600; color: var(--text-1); }
+.questDesc { font-size: 12px; color: var(--text-3); }
+.reward { font-family: var(--font-mono); font-size: 12px; font-weight: 700; color: var(--gold); }
+
+.progressRow { display: flex; align-items: center; gap: 12px; }
+.progressBar { flex: 1; height: 4px; background: var(--surface-2); border-radius: 2px; overflow: hidden; }
+.progressFill { height: 100%; background: var(--gold); border-radius: 2px; transition: width 0.3s; }
+.progressText { font-family: var(--font-mono); font-size: 11px; color: var(--text-2); }
+
+.claimBtn { width: 100%; margin-top: 4px; }
+.claimedText { font-size: 12px; color: var(--green); font-weight: 600; text-align: center; }
+
+.loading { padding: 24px; text-align: center; color: var(--text-3); font-style: italic; }

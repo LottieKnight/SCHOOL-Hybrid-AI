@@ -1,0 +1,2121 @@
+{
+  "institution": "North-West University",
+  "moduleCode": "ECON122",
+  "moduleName": "Economics 122",
+  "semester": "Semester 2, 2024",
+  "programme": "BCom",
+  "confidence": 0.82,
+  "generatedAt": "2026-04-03T00:00:00.000Z",
+  "sourceFiles": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "missingContent": [],
+  "studyUnits": [
+    "Chapter 1 — Introduction to Macroeconomics",
+    "Chapter 2 — National Income Accounting (GDP)",
+    "Chapter 3 — Money & Banking System",
+    "Chapter 4 — Fiscal Policy",
+    "Chapter 5 — Monetary Policy & SARB",
+    "Chapter 6 — Economic Growth & Development",
+    "Chapter 7 — International Trade",
+    "Chapter 8 — Balance of Payments"
+  ],
+  "chapters": [
+    "Chapter 1",
+    "Chapter 2",
+    "Chapter 3",
+    "Chapter 4",
+    "Chapter 5",
+    "Chapter 6",
+    "Chapter 7",
+    "Chapter 8"
+  ],
+  "topicSeeds": [
+    "Ch1 - macro vs micro",
+    "Ch1 - circular flow",
+    "Ch2 - GDP expenditure method",
+    "Ch2 - nominal vs real GDP",
+    "Ch3 - SARB functions",
+    "Ch3 - money supply",
+    "Ch4 - fiscal policy tools",
+    "Ch4 - SA national budget",
+    "Ch5 - repo rate",
+    "Ch5 - inflation targeting",
+    "Ch6 - economic growth vs development",
+    "Ch6 - HDI",
+    "Ch7 - comparative advantage",
+    "Ch7 - trade barriers",
+    "Ch8 - current account",
+    "Ch8 - exchange rate"
+  ],
+  "keyTopics": [
+    "circular flow model",
+    "GDP calculation methods",
+    "nominal vs real GDP",
+    "money supply and banking",
+    "fiscal policy",
+    "SA National Budget",
+    "SARB monetary policy",
+    "repo rate",
+    "inflation targeting 3-6%",
+    "economic growth",
+    "human development index",
+    "comparative advantage",
+    "tariffs and quotas",
+    "balance of payments",
+    "exchange rate determination",
+    "Rand volatility"
+  ],
+  "quizSignals": [
+    "How is GDP calculated using the expenditure method?",
+    "What is the repo rate and how does it control inflation?",
+    "What is comparative advantage?",
+    "What does the current account measure?"
+  ],
+  "assessmentPlan": [
+    {
+      "name": "Semester Test 1",
+      "weight": "35%",
+      "due": "August",
+      "scope": "Ch 1-4"
+    },
+    {
+      "name": "Semester Test 2",
+      "weight": "35%",
+      "due": "October",
+      "scope": "Ch 5-8"
+    },
+    {
+      "name": "Assignment",
+      "weight": "30%",
+      "due": "September",
+      "scope": "Ch 1-6"
+    }
+  ],
+  "classSchedule": [
+    {
+      "label": "Week 1",
+      "summary": "Macroeconomics introduction; circular flow 4-sector model.",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 2",
+      "summary": "Aggregate demand, aggregate supply; macro objectives.",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 3",
+      "summary": "GDP: expenditure method and income method.",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 4",
+      "summary": "Nominal vs real GDP; GDP deflator; GDP per capita.",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 5",
+      "summary": "Functions of money; commercial banks and money creation.",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 6",
+      "summary": "SARB as central bank; monetary policy instruments.",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 7",
+      "summary": "Fiscal policy; TEST 1 — Ch 1-4.",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 8",
+      "summary": "SA National Budget; automatic stabilisers; crowding out.",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 9",
+      "summary": "Repo rate mechanism; MPC decisions; inflation targeting.",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 10",
+      "summary": "Transmission of monetary policy; quantitative easing.",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 11",
+      "summary": "Economic growth vs development; sources of growth; HDI.",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 12",
+      "summary": "Comparative advantage; terms of trade; WTO/BRICS/SADC.",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 13",
+      "summary": "Trade barriers: tariffs, quotas, subsidies.",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 14",
+      "summary": "Balance of payments: current and capital accounts; TEST 2.",
+      "chapter": "Chapter 8"
+    },
+    {
+      "label": "Week 15",
+      "summary": "Exchange rate determination; Rand volatility.",
+      "chapter": "Chapter 8"
+    }
+  ],
+  "chapterInsights": [
+    {
+      "chapter": "Chapter 1",
+      "title": "Introduction to Macroeconomics",
+      "outcomes": [
+        "Distinguish macro from micro economics",
+        "Explain the 4-sector circular flow",
+        "Identify the main macroeconomic goals"
+      ],
+      "formulas": [
+        "Y = C + I + G + (X − M)  (National income identity)"
+      ],
+      "definitions": [
+        {
+          "term": "Macroeconomics",
+          "definition": "The study of the economy as a whole — national output, inflation, unemployment and growth."
+        },
+        {
+          "term": "Circular flow",
+          "definition": "The flow of goods/services and money between households, firms, government and the foreign sector."
+        },
+        {
+          "term": "Aggregate demand",
+          "definition": "Total planned spending in an economy: AD = C + I + G + NX."
+        }
+      ],
+      "revisionPrompts": [
+        "List 4 macroeconomic goals SA government pursues.",
+        "How does the foreign sector affect the circular flow?"
+      ],
+      "saContext": "SA's National Development Plan (NDP 2030) targets 5% GDP growth and 6% unemployment — key macro objectives for policy.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 2",
+      "title": "National Income Accounting (GDP)",
+      "outcomes": [
+        "Calculate GDP using the expenditure method",
+        "Distinguish nominal from real GDP",
+        "Interpret GDP per capita"
+      ],
+      "formulas": [
+        "GDP = C + I + G + (X − M)",
+        "Real GDP = (Nominal GDP / GDP Deflator) × 100",
+        "GDP per capita = GDP / Population"
+      ],
+      "definitions": [
+        {
+          "term": "GDP",
+          "definition": "Gross Domestic Product — the total market value of all final goods and services produced in a country in a year."
+        },
+        {
+          "term": "Real GDP",
+          "definition": "GDP adjusted for inflation using a base-year price level — measures actual output changes."
+        },
+        {
+          "term": "GDP deflator",
+          "definition": "A price index measuring the price level of all domestic production: GDP Deflator = (Nominal/Real)×100."
+        }
+      ],
+      "revisionPrompts": [
+        "SA nominal GDP is R6 200bn, GDP deflator = 130. Calculate real GDP.",
+        "Why is GDP per capita a better welfare measure than total GDP?"
+      ],
+      "saContext": "Stats SA publishes SA's quarterly GDP data. In 2023, SA's real GDP growth was ~0.6% — well below the NDP 5% target.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 3",
+      "title": "Money & Banking System",
+      "outcomes": [
+        "Describe the functions of money",
+        "Explain how commercial banks create money",
+        "Describe SARB's role as central bank"
+      ],
+      "formulas": [
+        "Money multiplier = 1/reserve ratio",
+        "Money created = initial deposit × multiplier"
+      ],
+      "definitions": [
+        {
+          "term": "Functions of money",
+          "definition": "Medium of exchange, unit of account, store of value, standard of deferred payment."
+        },
+        {
+          "term": "Money multiplier",
+          "definition": "The factor by which an initial deposit expands into total money supply: 1/reserve ratio."
+        },
+        {
+          "term": "SARB",
+          "definition": "South African Reserve Bank — SA's central bank; controls money supply, sets repo rate, manages reserves."
+        }
+      ],
+      "revisionPrompts": [
+        "If reserve ratio = 10%, what is the money multiplier?",
+        "How does SARB use open market operations to control money supply?"
+      ],
+      "saContext": "SARB's Monetary Policy Committee (MPC) meets 6 times per year to set the repo rate. In 2023-24 the repo rate was 8.25% — the highest in over a decade.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 4",
+      "title": "Fiscal Policy",
+      "outcomes": [
+        "Define fiscal policy and its tools",
+        "Distinguish expansionary from contractionary policy",
+        "Explain automatic stabilisers and crowding out"
+      ],
+      "formulas": [
+        "Budget deficit = G − T",
+        "Fiscal multiplier = 1/(1−MPC)"
+      ],
+      "definitions": [
+        {
+          "term": "Fiscal policy",
+          "definition": "Government use of taxation and spending to influence aggregate demand and economic activity."
+        },
+        {
+          "term": "Expansionary fiscal policy",
+          "definition": "Increasing government spending or cutting taxes to stimulate economic growth during a recession."
+        },
+        {
+          "term": "Crowding out",
+          "definition": "Government borrowing raises interest rates, reducing private investment — partially offsetting the fiscal stimulus."
+        }
+      ],
+      "revisionPrompts": [
+        "Distinguish discretionary from automatic fiscal policy.",
+        "Why might expansionary fiscal policy cause crowding out?"
+      ],
+      "saContext": "SA's National Treasury presents the annual Budget in February. SA has run a budget deficit for over a decade, with debt-to-GDP exceeding 70%.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 5",
+      "title": "Monetary Policy & SARB",
+      "outcomes": [
+        "Explain the repo rate transmission mechanism",
+        "Describe SA's inflation targeting framework",
+        "Evaluate the impact of interest rate changes"
+      ],
+      "formulas": [
+        "Fisher equation: i = r + π (nominal = real + inflation)"
+      ],
+      "definitions": [
+        {
+          "term": "Repo rate",
+          "definition": "The rate at which SARB lends money to commercial banks overnight — the key monetary policy instrument."
+        },
+        {
+          "term": "Inflation targeting",
+          "definition": "SA's monetary policy framework: SARB targets CPI inflation within the 3–6% band."
+        },
+        {
+          "term": "Transmission mechanism",
+          "definition": "The chain of effects from a repo rate change to the real economy: repo rate → lending rates → spending → inflation."
+        }
+      ],
+      "revisionPrompts": [
+        "Trace the effect of a repo rate increase on the SA economy.",
+        "What is the SA inflation target band?"
+      ],
+      "saContext": "SARB raised the repo rate by 475 bps between 2021 and 2023 to combat post-COVID inflation. CPI peaked above 7% — above the 6% target ceiling.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 6",
+      "title": "Economic Growth & Development",
+      "outcomes": [
+        "Distinguish growth from development",
+        "Explain sources of long-run growth",
+        "Interpret the Human Development Index (HDI)"
+      ],
+      "formulas": [
+        "Growth rate = (GDP_t − GDP_{t-1}) / GDP_{t-1} × 100",
+        "HDI = geometric mean of health, education and income indices"
+      ],
+      "definitions": [
+        {
+          "term": "Economic growth",
+          "definition": "An increase in real GDP over time — quantitative expansion of output."
+        },
+        {
+          "term": "Economic development",
+          "definition": "Broader improvement in living standards, equality, health and education — qualitative change."
+        },
+        {
+          "term": "HDI",
+          "definition": "Human Development Index — composite index measuring life expectancy, education and income; 0 to 1."
+        }
+      ],
+      "revisionPrompts": [
+        "Can a country have high growth but low development? Give a SA example.",
+        "List three sources of long-run economic growth."
+      ],
+      "saContext": "SA's HDI is 0.713 (2022) — upper-middle category but with very high inequality (Gini≈0.63). The UNDP flags education quality and unemployment as key constraints.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 7",
+      "title": "International Trade",
+      "outcomes": [
+        "Explain comparative advantage",
+        "Identify types of trade barriers",
+        "Describe SA's trade relationships (WTO, BRICS, SADC)"
+      ],
+      "formulas": [
+        "Terms of trade = (export price index / import price index) × 100"
+      ],
+      "definitions": [
+        {
+          "term": "Comparative advantage",
+          "definition": "A country has comparative advantage in goods it produces at a lower opportunity cost than other countries."
+        },
+        {
+          "term": "Tariff",
+          "definition": "A tax on imports that raises their price, protecting domestic producers but harming consumers and efficiency."
+        },
+        {
+          "term": "Quota",
+          "definition": "A quantity limit on imports — directly restricts the volume of goods that can be imported."
+        }
+      ],
+      "revisionPrompts": [
+        "Distinguish absolute from comparative advantage.",
+        "How does a tariff affect domestic producers, consumers and government?"
+      ],
+      "saContext": "SA exports mainly minerals (gold, platinum, coal) and imports manufactured goods. SA is a WTO member, part of BRICS and the AGOA preferential trade agreement with the US.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 8",
+      "title": "Balance of Payments",
+      "outcomes": [
+        "Explain the structure of the balance of payments",
+        "Distinguish the current from the capital account",
+        "Explain exchange rate determination"
+      ],
+      "formulas": [
+        "BOP = Current Account + Capital & Financial Account + Official Reserve Changes = 0",
+        "Exchange rate appreciates when demand for Rand rises"
+      ],
+      "definitions": [
+        {
+          "term": "Balance of payments (BOP)",
+          "definition": "A record of all economic transactions between SA residents and the rest of the world over a period."
+        },
+        {
+          "term": "Current account",
+          "definition": "Records trade in goods (merchandise), services, income and current transfers."
+        },
+        {
+          "term": "Exchange rate",
+          "definition": "The price of one currency in terms of another — e.g. R18.50 per US dollar."
+        }
+      ],
+      "revisionPrompts": [
+        "What are the four components of the current account?",
+        "If SA's current account is in deficit, what must be true of the capital account?"
+      ],
+      "saContext": "SA consistently runs a current account deficit (imports > exports of goods/services). The Rand is highly volatile — influenced by commodity prices, US Fed rate decisions and domestic load-shedding.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    }
+  ],
+  "chapterStudyItems": [
+    {
+      "chapter": "Chapter 1",
+      "flashcards": [
+        {
+          "id": "ch1-fc-1",
+          "chapter": "Chapter 1",
+          "front": "What are the 4 sectors in the circular flow model?",
+          "back": "Households, firms, government, and the foreign sector (rest of world).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-2",
+          "chapter": "Chapter 1",
+          "front": "What does aggregate demand represent?",
+          "back": "AD = C + I + G + (X−M) — total planned spending by all sectors of the economy.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-3",
+          "chapter": "Chapter 1",
+          "front": "Distinguish macroeconomics from microeconomics.",
+          "back": "Macro studies the whole economy (GDP, inflation, unemployment); micro studies individual markets, firms and consumers.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-4",
+          "chapter": "Chapter 1",
+          "front": "Name four main macroeconomic goals.",
+          "back": "Economic growth, price stability (low inflation), full employment, balance of payments equilibrium.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch1-q1",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "In the circular flow model, the foreign sector introduces which two flows?",
+          "options": [
+            "Exports and imports",
+            "Savings and investment",
+            "Taxes and government spending",
+            "Wages and profits"
+          ],
+          "answer": "Exports and imports",
+          "explanation": "The foreign sector adds exports (injections) and imports (leakages) to the domestic circular flow.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q2",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Aggregate demand (AD) consists of:",
+          "options": [
+            "C + I + G + NX",
+            "C + S + T",
+            "M1 + M2 + M3",
+            "GDP + GNP"
+          ],
+          "answer": "C + I + G + NX",
+          "explanation": "AD = Consumption + Investment + Government spending + Net Exports (X−M).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q3",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Which is a macroeconomic goal of SA's economic policy?",
+          "options": [
+            "Maximise one firm's profit",
+            "Reduce price level to zero",
+            "Achieve full employment and price stability",
+            "Eliminate all imports"
+          ],
+          "answer": "Achieve full employment and price stability",
+          "explanation": "Full employment and price stability (low inflation) are two of SA's four key macroeconomic objectives alongside growth and BOP equilibrium.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch1-we-1",
+          "chapter": "Chapter 1",
+          "title": "4-Sector Circular Flow Leakages and Injections",
+          "summary": "Identify leakages and injections in a circular flow example.",
+          "problem": "List all leakages and injections in a 4-sector economy and state the equilibrium condition.",
+          "steps": [
+            {
+              "label": "Leakages (withdrawals)",
+              "explanation": "Savings (S), Taxes (T), Imports (M) — money flowing out of the domestic circular flow."
+            },
+            {
+              "label": "Injections",
+              "explanation": "Investment (I), Government spending (G), Exports (X) — money injected back in."
+            },
+            {
+              "label": "Equilibrium condition",
+              "explanation": "S + T + M = I + G + X. When total leakages = total injections, the economy is in equilibrium."
+            }
+          ],
+          "answer": "Leakages: S+T+M. Injections: I+G+X. Equilibrium: S+T+M = I+G+X.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 2",
+      "flashcards": [
+        {
+          "id": "ch2-fc-1",
+          "chapter": "Chapter 2",
+          "front": "State the expenditure approach to GDP.",
+          "back": "GDP = C + I + G + (X − M). Sum all final spending by households, businesses, government and net exports.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-2",
+          "chapter": "Chapter 2",
+          "front": "Nominal GDP = R5 000bn, GDP deflator = 125. Calculate real GDP.",
+          "back": "Real GDP = (5000/125)×100 = R4 000bn.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-3",
+          "chapter": "Chapter 2",
+          "front": "Why is GDP per capita a better welfare indicator than total GDP?",
+          "back": "It accounts for population size — a large population can dilute the benefits of a high GDP for individual citizens.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-4",
+          "chapter": "Chapter 2",
+          "front": "Distinguish GDP from GNP.",
+          "back": "GDP measures production within SA's borders regardless of ownership. GNP (GNI) measures income earned by SA residents regardless of location.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch2-q1",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "Nominal GDP = R8 000bn. GDP Deflator = 160. Real GDP = ?",
+          "options": [
+            "R5 000bn",
+            "R12 800bn",
+            "R4 800bn",
+            "R6 400bn"
+          ],
+          "answer": "R5 000bn",
+          "explanation": "Real GDP = (8000/160)×100 = R5 000bn.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q2",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is NOT included in GDP?",
+          "options": [
+            "Final consumer goods",
+            "Intermediate goods",
+            "New construction",
+            "Government services"
+          ],
+          "answer": "Intermediate goods",
+          "explanation": "Only final goods are counted in GDP to avoid double counting — intermediate goods are used in further production.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q3",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "Real GDP growth rate measures:",
+          "options": [
+            "Change in total population",
+            "Change in nominal prices",
+            "Change in actual output controlling for inflation",
+            "Change in the GDP deflator"
+          ],
+          "answer": "Change in actual output controlling for inflation",
+          "explanation": "Real GDP strips out inflation, so changes in real GDP reflect true changes in production volume.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch2-we-1",
+          "chapter": "Chapter 2",
+          "title": "GDP Expenditure Method Calculation",
+          "summary": "Calculate SA's GDP from component data.",
+          "problem": "SA data: C=R3 200bn, I=R800bn, G=R1 100bn, X=R900bn, M=R1 200bn. Calculate GDP.",
+          "steps": [
+            {
+              "label": "Apply formula",
+              "explanation": "GDP = C + I + G + (X − M)."
+            },
+            {
+              "label": "Substitute",
+              "explanation": "GDP = 3200 + 800 + 1100 + (900 − 1200)."
+            },
+            {
+              "label": "Calculate",
+              "explanation": "GDP = 3200 + 800 + 1100 + (−300) = R4 800bn."
+            },
+            {
+              "label": "Interpret",
+              "explanation": "SA is a net importer (M>X), so NX is negative, reducing GDP."
+            }
+          ],
+          "answer": "GDP = R4 800 billion.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 3",
+      "flashcards": [
+        {
+          "id": "ch3-fc-1",
+          "chapter": "Chapter 3",
+          "front": "Name the four functions of money.",
+          "back": "Medium of exchange, unit of account, store of value, standard of deferred payment.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-2",
+          "chapter": "Chapter 3",
+          "front": "Reserve ratio = 20%. What is the money multiplier?",
+          "back": "Money multiplier = 1/0.20 = 5. A R1 000 deposit creates R5 000 in the money supply.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-3",
+          "chapter": "Chapter 3",
+          "front": "What is the repo rate?",
+          "back": "The rate SARB charges commercial banks for overnight loans — the primary monetary policy tool in SA.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-4",
+          "chapter": "Chapter 3",
+          "front": "Name two components of M1 money supply.",
+          "back": "Coins and notes in circulation + demand deposits (current account balances at commercial banks).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch3-q1",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "If a bank has a reserve ratio of 25%, the money multiplier is:",
+          "options": [
+            "25",
+            "4",
+            "0.25",
+            "2.5"
+          ],
+          "answer": "4",
+          "explanation": "Money multiplier = 1/reserve ratio = 1/0.25 = 4.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q2",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "SARB raises the repo rate. The PRIMARY intended effect is to:",
+          "options": [
+            "Increase money supply",
+            "Stimulate borrowing and spending",
+            "Reduce inflation by raising borrowing costs",
+            "Depreciate the Rand"
+          ],
+          "answer": "Reduce inflation by raising borrowing costs",
+          "explanation": "A higher repo rate makes borrowing more expensive, reducing spending and cooling inflationary pressure.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q3",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "Which institution is SA's central bank?",
+          "options": [
+            "Standard Bank",
+            "FNB",
+            "South African Reserve Bank",
+            "National Treasury"
+          ],
+          "answer": "South African Reserve Bank",
+          "explanation": "The SARB is SA's central bank, mandated to protect the currency's value and manage monetary policy.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch3-we-1",
+          "chapter": "Chapter 3",
+          "title": "Money Creation by Commercial Banks",
+          "summary": "Calculate total money created from an initial deposit.",
+          "problem": "A customer deposits R10 000 at FNB. The required reserve ratio is 10%. How much new money can the banking system create?",
+          "steps": [
+            {
+              "label": "Calculate multiplier",
+              "explanation": "Multiplier = 1/0.10 = 10."
+            },
+            {
+              "label": "Calculate total money created",
+              "explanation": "Total deposits = R10 000 × 10 = R100 000."
+            },
+            {
+              "label": "Net new money",
+              "explanation": "New money created = R100 000 − R10 000 (original deposit) = R90 000."
+            }
+          ],
+          "answer": "The banking system creates R90 000 in new money; total money supply increases by R100 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 4",
+      "flashcards": [
+        {
+          "id": "ch4-fc-1",
+          "chapter": "Chapter 4",
+          "front": "What is expansionary fiscal policy?",
+          "back": "Increasing government spending (G↑) or cutting taxes (T↓) to stimulate AD and boost growth during a recession.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-2",
+          "chapter": "Chapter 4",
+          "front": "What is a budget deficit?",
+          "back": "When government spending exceeds tax revenue (G > T). SA has run deficits for over a decade.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-3",
+          "chapter": "Chapter 4",
+          "front": "Explain crowding out.",
+          "back": "Government borrows to finance deficit → interest rates rise → private investment falls. The fiscal stimulus is partially offset.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-4",
+          "chapter": "Chapter 4",
+          "front": "What are automatic stabilisers?",
+          "back": "Built-in fiscal mechanisms that offset economic cycles without deliberate policy action — e.g. progressive tax and unemployment benefits.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch4-q1",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "SA is in a recession. Which fiscal policy is appropriate?",
+          "options": [
+            "Raise taxes and cut spending",
+            "Lower taxes and increase spending",
+            "Raise interest rates",
+            "Reduce money supply"
+          ],
+          "answer": "Lower taxes and increase spending",
+          "explanation": "Expansionary fiscal policy (tax cuts + spending increases) stimulates aggregate demand to pull the economy out of recession.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q2",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "A budget deficit occurs when:",
+          "options": [
+            "Exports exceed imports",
+            "Government spending exceeds tax revenue",
+            "Tax revenue exceeds government spending",
+            "Investment exceeds savings"
+          ],
+          "answer": "Government spending exceeds tax revenue",
+          "explanation": "Budget deficit = G − T > 0. SA has consistently spent more than it collects in taxes since 2008.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q3",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Automatic stabilisers are fiscal tools that:",
+          "options": [
+            "Require new legislation each cycle",
+            "Operate without explicit government decisions to stabilise the economy",
+            "Raise taxes in a recession",
+            "Reduce government spending in a boom"
+          ],
+          "answer": "Operate without explicit government decisions to stabilise the economy",
+          "explanation": "Automatic stabilisers (unemployment benefits, progressive taxes) activate automatically as the economy contracts or expands.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch4-we-1",
+          "chapter": "Chapter 4",
+          "title": "Fiscal Multiplier",
+          "summary": "Calculate the effect of a government spending increase.",
+          "problem": "MPC = 0.75. Government increases spending by R20bn. Calculate the change in national income using the fiscal multiplier.",
+          "steps": [
+            {
+              "label": "Calculate multiplier",
+              "explanation": "Fiscal multiplier = 1/(1−MPC) = 1/(1−0.75) = 1/0.25 = 4."
+            },
+            {
+              "label": "Apply multiplier",
+              "explanation": "ΔY = Multiplier × ΔG = 4 × R20bn = R80bn."
+            },
+            {
+              "label": "Interpret",
+              "explanation": "A R20bn spending increase generates R80bn of additional national income through the multiplier effect."
+            }
+          ],
+          "answer": "National income increases by R80 billion.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 5",
+      "flashcards": [
+        {
+          "id": "ch5-fc-1",
+          "chapter": "Chapter 5",
+          "front": "What is SA's CPI inflation target band?",
+          "back": "3% to 6% per annum — set by the Minister of Finance; SARB's MPC adjusts the repo rate to keep inflation within this band.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-2",
+          "chapter": "Chapter 5",
+          "front": "SARB raises the repo rate from 7.5% to 8%. What is the effect on borrowing?",
+          "back": "Prime lending rate rises (typically repo + 3.5% = 11.5%). Home loans, car finance and business credit become more expensive → spending decreases.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-3",
+          "chapter": "Chapter 5",
+          "front": "Distinguish expansionary from contractionary monetary policy.",
+          "back": "Expansionary: lower repo rate → cheaper credit → more spending → stimulate growth. Contractionary: raise repo rate → expensive credit → less spending → reduce inflation.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-4",
+          "chapter": "Chapter 5",
+          "front": "Nominal interest rate = 9%, inflation = 5%. Real interest rate = ?",
+          "back": "Real rate = 9% − 5% = 4% (Fisher equation: i = r + π).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch5-q1",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "SA's inflation targeting band is:",
+          "options": [
+            "0% to 3%",
+            "3% to 6%",
+            "5% to 10%",
+            "1% to 4%"
+          ],
+          "answer": "3% to 6%",
+          "explanation": "SARB targets CPI inflation between 3% and 6% per annum as set by the Finance Minister.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q2",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "Nominal interest rate = 12%, inflation = 7%. Real interest rate = ?",
+          "options": [
+            "19%",
+            "84%",
+            "5%",
+            "7%"
+          ],
+          "answer": "5%",
+          "explanation": "Real rate = nominal − inflation = 12% − 7% = 5% (Fisher equation).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q3",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "When SARB lowers the repo rate, the INTENDED effect is to:",
+          "options": [
+            "Reduce money supply",
+            "Increase borrowing costs",
+            "Stimulate economic activity by lowering borrowing costs",
+            "Strengthen the Rand"
+          ],
+          "answer": "Stimulate economic activity by lowering borrowing costs",
+          "explanation": "Lower repo rate reduces lending rates, making credit cheaper, encouraging borrowing and spending — expansionary monetary policy.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch5-we-1",
+          "chapter": "Chapter 5",
+          "title": "Monetary Policy Transmission",
+          "summary": "Trace a repo rate increase through the SA economy.",
+          "problem": "SARB raises the repo rate by 50bps (0.5%) due to inflation rising above 6%. Trace the full transmission mechanism.",
+          "steps": [
+            {
+              "label": "Step 1 — Banks adjust rates",
+              "explanation": "Commercial banks raise prime rate by 50bps → home loans, car finance become more expensive."
+            },
+            {
+              "label": "Step 2 — Reduced borrowing",
+              "explanation": "Consumers borrow less → lower household consumption (C↓)."
+            },
+            {
+              "label": "Step 3 — Investment falls",
+              "explanation": "Businesses face higher borrowing costs → reduce investment (I↓)."
+            },
+            {
+              "label": "Step 4 — AD falls",
+              "explanation": "C↓ and I↓ reduce aggregate demand (AD↓)."
+            },
+            {
+              "label": "Step 5 — Inflation decreases",
+              "explanation": "Lower AD reduces pressure on prices → CPI inflation falls back toward the 3-6% target."
+            }
+          ],
+          "answer": "Repo↑ → Prime↑ → C↓ + I↓ → AD↓ → Inflation↓. Effective but slows growth.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 6",
+      "flashcards": [
+        {
+          "id": "ch6-fc-1",
+          "chapter": "Chapter 6",
+          "front": "Distinguish economic growth from economic development.",
+          "back": "Growth = quantitative increase in real GDP. Development = qualitative improvement in living standards, health, education and equality.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-2",
+          "chapter": "Chapter 6",
+          "front": "What does the HDI measure?",
+          "back": "Human Development Index — a composite of life expectancy (health), mean years of schooling (education), and GNI per capita (income).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-3",
+          "chapter": "Chapter 6",
+          "front": "Name three sources of long-run economic growth.",
+          "back": "Capital accumulation (investment), labour force growth, and technological progress (total factor productivity).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-4",
+          "chapter": "Chapter 6",
+          "front": "SA's real GDP growth rate in recent years has been approximately:",
+          "back": "0.5–1.5% p.a. — well below the NDP 2030 target of 5%. Load-shedding, high unemployment and low investment are key constraints.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch6-q1",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "Economic development is BEST described as:",
+          "options": [
+            "An increase in nominal GDP",
+            "An increase in export volume",
+            "Broad improvement in living standards, health and equality",
+            "An increase in foreign investment"
+          ],
+          "answer": "Broad improvement in living standards, health and equality",
+          "explanation": "Development is multidimensional — it goes beyond GDP to include quality of life, HDI, and reduction in poverty and inequality.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q2",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "The Human Development Index (HDI) combines:",
+          "options": [
+            "GDP, exports and imports",
+            "Life expectancy, education and income",
+            "Inflation, unemployment and growth",
+            "Investment, consumption and government spending"
+          ],
+          "answer": "Life expectancy, education and income",
+          "explanation": "HDI = geometric mean of health (life expectancy), education (schooling years) and income (GNI per capita) indices.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q3",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "Which factor is a major constraint on SA's economic growth?",
+          "options": [
+            "Too much foreign investment",
+            "A very high savings rate",
+            "Load-shedding and electricity shortage",
+            "Excessive consumer spending"
+          ],
+          "answer": "Load-shedding and electricity shortage",
+          "explanation": "Load-shedding costs SA an estimated R500m+ per day and directly reduces productive capacity — a binding constraint on growth.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch6-we-1",
+          "chapter": "Chapter 6",
+          "title": "HDI Interpretation",
+          "summary": "Compare two countries using HDI components.",
+          "problem": "Country A: Life expectancy=78, Mean schooling=12 yrs, GNI/capita=$20 000. Country B: Life expectancy=62, Mean schooling=7 yrs, GNI/capita=$8 000. Which has higher development? What does this mean beyond GDP?",
+          "steps": [
+            {
+              "label": "Compare health",
+              "explanation": "Country A: 78 years vs B: 62 years — A scores much higher on life expectancy."
+            },
+            {
+              "label": "Compare education",
+              "explanation": "A: 12 years of schooling vs B: 7 years — A has significantly more education."
+            },
+            {
+              "label": "Compare income",
+              "explanation": "A: $20 000 GNI/capita vs B: $8 000 — A is richer per person."
+            },
+            {
+              "label": "Conclusion",
+              "explanation": "Country A has higher HDI across all three dimensions. High GDP alone (income) isn't enough — health and education matter too."
+            }
+          ],
+          "answer": "Country A has higher development on all three HDI dimensions. Development requires health and education, not just income growth.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 7",
+      "flashcards": [
+        {
+          "id": "ch7-fc-1",
+          "chapter": "Chapter 7",
+          "front": "Define comparative advantage.",
+          "back": "A country has comparative advantage in goods it produces at a lower opportunity cost than other countries — the basis for mutually beneficial trade.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-2",
+          "chapter": "Chapter 7",
+          "front": "What is a tariff and who gains/loses?",
+          "back": "A tax on imports. Domestic producers gain (higher price), government gains (revenue), consumers lose (pay more), and economic efficiency falls.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-3",
+          "chapter": "Chapter 7",
+          "front": "What is the WTO and SA's role?",
+          "back": "World Trade Organisation — multilateral body promoting free trade. SA is a founding member and participates in Doha negotiations.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-4",
+          "chapter": "Chapter 7",
+          "front": "Distinguish absolute from comparative advantage.",
+          "back": "Absolute advantage: produces more of a good per unit of input. Comparative advantage: produces at lower opportunity cost. Trade benefits arise from comparative advantage.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch7-q1",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "The principle of comparative advantage says countries should:",
+          "options": [
+            "Produce everything themselves",
+            "Specialise in and export goods with lowest opportunity cost",
+            "Always import goods they can produce",
+            "Impose tariffs on all imports"
+          ],
+          "answer": "Specialise in and export goods with lowest opportunity cost",
+          "explanation": "Comparative advantage — not absolute advantage — determines beneficial trade specialisation.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q2",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "A quota restricts trade by:",
+          "options": [
+            "Taxing imports",
+            "Limiting the quantity of imports allowed",
+            "Subsidising domestic producers",
+            "Setting a minimum import price"
+          ],
+          "answer": "Limiting the quantity of imports allowed",
+          "explanation": "A quota is a direct quantity restriction on imports — unlike a tariff which is a price-based restriction.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q3",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "SA's main export commodities include:",
+          "options": [
+            "Manufactured vehicles and electronics",
+            "Gold, platinum and coal",
+            "Agricultural produce and textiles",
+            "Software and financial services"
+          ],
+          "answer": "Gold, platinum and coal",
+          "explanation": "SA's export base is dominated by minerals and metals — it is a major exporter of gold, platinum group metals, iron ore and coal.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch7-we-1",
+          "chapter": "Chapter 7",
+          "title": "Comparative Advantage and Trade",
+          "summary": "Identify which country should specialise in which good.",
+          "problem": "SA produces 10 cars or 20 tons of gold per worker. Germany produces 30 cars or 15 tons of gold per worker. Identify comparative advantage for each.",
+          "steps": [
+            {
+              "label": "SA opportunity costs",
+              "explanation": "SA: 1 car costs 2 tons of gold (20/10). 1 ton of gold costs 0.5 cars."
+            },
+            {
+              "label": "Germany opportunity costs",
+              "explanation": "Germany: 1 car costs 0.5 tons of gold (15/30). 1 ton of gold costs 2 cars."
+            },
+            {
+              "label": "Identify comparative advantage",
+              "explanation": "SA: lower opportunity cost for gold (0.5 cars vs 2 cars) → SA specialises in gold. Germany: lower opportunity cost for cars (0.5 gold vs 2 gold) → Germany specialises in cars."
+            }
+          ],
+          "answer": "SA has comparative advantage in gold; Germany in cars. Both benefit from specialisation and trade.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 8",
+      "flashcards": [
+        {
+          "id": "ch8-fc-1",
+          "chapter": "Chapter 8",
+          "front": "What does the current account of the BOP record?",
+          "back": "Trade in goods (merchandise), trade in services, primary income (wages, dividends), and secondary income (transfers like remittances).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-2",
+          "chapter": "Chapter 8",
+          "front": "SA consistently runs a current account ______.",
+          "back": "Deficit — SA imports more goods and services than it exports. This must be financed by a capital/financial account surplus (foreign investment inflows).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-3",
+          "chapter": "Chapter 8",
+          "front": "What causes the Rand to depreciate?",
+          "back": "High demand for foreign currency (imports rise), capital outflows, rising US interest rates, political uncertainty, commodity price falls, load-shedding concerns.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-4",
+          "chapter": "Chapter 8",
+          "front": "BOP accounting identity.",
+          "back": "Current Account + Capital & Financial Account + Official Reserve Changes = 0. The BOP always balances.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch8-q1",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "A current account deficit means:",
+          "options": [
+            "Government is spending more than it earns",
+            "The country imports more goods and services than it exports",
+            "The capital account is in deficit",
+            "Foreign debt has been eliminated"
+          ],
+          "answer": "The country imports more goods and services than it exports",
+          "explanation": "Current account deficit = imports of goods + services > exports, meaning the country is a net buyer from the world.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-q2",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "The Rand depreciates from R16/$ to R19/$. For SA importers, this means:",
+          "options": [
+            "Imports become cheaper",
+            "Imports become more expensive in Rand terms",
+            "Exports become more expensive",
+            "No change in import prices"
+          ],
+          "answer": "Imports become more expensive in Rand terms",
+          "explanation": "Depreciation means each dollar now costs more Rand — imported goods cost more in local currency.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-q3",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "If SA's current account is in deficit, the capital and financial account must be:",
+          "options": [
+            "Also in deficit",
+            "In surplus (net capital inflows)",
+            "Zero",
+            "Irrelevant"
+          ],
+          "answer": "In surplus (net capital inflows)",
+          "explanation": "BOP = 0 always: a current account deficit must be offset by a capital/financial account surplus (foreigners investing in SA).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch8-we-1",
+          "chapter": "Chapter 8",
+          "title": "Exchange Rate Effect on Trade",
+          "summary": "Analyse the impact of Rand depreciation on SA's trade balance.",
+          "problem": "The Rand weakens from R15/$ to R18/$. SA exports platinum (priced in USD) and imports machinery (priced in USD). How does this affect SA's trade balance?",
+          "steps": [
+            {
+              "label": "Effect on exports",
+              "explanation": "Platinum price in USD stays the same; SA platinum earns the same USD. But each USD converts to R18 (vs R15) → SA earns MORE Rand per unit of platinum → exporters benefit."
+            },
+            {
+              "label": "Effect on imports",
+              "explanation": "Machinery priced in USD now costs 20% more Rand → imports become more expensive → import volumes may fall."
+            },
+            {
+              "label": "Trade balance",
+              "explanation": "Export revenues in Rand rise; import costs rise. If import volume falls enough, trade deficit narrows (J-curve effect in short run)."
+            },
+            {
+              "label": "SA context",
+              "explanation": "Rand depreciation helps SA commodity exporters (Implats, Anglo Platinum) but hurts consumers and manufacturers who import inputs."
+            }
+          ],
+          "answer": "Rand depreciation improves SA's export competitiveness but raises import costs — net effect depends on elasticity (J-curve).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    }
+  ],
+  "discipline": "economics",
+  "referenceList": [
+    {
+      "title": "Mankiw, N.G. — Principles of Economics, 9th Edition (Cengage)",
+      "publisher": "Cengage",
+      "url": "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+      "note": "Canonical introductory economics text; covers supply/demand, macro measures, and policy.",
+      "sourceHash": "60578e43514380ac67848c11a702b3e079a32e31a815df36d25d1d308aec9341"
+    },
+    {
+      "title": "OpenStax — Principles of Economics 2e (free, CC BY)",
+      "publisher": "OpenStax / Rice University",
+      "url": "https://openstax.org/details/books/principles-economics-2e",
+      "note": "Open-access alternative textbook; peer-reviewed, suitable for student self-study.",
+      "sourceHash": "7a4bb52a2181defcd7dcc29f8b817732bfd3878a2c30c799e4fbca601d09332c"
+    },
+    {
+      "title": "South African Reserve Bank — Quarterly Bulletin & data",
+      "publisher": "SARB",
+      "url": "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+      "note": "Primary source for SA macro data (inflation, GDP, interest rates) used in local examples.",
+      "sourceHash": "573ee763894dcff28f43b687c734096359363bc521979b0b5cd61c8c3452e466"
+    },
+    {
+      "title": "Statistics South Africa — GDP & CPI releases",
+      "publisher": "Stats SA",
+      "url": "https://www.statssa.gov.za/",
+      "note": "Official SA economic statistics; cite for any South-Africa-specific macro figures.",
+      "sourceHash": "196b319e1f53048b59686b7ec0bec1696105083f544cd87cd216893c4684c11d"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: Economics 122 (BCom, North-West University). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "Chapter-by-chapter teaching focus (derived from the module's own learning outcomes and key definitions):",
+    "  • Chapter 1 — Introduction to Macroeconomics. Emphasise: Distinguish macro from micro economics; Explain the 4-sector circular flow; Identify the main macroeconomic goals. Local context: SA's National Development Plan (NDP 2030) targets 5% GDP growth and 6% unemployment — key macro objectives for policy.",
+    "  • Chapter 2 — National Income Accounting (GDP). Emphasise: Calculate GDP using the expenditure method; Distinguish nominal from real GDP; Interpret GDP per capita. Local context: Stats SA publishes SA's quarterly GDP data. In 2023, SA's real GDP growth was ~0.6% — well below the NDP 5% target.",
+    "  • Chapter 3 — Money & Banking System. Emphasise: Describe the functions of money; Explain how commercial banks create money; Describe SARB's role as central bank. Local context: SARB's Monetary Policy Committee (MPC) meets 6 times per year to set the repo rate. In 2023-24 the repo rate was 8.25% — the highest in over a decade.",
+    "  • Chapter 4 — Fiscal Policy. Emphasise: Define fiscal policy and its tools; Distinguish expansionary from contractionary policy; Explain automatic stabilisers and crowding out. Local context: SA's National Treasury presents the annual Budget in February. SA has run a budget deficit for over a decade, with debt-to-GDP exceeding 70%.",
+    "  • Chapter 5 — Monetary Policy & SARB. Emphasise: Explain the repo rate transmission mechanism; Describe SA's inflation targeting framework; Evaluate the impact of interest rate changes. Local context: SARB raised the repo rate by 475 bps between 2021 and 2023 to combat post-COVID inflation. CPI peaked above 7% — above the 6% target ceiling.",
+    "  • Chapter 6 — Economic Growth & Development. Emphasise: Distinguish growth from development; Explain sources of long-run growth; Interpret the Human Development Index (HDI). Local context: SA's HDI is 0.713 (2022) — upper-middle category but with very high inequality (Gini≈0.63). The UNDP flags education quality and unemployment as key constraints.",
+    "  • Chapter 7 — International Trade. Emphasise: Explain comparative advantage; Identify types of trade barriers; Describe SA's trade relationships (WTO, BRICS, SADC). Local context: SA exports mainly minerals (gold, platinum, coal) and imports manufactured goods. SA is a WTO member, part of BRICS and the AGOA preferential trade agreement with the US.",
+    "  • Chapter 8 — Balance of Payments. Emphasise: Explain the structure of the balance of payments; Distinguish the current from the capital account; Explain exchange rate determination. Local context: SA consistently runs a current account deficit (imports > exports of goods/services). The Rand is highly volatile — influenced by commodity prices, US Fed rate decisions and domestic load-shedding.",
+    "Pedagogy tip (quantitative): work at least one fully solved example on the board per topic, then assign a parallel guided-practice problem. Common student errors: sign errors in debit/credit (accounting), confusing correlation with causation (stats/econ), and unit/percentage mistakes in ratio work. Build a short weekly formative quiz from the module's own revision prompts.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "60578e43514380ac67848c11a702b3e079a32e31a815df36d25d1d308aec9341",
+    "7a4bb52a2181defcd7dcc29f8b817732bfd3878a2c30c799e4fbca601d09332c",
+    "573ee763894dcff28f43b687c734096359363bc521979b0b5cd61c8c3452e466",
+    "196b319e1f53048b59686b7ec0bec1696105083f544cd87cd216893c4684c11d"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

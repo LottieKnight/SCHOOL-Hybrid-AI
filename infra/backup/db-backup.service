@@ -1,0 +1,12 @@
+[Unit]
+Description=Daily backup of PostgreSQL database to S3
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+EnvironmentFile=/home/lottie/SCHOOL-Academic-Platform/.env
+ExecStart=/home/lottie/SCHOOL-Academic-Platform/scripts/backup-db.sh
+
+[Install]
+WantedBy=multi-user.target

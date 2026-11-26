@@ -1,0 +1,27 @@
+.header { display: grid; gap: 6px; margin-bottom: 20px; }
+.header h1 { margin: 0; font-size: 1.3rem; }
+.headerMeta { display: flex; gap: 12px; flex-wrap: wrap; font-size: 0.8rem; color: var(--muted); }
+
+.inviteRow {
+  display: flex; align-items: center; gap: 8px;
+  padding: 10px 14px; border-radius: 10px;
+  background: rgba(232, 193, 90,0.07);
+  border: 1px solid rgba(232, 193, 90,0.15);
+  margin-bottom: 16px;
+}
+.inviteCode { font-family: monospace; font-size: 0.9rem; flex: 1; letter-spacing: 0.1em; }
+
+.section { margin-bottom: 20px; }
+.sectionTitle { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); margin: 0 0 10px; }
+
+.memberList { display: flex; flex-wrap: wrap; gap: 8px; }
+.memberChip {
+  display: flex; align-items: center; gap: 6px;
+  padding: 4px 10px; border-radius: 999px;
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(54,45,30,0.12);
+  font-size: 0.8rem;
+}
+.memberChipSelf { border-color: rgba(232, 193, 90,0.3); background: rgba(232, 193, 90,0.07); }
+
+.actions { display: flex; gap: 10px; flex-wrap: wrap; }

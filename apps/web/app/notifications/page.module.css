@@ -1,0 +1,102 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  display: grid;
+  gap: 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.markAllBtn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-2);
+  padding: 8px 16px;
+  border-radius: var(--r-md);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.markAllBtn:hover {
+  border-color: var(--gold-border);
+  color: var(--gold);
+}
+
+.list {
+  display: grid;
+  gap: 12px;
+}
+
+.notificationCard {
+  transition: all 0.2s;
+}
+
+.notificationCard[data-read="false"] {
+  border-left: 4px solid var(--gold);
+  background: rgba(255, 215, 0, 0.02);
+}
+
+.cardBody {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.typeIcon {
+  font-size: 24px;
+  padding: 8px;
+  background: var(--surface-2);
+  border-radius: 12px;
+}
+
+.content {
+  flex: 1;
+  display: grid;
+  gap: 4px;
+}
+
+.notifTitle {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-1);
+}
+
+.notifMessage {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text-2);
+  line-height: 1.5;
+}
+
+.time {
+  font-size: 11px;
+  color: var(--text-3);
+  margin-top: 4px;
+}
+
+.viewBtn {
+  align-self: center;
+  padding: 6px 16px;
+  background: var(--gold);
+  color: #000;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: var(--r-md);
+  text-decoration: none;
+}
+
+.empty {
+  text-align: center;
+  color: var(--text-3);
+  padding: 48px 0;
+  font-style: italic;
+}

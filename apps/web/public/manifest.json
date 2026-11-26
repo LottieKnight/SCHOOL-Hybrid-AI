@@ -1,0 +1,45 @@
+{
+  "name": "SCHOOL",
+  "short_name": "SCHOOL",
+  "description": "SCHOOL is an education platform for CAPS-aligned learning, past papers, and digital-access-first tools.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07101f",
+  "theme_color": "#0a0a0a",
+  "orientation": "any",
+  "lang": "en-ZA",
+  "categories": ["education"],
+  "icons": [
+    {
+      "src": "/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/pwa/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/pwa/maskable-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Hybrid tutor",
+      "short_name": "Tutor",
+      "description": "Hints that can run on this phone",
+      "url": "/tutor"
+    },
+    {
+      "name": "Past papers",
+      "short_name": "Papers",
+      "url": "/past-papers"
+    }
+  ]
+}

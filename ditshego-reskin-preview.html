@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="scholar">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SCHOOL — Ditshego Ventures reskin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&family=Archivo:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Exact tokens implemented in the app */
+  --gold: #e8c15a;            /* house gold */
+  --gold-strong: #f0d27a;
+  --bg: #0a0a0a;             /* onyx */
+  --bg-deep: #050505;
+  --surface: #111111;        /* slate */
+  --surface-glass: rgba(26, 26, 26, 0.55);
+  --sidebar: #080808;        /* slate-deep */
+  --text-1: #f5f5f5;
+  --text-2: #9a9a9a;
+  --text-3: #6b6b6b;
+  --gold-dim: rgba(232,193,90,0.10);
+  --teal: #2dd4bf;
+  --grad-scholar: linear-gradient(120deg, #e8c15a 0%, #2dd4bf 100%);
+  --border: rgba(255,255,255,0.08);
+  --border-2: rgba(255,255,255,0.16);
+  --gold-border: rgba(232,193,90,0.24);
+  --glow-teal: 0 0 0 1px rgba(45,212,191,.35), 0 8px 32px rgba(45,212,191,.18);
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Archivo', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --ambient:
+    radial-gradient(800px 520px at 10% -10%, rgba(232,193,90,.10), transparent 60%),
+    radial-gradient(720px 520px at 94% 2%, rgba(45,212,191,.12), transparent 60%);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: var(--font-body);
+  color: var(--text-1);
+  background: var(--bg);
+  background-image: var(--ambient);
+  background-attachment: fixed;
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+}
+.eyebrow {
+  font-size: 11px; letter-spacing: .22em; text-transform: uppercase;
+  font-weight: 600; color: var(--text-2);
+}
+.gold { color: var(--gold); }
+.mono { font-family: var(--font-mono); }
+
+.shell { display: grid; grid-template-columns: 264px minmax(0,1fr); min-height: 100dvh; }
+
+/* Sidebar */
+.side {
+  background: var(--sidebar); border-right: 1px solid var(--border);
+  padding: 22px 18px; display: flex; flex-direction: column; gap: 26px;
+}
+.brand { display: flex; align-items: center; gap: 12px; }
+.mark {
+  width: 38px; height: 38px; border-radius: 11px; display: grid; place-items: center;
+  color: var(--gold); border: 1px solid var(--gold-border);
+  background: rgba(201,162,75,.07); font-family: var(--font-display); font-size: 18px;
+  letter-spacing: 2px;
+}
+.brand-copy { display: grid; gap: 2px; }
+.brand-copy strong { font-family: var(--font-display); font-size: 21px; font-weight: 600; letter-spacing: .5px; }
+.brand-copy span { font-size: 10px; letter-spacing: .2em; text-transform: uppercase; color: var(--text-3); }
+
+.nav { display: grid; gap: 4px; }
+.nav .label { font-size: 10px; letter-spacing: .22em; text-transform: uppercase; color: var(--text-3); margin: 8px 6px; }
+.link {
+  display: flex; align-items: center; gap: 12px; padding: 10px 12px; border-radius: 9px;
+  color: var(--text-2); font-size: 14px; text-decoration: none; cursor: pointer;
+}
+.link:hover { background: rgba(255,255,255,.04); color: var(--text-1); }
+.link .ic { width: 18px; text-align: center; opacity: .85; }
+.link.active { color: var(--text-1); background: rgba(255,255,255,.05); position: relative; }
+.link.active::before {
+  content:""; position:absolute; left:0; top:8px; bottom:8px; width:2px; border-radius:2px;
+  background: var(--grad-scholar);
+}
+.badge-ai {
+  margin-left: auto; font-size: 10px; font-weight: 700; letter-spacing: .1em;
+  padding: 2px 8px; border-radius: 999px; color: #07101f; background: var(--grad-scholar);
+}
+
+.user {
+  margin-top: auto; display: flex; align-items: center; gap: 12px;
+  padding: 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--surface-glass);
+}
+.avatar {
+  width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center;
+  font-family: var(--font-display); font-weight: 600; color: #07101f; background: var(--grad-scholar);
+}
+.user-copy { display: grid; gap: 1px; }
+.user-copy b { font-size: 14px; font-weight: 600; }
+.user-copy span { font-size: 12px; color: var(--text-2); }
+
+/* Main */
+.main { padding: 32px 36px 48px; display: grid; gap: 26px; align-content: start; }
+.head { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+.head h1 { font-family: var(--font-display); font-weight: 600; font-size: 42px; letter-spacing: -.02em; line-height: 1.04; margin: 8px 0 6px; }
+.head h1 em { font-style: italic; color: var(--gold); }
+.head p { color: var(--text-2); font-size: 15px; max-width: 56ch; line-height: 1.6; }
+.rule { height: 1px; border: 0; background: linear-gradient(90deg, transparent, var(--gold-border), transparent); }
+
+.btn {
+  font: inherit; font-size: 13.5px; font-weight: 600; letter-spacing: .02em; cursor: pointer;
+  border-radius: 10px; padding: 12px 22px; border: 1px solid transparent; white-space: nowrap;
+}
+.btn--primary { background: var(--grad-scholar); color: #fff; box-shadow: var(--glow-teal); }
+.btn--gold { background: var(--gold); color: #07101f; }
+.btn--outline { background: rgba(255,255,255,.04); color: var(--text-1); border-color: var(--border-2); }
+.btn--ghost { background: transparent; color: var(--teal); }
+
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.stat {
+  background: var(--surface-glass); border: 1px solid var(--border); border-radius: 14px; padding: 18px;
+  backdrop-filter: blur(18px);
+}
+.stat .top { display: flex; justify-content: space-between; align-items: center; color: var(--text-2); }
+.stat .top span:first-child { font-size: 12px; letter-spacing: .04em; }
+.stat .ic { color: var(--teal); }
+.stat .val { font-family: var(--font-display); font-size: 40px; font-weight: 700; line-height: 1; margin: 12px 0 8px; }
+.stat .val small { font-size: .42em; color: var(--text-2); font-weight: 400; font-family: var(--font-body); }
+.stat .delta { font-size: 12px; font-family: var(--font-mono); }
+.delta.up { color: #2c9e6a; } .delta.warn { color: var(--gold); } .delta.flat { color: var(--text-3); }
+
+.two { display: grid; grid-template-columns: minmax(0,1fr) 320px; gap: 22px; align-items: start; }
+.card {
+  background: var(--surface-glass); border: 1px solid var(--border); border-radius: 16px; padding: 22px;
+  backdrop-filter: blur(18px);
+}
+.card h2 { font-family: var(--font-display); font-size: 22px; font-weight: 600; margin-bottom: 4px; }
+.card .sub { color: var(--text-2); font-size: 13px; margin-bottom: 18px; }
+.prog { display: grid; gap: 16px; }
+.prog .row { display: grid; gap: 7px; }
+.prog .top { display: flex; justify-content: space-between; font-size: 14px; }
+.prog .top .n { font-family: var(--font-mono); color: var(--text-2); }
+.track { height: 6px; border-radius: 999px; background: rgba(255,255,255,.07); overflow: hidden; }
+.fill { height: 100%; border-radius: 999px; }
+.fill.good { background: var(--grad-scholar); }
+.fill.warn { background: linear-gradient(90deg, var(--gold), var(--gold-strong)); }
+.fill.risk { background: linear-gradient(90deg, #c0473b, #e07a6f); }
+
+.assist {
+  background:
+    radial-gradient(120% 120% at 0% 0%, rgba(139,92,246,.18), transparent 55%),
+    radial-gradient(120% 120% at 100% 100%, rgba(45,212,191,.16), transparent 55%),
+    var(--surface);
+  border: 1px solid var(--border-2); border-radius: 16px; padding: 22px; display: grid; gap: 12px;
+}
+.assist h2 { font-family: var(--font-display); font-size: 21px; font-weight: 600; }
+.assist h2 em { font-style: italic; color: var(--teal); }
+.assist .field {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  border: 1px solid var(--border-2); border-radius: 11px; padding: 12px 14px; color: var(--text-2);
+  font-size: 13px; background: rgba(0,0,0,.2);
+}
+.assist .send { color: #07101f; background: var(--grad-scholar); width: 28px; height: 28px; border-radius: 8px; display: grid; place-items: center; }
+
+.cmd { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.cmd .c { background: var(--surface-glass); border: 1px solid var(--border); border-radius: 14px; padding: 18px; display: grid; gap: 6px; }
+.cmd .c .eyebrow { color: var(--gold); }
+.cmd .c h3 { font-family: var(--font-display); font-size: 18px; font-weight: 600; }
+.cmd .c p { color: var(--text-2); font-size: 13px; }
+.cmd .c .cta { color: var(--gold); font-size: 13px; font-weight: 600; margin-top: 4px; }
+
+.pills { display: flex; flex-wrap: wrap; gap: 9px; align-items: center; }
+.pill { font-size: 12px; padding: 5px 12px; border-radius: 999px; border: 1px solid var(--border-2); color: var(--text-1); }
+.pill.gold { color: var(--gold); border-color: var(--gold-border); background: rgba(201,162,75,.08); }
+.pill.teal { color: var(--teal); border-color: rgba(45,212,191,.3); background: rgba(45,212,191,.08); }
+.dot { width: 7px; height: 7px; border-radius: 50%; display: inline-block; margin-right: 7px; vertical-align: 1px; }
+
+.btnrow { display: flex; gap: 12px; flex-wrap: wrap; }
+.cap { font-size: 12px; color: var(--text-3); letter-spacing: .04em; }
+@media (max-width: 920px){ .shell{ grid-template-columns: 1fr; } .side{ display:none; } .stats{ grid-template-columns: repeat(2,1fr);} .two{ grid-template-columns: 1fr;} .cmd{ grid-template-columns:1fr;} }
+</style>
+</head>
+<body>
+<div class="shell">
+  <aside class="side">
+    <div class="brand">
+      <div class="mark">◇</div>
+      <div class="brand-copy"><strong>SCHOOL</strong><span>Ditshego Ventures</span></div>
+    </div>
+    <nav class="nav">
+      <div class="label">Menu</div>
+      <a class="link active"><span class="ic">◆</span> Dashboard</a>
+      <a class="link"><span class="ic">▦</span> Learn</a>
+      <a class="link"><span class="ic">✦</span> Past papers</a>
+      <a class="link"><span class="ic">◈</span> Bursary finder</a>
+      <a class="link"><span class="ic">⬡</span> AI assistant <span class="badge-ai">AI</span></a>
+      <div class="label">Community</div>
+      <a class="link"><span class="ic">○</span> SCHOOL Press</a>
+      <a class="link"><span class="ic">◷</span> Games center</a>
+    </nav>
+    <div class="user">
+      <div class="avatar">DV</div>
+      <div class="user-copy"><b>Dineo V.</b><span>Grade 11 · NWU bound</span></div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="head">
+      <div>
+        <span class="eyebrow">Tuesday · Term 2 · Week 12</span>
+        <h1>Welcome back, <em>Dineo</em></h1>
+        <p>Your CAPS-aligned study plan, past-paper drills, and the assistant — composed for the week ahead.</p>
+      </div>
+      <button class="btn btn--gold">Resume studying</button>
+    </header>
+    <hr class="rule">
+
+    <section class="stats">
+      <div class="stat"><div class="top"><span>Streak</span><span class="ic">✦</span></div><div class="val mono">12<small> days</small></div><span class="delta up">▲ on track</span></div>
+      <div class="stat"><div class="top"><span>Mastery</span><span class="ic">◆</span></div><div class="val mono">78%</div><span class="delta up">▲ +6%</span></div>
+      <div class="stat"><div class="top"><span>Papers done</span><span class="ic">▦</span></div><div class="val mono">23</div><span class="delta warn">● 4 due</span></div>
+      <div class="stat"><div class="top"><span>Global score</span><span class="ic">⬡</span></div><div class="val mono">#5</div><span class="delta flat">— steady</span></div>
+    </section>
+
+    <section class="two">
+      <div class="card">
+        <h2>Subject progress</h2>
+        <p class="sub">Sem 1 · Week 12 · against term targets</p>
+        <div class="prog">
+          <div class="row"><div class="top"><span>Mathematics</span><span class="n">82%</span></div><div class="track"><div class="fill good" style="width:82%"></div></div></div>
+          <div class="row"><div class="top"><span>Physical Sciences</span><span class="n">64%</span></div><div class="track"><div class="fill warn" style="width:64%"></div></div></div>
+          <div class="row"><div class="top"><span>Accounting</span><span class="n">41%</span></div><div class="track"><div class="fill risk" style="width:41%"></div></div></div>
+        </div>
+      </div>
+      <div class="assist">
+        <span class="eyebrow gold">⬡ AI assistant</span>
+        <h2>Ask anything, <em>get a worked answer</em></h2>
+        <div class="field"><span>Explain quadratic factorisation…</span><span class="send">→</span></div>
+      </div>
+    </section>
+
+    <section class="cmd">
+      <div class="c"><span class="eyebrow">Focus</span><h3>Today's drill: Trigonometry</h3><p>15 questions · adaptive difficulty.</p><span class="cta">Start →</span></div>
+      <div class="c"><span class="eyebrow">Review</span><h3>Past paper 2023 P1</h3><p>Marked with examiner notes.</p><span class="cta">Open →</span></div>
+      <div class="c"><span class="eyebrow">Support</span><h3>Book a tutor session</h3><p>Next slot: Thursday 16:00.</p><span class="cta">Book →</span></div>
+    </section>
+
+    <section class="pills">
+      <span class="pill gold"><span class="dot" style="background:var(--gold)"></span>CAPS aligned</span>
+      <span class="pill teal"><span class="dot" style="background:var(--teal)"></span>Synced</span>
+      <span class="pill">4 papers due</span>
+      <span class="pill">Offline ready</span>
+      <span class="pill gold">◆ Distinction bound</span>
+    </section>
+
+    <section class="btnrow">
+      <button class="btn btn--primary">Primary CTA</button>
+      <button class="btn btn--gold">Gold</button>
+      <button class="btn btn--outline">Outline</button>
+      <button class="btn btn--ghost">Ghost</button>
+    </section>
+    <p class="cap">Playfair Display · Archivo · JetBrains Mono — antique gold #E8C15A on onyx #0A0A0A — gold→teal Scholar accent.</p>
+  </main>
+</div>
+</body>
+</html>

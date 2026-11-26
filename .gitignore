@@ -1,0 +1,96 @@
+# Environment
+.env
+.env.local
+.env.production
+# Public Firebase web config for the production Next build. Not a secret.
+!apps/web/.env.production
+.env.jse
+scripts/.env.jse
+scripts/.venv-jse/
+
+# Dependencies
+node_modules/
+
+# Build artifacts
+.next/
+apps/web/.next/
+*.tsbuildinfo
+output/
+
+# Logs
+*.log
+tmp-*
+
+# Local secrets / signing keys — NEVER commit (B3 security fix)
+*.keystore
+*.jks
+*.idsig
+android/*.keystore
+android-signing/*.keystore
+# Local data / generated content
+content/
+!apps/web/app/api/content/
+data/
+# Allow Next.js API route directories named content/
+!apps/web/app/**/content/
+!apps/web/app/**/content/**
+
+# Claude Code session files
+.claude/
+
+# Binary / generated assets at repo root
+Brazil_Pro_Assets/
+Brazil_Pro_Assets_Generated/
+Brazil_Pro_Assets.zip
+Brazil_Pro_Assets_Generated.zip
+Gemini_Generated_Image_*.png
+brazil.html
+ziyvpsGI
+run_slicer.py
+slice_assets.py
+slice_brazil_assets.py
+
+# Machine learning / fine-tuning artifacts
+*.jsonl
+models/
+unsloth_compiled_cache/
+scripts/__pycache__/
+scripts/finetune_*.py
+scripts/ingest_*.py
+scripts/scrape_*.py
+
+# Documents
+*.docx
+*.xlsx
+
+.vercel
+.env*.local
+
+# Vercel per-app config override — breaks Next.js framework detection on Vercel
+apps/web/vercel.json
+
+# Local Redis snapshot (e.g. from running redis-server at the repo root)
+dump.rdb
+
+# Test coverage reports
+coverage/
+
+# Prototypes - generated Prisma client (regenerate via `npx prisma generate --schema prototypes/scholar-credits/schema.prisma`)
+prototypes/scholar-credits/generated/
+prototypes/scholar-credits/tsconfig.tsbuildinfo
+
+# Release verification artifacts + local secrets (never commit)
+.env.verify
+artifacts/
+apps/web/e2e/prod/playwright-report/
+apps/web/e2e/prod/test-results/
+test-results/
+
+# D1 import artifacts (generated)
+apps/web/prisma/d1/
+
+# OpenNext build output
+apps/web/.open-next/
+
+# Wrangler local dev state
+apps/web/.wrangler/

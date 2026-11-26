@@ -1,0 +1,1886 @@
+{
+  "institution": "North-West University",
+  "moduleCode": "MTHS129",
+  "moduleName": "Mathematics 129",
+  "semester": "Semester 2, 2024",
+  "programme": "BCom",
+  "confidence": 0.82,
+  "generatedAt": "2026-04-03T00:00:00.000Z",
+  "sourceFiles": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "missingContent": [],
+  "studyUnits": [
+    "Chapter 1 — Differentiation Rules & Techniques",
+    "Chapter 2 — Applications of Derivatives (Optimisation)",
+    "Chapter 3 — Indefinite Integration",
+    "Chapter 4 — Definite Integration",
+    "Chapter 5 — Applications of Integration",
+    "Chapter 6 — Introduction to Matrices",
+    "Chapter 7 — Linear Programming"
+  ],
+  "chapters": [
+    "Chapter 1",
+    "Chapter 2",
+    "Chapter 3",
+    "Chapter 4",
+    "Chapter 5",
+    "Chapter 6",
+    "Chapter 7"
+  ],
+  "topicSeeds": [
+    "Ch1 - power rule",
+    "Ch1 - product and quotient rules",
+    "Ch1 - chain rule",
+    "Ch2 - critical points",
+    "Ch2 - second derivative test",
+    "Ch2 - profit maximisation",
+    "Ch3 - antiderivative",
+    "Ch3 - integration rules",
+    "Ch3 - constant of integration",
+    "Ch4 - fundamental theorem of calculus",
+    "Ch4 - area under a curve",
+    "Ch5 - area between two curves",
+    "Ch5 - consumer surplus",
+    "Ch6 - matrix operations",
+    "Ch6 - determinants",
+    "Ch6 - inverse matrix",
+    "Ch7 - linear programming formulation",
+    "Ch7 - graphical method",
+    "Ch7 - corner point theorem"
+  ],
+  "keyTopics": [
+    "power rule for differentiation",
+    "product rule",
+    "quotient rule",
+    "chain rule",
+    "finding critical points",
+    "second derivative test (min/max)",
+    "profit and cost optimisation",
+    "antiderivatives and indefinite integrals",
+    "definite integral as area",
+    "fundamental theorem of calculus",
+    "consumer and producer surplus",
+    "matrix addition and multiplication",
+    "determinant and inverse",
+    "linear programming formulation",
+    "graphical solution method",
+    "optimal solution corner points"
+  ],
+  "quizSignals": [
+    "How do you differentiate using the chain rule?",
+    "How do you find the maximum profit using calculus?",
+    "What is the difference between definite and indefinite integration?",
+    "How do you solve a linear programming problem graphically?"
+  ],
+  "assessmentPlan": [
+    {
+      "name": "Class Test 1",
+      "weight": "20%",
+      "due": "August",
+      "scope": "Ch 1-2"
+    },
+    {
+      "name": "Class Test 2",
+      "weight": "20%",
+      "due": "September",
+      "scope": "Ch 3-4"
+    },
+    {
+      "name": "Class Test 3",
+      "weight": "20%",
+      "due": "October",
+      "scope": "Ch 5-6"
+    },
+    {
+      "name": "Assignment",
+      "weight": "20%",
+      "due": "September",
+      "scope": "Ch 1-4"
+    },
+    {
+      "name": "Semester Test",
+      "weight": "20%",
+      "due": "November",
+      "scope": "Ch 1-7"
+    }
+  ],
+  "classSchedule": [
+    {
+      "label": "Week 1",
+      "summary": "Review of MTHS119 differentiation; power rule and basic rules.",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 2",
+      "summary": "Product rule, quotient rule.",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 3",
+      "summary": "Chain rule and composite functions.",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 4",
+      "summary": "Finding critical points; first and second derivative tests.",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 5",
+      "summary": "Optimisation: maximising profit, minimising cost.",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 6",
+      "summary": "TEST 1 — Ch 1-2.",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 7",
+      "summary": "Introduction to integration; antiderivatives and indefinite integrals.",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 8",
+      "summary": "Integration rules: power, constant, sum.",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 9",
+      "summary": "Definite integrals; fundamental theorem of calculus.",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 10",
+      "summary": "Area under a curve; TEST 2 — Ch 3-4.",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 11",
+      "summary": "Area between two curves; consumer and producer surplus.",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 12",
+      "summary": "Introduction to matrices; operations and properties.",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 13",
+      "summary": "Determinants and inverse matrices; solving systems. TEST 3 — Ch 5-6.",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 14",
+      "summary": "Linear programming: formulation and graphical method.",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 15",
+      "summary": "Corner point theorem; interpretation of LP solutions.",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 16",
+      "summary": "Revision and Semester Test — Ch 1-7.",
+      "chapter": "Chapter 7"
+    }
+  ],
+  "chapterInsights": [
+    {
+      "chapter": "Chapter 1",
+      "title": "Differentiation Rules & Techniques",
+      "outcomes": [
+        "Apply power, product and quotient rules",
+        "Apply chain rule to composite functions",
+        "Differentiate common business functions"
+      ],
+      "formulas": [
+        "Power rule: d/dx[xⁿ] = n·xⁿ⁻¹",
+        "Product rule: d/dx[f·g] = f'g + fg'",
+        "Quotient rule: d/dx[f/g] = (f'g − fg')/g²",
+        "Chain rule: d/dx[f(g(x))] = f'(g(x))·g'(x)"
+      ],
+      "definitions": [
+        {
+          "term": "Derivative",
+          "definition": "The instantaneous rate of change of a function f(x) with respect to x; the slope of the tangent line."
+        },
+        {
+          "term": "Chain rule",
+          "definition": "A rule for differentiating composite functions: differentiate the outer function then multiply by the derivative of the inner function."
+        }
+      ],
+      "revisionPrompts": [
+        "Find dy/dx for y = 3x⁴ − 2x² + 5.",
+        "Differentiate f(x) = (2x + 1)³ using the chain rule."
+      ],
+      "saContext": "In SA business analysis, derivatives model marginal cost and marginal revenue — key concepts for pricing decisions under the Consumer Protection Act.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 2",
+      "title": "Applications of Derivatives (Optimisation)",
+      "outcomes": [
+        "Find and classify critical points",
+        "Apply the second derivative test",
+        "Solve profit/cost optimisation problems"
+      ],
+      "formulas": [
+        "Critical point: f'(x) = 0",
+        "Second derivative test: f''(x) > 0 → minimum; f''(x) < 0 → maximum",
+        "Profit: π(x) = R(x) − C(x); max at π'(x) = 0"
+      ],
+      "definitions": [
+        {
+          "term": "Critical point",
+          "definition": "A point where f'(x) = 0 or is undefined — a candidate for a local maximum or minimum."
+        },
+        {
+          "term": "Second derivative test",
+          "definition": "Uses f''(x) to classify critical points: positive = minimum, negative = maximum, zero = inconclusive."
+        }
+      ],
+      "revisionPrompts": [
+        "Find the maximum of f(x) = −x² + 8x − 5.",
+        "If profit π(x) = −2x² + 20x − 30, find the output that maximises profit."
+      ],
+      "saContext": "SA retailers use optimisation to find profit-maximising price points, balancing costs (load-shedding, logistics) against demand in a price-sensitive market.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 3",
+      "title": "Indefinite Integration",
+      "outcomes": [
+        "Find antiderivatives using basic integration rules",
+        "Apply the constant of integration",
+        "Integrate polynomial and simple functions"
+      ],
+      "formulas": [
+        "∫xⁿ dx = xⁿ⁺¹/(n+1) + C  (n ≠ −1)",
+        "∫k dx = kx + C",
+        "∫[f(x)+g(x)] dx = ∫f(x) dx + ∫g(x) dx"
+      ],
+      "definitions": [
+        {
+          "term": "Antiderivative",
+          "definition": "A function F(x) whose derivative F'(x) = f(x); the reverse process of differentiation."
+        },
+        {
+          "term": "Constant of integration (C)",
+          "definition": "An arbitrary constant added to every indefinite integral because differentiation eliminates constants."
+        }
+      ],
+      "revisionPrompts": [
+        "Find ∫(4x³ − 6x + 2) dx.",
+        "If a marginal cost function is MC = 3x² + 10, find the total cost function (given fixed costs = R200)."
+      ],
+      "saContext": "Integration of marginal cost/revenue functions recovers total cost/revenue — critical for managerial accounting in SA businesses.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 4",
+      "title": "Definite Integration",
+      "outcomes": [
+        "Evaluate definite integrals using the fundamental theorem",
+        "Interpret the definite integral as area under a curve",
+        "Apply definite integrals to total revenue/cost problems"
+      ],
+      "formulas": [
+        "∫[a to b] f(x) dx = F(b) − F(a)",
+        "Area under f(x) from a to b = ∫[a to b] f(x) dx  (if f(x) ≥ 0)"
+      ],
+      "definitions": [
+        {
+          "term": "Definite integral",
+          "definition": "∫[a to b] f(x) dx — gives a numerical value equal to the signed area between f(x) and the x-axis from x=a to x=b."
+        },
+        {
+          "term": "Fundamental theorem of calculus",
+          "definition": "Links differentiation and integration: ∫[a to b] f(x) dx = F(b) − F(a), where F is the antiderivative of f."
+        }
+      ],
+      "revisionPrompts": [
+        "Evaluate ∫[1 to 4] (2x + 3) dx.",
+        "What does the definite integral of marginal revenue represent?"
+      ],
+      "saContext": "Definite integrals calculate total revenue or total cost over an output range — directly applicable to SA business financial modelling.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 5",
+      "title": "Applications of Integration",
+      "outcomes": [
+        "Calculate the area between two curves",
+        "Compute consumer and producer surplus",
+        "Apply integration to business scenarios"
+      ],
+      "formulas": [
+        "Area between f and g: ∫[a to b] [f(x) − g(x)] dx  (f(x) ≥ g(x))",
+        "Consumer surplus = ∫[0 to x*] D(x) dx − p*·x*",
+        "Producer surplus = p*·x* − ∫[0 to x*] S(x) dx"
+      ],
+      "definitions": [
+        {
+          "term": "Consumer surplus",
+          "definition": "The benefit consumers receive when they pay less than their maximum willingness to pay — the area below the demand curve and above the equilibrium price."
+        },
+        {
+          "term": "Producer surplus",
+          "definition": "The benefit producers receive when they sell above their minimum acceptable price — the area above the supply curve and below the equilibrium price."
+        }
+      ],
+      "revisionPrompts": [
+        "Find the area between f(x) = x² and g(x) = x from x=0 to x=1.",
+        "If demand is D(x) = 50 − 2x and equilibrium price is R30, find consumer surplus."
+      ],
+      "saContext": "Consumer and producer surplus analysis is used in SA competition law to assess market efficiency and the impact of price controls (e.g. NHRP petrol pricing).",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 6",
+      "title": "Introduction to Matrices",
+      "outcomes": [
+        "Perform matrix addition, subtraction and multiplication",
+        "Calculate the determinant of a 2×2 matrix",
+        "Find the inverse of a 2×2 matrix and solve linear systems"
+      ],
+      "formulas": [
+        "det(A) = ad − bc  for A = [[a,b],[c,d]]",
+        "A⁻¹ = (1/det(A)) × [[d,−b],[−c,a]]",
+        "AX = B  →  X = A⁻¹B"
+      ],
+      "definitions": [
+        {
+          "term": "Matrix",
+          "definition": "A rectangular array of numbers arranged in rows and columns, used to organise and solve systems of equations."
+        },
+        {
+          "term": "Determinant",
+          "definition": "A scalar value det(A) = ad−bc for a 2×2 matrix; if det(A) ≠ 0, the matrix has an inverse."
+        },
+        {
+          "term": "Inverse matrix",
+          "definition": "A matrix A⁻¹ such that A·A⁻¹ = I (identity matrix); used to solve linear systems."
+        }
+      ],
+      "revisionPrompts": [
+        "Find the determinant of [[3,2],[1,4]].",
+        "Solve the system 2x + y = 7; x + 3y = 11 using matrix inversion."
+      ],
+      "saContext": "Matrix methods solve multi-variable business systems (e.g. multi-product firms); used in operations research applied to SA supply chain management.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 7",
+      "title": "Linear Programming",
+      "outcomes": [
+        "Formulate a linear programming problem",
+        "Solve graphically using the feasible region",
+        "Apply the corner point theorem to find the optimal solution"
+      ],
+      "formulas": [
+        "Objective function: Z = ax + by (maximise or minimise)",
+        "Feasible region: intersection of all constraint inequalities",
+        "Optimal solution at a corner (vertex) of the feasible region"
+      ],
+      "definitions": [
+        {
+          "term": "Linear programming (LP)",
+          "definition": "An optimisation technique finding the best (max/min) value of a linear objective function subject to linear inequality constraints."
+        },
+        {
+          "term": "Feasible region",
+          "definition": "The set of all points (x, y) satisfying all constraints simultaneously — the solution space."
+        },
+        {
+          "term": "Corner point theorem",
+          "definition": "The optimal solution to an LP problem occurs at a corner (vertex) of the feasible region."
+        }
+      ],
+      "revisionPrompts": [
+        "Formulate an LP for a bakery producing bread (x) and cakes (y).",
+        "Why must you check all corner points when solving an LP graphically?"
+      ],
+      "saContext": "LP is used in SA logistics (routing), agriculture (crop mix), and manufacturing (production scheduling) to optimise resource allocation under constraints.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    }
+  ],
+  "chapterStudyItems": [
+    {
+      "chapter": "Chapter 1",
+      "flashcards": [
+        {
+          "id": "ch1-fc-1",
+          "chapter": "Chapter 1",
+          "front": "State the power rule for differentiation.",
+          "back": "d/dx[xⁿ] = n·xⁿ⁻¹. Multiply by the exponent and reduce the power by 1.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-2",
+          "chapter": "Chapter 1",
+          "front": "State the chain rule.",
+          "back": "d/dx[f(g(x))] = f'(g(x)) · g'(x) — differentiate the outer function evaluated at the inner function, multiply by the derivative of the inner function.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-3",
+          "chapter": "Chapter 1",
+          "front": "Find dy/dx for y = 5x³ − 2x + 7.",
+          "back": "dy/dx = 15x² − 2. (Power rule: 5·3x² = 15x², d/dx[−2x] = −2, d/dx[7] = 0.)",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-4",
+          "chapter": "Chapter 1",
+          "front": "Differentiate f(x) = (3x + 2)⁴ using the chain rule.",
+          "back": "f'(x) = 4(3x + 2)³ · 3 = 12(3x + 2)³.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch1-q1",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Using the power rule, the derivative of f(x) = 4x³ is:",
+          "options": [
+            "12x²",
+            "4x²",
+            "12x⁴",
+            "3x²"
+          ],
+          "answer": "12x²",
+          "explanation": "Power rule: d/dx[4x³] = 4·3·x² = 12x².",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q2",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Using the chain rule, d/dx[(2x + 5)³] equals:",
+          "options": [
+            "3(2x+5)²",
+            "6(2x+5)²",
+            "3(2x+5)² · 2",
+            "2(2x+5)³"
+          ],
+          "answer": "6(2x+5)²",
+          "explanation": "Chain rule: outer derivative = 3(2x+5)², inner derivative = 2. Product = 6(2x+5)².",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q3",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "The product rule states that d/dx[f(x)·g(x)] =",
+          "options": [
+            "f'(x)·g'(x)",
+            "f'(x)·g(x) + f(x)·g'(x)",
+            "f(x)·g(x)·(f'(x)+g'(x))",
+            "f'(x)/g'(x)"
+          ],
+          "answer": "f'(x)·g(x) + f(x)·g'(x)",
+          "explanation": "Product rule: differentiate the first times the second, plus the first times the derivative of the second.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch1-we-1",
+          "chapter": "Chapter 1",
+          "title": "Chain Rule Application",
+          "summary": "Differentiate a composite function.",
+          "problem": "Find f'(x) for f(x) = (x² + 3)⁵.",
+          "steps": [
+            {
+              "label": "Identify outer and inner functions",
+              "explanation": "Outer: u⁵ (where u = x²+3). Inner: u = x²+3."
+            },
+            {
+              "label": "Differentiate outer",
+              "explanation": "d/du[u⁵] = 5u⁴."
+            },
+            {
+              "label": "Differentiate inner",
+              "explanation": "du/dx = 2x."
+            },
+            {
+              "label": "Apply chain rule",
+              "explanation": "f'(x) = 5(x²+3)⁴ · 2x = 10x(x²+3)⁴."
+            }
+          ],
+          "answer": "f'(x) = 10x(x² + 3)⁴",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 2",
+      "flashcards": [
+        {
+          "id": "ch2-fc-1",
+          "chapter": "Chapter 2",
+          "front": "How do you find critical points of f(x)?",
+          "back": "Set f'(x) = 0 and solve for x. Also check where f'(x) is undefined.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-2",
+          "chapter": "Chapter 2",
+          "front": "State the second derivative test for classifying critical points.",
+          "back": "If f'(c) = 0: f''(c) > 0 → local minimum; f''(c) < 0 → local maximum; f''(c) = 0 → test inconclusive.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-3",
+          "chapter": "Chapter 2",
+          "front": "If profit π(x) = −3x² + 24x − 20, at what output is profit maximised?",
+          "back": "Set π'(x) = −6x + 24 = 0 → x = 4 units. Confirm max: π''(4) = −6 < 0. ✓",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-4",
+          "chapter": "Chapter 2",
+          "front": "What is the maximum value of f(x) = −x² + 6x − 5?",
+          "back": "f'(x) = −2x + 6 = 0 → x = 3. f(3) = −9 + 18 − 5 = 4.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch2-q1",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "To find the critical points of f(x), you solve:",
+          "options": [
+            "f(x) = 0",
+            "f'(x) = 0",
+            "f''(x) = 0",
+            "f(x) = f'(x)"
+          ],
+          "answer": "f'(x) = 0",
+          "explanation": "Critical points occur where the first derivative equals zero (or is undefined) — these are candidates for maxima, minima or inflection points.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q2",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "If f''(c) < 0 at a critical point, then x = c is a:",
+          "options": [
+            "Local minimum",
+            "Local maximum",
+            "Inflection point",
+            "Global minimum"
+          ],
+          "answer": "Local maximum",
+          "explanation": "Second derivative test: negative second derivative at a critical point confirms a local maximum (concave down).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q3",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "Profit function π(x) = −2x² + 12x − 10. The profit-maximising output x is:",
+          "options": [
+            "x = 2",
+            "x = 3",
+            "x = 6",
+            "x = 5"
+          ],
+          "answer": "x = 3",
+          "explanation": "π'(x) = −4x + 12 = 0 → x = 3. Confirm: π''(3) = −4 < 0 → maximum.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch2-we-1",
+          "chapter": "Chapter 2",
+          "title": "Profit Maximisation",
+          "summary": "Find the output that maximises profit using calculus.",
+          "problem": "A business has revenue R(x) = 50x − x² and cost C(x) = 10x + 100. Find the output that maximises profit.",
+          "steps": [
+            {
+              "label": "Write profit function",
+              "explanation": "π(x) = R(x) − C(x) = (50x − x²) − (10x + 100) = −x² + 40x − 100."
+            },
+            {
+              "label": "Find critical point",
+              "explanation": "π'(x) = −2x + 40 = 0 → x = 20 units."
+            },
+            {
+              "label": "Confirm maximum",
+              "explanation": "π''(x) = −2 < 0 → confirmed local maximum."
+            },
+            {
+              "label": "Calculate maximum profit",
+              "explanation": "π(20) = −(400) + 40(20) − 100 = −400 + 800 − 100 = R300."
+            }
+          ],
+          "answer": "Profit is maximised at x = 20 units; maximum profit = R300.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 3",
+      "flashcards": [
+        {
+          "id": "ch3-fc-1",
+          "chapter": "Chapter 3",
+          "front": "State the power rule for integration.",
+          "back": "∫xⁿ dx = xⁿ⁺¹/(n+1) + C, for n ≠ −1.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-2",
+          "chapter": "Chapter 3",
+          "front": "Why is the constant of integration C added?",
+          "back": "Because differentiation destroys constants — any function of the form F(x) + C has the same derivative f(x). C represents the family of antiderivatives.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-3",
+          "chapter": "Chapter 3",
+          "front": "Find ∫(6x² − 4x + 3) dx.",
+          "back": "= 6x³/3 − 4x²/2 + 3x + C = 2x³ − 2x² + 3x + C.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-4",
+          "chapter": "Chapter 3",
+          "front": "If marginal cost MC(x) = 4x + 10, find total cost TC(x) given fixed costs = R500.",
+          "back": "TC(x) = ∫(4x + 10) dx = 2x² + 10x + C. Using TC(0) = 500: C = 500. TC(x) = 2x² + 10x + 500.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch3-q1",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "∫5x⁴ dx equals:",
+          "options": [
+            "20x³ + C",
+            "x⁵ + C",
+            "5x⁵ + C",
+            "5x³ + C"
+          ],
+          "answer": "x⁵ + C",
+          "explanation": "∫5x⁴ dx = 5·x⁵/5 + C = x⁵ + C.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q2",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "∫8 dx equals:",
+          "options": [
+            "8x² + C",
+            "0 + C",
+            "8x + C",
+            "8/x + C"
+          ],
+          "answer": "8x + C",
+          "explanation": "∫k dx = kx + C for a constant k. So ∫8 dx = 8x + C.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q3",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "Integration and differentiation are said to be:",
+          "options": [
+            "Identical operations",
+            "Inverse operations",
+            "Unrelated operations",
+            "Sequential operations"
+          ],
+          "answer": "Inverse operations",
+          "explanation": "Integration is the reverse of differentiation — if F'(x) = f(x), then ∫f(x) dx = F(x) + C.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch3-we-1",
+          "chapter": "Chapter 3",
+          "title": "Finding Total Cost from Marginal Cost",
+          "summary": "Integrate MC to find TC given initial conditions.",
+          "problem": "A company's marginal cost is MC(x) = 3x² + 6x + 2. Fixed costs are R1 000. Find total cost TC(x).",
+          "steps": [
+            {
+              "label": "Integrate MC",
+              "explanation": "TC(x) = ∫(3x² + 6x + 2) dx = x³ + 3x² + 2x + C."
+            },
+            {
+              "label": "Apply initial condition",
+              "explanation": "Fixed costs = TC(0) = C = R1 000."
+            },
+            {
+              "label": "Write final TC",
+              "explanation": "TC(x) = x³ + 3x² + 2x + 1000."
+            },
+            {
+              "label": "Verify",
+              "explanation": "d/dx[TC(x)] = 3x² + 6x + 2 = MC(x). ✓"
+            }
+          ],
+          "answer": "TC(x) = x³ + 3x² + 2x + 1000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 4",
+      "flashcards": [
+        {
+          "id": "ch4-fc-1",
+          "chapter": "Chapter 4",
+          "front": "State the fundamental theorem of calculus.",
+          "back": "∫[a to b] f(x) dx = F(b) − F(a), where F is any antiderivative of f.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-2",
+          "chapter": "Chapter 4",
+          "front": "Evaluate ∫[0 to 3] 2x dx.",
+          "back": "F(x) = x². F(3) − F(0) = 9 − 0 = 9.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-3",
+          "chapter": "Chapter 4",
+          "front": "What does the definite integral ∫[a to b] f(x) dx represent geometrically?",
+          "back": "The signed area between the curve f(x) and the x-axis from x = a to x = b.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-4",
+          "chapter": "Chapter 4",
+          "front": "If MR(x) = 40 − 2x, find total revenue from selling 0 to 10 units.",
+          "back": "TR = ∫[0 to 10] (40 − 2x) dx = [40x − x²] from 0 to 10 = (400 − 100) − 0 = R300.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch4-q1",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Evaluate ∫[1 to 3] 4x dx.",
+          "options": [
+            "8",
+            "16",
+            "12",
+            "4"
+          ],
+          "answer": "16",
+          "explanation": "F(x) = 2x². F(3) − F(1) = 18 − 2 = 16.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q2",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "The definite integral gives a ________ value (for evaluating area).",
+          "options": [
+            "Vector",
+            "Numerical",
+            "Symbolic",
+            "Complex"
+          ],
+          "answer": "Numerical",
+          "explanation": "Unlike an indefinite integral (which gives a function + C), a definite integral evaluates to a specific number.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q3",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Evaluate ∫[0 to 2] (x² + 1) dx.",
+          "options": [
+            "14/3",
+            "10/3",
+            "8/3",
+            "2"
+          ],
+          "answer": "14/3",
+          "explanation": "F(x) = x³/3 + x. F(2) − F(0) = (8/3 + 2) − 0 = 8/3 + 6/3 = 14/3.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch4-we-1",
+          "chapter": "Chapter 4",
+          "title": "Total Revenue from Marginal Revenue",
+          "summary": "Use a definite integral to find total revenue.",
+          "problem": "A firm's marginal revenue is MR(x) = 60 − 4x. Find the total revenue from producing 0 to 8 units.",
+          "steps": [
+            {
+              "label": "Set up definite integral",
+              "explanation": "TR = ∫[0 to 8] (60 − 4x) dx."
+            },
+            {
+              "label": "Find antiderivative",
+              "explanation": "F(x) = 60x − 2x²."
+            },
+            {
+              "label": "Apply limits",
+              "explanation": "F(8) = 480 − 128 = 352. F(0) = 0."
+            },
+            {
+              "label": "Calculate",
+              "explanation": "TR = 352 − 0 = R352."
+            }
+          ],
+          "answer": "Total revenue from 0 to 8 units = R352.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 5",
+      "flashcards": [
+        {
+          "id": "ch5-fc-1",
+          "chapter": "Chapter 5",
+          "front": "How do you find the area between two curves f(x) and g(x) where f(x) ≥ g(x)?",
+          "back": "Area = ∫[a to b] [f(x) − g(x)] dx, where a and b are the x-coordinates of intersection.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-2",
+          "chapter": "Chapter 5",
+          "front": "Define consumer surplus.",
+          "back": "Consumer surplus = ∫[0 to x*] D(x) dx − p* · x* — the area below the demand curve and above the market price.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-3",
+          "chapter": "Chapter 5",
+          "front": "What does producer surplus represent?",
+          "back": "The gain producers receive by selling at a price above their minimum acceptable price: p*·x* − ∫[0 to x*] S(x) dx.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-4",
+          "chapter": "Chapter 5",
+          "front": "Find area between y = x² and y = x on [0,1].",
+          "back": "∫[0 to 1] (x − x²) dx = [x²/2 − x³/3] from 0 to 1 = 1/2 − 1/3 = 1/6.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch5-q1",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "Consumer surplus is the area:",
+          "options": [
+            "Above the demand curve and below the price",
+            "Below the demand curve and above the equilibrium price",
+            "Above the supply curve and below the price",
+            "Below the supply curve and above the x-axis"
+          ],
+          "answer": "Below the demand curve and above the equilibrium price",
+          "explanation": "Consumer surplus measures what consumers gain — the area between what they were willing to pay (demand curve) and what they actually paid (price).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q2",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "To find where two curves f(x) = x² and g(x) = 2x intersect, you solve:",
+          "options": [
+            "f'(x) = g'(x)",
+            "f(x) = 0",
+            "f(x) = g(x)",
+            "f''(x) = g(x)"
+          ],
+          "answer": "f(x) = g(x)",
+          "explanation": "Set x² = 2x → x(x−2) = 0 → x = 0 or x = 2. These are the integration limits.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q3",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "The area between y = x and y = x² on [0,1] equals:",
+          "options": [
+            "1/6",
+            "1/2",
+            "1/3",
+            "1/4"
+          ],
+          "answer": "1/6",
+          "explanation": "∫[0 to 1] (x − x²) dx = [x²/2 − x³/3] = (1/2 − 1/3) − 0 = 3/6 − 2/6 = 1/6.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch5-we-1",
+          "chapter": "Chapter 5",
+          "title": "Consumer Surplus Calculation",
+          "summary": "Calculate consumer surplus using integration.",
+          "problem": "Demand function D(x) = 80 − 2x. Equilibrium occurs at price p* = R40. Find consumer surplus.",
+          "steps": [
+            {
+              "label": "Find equilibrium quantity",
+              "explanation": "80 − 2x* = 40 → 2x* = 40 → x* = 20."
+            },
+            {
+              "label": "Set up integral",
+              "explanation": "CS = ∫[0 to 20] (80 − 2x) dx − 40 × 20."
+            },
+            {
+              "label": "Evaluate integral",
+              "explanation": "∫[0 to 20] (80 − 2x) dx = [80x − x²] from 0 to 20 = (1600 − 400) − 0 = 1200."
+            },
+            {
+              "label": "Subtract price×quantity",
+              "explanation": "CS = 1200 − 800 = R400."
+            }
+          ],
+          "answer": "Consumer surplus = R400.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 6",
+      "flashcards": [
+        {
+          "id": "ch6-fc-1",
+          "chapter": "Chapter 6",
+          "front": "How do you add two matrices?",
+          "back": "Add corresponding elements. Matrices must have the same dimensions. [a,b;c,d] + [e,f;g,h] = [a+e, b+f; c+g, d+h].",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-2",
+          "chapter": "Chapter 6",
+          "front": "Calculate det(A) for A = [[4, 2], [1, 3]].",
+          "back": "det(A) = (4)(3) − (2)(1) = 12 − 2 = 10.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-3",
+          "chapter": "Chapter 6",
+          "front": "Find A⁻¹ for A = [[3, 1], [2, 1]].",
+          "back": "det(A) = 3·1 − 1·2 = 1. A⁻¹ = (1/1)[[1,−1],[−2,3]] = [[1,−1],[−2,3]].",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-4",
+          "chapter": "Chapter 6",
+          "front": "When does a 2×2 matrix NOT have an inverse?",
+          "back": "When its determinant equals zero — the matrix is said to be singular.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch6-q1",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "det([[5, 3], [2, 4]]) equals:",
+          "options": [
+            "14",
+            "26",
+            "20",
+            "6"
+          ],
+          "answer": "14",
+          "explanation": "det = (5)(4) − (3)(2) = 20 − 6 = 14.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q2",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "A matrix has no inverse when:",
+          "options": [
+            "Its determinant equals 1",
+            "Its determinant equals zero",
+            "It is a square matrix",
+            "All its entries are positive"
+          ],
+          "answer": "Its determinant equals zero",
+          "explanation": "A singular matrix (det = 0) cannot be inverted — the system of equations it represents has no unique solution.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q3",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "To solve AX = B using matrix methods, you compute:",
+          "options": [
+            "X = AB",
+            "X = A⁻¹B",
+            "X = BA⁻¹",
+            "X = det(A)·B"
+          ],
+          "answer": "X = A⁻¹B",
+          "explanation": "Multiplying both sides by A⁻¹: A⁻¹(AX) = A⁻¹B → IX = A⁻¹B → X = A⁻¹B.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch6-we-1",
+          "chapter": "Chapter 6",
+          "title": "Solving a 2×2 System Using Matrix Inversion",
+          "summary": "Set up and solve a linear system using matrices.",
+          "problem": "Solve: 2x + y = 8 and x + 3y = 11.",
+          "steps": [
+            {
+              "label": "Write in matrix form AX = B",
+              "explanation": "A = [[2,1],[1,3]], X = [x;y], B = [8;11]."
+            },
+            {
+              "label": "Calculate det(A)",
+              "explanation": "det(A) = (2)(3) − (1)(1) = 6 − 1 = 5."
+            },
+            {
+              "label": "Find A⁻¹",
+              "explanation": "A⁻¹ = (1/5)[[3,−1],[−1,2]]."
+            },
+            {
+              "label": "Compute X = A⁻¹B",
+              "explanation": "X = (1/5)[[3,−1],[−1,2]] · [8;11] = (1/5)[24−11; −8+22] = (1/5)[13;14] = [13/5; 14/5] = [2.6; 2.8]."
+            }
+          ],
+          "answer": "x = 2.6, y = 2.8.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 7",
+      "flashcards": [
+        {
+          "id": "ch7-fc-1",
+          "chapter": "Chapter 7",
+          "front": "What is a linear programming objective function?",
+          "back": "A linear equation Z = ax + by that we want to maximise or minimise subject to constraints.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-2",
+          "chapter": "Chapter 7",
+          "front": "State the corner point theorem.",
+          "back": "The optimal solution (maximum or minimum) to a linear programming problem always occurs at a corner (vertex) of the feasible region.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-3",
+          "chapter": "Chapter 7",
+          "front": "What is the feasible region in linear programming?",
+          "back": "The set of all (x, y) that satisfies ALL constraints simultaneously — the shaded area on the graph where all inequalities overlap.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-4",
+          "chapter": "Chapter 7",
+          "front": "Name two types of constraints always included in LP formulations.",
+          "back": "Non-negativity constraints (x ≥ 0, y ≥ 0) and the resource/capacity constraints specific to the problem.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch7-q1",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "In linear programming, the optimal value always occurs at:",
+          "options": [
+            "The origin",
+            "The centre of the feasible region",
+            "A corner point of the feasible region",
+            "The intersection of the objective function and x-axis"
+          ],
+          "answer": "A corner point of the feasible region",
+          "explanation": "The corner point theorem guarantees that the maximum or minimum of the objective function occurs at a vertex of the feasible region.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q2",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is a valid LP constraint for a resource with 100 hours available?",
+          "options": [
+            "2x + 3y ≥ 100",
+            "2x + 3y = 100",
+            "2x + 3y ≤ 100",
+            "2x + 3y ≠ 100"
+          ],
+          "answer": "2x + 3y ≤ 100",
+          "explanation": "A resource constraint limits usage to available hours: 2x + 3y ≤ 100 means total time used cannot exceed 100 hours.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q3",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "Non-negativity constraints in LP (x ≥ 0, y ≥ 0) ensure that:",
+          "options": [
+            "Profit is always positive",
+            "Solution values are not negative quantities",
+            "The feasible region is unbounded",
+            "The objective function equals zero"
+          ],
+          "answer": "Solution values are not negative quantities",
+          "explanation": "In business contexts, you cannot produce negative quantities — non-negativity constraints restrict the feasible region to the first quadrant.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch7-we-1",
+          "chapter": "Chapter 7",
+          "title": "LP Maximisation — Bakery Production",
+          "summary": "Formulate and solve a simple LP problem.",
+          "problem": "A bakery makes bread (x) and cakes (y). Profit: Z = 5x + 8y. Constraints: 2x + 4y ≤ 40 (oven hours), x + y ≤ 15 (ingredients), x ≥ 0, y ≥ 0. Maximise Z.",
+          "steps": [
+            {
+              "label": "Find corner points",
+              "explanation": "Graph the constraints. Corner points: (0,0), (15,0), (10,5), (0,10)."
+            },
+            {
+              "label": "Evaluate Z at each corner",
+              "explanation": "Z(0,0)=0; Z(15,0)=75; Z(10,5)=50+40=90; Z(0,10)=80."
+            },
+            {
+              "label": "Identify maximum",
+              "explanation": "Maximum Z = 90 at (10, 5)."
+            },
+            {
+              "label": "Interpret",
+              "explanation": "Produce 10 loaves of bread and 5 cakes per day for maximum profit of R90."
+            }
+          ],
+          "answer": "Optimal solution: x = 10, y = 5, maximum profit Z = R90.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    }
+  ],
+  "discipline": "mathematics",
+  "referenceList": [
+    {
+      "title": "OpenStax — College Algebra 2e (free, CC BY)",
+      "publisher": "OpenStax / Rice University",
+      "url": "https://openstax.org/details/books/college-algebra",
+      "note": "Open-access algebra text; functions, equations, finance mathematics foundations.",
+      "sourceHash": "5c526129f1e660d5277f4706dbad3197819fd851b169dbe1e6c42b6d55d2dc10"
+    },
+    {
+      "title": "Stewart — Calculus (Cengage)",
+      "publisher": "Cengage",
+      "url": "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+      "note": "Standard calculus reference for optimisation topics in business maths.",
+      "sourceHash": "e6948dab9afd03707e7aec29dea9872228d540028424ec9ad5fdb4b76fbf3c7f"
+    },
+    {
+      "title": "Lial, Greenwell & Ritchey — Finite Mathematics and Calculus with Applications (Pearson)",
+      "publisher": "Pearson",
+      "url": "https://www.pearson.com/en-us/subjects/mathematics.html",
+      "note": "Business-oriented maths text (linear programming, finance, probability).",
+      "sourceHash": "cdfa4011fe4f116fa419cc3910682ef95a8bc7723d0e4820446f1734ae386b6e"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: Mathematics 129 (BCom, North-West University). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "Chapter-by-chapter teaching focus (derived from the module's own learning outcomes and key definitions):",
+    "  • Chapter 1 — Differentiation Rules & Techniques. Emphasise: Apply power, product and quotient rules; Apply chain rule to composite functions; Differentiate common business functions. Local context: In SA business analysis, derivatives model marginal cost and marginal revenue — key concepts for pricing decisions under the Consumer Protection Act.",
+    "  • Chapter 2 — Applications of Derivatives (Optimisation). Emphasise: Find and classify critical points; Apply the second derivative test; Solve profit/cost optimisation problems. Local context: SA retailers use optimisation to find profit-maximising price points, balancing costs (load-shedding, logistics) against demand in a price-sensitive market.",
+    "  • Chapter 3 — Indefinite Integration. Emphasise: Find antiderivatives using basic integration rules; Apply the constant of integration; Integrate polynomial and simple functions. Local context: Integration of marginal cost/revenue functions recovers total cost/revenue — critical for managerial accounting in SA businesses.",
+    "  • Chapter 4 — Definite Integration. Emphasise: Evaluate definite integrals using the fundamental theorem; Interpret the definite integral as area under a curve; Apply definite integrals to total revenue/cost problems. Local context: Definite integrals calculate total revenue or total cost over an output range — directly applicable to SA business financial modelling.",
+    "  • Chapter 5 — Applications of Integration. Emphasise: Calculate the area between two curves; Compute consumer and producer surplus; Apply integration to business scenarios. Local context: Consumer and producer surplus analysis is used in SA competition law to assess market efficiency and the impact of price controls (e.g. NHRP petrol pricing).",
+    "  • Chapter 6 — Introduction to Matrices. Emphasise: Perform matrix addition, subtraction and multiplication; Calculate the determinant of a 2×2 matrix; Find the inverse of a 2×2 matrix and solve linear systems. Local context: Matrix methods solve multi-variable business systems (e.g. multi-product firms); used in operations research applied to SA supply chain management.",
+    "  • Chapter 7 — Linear Programming. Emphasise: Formulate a linear programming problem; Solve graphically using the feasible region; Apply the corner point theorem to find the optimal solution. Local context: LP is used in SA logistics (routing), agriculture (crop mix), and manufacturing (production scheduling) to optimise resource allocation under constraints.",
+    "Pedagogy tip (quantitative): work at least one fully solved example on the board per topic, then assign a parallel guided-practice problem. Common student errors: sign errors in debit/credit (accounting), confusing correlation with causation (stats/econ), and unit/percentage mistakes in ratio work. Build a short weekly formative quiz from the module's own revision prompts.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "5c526129f1e660d5277f4706dbad3197819fd851b169dbe1e6c42b6d55d2dc10",
+    "e6948dab9afd03707e7aec29dea9872228d540028424ec9ad5fdb4b76fbf3c7f",
+    "cdfa4011fe4f116fa419cc3910682ef95a8bc7723d0e4820446f1734ae386b6e"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

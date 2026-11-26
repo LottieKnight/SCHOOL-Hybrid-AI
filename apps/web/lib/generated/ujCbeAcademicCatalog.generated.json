@@ -1,0 +1,2048 @@
+{
+  "institutionName": "University of Johannesburg",
+  "displayName": "University of Johannesburg",
+  "academicPeriodType": "semester",
+  "academicUnitLabel": "College",
+  "campuses": [],
+  "faculties": [
+    "College of Business and Economics",
+    "Art, Design and Architecture",
+    "Education",
+    "Engineering and the Built Environment",
+    "Health Sciences",
+    "Humanities",
+    "Law",
+    "Science"
+  ],
+  "courses": [
+    {
+      "id": "uj-cbe-adia01",
+      "name": "Advanced Diploma In Accountancy",
+      "qualificationCode": "ADIA01",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": []
+    },
+    {
+      "id": "uj-cbe-a34bmq",
+      "name": "Advanced Diploma In Business Management",
+      "qualificationCode": "A34BMQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": []
+    },
+    {
+      "id": "uj-cbe-adfm01",
+      "name": "Advanced Diploma In Financial Management",
+      "qualificationCode": "ADFM01",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": []
+    },
+    {
+      "id": "uj-cbe-a3f17q",
+      "name": "Advanced Diploma In Financial Markets",
+      "qualificationCode": "A3F17Q",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": []
+    },
+    {
+      "id": "uj-cbe-a34fmp",
+      "name": "Advanced Diploma In Financial Markets",
+      "qualificationCode": "A34FMP",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": []
+    },
+    {
+      "id": "uj-cbe-a34lgq",
+      "name": "Advanced Diploma In Logistics",
+      "qualificationCode": "A34LGQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": []
+    },
+    {
+      "id": "uj-cbe-a34lop",
+      "name": "Advanced Diploma In Logistics",
+      "qualificationCode": "A34LOP",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": []
+    },
+    {
+      "id": "uj-cbe-a34mgq",
+      "name": "Advanced Diploma In Management",
+      "qualificationCode": "A34MGQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": []
+    },
+    {
+      "id": "uj-cbe-a34mmq",
+      "name": "Advanced Diploma In Marketing",
+      "qualificationCode": "A34MMQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": []
+    },
+    {
+      "id": "uj-cbe-a34rao",
+      "name": "Advanced Diploma In Real Estate",
+      "qualificationCode": "A34RAO",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": []
+    },
+    {
+      "id": "uj-cbe-a1dreq",
+      "name": "Advanced Diploma In Retailing",
+      "qualificationCode": "A1DREQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": []
+    },
+    {
+      "id": "uj-cbe-a34trq",
+      "name": "Advanced Diploma In Tourism Management",
+      "qualificationCode": "A34TRQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": []
+    },
+    {
+      "id": "uj-cbe-b34acp",
+      "name": "BCom (Accountancy)",
+      "qualificationCode": "B34ACP",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": []
+    },
+    {
+      "id": "uj-cbe-b34a5q",
+      "name": "BCom (Accounting)",
+      "qualificationCode": "B34A5Q",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "ACC01A1",
+          "name": "Accounting 1A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ECO01A1",
+          "name": "Economics 1A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ACC01B1",
+          "name": "Accounting 1B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "ECO01B1",
+          "name": "Economics 1B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "ACT02A2",
+          "name": "Accounting 2A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ACT02B2",
+          "name": "Accounting 2B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "TAX2B00",
+          "name": "Taxation 2AB",
+          "credits": 12,
+          "semester": null,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "ACC3AB0",
+          "name": "Accounting 3AB",
+          "credits": 32,
+          "semester": null,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "GOC3AB0",
+          "name": "Governance and Control 3AB",
+          "credits": 32,
+          "semester": null,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "TAX3AB0",
+          "name": "Taxation 3AB",
+          "credits": 32,
+          "semester": null,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-b34aeq",
+      "name": "BCom (Accounting) (Extended Degree)",
+      "qualificationCode": "B34AEQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 0,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "APS0X00",
+          "name": "Skills",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 0,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "LES0X00",
+          "name": "Language for the Economic Sciences",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 0,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-b34bmq",
+      "name": "BCom (Business Management)",
+      "qualificationCode": "B34BMQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "ACT02A2",
+          "name": "Accounting 2A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ECO2AA2",
+          "name": "Economics 2A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ACT02B2",
+          "name": "Accounting 2B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "ECO2BB2",
+          "name": "Economics 2B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "ECO3AA3",
+          "name": "Economics 3A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ECO3BB3",
+          "name": "Economics 3B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-b3n14q",
+      "name": "BCom (Economics And Econometrics)",
+      "qualificationCode": "B3N14Q",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "ACC01A1",
+          "name": "Accounting 1A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ACC0AA1",
+          "name": "Accounting A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ECO01A1",
+          "name": "Economics 1A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ACC01B1",
+          "name": "Accounting 1B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "ACC0BB1",
+          "name": "Accounting B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "ECO01B1",
+          "name": "Economics 1B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "ECM02A2",
+          "name": "Econometrics 2A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ECO2AA2",
+          "name": "Economics 2A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ECO2CA2",
+          "name": "Economics 2C",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ECO2FA2",
+          "name": "Economics 2F",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ECM02B2",
+          "name": "Econometrics 2B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "ECO2BB2",
+          "name": "Economics 2B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "ECO2DB2",
+          "name": "Economics 2D",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "ECO2EB2",
+          "name": "Economics 2E",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "ECM03A3",
+          "name": "Econometrics 3A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ECM03B3",
+          "name": "Econometrics 3B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-b1cemq",
+      "name": "BCom (Entrepreneurial Management)",
+      "qualificationCode": "B1CEMQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "ACC01A1",
+          "name": "Accounting 1A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ECO01A1",
+          "name": "Economics 1A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ACC01B1",
+          "name": "Accounting 1B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "ECO01B1",
+          "name": "Economics 1B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-b34feq",
+      "name": "BCom (Finance) (Extended Degree)",
+      "qualificationCode": "B34FEQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 0,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "APS0X00",
+          "name": "Skills",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 0,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "LES0X00",
+          "name": "Language for the Economic Sciences",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 0,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-b34ipq",
+      "name": "BCom (Industrial Psychology)",
+      "qualificationCode": "B34IPQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 2,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "ACC0AA1",
+          "name": "Accounting A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "PSY1AA1",
+          "name": "Psychology 1A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ACC0BB1",
+          "name": "Accounting B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "PSY1BB1",
+          "name": "Psychology 1B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "ECO01A1",
+          "name": "Economics 1A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ECO01B1",
+          "name": "Economics 1B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-b34imq",
+      "name": "BCom (Information Management)",
+      "qualificationCode": "B34IMQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "ACC0AA1",
+          "name": "Accounting A*",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ECO01A1",
+          "name": "Economics 1A*",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "POL1AA1",
+          "name": "Politics 1A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ACC0BB1",
+          "name": "Accounting B*",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "ECO01B1",
+          "name": "Economics 1B*",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "POL1BB1",
+          "name": "Politics 1B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-b1cisq",
+      "name": "BCom (Information Systems)",
+      "qualificationCode": "B1CISQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": []
+    },
+    {
+      "id": "uj-cbe-b1cmmq",
+      "name": "BCom (Marketing Management)",
+      "qualificationCode": "B1CMMQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 2,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "ACC0AA1",
+          "name": "Accounting A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ECO01A1",
+          "name": "Economics 1A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ACC0BB1",
+          "name": "Accounting B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "ECO01B1",
+          "name": "Economics 1B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "ECO2AA2",
+          "name": "Economics 2A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ECO2BB2",
+          "name": "Economics 2B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-b34tlq",
+      "name": "BCom (Transport And Logistics Management)",
+      "qualificationCode": "B34TLQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "ACC0AA1",
+          "name": "Accounting A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ECO01A1",
+          "name": "Economics 1A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ACC0BB1",
+          "name": "Accounting B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "ECO01B1",
+          "name": "Economics 1B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-b34caq",
+      "name": "Bachelor Of Accounting",
+      "qualificationCode": "B34CAQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 2,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "ACC100",
+          "name": "Accounting 100",
+          "credits": 28,
+          "semester": null,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "COM100",
+          "name": "Commerce 100",
+          "credits": 24,
+          "semester": null,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "ECO100",
+          "name": "Economics 100",
+          "credits": 24,
+          "semester": null,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "INL100",
+          "name": "Introduction to Law 100",
+          "credits": 32,
+          "semester": null,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "AAE200",
+          "name": "Auditing and Ethics",
+          "credits": 24,
+          "semester": null,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "ACC200",
+          "name": "Accounting 200",
+          "credits": 30,
+          "semester": null,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "FMA200",
+          "name": "Financial Management 200",
+          "credits": 28,
+          "semester": null,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "TAX2AB0",
+          "name": "Taxation 200",
+          "credits": 12,
+          "semester": null,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-b34f5q",
+      "name": "Bachelor Of Commerce In Finance",
+      "qualificationCode": "B34F5Q",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 2,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "ACC01A1",
+          "name": "Accounting 1A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ECO01A1",
+          "name": "Economics 1A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ACC01B1",
+          "name": "Accounting 1B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "ECO01B1",
+          "name": "Economics 1B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "ACT02A2",
+          "name": "Accounting 2A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ACT02B2",
+          "name": "Accounting 2B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-b34hnq",
+      "name": "Bachelor Of Hospitality Management",
+      "qualificationCode": "B34HNQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": []
+    },
+    {
+      "id": "uj-cbe-b34hrq",
+      "name": "Bachelor Of Human Resource Management",
+      "qualificationCode": "B34HRQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": []
+    },
+    {
+      "id": "uj-cbe-b34hrp",
+      "name": "Bachelor Of Human Resource Management",
+      "qualificationCode": "B34HRP",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": []
+    },
+    {
+      "id": "uj-cbe-d3a15q",
+      "name": "Diploma In Accountancy",
+      "qualificationCode": "D3A15Q",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "ECO11A1",
+          "name": "Economics 1A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ECO11B1",
+          "name": "Economics 1B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-di1401",
+      "name": "Diploma In Business Information Technology",
+      "qualificationCode": "DI1401",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "DSW03B1",
+          "name": "Development Software 3B",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-d34f9q",
+      "name": "Diploma In Financial Services Operations",
+      "qualificationCode": "D34F9Q",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": []
+    },
+    {
+      "id": "uj-cbe-d34fbq",
+      "name": "Diploma In Food And Beverage Operations",
+      "qualificationCode": "D34FBQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "FBF02Y2",
+          "name": "Food and Beverage Financials 2",
+          "credits": 12,
+          "semester": null,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "FBV02Y2",
+          "name": "and Practical)",
+          "credits": 20,
+          "semester": null,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "GTP02Y2",
+          "name": "Gastronomy 2 (Theory and Practical)",
+          "credits": 20,
+          "semester": null,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "HOP03B3",
+          "name": "Practice 3",
+          "credits": 40,
+          "semester": null,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-d34lgq",
+      "name": "Diploma In Logistics",
+      "qualificationCode": "D34LGQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "LOG02A2",
+          "name": "Logistics 2A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "PRC02A2",
+          "name": "Procurement 2A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "LOG02B2",
+          "name": "Logistics 2B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "PRC02B2",
+          "name": "Procurement 2B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "LOG03A3",
+          "name": "Logistics 3A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "LOG03B3",
+          "name": "Logistics 3B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-d34mkq",
+      "name": "Diploma In Marketing",
+      "qualificationCode": "D34MKQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "MAR01A1",
+          "name": "Marketing 1A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "MAR01B1",
+          "name": "Marketing 1B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "MAR02A2",
+          "name": "Marketing 2A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "MAR02B2",
+          "name": "Marketing 2B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "MAR03A3",
+          "name": "Marketing 3A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "MAR03B3",
+          "name": "Marketing 3B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-d34p2q",
+      "name": "Diploma In People Management",
+      "qualificationCode": "D34P2Q",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": []
+    },
+    {
+      "id": "uj-cbe-d34rmq",
+      "name": "Diploma In Retail Business Management",
+      "qualificationCode": "D34RMQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "RTL2AA2",
+          "name": "14 Retailing 2B RTL2BB2",
+          "credits": 14,
+          "semester": null,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "LOG02A2",
+          "name": "Logistics 2A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "LOG02B2",
+          "name": "Logistics 2B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-d34sbq",
+      "name": "Diploma In Small Business Management",
+      "qualificationCode": "D34SBQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "ECO11A1",
+          "name": "Economics 1A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "MAR01A1",
+          "name": "Marketing 1A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "ECO11B1",
+          "name": "Economics 1B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "MAR01B1",
+          "name": "Marketing 1B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "MAR02A2",
+          "name": "Marketing 2A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "MAR02B2",
+          "name": "Marketing 2B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "MAR03A3",
+          "name": "Marketing 3A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "MAR03B3",
+          "name": "Marketing 3B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-d34tmq",
+      "name": "Diploma In Tourism Management",
+      "qualificationCode": "D34TMQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": []
+    },
+    {
+      "id": "uj-cbe-d34trq",
+      "name": "Diploma In Transportation Management",
+      "qualificationCode": "D34TRQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "TRA01A1",
+          "name": "Transportation 1A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "TRA01B1",
+          "name": "Transportation 1B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "TRA03A3",
+          "name": "Transportation 3A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "TRA03B3",
+          "name": "Transportation 3B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-d34leq",
+      "name": "Extended Diploma (Logistics)",
+      "qualificationCode": "D34LEQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 4,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "BME0YA1",
+          "name": "Business Management 1A",
+          "credits": 12,
+          "semester": null,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "BME0YB1",
+          "name": "Business Management 1B",
+          "credits": 12,
+          "semester": null,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "ECE0YA1",
+          "name": "End-user computing 1A",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "FBM10Y1",
+          "name": "Mathematics",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "FRP10Y1",
+          "name": "Practice (Management)",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "LOG1AY0",
+          "name": "Logistics 1A",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "PRC2AY0",
+          "name": "Procurement 2A",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "WPP1YR1",
+          "name": "Management",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "LOG1BY0",
+          "name": "Logistics 1B",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "PRC2BY0",
+          "name": "Procurement 2B",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "LOG02A2",
+          "name": "Logistics 2A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "LOG02B2",
+          "name": "Logistics 2B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "LOG03A3",
+          "name": "Logistics 3A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 4,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "LOG03B3",
+          "name": "Logistics 3B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 4,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-d34peq",
+      "name": "Extended Diploma (People Management)",
+      "qualificationCode": "D34PEQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 2,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "BME0YB1",
+          "name": "Business Management 1B",
+          "credits": 12,
+          "semester": null,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "PMP0YB1",
+          "name": "People Management Perspectives 1B",
+          "credits": 12,
+          "semester": null,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        }
+      ]
+    },
+    {
+      "id": "uj-cbe-d34teq",
+      "name": "Extended Diploma (Transportation Management)",
+      "qualificationCode": "D34TEQ",
+      "faculty": "College of Business and Economics",
+      "school": null,
+      "campuses": [],
+      "deliveryMode": "Yearbook",
+      "durationYears": 4,
+      "source": "yearbook",
+      "sourceLabel": "UJ CBE Undergraduate Yearbook 2025",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\uj-cbe-yearbook-2026-pruned\\2025\\Yearbooks\\CBE Undergraduate Yearbook Latest.pdf",
+      "modules": [
+        {
+          "code": "BME0YA1",
+          "name": "Business Management 1A",
+          "credits": 12,
+          "semester": null,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "BME0YB1",
+          "name": "Business Management 1B",
+          "credits": 12,
+          "semester": null,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "ECE0YA1",
+          "name": "End-user Computing 1A",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "FBM10Y1",
+          "name": "Mathematics",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "FRP10Y1",
+          "name": "Practice Management (Ext)",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "FTM2AY0",
+          "name": "Fleet Management 2A",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "TRA1AY0",
+          "name": "Transportation 1A",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "WPP1YR1",
+          "name": "Management (Ext)",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "FTM2BY0",
+          "name": "Fleet Management 2B",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "TRA1BY0",
+          "name": "Transportation 1B",
+          "credits": 16,
+          "semester": null,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "year",
+          "durationLabel": "Year module"
+        },
+        {
+          "code": "TRA02A2",
+          "name": "Transportation 2A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "TRA02B2",
+          "name": "Transportation 2B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "TRA03A3",
+          "name": "Transportation 3A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 4,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "TRA03B3",
+          "name": "Transportation 3B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 4,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "source": "UJ CBE Undergraduate Yearbook 2025",
+    "generatedAt": "2026-03-08"
+  }
+}

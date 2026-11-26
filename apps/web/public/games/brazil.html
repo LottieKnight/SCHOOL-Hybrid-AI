@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BRAZIL — A Student Survival Story</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: radial-gradient(ellipse at center, #0d0520 0%, #020008 100%);
+  font-family: 'Nunito', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  user-select: none;
+}
+
+#game {
+  width: 820px;
+  height: 590px;
+  position: relative;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(255,220,0,0.12),
+              0 0 60px rgba(0,156,59,0.2),
+              0 30px 120px rgba(0,0,0,0.9);
+}
+
+/* ══════════════ TITLE SCREEN ══════════════ */
+#title-screen {
+  position: absolute; inset: 0;
+  background: linear-gradient(155deg, #004d20 0%, #002a12 25%, #001840 55%, #000b20 100%);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  z-index: 50; overflow: hidden;
+}
+.flag-bar { position:absolute; top:0; left:0; right:0; height:10px;
+  background: linear-gradient(90deg,#009C3B 33.3%,#FFDF00 33.3%,#FFDF00 66.6%,#002776 66.6%); }
+.flag-bar-bottom { position:absolute; bottom:0; left:0; right:0; height:10px;
+  background: linear-gradient(90deg,#002776 33.3%,#FFDF00 33.3%,#FFDF00 66.6%,#009C3B 66.6%); }
+
+/* Title stars */
+#stars { position:absolute; inset:0; pointer-events:none; }
+.star { position:absolute; width:2px; height:2px; background:white; border-radius:50%;
+  animation:twinkle var(--d,3s) ease-in-out infinite var(--delay,0s); opacity:var(--op,.4); }
+@keyframes twinkle { 0%,100%{opacity:var(--op,.4);transform:scale(1)} 50%{opacity:.9;transform:scale(1.5)} }
+
+.title-main { font-size:108px; font-weight:900; color:#FFDF00; letter-spacing:-6px; line-height:1;
+  text-shadow:5px 5px 0 rgba(0,39,118,.7),0 0 60px rgba(255,220,0,.3);
+  animation:titlePulse 4s ease-in-out infinite; position:relative; z-index:1; }
+@keyframes titlePulse { 0%,100%{transform:scale(1);filter:brightness(1)} 50%{transform:scale(1.015);filter:brightness(1.1)} }
+
+.title-sub { font-size:12px; font-weight:800; letter-spacing:7px; color:rgba(255,255,255,.6);
+  text-transform:uppercase; margin-top:2px; position:relative; z-index:1; }
+.title-quote { font-size:15px; font-style:italic; color:rgba(255,255,255,.4);
+  margin-top:22px; position:relative; z-index:1; }
+.title-start { margin-top:36px; background:#FFDF00; color:#002776; border:none;
+  border-radius:50px; padding:15px 52px; font-family:'Nunito',sans-serif; font-size:15px;
+  font-weight:900; letter-spacing:4px; text-transform:uppercase; cursor:pointer;
+  box-shadow:0 0 40px rgba(255,220,0,.5),0 4px 20px rgba(0,0,0,.4); transition:all .2s; position:relative; z-index:1; }
+.title-start:hover { transform:scale(1.07) translateY(-2px); box-shadow:0 0 60px rgba(255,220,0,.7),0 8px 30px rgba(0,0,0,.4); }
+.title-credit { position:absolute; bottom:20px; font-size:10px; font-weight:700;
+  color:rgba(255,255,255,.18); letter-spacing:3px; text-transform:uppercase; z-index:1; }
+
+/* ══════════════ SCENE BG ══════════════ */
+#scene-bg { position:absolute; inset:0; transition:background 1.2s ease; z-index:0; }
+
+/* ══════════════ STATS BAR ══════════════ */
+#stats { position:absolute; top:0; left:0; right:0; height:50px;
+  background:rgba(4,4,12,.85); backdrop-filter:blur(10px);
+  border-bottom:1px solid rgba(255,255,255,.07);
+  display:flex; align-items:center; padding:0 20px; gap:20px; z-index:20; }
+.stat-group { display:flex; flex-direction:column; gap:3px; }
+.stat-lbl { font-size:9px; font-weight:800; letter-spacing:2px; text-transform:uppercase; opacity:.5; color:white; }
+.bar-track { width:80px; height:6px; background:rgba(255,255,255,.12); border-radius:4px; overflow:hidden; }
+.bar-fill { height:100%; border-radius:4px; transition:width .7s cubic-bezier(.4,0,.2,1); }
+#hunger-fill { background:linear-gradient(90deg,#ffb347,#ff6b6b); }
+#rep-fill    { background:linear-gradient(90deg,#4ecdc4,#45b7d1); }
+#money-val { font-size:20px; font-weight:900; color:#FFDF00; text-shadow:0 0 12px rgba(255,220,0,.5); letter-spacing:-1px; }
+#week-val  { margin-left:auto; font-size:10px; font-weight:800; letter-spacing:3px; color:rgba(255,255,255,.3); text-transform:uppercase; }
+
+/* ══════════════ ACT LABEL ══════════════ */
+#act-lbl { position:absolute; top:58px; left:18px; font-size:9px; font-weight:800;
+  letter-spacing:3px; color:rgba(255,255,255,.2); text-transform:uppercase; z-index:5; pointer-events:none; }
+
+/* ══════════════ SCENE ILLUSTRATION (SVG/CSS art) ══════════════ */
+#illustration {
+  position:absolute; top:50px; left:0; right:0; bottom:182px;
+  z-index:3; pointer-events:none; overflow:hidden;
+}
+#illustration svg, #illustration canvas { width:100%; height:100%; }
+
+/* Background scene layers */
+.scene-layer { position:absolute; inset:0; }
+
+/* ══════════════ CHARACTER PORTRAIT ══════════════ */
+#character {
+  position:absolute; bottom:188px; right:60px;
+  z-index:6; width:180px; height:240px;
+  transition:opacity .5s, transform .5s;
+  pointer-events:none;
+}
+#character.left { right:auto; left:60px; }
+#character svg { width:100%; height:100%; filter:drop-shadow(0 8px 30px rgba(0,0,0,.7)); }
+
+/* Character float animation */
+@keyframes charFloat { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+#character { animation: charFloat 3.5s ease-in-out infinite; }
+
+/* ══════════════ DIALOGUE BOX ══════════════ */
+#dialogue-box {
+  position:absolute; bottom:0; left:0; right:0; height:182px;
+  background:rgba(5,5,18,.96); backdrop-filter:blur(16px);
+  border-top:1.5px solid rgba(255,255,255,.08);
+  padding:16px 22px 14px; z-index:20; cursor:pointer;
+  display:flex; flex-direction:column; gap:0;
+}
+.dlg-top { display:flex; align-items:center; gap:10px; margin-bottom:9px; }
+#speaker-name { font-size:10px; font-weight:900; letter-spacing:4px; text-transform:uppercase; transition:color .3s; }
+#mood-emoji { font-size:18px; line-height:1; transition:all .3s; }
+#dialogue-text { font-size:15.5px; line-height:1.7; color:#d8e4ec; min-height:56px; flex:1; }
+#advance-hint { font-size:9px; font-weight:700; color:rgba(255,255,255,.2); letter-spacing:1px;
+  text-transform:uppercase; align-self:flex-end; animation:hintBlink 1.8s ease infinite; margin-top:4px; }
+@keyframes hintBlink { 0%,100%{opacity:.2} 50%{opacity:.65} }
+
+/* ══════════════ CHOICES ══════════════ */
+#choices-box {
+  position:absolute; bottom:0; left:0; right:0;
+  background:rgba(5,5,18,.97); backdrop-filter:blur(16px);
+  border-top:1.5px solid rgba(255,220,0,.1);
+  padding:12px 18px 16px; z-index:20; display:none;
+}
+#choices-header { font-size:9px; font-weight:900; letter-spacing:4px; color:rgba(255,220,80,.4); text-transform:uppercase; margin-bottom:9px; }
+.choice-btn { display:flex; align-items:center; gap:12px; width:100%;
+  background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.09);
+  border-radius:11px; padding:10px 14px; color:#c8d8e4; font-family:'Nunito',sans-serif;
+  font-size:13.5px; font-weight:700; cursor:pointer; margin-bottom:6px;
+  transition:all .18s; text-align:left; }
+.choice-btn:last-child { margin-bottom:0; }
+.choice-btn:hover { background:rgba(255,220,80,.09); border-color:rgba(255,220,80,.35); color:#FFDF00; transform:translateX(6px); }
+.choice-num { width:22px; height:22px; border-radius:50%; background:rgba(255,220,80,.12);
+  color:rgba(255,220,80,.75); font-size:11px; font-weight:900; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+
+/* ══════════════ ENDING SCREEN ══════════════ */
+#end-screen { position:absolute; inset:0; z-index:40; display:none; flex-direction:column;
+  align-items:center; justify-content:center; padding:44px 52px; text-align:center; background:rgba(0,0,0,.6); }
+.end-eyebrow { font-size:9px; font-weight:800; letter-spacing:5px; color:rgba(255,255,255,.3); text-transform:uppercase; margin-bottom:10px; }
+.end-title { font-size:54px; font-weight:900; color:#FFDF00; letter-spacing:-2px; line-height:1; margin-bottom:18px; text-shadow:4px 4px 0 rgba(0,0,0,.5); }
+.end-body { font-size:14.5px; line-height:1.78; color:rgba(255,255,255,.72); max-width:500px; margin-bottom:26px; }
+.end-statrow { display:flex; gap:28px; margin-bottom:28px; }
+.end-stat { text-align:center; }
+.end-stat strong { display:block; font-size:26px; font-weight:900; color:#FFDF00; line-height:1; margin-bottom:4px; }
+.end-stat span { font-size:10px; font-weight:700; letter-spacing:2px; color:rgba(255,255,255,.35); text-transform:uppercase; }
+.restart-btn { background:transparent; border:1.5px solid rgba(255,255,255,.25); color:rgba(255,255,255,.6);
+  border-radius:50px; padding:12px 36px; font-family:'Nunito',sans-serif; font-size:12px; font-weight:800;
+  letter-spacing:3px; text-transform:uppercase; cursor:pointer; transition:all .2s; }
+.restart-btn:hover { border-color:#FFDF00; color:#FFDF00; background:rgba(255,220,0,.06); }
+
+/* ══════════════ NOTIFICATIONS ══════════════ */
+#notifs { position:absolute; top:58px; right:14px; z-index:30; display:flex; flex-direction:column; gap:5px; pointer-events:none; }
+.notif { background:rgba(0,0,0,.9); border-radius:20px; padding:5px 13px; font-size:12px; font-weight:800;
+  animation:notifSlide 2.8s ease forwards; border:1px solid rgba(255,255,255,.08); }
+@keyframes notifSlide { 0%{opacity:0;transform:translateX(12px)} 12%{opacity:1;transform:translateX(0)} 72%{opacity:1} 100%{opacity:0} }
+.notif.pos { color:#6bcb77; border-color:rgba(107,203,119,.2); }
+.notif.neg { color:#ff8a80; border-color:rgba(255,138,128,.2); }
+
+/* ══════════════ SCENE ART CSS ══════════════ */
+
+/* Dorm room night */
+.bg-dorm { background:linear-gradient(180deg,#0a0a25 0%,#06061a 60%,#04040f 100%); }
+.bg-dorm-warm { background:linear-gradient(180deg,#14100a 0%,#0a0806 100%); }
+.bg-kitchen { background:linear-gradient(180deg,#1a1200 0%,#0f0c00 100%); }
+.bg-campus { background:linear-gradient(180deg,#061a10 0%,#030d08 100%); }
+.bg-outside { background:linear-gradient(180deg,#100520 0%,#06020e 100%); }
+.bg-red { background:linear-gradient(180deg,#1a0505 0%,#0d0202 100%); }
+.bg-dark { background:linear-gradient(180deg,#0d0d0d 0%,#060606 100%); }
+.bg-office { background:linear-gradient(180deg,#080d1a 0%,#040810 100%); }
+.bg-community { background:linear-gradient(180deg,#0a0020 0%,#050010 100%); }
+
+</style>
+</head>
+<body>
+<div id="game">
+
+  <!-- TITLE SCREEN -->
+  <div id="title-screen">
+    <div class="flag-bar"></div>
+    <div class="flag-bar-bottom"></div>
+    <div id="stars"></div>
+    <div class="title-main">BRAZIL</div>
+    <div class="title-sub">A Student Survival Story</div>
+    <div class="title-quote">"Man cannot survive on bread alone."</div>
+    <button class="title-start" onclick="startGame()">SURVIVE &rarr;</button>
+    <div class="title-credit">NMU Campus &nbsp;·&nbsp; Sem 1 &nbsp;·&nbsp; Week 8</div>
+  </div>
+
+  <!-- GAME CANVAS -->
+  <div id="scene-bg"></div>
+  <div id="act-lbl"></div>
+
+  <div id="stats">
+    <div class="stat-group">
+      <div class="stat-lbl">🔥 Hunger</div>
+      <div class="bar-track"><div class="bar-fill" id="hunger-fill"></div></div>
+    </div>
+    <div class="stat-group">
+      <div class="stat-lbl">👥 Rep</div>
+      <div class="bar-track"><div class="bar-fill" id="rep-fill"></div></div>
+    </div>
+    <div id="money-val">R47</div>
+    <div id="week-val">Week 8</div>
+  </div>
+
+  <div id="illustration"></div>
+  <div id="character"></div>
+
+  <div id="dialogue-box" onclick="advance()">
+    <div class="dlg-top">
+      <div id="speaker-name"></div>
+      <div id="mood-emoji"></div>
+    </div>
+    <div id="dialogue-text"></div>
+    <div id="advance-hint">▼ click to continue</div>
+  </div>
+
+  <div id="choices-box">
+    <div id="choices-header">— What do you do? —</div>
+    <div id="choices-list"></div>
+  </div>
+
+  <div id="end-screen">
+    <div class="end-eyebrow" id="end-eyebrow"></div>
+    <div class="end-title" id="end-title"></div>
+    <div class="end-body" id="end-body"></div>
+    <div class="end-statrow" id="end-stats"></div>
+    <button class="restart-btn" onclick="restartGame()">↩ &nbsp;Play Again</button>
+  </div>
+
+  <div id="notifs"></div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════
+//  STATE
+// ═══════════════════════════════════════════════════
+let S = { hunger:45, money:47, rep:60, brazil:0, week:8 };
+let scene, lineIdx, typing, typeTimer;
+
+// ═══════════════════════════════════════════════════
+//  CHARACTERS  (colour, mood-emoji per dialogue line)
+// ═══════════════════════════════════════════════════
+const CHARS = {
+  narrator: { name:'NARRATOR',    color:'#7a8fa0' },
+  you:      { name:'YOU',         color:'#4ecdc4' },
+  lebo:     { name:'LEBO',        color:'#FFDF00' },
+  lebo_h:   { name:'LEBO',        color:'#FFDF00' },
+  devon:    { name:'DEVON',       color:'#d4b896' },
+  ra:       { name:'RA NKOSI',    color:'#ff8a80' },
+  inner:    { name:'INNER VOICE', color:'#c084fc' },
+};
+
+// ═══════════════════════════════════════════════════
+//  SVG SCENE ILLUSTRATIONS  (inline SVG backgrounds)
+// ═══════════════════════════════════════════════════
+const SCENES_ART = {
+
+  dorm_night: `<svg viewBox="0 0 820 340" xmlns="http://www.w3.org/2000/svg">
+    <!-- Sky gradient -->
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#0a0a2e"/>
+        <stop offset="100%" stop-color="#05050f"/>
+      </linearGradient>
+      <linearGradient id="moonGlow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+        <stop offset="0%" stop-color="#ffeebb" stop-opacity=".5"/>
+        <stop offset="100%" stop-color="#ffeebb" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+    <rect width="820" height="340" fill="url(#sky)"/>
+    <!-- Stars -->
+    <g fill="white" opacity=".6">
+      <circle cx="80" cy="40" r="1.2"/><circle cx="180" cy="25" r="1"/><circle cx="300" cy="55" r="1.5"/>
+      <circle cx="450" cy="30" r="1"/><circle cx="600" cy="20" r="1.3"/><circle cx="720" cy="45" r="1"/>
+      <circle cx="140" cy="70" r="0.8"/><circle cx="380" cy="15" r="0.9"/><circle cx="550" cy="65" r="1.1"/>
+      <circle cx="680" cy="30" r="0.7"/><circle cx="760" cy="55" r="1.2"/><circle cx="50" cy="90" r="0.9"/>
+    </g>
+    <!-- Moon -->
+    <radialGradient id="mg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#fff8cc" stop-opacity=".15"/><stop offset="100%" stop-color="#fff8cc" stop-opacity="0"/></radialGradient>
+    <circle cx="680" cy="70" r="60" fill="url(#mg)"/>
+    <circle cx="680" cy="70" r="28" fill="#fff8e8" opacity=".9"/>
+    <circle cx="670" cy="62" r="22" fill="#0e0e32" opacity=".6"/>
+    <!-- Res building silhouette -->
+    <rect x="0" y="160" width="820" height="180" fill="#090915"/>
+    <!-- Building body -->
+    <rect x="60" y="120" width="700" height="220" fill="#0f0f22"/>
+    <!-- Floors of windows -->
+    <!-- Floor 3 -->
+    <g opacity=".85">
+      <rect x="100" y="135" width="50" height="35" rx="3" fill="#1a1a3a"/>
+      <rect x="185" y="135" width="50" height="35" rx="3" fill="#ffd97020" stroke="#ffd970" stroke-width=".5"/>
+      <rect x="270" y="135" width="50" height="35" rx="3" fill="#ffd97030" stroke="#ffd970" stroke-width=".5"/>
+      <rect x="355" y="135" width="50" height="35" rx="3" fill="#1a1a3a"/>
+      <rect x="440" y="135" width="50" height="35" rx="3" fill="#ffd97015" stroke="#ffd970" stroke-width=".5"/>
+      <rect x="525" y="135" width="50" height="35" rx="3" fill="#1a1a3a"/>
+      <rect x="610" y="135" width="50" height="35" rx="3" fill="#ffd97025" stroke="#ffd970" stroke-width=".5"/>
+      <rect x="695" y="135" width="50" height="35" rx="3" fill="#1a1a3a"/>
+    </g>
+    <!-- Floor 2 -->
+    <g opacity=".7">
+      <rect x="100" y="185" width="50" height="35" rx="3" fill="#ffd97020" stroke="#ffd970" stroke-width=".4"/>
+      <rect x="185" y="185" width="50" height="35" rx="3" fill="#1a1a3a"/>
+      <rect x="270" y="185" width="50" height="35" rx="3" fill="#1a1a3a"/>
+      <rect x="355" y="185" width="50" height="35" rx="3" fill="#ffd97025" stroke="#ffd970" stroke-width=".4"/>
+      <rect x="440" y="185" width="50" height="35" rx="3" fill="#1a1a3a"/>
+      <rect x="525" y="185" width="50" height="35" rx="3" fill="#ffd97018" stroke="#ffd970" stroke-width=".4"/>
+      <rect x="610" y="185" width="50" height="35" rx="3" fill="#1a1a3a"/>
+      <rect x="695" y="185" width="50" height="35" rx="3" fill="#ffd97020" stroke="#ffd970" stroke-width=".4"/>
+    </g>
+    <!-- Floor 1 ground -->
+    <g opacity=".5">
+      <rect x="100" y="235" width="50" height="35" rx="3" fill="#1a1a3a"/>
+      <rect x="185" y="235" width="50" height="35" rx="3" fill="#ffd97010"/>
+      <rect x="355" y="235" width="50" height="35" rx="3" fill="#1a1a3a"/>
+      <rect x="525" y="235" width="50" height="35" rx="3" fill="#1a1a3a"/>
+      <rect x="695" y="235" width="50" height="35" rx="3" fill="#ffd97010"/>
+    </g>
+    <!-- Ground -->
+    <rect x="0" y="290" width="820" height="50" fill="#05050e"/>
+    <!-- Path light -->
+    <rect x="390" y="270" width="40" height="70" fill="#ffd97008"/>
+  </svg>`,
+
+  dorm_room_interior: `<svg viewBox="0 0 820 340" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="roomBg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#100d1e"/>
+        <stop offset="100%" stop-color="#080612"/>
+      </linearGradient>
+      <radialGradient id="lampGlow" cx="50%" cy="0%" r="60%">
+        <stop offset="0%" stop-color="#ffd060" stop-opacity=".18"/>
+        <stop offset="100%" stop-color="#ffd060" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <rect width="820" height="340" fill="url(#roomBg)"/>
+    <!-- Lamp glow -->
+    <ellipse cx="410" cy="0" rx="200" ry="120" fill="url(#lampGlow)"/>
+    <!-- Back wall -->
+    <rect x="80" y="20" width="660" height="220" rx="4" fill="#0d0b1a" stroke="#1e1c30" stroke-width="1.5"/>
+    <!-- Window with moonlight -->
+    <rect x="330" y="40" width="160" height="120" rx="6" fill="#0a0a28" stroke="#252338" stroke-width="2"/>
+    <line x1="410" y1="40" x2="410" y2="160" stroke="#252338" stroke-width="2"/>
+    <line x1="330" y1="100" x2="490" y2="100" stroke="#252338" stroke-width="2"/>
+    <!-- Moon through window -->
+    <ellipse cx="410" cy="80" rx="28" ry="28" fill="#fff8e8" opacity=".15"/>
+    <rect x="330" y="40" width="160" height="120" rx="6" fill="rgba(200,180,255,.03)"/>
+    <!-- Desk -->
+    <rect x="100" y="210" width="220" height="15" rx="3" fill="#1e1828"/>
+    <rect x="110" y="225" width="10" height="55" fill="#181422"/>
+    <rect x="300" y="225" width="10" height="55" fill="#181422"/>
+    <!-- Laptop on desk -->
+    <rect x="140" y="190" width="90" height="20" rx="3" fill="#151020"/>
+    <rect x="138" y="208" width="94" height="4" rx="2" fill="#201a30"/>
+    <!-- Textbooks -->
+    <rect x="240" y="193" width="16" height="17" rx="1" fill="#2d1a4d"/>
+    <rect x="257" y="196" width="12" height="14" rx="1" fill="#1a3a2d"/>
+    <rect x="270" y="198" width="10" height="12" rx="1" fill="#3a2010"/>
+    <!-- Bed -->
+    <rect x="500" y="200" width="230" height="80" rx="8" fill="#14101e"/>
+    <rect x="500" y="195" width="230" height="18" rx="4" fill="#1e1830"/>
+    <rect x="510" y="215" width="210" height="60" rx="4" fill="#0f0c18"/>
+    <!-- Pillow -->
+    <rect x="515" y="205" width="70" height="25" rx="8" fill="#1a1530"/>
+    <!-- Blanket fold -->
+    <rect x="510" y="250" width="210" height="15" rx="4" fill="#1a1628" opacity=".8"/>
+    <!-- Floor -->
+    <rect x="0" y="280" width="820" height="60" fill="#07060e"/>
+    <!-- Shoes on floor -->
+    <ellipse cx="160" cy="290" rx="18" ry="7" fill="#151015"/>
+    <ellipse cx="190" cy="292" rx="15" ry="6" fill="#151015"/>
+  </svg>`,
+
+  kitchen_night: `<svg viewBox="0 0 820 340" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="kitBg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#1a1400"/>
+        <stop offset="100%" stop-color="#0a0800"/>
+      </linearGradient>
+      <radialGradient id="fluorescent" cx="50%" cy="0%" r="70%">
+        <stop offset="0%" stop-color="#fffde0" stop-opacity=".12"/>
+        <stop offset="100%" stop-color="#fffde0" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <rect width="820" height="340" fill="url(#kitBg)"/>
+    <rect width="820" height="340" fill="url(#fluorescent)"/>
+    <!-- Fluorescent strip light -->
+    <rect x="200" y="18" width="420" height="10" rx="5" fill="#fffde0" opacity=".6"/>
+    <rect x="180" y="22" width="460" height="3" rx="2" fill="#fffde0" opacity=".25"/>
+    <!-- Back wall tiles hinted -->
+    <rect x="0" y="0" width="820" height="220" fill="#18150a" opacity=".4"/>
+    <!-- Tile grid subtle -->
+    <g stroke="#28220a" stroke-width=".5" opacity=".4">
+      <line x1="0" y1="50" x2="820" y2="50"/><line x1="0" y1="100" x2="820" y2="100"/>
+      <line x1="0" y1="150" x2="820" y2="150"/><line x1="0" y1="200" x2="820" y2="200"/>
+      <line x1="100" y1="0" x2="100" y2="220"/><line x1="200" y1="0" x2="200" y2="220"/>
+      <line x1="300" y1="0" x2="300" y2="220"/><line x1="400" y1="0" x2="400" y2="220"/>
+      <line x1="500" y1="0" x2="500" y2="220"/><line x1="600" y1="0" x2="600" y2="220"/>
+      <line x1="700" y1="0" x2="700" y2="220"/><line x1="800" y1="0" x2="800" y2="220"/>
+    </g>
+    <!-- Counter top -->
+    <rect x="0" y="205" width="820" height="20" rx="0" fill="#2a2008"/>
+    <rect x="0" y="200" width="820" height="8" rx="2" fill="#3a2e10"/>
+    <!-- Fridge (big, center) -->
+    <rect x="310" y="45" width="200" height="160" rx="8" fill="#1e1e30" stroke="#2e2e45" stroke-width="2"/>
+    <rect x="314" y="49" width="192" height="73" rx="5" fill="#151525"/>
+    <rect x="314" y="127" width="192" height="73" rx="5" fill="#151525"/>
+    <!-- Fridge handle -->
+    <rect x="490" y="70" width="8" height="30" rx="4" fill="#2e2e45"/>
+    <rect x="490" y="135" width="8" height="30" rx="4" fill="#2e2e45"/>
+    <!-- Devon label (yellow sticker!) -->
+    <rect x="340" y="130" width="130" height="28" rx="4" fill="#ffd700" opacity=".9"/>
+    <text x="355" y="148" font-family="sans-serif" font-size="10" font-weight="bold" fill="#1a0000">DEVON — DO NOT TOUCH</text>
+    <!-- Microwave -->
+    <rect x="100" y="155" width="140" height="55" rx="6" fill="#181818" stroke="#282828" stroke-width="1.5"/>
+    <rect x="108" y="163" width="80" height="40" rx="3" fill="#0a0a0a"/>
+    <rect x="198" y="163" width="34" height="40" rx="3" fill="#1f1f1f"/>
+    <circle cx="212" cy="175" r="6" fill="#2a2a2a" stroke="#383838" stroke-width="1"/>
+    <circle cx="212" cy="193" r="4" fill="#2a2a2a" stroke="#383838" stroke-width="1"/>
+    <!-- Sink area -->
+    <rect x="580" y="170" width="120" height="35" rx="5" fill="#151510"/>
+    <rect x="600" y="175" width="80" height="25" rx="3" fill="#0a0a0a"/>
+    <rect x="635" y="163" width="8" height="15" rx="4" fill="#252520"/>
+    <!-- Random items on counter -->
+    <rect x="60" y="195" width="25" height="12" rx="2" fill="#c0392b" opacity=".7"/> <!-- Aromat -->
+    <text x="62" y="204" font-family="sans-serif" font-size="6" fill="white">AROMAT</text>
+    <rect x="95" y="192" width="18" height="15" rx="2" fill="#e67e22" opacity=".6"/>
+    <!-- Floor -->
+    <rect x="0" y="225" width="820" height="115" fill="#0e0b00"/>
+    <g stroke="#1a1500" stroke-width="1" opacity=".3">
+      <line x1="0" y1="260" x2="820" y2="260"/>
+      <line x1="0" y1="295" x2="820" y2="295"/>
+      <line x1="160" y1="225" x2="160" y2="340"/>
+      <line x1="320" y1="225" x2="320" y2="340"/>
+      <line x1="480" y1="225" x2="480" y2="340"/>
+      <line x1="640" y1="225" x2="640" y2="340"/>
+    </g>
+  </svg>`,
+
+  campus_day: `<svg viewBox="0 0 820 340" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="campusSky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#0a1a2e"/>
+        <stop offset="60%" stop-color="#0d2a1a"/>
+        <stop offset="100%" stop-color="#05100a"/>
+      </linearGradient>
+    </defs>
+    <rect width="820" height="340" fill="url(#campusSky)"/>
+    <!-- Main building -->
+    <rect x="120" y="80" width="580" height="200" rx="4" fill="#0e1e14"/>
+    <rect x="120" y="70" width="580" height="18" rx="2" fill="#122418"/>
+    <!-- Columns -->
+    <g fill="#0d1c12">
+      <rect x="165" y="88" width="22" height="192"/>
+      <rect x="240" y="88" width="22" height="192"/>
+      <rect x="315" y="88" width="22" height="192"/>
+      <rect x="390" y="88" width="22" height="192"/>
+      <rect x="465" y="88" width="22" height="192"/>
+      <rect x="540" y="88" width="22" height="192"/>
+      <rect x="615" y="88" width="22" height="192"/>
+    </g>
+    <!-- Windows rows -->
+    <g fill="#1a3a28" stroke="#224d34" stroke-width="1" opacity=".9">
+      <rect x="148" y="105" width="40" height="30" rx="2"/>
+      <rect x="228" y="105" width="40" height="30" rx="2"/>
+      <rect x="308" y="105" width="40" height="30" rx="2"/>
+      <rect x="388" y="105" width="40" height="30" rx="2"/>
+      <rect x="468" y="105" width="40" height="30" rx="2"/>
+      <rect x="548" y="105" width="40" height="30" rx="2"/>
+      <rect x="628" y="105" width="40" height="30" rx="2"/>
+    </g>
+    <g fill="#152e1e" stroke="#1e3d28" stroke-width="1" opacity=".7">
+      <rect x="148" y="155" width="40" height="30" rx="2"/>
+      <rect x="228" y="155" width="40" height="30" rx="2"/>
+      <rect x="308" y="155" width="40" height="30" rx="2"/>
+      <rect x="388" y="155" width="40" height="30" rx="2"/>
+      <rect x="468" y="155" width="40" height="30" rx="2"/>
+      <rect x="548" y="155" width="40" height="30" rx="2"/>
+      <rect x="628" y="155" width="40" height="30" rx="2"/>
+    </g>
+    <!-- Front door -->
+    <rect x="370" y="220" width="80" height="60" rx="4" fill="#0a1a10" stroke="#1a3020" stroke-width="2"/>
+    <rect x="370" y="218" width="80" height="12" rx="3" fill="#1a3020"/>
+    <!-- Path -->
+    <polygon points="390,280 430,280 470,340 350,340" fill="#0d1a0d"/>
+    <!-- Trees (simple) -->
+    <g opacity=".8">
+      <rect x="88" y="210" width="12" height="70" fill="#0a1508"/>
+      <ellipse cx="94" cy="200" rx="28" ry="35" fill="#0e2412"/>
+      <ellipse cx="80" cy="215" rx="18" ry="22" fill="#0c1e0e"/>
+    </g>
+    <g opacity=".8">
+      <rect x="718" y="200" width="12" height="80" fill="#0a1508"/>
+      <ellipse cx="724" cy="188" rx="32" ry="40" fill="#112a15"/>
+      <ellipse cx="710" cy="205" rx="20" ry="26" fill="#0c1e0e"/>
+    </g>
+    <!-- Ground -->
+    <rect x="0" y="280" width="820" height="60" fill="#060d06"/>
+    <!-- Path markings -->
+    <g stroke="#0e1e0e" stroke-width="1" opacity=".4">
+      <line x1="0" y1="310" x2="820" y2="310"/>
+    </g>
+  </svg>`,
+
+  financial_aid: `<svg viewBox="0 0 820 340" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="officeBg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#08101c"/>
+        <stop offset="100%" stop-color="#040810"/>
+      </linearGradient>
+    </defs>
+    <rect width="820" height="340" fill="url(#officeBg)"/>
+    <!-- Fluorescent office lights -->
+    <rect x="150" y="12" width="200" height="8" rx="4" fill="#e8f4ff" opacity=".5"/>
+    <rect x="470" y="12" width="200" height="8" rx="4" fill="#e8f4ff" opacity=".5"/>
+    <ellipse cx="250" cy="16" rx="160" ry="40" fill="#e8f4ff" opacity=".04"/>
+    <ellipse cx="570" cy="16" rx="160" ry="40" fill="#e8f4ff" opacity=".04"/>
+    <!-- Office back wall -->
+    <rect x="0" y="0" width="820" height="210" fill="#060e18"/>
+    <!-- Noticeboard -->
+    <rect x="80" y="40" width="200" height="130" rx="4" fill="#0f1820" stroke="#1a2a3a" stroke-width="1.5"/>
+    <text x="130" y="60" font-family="sans-serif" font-size="10" fill="#4a7a5a" font-weight="bold">STUDENT FINANCIAL AID</text>
+    <!-- Papers on board -->
+    <rect x="93" y="68" width="80" height="50" rx="2" fill="#0c1620" stroke="#1e3040" stroke-width="1" transform="rotate(-2 133 93)"/>
+    <rect x="145" y="72" width="70" height="42" rx="2" fill="#0e1825" stroke="#1e3040" stroke-width="1" transform="rotate(3 180 93)"/>
+    <rect x="100" y="120" width="60" height="38" rx="2" fill="#0c1520" stroke="#1a2838" stroke-width="1"/>
+    <!-- Office window -->
+    <rect x="560" y="30" width="180" height="130" rx="6" fill="#080e18" stroke="#12203a" stroke-width="2"/>
+    <line x1="650" y1="30" x2="650" y2="160" stroke="#12203a" stroke-width="1.5"/>
+    <line x1="560" y1="95" x2="740" y2="95" stroke="#12203a" stroke-width="1.5"/>
+    <!-- Outside: dark campus through window -->
+    <rect x="562" y="32" width="86" height="122" rx="3" fill="#050c10"/>
+    <rect x="652" y="32" width="86" height="122" rx="3" fill="#050c10"/>
+    <!-- Counter / reception desk -->
+    <rect x="100" y="195" width="620" height="20" rx="3" fill="#0e1a28"/>
+    <rect x="100" y="190" width="620" height="8" rx="2" fill="#162030"/>
+    <!-- Queue barrier poles -->
+    <rect x="200" y="215" width="6" height="80" rx="3" fill="#1a2a3a"/>
+    <rect x="380" y="215" width="6" height="80" rx="3" fill="#1a2a3a"/>
+    <rect x="560" y="215" width="6" height="80" rx="3" fill="#1a2a3a"/>
+    <line x1="200" y1="240" x2="380" y2="240" stroke="#1a2a3a" stroke-width="2"/>
+    <line x1="380" y1="255" x2="560" y2="255" stroke="#1a2a3a" stroke-width="2"/>
+    <!-- Floor -->
+    <rect x="0" y="215" width="820" height="125" fill="#050a10"/>
+    <g stroke="#0a1020" stroke-width="1" opacity=".5">
+      <line x1="0" y1="260" x2="820" y2="260"/>
+      <line x1="0" y1="300" x2="820" y2="300"/>
+      <line x1="164" y1="215" x2="164" y2="340"/>
+      <line x1="328" y1="215" x2="328" y2="340"/>
+      <line x1="492" y1="215" x2="492" y2="340"/>
+      <line x1="656" y1="215" x2="656" y2="340"/>
+    </g>
+  </svg>`,
+
+  corridor_red: `<svg viewBox="0 0 820 340" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="corrBg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#1a0505"/>
+        <stop offset="100%" stop-color="#0a0202"/>
+      </linearGradient>
+      <radialGradient id="torchLight" cx="50%" cy="40%" r="45%">
+        <stop offset="0%" stop-color="#ff4400" stop-opacity=".08"/>
+        <stop offset="100%" stop-color="#ff4400" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <rect width="820" height="340" fill="url(#corrBg)"/>
+    <rect width="820" height="340" fill="url(#torchLight)"/>
+    <!-- Corridor walls perspective -->
+    <!-- Left wall -->
+    <polygon points="0,0 220,80 220,260 0,340" fill="#130305"/>
+    <!-- Right wall -->
+    <polygon points="820,0 600,80 600,260 820,340" fill="#130305"/>
+    <!-- Floor perspective -->
+    <polygon points="220,260 600,260 820,340 0,340" fill="#0d0202"/>
+    <!-- Ceiling -->
+    <polygon points="0,0 820,0 600,80 220,80" fill="#0f0202"/>
+    <!-- Corridor end (far) -->
+    <rect x="220" y="80" width="380" height="180" fill="#0a0101"/>
+    <!-- Doors on walls -->
+    <rect x="50" y="100" width="60" height="100" rx="3" fill="#110203" stroke="#220506" stroke-width="1.5"/>
+    <rect x="720" y="105" width="55" height="95" rx="3" fill="#110203" stroke="#220506" stroke-width="1.5"/>
+    <circle cx="103" cy="152" r="4" fill="#2a0808"/>
+    <!-- Flickering corridor light -->
+    <ellipse cx="410" cy="82" rx="30" ry="8" fill="#ff9966" opacity=".3"/>
+    <rect x="400" y="78" width="20" height="6" rx="3" fill="#ffccaa" opacity=".6"/>
+    <!-- Skirting boards -->
+    <line x1="220" y1="258" x2="600" y2="258" stroke="#1e0505" stroke-width="3"/>
+    <!-- Number on door -->
+    <text x="65" y="140" font-family="sans-serif" font-size="9" fill="#3a0a0a">312</text>
+  </svg>`,
+
+  community_scene: `<svg viewBox="0 0 820 340" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="communityGlow" cx="50%" cy="60%" r="50%">
+        <stop offset="0%" stop-color="#7c3aed" stop-opacity=".12"/>
+        <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="commBg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#0a0020"/>
+        <stop offset="100%" stop-color="#050010"/>
+      </linearGradient>
+    </defs>
+    <rect width="820" height="340" fill="url(#commBg)"/>
+    <rect width="820" height="340" fill="url(#communityGlow)"/>
+    <!-- Phone screens glowing (WhatsApp group) -->
+    <!-- Central phone big -->
+    <rect x="330" y="40" width="160" height="240" rx="18" fill="#0d0d20" stroke="#2a1a4a" stroke-width="2"/>
+    <rect x="338" y="55" width="144" height="210" rx="10" fill="#0a0818"/>
+    <!-- WhatsApp-style chat bubbles -->
+    <rect x="345" y="65" width="90" height="18" rx="8" fill="#1a3a1a"/>
+    <rect x="380" y="88" width="85" height="18" rx="8" fill="#1a3a1a"/>
+    <rect x="345" y="111" width="100" height="18" rx="8" fill="#1a2a1a"/>
+    <rect x="365" y="134" width="75" height="18" rx="8" fill="#2a1a3a"/>
+    <rect x="345" y="157" width="95" height="18" rx="8" fill="#1a3a1a"/>
+    <rect x="375" y="180" width="65" height="18" rx="8" fill="#1a2a1a"/>
+    <rect x="345" y="203" width="85" height="18" rx="8" fill="#2a1a3a"/>
+    <text x="348" y="76" font-family="sans-serif" font-size="7" fill="#4ecdc4">Broke But Alive - NMU Res</text>
+    <!-- Notification dots on phone -->
+    <circle cx="472" cy="66" r="7" fill="#25d366"/>
+    <text x="469" y="69" font-family="sans-serif" font-size="6" font-weight="bold" fill="white">23</text>
+    <!-- Left small phone -->
+    <rect x="100" y="100" width="90" height="140" rx="12" fill="#0c0c1e" stroke="#1e1535" stroke-width="1.5"/>
+    <rect x="107" y="114" width="76" height="112" rx="6" fill="#080614"/>
+    <rect x="112" y="120" width="50" height="12" rx="5" fill="#1a3a1a"/>
+    <rect x="125" y="137" width="45" height="12" rx="5" fill="#2a1a3a"/>
+    <rect x="112" y="154" width="55" height="12" rx="5" fill="#1a2a1a"/>
+    <!-- Right small phone -->
+    <rect x="630" y="90" width="90" height="140" rx="12" fill="#0c0c1e" stroke="#1e1535" stroke-width="1.5"/>
+    <rect x="637" y="104" width="76" height="112" rx="6" fill="#080614"/>
+    <rect x="642" y="110" width="45" height="12" rx="5" fill="#2a1a3a"/>
+    <rect x="655" y="127" width="50" height="12" rx="5" fill="#1a3a1a"/>
+    <rect x="642" y="144" width="40" height="12" rx="5" fill="#1a2a1a"/>
+    <!-- Connection lines -->
+    <line x1="190" y1="170" x2="330" y2="170" stroke="#2a1a4a" stroke-width="1" stroke-dasharray="4,4" opacity=".5"/>
+    <line x1="490" y1="170" x2="630" y2="170" stroke="#2a1a4a" stroke-width="1" stroke-dasharray="4,4" opacity=".5"/>
+    <!-- Floor glow -->
+    <ellipse cx="410" cy="290" rx="200" ry="30" fill="#7c3aed" opacity=".06"/>
+    <rect x="0" y="290" width="820" height="50" fill="#04000e"/>
+  </svg>`,
+
+  bread_scene: `<svg viewBox="0 0 820 340" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="breadBg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#100d1e"/>
+        <stop offset="100%" stop-color="#060410"/>
+      </linearGradient>
+      <radialGradient id="warmLight" cx="50%" cy="30%" r="50%">
+        <stop offset="0%" stop-color="#ffd060" stop-opacity=".1"/>
+        <stop offset="100%" stop-color="#ffd060" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <rect width="820" height="340" fill="url(#breadBg)"/>
+    <rect width="820" height="340" fill="url(#warmLight)"/>
+    <!-- Table surface -->
+    <rect x="0" y="200" width="820" height="20" rx="0" fill="#1a1428"/>
+    <rect x="0" y="195" width="820" height="8" rx="2" fill="#221c34"/>
+    <!-- Bread loaf on table -->
+    <ellipse cx="410" cy="185" rx="100" ry="32" fill="#8b5e3c"/>
+    <ellipse cx="410" cy="178" rx="95" ry="28" fill="#a06d45"/>
+    <ellipse cx="410" cy="172" rx="85" ry="22" fill="#c4854f"/>
+    <!-- Slices suggestion -->
+    <line x1="370" y1="155" x2="368" y2="200" stroke="#7a4e30" stroke-width="2"/>
+    <line x1="410" y1="153" x2="408" y2="200" stroke="#7a4e30" stroke-width="2"/>
+    <line x1="450" y1="155" x2="448" y2="200" stroke="#7a4e30" stroke-width="2"/>
+    <!-- Bread shine -->
+    <ellipse cx="390" cy="165" rx="35" ry="8" fill="white" opacity=".08"/>
+    <!-- Plate -->
+    <ellipse cx="410" cy="200" rx="130" ry="14" fill="#16122a"/>
+    <ellipse cx="410" cy="198" rx="125" ry="10" fill="#1e1838"/>
+    <!-- Shadow under plate -->
+    <ellipse cx="410" cy="212" rx="130" ry="8" fill="black" opacity=".3"/>
+    <!-- Floor -->
+    <rect x="0" y="220" width="820" height="120" fill="#07060e"/>
+  </svg>`,
+};
+
+// ═══════════════════════════════════════════════════
+//  CHARACTER SVG PORTRAITS
+// ═══════════════════════════════════════════════════
+const CHAR_SVG = {
+
+  you: `<svg viewBox="0 0 180 240" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="skinYou" cx="50%" cy="40%" r="55%">
+        <stop offset="0%" stop-color="#8B5E3C"/>
+        <stop offset="100%" stop-color="#6B4226"/>
+      </radialGradient>
+      <radialGradient id="bodyYou" cx="50%" cy="30%" r="70%">
+        <stop offset="0%" stop-color="#1e3a3a"/>
+        <stop offset="100%" stop-color="#0d2020"/>
+      </radialGradient>
+    </defs>
+    <!-- Body / hoodie -->
+    <ellipse cx="90" cy="215" rx="68" ry="45" fill="#0d1a1a"/>
+    <rect x="22" y="165" width="136" height="80" rx="30" fill="url(#bodyYou)"/>
+    <!-- Hoodie pocket -->
+    <rect x="60" y="200" width="60" height="30" rx="10" fill="#162a2a"/>
+    <!-- Neck -->
+    <rect x="73" y="140" width="34" height="35" rx="10" fill="url(#skinYou)"/>
+    <!-- Head -->
+    <ellipse cx="90" cy="118" rx="52" ry="55" fill="url(#skinYou)"/>
+    <!-- Ear left -->
+    <ellipse cx="40" cy="118" rx="10" ry="13" fill="#7a5030"/>
+    <ellipse cx="41" cy="118" rx="6" ry="8" fill="#6a4228"/>
+    <!-- Ear right -->
+    <ellipse cx="140" cy="118" rx="10" ry="13" fill="#7a5030"/>
+    <ellipse cx="139" cy="118" rx="6" ry="8" fill="#6a4228"/>
+    <!-- Hair (short natural) -->
+    <ellipse cx="90" cy="78" rx="52" ry="30" fill="#1a0e06"/>
+    <ellipse cx="90" cy="72" rx="50" ry="22" fill="#221208"/>
+    <!-- Hairline subtle bumps -->
+    <ellipse cx="55" cy="90" rx="14" ry="10" fill="#221208"/>
+    <ellipse cx="125" cy="90" rx="14" ry="10" fill="#221208"/>
+    <!-- Eyes -->
+    <ellipse cx="70" cy="115" rx="9" ry="8" fill="#0a0a0a"/>
+    <ellipse cx="110" cy="115" rx="9" ry="8" fill="#0a0a0a"/>
+    <circle cx="67" cy="113" r="3" fill="white" opacity=".7"/>
+    <circle cx="107" cy="113" r="3" fill="white" opacity=".7"/>
+    <!-- Eyebrows (furrowed - stressed) -->
+    <path d="M 58 103 Q 70 99 80 103" stroke="#1a0a04" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 100 103 Q 110 99 122 103" stroke="#1a0a04" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Nose -->
+    <ellipse cx="90" cy="126" rx="7" ry="5" fill="#7a5030" opacity=".5"/>
+    <circle cx="85" cy="127" r="3.5" fill="#6a4030" opacity=".4"/>
+    <circle cx="95" cy="127" r="3.5" fill="#6a4030" opacity=".4"/>
+    <!-- Mouth (neutral / tense) -->
+    <path d="M 75 140 Q 90 143 105 140" stroke="#5a3020" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Arm raised slightly (hoodie sleeve) -->
+    <ellipse cx="22" cy="185" rx="18" ry="38" fill="#0d2020" transform="rotate(-10 22 185)"/>
+    <ellipse cx="158" cy="185" rx="18" ry="38" fill="#0d2020" transform="rotate(10 158 185)"/>
+    <!-- Glow at feet -->
+    <ellipse cx="90" cy="238" rx="55" ry="10" fill="#4ecdc4" opacity=".12"/>
+  </svg>`,
+
+  lebo: `<svg viewBox="0 0 180 240" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="skinLebo" cx="50%" cy="40%" r="55%">
+        <stop offset="0%" stop-color="#7a5030"/>
+        <stop offset="100%" stop-color="#5a3818"/>
+      </radialGradient>
+      <radialGradient id="bodyLebo" cx="50%" cy="30%" r="70%">
+        <stop offset="0%" stop-color="#3a2a08"/>
+        <stop offset="100%" stop-color="#221a05"/>
+      </radialGradient>
+    </defs>
+    <!-- Body -->
+    <ellipse cx="90" cy="215" rx="65" ry="45" fill="#18120a"/>
+    <rect x="25" y="162" width="130" height="82" rx="28" fill="url(#bodyLebo)"/>
+    <!-- T-shirt detail -->
+    <path d="M 65 165 Q 90 175 115 165" stroke="#4a3808" stroke-width="2" fill="none"/>
+    <!-- Neck -->
+    <rect x="75" y="138" width="30" height="32" rx="10" fill="url(#skinLebo)"/>
+    <!-- Head -->
+    <ellipse cx="90" cy="114" rx="50" ry="52" fill="url(#skinLebo)"/>
+    <!-- Ears -->
+    <ellipse cx="42" cy="114" rx="9" ry="12" fill="#6a4228"/>
+    <ellipse cx="43" cy="114" rx="5" ry="7" fill="#5a3520"/>
+    <ellipse cx="138" cy="114" rx="9" ry="12" fill="#6a4228"/>
+    <ellipse cx="137" cy="114" rx="5" ry="7" fill="#5a3520"/>
+    <!-- Hair - short fade -->
+    <ellipse cx="90" cy="74" rx="50" ry="28" fill="#150c04"/>
+    <ellipse cx="90" cy="68" rx="48" ry="20" fill="#1a1006"/>
+    <!-- Temples faded -->
+    <ellipse cx="52" cy="88" rx="15" ry="12" fill="#1a1006"/>
+    <ellipse cx="128" cy="88" rx="15" ry="12" fill="#1a1006"/>
+    <!-- Eyes (tired, slightly downcast) -->
+    <ellipse cx="68" cy="112" rx="9" ry="7" fill="#080808"/>
+    <ellipse cx="112" cy="112" rx="9" ry="7" fill="#080808"/>
+    <circle cx="65" cy="110" r="3" fill="white" opacity=".65"/>
+    <circle cx="109" cy="110" r="3" fill="white" opacity=".65"/>
+    <!-- Eyebrows (raised in resigned sadness) -->
+    <path d="M 56 99 Q 68 96 79 99" stroke="#150c04" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 101 99 Q 112 96 124 99" stroke="#150c04" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Nose -->
+    <ellipse cx="90" cy="122" rx="8" ry="5" fill="#6a4028" opacity=".45"/>
+    <circle cx="84" cy="123" r="4" fill="#5a3018" opacity=".4"/>
+    <circle cx="96" cy="123" r="4" fill="#5a3018" opacity=".4"/>
+    <!-- Mouth (slight frown) -->
+    <path d="M 74 137 Q 90 134 106 137" stroke="#4a2c12" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Shoulders -->
+    <ellipse cx="28" cy="182" rx="16" ry="35" fill="#221a05" transform="rotate(-8 28 182)"/>
+    <ellipse cx="152" cy="182" rx="16" ry="35" fill="#221a05" transform="rotate(8 152 182)"/>
+    <!-- Glow at feet -->
+    <ellipse cx="90" cy="238" rx="52" ry="10" fill="#FFDF00" opacity=".1"/>
+  </svg>`,
+
+  ra: `<svg viewBox="0 0 180 240" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="skinRA" cx="50%" cy="40%" r="55%">
+        <stop offset="0%" stop-color="#8a6040"/>
+        <stop offset="100%" stop-color="#6a4a28"/>
+      </radialGradient>
+      <radialGradient id="uniformRA" cx="50%" cy="30%" r="70%">
+        <stop offset="0%" stop-color="#1a2030"/>
+        <stop offset="100%" stop-color="#0d1520"/>
+      </radialGradient>
+    </defs>
+    <!-- Uniform body -->
+    <ellipse cx="90" cy="218" rx="70" ry="45" fill="#0d1018"/>
+    <rect x="20" y="160" width="140" height="85" rx="25" fill="url(#uniformRA)"/>
+    <!-- Epaulette left -->
+    <rect x="18" y="162" width="30" height="12" rx="4" fill="#1e2838" stroke="#2a3848" stroke-width="1"/>
+    <!-- Epaulette right -->
+    <rect x="132" y="162" width="30" height="12" rx="4" fill="#1e2838" stroke="#2a3848" stroke-width="1"/>
+    <!-- Badge on chest -->
+    <rect x="78" y="175" width="24" height="20" rx="3" fill="#ffd700" opacity=".7"/>
+    <text x="84" y="188" font-family="sans-serif" font-size="7" fill="#001020" font-weight="bold">RA</text>
+    <!-- Collar -->
+    <path d="M 65 162 L 90 185 L 115 162" stroke="#2a3848" stroke-width="2" fill="none"/>
+    <!-- Neck -->
+    <rect x="74" y="140" width="32" height="30" rx="10" fill="url(#skinRA)"/>
+    <!-- Head -->
+    <ellipse cx="90" cy="115" rx="50" ry="52" fill="url(#skinRA)"/>
+    <!-- Ears -->
+    <ellipse cx="42" cy="115" rx="9" ry="12" fill="#7a5030"/>
+    <ellipse cx="43" cy="115" rx="5" ry="7" fill="#6a4228"/>
+    <ellipse cx="138" cy="115" rx="9" ry="12" fill="#7a5030"/>
+    <ellipse cx="137" cy="115" rx="5" ry="7" fill="#6a4228"/>
+    <!-- Hair - very short / neat -->
+    <ellipse cx="90" cy="72" rx="50" ry="26" fill="#0d0a06"/>
+    <ellipse cx="90" cy="68" rx="48" ry="18" fill="#120e08"/>
+    <!-- Eyes (sharp, stern) -->
+    <ellipse cx="69" cy="112" rx="9.5" ry="8" fill="#060606"/>
+    <ellipse cx="111" cy="112" rx="9.5" ry="8" fill="#060606"/>
+    <circle cx="66" cy="110" r="2.5" fill="white" opacity=".6"/>
+    <circle cx="108" cy="110" r="2.5" fill="white" opacity=".6"/>
+    <!-- Eyebrows (stern, straight) -->
+    <rect x="58" y="99" width="23" height="4" rx="2" fill="#0d0a06" transform="rotate(-3 69 101)"/>
+    <rect x="99" y="99" width="23" height="4" rx="2" fill="#0d0a06" transform="rotate(3 111 101)"/>
+    <!-- Nose -->
+    <ellipse cx="90" cy="124" rx="8" ry="5" fill="#7a5030" opacity=".4"/>
+    <circle cx="84" cy="125" r="4" fill="#6a4228" opacity=".35"/>
+    <circle cx="96" cy="125" r="4" fill="#6a4228" opacity=".35"/>
+    <!-- Mouth (firm, straight) -->
+    <path d="M 72 139 L 108 139" stroke="#5a3820" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Clipboard in hand -->
+    <rect x="128" y="185" width="42" height="55" rx="4" fill="#1e2838" stroke="#2a3848" stroke-width="1.5"/>
+    <rect x="131" y="192" width="36" height="42" rx="2" fill="#e8eef8" opacity=".08"/>
+    <rect x="133" y="196" width="28" height="2" rx="1" fill="#2a3848" opacity=".6"/>
+    <rect x="133" y="202" width="24" height="2" rx="1" fill="#2a3848" opacity=".5"/>
+    <rect x="133" y="208" width="26" height="2" rx="1" fill="#2a3848" opacity=".4"/>
+    <rect x="145" y="183" width="18" height="7" rx="3" fill="#2a3848"/>
+    <!-- Arms -->
+    <ellipse cx="24" cy="188" rx="16" ry="36" fill="#0d1520" transform="rotate(-6 24 188)"/>
+    <ellipse cx="152" cy="188" rx="14" ry="34" fill="#0d1520" transform="rotate(15 152 188)"/>
+    <!-- Glow at feet -->
+    <ellipse cx="90" cy="238" rx="55" ry="10" fill="#ff4444" opacity=".1"/>
+  </svg>`,
+
+  narrator: `<svg viewBox="0 0 180 240" xmlns="http://www.w3.org/2000/svg">
+    <!-- Just a book / scroll icon for narrator - no character shown -->
+    <ellipse cx="90" cy="200" rx="70" ry="20" fill="#0a0a20" opacity=".4"/>
+    <rect x="55" y="60" width="70" height="90" rx="6" fill="#1a1a30" stroke="#2a2a45" stroke-width="2"/>
+    <rect x="60" y="68" width="60" height="74" rx="4" fill="#14142a"/>
+    <!-- Lines on book -->
+    <line x1="66" y1="80" x2="114" y2="80" stroke="#2a2a45" stroke-width="1.5"/>
+    <line x1="66" y1="90" x2="114" y2="90" stroke="#2a2a45" stroke-width="1"/>
+    <line x1="66" y1="100" x2="114" y2="100" stroke="#2a2a45" stroke-width="1"/>
+    <line x1="66" y1="110" x2="100" y2="110" stroke="#2a2a45" stroke-width="1"/>
+    <line x1="66" y1="120" x2="110" y2="120" stroke="#2a2a45" stroke-width="1"/>
+    <line x1="66" y1="130" x2="96" y2="130" stroke="#2a2a45" stroke-width="1"/>
+    <!-- Spine -->
+    <rect x="55" y="60" width="8" height="90" rx="3" fill="#22223a"/>
+  </svg>`,
+};
+
+// Mood emoji map per speaker per line context
+// Lines can define a `mood` property; defaults below by speaker
+const DEFAULT_MOODS = {
+  narrator: '📖', you: '😐', lebo: '😔', lebo_h: '😅',
+  devon: '😏', ra: '😠', inner: '🧠',
+};
+
+// ═══════════════════════════════════════════════════
+//  SCENES
+// ═══════════════════════════════════════════════════
+const SCENES = {
+
+  intro: {
+    act:'ACT I — THE SITUATION', bg:'#08081e',
+    art:'dorm_night', char:null,
+    lines:[
+      {who:'narrator', text:'NMU Campus. Sunday night. Week 8 of Semester 1.'},
+      {who:'narrator', text:'You\'ve been staring at your wallet for the last twenty minutes.'},
+      {who:'you', mood:'😞', text:'R47. That\'s it. R47 and half a loaf of bread.'},
+      {who:'inner', text:'Rent: paid. Data: almost gone. Dining hall: closed until Monday. Next disbursement: twelve days away.'},
+      {who:'you', mood:'😤', text:'I managed to scrape together just enough for a couple of essentials. But "just enough" doesn\'t stretch very far.'},
+    ],
+    auto:'lebo_knocks'
+  },
+
+  lebo_knocks: {
+    act:'ACT I — THE SITUATION', bg:'#08081e',
+    art:'dorm_room_interior', char:'lebo',
+    lines:[
+      {who:'narrator', text:'Three slow knocks at your door. You already know who it is.'},
+      {who:'lebo', mood:'😔', text:'Bro...'},
+      {who:'you', mood:'😐', text:'How bad?'},
+      {who:'lebo', mood:'😩', text:'I opened my fridge just now and — one lemon, bro. One single, wrinkled lemon from like three weeks ago.'},
+      {who:'lebo', mood:'😶', text:'I stood there looking at it for a while. Like maybe I was wrong.'},
+      {who:'you', mood:'😶', text:'...'},
+      {who:'lebo', mood:'😔', text:'I was not wrong.'},
+    ],
+    choices:[
+      {text:'Give him half the bread you bought.', fx:{hunger:-8,money:-10}, flag:'sharedBread', next:'share_bread'},
+      {text:'Ask what he plans to do about it.', fx:{}, next:'lebo_thinking'},
+    ]
+  },
+
+  share_bread: {
+    act:'ACT I — THE SITUATION', bg:'#0e0a18',
+    art:'bread_scene', char:'lebo',
+    lines:[
+      {who:'narrator', text:'You hand him half the loaf. It\'s not much, but it\'s real.'},
+      {who:'lebo_h', mood:'😮', text:'Ay, bro. You really didn\'t have to—'},
+      {who:'you', mood:'😐', text:'Eat.'},
+      {who:'lebo_h', mood:'🙂', text:'...'},
+      {who:'lebo_h', mood:'😔', text:'Man cannot survive on bread alone, you know.'},
+      {who:'you', mood:'😞', text:'I know.'},
+      {who:'lebo_h', mood:'😟', text:'Something has to give before the end of the month. I\'m serious.'},
+    ],
+    auto:'lebo_explains'
+  },
+
+  lebo_thinking: {
+    act:'ACT I — THE SITUATION', bg:'#08081e',
+    art:'dorm_room_interior', char:'lebo',
+    lines:[
+      {who:'lebo', mood:'😔', text:'Honestly? I have no idea. Parents can\'t send anything. Financial aid doesn\'t land until next week.'},
+      {who:'you', mood:'😐', text:'So you\'re genuinely out of options.'},
+      {who:'lebo', mood:'🤫', text:'Not... literally.'},
+      {who:'narrator', text:'He gives you a look. There\'s something he isn\'t saying yet.'},
+    ],
+    auto:'lebo_explains'
+  },
+
+  lebo_explains: {
+    act:'ACT I — THE SITUATION', bg:'#120515',
+    art:'dorm_room_interior', char:'lebo',
+    lines:[
+      {who:'lebo', mood:'🤫', text:'You ever heard of... taking someone to Brazil?'},
+      {who:'you', mood:'😕', text:'Taking someone to — what?'},
+      {who:'lebo', mood:'😏', text:'When you\'re desperate. You find food that isn\'t yours and you redistribute it.'},
+      {who:'you', mood:'😬', text:'You mean steal.'},
+      {who:'lebo', mood:'🙃', text:'Redistribute. With intention. You don\'t hit people who are already struggling — that\'s the rule. You go for the ones who have too much. Who won\'t even notice.'},
+      {who:'lebo', mood:'😔', text:'I\'ve done it twice. Pasta going off. A box of cereal someone left unlabeled for two weeks.'},
+      {who:'inner', text:'Robin Hood. In a university dorm. With leftovers.'},
+      {who:'lebo', mood:'😶', text:'I\'m not proud of it. But I\'m alive.'},
+    ],
+    choices:[
+      {text:'This still feels wrong. There has to be another way.', fx:{rep:5}, next:'pushback'},
+      {text:'Tell me more. Who exactly qualifies for "Brazil"?', fx:{}, next:'lebo_targets'},
+    ]
+  },
+
+  pushback: {
+    act:'ACT I — THE SITUATION', bg:'#120515',
+    art:'dorm_room_interior', char:'lebo',
+    lines:[
+      {who:'you', mood:'😠', text:'I don\'t know, man. It\'s still someone else\'s stuff.'},
+      {who:'lebo', mood:'😔', text:'You\'re right. Completely right.'},
+      {who:'lebo', mood:'😤', text:'Devon on the 3rd floor gets R5000 a week from home. I\'ve watched him throw out half his groceries.'},
+      {who:'lebo', mood:'😤', text:'You can\'t tell me that isn\'t a different kind of wrong.'},
+      {who:'inner', text:'He has a point. But so do you.'},
+      {who:'you', mood:'😕', text:'Who\'s Devon?'},
+    ],
+    auto:'lebo_targets'
+  },
+
+  lebo_targets: {
+    act:'ACT I — THE SITUATION', bg:'#120515',
+    art:'dorm_night', char:'lebo',
+    lines:[
+      {who:'lebo', mood:'😒', text:'Devon. Room 312. BMW in the parking lot. Full fridge. Never eats half of what he buys.'},
+      {who:'lebo', mood:'😤', text:'He left a whole braai pack in the communal fridge labeled with his name. It\'s been there for four days.'},
+      {who:'you', mood:'🤔', text:'Why hasn\'t anyone touched it?'},
+      {who:'lebo', mood:'😤', text:'Because people are scared. But I\'m not scared. I\'m hungry.'},
+      {who:'narrator', text:'You go quiet. The hunger in your own stomach is talking too.'},
+    ],
+    choices:[
+      {text:'Go check the communal kitchen with Lebo tonight.', fx:{hunger:5}, next:'kitchen'},
+      {text:'Sleep on it. Decide in the morning.', fx:{hunger:8,rep:3}, next:'morning'},
+    ]
+  },
+
+  morning: {
+    act:'ACT I — THE SITUATION', bg:'#0f1200',
+    art:'campus_day', char:'you',
+    lines:[
+      {who:'narrator', text:'Monday morning. You wake up with a headache and a very empty stomach.'},
+      {who:'you', mood:'😪', text:'Okay. Let\'s just go look. Just look.'},
+      {who:'inner', text:'Sure. Just look.'},
+    ],
+    auto:'kitchen'
+  },
+
+  kitchen: {
+    act:'ACT II — BRAZIL', bg:'#1a1200',
+    art:'kitchen_night', char:'you',
+    lines:[
+      {who:'narrator', text:'The communal kitchen. 11pm. Fluorescent hum, the ghost of old Indomie.'},
+      {who:'narrator', text:'There it is. A big yellow sticker on a fridge shelf: "DEVON — DO NOT TOUCH." In thick red marker.'},
+      {who:'narrator', text:'Braai pack. Leftover pasta in a container. A bottle of Oros. A strawberry yogurt.'},
+      {who:'inner', text:'It\'s been four days. Braai meat doesn\'t last four days.'},
+      {who:'you', mood:'😤', text:'He\'s not coming back for this.'},
+    ],
+    choices:[
+      {text:'Take the pasta and the Oros. Leave the rest.', fx:{hunger:-28,rep:-10,brazil:1}, next:'took_pasta'},
+      {text:'Just take the yogurt. Small. Unnoticeable.', fx:{hunger:-12,rep:-5,brazil:1}, next:'took_yogurt'},
+      {text:'Leave it all. Walk away.', fx:{hunger:10,rep:8}, next:'walked_away'},
+    ]
+  },
+
+  took_pasta: {
+    act:'ACT II — BRAZIL', bg:'#1a1200',
+    art:'kitchen_night', char:'you',
+    lines:[
+      {who:'narrator', text:'You take the pasta and the Oros. It feels like forever to close that fridge.'},
+      {who:'inner', text:'The label. The red marker. "DO NOT TOUCH."'},
+      {who:'narrator', text:'You eat in your room with the lights off.'},
+      {who:'you', mood:'😶', text:'...It\'s actually really good pasta.'},
+      {who:'inner', text:'That doesn\'t make you feel better about it.'},
+      {who:'you', mood:'😔', text:'No. It doesn\'t.'},
+      {who:'lebo_h', mood:'😏', text:'(WhatsApp): ??? how was it ???'},
+      {who:'you', mood:'😐', text:'(WhatsApp): it happened. don\'t ask.'},
+      {who:'lebo_h', mood:'😄', text:'(WhatsApp): welcome to Brazil 🇧🇷'},
+    ],
+    auto:'week9'
+  },
+
+  took_yogurt: {
+    act:'ACT II — BRAZIL', bg:'#1a1200',
+    art:'kitchen_night', char:'you',
+    lines:[
+      {who:'narrator', text:'You take just the yogurt. Close the fridge carefully. Walk back to your room like nothing happened.'},
+      {who:'you', mood:'😬', text:'One yogurt. He\'s not going to miss one yogurt.'},
+      {who:'inner', text:'Maybe not. But you\'ll remember it.'},
+      {who:'narrator', text:'Strawberry. You eat it slowly, staring at the ceiling. Still hungry, but slightly less like you\'re disappearing.'},
+    ],
+    auto:'week9'
+  },
+
+  walked_away: {
+    act:'ACT II — BRAZIL', bg:'#061418',
+    art:'corridor_red', char:'you',
+    lines:[
+      {who:'narrator', text:'You close the fridge. You walk back down the corridor.'},
+      {who:'you', mood:'😤', text:'I can\'t do it.'},
+      {who:'inner', text:'You couldn\'t do it.'},
+      {who:'narrator', text:'The hunger stays. You lie awake for a long time.'},
+      {who:'narrator', text:'But you sleep clean.'},
+    ],
+    auto:'week9'
+  },
+
+  week9: {
+    act:'ACT III — THE RECKONING', bg:'#141414',
+    art:'dorm_room_interior', char:'lebo',
+    lines:[
+      {who:'narrator', text:'Week 9. Four days later.'},
+      {who:'lebo', mood:'😟', text:'Someone took all my stuff.'},
+      {who:'you', mood:'😲', text:'What?'},
+      {who:'lebo', mood:'😔', text:'My rice. My tins. That last packet of Aromat I had. Every single thing. Gone.'},
+      {who:'lebo', mood:'😶', text:'I don\'t even have enough energy to be angry. I\'m just... tired.'},
+      {who:'you', mood:'😠', text:'Who would do that to you? You\'re one of us.'},
+      {who:'lebo', mood:'😔', text:'Somebody who was hungry enough not to care. Same as me.'},
+      {who:'narrator', text:'A long silence between you.'},
+      {who:'lebo', mood:'😶', text:'The cycle doesn\'t care about the rules we make for it.'},
+    ],
+    choices:[
+      {text:'Look for part-time work on campus together.', fx:{rep:8}, next:'path_grind'},
+      {text:'Go harder on Brazil — get systematic about it.', fx:{brazil:1,rep:-8,hunger:-10}, next:'path_brazil'},
+      {text:'Go to the financial aid office on Monday.', fx:{rep:5}, next:'path_aid'},
+      {text:'Organise the other broke students — build a food collective.', fx:{rep:15,hunger:-5}, next:'path_community'},
+    ]
+  },
+
+  path_grind: {
+    act:'ACT III — THE RECKONING', bg:'#001a0a',
+    art:'campus_day', char:'you',
+    lines:[
+      {who:'narrator', text:'You spend the afternoon on every noticeboard and Facebook group you can find.'},
+      {who:'you', mood:'😤', text:'Tutoring. Data capturing. Anything.'},
+      {who:'narrator', text:'Three days later: a response. R80 for four hours of data entry for a postgrad student.'},
+      {who:'narrator', text:'It\'s not glamorous. Your eyes hurt. But it\'s real.'},
+      {who:'you', mood:'🙂', text:'R80 can stretch, if you\'re careful.'},
+      {who:'lebo_h', mood:'😄', text:'I got something too. Washing cars Saturday morning. R60.'},
+      {who:'you', mood:'😌', text:'That\'s R140 between us.'},
+      {who:'lebo_h', mood:'😏', text:'Man cannot survive on bread alone — but he can survive on rice and grit.'},
+    ],
+    auto:'ending_grind'
+  },
+
+  path_brazil: {
+    act:'ACT III — THE RECKONING', bg:'#1a0000',
+    art:'corridor_red', char:'you',
+    lines:[
+      {who:'narrator', text:'You go deeper in. You and Lebo start doing it systematically.'},
+      {who:'narrator', text:'Tuesday: protein shake powder nobody had touched in weeks. Wednesday: bread and peanut butter from the 2nd floor kitchen.'},
+      {who:'inner', text:'You\'re getting good at it. Too good.'},
+      {who:'lebo', mood:'😬', text:'The RA\'s been checking the kitchens more. He knows something is going on.'},
+      {who:'you', mood:'😐', text:'We keep our heads down.'},
+      {who:'narrator', text:'Thursday night. You\'re reaching into a fridge. The light clicks on behind you.'},
+      {who:'ra', mood:'😠', text:'Don\'t move.'},
+    ],
+    choices:[
+      {text:'Run.', fx:{rep:-20}, next:'caught_run'},
+      {text:'Stay. Face it.', fx:{rep:-8}, next:'caught_talk'},
+    ]
+  },
+
+  caught_run: {
+    act:'ACT III — THE RECKONING', bg:'#1a0000',
+    art:'corridor_red', char:'ra',
+    lines:[
+      {who:'narrator', text:'You drop everything and run. He doesn\'t chase you.'},
+      {who:'narrator', text:'But the next morning there\'s a letter under your door.'},
+      {who:'ra', mood:'😒', text:'"Disciplinary hearing. Theft of communal property. Wednesday, 10am."'},
+      {who:'inner', text:'Your bursary terms include good conduct clauses.'},
+      {who:'you', mood:'😞', text:'I should have walked away from the beginning.'},
+    ],
+    auto:'ending_caught'
+  },
+
+  caught_talk: {
+    act:'ACT III — THE RECKONING', bg:'#1a0000',
+    art:'corridor_red', char:'ra',
+    lines:[
+      {who:'narrator', text:'You turn slowly. RA Nkosi looks at you for a very long time.'},
+      {who:'ra', mood:'😐', text:'You hungry?'},
+      {who:'narrator', text:'You don\'t say anything. You don\'t need to.'},
+      {who:'ra', mood:'😌', text:'Come see me tomorrow morning. There are emergency food parcels. They don\'t advertise them.'},
+      {who:'ra', mood:'😐', text:'But this stops now. I can\'t un-know what I know. Understand?'},
+      {who:'you', mood:'😶', text:'...Yes sir.'},
+      {who:'narrator', text:'A narrow escape. And an opening you didn\'t expect.'},
+    ],
+    auto:'ending_caught_soft'
+  },
+
+  path_aid: {
+    act:'ACT III — THE RECKONING', bg:'#001024',
+    art:'financial_aid', char:'you',
+    lines:[
+      {who:'narrator', text:'Monday morning. The Student Financial Aid office queue is already long.'},
+      {who:'inner', text:'Half of these faces you recognise from your residence. You\'re not the only one.'},
+      {who:'narrator', text:'Three hours later, you sit across from a counsellor.'},
+      {who:'narrator', text:'Emergency advance. Food vouchers. A referral to the campus food bank you\'d never heard of.'},
+      {who:'you', mood:'😳', text:'Why didn\'t anyone tell us about this?'},
+      {who:'narrator', text:'She sighs. "They tell you during orientation. But you\'re not starving during orientation."'},
+    ],
+    auto:'ending_aid'
+  },
+
+  path_community: {
+    act:'ACT III — THE RECKONING', bg:'#0a0020',
+    art:'community_scene', char:'you',
+    lines:[
+      {who:'narrator', text:'You make a WhatsApp group. "Broke But Alive — NMU Res."'},
+      {who:'you', mood:'💡', text:'Simple rule: you share what you can, when you can. No ledger. No debt.'},
+      {who:'narrator', text:'You think maybe six people will join. Twenty-three do, in one night.'},
+      {who:'narrator', text:'Someone has cooking oil but no rice. Someone else has rice. A third person has onions. Suddenly — there\'s a meal.'},
+      {who:'lebo_h', mood:'😲', text:'This is actually working.'},
+      {who:'you', mood:'😌', text:'Of course it is. We\'re all in the same situation.'},
+      {who:'inner', text:'Nobody has to go to Brazil alone when everyone shows up.'},
+    ],
+    auto:'ending_community'
+  },
+
+  ending_grind:    {isEnding:true, bg:'#001a0a', eyebrow:'ENDING 1 OF 4', title:'THE GRIND',
+    body:'You and Lebo made it through the week. It wasn\'t graceful — your hands were tired and your pride was complicated. But you earned every rand.\n\nThe hunger didn\'t go away. But it had a different texture now. It felt answerable.\n\nYou never did go to Brazil. And you never had to.',
+    statLabels:['Rep','Wallet','Brazil trips'], statKeys:['rep','money','brazil']},
+
+  ending_community:{isEnding:true, bg:'#0a0020', eyebrow:'ENDING 2 OF 4', title:'THE COLLECTIVE',
+    body:'By Week 10, "Broke But Alive" had 47 members. By Week 12, the SRC had noticed. By end of semester, a formal peer food fund had been proposed to management — started by students who simply refused to watch each other starve.\n\nSomebody still had to lose for others to survive. But when you choose the system together, the loss is shared. And much, much smaller.',
+    statLabels:['Rep','Wallet','Brazil trips'], statKeys:['rep','money','brazil']},
+
+  ending_aid:      {isEnding:true, bg:'#001024', eyebrow:'ENDING 3 OF 4', title:'THE PAPER TRAIL',
+    body:'The vouchers covered two weeks of meals. The advance got you through the rest of the semester. It wasn\'t a solution — you\'d face the same wall next semester unless something changed.\n\nBut you were still here. Still enrolled. The system barely helped — but just enough.\n\nYou told everyone you knew about the food bank. Because the worst part wasn\'t the hunger. It was not knowing help existed.',
+    statLabels:['Rep','Wallet','Brazil trips'], statKeys:['rep','money','brazil']},
+
+  ending_caught:   {isEnding:true, bg:'#1a0000', eyebrow:'ENDING 4A OF 4', title:'THE HEARING',
+    body:'The disciplinary committee was not unsympathetic. But the rules existed for a reason, and so did consequences.\n\nYou kept your place. You lost your supplementary bursary. You had to write a formal apology to the students whose food was taken.\n\nThe hardest part was the letter. Because you had to explain something that was true: you were desperate. And desperation doesn\'t excuse it. But it also doesn\'t just disappear because you got caught.',
+    statLabels:['Rep','Wallet','Brazil trips'], statKeys:['rep','money','brazil']},
+
+  ending_caught_soft:{isEnding:true, bg:'#1a0800', eyebrow:'ENDING 4B OF 4', title:'NARROW',
+    body:'RA Nkosi turned out to be the most important door you ever accidentally knocked on.\n\nThe food parcels weren\'t glamorous. But they were real. You and Lebo both registered. You both made it to exams.\n\nNobody found out about Brazil. Some things stay between you, the fridge, and a man who chose to help instead of punish.',
+    statLabels:['Rep','Wallet','Brazil trips'], statKeys:['rep','money','brazil']},
+};
+
+// ═══════════════════════════════════════════════════
+//  ENGINE
+// ═══════════════════════════════════════════════════
+function startGame() {
+  document.getElementById('title-screen').style.display='none';
+  updateStats();
+  playScene('intro');
+}
+
+let completionReported=false;
+const runId=Math.random().toString(36).slice(2)+Date.now().toString(36);
+function reportCompletion(){
+  if(completionReported) return;
+  completionReported=true;
+  try{
+    fetch('/api/games/scores',{method:'POST',credentials:'include',headers:{'Content-Type':'application/json'},body:JSON.stringify({gameType:'brazil',score:0,runId:runId,metadata:{}})}).catch(function(){});
+  }catch(e){}
+}
+
+function playScene(id) {
+  scene=SCENES[id]; if(!scene) return;
+  lineIdx=0; typing=false; clearTimeout(typeTimer);
+  if(scene.isEnding){reportCompletion();showEnding(scene);return;}
+
+  setBg(scene.bg);
+  document.getElementById('act-lbl').textContent=scene.act||'';
+  setArt(scene.art);
+  setChar(scene.char);
+  document.getElementById('dialogue-box').style.display='flex';
+  document.getElementById('choices-box').style.display='none';
+  document.getElementById('advance-hint').style.opacity='0';
+  renderLine();
+}
+
+function setBg(col){
+  document.getElementById('scene-bg').style.background=col;
+}
+
+function setArt(key){
+  const el=document.getElementById('illustration');
+  el.innerHTML = SCENES_ART[key]||'';
+}
+
+function setChar(key){
+  const el=document.getElementById('character');
+  if(!key||!CHAR_SVG[key]){el.style.opacity='0';el.innerHTML='';return;}
+  el.innerHTML=CHAR_SVG[key];
+  el.style.opacity='1';
+  // Position: RA on left, others on right
+  if(key==='ra'){el.classList.add('left');}
+  else{el.classList.remove('left');}
+}
+
+function renderLine(){
+  const lines=scene.lines;
+  if(lineIdx>=lines.length){
+    if(scene.choices)showChoices(scene.choices);
+    else if(scene.auto)setTimeout(()=>playScene(scene.auto),400);
+    return;
+  }
+  const ln=lines[lineIdx];
+  const c=CHARS[ln.who]||CHARS.narrator;
+  document.getElementById('speaker-name').textContent=c.name;
+  document.getElementById('speaker-name').style.color=c.color;
+  document.getElementById('mood-emoji').textContent=ln.mood||DEFAULT_MOODS[ln.who]||'';
+  document.getElementById('advance-hint').style.opacity='0';
+
+  // Show/update character portrait if it's a speaking character
+  if(ln.who!=='narrator'&&ln.who!=='inner'&&CHAR_SVG[ln.who]){
+    setChar(ln.who);
+  }else if(ln.who==='narrator'||ln.who==='inner'){
+    // Fade character slightly for narrator lines
+    const charEl=document.getElementById('character');
+    charEl.style.opacity='0.35';
+  }
+
+  typeText(document.getElementById('dialogue-text'),ln.text,()=>{
+    document.getElementById('advance-hint').style.opacity='1';
+  });
+}
+
+function typeText(el,text,cb){
+  typing=true; let i=0; el.textContent=''; clearTimeout(typeTimer);
+  function step(){
+    if(i<text.length){el.textContent+=text[i++];typeTimer=setTimeout(step,19);}
+    else{typing=false;if(cb)cb();}
+  }
+  step();
+}
+
+function advance(){
+  if(typing){
+    clearTimeout(typeTimer);typing=false;
+    const ln=scene.lines[lineIdx];
+    if(ln){
+      document.getElementById('dialogue-text').textContent=ln.text;
+      document.getElementById('mood-emoji').textContent=ln.mood||DEFAULT_MOODS[ln.who]||'';
+    }
+    document.getElementById('advance-hint').style.opacity='1';
+    return;
+  }
+  lineIdx++;renderLine();
+}
+
+function showChoices(choices){
+  document.getElementById('dialogue-box').style.display='none';
+  const box=document.getElementById('choices-box');
+  box.style.display='block';
+  const list=document.getElementById('choices-list');
+  list.innerHTML='';
+  choices.forEach((ch,i)=>{
+    const btn=document.createElement('button');
+    btn.className='choice-btn';
+    btn.innerHTML=`<span class="choice-num">${i+1}</span>${ch.text}`;
+    btn.onclick=()=>pick(ch);
+    list.appendChild(btn);
+  });
+}
+
+function pick(ch){
+  document.getElementById('choices-box').style.display='none';
+  document.getElementById('dialogue-box').style.display='flex';
+  const fx=ch.fx||{};const notifs=[];
+  if(fx.hunger!=null){S.hunger=Math.max(0,Math.min(100,S.hunger+fx.hunger));notifs.push({txt:fx.hunger>0?`🔥 Hunger +${fx.hunger}`:`🔥 Hunger ${fx.hunger}`,pos:fx.hunger<0});}
+  if(fx.money!=null){S.money=Math.max(0,S.money+fx.money);notifs.push({txt:fx.money>=0?`💰 +R${fx.money}`:`💰 -R${Math.abs(fx.money)}`,pos:fx.money>0});}
+  if(fx.rep!=null){S.rep=Math.max(0,Math.min(100,S.rep+fx.rep));notifs.push({txt:fx.rep>0?`👥 Rep +${fx.rep}`:`👥 Rep ${fx.rep}`,pos:fx.rep>0});}
+  if(fx.brazil!=null)S.brazil+=fx.brazil;
+  if(ch.flag)S[ch.flag]=true;
+  showNotifs(notifs);updateStats();
+  playScene(ch.next);
+}
+
+function showNotifs(items){
+  const el=document.getElementById('notifs');
+  items.forEach((n,i)=>{
+    setTimeout(()=>{
+      const d=document.createElement('div');
+      d.className=`notif ${n.pos?'pos':'neg'}`;
+      d.textContent=n.txt;el.appendChild(d);
+      setTimeout(()=>d.remove(),2800);
+    },i*220);
+  });
+}
+
+function updateStats(){
+  document.getElementById('hunger-fill').style.width=S.hunger+'%';
+  document.getElementById('rep-fill').style.width=S.rep+'%';
+  document.getElementById('money-val').textContent='R'+S.money;
+  document.getElementById('week-val').textContent='Week '+S.week;
+}
+
+function showEnding(sc){
+  document.getElementById('dialogue-box').style.display='none';
+  document.getElementById('choices-box').style.display='none';
+  document.getElementById('character').style.opacity='0';
+  document.getElementById('illustration').innerHTML='';
+  document.getElementById('act-lbl').textContent='';
+  setBg(sc.bg);
+  document.getElementById('end-eyebrow').textContent=sc.eyebrow;
+  document.getElementById('end-title').textContent=sc.title;
+  document.getElementById('end-body').textContent=sc.body;
+  const vals={rep:S.rep,money:S.money,brazil:S.brazil};
+  document.getElementById('end-stats').innerHTML=sc.statLabels.map((lbl,i)=>
+    `<div class="end-stat"><strong>${vals[sc.statKeys[i]]}</strong><span>${lbl}</span></div>`
+  ).join('');
+  document.getElementById('end-screen').style.display='flex';
+}
+
+function restartGame(){
+  S={hunger:45,money:47,rep:60,brazil:0,week:8};
+  document.getElementById('end-screen').style.display='none';
+  document.getElementById('character').style.opacity='0';
+  document.getElementById('illustration').innerHTML='';
+  document.getElementById('title-screen').style.display='flex';
+}
+
+// Stars
+(function(){
+  const el=document.getElementById('stars');
+  for(let i=0;i<65;i++){
+    const s=document.createElement('div');s.className='star';
+    s.style.left=Math.random()*100+'%';s.style.top=Math.random()*100+'%';
+    s.style.setProperty('--d',(2+Math.random()*4)+'s');
+    s.style.setProperty('--delay',-(Math.random()*4)+'s');
+    s.style.setProperty('--op',(0.2+Math.random()*0.5).toString());
+    el.appendChild(s);
+  }
+})();
+</script>
+</body>
+</html>

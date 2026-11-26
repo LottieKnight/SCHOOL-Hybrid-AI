@@ -1,0 +1,37 @@
+.container {
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.title { margin: 0; font-size: 16px; font-weight: 700; color: var(--text-1); }
+.subtitle { margin: 4px 0 16px; font-size: 13px; color: var(--text-3); }
+
+.list { display: grid; gap: 12px; }
+
+.mentor {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px;
+  background: var(--surface-2);
+  border-radius: var(--r-md);
+  border: 1px solid var(--border);
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--gold);
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.meta { flex: 1; display: grid; gap: 2px; }
+
+.name { font-size: 14px; font-weight: 600; color: var(--text-1); }
+.xp { font-size: 11px; color: var(--text-3); }

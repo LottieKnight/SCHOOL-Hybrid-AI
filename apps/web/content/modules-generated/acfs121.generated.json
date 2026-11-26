@@ -1,0 +1,2163 @@
+{
+  "institution": "North-West University",
+  "moduleCode": "ACFS121",
+  "moduleName": "Financial Accounting 121",
+  "semester": "Semester 2, 2024",
+  "programme": "BCom",
+  "confidence": 0.82,
+  "generatedAt": "2026-04-03T00:00:00.000Z",
+  "sourceFiles": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "missingContent": [],
+  "studyUnits": [
+    "Chapter 1 — Bank Reconciliation",
+    "Chapter 2 — Debtors Control Account",
+    "Chapter 3 — Creditors Control Account",
+    "Chapter 4 — Petty Cash & Cash Journals",
+    "Chapter 5 — VAT",
+    "Chapter 6 — Salaries & Wages",
+    "Chapter 7 — Manufacturing Accounts",
+    "Chapter 8 — Partnerships"
+  ],
+  "chapters": [
+    "Chapter 1",
+    "Chapter 2",
+    "Chapter 3",
+    "Chapter 4",
+    "Chapter 5",
+    "Chapter 6",
+    "Chapter 7",
+    "Chapter 8"
+  ],
+  "topicSeeds": [
+    "Ch1 - Bank statement vs cash book",
+    "Ch1 - Outstanding deposits and unpresented cheques",
+    "Ch1 - Bank reconciliation statement",
+    "Ch2 - Debtors ledger",
+    "Ch2 - Credit sales and returns",
+    "Ch2 - Bad debts and allowances",
+    "Ch3 - Creditors ledger",
+    "Ch3 - Credit purchases and returns",
+    "Ch4 - Imprest system",
+    "Ch4 - Petty cash vouchers",
+    "Ch5 - Input and output VAT",
+    "Ch5 - VAT calculations at 15%",
+    "Ch6 - Gross and net pay",
+    "Ch6 - UIF and PAYE deductions",
+    "Ch7 - Prime cost and factory overhead",
+    "Ch7 - Manufacturing cost statement",
+    "Ch8 - Partnership agreement",
+    "Ch8 - Appropriation account"
+  ],
+  "keyTopics": [
+    "bank reconciliation",
+    "debtors control",
+    "creditors control",
+    "petty cash imprest",
+    "VAT 15%",
+    "PAYE and UIF",
+    "manufacturing cost statement",
+    "partnership appropriation"
+  ],
+  "quizSignals": [
+    "How do you prepare a bank reconciliation statement?",
+    "What is the difference between input and output VAT?",
+    "How is PAYE calculated on an employee's salary?",
+    "What entries appear in the debtors control account?",
+    "How do you calculate prime cost in a manufacturing account?",
+    "What is the imprest system in petty cash management?",
+    "How is profit shared in a partnership?"
+  ],
+  "assessmentPlan": [
+    {
+      "name": "Class Test 1",
+      "weight": "Best 2 of 3 = 85% of participation mark",
+      "due": "August",
+      "scope": "Ch 1-3"
+    },
+    {
+      "name": "Class Test 2",
+      "weight": "Best 2 of 3 = 85% of participation mark",
+      "due": "September",
+      "scope": "Ch 4-6"
+    },
+    {
+      "name": "Class Test 3",
+      "weight": "Best 2 of 3 = 85% of participation mark",
+      "due": "October",
+      "scope": "Ch 7-8"
+    },
+    {
+      "name": "Assignment",
+      "weight": "10% of participation mark",
+      "due": "September",
+      "scope": "Ch 1-6"
+    },
+    {
+      "name": "Attendance",
+      "weight": "5% of participation mark",
+      "due": "Ongoing",
+      "scope": "All chapters"
+    },
+    {
+      "name": "Semester Examination",
+      "weight": "50% of final mark",
+      "due": "November",
+      "scope": "Ch 1-8"
+    }
+  ],
+  "classSchedule": [
+    {
+      "label": "Week 1",
+      "summary": "Introduction to bank reconciliation and the cash book",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 2",
+      "summary": "Bank reconciliation statement — outstanding items and errors",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 3",
+      "summary": "Debtors control account and the debtors ledger",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 4",
+      "summary": "Bad debts, allowances and the debtors age analysis",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 5",
+      "summary": "Creditors control account and the creditors ledger",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 6",
+      "summary": "Petty cash — imprest system and cash journals",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 7",
+      "summary": "VAT — input tax, output tax and VAT returns",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 8",
+      "summary": "Salaries and wages — gross pay, deductions and net pay",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 9",
+      "summary": "Manufacturing cost statement — prime cost and factory overhead",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 10",
+      "summary": "Partnerships — formation, appropriation and financial statements",
+      "chapter": "Chapter 8"
+    }
+  ],
+  "chapterInsights": [
+    {
+      "chapter": "Chapter 1",
+      "title": "Bank Reconciliation",
+      "outcomes": [
+        "Identify differences between the bank statement and cash book balance",
+        "Prepare an updated cash book",
+        "Prepare a bank reconciliation statement",
+        "Identify timing differences and errors"
+      ],
+      "formulas": [
+        "Reconciled balance = Bank statement balance + Outstanding deposits − Unpresented cheques ± Errors",
+        "Updated cash book balance = Opening cash book balance + Receipts − Payments ± Adjustments"
+      ],
+      "definitions": [
+        {
+          "term": "Outstanding deposit",
+          "definition": "A deposit recorded in the cash book but not yet reflected on the bank statement."
+        },
+        {
+          "term": "Unpresented cheque",
+          "definition": "A cheque issued and recorded in the cash book but not yet presented to the bank for payment."
+        },
+        {
+          "term": "Bank reconciliation statement",
+          "definition": "A statement that explains the difference between the bank statement balance and the updated cash book balance."
+        },
+        {
+          "term": "Debit order",
+          "definition": "A pre-authorised payment deducted directly from a bank account, often appearing on the bank statement before being recorded in the cash book."
+        }
+      ],
+      "revisionPrompts": [
+        "List three reasons why the cash book balance may differ from the bank statement balance.",
+        "Explain the steps to prepare a bank reconciliation statement.",
+        "What adjustments are typically made to the cash book before reconciliation?",
+        "How would an error in the cash book be corrected in the reconciliation?"
+      ],
+      "saContext": "South African businesses receive monthly bank statements from commercial banks such as FNB, ABSA, Standard Bank, Nedbank and Capitec. Debit orders for insurance, municipal services and subscriptions frequently create timing differences. The South African Reserve Bank regulates clearing times for cheques and electronic funds transfers (EFTs).",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+          "https://www.iasplus.com/en/standards/other/framework",
+          "https://www.ifrs.org/issued-standards/list-of-standards/",
+          "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 2",
+      "title": "Debtors Control Account",
+      "outcomes": [
+        "Record credit sales and returns in the debtors control account",
+        "Account for bad debts and bad debt allowances",
+        "Reconcile the debtors control account to the debtors ledger",
+        "Prepare a debtors age analysis"
+      ],
+      "formulas": [
+        "Closing debtors balance = Opening balance + Credit sales − Receipts from debtors − Returns − Bad debts written off",
+        "Net realisable value of debtors = Gross debtors − Allowance for bad debts"
+      ],
+      "definitions": [
+        {
+          "term": "Debtors control account",
+          "definition": "A general ledger account that shows the total amount owed by all credit customers (debtors)."
+        },
+        {
+          "term": "Bad debt",
+          "definition": "An amount owed by a debtor that is considered irrecoverable and written off as an expense."
+        },
+        {
+          "term": "Allowance for bad debts",
+          "definition": "A provision created for debts that may not be collected, reducing the net debtors balance on the balance sheet."
+        },
+        {
+          "term": "Debtors age analysis",
+          "definition": "A report classifying debtors' balances by how long they have been outstanding (30, 60, 90+ days)."
+        }
+      ],
+      "revisionPrompts": [
+        "What transactions appear on the debit side of the debtors control account?",
+        "How does writing off a bad debt affect the debtors control account?",
+        "Explain the difference between a bad debt and an allowance for bad debts.",
+        "How is the debtors age analysis used in credit management?"
+      ],
+      "saContext": "South African businesses often sell goods on credit under agreed payment terms (e.g. 30 days). The National Credit Act (NCA) governs credit agreements and prescribes how debts may be collected. Many companies use debt collectors regulated by the Debt Collectors Act. IFRS requires allowances for expected credit losses.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+          "https://www.iasplus.com/en/standards/other/framework",
+          "https://www.ifrs.org/issued-standards/list-of-standards/",
+          "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 3",
+      "title": "Creditors Control Account",
+      "outcomes": [
+        "Record credit purchases and returns in the creditors control account",
+        "Reconcile the creditors control account to the creditors ledger",
+        "Prepare a creditors reconciliation statement",
+        "Identify errors in the creditors records"
+      ],
+      "formulas": [
+        "Closing creditors balance = Opening balance + Credit purchases − Payments to creditors − Returns to suppliers"
+      ],
+      "definitions": [
+        {
+          "term": "Creditors control account",
+          "definition": "A general ledger account representing the total amount owed to all suppliers (creditors)."
+        },
+        {
+          "term": "Purchase returns",
+          "definition": "Goods returned to a supplier, resulting in a reduction of the amount owed to that creditor."
+        },
+        {
+          "term": "Creditors ledger",
+          "definition": "A subsidiary ledger containing individual accounts for each supplier, the sum of which must agree to the creditors control account."
+        },
+        {
+          "term": "Creditors reconciliation",
+          "definition": "The process of reconciling the creditors ledger balance against the supplier's statement of account."
+        }
+      ],
+      "revisionPrompts": [
+        "What transactions appear on the credit side of the creditors control account?",
+        "How do purchase returns affect the creditors control account?",
+        "Explain why a business reconciles its creditors ledger to the supplier's statement.",
+        "What is the relationship between the creditors control account and the creditors ledger?"
+      ],
+      "saContext": "South African businesses typically negotiate 30–60 day credit terms with suppliers. Managing creditors is critical for cash flow, particularly for small and medium enterprises (SMEs). SARS requires accurate records of purchases for VAT input claims. The Companies Act requires proper record-keeping of all liabilities.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+          "https://www.iasplus.com/en/standards/other/framework",
+          "https://www.ifrs.org/issued-standards/list-of-standards/",
+          "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 4",
+      "title": "Petty Cash & Cash Journals",
+      "outcomes": [
+        "Explain the imprest system for petty cash management",
+        "Record petty cash transactions using petty cash vouchers",
+        "Complete the petty cash journal",
+        "Replenish the petty cash float under the imprest system"
+      ],
+      "formulas": [
+        "Petty cash replenishment = Imprest amount − Closing petty cash balance",
+        "Closing petty cash balance = Opening float − Total payments made"
+      ],
+      "definitions": [
+        {
+          "term": "Imprest system",
+          "definition": "A petty cash system where the float is restored to a fixed amount at each replenishment date."
+        },
+        {
+          "term": "Petty cash float",
+          "definition": "The fixed amount of cash maintained in the petty cash box at all times under the imprest system."
+        },
+        {
+          "term": "Petty cash voucher",
+          "definition": "A source document authorising and recording a small cash payment from petty cash."
+        },
+        {
+          "term": "Cash journal",
+          "definition": "A special journal used to record all cash receipts and payments of a business."
+        }
+      ],
+      "revisionPrompts": [
+        "Describe how the imprest system works.",
+        "What information should appear on a petty cash voucher?",
+        "How is the petty cash float replenished at month-end?",
+        "List three types of expenses typically paid from petty cash."
+      ],
+      "saContext": "Petty cash is widely used by South African businesses for small day-to-day expenses such as parking, postage and refreshments. Businesses must keep petty cash vouchers for SARS audit purposes. The South African Revenue Service (SARS) requires receipts for all business expenses claimed as deductions.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+          "https://www.iasplus.com/en/standards/other/framework",
+          "https://www.ifrs.org/issued-standards/list-of-standards/",
+          "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 5",
+      "title": "VAT",
+      "outcomes": [
+        "Distinguish between input VAT and output VAT",
+        "Calculate VAT at the standard rate of 15%",
+        "Complete a VAT return",
+        "Record VAT transactions in the accounting records"
+      ],
+      "formulas": [
+        "VAT amount = Price excluding VAT × 15%",
+        "Price including VAT = Price excluding VAT × 1.15",
+        "Price excluding VAT = Price including VAT ÷ 1.15",
+        "VAT payable to SARS = Output VAT − Input VAT"
+      ],
+      "definitions": [
+        {
+          "term": "Output VAT",
+          "definition": "VAT charged by a business on its sales of goods or services, collected on behalf of SARS."
+        },
+        {
+          "term": "Input VAT",
+          "definition": "VAT paid by a business on its purchases of goods or services, which can be claimed back from SARS."
+        },
+        {
+          "term": "VAT vendor",
+          "definition": "A business registered with SARS to collect and pay over VAT, required when annual turnover exceeds R1 million."
+        },
+        {
+          "term": "Zero-rated supply",
+          "definition": "A taxable supply on which VAT is charged at 0%, such as basic food items and exports in South Africa."
+        }
+      ],
+      "revisionPrompts": [
+        "What is the current standard VAT rate in South Africa?",
+        "Explain the difference between input VAT and output VAT.",
+        "How do you calculate the VAT-exclusive price from a VAT-inclusive price?",
+        "Give two examples of zero-rated supplies in South Africa."
+      ],
+      "saContext": "South Africa's standard VAT rate is 15% (increased from 14% in 2018, and further to 15.5% from 1 May 2025). VAT is administered by SARS under the Value-Added Tax Act 89 of 1991. Businesses with taxable turnover exceeding R1 million must register as VAT vendors. Basic food items such as bread, maize meal and milk are zero-rated to protect low-income households.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+          "https://www.iasplus.com/en/standards/other/framework",
+          "https://www.ifrs.org/issued-standards/list-of-standards/",
+          "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 6",
+      "title": "Salaries & Wages",
+      "outcomes": [
+        "Distinguish between salaries and wages",
+        "Calculate gross pay including overtime and allowances",
+        "Calculate statutory deductions (PAYE, UIF, pension)",
+        "Prepare a payroll and record salary journal entries"
+      ],
+      "formulas": [
+        "Gross pay = Basic salary + Overtime + Allowances + Bonuses",
+        "Net pay = Gross pay − PAYE − UIF − Pension − Medical aid − Other deductions",
+        "UIF contribution (employee) = 1% of gross pay (max R177.12 per month)",
+        "UIF contribution (employer) = 1% of gross pay (max R177.12 per month)"
+      ],
+      "definitions": [
+        {
+          "term": "PAYE",
+          "definition": "Pay As You Earn — income tax deducted from employees' salaries by the employer and paid to SARS monthly."
+        },
+        {
+          "term": "UIF",
+          "definition": "Unemployment Insurance Fund — a statutory contribution by both employer and employee, providing short-term relief when employment ends."
+        },
+        {
+          "term": "Gross pay",
+          "definition": "Total earnings before any deductions, including basic salary, overtime, allowances and bonuses."
+        },
+        {
+          "term": "Net pay",
+          "definition": "The amount actually paid to the employee after all deductions have been made from gross pay."
+        }
+      ],
+      "revisionPrompts": [
+        "What is the difference between a salary and a wage?",
+        "List four deductions that may be made from an employee's gross pay.",
+        "Who is responsible for paying PAYE to SARS?",
+        "How is UIF calculated for both the employee and employer?"
+      ],
+      "saContext": "In South Africa, employer payroll obligations are governed by the Income Tax Act (PAYE), the Unemployment Insurance Contributions Act (UIF), and the Skills Development Levies Act (SDL). Employers must submit monthly EMP201 returns to SARS. The National Minimum Wage Act sets a floor for hourly wages. The Basic Conditions of Employment Act governs overtime pay rates.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+          "https://www.iasplus.com/en/standards/other/framework",
+          "https://www.ifrs.org/issued-standards/list-of-standards/",
+          "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 7",
+      "title": "Manufacturing Accounts",
+      "outcomes": [
+        "Classify costs as direct and indirect",
+        "Calculate prime cost and factory overhead",
+        "Prepare a manufacturing cost statement",
+        "Determine the cost of finished goods"
+      ],
+      "formulas": [
+        "Prime cost = Direct materials + Direct labour + Direct expenses",
+        "Factory cost = Prime cost + Factory overhead",
+        "Cost of production = Opening WIP + Factory cost − Closing WIP",
+        "Cost of goods sold = Opening finished goods + Cost of production − Closing finished goods"
+      ],
+      "definitions": [
+        {
+          "term": "Prime cost",
+          "definition": "The total of all direct costs — direct materials, direct labour and direct expenses — that can be directly traced to a product."
+        },
+        {
+          "term": "Factory overhead",
+          "definition": "Indirect manufacturing costs that cannot be directly traced to a specific product, such as factory rent and depreciation of machinery."
+        },
+        {
+          "term": "Work-in-progress (WIP)",
+          "definition": "Goods that have been partially processed but are not yet complete at the end of the accounting period."
+        },
+        {
+          "term": "Direct materials",
+          "definition": "Raw materials that form part of the finished product and can be directly attributed to it."
+        }
+      ],
+      "revisionPrompts": [
+        "What is the difference between prime cost and factory overhead?",
+        "How does work-in-progress affect the manufacturing cost statement?",
+        "List three examples of factory overhead costs.",
+        "How do you calculate the cost of goods sold for a manufacturer?"
+      ],
+      "saContext": "Manufacturing is a significant sector of the South African economy, employing large numbers of workers. South African manufacturers must comply with the Companies Act and IFRS for SMEs when reporting inventory and production costs. Many manufacturers deal with load-shedding costs, which can be classified as factory overhead. The National Credit Act and consumer protection legislation also affect pricing of manufactured goods.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+          "https://www.iasplus.com/en/standards/other/framework",
+          "https://www.ifrs.org/issued-standards/list-of-standards/",
+          "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 8",
+      "title": "Partnerships",
+      "outcomes": [
+        "Explain the characteristics and formation of a partnership",
+        "Prepare the partnership appropriation account",
+        "Record drawings and capital contributions",
+        "Prepare partnership financial statements"
+      ],
+      "formulas": [
+        "Net profit available for distribution = Net profit ± Prior charges (salaries, interest on capital)",
+        "Interest on capital = Partner's capital × Agreed interest rate",
+        "Residual profit share = Remaining profit × Each partner's profit-sharing ratio"
+      ],
+      "definitions": [
+        {
+          "term": "Partnership",
+          "definition": "A business entity formed by two or more persons who agree to carry on business together with the aim of making a profit and sharing that profit."
+        },
+        {
+          "term": "Appropriation account",
+          "definition": "An account used to distribute net profit among partners according to the partnership agreement, showing salaries, interest on capital and residual profit shares."
+        },
+        {
+          "term": "Capital account",
+          "definition": "A partner's permanent account recording their initial and subsequent capital contributions to the partnership."
+        },
+        {
+          "term": "Current account",
+          "definition": "A partner's account recording their share of profit, drawings, interest and salaries during a period."
+        }
+      ],
+      "revisionPrompts": [
+        "What are three key characteristics of a partnership?",
+        "How is net profit distributed in the appropriation account?",
+        "What is the difference between a partner's capital account and current account?",
+        "How are drawings recorded for a partner?"
+      ],
+      "saContext": "Partnerships in South Africa are governed by common law and the Partnership Act. They are popular among professionals such as attorneys, accountants and doctors. Unlike companies, partnerships are not separate legal entities — partners have unlimited personal liability. The South African Revenue Service (SARS) taxes each partner individually on their share of partnership income.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+          "https://www.iasplus.com/en/standards/other/framework",
+          "https://www.ifrs.org/issued-standards/list-of-standards/",
+          "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931"
+        ]
+      }
+    }
+  ],
+  "chapterStudyItems": [
+    {
+      "chapter": "Chapter 1",
+      "flashcards": [
+        {
+          "id": "ch1-fc-1",
+          "chapter": "Chapter 1",
+          "front": "What is an outstanding deposit?",
+          "back": "A deposit recorded in the cash book but not yet reflected on the bank statement.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-2",
+          "chapter": "Chapter 1",
+          "front": "What is an unpresented cheque?",
+          "back": "A cheque issued and recorded in the cash book but not yet presented to the bank for payment.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-3",
+          "chapter": "Chapter 1",
+          "front": "What does a bank reconciliation statement do?",
+          "back": "It explains the difference between the bank statement balance and the updated cash book balance.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-4",
+          "chapter": "Chapter 1",
+          "front": "What adjustment is made to the bank statement balance for outstanding deposits?",
+          "back": "Outstanding deposits are added to the bank statement balance in the reconciliation.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch1-q1",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following would appear as an addition in a bank reconciliation statement (starting from the bank statement balance)?",
+          "options": [
+            "Outstanding deposits",
+            "Unpresented cheques",
+            "Bank charges",
+            "Interest received by the bank"
+          ],
+          "answer": "Outstanding deposits",
+          "explanation": "Outstanding deposits are in the cash book but not yet on the bank statement, so they are added to the bank statement balance to reconcile to the cash book.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q2",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Bank charges appear on the bank statement but not in the cash book. How are they treated when updating the cash book?",
+          "options": [
+            "They are deducted from the cash book balance",
+            "They are added to the cash book balance",
+            "They are ignored",
+            "They are added to the bank statement balance"
+          ],
+          "answer": "They are deducted from the cash book balance",
+          "explanation": "Bank charges reduce the business's bank balance. Since they appear on the bank statement but not yet in the cash book, the cash book must be updated by deducting them.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q3",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "An unpresented cheque of R2 000 exists at month-end. How does this affect the bank reconciliation?",
+          "options": [
+            "It is deducted from the bank statement balance",
+            "It is added to the bank statement balance",
+            "It is deducted from the updated cash book balance",
+            "It has no effect on the reconciliation"
+          ],
+          "answer": "It is deducted from the bank statement balance",
+          "explanation": "An unpresented cheque has been recorded in the cash book (reducing the balance) but not yet cleared by the bank, so it must be deducted from the bank statement balance to reconcile.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch1-we-1",
+          "chapter": "Chapter 1",
+          "title": "Preparing a Bank Reconciliation Statement",
+          "summary": "Reconcile the cash book balance to the bank statement balance at month-end.",
+          "problem": "The cash book of Thabo Traders shows a balance of R8 500 on 31 August 2024. The bank statement shows a balance of R9 200. Investigation reveals: outstanding deposits R1 000; unpresented cheques R1 500; bank charges R200 not yet in the cash book.",
+          "steps": [
+            {
+              "label": "Step 1: Update the cash book",
+              "explanation": "Deduct bank charges R200 from the cash book: R8 500 − R200 = R8 300 (updated cash book balance)."
+            },
+            {
+              "label": "Step 2: Prepare the bank reconciliation statement",
+              "explanation": "Start with the bank statement balance: R9 200. Add outstanding deposits: +R1 000 = R10 200. Deduct unpresented cheques: −R1 500 = R8 700."
+            },
+            {
+              "label": "Step 3: Check",
+              "explanation": "The reconciled bank balance (R8 700) should equal the updated cash book balance. Here R8 700 ≠ R8 300, indicating a further difference of R400 to investigate — possibly another unrecorded item."
+            }
+          ],
+          "answer": "Updated cash book balance: R8 300. Reconciled bank statement balance: R8 700. A difference of R400 remains to be investigated.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 2",
+      "flashcards": [
+        {
+          "id": "ch2-fc-1",
+          "chapter": "Chapter 2",
+          "front": "What is a debtors control account?",
+          "back": "A general ledger account that shows the total amount owed by all credit customers.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-2",
+          "chapter": "Chapter 2",
+          "front": "What is the difference between a bad debt and an allowance for bad debts?",
+          "back": "A bad debt is an irrecoverable amount written off as an expense; an allowance for bad debts is a provision for debts that may not be collected, reducing the net debtors balance.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-3",
+          "chapter": "Chapter 2",
+          "front": "What is a debtors age analysis?",
+          "back": "A report classifying debtor balances by how long they have been outstanding (e.g. 30, 60, 90+ days) to identify overdue accounts.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-4",
+          "chapter": "Chapter 2",
+          "front": "How is the closing debtors balance calculated?",
+          "back": "Closing debtors balance = Opening balance + Credit sales − Receipts from debtors − Returns − Bad debts written off.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch2-q1",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "Which side of the debtors control account records credit sales?",
+          "options": [
+            "Debit side",
+            "Credit side",
+            "Neither side",
+            "Both sides"
+          ],
+          "answer": "Debit side",
+          "explanation": "Credit sales increase the amount owed by debtors, so they are recorded on the debit side of the debtors control account.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q2",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "When a bad debt is written off, which account is debited?",
+          "options": [
+            "Bad debts expense",
+            "Debtors control",
+            "Sales",
+            "Allowance for bad debts"
+          ],
+          "answer": "Bad debts expense",
+          "explanation": "Writing off a bad debt records an expense (debit Bad debts expense) and reduces the amount owed by debtors (credit Debtors control).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q3",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "A debtor returns goods worth R500. How is this recorded in the debtors control account?",
+          "options": [
+            "Credit R500",
+            "Debit R500",
+            "No entry required",
+            "Debit R500 and credit R500 simultaneously"
+          ],
+          "answer": "Credit R500",
+          "explanation": "Sales returns reduce the amount owed by the debtor, so the debtors control account is credited with R500.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch2-we-1",
+          "chapter": "Chapter 2",
+          "title": "Preparing the Debtors Control Account",
+          "summary": "Calculate the closing balance of the debtors control account for the month.",
+          "problem": "Opening debtors balance: R15 000. During the month: credit sales R30 000; receipts from debtors R20 000; sales returns R2 000; bad debts written off R1 000.",
+          "steps": [
+            {
+              "label": "Step 1: Set up the debtors control account",
+              "explanation": "Debit side: Opening balance R15 000 + Credit sales R30 000 = R45 000."
+            },
+            {
+              "label": "Step 2: Record credit side entries",
+              "explanation": "Credit side: Receipts R20 000 + Returns R2 000 + Bad debts R1 000 = R23 000."
+            },
+            {
+              "label": "Step 3: Calculate closing balance",
+              "explanation": "Closing balance = R45 000 − R23 000 = R22 000 (debit balance)."
+            }
+          ],
+          "answer": "The closing debtors control account balance is R22 000 (debit).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 3",
+      "flashcards": [
+        {
+          "id": "ch3-fc-1",
+          "chapter": "Chapter 3",
+          "front": "What is the creditors control account?",
+          "back": "A general ledger account representing the total amount owed to all suppliers (creditors).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-2",
+          "chapter": "Chapter 3",
+          "front": "What are purchase returns?",
+          "back": "Goods returned to a supplier, resulting in a reduction of the amount owed to that creditor.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-3",
+          "chapter": "Chapter 3",
+          "front": "What is the creditors ledger?",
+          "back": "A subsidiary ledger containing individual accounts for each supplier; the total of all accounts must agree with the creditors control account.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-4",
+          "chapter": "Chapter 3",
+          "front": "How is the closing creditors balance calculated?",
+          "back": "Closing creditors balance = Opening balance + Credit purchases − Payments to creditors − Returns to suppliers.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch3-q1",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "Credit purchases are recorded on which side of the creditors control account?",
+          "options": [
+            "Credit side",
+            "Debit side",
+            "Asset side",
+            "Neither side"
+          ],
+          "answer": "Credit side",
+          "explanation": "Credit purchases increase the amount owed to suppliers, so they are recorded on the credit side of the creditors control account.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q2",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "When goods are returned to a supplier, how is the creditors control account affected?",
+          "options": [
+            "It is debited (reduced)",
+            "It is credited (increased)",
+            "It is unaffected",
+            "It is closed"
+          ],
+          "answer": "It is debited (reduced)",
+          "explanation": "Returning goods to a supplier reduces the amount owed, so the creditors control account is debited.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q3",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "Why would a business reconcile its creditors ledger balance against a supplier's statement?",
+          "options": [
+            "To identify discrepancies and avoid overpaying or underpaying a supplier",
+            "To calculate the business's gross profit",
+            "To prepare the income statement",
+            "To determine the bank balance"
+          ],
+          "answer": "To identify discrepancies and avoid overpaying or underpaying a supplier",
+          "explanation": "Reconciling to the supplier's statement ensures that the business's records agree with what the supplier believes is owed, preventing payment errors.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch3-we-1",
+          "chapter": "Chapter 3",
+          "title": "Preparing the Creditors Control Account",
+          "summary": "Calculate the closing balance of the creditors control account.",
+          "problem": "Opening creditors balance: R10 000. During the month: credit purchases R25 000; payments to creditors R18 000; purchase returns R3 000.",
+          "steps": [
+            {
+              "label": "Step 1: Credit side entries",
+              "explanation": "Opening balance R10 000 + Credit purchases R25 000 = R35 000 on the credit side."
+            },
+            {
+              "label": "Step 2: Debit side entries",
+              "explanation": "Payments R18 000 + Returns R3 000 = R21 000 on the debit side."
+            },
+            {
+              "label": "Step 3: Calculate closing balance",
+              "explanation": "Closing balance = R35 000 − R21 000 = R14 000 (credit balance)."
+            }
+          ],
+          "answer": "The closing creditors control account balance is R14 000 (credit), representing amounts still owed to suppliers.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 4",
+      "flashcards": [
+        {
+          "id": "ch4-fc-1",
+          "chapter": "Chapter 4",
+          "front": "What is the imprest system?",
+          "back": "A petty cash system where the float is restored to a fixed amount at each replenishment date.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-2",
+          "chapter": "Chapter 4",
+          "front": "How is the petty cash replenishment amount calculated?",
+          "back": "Replenishment = Imprest amount − Closing petty cash balance (i.e. the total of all payments made during the period).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-3",
+          "chapter": "Chapter 4",
+          "front": "What is a petty cash voucher?",
+          "back": "A source document authorising and recording a small cash payment from petty cash.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-4",
+          "chapter": "Chapter 4",
+          "front": "What is a cash journal?",
+          "back": "A special journal used to record all cash receipts (CRJ) and cash payments (CPJ) of a business.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch4-q1",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Under the imprest system, the petty cash float is R500. At month-end, R380 has been spent. How much must be replenished?",
+          "options": [
+            "R380",
+            "R500",
+            "R120",
+            "R880"
+          ],
+          "answer": "R380",
+          "explanation": "The replenishment equals the total spent, restoring the float to R500. R500 − R120 remaining = R380 must be replenished.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q2",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "What source document authorises a petty cash payment?",
+          "options": [
+            "Petty cash voucher",
+            "Bank statement",
+            "Purchase order",
+            "Invoice"
+          ],
+          "answer": "Petty cash voucher",
+          "explanation": "A petty cash voucher is the internal source document that authorises and records each small cash payment from the petty cash box.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q3",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is a key advantage of the imprest system?",
+          "options": [
+            "It provides a built-in control because the cash plus vouchers must always equal the float",
+            "It eliminates the need for any receipts",
+            "It allows unlimited spending",
+            "It removes the need for a cash book"
+          ],
+          "answer": "It provides a built-in control because the cash plus vouchers must always equal the float",
+          "explanation": "At any time, cash remaining + vouchers for payments made should equal the imprest amount, making it easy to detect discrepancies.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch4-we-1",
+          "chapter": "Chapter 4",
+          "title": "Petty Cash Replenishment Under the Imprest System",
+          "summary": "Determine the replenishment amount and record the petty cash entries.",
+          "problem": "Lerato's Boutique has a petty cash float (imprest) of R1 000. During October 2024 the following payments were made: postage R120, cleaning materials R250, refreshments R180, courier fees R300. Calculate the replenishment needed and the closing float.",
+          "steps": [
+            {
+              "label": "Step 1: Total payments",
+              "explanation": "Total payments = R120 + R250 + R180 + R300 = R850."
+            },
+            {
+              "label": "Step 2: Closing cash in box",
+              "explanation": "Cash remaining = R1 000 − R850 = R150."
+            },
+            {
+              "label": "Step 3: Replenishment",
+              "explanation": "Replenishment = Imprest amount − Closing cash = R1 000 − R150 = R850."
+            },
+            {
+              "label": "Step 4: Journal entry",
+              "explanation": "Debit each expense account with its amount; Credit Bank R850 (replenishment cheque drawn)."
+            }
+          ],
+          "answer": "Replenishment amount is R850. After replenishment, the petty cash box contains R1 000 again.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 5",
+      "flashcards": [
+        {
+          "id": "ch5-fc-1",
+          "chapter": "Chapter 5",
+          "front": "What is output VAT?",
+          "back": "VAT charged by a business on its sales of goods or services, collected on behalf of SARS.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-2",
+          "chapter": "Chapter 5",
+          "front": "What is input VAT?",
+          "back": "VAT paid by a business on its purchases, which can be claimed back from SARS.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-3",
+          "chapter": "Chapter 5",
+          "front": "How do you calculate the VAT-exclusive price from a VAT-inclusive price?",
+          "back": "VAT-exclusive price = VAT-inclusive price ÷ 1.15.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-4",
+          "chapter": "Chapter 5",
+          "front": "When must a business register as a VAT vendor in South Africa?",
+          "back": "When annual taxable turnover exceeds R1 million (compulsory registration).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch5-q1",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "A business sells goods for R11 500 including VAT at 15%. What is the VAT amount?",
+          "options": [
+            "R1 500",
+            "R1 725",
+            "R1 650",
+            "R1 000"
+          ],
+          "answer": "R1 500",
+          "explanation": "VAT = R11 500 ÷ 1.15 × 0.15 = R10 000 × 0.15 = R1 500. The VAT-exclusive price is R10 000 and VAT is R1 500.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q2",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "How is the amount payable to SARS for VAT calculated?",
+          "options": [
+            "Output VAT minus Input VAT",
+            "Input VAT minus Output VAT",
+            "Output VAT plus Input VAT",
+            "Total sales multiplied by 15%"
+          ],
+          "answer": "Output VAT minus Input VAT",
+          "explanation": "VAT payable to SARS = Output VAT (collected on sales) − Input VAT (paid on purchases). If positive, the business owes SARS; if negative, SARS owes the business.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q3",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is an example of a zero-rated supply in South Africa?",
+          "options": [
+            "Brown bread",
+            "Restaurant meals",
+            "Clothing",
+            "Furniture"
+          ],
+          "answer": "Brown bread",
+          "explanation": "Basic food items such as brown bread, maize meal, milk and rice are zero-rated in South Africa to protect lower-income households from the burden of VAT.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch5-we-1",
+          "chapter": "Chapter 5",
+          "title": "Calculating VAT Payable to SARS",
+          "summary": "Determine the net VAT payable to SARS for a two-month VAT period.",
+          "problem": "Sipho's Hardware is a registered VAT vendor. For the period July–August 2024: total sales (VAT inclusive) R230 000; total purchases (VAT inclusive) R115 000. The VAT rate is 15%. Calculate the VAT payable to SARS.",
+          "steps": [
+            {
+              "label": "Step 1: Calculate output VAT",
+              "explanation": "Output VAT = R230 000 ÷ 1.15 × 0.15 = R200 000 × 15% = R30 000."
+            },
+            {
+              "label": "Step 2: Calculate input VAT",
+              "explanation": "Input VAT = R115 000 ÷ 1.15 × 0.15 = R100 000 × 15% = R15 000."
+            },
+            {
+              "label": "Step 3: Calculate VAT payable",
+              "explanation": "VAT payable = Output VAT − Input VAT = R30 000 − R15 000 = R15 000."
+            }
+          ],
+          "answer": "Sipho's Hardware must pay R15 000 to SARS for the July–August 2024 VAT period.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 6",
+      "flashcards": [
+        {
+          "id": "ch6-fc-1",
+          "chapter": "Chapter 6",
+          "front": "What is PAYE?",
+          "back": "Pay As You Earn — income tax deducted from employees' salaries by the employer and paid to SARS monthly.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-2",
+          "chapter": "Chapter 6",
+          "front": "What is UIF and who contributes to it?",
+          "back": "The Unemployment Insurance Fund — both the employer and employee each contribute 1% of gross pay (subject to a monthly maximum).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-3",
+          "chapter": "Chapter 6",
+          "front": "What is gross pay?",
+          "back": "Total earnings before any deductions, including basic salary, overtime, allowances and bonuses.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-4",
+          "chapter": "Chapter 6",
+          "front": "How is net pay calculated?",
+          "back": "Net pay = Gross pay − PAYE − UIF − Pension − Medical aid − Other deductions.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch6-q1",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "Who is responsible for deducting and paying PAYE to SARS?",
+          "options": [
+            "The employer",
+            "The employee",
+            "SARS directly",
+            "The Department of Labour"
+          ],
+          "answer": "The employer",
+          "explanation": "Employers are legally required to deduct PAYE from employees' salaries and remit it to SARS monthly via the EMP201 return.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q2",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "An employee earns a gross salary of R20 000 per month. What is the employee's UIF contribution (at 1%)?",
+          "options": [
+            "R200",
+            "R400",
+            "R177.12",
+            "R100"
+          ],
+          "answer": "R200",
+          "explanation": "Employee UIF = 1% × R20 000 = R200. (Note: a monthly ceiling applies, but R200 is below the ceiling for this example.)",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q3",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is NOT a statutory deduction from an employee's salary?",
+          "options": [
+            "Medical aid contribution",
+            "PAYE",
+            "UIF",
+            "Skills Development Levy"
+          ],
+          "answer": "Medical aid contribution",
+          "explanation": "Medical aid contributions are voluntary deductions. PAYE, UIF and the Skills Development Levy are statutory (legally required) deductions. Note: SDL is paid by the employer, not deducted from the employee.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch6-we-1",
+          "chapter": "Chapter 6",
+          "title": "Calculating Net Pay",
+          "summary": "Determine an employee's net pay after all deductions.",
+          "problem": "Zanele earns a basic salary of R18 000 per month. She receives a travel allowance of R2 000. Deductions: PAYE R3 200, UIF (1%) R200, pension fund R900, medical aid R1 500. Calculate her net pay.",
+          "steps": [
+            {
+              "label": "Step 1: Calculate gross pay",
+              "explanation": "Gross pay = Basic salary R18 000 + Travel allowance R2 000 = R20 000."
+            },
+            {
+              "label": "Step 2: Total deductions",
+              "explanation": "Total deductions = PAYE R3 200 + UIF R200 + Pension R900 + Medical aid R1 500 = R5 800."
+            },
+            {
+              "label": "Step 3: Net pay",
+              "explanation": "Net pay = Gross pay − Total deductions = R20 000 − R5 800 = R14 200."
+            }
+          ],
+          "answer": "Zanele's net pay is R14 200 per month.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 7",
+      "flashcards": [
+        {
+          "id": "ch7-fc-1",
+          "chapter": "Chapter 7",
+          "front": "What is prime cost?",
+          "back": "The total of all direct costs: direct materials + direct labour + direct expenses.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-2",
+          "chapter": "Chapter 7",
+          "front": "What is factory overhead?",
+          "back": "Indirect manufacturing costs that cannot be directly traced to a product, such as factory rent, depreciation of machinery and indirect labour.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-3",
+          "chapter": "Chapter 7",
+          "front": "What is work-in-progress (WIP)?",
+          "back": "Goods that are partially manufactured at the end of an accounting period — started but not yet completed.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-4",
+          "chapter": "Chapter 7",
+          "front": "How is the cost of production calculated?",
+          "back": "Cost of production = Opening WIP + Factory cost (Prime cost + Factory overhead) − Closing WIP.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch7-q1",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is a direct cost in a manufacturing business?",
+          "options": [
+            "Raw materials used in production",
+            "Factory manager's salary",
+            "Depreciation of factory building",
+            "Factory insurance"
+          ],
+          "answer": "Raw materials used in production",
+          "explanation": "Raw materials that form part of the finished product can be directly traced to it, making them a direct cost (part of prime cost).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q2",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "Factory cost equals:",
+          "options": [
+            "Prime cost plus factory overhead",
+            "Direct materials plus direct labour only",
+            "Prime cost minus factory overhead",
+            "Direct materials only"
+          ],
+          "answer": "Prime cost plus factory overhead",
+          "explanation": "Factory cost = Prime cost (direct costs) + Factory overhead (indirect costs). This represents the total cost incurred in the factory.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q3",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "Opening WIP is R5 000, factory cost for the year is R80 000, and closing WIP is R8 000. What is the cost of production?",
+          "options": [
+            "R77 000",
+            "R85 000",
+            "R80 000",
+            "R75 000"
+          ],
+          "answer": "R77 000",
+          "explanation": "Cost of production = Opening WIP R5 000 + Factory cost R80 000 − Closing WIP R8 000 = R77 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch7-we-1",
+          "chapter": "Chapter 7",
+          "title": "Preparing a Manufacturing Cost Statement",
+          "summary": "Calculate prime cost, factory cost and cost of production.",
+          "problem": "For the year ended 28 February 2024: Direct materials R45 000; Direct labour R30 000; Direct expenses R5 000; Factory overhead R20 000; Opening WIP R8 000; Closing WIP R6 000.",
+          "steps": [
+            {
+              "label": "Step 1: Prime cost",
+              "explanation": "Prime cost = Direct materials R45 000 + Direct labour R30 000 + Direct expenses R5 000 = R80 000."
+            },
+            {
+              "label": "Step 2: Factory cost",
+              "explanation": "Factory cost = Prime cost R80 000 + Factory overhead R20 000 = R100 000."
+            },
+            {
+              "label": "Step 3: Cost of production",
+              "explanation": "Cost of production = Opening WIP R8 000 + Factory cost R100 000 − Closing WIP R6 000 = R102 000."
+            }
+          ],
+          "answer": "Prime cost: R80 000. Factory cost: R100 000. Cost of production: R102 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 8",
+      "flashcards": [
+        {
+          "id": "ch8-fc-1",
+          "chapter": "Chapter 8",
+          "front": "What is a partnership?",
+          "back": "A business entity formed by two or more persons who agree to carry on business together with the aim of making a profit and sharing it.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-2",
+          "chapter": "Chapter 8",
+          "front": "What is the appropriation account in a partnership?",
+          "back": "An account used to distribute net profit among partners according to the partnership agreement, showing salaries, interest on capital and residual profit shares.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-3",
+          "chapter": "Chapter 8",
+          "front": "What is the difference between a partner's capital account and current account?",
+          "back": "The capital account records permanent capital contributions; the current account records the partner's share of profits, drawings, interest and salaries for the period.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-4",
+          "chapter": "Chapter 8",
+          "front": "How is interest on a partner's capital calculated?",
+          "back": "Interest on capital = Partner's capital balance × Agreed interest rate per annum.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch8-q1",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "In a partnership, drawings by a partner are recorded in which account?",
+          "options": [
+            "Current account",
+            "Capital account",
+            "Appropriation account",
+            "Income statement"
+          ],
+          "answer": "Current account",
+          "explanation": "Drawings reduce the partner's current account balance and are recorded there throughout the year, not in the capital account which holds permanent capital.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-q2",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "Partners A and B share residual profits in a 3:2 ratio. If the residual profit is R50 000, how much does Partner B receive?",
+          "options": [
+            "R20 000",
+            "R30 000",
+            "R25 000",
+            "R10 000"
+          ],
+          "answer": "R20 000",
+          "explanation": "Total ratio parts = 3 + 2 = 5. Partner B's share = 2/5 × R50 000 = R20 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-q3",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is a feature of a partnership in South Africa?",
+          "options": [
+            "Partners have unlimited personal liability",
+            "The partnership is a separate legal entity from its partners",
+            "Partners are taxed as a single entity",
+            "A minimum of five partners is required"
+          ],
+          "answer": "Partners have unlimited personal liability",
+          "explanation": "Unlike companies, partnerships in South Africa are not separate legal entities. Partners are personally liable for the debts of the partnership, including with their private assets.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch8-we-1",
+          "chapter": "Chapter 8",
+          "title": "Preparing the Partnership Appropriation Account",
+          "summary": "Distribute partnership net profit between two partners according to the partnership agreement.",
+          "problem": "Partners Naledi and Bongani have capital balances of R100 000 and R60 000 respectively. Partnership agreement: interest on capital 8% p.a.; partner salaries: Naledi R24 000, Bongani R18 000; residual profit shared 60:40. Net profit for the year: R80 000.",
+          "steps": [
+            {
+              "label": "Step 1: Interest on capital",
+              "explanation": "Naledi: R100 000 × 8% = R8 000. Bongani: R60 000 × 8% = R4 800. Total = R12 800."
+            },
+            {
+              "label": "Step 2: Partner salaries",
+              "explanation": "Naledi: R24 000. Bongani: R18 000. Total = R42 000."
+            },
+            {
+              "label": "Step 3: Residual profit",
+              "explanation": "Residual = R80 000 − R12 800 − R42 000 = R25 200. Naledi (60%): R15 120. Bongani (40%): R10 080."
+            },
+            {
+              "label": "Step 4: Total allocation",
+              "explanation": "Naledi: R8 000 + R24 000 + R15 120 = R47 120. Bongani: R4 800 + R18 000 + R10 080 = R32 880. Total = R80 000 ✓."
+            }
+          ],
+          "answer": "Naledi receives R47 120 and Bongani receives R32 880 from the R80 000 net profit.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    }
+  ],
+  "discipline": "accounting",
+  "referenceList": [
+    {
+      "title": "IASB Conceptual Framework for Financial Reporting (2018 revised)",
+      "publisher": "IFRS Foundation / International Accounting Standards Board",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+      "note": "Authoritative basis for the objective of financial reporting, qualitative characteristics, and definitions of elements.",
+      "sourceHash": "97584ad8516f6354f5c9f552e97f22bc3548a1b5cbe996c39e200eef8db78138"
+    },
+    {
+      "title": "IAS Plus — Conceptual Framework summary & analysis",
+      "publisher": "Deloitte (IAS Plus)",
+      "url": "https://www.iasplus.com/en/standards/other/framework",
+      "note": "Plain-language commentary on the Framework; useful for lecturer preparation.",
+      "sourceHash": "9ab35b1e523d1339fad17dc493091861dadf60e68513617e9b16d2adfcd3c641"
+    },
+    {
+      "title": "IFRS Accounting Standards Navigator",
+      "publisher": "IFRS Foundation",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+      "note": "Full list of issued IFRS/IAS standards for cross-referencing specific topics (e.g. IAS 1, IAS 16).",
+      "sourceHash": "6741caf859a4af2a789c235a316225668896364292398484fc34b88c0595d9ef"
+    },
+    {
+      "title": "Weygandt, Kimmel & Kieso — Accounting Principles (Wiley)",
+      "publisher": "John Wiley & Sons",
+      "url": "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931",
+      "note": "Widely used introductory financial-accounting textbook; aligns with debit/credit, ledger, and cycle topics.",
+      "sourceHash": "9d976cc6c037e323c33dd5ea0fa230c12e349fec24bf285d7d6c336f14cd3092"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: Financial Accounting 121 (BCom, North-West University). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "Chapter-by-chapter teaching focus (derived from the module's own learning outcomes and key definitions):",
+    "  • Chapter 1 — Bank Reconciliation. Emphasise: Identify differences between the bank statement and cash book balance; Prepare an updated cash book; Prepare a bank reconciliation statement. Local context: South African businesses receive monthly bank statements from commercial banks such as FNB, ABSA, Standard Bank, Nedbank and Capitec. Debit orders for insurance, municipal services and subscriptions frequently create timing differences. The South African Reserve Bank regulates clearing times for cheques and electronic funds transfers (EFTs).",
+    "  • Chapter 2 — Debtors Control Account. Emphasise: Record credit sales and returns in the debtors control account; Account for bad debts and bad debt allowances; Reconcile the debtors control account to the debtors ledger. Local context: South African businesses often sell goods on credit under agreed payment terms (e.g. 30 days). The National Credit Act (NCA) governs credit agreements and prescribes how debts may be collected. Many companies use debt collectors regulated by the Debt Collectors Act. IFRS requires allowances for expected credit losses.",
+    "  • Chapter 3 — Creditors Control Account. Emphasise: Record credit purchases and returns in the creditors control account; Reconcile the creditors control account to the creditors ledger; Prepare a creditors reconciliation statement. Local context: South African businesses typically negotiate 30–60 day credit terms with suppliers. Managing creditors is critical for cash flow, particularly for small and medium enterprises (SMEs). SARS requires accurate records of purchases for VAT input claims. The Companies Act requires proper record-keeping of all liabilities.",
+    "  • Chapter 4 — Petty Cash & Cash Journals. Emphasise: Explain the imprest system for petty cash management; Record petty cash transactions using petty cash vouchers; Complete the petty cash journal. Local context: Petty cash is widely used by South African businesses for small day-to-day expenses such as parking, postage and refreshments. Businesses must keep petty cash vouchers for SARS audit purposes. The South African Revenue Service (SARS) requires receipts for all business expenses claimed as deductions.",
+    "  • Chapter 5 — VAT. Emphasise: Distinguish between input VAT and output VAT; Calculate VAT at the standard rate of 15%; Complete a VAT return. Local context: South Africa's standard VAT rate is 15% (increased from 14% in 2018, and further to 15.5% from 1 May 2025). VAT is administered by SARS under the Value-Added Tax Act 89 of 1991. Businesses with taxable turnover exceeding R1 million must register as VAT vendors. Basic food items such as bread, maize meal and milk are zero-rated to protect low-income households.",
+    "  • Chapter 6 — Salaries & Wages. Emphasise: Distinguish between salaries and wages; Calculate gross pay including overtime and allowances; Calculate statutory deductions (PAYE, UIF, pension). Local context: In South Africa, employer payroll obligations are governed by the Income Tax Act (PAYE), the Unemployment Insurance Contributions Act (UIF), and the Skills Development Levies Act (SDL). Employers must submit monthly EMP201 returns to SARS. The National Minimum Wage Act sets a floor for hourly wages. The Basic Conditions of Employment Act governs overtime pay rates.",
+    "  • Chapter 7 — Manufacturing Accounts. Emphasise: Classify costs as direct and indirect; Calculate prime cost and factory overhead; Prepare a manufacturing cost statement. Local context: Manufacturing is a significant sector of the South African economy, employing large numbers of workers. South African manufacturers must comply with the Companies Act and IFRS for SMEs when reporting inventory and production costs. Many manufacturers deal with load-shedding costs, which can be classified as factory overhead. The National Credit Act and consumer protection legislation also affect pricing of manufactured goods.",
+    "  • Chapter 8 — Partnerships. Emphasise: Explain the characteristics and formation of a partnership; Prepare the partnership appropriation account; Record drawings and capital contributions. Local context: Partnerships in South Africa are governed by common law and the Partnership Act. They are popular among professionals such as attorneys, accountants and doctors. Unlike companies, partnerships are not separate legal entities — partners have unlimited personal liability. The South African Revenue Service (SARS) taxes each partner individually on their share of partnership income.",
+    "Pedagogy tip (quantitative): work at least one fully solved example on the board per topic, then assign a parallel guided-practice problem. Common student errors: sign errors in debit/credit (accounting), confusing correlation with causation (stats/econ), and unit/percentage mistakes in ratio work. Build a short weekly formative quiz from the module's own revision prompts.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "97584ad8516f6354f5c9f552e97f22bc3548a1b5cbe996c39e200eef8db78138",
+    "9ab35b1e523d1339fad17dc493091861dadf60e68513617e9b16d2adfcd3c641",
+    "6741caf859a4af2a789c235a316225668896364292398484fc34b88c0595d9ef",
+    "9d976cc6c037e323c33dd5ea0fa230c12e349fec24bf285d7d6c336f14cd3092"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

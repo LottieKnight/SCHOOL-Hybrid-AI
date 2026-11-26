@@ -1,0 +1,30 @@
+import Link from "next/link";
+import type { Metadata } from "next";
+import { renderMarkdown } from "@/lib/markdown";
+import { legalMarkdown } from "@/lib/legalContent";
+import styles from "../legal.module.css";
+
+export const metadata: Metadata = {
+  title: "Acceptable Use Policy — SCHOOL",
+  description: "The rules governing acceptable use of the SCHOOL academic platform.",
+};
+
+export default function AupPage() {
+  const raw = legalMarkdown.aup;
+  const html = renderMarkdown(raw);
+
+  return (
+    <div className={styles.page}>
+      <Link className={styles.back} href="/">← Back home</Link>
+      <article
+        className={styles.body}
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
+      <nav className={styles.nav}>
+        <Link className={styles.navLink} href="/legal/privacy">Privacy Policy</Link>
+        <Link className={styles.navLink} href="/legal/terms">Terms of Service</Link>
+        <Link className={styles.navLink} href="/legal/cookies">Cookie Policy</Link>
+      </nav>
+    </div>
+  );
+}

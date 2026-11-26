@@ -1,0 +1,24 @@
+.exportBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 24px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  color: var(--text-1);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.exportBtn:hover {
+  border-color: var(--gold-border);
+  background: rgba(255, 215, 0, 0.05);
+}
+
+.icon { font-size: 18px; }
+
+@media print {
+  .exportBtn { display: none; }
+}

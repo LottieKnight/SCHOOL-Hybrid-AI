@@ -1,0 +1,33 @@
+{
+  "sourceInputs": [
+    "/home/lottie/projects/SCHOOL-Academic-Platform/packages/shared/content/module-source-manifest.json"
+  ],
+  "manifestPath": "content/module-source-manifest.json",
+  "outDir": "/home/lottie/projects/SCHOOL-Academic-Platform/apps/web/content/modules-generated",
+  "moduleCount": 22,
+  "modules": [
+    { "moduleCode": "ACFS111", "files": 0, "classScheduleEntries": 0, "assessmentEntries": 0, "confidence": 0.5, "missingContent": ["source PDFs"] },
+    { "moduleCode": "ACFS121", "files": 0, "classScheduleEntries": 0, "assessmentEntries": 0, "confidence": 0.5, "missingContent": ["source PDFs"] },
+    { "moduleCode": "ALDE122", "files": 0, "classScheduleEntries": 0, "assessmentEntries": 0, "confidence": 0.5, "missingContent": ["source PDFs"] },
+    { "moduleCode": "BMAN111", "files": 0, "classScheduleEntries": 0, "assessmentEntries": 0, "confidence": 0.5, "missingContent": ["source PDFs"] },
+    { "moduleCode": "BMAN121", "files": 0, "classScheduleEntries": 0, "assessmentEntries": 0, "confidence": 0.5, "missingContent": ["source PDFs"] },
+    { "moduleCode": "BMAN221", "files": 0, "classScheduleEntries": 0, "assessmentEntries": 0, "confidence": 0.5, "missingContent": ["source PDFs"] },
+    { "moduleCode": "BMAR213", "files": 0, "classScheduleEntries": 0, "assessmentEntries": 0, "confidence": 0.5, "missingContent": ["source PDFs"] },
+    { "moduleCode": "CMPG222", "files": 0, "classScheduleEntries": 0, "assessmentEntries": 0, "confidence": 0.5, "missingContent": ["source PDFs"] },
+    { "moduleCode": "ECAT121", "files": 0, "classScheduleEntries": 0, "assessmentEntries": 0, "confidence": 0.5, "missingContent": ["source PDFs"] },
+    { "moduleCode": "ECON112", "files": 0, "classScheduleEntries": 0, "assessmentEntries": 0, "confidence": 0.5, "missingContent": ["source PDFs"] },
+    { "moduleCode": "ECON122", "files": 0, "classScheduleEntries": 0, "assessmentEntries": 0, "confidence": 0.5, "missingContent": ["source PDFs"] },
+    { "moduleCode": "ECON211", "files": 10, "classScheduleEntries": 0, "assessmentEntries": 4, "confidence": 1.0, "missingContent": [] },
+    { "moduleCode": "EKIP212", "files": 9, "classScheduleEntries": 14, "assessmentEntries": 7, "confidence": 0.8, "missingContent": [] },
+    { "moduleCode": "EKRP211", "files": 0, "classScheduleEntries": 0, "assessmentEntries": 0, "confidence": 0.5, "missingContent": ["source PDFs"] },
+    { "moduleCode": "ICAT111", "files": 0, "classScheduleEntries": 0, "assessmentEntries": 0, "confidence": 0.5, "missingContent": ["source PDFs"] },
+    { "moduleCode": "ICOM111", "files": 0, "classScheduleEntries": 0, "assessmentEntries": 0, "confidence": 0.5, "missingContent": ["source PDFs"] },
+    { "moduleCode": "MTHS119", "files": 0, "classScheduleEntries": 0, "assessmentEntries": 0, "confidence": 0.5, "missingContent": ["source PDFs"] },
+    { "moduleCode": "MTHS123", "files": 0, "classScheduleEntries": 0, "assessmentEntries": 0, "confidence": 0.5, "missingContent": ["source PDFs"] },
+    { "moduleCode": "MTHS129", "files": 0, "classScheduleEntries": 0, "assessmentEntries": 0, "confidence": 0.5, "missingContent": ["source PDFs"] },
+    { "moduleCode": "STTF112", "files": 0, "classScheduleEntries": 0, "assessmentEntries": 0, "confidence": 0.5, "missingContent": ["source PDFs"] },
+    { "moduleCode": "STTF122", "files": 0, "classScheduleEntries": 0, "assessmentEntries": 0, "confidence": 0.5, "missingContent": ["source PDFs"] },
+    { "moduleCode": "WVES312", "files": 2, "classScheduleEntries": 12, "assessmentEntries": 6, "confidence": 0.8, "missingContent": ["chapter notes / study materials"] }
+  ],
+  "generatedAt": "2026-04-03T00:00:00.000Z"
+}

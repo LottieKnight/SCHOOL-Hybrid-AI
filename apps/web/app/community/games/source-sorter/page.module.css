@@ -1,0 +1,230 @@
+.intro {
+  display: grid;
+  gap: 16px;
+  max-width: 560px;
+}
+
+.intro h1 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.howTo {
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(54, 45, 30, 0.1);
+}
+
+.howTo h3 {
+  margin: 0 0 8px;
+  font-size: 0.9rem;
+}
+
+.howTo ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 0.85rem;
+  color: var(--muted);
+  display: grid;
+  gap: 4px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.progress {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.score {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.question {
+  font-size: 1.1rem;
+  margin: 0 0 8px;
+  line-height: 1.4;
+}
+
+.instruction {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+
+/* Rank slots */
+.rankSlots {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.rankSlot {
+  display: flex;
+  gap: 10px;
+  align-items: stretch;
+}
+
+.rankNum {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: rgba(54, 45, 30, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+/* Source cards */
+.sourceCard {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(54, 45, 30, 0.12);
+  background: rgba(255, 255, 255, 0.55);
+  cursor: pointer;
+  display: grid;
+  gap: 3px;
+  transition: background 0.15s;
+}
+
+.sourceCard:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.sourceCard strong {
+  font-size: 0.85rem;
+}
+
+.sourceType {
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.sourceDesc {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+.placed {
+  background: rgba(34, 197, 94, 0.1);
+  border-color: rgba(34, 197, 94, 0.3);
+}
+
+.empty {
+  opacity: 0.4;
+  cursor: default;
+  border-style: dashed;
+}
+
+.emptyLabel {
+  font-size: 0.8rem;
+  color: var(--muted);
+  text-align: center;
+  padding: 4px 0;
+}
+
+.removeHint {
+  font-size: 0.7rem;
+  color: var(--muted);
+  opacity: 0.7;
+}
+
+/* Source pool */
+.sourcePool {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+/* Results */
+.resultList {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.resultRow {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid;
+}
+
+.correct {
+  background: rgba(34, 197, 94, 0.08);
+  border-color: rgba(34, 197, 94, 0.25);
+}
+
+.wrong {
+  background: rgba(239, 68, 68, 0.07);
+  border-color: rgba(239, 68, 68, 0.2);
+}
+
+.resultRow strong {
+  font-size: 0.85rem;
+}
+
+.explanation {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin: 4px 0 0;
+}
+
+.yourAnswer {
+  font-size: 0.78rem;
+  color: var(--red, #dc2626);
+  margin: 4px 0 0;
+  font-style: italic;
+}
+
+.tick {
+  margin-left: auto;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+/* Done */
+.done {
+  display: grid;
+  gap: 16px;
+  text-align: center;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 24px 0;
+}
+
+.done h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.finalScore {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.doneActions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}

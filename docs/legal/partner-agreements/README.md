@@ -1,0 +1,1 @@
+Placeholder folder for executed Marketplace Partner Agreements (signed PDF/MD). Each partner (Cosmic Cotton, iPhone reseller, Flightmode, etc.) gets one executed copy. See MARKETPLACE_PARTNER_AGREEMENT.md template.

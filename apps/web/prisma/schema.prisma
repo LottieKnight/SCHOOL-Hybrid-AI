@@ -1,0 +1,174 @@
+// Prisma schema for DBE Past Papers
+// SQLite for local dev, PostgreSQL-ready via connection string
+
+generator client {
+  provider = "prisma-client-js"
+  // native: local dev; rhel-openssl-3.0.x: Vercel serverless runtime.
+  // Without the explicit target, bundles built off-platform ship the wrong
+  // query engine and /past-papers 500s with PrismaClientInitializationError.
+  binaryTargets = ["native", "rhel-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("PAST_PAPERS_DATABASE_URL")
+}
+
+model PastPaperSource {
+  id                String      @id @default(cuid())
+  name              String      @unique
+  baseUrl           String
+  robotsRespectNote String
+  pastPapers        PastPaper[]
+  createdAt         DateTime    @default(now())
+  updatedAt         DateTime    @updatedAt
+}
+
+model PastPaper {
+  id               String              @id @default(cuid())
+  sourceId         String
+  source           PastPaperSource     @relation(fields: [sourceId], references: [id])
+  province         String
+  grade            Int?
+  subject          String
+  year             Int?
+  session          String
+  paperNumber      String
+  language         String
+  title            String
+  sourcePageUrl    String?
+  paperUrlOriginal String?
+  memoUrlOriginal  String?
+  paperStorageKey  String?
+  memoStorageKey   String?
+  sha256Paper      String?
+  sha256Memo       String?
+  publishedAt      DateTime?
+  lastSeenAt       DateTime?
+  institutionType  String?
+  moduleCode       String?
+  totalMarks       Int?
+  durationMinutes  Int?
+  questions        PastPaperQuestion[]
+  attempts         PastPaperAttempt[]
+  bookmarks        PastPaperBookmark[]
+  createdAt        DateTime            @default(now())
+  updatedAt        DateTime            @updatedAt
+
+  @@unique([sourceId, province, grade, subject, year, session, paperNumber, language])
+  @@index([province, grade, subject, year])
+  @@index([institutionType, subject, year])
+}
+
+model PastPaperQuestion {
+  id          String           @id @default(cuid())
+  pastPaperId String
+  pastPaper   PastPaper        @relation(fields: [pastPaperId], references: [id])
+  qNumber     String
+  label       String
+  maxMarks    Int?
+  section     String?
+  topicTags   String?
+  orderIndex  Int
+  answers     PastPaperAnswer[]
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
+
+  @@index([pastPaperId, orderIndex])
+}
+
+model PastPaperAttempt {
+  id            String            @id @default(cuid())
+  userId        String
+  classId       String?
+  pastPaperId   String
+  pastPaper     PastPaper         @relation(fields: [pastPaperId], references: [id])
+  status        String            @default("in_progress")
+  startedAt     DateTime          @default(now())
+  submittedAt   DateTime?
+  markedAt      DateTime?
+  totalScore    Float?
+  totalMax      Float?
+  analyticsJson String?
+  answers       PastPaperAnswer[]
+  createdAt     DateTime          @default(now())
+  updatedAt     DateTime          @updatedAt
+
+  @@index([userId, classId, pastPaperId])
+}
+
+model PastPaperAnswer {
+  id              String            @id @default(cuid())
+  attemptId       String
+  questionId      String
+  attempt         PastPaperAttempt  @relation(fields: [attemptId], references: [id])
+  question        PastPaperQuestion @relation(fields: [questionId], references: [id])
+  answerText      String
+  attachmentsJson String?
+  autoScore       Float?
+  maxMarks        Float?
+  reviewerScore   Float?
+  feedback        String?
+  createdAt       DateTime          @default(now())
+  updatedAt       DateTime          @updatedAt
+
+  @@unique([attemptId, questionId])
+}
+
+model PastPaperBookmark {
+  id          String    @id @default(cuid())
+  userId      String
+  pastPaperId String
+  pastPaper   PastPaper @relation(fields: [pastPaperId], references: [id], onDelete: Cascade)
+  createdAt   DateTime  @default(now())
+
+  @@unique([userId, pastPaperId])
+  @@index([userId])
+}
+
+// Phase 4 learning artifacts. These remain user-scoped and intentionally keep
+// source references nullable so lessons, quizzes, retries, and tutor sessions
+// can all produce the same durable revision shape.
+model LearningSession {
+  id               String   @id @default(cuid())
+  userId           String
+  kind             String
+  status           String   @default("completed")
+  title            String
+  subject          String?
+  grade            Int?
+  sourceType       String?
+  sourceId         String?
+  summaryJson      String?
+  startedAt        DateTime @default(now())
+  completedAt      DateTime?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  @@index([userId, createdAt])
+  @@index([userId, kind, status])
+  @@index([sourceType, sourceId])
+}
+
+model RevisionArtifact {
+  id               String   @id @default(cuid())
+  userId           String
+  sessionId        String?
+  artifactType     String   @default("session_summary")
+  title            String
+  body             String
+  sourceType       String?
+  sourceId         String?
+  evidenceJson     String?
+  status           String   @default("saved")
+  plannerStatus    String?
+  plannerEventId   String?
+  plannerCompletedAt DateTime?
+  plannerSkippedAt DateTime?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  @@index([userId, createdAt])
+  @@index([userId, artifactType, status])
+  @@index([sessionId])
+}

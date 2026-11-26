@@ -1,0 +1,50 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "school-academic-platform",
+  "compatibility_date": "2026-09-21",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": ".open-next/worker.js",
+  "routes": [
+    {
+      "pattern": "school.ditshego-ventures.co.za/*",
+      "zone_name": "ditshego-ventures.co.za"
+    }
+  ],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "CF_D1": "1",
+    "NEXT_PUBLIC_FIREBASE_API_KEY": "AIzaSyAmQmbdrhCiokWet6CNexb-OBON3VFgwYs",
+    "NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN": "school-academic-platform7.firebaseapp.com",
+    "NEXT_PUBLIC_FIREBASE_PROJECT_ID": "school-academic-platform7",
+    "NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET": "school-academic-platform7.firebasestorage.app",
+    "NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID": "815118418593",
+    "NEXT_PUBLIC_FIREBASE_APP_ID": "1:815118418593:web:4bb96334cf6f91c07ea6e0",
+    "NEXT_PUBLIC_FIREBASE_APP_CHECK_SITE_KEY": "6Lf1tS0uAAAAAIUlLJgzitPaPoZ09HfW_fyz6co3"
+  },
+  "alias": {
+    "critters": "./critters-stub.mjs",
+    "sharp": "./sharp-stub.mjs",
+    "@img/sharp-linux-x64": "./sharp-stub.mjs",
+    "@img/sharp-linuxmusl-x64": "./sharp-stub.mjs",
+    "@img/sharp-libvips-linux-x64": "./sharp-stub.mjs",
+    "@img/sharp-libvips-linuxmusl-x64": "./sharp-stub.mjs"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "school_academic_platform",
+      "database_id": "f57af204-77d2-45a9-908e-afe93345e08c"
+    },
+    {
+      "binding": "DB_BUSINESS",
+      "database_name": "school_business",
+      "database_id": "741d84d3-a73f-41eb-98e4-007b34e1873e"
+    }
+  ]
+}

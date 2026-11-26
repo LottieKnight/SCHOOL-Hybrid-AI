@@ -1,0 +1,116 @@
+﻿.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.notice {
+  margin: 12px 0;
+  padding: 10px 12px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.success {
+  background: rgba(50, 205, 50, 0.12);
+  color: var(--green);
+}
+
+.error {
+  background: rgba(255, 0, 0, 0.1);
+  color: var(--red);
+}
+
+.info {
+  background: rgba(0, 128, 255, 0.1);
+  color: var(--gold);
+}
+
+.section {
+  margin: 20px 0;
+  display: grid;
+  gap: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px;
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.field input,
+.field select,
+.field textarea {
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(54, 45, 30, 0.12);
+  background: rgba(255, 255, 255, 0.6);
+  font: inherit;
+  color: var(--text);
+}
+
+.uploadRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.subjectRow,
+.availabilityRow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  align-items: end;
+  padding: 12px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(54, 45, 30, 0.12);
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.actions {
+  margin-top: 16px;
+  display: flex;
+  gap: 12px;
+}
+
+.legal {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px dashed rgba(54, 45, 30, 0.18);
+  font-size: 0.8rem;
+  color: var(--muted);
+  display: grid;
+  gap: 8px;
+}
+
+.legalLine {
+  font-size: 0.85rem;
+}
+
+@media (max-width: 720px) {
+  .header {
+    flex-direction: column;
+  }
+}
+

@@ -1,0 +1,18 @@
+.wrap { display: grid; gap: 20px; max-width: 480px; text-align: center; margin: 0 auto; padding: 40px 0; }
+.wrap h1 { font-size: 1.6rem; margin: 0; }
+.badge {
+  display: inline-block;
+  font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;
+  padding: 3px 12px; border-radius: 999px;
+  background: rgba(54,45,30,0.08); color: var(--muted);
+  border: 1px solid rgba(54,45,30,0.15);
+}
+.preview {
+  width: 100%; max-width: 340px; margin: 0 auto;
+  border-radius: 14px; overflow: hidden;
+  background: rgba(5, 46, 22, 0.85);
+  border: 2px solid rgba(255,255,255,0.15);
+  padding: 24px;
+  display: flex; align-items: center; justify-content: center;
+}
+.actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }

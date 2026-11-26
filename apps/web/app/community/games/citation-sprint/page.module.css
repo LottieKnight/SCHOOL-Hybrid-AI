@@ -1,0 +1,166 @@
+.intro { display: grid; gap: 16px; max-width: 560px; }
+.intro h1 { font-size: 1.6rem; margin: 0; }
+
+.howTo {
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(54, 45, 30, 0.1);
+}
+
+.howTo h3 { margin: 0 0 8px; font-size: 0.9rem; }
+.howTo ul { margin: 0; padding-left: 18px; font-size: 0.82rem; color: var(--muted); display: grid; gap: 4px; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.progress { font-size: 0.8rem; color: var(--muted); }
+.score { font-size: 0.85rem; font-weight: 600; }
+
+.timer {
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: rgba(54, 45, 30, 0.07);
+}
+
+.timerUrgent { background: rgba(239, 68, 68, 0.15); color: var(--red, #dc2626); }
+
+.hint {
+  font-size: 0.82rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 16px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(245, 158, 11, 0.08);
+  border: 1px solid rgba(245, 158, 11, 0.2);
+}
+
+/* Slots */
+.orderSlots { display: grid; gap: 6px; margin-bottom: 14px; }
+
+.slot {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.slotNum {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  background: rgba(54, 45, 30, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.fieldChip {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(54, 45, 30, 0.12);
+  background: rgba(34, 197, 94, 0.1);
+  font-size: 0.82rem;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.fieldChip strong { flex: none; }
+
+.emptySlot {
+  background: rgba(54, 45, 30, 0.04);
+  border-style: dashed;
+  cursor: default;
+  color: var(--muted);
+  justify-content: center;
+}
+
+.removeHint { margin-left: auto; font-size: 0.7rem; color: var(--muted); }
+
+/* Field pool */
+.fieldPool { display: grid; gap: 6px; margin-bottom: 14px; }
+
+.fieldBtn {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(54, 45, 30, 0.12);
+  background: rgba(255, 255, 255, 0.55);
+  font: inherit;
+  font-size: 0.82rem;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.12s;
+  color: var(--text);
+}
+
+.fieldBtn:hover { background: rgba(255, 255, 255, 0.85); }
+
+/* Results */
+.sectionLabel {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 8px;
+}
+
+.correctCitation {
+  padding: 14px;
+  border-radius: 12px;
+  background: rgba(34, 197, 94, 0.08);
+  border: 1px solid rgba(34, 197, 94, 0.2);
+  margin-bottom: 14px;
+}
+
+.citationText { font-size: 0.875rem; margin: 0; font-style: italic; }
+
+.fieldResults { display: grid; gap: 8px; margin-bottom: 16px; }
+
+.fieldResult {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid;
+  font-size: 0.82rem;
+}
+
+.correct { background: rgba(34, 197, 94, 0.08); border-color: rgba(34, 197, 94, 0.25); }
+.wrong { background: rgba(239, 68, 68, 0.07); border-color: rgba(239, 68, 68, 0.2); }
+
+.playerPicked { color: var(--red, #dc2626); font-style: italic; }
+.tick { margin-left: auto; }
+
+/* Done */
+.done {
+  display: grid;
+  gap: 16px;
+  text-align: center;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
+.done h1 { font-size: 1.5rem; margin: 0; }
+.finalScore { font-size: 1.8rem; font-weight: 700; margin: 0; }
+
+.doneActions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,1890 @@
+{
+  "institution": "North-West University",
+  "moduleCode": "BMAN111",
+  "moduleName": "Business Management 111",
+  "semester": "Semester 1, 2024",
+  "programme": "BCom",
+  "confidence": 0.82,
+  "generatedAt": "2026-04-03T00:00:00.000Z",
+  "sourceFiles": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "missingContent": [],
+  "studyUnits": [
+    "Chapter 1 — Introduction to Business Management",
+    "Chapter 2 — The Business Environment",
+    "Chapter 3 — Forms of Business Ownership",
+    "Chapter 4 — Entrepreneurship & Small Business",
+    "Chapter 5 — Business Functions Overview",
+    "Chapter 6 — Management Process (POMC)",
+    "Chapter 7 — Corporate Governance & Ethics"
+  ],
+  "chapters": [
+    "Chapter 1",
+    "Chapter 2",
+    "Chapter 3",
+    "Chapter 4",
+    "Chapter 5",
+    "Chapter 6",
+    "Chapter 7"
+  ],
+  "topicSeeds": [
+    "Ch1 - nature and scope of business management",
+    "Ch1 - business goals and objectives",
+    "Ch2 - micro environment",
+    "Ch2 - market environment",
+    "Ch2 - macro environment (PESTLE)",
+    "Ch3 - sole trader",
+    "Ch3 - partnerships",
+    "Ch3 - private company (Pty Ltd)",
+    "Ch4 - entrepreneur characteristics",
+    "Ch4 - SMME definition",
+    "Ch5 - production function",
+    "Ch5 - marketing function",
+    "Ch6 - planning",
+    "Ch6 - organising",
+    "Ch6 - leading",
+    "Ch6 - controlling",
+    "Ch7 - King IV report",
+    "Ch7 - stakeholder theory"
+  ],
+  "keyTopics": [
+    "business definition and goals",
+    "PESTLE analysis",
+    "micro, market and macro environments",
+    "sole trader vs partnership vs company",
+    "entrepreneurship characteristics",
+    "SMME support in South Africa",
+    "business functions (production, marketing, finance, HR)",
+    "POMC management process",
+    "planning types",
+    "corporate governance King IV",
+    "business ethics stakeholder approach"
+  ],
+  "quizSignals": [
+    "What is the difference between the micro and macro environment?",
+    "What are the forms of business ownership?",
+    "What does POMC stand for?",
+    "How do you distinguish between a manager and an entrepreneur?",
+    "What is corporate governance?"
+  ],
+  "assessmentPlan": [
+    {
+      "name": "Test 1",
+      "weight": "35%",
+      "due": "March",
+      "scope": "Ch 1-3"
+    },
+    {
+      "name": "Test 2",
+      "weight": "35%",
+      "due": "May",
+      "scope": "Ch 4-7"
+    },
+    {
+      "name": "Assignment",
+      "weight": "20%",
+      "due": "April",
+      "scope": "Ch 1-5"
+    },
+    {
+      "name": "Participation",
+      "weight": "10%",
+      "due": "Ongoing",
+      "scope": "All chapters"
+    }
+  ],
+  "classSchedule": [
+    {
+      "label": "Week 1",
+      "summary": "Introduction to business management; nature and scope.",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 2",
+      "summary": "Business goals, objectives and stakeholders.",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 3",
+      "summary": "The micro environment: internal factors.",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 4",
+      "summary": "The market and macro environment; PESTLE analysis.",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 5",
+      "summary": "Forms of business ownership: sole trader and partnership.",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 6",
+      "summary": "Companies (Pty Ltd, Ltd) and close corporations.",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 7",
+      "summary": "TEST 1 — Ch 1-3.",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 8",
+      "summary": "Entrepreneurship: characteristics and the SA context.",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 9",
+      "summary": "SMMEs: definition, importance, and government support in SA.",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 10",
+      "summary": "Overview of business functions: production and marketing.",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 11",
+      "summary": "Finance and human resources functions.",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 12",
+      "summary": "Management process: planning and organising.",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 13",
+      "summary": "Leading and controlling.",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 14",
+      "summary": "Corporate governance: King IV report.",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 15",
+      "summary": "Business ethics and stakeholder approach.",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 16",
+      "summary": "TEST 2 — Ch 4-7 + revision.",
+      "chapter": "Chapter 7"
+    }
+  ],
+  "chapterInsights": [
+    {
+      "chapter": "Chapter 1",
+      "title": "Introduction to Business Management",
+      "outcomes": [
+        "Define business and business management",
+        "Distinguish between profit and non-profit organisations",
+        "Explain business goals and objectives"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Business",
+          "definition": "An organisation that uses resources to produce goods or services in order to satisfy customer needs and earn a profit."
+        },
+        {
+          "term": "Business management",
+          "definition": "The process of planning, organising, leading and controlling business activities to achieve organisational goals."
+        },
+        {
+          "term": "Mission statement",
+          "definition": "A formal statement describing the organisation's purpose and reason for existence."
+        }
+      ],
+      "revisionPrompts": [
+        "What distinguishes a profit-seeking business from a non-profit organisation?",
+        "List three types of business goals."
+      ],
+      "saContext": "South African businesses operate under the Companies Act (2008). SMMEs contribute about 34% of SA's GDP and employ roughly 60% of the private sector workforce.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 2",
+      "title": "The Business Environment",
+      "outcomes": [
+        "Distinguish between micro, market and macro environments",
+        "Apply PESTLE analysis to a SA business",
+        "Identify opportunities and threats in the macro environment"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Micro environment",
+          "definition": "The internal environment of the business that management can directly control."
+        },
+        {
+          "term": "Market environment",
+          "definition": "Factors outside the business that the firm can influence but not fully control, including customers, competitors and suppliers."
+        },
+        {
+          "term": "Macro environment",
+          "definition": "External forces beyond management control, analysed via PESTLE (political, economic, social, technological, legal, environmental)."
+        }
+      ],
+      "revisionPrompts": [
+        "Give two examples of macro environment factors affecting SA businesses.",
+        "How does the market environment differ from the micro environment?"
+      ],
+      "saContext": "Load-shedding (Eskom) is a critical macro environment threat for SA businesses. The National Development Plan (NDP 2030) is a political/economic macro factor.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 3",
+      "title": "Forms of Business Ownership",
+      "outcomes": [
+        "Compare sole traders, partnerships, private companies and public companies",
+        "Identify advantages and disadvantages of each form",
+        "Explain the concept of limited liability"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Sole trader",
+          "definition": "A business owned and managed by one person who has unlimited personal liability for all debts."
+        },
+        {
+          "term": "Partnership",
+          "definition": "A business owned by two or more people who share profits, losses and unlimited liability."
+        },
+        {
+          "term": "Private company (Pty Ltd)",
+          "definition": "A company with limited liability, 1-50 shareholders, shares not freely transferable, and registered under the Companies Act."
+        },
+        {
+          "term": "Limited liability",
+          "definition": "Shareholders' personal assets are protected; maximum loss is limited to their investment in the company."
+        }
+      ],
+      "revisionPrompts": [
+        "Why would an entrepreneur choose a Pty Ltd over a sole trader?",
+        "What is unlimited liability and who faces it?"
+      ],
+      "saContext": "In SA, companies are registered with the Companies and Intellectual Property Commission (CIPC). The Companies Act 71 of 2008 governs all companies.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 4",
+      "title": "Entrepreneurship & Small Business",
+      "outcomes": [
+        "Define entrepreneurship and identify entrepreneurial characteristics",
+        "Distinguish between an entrepreneur and a manager",
+        "Explain the role of SMMEs in the South African economy"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Entrepreneur",
+          "definition": "A person who identifies opportunities, takes risks and mobilises resources to start and grow a business."
+        },
+        {
+          "term": "SMME",
+          "definition": "Small, Medium and Micro Enterprise — classified by number of employees and annual turnover under the National Small Business Act."
+        },
+        {
+          "term": "Intrapreneurship",
+          "definition": "Entrepreneurial behaviour and innovation within an existing large organisation."
+        }
+      ],
+      "revisionPrompts": [
+        "What are three characteristics of a successful entrepreneur?",
+        "How does the SA government support SMMEs?"
+      ],
+      "saContext": "The Small Enterprise Development Agency (SEDA) and the Small Enterprise Finance Agency (SEFA) are key SA government bodies that support SMMEs.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 5",
+      "title": "Business Functions Overview",
+      "outcomes": [
+        "Identify and describe the main business functions",
+        "Explain how business functions interact",
+        "Link each function to organisational goals"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Production function",
+          "definition": "The business function responsible for converting inputs (resources) into outputs (goods/services)."
+        },
+        {
+          "term": "Marketing function",
+          "definition": "The business function responsible for identifying customer needs and creating value through the 4Ps."
+        },
+        {
+          "term": "Financial function",
+          "definition": "The business function responsible for sourcing, allocating and managing financial resources."
+        },
+        {
+          "term": "Human resources function",
+          "definition": "The business function responsible for recruiting, developing and managing employees."
+        }
+      ],
+      "revisionPrompts": [
+        "How does the marketing function support the production function?",
+        "Why is the financial function critical to all other functions?"
+      ],
+      "saContext": "SA businesses must comply with labour legislation (Labour Relations Act, BCEA) in their HR function, and with SARS requirements in their finance function.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 6",
+      "title": "Management Process (POMC)",
+      "outcomes": [
+        "Explain the four elements of the management process: planning, organising, leading and controlling",
+        "Distinguish between strategic, tactical and operational planning",
+        "Apply the POMC model to a business scenario"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Planning",
+          "definition": "Setting objectives and determining the best course of action to achieve them."
+        },
+        {
+          "term": "Organising",
+          "definition": "Arranging resources and tasks to achieve organisational goals, including designing the organisational structure."
+        },
+        {
+          "term": "Leading",
+          "definition": "Influencing and motivating employees to work toward organisational goals."
+        },
+        {
+          "term": "Controlling",
+          "definition": "Monitoring performance against plans and taking corrective action when necessary."
+        }
+      ],
+      "revisionPrompts": [
+        "What is the difference between strategic and operational planning?",
+        "Give one example of controlling in a retail business."
+      ],
+      "saContext": "SA managers must balance performance targets with employee rights under the Labour Relations Act 66 of 1995 when exercising the leading and controlling functions.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 7",
+      "title": "Corporate Governance & Ethics",
+      "outcomes": [
+        "Define corporate governance and explain its importance",
+        "Summarise the key principles of the King IV Report",
+        "Apply stakeholder theory to business decision-making"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Corporate governance",
+          "definition": "The system of rules, practices and processes by which a company is directed and controlled, balancing the interests of all stakeholders."
+        },
+        {
+          "term": "King IV Report",
+          "definition": "South Africa's corporate governance code (2016) applying to all organisations; based on apply-and-explain principles."
+        },
+        {
+          "term": "Stakeholder",
+          "definition": "Any individual or group that has an interest in or is affected by the activities of the organisation."
+        },
+        {
+          "term": "Business ethics",
+          "definition": "The application of ethical principles to business decisions and behaviour."
+        }
+      ],
+      "revisionPrompts": [
+        "What are the four governance outcomes of King IV?",
+        "How does stakeholder theory differ from shareholder theory?"
+      ],
+      "saContext": "King IV is a world-leading governance code adopted by the JSE listing requirements. SA's high-profile governance failures (e.g. state capture) highlight the importance of ethical leadership.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    }
+  ],
+  "chapterStudyItems": [
+    {
+      "chapter": "Chapter 1",
+      "flashcards": [
+        {
+          "id": "ch1-fc-1",
+          "chapter": "Chapter 1",
+          "front": "Define 'business' in a management context.",
+          "back": "An organisation that uses resources to produce goods or services to satisfy customer needs and earn a profit.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-2",
+          "chapter": "Chapter 1",
+          "front": "What is a mission statement?",
+          "back": "A formal statement describing the organisation's purpose, reason for existence, and core values.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-3",
+          "chapter": "Chapter 1",
+          "front": "Distinguish profit-seeking organisations from non-profit organisations.",
+          "back": "Profit-seeking organisations aim to earn returns for owners; non-profit organisations pursue social, charitable or community goals without distributing profits.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-4",
+          "chapter": "Chapter 1",
+          "front": "Name two types of business resources.",
+          "back": "Human resources (people) and physical resources (equipment, buildings); also financial and information resources.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch1-q1",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following BEST describes business management?",
+          "options": [
+            "The process of planning, organising, leading and controlling to achieve goals",
+            "The act of producing goods for sale",
+            "The management of financial records only",
+            "Registering a business with the CIPC"
+          ],
+          "answer": "The process of planning, organising, leading and controlling to achieve goals",
+          "explanation": "Business management encompasses the full POMC cycle directed at achieving organisational objectives.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q2",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "A non-profit organisation differs from a profit-seeking business primarily because it:",
+          "options": [
+            "Does not pay its employees",
+            "Does not distribute profits to owners",
+            "Does not pay any taxes",
+            "Does not have a board of directors"
+          ],
+          "answer": "Does not distribute profits to owners",
+          "explanation": "Non-profits may generate surplus revenue but this must be reinvested in the organisation's mission, not paid out to owners.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q3",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "What does a vision statement describe?",
+          "options": [
+            "The current financial position of the business",
+            "The desired future state of the organisation",
+            "The products the business currently sells",
+            "The organisational structure"
+          ],
+          "answer": "The desired future state of the organisation",
+          "explanation": "A vision statement describes where the organisation aspires to be in the future, inspiring long-term direction.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch1-we-1",
+          "chapter": "Chapter 1",
+          "title": "Identifying Profit vs Non-Profit Organisations",
+          "summary": "Classify organisations and explain the key differences.",
+          "problem": "Classify the following as profit-seeking or non-profit, and justify: (a) Pick n Pay (b) SPCA (c) Standard Bank (d) NWU.",
+          "steps": [
+            {
+              "label": "Step 1 — Check purpose",
+              "explanation": "Ask: does the organisation exist primarily to earn returns for owners?"
+            },
+            {
+              "label": "Step 2 — Check profit distribution",
+              "explanation": "Profit-seeking: surplus distributed as dividends. Non-profit: surplus reinvested in the mission."
+            },
+            {
+              "label": "Step 3 — Classify",
+              "explanation": "(a) Pick n Pay — profit-seeking (listed on JSE, returns to shareholders). (b) SPCA — non-profit (animal welfare). (c) Standard Bank — profit-seeking. (d) NWU — non-profit (public university, educational mission)."
+            }
+          ],
+          "answer": "Profit-seeking: Pick n Pay, Standard Bank. Non-profit: SPCA, NWU.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 2",
+      "flashcards": [
+        {
+          "id": "ch2-fc-1",
+          "chapter": "Chapter 2",
+          "front": "What are the three levels of the business environment?",
+          "back": "Micro environment (internal, controllable), market environment (external, influenceable), macro environment (external, uncontrollable).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-2",
+          "chapter": "Chapter 2",
+          "front": "What does PESTLE stand for?",
+          "back": "Political, Economic, Social, Technological, Legal, Environmental — factors in the macro environment.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-3",
+          "chapter": "Chapter 2",
+          "front": "Give two examples of market environment variables.",
+          "back": "Customers (demand) and competitors (rival offerings); also suppliers and intermediaries.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-4",
+          "chapter": "Chapter 2",
+          "front": "What is a SWOT analysis?",
+          "back": "A strategic tool identifying internal Strengths and Weaknesses, and external Opportunities and Threats.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch2-q1",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "Eskom's load-shedding affects South African businesses. This is a factor in the:",
+          "options": [
+            "Micro environment",
+            "Market environment",
+            "Macro environment",
+            "Internal environment"
+          ],
+          "answer": "Macro environment",
+          "explanation": "Load-shedding is an infrastructure/political factor beyond any single business's control — it belongs to the macro (PESTLE) environment.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q2",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "Which environment can a business DIRECTLY CONTROL?",
+          "options": [
+            "Macro environment",
+            "Market environment",
+            "Micro environment",
+            "Technological environment"
+          ],
+          "answer": "Micro environment",
+          "explanation": "The micro environment consists of internal factors (employees, processes, resources) that management can directly control.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q3",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "The 'L' in PESTLE refers to:",
+          "options": [
+            "Labour costs",
+            "Legal factors",
+            "Logistics factors",
+            "Leadership style"
+          ],
+          "answer": "Legal factors",
+          "explanation": "Legal factors include laws and regulations (e.g. Companies Act, Labour Relations Act) that businesses must comply with.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch2-we-1",
+          "chapter": "Chapter 2",
+          "title": "PESTLE Analysis — Shoprite in SA",
+          "summary": "Apply PESTLE to analyse Shoprite's macro environment.",
+          "problem": "Identify one factor for each PESTLE category affecting Shoprite's operations in South Africa.",
+          "steps": [
+            {
+              "label": "P — Political",
+              "explanation": "Government land reform policies and ANC economic policy affect retail property and supply chains."
+            },
+            {
+              "label": "E — Economic",
+              "explanation": "Rand depreciation raises import costs for goods sourced abroad; high unemployment reduces consumer spending."
+            },
+            {
+              "label": "S — Social",
+              "explanation": "Growing urbanisation and a rising black middle class expand Shoprite's potential customer base."
+            },
+            {
+              "label": "T — Technological",
+              "explanation": "Adoption of self-checkout systems and the Shoprite app digitise the shopping experience."
+            },
+            {
+              "label": "L — Legal",
+              "explanation": "BCEA and LRA govern employment; Consumer Protection Act governs pricing and returns."
+            },
+            {
+              "label": "E — Environmental",
+              "explanation": "Water scarcity and energy costs (solar investment) impact operations and ESG reporting."
+            }
+          ],
+          "answer": "Each PESTLE letter maps to a specific macro environmental factor affecting Shoprite's strategy.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 3",
+      "flashcards": [
+        {
+          "id": "ch3-fc-1",
+          "chapter": "Chapter 3",
+          "front": "What is unlimited liability?",
+          "back": "The owner's personal assets can be used to settle business debts — applies to sole traders and partnerships.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-2",
+          "chapter": "Chapter 3",
+          "front": "How many shareholders can a private company (Pty Ltd) have?",
+          "back": "Between 1 and 50 shareholders; shares are not freely transferable to the public.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-3",
+          "chapter": "Chapter 3",
+          "front": "What is perpetual succession?",
+          "back": "A company continues to exist regardless of changes in ownership or the death of shareholders — the company is a separate legal entity.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-4",
+          "chapter": "Chapter 3",
+          "front": "What body registers companies in South Africa?",
+          "back": "The Companies and Intellectual Property Commission (CIPC).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch3-q1",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "Which form of ownership offers LIMITED liability to its owners?",
+          "options": [
+            "Sole trader",
+            "General partnership",
+            "Private company (Pty Ltd)",
+            "Business trust"
+          ],
+          "answer": "Private company (Pty Ltd)",
+          "explanation": "A Pty Ltd is a separate legal entity; shareholders' liability is limited to their share investment.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q2",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "A sole trader's main disadvantage is:",
+          "options": [
+            "Limited access to capital and unlimited personal liability",
+            "Too many owners sharing decisions",
+            "Having to register on the JSE",
+            "Paying corporate tax rates"
+          ],
+          "answer": "Limited access to capital and unlimited personal liability",
+          "explanation": "A sole trader cannot sell shares to raise capital and risks personal assets if the business fails.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q3",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "What does it mean for a company to be a 'separate legal entity'?",
+          "options": [
+            "It pays no taxes",
+            "It can own property, sue and be sued in its own name",
+            "Its owners manage it directly",
+            "It cannot have employees"
+          ],
+          "answer": "It can own property, sue and be sued in its own name",
+          "explanation": "A company has legal personhood independent of its owners — it can enter contracts, own assets and be held liable.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch3-we-1",
+          "chapter": "Chapter 3",
+          "title": "Choosing the Right Form of Ownership",
+          "summary": "Advise an entrepreneur on the best ownership form.",
+          "problem": "Sipho wants to open a bakery. He plans to start alone with R50 000 savings. He is worried about losing his house if the business fails. Which form of ownership should he choose?",
+          "steps": [
+            {
+              "label": "Step 1 — Identify concern",
+              "explanation": "Sipho's main concern is protecting personal assets (his house) if the business fails → he needs limited liability."
+            },
+            {
+              "label": "Step 2 — Evaluate options",
+              "explanation": "Sole trader: unlimited liability — Sipho's house is at risk. Partnership: still unlimited. Pty Ltd: limited liability — personal assets protected."
+            },
+            {
+              "label": "Step 3 — Consider requirements",
+              "explanation": "A Pty Ltd needs registration with CIPC (low cost, ~R175), a Memorandum of Incorporation, and annual compliance filings."
+            },
+            {
+              "label": "Step 4 — Recommend",
+              "explanation": "Register a private company (Pty Ltd). Sipho can be the sole director and shareholder, protecting his personal assets."
+            }
+          ],
+          "answer": "Sipho should register a Private Company (Pty Ltd) to obtain limited liability while starting his bakery.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 4",
+      "flashcards": [
+        {
+          "id": "ch4-fc-1",
+          "chapter": "Chapter 4",
+          "front": "Name four characteristics of a successful entrepreneur.",
+          "back": "Risk-taking, innovation, perseverance, opportunity recognition (also: self-confidence, leadership, creativity).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-2",
+          "chapter": "Chapter 4",
+          "front": "What is the difference between an entrepreneur and a manager?",
+          "back": "An entrepreneur creates and owns the venture, taking personal financial risk; a manager is employed to run an existing organisation using others' resources.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-3",
+          "chapter": "Chapter 4",
+          "front": "What does SEDA stand for and what does it do?",
+          "back": "Small Enterprise Development Agency — a SA government agency that provides non-financial support (mentoring, training, market access) to SMMEs.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-4",
+          "chapter": "Chapter 4",
+          "front": "What is intrapreneurship?",
+          "back": "Entrepreneurial behaviour and innovation within an existing large organisation, driven by employees acting as internal entrepreneurs.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch4-q1",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following BEST defines an entrepreneur?",
+          "options": [
+            "A salaried manager who oversees daily operations",
+            "A person who identifies opportunities and takes risks to start a business",
+            "A government official who regulates small businesses",
+            "A shareholder who invests in listed companies"
+          ],
+          "answer": "A person who identifies opportunities and takes risks to start a business",
+          "explanation": "Entrepreneurship involves opportunity recognition and personal risk-taking to create a new venture.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q2",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Which SA government entity provides FINANCIAL support to SMMEs?",
+          "options": [
+            "SEDA",
+            "SEFA",
+            "CIPC",
+            "SARS"
+          ],
+          "answer": "SEFA",
+          "explanation": "SEFA (Small Enterprise Finance Agency) provides loans and financial support; SEDA provides non-financial support.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q3",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Intrapreneurship refers to:",
+          "options": [
+            "Starting a business abroad",
+            "Entrepreneurial behaviour within an existing organisation",
+            "Government-funded startup programmes",
+            "Forming a partnership between two entrepreneurs"
+          ],
+          "answer": "Entrepreneurial behaviour within an existing organisation",
+          "explanation": "Intrapreneurs are employees who innovate and create new value within an established company without bearing personal financial risk.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch4-we-1",
+          "chapter": "Chapter 4",
+          "title": "Entrepreneur vs Manager Comparison",
+          "summary": "Compare the roles of Thandi (entrepreneur) and James (manager) at competing bakeries.",
+          "problem": "Thandi started Sunshine Bakery from scratch with her own savings and runs daily operations. James is a salaried operations manager at a corporate bakery chain. Compare their entrepreneurial characteristics.",
+          "steps": [
+            {
+              "label": "Step 1 — Risk",
+              "explanation": "Thandi takes personal financial risk (her savings). James takes no personal financial risk — he earns a salary."
+            },
+            {
+              "label": "Step 2 — Ownership",
+              "explanation": "Thandi owns the business. James manages on behalf of the company's owners."
+            },
+            {
+              "label": "Step 3 — Innovation",
+              "explanation": "Thandi introduced new products and found the market gap. James implements existing recipes and systems."
+            },
+            {
+              "label": "Step 4 — Reward",
+              "explanation": "Thandi's reward is business profit (and risk of loss). James receives a fixed salary and possible bonus."
+            }
+          ],
+          "answer": "Thandi is the entrepreneur (owner, risk-taker, innovator). James is a manager (employee, implements others' vision).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 5",
+      "flashcards": [
+        {
+          "id": "ch5-fc-1",
+          "chapter": "Chapter 5",
+          "front": "What are the four main business functions?",
+          "back": "Production (operations), marketing, financial, and human resources management.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-2",
+          "chapter": "Chapter 5",
+          "front": "What is the marketing mix (4Ps)?",
+          "back": "Product, Price, Place, Promotion — the four controllable elements of a marketing strategy.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-3",
+          "chapter": "Chapter 5",
+          "front": "What does the production function focus on?",
+          "back": "Transforming inputs (raw materials, labour, capital) into outputs (products or services) efficiently.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-4",
+          "chapter": "Chapter 5",
+          "front": "Name two responsibilities of the HR function.",
+          "back": "Recruitment and selection; training and development (also: performance management, compensation, employee relations).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch5-q1",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "The function that converts raw materials into finished goods is called the:",
+          "options": [
+            "Marketing function",
+            "Financial function",
+            "Production function",
+            "HR function"
+          ],
+          "answer": "Production function",
+          "explanation": "The production (operations) function manages the transformation of inputs into outputs — goods or services.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q2",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "Which business function is responsible for raising and managing capital?",
+          "options": [
+            "Production function",
+            "Marketing function",
+            "Financial function",
+            "Public relations function"
+          ],
+          "answer": "Financial function",
+          "explanation": "The financial function manages sourcing of funds, capital allocation, budgeting, and financial reporting.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q3",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "The 4Ps of the marketing mix are:",
+          "options": [
+            "Planning, People, Profit, Price",
+            "Product, Price, Place, Promotion",
+            "Production, Personnel, Profit, Positioning",
+            "Product, Packaging, People, Promotion"
+          ],
+          "answer": "Product, Price, Place, Promotion",
+          "explanation": "The classic marketing mix consists of Product (what is sold), Price (at what cost), Place (distribution) and Promotion (communication).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch5-we-1",
+          "chapter": "Chapter 5",
+          "title": "Linking Business Functions at a Bakery",
+          "summary": "Show how all four functions interact in a small SA bakery.",
+          "problem": "Sunshine Bakery (Pty Ltd) makes and sells bread. Explain how each of the four business functions operates and how they depend on each other.",
+          "steps": [
+            {
+              "label": "Production function",
+              "explanation": "Bakers convert flour, yeast and water (inputs) into bread (outputs). They manage baking schedules and quality control."
+            },
+            {
+              "label": "Marketing function",
+              "explanation": "Marketing identifies that township customers want sliced white bread at a low price. The bakery uses a low-price, local-distribution strategy (4Ps)."
+            },
+            {
+              "label": "Financial function",
+              "explanation": "Finance tracks costs (flour, electricity, wages) and revenue (bread sales), and ensures the bakery can pay suppliers."
+            },
+            {
+              "label": "HR function",
+              "explanation": "HR recruits and trains bakers, manages shift rosters, and complies with BCEA minimum wages."
+            },
+            {
+              "label": "Interdependence",
+              "explanation": "Marketing drives demand → production adjusts output → finance funds raw materials → HR ensures enough bakers. All functions are interdependent."
+            }
+          ],
+          "answer": "All four business functions work together: production fulfils demand generated by marketing, funded by finance, staffed by HR.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 6",
+      "flashcards": [
+        {
+          "id": "ch6-fc-1",
+          "chapter": "Chapter 6",
+          "front": "What does POMC stand for?",
+          "back": "Planning, Organising, Leading (sometimes 'Activating'), Controlling — the four elements of the management process.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-2",
+          "chapter": "Chapter 6",
+          "front": "What is strategic planning?",
+          "back": "Long-term planning (3-5+ years) by top management, setting overall direction and goals for the organisation.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-3",
+          "chapter": "Chapter 6",
+          "front": "What is the difference between organising and planning?",
+          "back": "Planning sets goals and decides how to achieve them; organising arranges people and resources to implement the plan.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-4",
+          "chapter": "Chapter 6",
+          "front": "What is controlling in the management process?",
+          "back": "Measuring actual performance against planned targets and taking corrective action to close the gap.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch6-q1",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "Which management function involves setting objectives and deciding how to achieve them?",
+          "options": [
+            "Organising",
+            "Leading",
+            "Planning",
+            "Controlling"
+          ],
+          "answer": "Planning",
+          "explanation": "Planning is the first management function — it involves setting goals and selecting strategies to achieve them.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q2",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "A production manager compares monthly output to the monthly target and adjusts schedules. This is an example of:",
+          "options": [
+            "Planning",
+            "Organising",
+            "Leading",
+            "Controlling"
+          ],
+          "answer": "Controlling",
+          "explanation": "Controlling involves comparing actual results to planned targets and making corrective adjustments.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q3",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "Operational planning differs from strategic planning in that operational planning:",
+          "options": [
+            "Is done only once per year",
+            "Focuses on day-to-day activities over a short time horizon",
+            "Is done exclusively by the board of directors",
+            "Sets the 5-year vision for the company"
+          ],
+          "answer": "Focuses on day-to-day activities over a short time horizon",
+          "explanation": "Operational planning covers short-term (daily/weekly/monthly) activities at functional level, while strategic planning sets long-term direction.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch6-we-1",
+          "chapter": "Chapter 6",
+          "title": "Applying POMC at a Retail Store",
+          "summary": "Trace the POMC process through a seasonal sales campaign.",
+          "problem": "Clicks wants to run a back-to-school campaign in January. Apply each POMC element.",
+          "steps": [
+            {
+              "label": "Planning",
+              "explanation": "Top management sets a goal: increase January sales by 15%. They decide to discount school supplies and advertise on social media."
+            },
+            {
+              "label": "Organising",
+              "explanation": "The store manager allocates extra shelf space for school items, schedules additional staff for January, and coordinates with suppliers."
+            },
+            {
+              "label": "Leading",
+              "explanation": "The manager motivates staff with sales incentives, communicates the campaign goals, and coaches cashiers on upselling."
+            },
+            {
+              "label": "Controlling",
+              "explanation": "Weekly sales reports compare actual revenue to the 15% target. If below target, prices are adjusted or promotion is intensified."
+            }
+          ],
+          "answer": "Planning set the goal; organising arranged resources; leading motivated staff; controlling monitored and adjusted performance.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 7",
+      "flashcards": [
+        {
+          "id": "ch7-fc-1",
+          "chapter": "Chapter 7",
+          "front": "What is corporate governance?",
+          "back": "The system of rules, practices and processes by which a company is directed and controlled to balance the interests of all stakeholders.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-2",
+          "chapter": "Chapter 7",
+          "front": "What is the King IV Report?",
+          "back": "South Africa's 2016 corporate governance code — applies to all organisations on an apply-and-explain basis and promotes ethical leadership and accountability.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-3",
+          "chapter": "Chapter 7",
+          "front": "Name four stakeholder groups of a business.",
+          "back": "Shareholders, employees, customers, suppliers; also community, government, creditors, and the environment.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-4",
+          "chapter": "Chapter 7",
+          "front": "What is the difference between corporate social responsibility (CSR) and business ethics?",
+          "back": "CSR refers to voluntary actions benefiting society (e.g. community projects); business ethics refers to moral principles guiding all business decisions.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch7-q1",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "The King IV Report is significant in South Africa because it:",
+          "options": [
+            "Replaced the Companies Act as the primary business law",
+            "Sets corporate governance principles for all organisations on an apply-and-explain basis",
+            "Applies only to JSE-listed companies",
+            "Was written by the Reserve Bank"
+          ],
+          "answer": "Sets corporate governance principles for all organisations on an apply-and-explain basis",
+          "explanation": "King IV (2016) applies to all organisations, not just listed companies, and uses apply-and-explain rather than comply-or-explain.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q2",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "Stakeholder theory argues that a business should:",
+          "options": [
+            "Maximise shareholder returns above all else",
+            "Balance the interests of all groups affected by the business",
+            "Ignore government regulations",
+            "Focus only on employee welfare"
+          ],
+          "answer": "Balance the interests of all groups affected by the business",
+          "explanation": "Stakeholder theory holds that businesses have responsibilities to all affected parties — not only shareholders.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q3",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is an example of UNETHICAL business behaviour?",
+          "options": [
+            "Publishing an annual sustainability report",
+            "Bribing a government official to win a contract",
+            "Paying employees above minimum wage",
+            "Donating to a community school"
+          ],
+          "answer": "Bribing a government official to win a contract",
+          "explanation": "Bribery violates ethical principles and is illegal under SA's Prevention and Combating of Corrupt Activities Act.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch7-we-1",
+          "chapter": "Chapter 7",
+          "title": "Identifying Governance Failures",
+          "summary": "Analyse a scenario for corporate governance breaches.",
+          "problem": "Zuma Construction (Pty Ltd) secretly awarded a R5 million tender to a company owned by the CEO's brother without competitive bidding. The board was not informed. Identify the governance failures.",
+          "steps": [
+            {
+              "label": "Failure 1 — Conflict of interest",
+              "explanation": "The CEO had a personal financial interest in the outcome; this should have been disclosed and the CEO recused from the decision."
+            },
+            {
+              "label": "Failure 2 — Board oversight",
+              "explanation": "The board was bypassed; King IV requires the board to provide oversight of management and strategic decisions."
+            },
+            {
+              "label": "Failure 3 — Transparency",
+              "explanation": "No competitive bidding process was followed; transparency and accountability principles were violated."
+            },
+            {
+              "label": "Failure 4 — Ethical leadership",
+              "explanation": "The CEO used his position for personal gain — a direct breach of ethical leadership under King IV."
+            }
+          ],
+          "answer": "Conflict of interest, lack of board oversight, no transparency in procurement, and absence of ethical leadership.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    }
+  ],
+  "discipline": "business_management",
+  "referenceList": [
+    {
+      "title": "Hellriegel, Jackson, Slocum et al. — Management (Cengage/South-Western)",
+      "publisher": "Cengage",
+      "url": "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+      "note": "Common management principles text; covers planning, organising, leading, control.",
+      "sourceHash": "5e4d986d79e9444e49ba9782014662b62dcf2f5f722112bc02a4e3f7130dc959"
+    },
+    {
+      "title": "Robbins, Coulter & DeCenzo — Fundamentals of Management (Pearson)",
+      "publisher": "Pearson",
+      "url": "https://www.pearson.com/en-us/subjects/business-management.html",
+      "note": "Accessible intro to the management function and behavioural foundations.",
+      "sourceHash": "bff5850e007137dfcdd05eac9d8a82fc7ddb24b8e6dc1430d1df4fe25d3a4255"
+    },
+    {
+      "title": "Society for Human Resource Management — HR Topics",
+      "publisher": "SHRM",
+      "url": "https://www.shrm.org/topics-tools",
+      "note": "Practitioner source for organisational-behaviour and HR concepts.",
+      "sourceHash": "7481bdca31c549d29dc810d62032fbb80a184db30593d9c0b43375394d7cfa44"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: Business Management 111 (BCom, North-West University). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "Chapter-by-chapter teaching focus (derived from the module's own learning outcomes and key definitions):",
+    "  • Chapter 1 — Introduction to Business Management. Emphasise: Define business and business management; Distinguish between profit and non-profit organisations; Explain business goals and objectives. Local context: South African businesses operate under the Companies Act (2008). SMMEs contribute about 34% of SA's GDP and employ roughly 60% of the private sector workforce.",
+    "  • Chapter 2 — The Business Environment. Emphasise: Distinguish between micro, market and macro environments; Apply PESTLE analysis to a SA business; Identify opportunities and threats in the macro environment. Local context: Load-shedding (Eskom) is a critical macro environment threat for SA businesses. The National Development Plan (NDP 2030) is a political/economic macro factor.",
+    "  • Chapter 3 — Forms of Business Ownership. Emphasise: Compare sole traders, partnerships, private companies and public companies; Identify advantages and disadvantages of each form; Explain the concept of limited liability. Local context: In SA, companies are registered with the Companies and Intellectual Property Commission (CIPC). The Companies Act 71 of 2008 governs all companies.",
+    "  • Chapter 4 — Entrepreneurship & Small Business. Emphasise: Define entrepreneurship and identify entrepreneurial characteristics; Distinguish between an entrepreneur and a manager; Explain the role of SMMEs in the South African economy. Local context: The Small Enterprise Development Agency (SEDA) and the Small Enterprise Finance Agency (SEFA) are key SA government bodies that support SMMEs.",
+    "  • Chapter 5 — Business Functions Overview. Emphasise: Identify and describe the main business functions; Explain how business functions interact; Link each function to organisational goals. Local context: SA businesses must comply with labour legislation (Labour Relations Act, BCEA) in their HR function, and with SARS requirements in their finance function.",
+    "  • Chapter 6 — Management Process (POMC). Emphasise: Explain the four elements of the management process: planning, organising, leading and controlling; Distinguish between strategic, tactical and operational planning; Apply the POMC model to a business scenario. Local context: SA managers must balance performance targets with employee rights under the Labour Relations Act 66 of 1995 when exercising the leading and controlling functions.",
+    "  • Chapter 7 — Corporate Governance & Ethics. Emphasise: Define corporate governance and explain its importance; Summarise the key principles of the King IV Report; Apply stakeholder theory to business decision-making. Local context: King IV is a world-leading governance code adopted by the JSE listing requirements. SA's high-profile governance failures (e.g. state capture) highlight the importance of ethical leadership.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "5e4d986d79e9444e49ba9782014662b62dcf2f5f722112bc02a4e3f7130dc959",
+    "bff5850e007137dfcdd05eac9d8a82fc7ddb24b8e6dc1430d1df4fe25d3a4255",
+    "7481bdca31c549d29dc810d62032fbb80a184db30593d9c0b43375394d7cfa44"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

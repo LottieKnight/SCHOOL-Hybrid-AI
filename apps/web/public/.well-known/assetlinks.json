@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "za.co.ditshego.school",
+      "sha256_cert_fingerprints": [
+        "2F:D0:EA:EB:A8:03:51:29:14:E3:F1:1D:6E:76:30:B5:E5:E8:36:AE:66:31:E8:0A:D8:FE:83:62:86:47:01:9D"
+      ]
+    }
+  }
+]

@@ -1,0 +1,3242 @@
+{
+  "institution": "North-West University",
+  "moduleCode": "ACFS111",
+  "moduleName": "Financial Accounting 111",
+  "semester": "Semester 1, 2024",
+  "programme": "BCom",
+  "confidence": 0.82,
+  "generatedAt": "2026-04-03T00:00:00.000Z",
+  "sourceFiles": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "missingContent": [],
+  "studyUnits": [
+    "Chapter 1 — Conceptual Framework",
+    "Chapter 2 — The Account",
+    "Chapter 3 — General Journal",
+    "Chapter 4 — General Ledger & Trial Balance",
+    "Chapter 5 — Equity (Capital)",
+    "Chapter 6 — Non-current Assets",
+    "Chapter 7 — Current Assets",
+    "Chapter 8 — Liabilities",
+    "Chapter 9 — Income & Expenses",
+    "Chapter 10 — Completion of Accounting Cycle",
+    "Chapter 11 — Accounting Equation"
+  ],
+  "chapters": [
+    "Chapter 1",
+    "Chapter 2",
+    "Chapter 3",
+    "Chapter 4",
+    "Chapter 5",
+    "Chapter 6",
+    "Chapter 7",
+    "Chapter 8",
+    "Chapter 9",
+    "Chapter 10",
+    "Chapter 11"
+  ],
+  "topicSeeds": [
+    "Ch1 - Objective of financial statements",
+    "Ch1 - Qualitative characteristics of useful information",
+    "Ch1 - Elements of financial statements",
+    "Ch1 - Recognition and measurement",
+    "Ch2 - Definition of an account",
+    "Ch2 - T-account format",
+    "Ch2 - Debit and credit rules",
+    "Ch2 - Chart of accounts",
+    "Ch3 - Source documents",
+    "Ch3 - General journal entry format",
+    "Ch3 - Journalising transactions",
+    "Ch3 - Periodic inventory system",
+    "Ch4 - Posting to the ledger",
+    "Ch4 - Balancing T-accounts",
+    "Ch4 - Trial balance preparation",
+    "Ch4 - Errors and trial balance",
+    "Ch5 - Owners equity for sole trader",
+    "Ch5 - Capital and drawings accounts",
+    "Ch5 - Effect of profit on equity",
+    "Ch6 - Cost model for PPE",
+    "Ch6 - Depreciation methods",
+    "Ch6 - Disposal of assets",
+    "Ch7 - Trade receivables and debtors control",
+    "Ch7 - Inventory under periodic system",
+    "Ch8 - Trade payables and creditors control",
+    "Ch8 - Accrued expenses and unearned income",
+    "Ch9 - Revenue recognition",
+    "Ch9 - Matching of expenses",
+    "Ch10 - Adjusting entries",
+    "Ch10 - Closing entries",
+    "Ch10 - Post-closing trial balance",
+    "Ch11 - Accounting equation Assets = Liabilities + Equity"
+  ],
+  "keyTopics": [
+    "conceptual framework",
+    "qualitative characteristics",
+    "debit and credit",
+    "T-account",
+    "chart of accounts",
+    "source documents",
+    "general journal",
+    "general ledger",
+    "trial balance",
+    "sole trader equity",
+    "capital account",
+    "drawings",
+    "property plant and equipment",
+    "depreciation",
+    "straight-line method",
+    "diminishing balance method",
+    "disposal of assets",
+    "debtors control",
+    "periodic inventory",
+    "creditors control",
+    "accruals",
+    "prepayments",
+    "revenue recognition",
+    "matching principle",
+    "adjusting entries",
+    "closing entries",
+    "accounting equation"
+  ],
+  "quizSignals": [
+    "What are the qualitative characteristics of useful financial information?",
+    "What is the difference between a debit and a credit?",
+    "How do you record a purchase of inventory under the periodic system?",
+    "What is the purpose of a trial balance?",
+    "How is depreciation calculated using the straight-line method?",
+    "What is the accounting equation?",
+    "How do you close nominal accounts at year-end?",
+    "What is the difference between an accrued expense and a prepaid expense?"
+  ],
+  "assessmentPlan": [
+    {
+      "name": "Test 1",
+      "weight": "Counted in best 2 of 3 (participation 50%)",
+      "due": "March (Week 8)",
+      "scope": "Ch 1–4"
+    },
+    {
+      "name": "Assignment",
+      "weight": "10%",
+      "due": "April",
+      "scope": "Ch 3–6"
+    },
+    {
+      "name": "Test 2",
+      "weight": "Counted in best 2 of 3 (participation 50%)",
+      "due": "April (Week 15)",
+      "scope": "Ch 3–9"
+    },
+    {
+      "name": "Test 3",
+      "weight": "Counted in best 2 of 3 (participation 50%)",
+      "due": "May (Week 18)",
+      "scope": "Ch 1–10"
+    },
+    {
+      "name": "Semester Examination",
+      "weight": "50%",
+      "due": "Exam period",
+      "scope": "Ch 1–11"
+    }
+  ],
+  "classSchedule": [
+    {
+      "label": "Week 1",
+      "summary": "Introduction to the Conceptual Framework of accounting",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 2",
+      "summary": "The Account — debit/credit rules and T-account format",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 3",
+      "summary": "General Journal — source documents and journalising",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 4",
+      "summary": "General Journal — compound entries and periodic inventory",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 5",
+      "summary": "General Ledger — posting and balancing accounts",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 6",
+      "summary": "Trial Balance — preparation and locating errors",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 7",
+      "summary": "Equity (Capital) — sole trader capital and drawings",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 8",
+      "summary": "TEST 1 — Chapters 1–4",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 9",
+      "summary": "Non-current Assets — PPE cost model and depreciation",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 10",
+      "summary": "Non-current Assets — straight-line and diminishing balance depreciation",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 11",
+      "summary": "Non-current Assets — disposal entries",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 12",
+      "summary": "Current Assets — debtors control and inventory",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 13",
+      "summary": "Liabilities — creditors control, accruals and prepayments",
+      "chapter": "Chapter 8"
+    },
+    {
+      "label": "Week 14",
+      "summary": "Income & Expenses — revenue recognition and matching principle",
+      "chapter": "Chapter 9"
+    },
+    {
+      "label": "Week 15",
+      "summary": "ASSESSMENT WEEK — Test 2 (Ch 3–9)",
+      "chapter": "Chapter 9"
+    },
+    {
+      "label": "Week 16",
+      "summary": "Completion of Accounting Cycle — adjusting entries",
+      "chapter": "Chapter 10"
+    },
+    {
+      "label": "Week 17",
+      "summary": "Completion of Accounting Cycle — closing entries and post-closing trial balance",
+      "chapter": "Chapter 10"
+    },
+    {
+      "label": "Week 18",
+      "summary": "TEST 3 (Ch 1–10) + Introduction to Accounting Equation",
+      "chapter": "Chapter 11"
+    }
+  ],
+  "chapterInsights": [
+    {
+      "chapter": "Chapter 1",
+      "title": "Conceptual Framework",
+      "outcomes": [
+        "Explain the objective of general-purpose financial statements",
+        "Identify and describe the qualitative characteristics of useful financial information",
+        "Define the elements of financial statements: assets, liabilities, equity, income and expenses",
+        "Describe the recognition and measurement bases used in accounting"
+      ],
+      "formulas": [
+        "Assets = Liabilities + Equity",
+        "Profit = Income - Expenses"
+      ],
+      "definitions": [
+        {
+          "term": "Conceptual Framework",
+          "definition": "A set of concepts that underlies the preparation and presentation of financial statements for external users."
+        },
+        {
+          "term": "Asset",
+          "definition": "A present economic resource controlled by the entity as a result of past events."
+        },
+        {
+          "term": "Liability",
+          "definition": "A present obligation of the entity to transfer an economic resource as a result of past events."
+        },
+        {
+          "term": "Equity",
+          "definition": "The residual interest in the assets of the entity after deducting all its liabilities."
+        },
+        {
+          "term": "Relevance",
+          "definition": "A qualitative characteristic meaning financial information can make a difference to decisions made by users."
+        },
+        {
+          "term": "Faithful Representation",
+          "definition": "A qualitative characteristic requiring information to be complete, neutral and free from error."
+        }
+      ],
+      "revisionPrompts": [
+        "What is the primary objective of financial statements according to the IASB Conceptual Framework?",
+        "List the two fundamental qualitative characteristics of useful financial information.",
+        "Distinguish between an asset and a liability using your own example.",
+        "Why is faithful representation important in accounting?"
+      ],
+      "saContext": "South African companies listed on the JSE prepare financial statements in accordance with IFRS, which is built on the IASB Conceptual Framework. The IASB framework is also the basis for accounting standards used in South African universities including NWU.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+          "https://www.iasplus.com/en/standards/other/framework",
+          "https://www.ifrs.org/issued-standards/list-of-standards/",
+          "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 2",
+      "title": "The Account",
+      "outcomes": [
+        "Explain the purpose of an account in the accounting system",
+        "Draw and label a T-account correctly",
+        "Apply the rules of debit and credit to assets, liabilities, equity, income and expenses",
+        "Identify accounts using a chart of accounts"
+      ],
+      "formulas": [
+        "Debit side = Left side of T-account",
+        "Credit side = Right side of T-account",
+        "Balance = Total Debits - Total Credits (for debit-balance accounts)"
+      ],
+      "definitions": [
+        {
+          "term": "Account",
+          "definition": "A record that summarises all transactions relating to a particular item in the financial statements."
+        },
+        {
+          "term": "T-account",
+          "definition": "A simplified account format shaped like the letter T, with debits on the left and credits on the right."
+        },
+        {
+          "term": "Debit (Dr)",
+          "definition": "An entry on the left side of a T-account; increases assets and expenses, decreases liabilities and equity."
+        },
+        {
+          "term": "Credit (Cr)",
+          "definition": "An entry on the right side of a T-account; increases liabilities, equity and income, decreases assets."
+        },
+        {
+          "term": "Chart of Accounts",
+          "definition": "A numbered list of all accounts used by a business, grouped by category."
+        },
+        {
+          "term": "Normal Balance",
+          "definition": "The side (debit or credit) on which an account's balance typically appears."
+        }
+      ],
+      "revisionPrompts": [
+        "What are the debit and credit rules for asset accounts?",
+        "If a business pays cash to a supplier, which accounts are affected and on which sides?",
+        "What is the normal balance of an expense account?",
+        "Why is a chart of accounts useful for a business?"
+      ],
+      "saContext": "South African sole traders and small businesses, such as a local spaza shop or plumber, use the same debit/credit system as large corporations. Understanding T-accounts is the foundation for all bookkeeping in SA.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+          "https://www.iasplus.com/en/standards/other/framework",
+          "https://www.ifrs.org/issued-standards/list-of-standards/",
+          "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 3",
+      "title": "General Journal",
+      "outcomes": [
+        "Identify common source documents used in accounting",
+        "Record transactions in the general journal using correct format",
+        "Journalise transactions under the periodic inventory system",
+        "Prepare compound journal entries"
+      ],
+      "formulas": [
+        "Journal entry: Debit account Dr / Credit account Cr",
+        "Purchases (periodic): Dr Purchases / Cr Creditors (or Bank)"
+      ],
+      "definitions": [
+        {
+          "term": "General Journal",
+          "definition": "The book of original entry where all transactions are recorded in chronological order before being posted to the ledger."
+        },
+        {
+          "term": "Source Document",
+          "definition": "A document that provides evidence of a business transaction, e.g. invoice, receipt, bank statement."
+        },
+        {
+          "term": "Periodic Inventory System",
+          "definition": "An inventory system where the cost of goods sold and inventory balance are determined only at the end of the period."
+        },
+        {
+          "term": "Compound Journal Entry",
+          "definition": "A journal entry that involves more than one debit or more than one credit account."
+        },
+        {
+          "term": "Narration",
+          "definition": "A brief explanation written below each journal entry describing the nature of the transaction."
+        }
+      ],
+      "revisionPrompts": [
+        "What information must appear in a general journal entry?",
+        "A business buys R5 000 of inventory on credit. Write the journal entry under the periodic inventory system.",
+        "What is the difference between a simple and a compound journal entry?",
+        "Name three source documents and state what transaction each supports."
+      ],
+      "saContext": "South African businesses issue tax invoices (as required by SARS for VAT purposes) which serve as source documents. NWU's ACFS111 uses the periodic inventory system to introduce journalising before moving to more complex systems.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+          "https://www.iasplus.com/en/standards/other/framework",
+          "https://www.ifrs.org/issued-standards/list-of-standards/",
+          "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 4",
+      "title": "General Ledger & Trial Balance",
+      "outcomes": [
+        "Post journal entries to T-accounts in the general ledger",
+        "Balance each ledger account correctly",
+        "Prepare a trial balance from ledger balances",
+        "Identify types of errors that the trial balance does and does not detect"
+      ],
+      "formulas": [
+        "Closing balance = Opening balance + Debits - Credits (for debit-balance accounts)",
+        "Trial balance: Total Debits = Total Credits"
+      ],
+      "definitions": [
+        {
+          "term": "General Ledger",
+          "definition": "The main set of accounts that contains the complete record of all financial transactions of a business."
+        },
+        {
+          "term": "Posting",
+          "definition": "The process of transferring debit and credit amounts from the journal to the relevant ledger accounts."
+        },
+        {
+          "term": "Trial Balance",
+          "definition": "A list of all ledger account balances at a specific date, used to verify that total debits equal total credits."
+        },
+        {
+          "term": "Error of Omission",
+          "definition": "An error where a transaction is completely omitted from the accounting records; the trial balance still balances."
+        },
+        {
+          "term": "Error of Commission",
+          "definition": "An error where an amount is posted to the wrong account of the same type; the trial balance still balances."
+        }
+      ],
+      "revisionPrompts": [
+        "Describe the steps to post a journal entry to the general ledger.",
+        "A trial balance balances — does this mean the accounting records are error-free? Explain.",
+        "How do you calculate the closing balance of a T-account?",
+        "What is the difference between an error of omission and an error of principle?"
+      ],
+      "saContext": "South African accounting software such as Sage One and Pastel automatically posts to the general ledger, but BCom students at NWU must master manual posting to understand the underlying logic before using software.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+          "https://www.iasplus.com/en/standards/other/framework",
+          "https://www.ifrs.org/issued-standards/list-of-standards/",
+          "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 5",
+      "title": "Equity (Capital)",
+      "outcomes": [
+        "Explain the concept of owners equity for a sole trader",
+        "Record capital contributions and drawings",
+        "Show the effect of profit and loss on equity",
+        "Prepare the owners equity section of the balance sheet"
+      ],
+      "formulas": [
+        "Closing Equity = Opening Capital + Additional Capital + Net Profit - Drawings",
+        "Net Profit = Income - Expenses"
+      ],
+      "definitions": [
+        {
+          "term": "Sole Trader",
+          "definition": "A business owned and operated by one person; the owner has unlimited liability."
+        },
+        {
+          "term": "Capital Account",
+          "definition": "The account that records the owner's investment in the business and accumulates profits less drawings."
+        },
+        {
+          "term": "Drawings",
+          "definition": "Amounts withdrawn by the owner from the business for personal use; reduces equity."
+        },
+        {
+          "term": "Retained Profit",
+          "definition": "The portion of net profit kept in the business rather than withdrawn by the owner."
+        }
+      ],
+      "revisionPrompts": [
+        "A sole trader starts a business with R50 000 cash. Write the journal entry.",
+        "The owner withdraws R3 000 cash for personal use. How is this recorded?",
+        "If a business earns a profit of R20 000 and the owner draws R8 000, what is the net change in equity?",
+        "Why are drawings not classified as an expense?"
+      ],
+      "saContext": "Most small South African businesses (spaza shops, tuck shops, self-employed tradespeople) operate as sole traders. Understanding sole trader equity is fundamental before moving to companies and partnerships in later modules.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+          "https://www.iasplus.com/en/standards/other/framework",
+          "https://www.ifrs.org/issued-standards/list-of-standards/",
+          "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 6",
+      "title": "Non-current Assets",
+      "outcomes": [
+        "Apply the cost model to record property, plant and equipment (PPE)",
+        "Calculate depreciation using the straight-line and diminishing balance methods",
+        "Record depreciation in the journal and ledger",
+        "Account for the disposal of a non-current asset"
+      ],
+      "formulas": [
+        "Straight-line depreciation = (Cost - Residual Value) / Useful Life",
+        "Diminishing Balance depreciation = Carrying Amount x Depreciation Rate",
+        "Carrying Amount = Cost - Accumulated Depreciation",
+        "Profit/Loss on disposal = Proceeds - Carrying Amount at date of disposal"
+      ],
+      "definitions": [
+        {
+          "term": "Property, Plant & Equipment (PPE)",
+          "definition": "Tangible non-current assets held for use in production or supply of goods and services over more than one period."
+        },
+        {
+          "term": "Depreciation",
+          "definition": "The systematic allocation of the depreciable amount of an asset over its useful life."
+        },
+        {
+          "term": "Carrying Amount",
+          "definition": "The cost of an asset less accumulated depreciation; also called book value."
+        },
+        {
+          "term": "Residual Value",
+          "definition": "The estimated amount the entity would receive for the asset at the end of its useful life."
+        },
+        {
+          "term": "Accumulated Depreciation",
+          "definition": "The total depreciation charged on an asset since it was acquired."
+        }
+      ],
+      "revisionPrompts": [
+        "A machine costs R120 000, has a residual value of R20 000 and a useful life of 5 years. Calculate annual depreciation using the straight-line method.",
+        "How does the diminishing balance method differ from the straight-line method?",
+        "A vehicle with a carrying amount of R45 000 is sold for R50 000. Record the disposal.",
+        "What is the difference between depreciation and accumulated depreciation?"
+      ],
+      "saContext": "South African businesses depreciate assets in line with SARS allowances where possible. For accounting purposes, IFRS IAS 16 governs PPE. NWU students apply both straight-line and diminishing balance methods to match common SA practice.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+          "https://www.iasplus.com/en/standards/other/framework",
+          "https://www.ifrs.org/issued-standards/list-of-standards/",
+          "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 7",
+      "title": "Current Assets",
+      "outcomes": [
+        "Record trade receivables (debtors) transactions",
+        "Maintain the debtors control account",
+        "Account for inventory under the periodic inventory system",
+        "Identify current assets on the balance sheet"
+      ],
+      "formulas": [
+        "Closing Inventory = Opening Inventory + Purchases - Cost of Goods Sold",
+        "Debtors Control: Dr Sales / Cr Debtors when selling on credit"
+      ],
+      "definitions": [
+        {
+          "term": "Current Asset",
+          "definition": "An asset expected to be converted to cash or consumed within one year or the normal operating cycle."
+        },
+        {
+          "term": "Trade Receivables (Debtors)",
+          "definition": "Amounts owed to the business by customers who purchased on credit."
+        },
+        {
+          "term": "Debtors Control Account",
+          "definition": "A summary account in the general ledger that records the total amount owed by all debtors."
+        },
+        {
+          "term": "Inventory (Periodic)",
+          "definition": "Under the periodic system, inventory is not updated with each transaction; a physical count determines the closing balance."
+        }
+      ],
+      "revisionPrompts": [
+        "A customer owes R8 000 and pays R5 000. Record the receipt in the debtors control account.",
+        "Under the periodic inventory system, how is closing inventory determined?",
+        "Name three examples of current assets.",
+        "What is the difference between debtors and creditors?"
+      ],
+      "saContext": "South African retailers like Pick n Pay and Woolworths carry significant inventory and receivables. Understanding current assets is essential for analysing the liquidity of any South African business.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+          "https://www.iasplus.com/en/standards/other/framework",
+          "https://www.ifrs.org/issued-standards/list-of-standards/",
+          "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 8",
+      "title": "Liabilities",
+      "outcomes": [
+        "Record trade payables (creditors) transactions",
+        "Maintain the creditors control account",
+        "Account for accrued expenses and unearned income",
+        "Distinguish between current and non-current liabilities"
+      ],
+      "formulas": [
+        "Creditors Control: Dr Creditors / Cr Bank when paying creditors",
+        "Accrued Expense: Dr Expense / Cr Accrued Liability at period end"
+      ],
+      "definitions": [
+        {
+          "term": "Trade Payables (Creditors)",
+          "definition": "Amounts owed by the business to suppliers for goods or services purchased on credit."
+        },
+        {
+          "term": "Accrued Expense",
+          "definition": "An expense that has been incurred but not yet paid at the end of the accounting period."
+        },
+        {
+          "term": "Prepaid Expense",
+          "definition": "A payment made in advance for a benefit to be received in a future period; classified as a current asset."
+        },
+        {
+          "term": "Unearned Income",
+          "definition": "Cash received in advance for services not yet rendered; classified as a current liability."
+        },
+        {
+          "term": "Creditors Control Account",
+          "definition": "A summary account in the general ledger recording the total amount owed to all creditors."
+        }
+      ],
+      "revisionPrompts": [
+        "The business owes R2 000 salaries at year-end that have not been paid. Write the adjusting journal entry.",
+        "Insurance of R12 000 was paid on 1 July for a 12-month policy. At 31 December, what is the prepaid portion?",
+        "Distinguish between an accrued expense and a prepaid expense.",
+        "A customer pays R10 000 in advance for services to be provided next month. How is this recorded?"
+      ],
+      "saContext": "South African businesses must account correctly for accrued liabilities such as leave pay and PAYE payable to SARS. NWU's ACFS111 introduces these concepts using simple sole trader examples.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+          "https://www.iasplus.com/en/standards/other/framework",
+          "https://www.ifrs.org/issued-standards/list-of-standards/",
+          "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 9",
+      "title": "Income & Expenses",
+      "outcomes": [
+        "Apply the revenue recognition principle",
+        "Apply the matching principle to expenses",
+        "Distinguish between capital and revenue expenditure",
+        "Prepare a basic income statement for a sole trader"
+      ],
+      "formulas": [
+        "Gross Profit = Sales Revenue - Cost of Goods Sold",
+        "Net Profit = Gross Profit + Other Income - Operating Expenses"
+      ],
+      "definitions": [
+        {
+          "term": "Revenue Recognition",
+          "definition": "The principle that revenue is recorded when it is earned, not necessarily when cash is received."
+        },
+        {
+          "term": "Matching Principle",
+          "definition": "Expenses should be recognised in the same period as the revenue they helped to generate."
+        },
+        {
+          "term": "Capital Expenditure",
+          "definition": "Spending on assets that provide benefits beyond the current accounting period; recorded as an asset."
+        },
+        {
+          "term": "Revenue Expenditure",
+          "definition": "Spending whose benefit is consumed within the current accounting period; recorded as an expense."
+        },
+        {
+          "term": "Cost of Goods Sold (COGS)",
+          "definition": "The direct cost of goods sold during the period, calculated under the periodic system as Opening Inventory + Purchases - Closing Inventory."
+        }
+      ],
+      "revisionPrompts": [
+        "Why do accountants use the matching principle?",
+        "A business sells goods worth R30 000 and the cost of those goods is R18 000. Calculate gross profit.",
+        "Classify each: buying a printer (R3 000); repairing a printer (R500). Explain your reasoning.",
+        "What is the difference between capital and revenue expenditure?"
+      ],
+      "saContext": "Revenue recognition is critical for South African businesses reporting under IFRS 15. At ACFS111 level, the focus is on basic cash and credit sales for a sole trader operating in South Africa.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+          "https://www.iasplus.com/en/standards/other/framework",
+          "https://www.ifrs.org/issued-standards/list-of-standards/",
+          "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 10",
+      "title": "Completion of Accounting Cycle",
+      "outcomes": [
+        "Prepare adjusting journal entries at period end",
+        "Prepare closing journal entries for nominal accounts",
+        "Prepare a post-closing trial balance",
+        "Describe all steps in the accounting cycle"
+      ],
+      "formulas": [
+        "Closing entry: Dr Income Summary / Cr Income (to close income)",
+        "Closing entry: Dr Expenses / Cr Income Summary (to close expenses)",
+        "Closing entry: Dr Income Summary / Cr Capital (if profit) OR Dr Capital / Cr Income Summary (if loss)",
+        "Closing entry: Dr Capital / Cr Drawings (to close drawings)"
+      ],
+      "definitions": [
+        {
+          "term": "Adjusting Entry",
+          "definition": "A journal entry made at the end of an accounting period to update accounts for accruals, prepayments and depreciation."
+        },
+        {
+          "term": "Closing Entry",
+          "definition": "A journal entry that transfers the balances of temporary (nominal) accounts to the capital account at period end."
+        },
+        {
+          "term": "Nominal Account",
+          "definition": "A temporary account (income or expense) that is closed at the end of each accounting period."
+        },
+        {
+          "term": "Post-closing Trial Balance",
+          "definition": "A trial balance prepared after closing entries to verify that only permanent accounts have balances."
+        },
+        {
+          "term": "Accounting Cycle",
+          "definition": "The complete sequence of accounting steps from identifying transactions to preparing financial statements, repeated each period."
+        }
+      ],
+      "revisionPrompts": [
+        "List the eight steps of the accounting cycle in order.",
+        "Why must nominal accounts be closed at the end of each period?",
+        "Write the closing entry for a business with sales revenue of R80 000.",
+        "What accounts appear on a post-closing trial balance?"
+      ],
+      "saContext": "South African businesses prepare annual financial statements at their financial year-end. The accounting cycle ensures that each year's results are properly isolated and reported to stakeholders and SARS.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+          "https://www.iasplus.com/en/standards/other/framework",
+          "https://www.ifrs.org/issued-standards/list-of-standards/",
+          "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 11",
+      "title": "Accounting Equation",
+      "outcomes": [
+        "State and apply the accounting equation",
+        "Analyse transactions using the accounting equation",
+        "Show how every transaction affects at least two elements",
+        "Link the accounting equation to the balance sheet"
+      ],
+      "formulas": [
+        "Assets = Liabilities + Equity",
+        "Equity = Assets - Liabilities",
+        "ΔAssets = ΔLiabilities + ΔEquity (for each transaction)"
+      ],
+      "definitions": [
+        {
+          "term": "Accounting Equation",
+          "definition": "The fundamental equation Assets = Liabilities + Equity that must always balance after every transaction."
+        },
+        {
+          "term": "Double-entry Bookkeeping",
+          "definition": "The system where every transaction is recorded with equal debits and credits, keeping the accounting equation in balance."
+        },
+        {
+          "term": "Balance Sheet (Statement of Financial Position)",
+          "definition": "The financial statement that presents an entity's assets, liabilities and equity at a specific date."
+        }
+      ],
+      "revisionPrompts": [
+        "State the accounting equation and explain what each element represents.",
+        "A business borrows R100 000 from the bank. Show the effect on the accounting equation.",
+        "How does paying a creditor R20 000 in cash affect the accounting equation?",
+        "Why must the accounting equation always balance?"
+      ],
+      "saContext": "The accounting equation is universal and applies to every South African business regardless of size or sector, from a Soweto street vendor to Naspers. It is the foundation of all financial reporting.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+          "https://www.iasplus.com/en/standards/other/framework",
+          "https://www.ifrs.org/issued-standards/list-of-standards/",
+          "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931"
+        ]
+      }
+    }
+  ],
+  "chapterStudyItems": [
+    {
+      "chapter": "Chapter 1",
+      "flashcards": [
+        {
+          "id": "ch1-fc-1",
+          "chapter": "Chapter 1",
+          "front": "What is the primary objective of financial statements according to the IASB Conceptual Framework?",
+          "back": "To provide financial information about the reporting entity that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the entity.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-2",
+          "chapter": "Chapter 1",
+          "front": "What are the two fundamental qualitative characteristics of useful financial information?",
+          "back": "Relevance and Faithful Representation.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-3",
+          "chapter": "Chapter 1",
+          "front": "Define an asset according to the IASB Conceptual Framework.",
+          "back": "A present economic resource controlled by the entity as a result of past events.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-4",
+          "chapter": "Chapter 1",
+          "front": "Define equity in accounting.",
+          "back": "The residual interest in the assets of the entity after deducting all its liabilities.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-5",
+          "chapter": "Chapter 1",
+          "front": "Name four enhancing qualitative characteristics of financial information.",
+          "back": "Comparability, Verifiability, Timeliness and Understandability.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch1-q1",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is a fundamental qualitative characteristic of useful financial information?",
+          "options": [
+            "Timeliness",
+            "Relevance",
+            "Comparability",
+            "Understandability"
+          ],
+          "answer": "Relevance",
+          "explanation": "Relevance and Faithful Representation are the two fundamental qualitative characteristics. Timeliness, Comparability and Understandability are enhancing characteristics.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q2",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "A sole trader owns a delivery van used in the business. According to the Conceptual Framework, this van is best classified as:",
+          "options": [
+            "A liability",
+            "An expense",
+            "An asset",
+            "Equity"
+          ],
+          "answer": "An asset",
+          "explanation": "The van is a present economic resource controlled by the entity as a result of past events (the purchase), so it meets the definition of an asset.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q3",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "What does faithful representation require of financial information?",
+          "options": [
+            "That it is presented in the currency of the user's country",
+            "That it is complete, neutral and free from material error",
+            "That it is published within one month of the reporting date",
+            "That it is audited by an external auditor"
+          ],
+          "answer": "That it is complete, neutral and free from material error",
+          "explanation": "Faithful representation requires information to be complete, neutral (unbiased) and free from material error. It does not require external audit, although that can enhance reliability.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch1-we-1",
+          "chapter": "Chapter 1",
+          "title": "Classifying Elements of Financial Statements",
+          "summary": "Classify a list of items into assets, liabilities, equity, income or expenses.",
+          "problem": "Classify each of the following for a sole trader: (a) Cash in the bank R10 000; (b) Bank loan R30 000; (c) Owner's investment R50 000; (d) Sales for the month R15 000; (e) Rent paid R2 000.",
+          "steps": [
+            {
+              "label": "Step 1 — Assets",
+              "explanation": "Cash in the bank (R10 000) is a present economic resource controlled by the entity. It is an ASSET."
+            },
+            {
+              "label": "Step 2 — Liabilities",
+              "explanation": "The bank loan (R30 000) is a present obligation to transfer an economic resource (repay the bank). It is a LIABILITY."
+            },
+            {
+              "label": "Step 3 — Equity",
+              "explanation": "The owner's investment (R50 000) represents the residual interest / contribution of the owner. It is EQUITY (Capital)."
+            },
+            {
+              "label": "Step 4 — Income",
+              "explanation": "Sales (R15 000) represent an increase in assets (cash/debtors) that increases equity. It is INCOME."
+            },
+            {
+              "label": "Step 5 — Expenses",
+              "explanation": "Rent paid (R2 000) represents a decrease in assets (cash) that decreases equity. It is an EXPENSE."
+            }
+          ],
+          "answer": "(a) Asset; (b) Liability; (c) Equity; (d) Income; (e) Expense.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 2",
+      "flashcards": [
+        {
+          "id": "ch2-fc-1",
+          "chapter": "Chapter 2",
+          "front": "What is the normal balance of an asset account?",
+          "back": "Debit (left side). Assets increase on the debit side and decrease on the credit side.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-2",
+          "chapter": "Chapter 2",
+          "front": "What is the normal balance of a liability account?",
+          "back": "Credit (right side). Liabilities increase on the credit side and decrease on the debit side.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-3",
+          "chapter": "Chapter 2",
+          "front": "What is the normal balance of an income account?",
+          "back": "Credit (right side). Income increases on the credit side.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-4",
+          "chapter": "Chapter 2",
+          "front": "What is the normal balance of an expense account?",
+          "back": "Debit (left side). Expenses increase on the debit side.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-5",
+          "chapter": "Chapter 2",
+          "front": "What is a chart of accounts?",
+          "back": "A numbered list of all accounts used by a business, organised by category (assets, liabilities, equity, income, expenses).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch2-q1",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "A business pays R5 000 cash to settle a creditor. Which of the following correctly describes the effect?",
+          "options": [
+            "Debit Bank; Credit Creditors",
+            "Debit Creditors; Credit Bank",
+            "Debit Creditors; Credit Capital",
+            "Debit Bank; Credit Capital"
+          ],
+          "answer": "Debit Creditors; Credit Bank",
+          "explanation": "Paying a creditor reduces a liability (debit Creditors) and reduces an asset (credit Bank).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q2",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following accounts has a normal credit balance?",
+          "options": [
+            "Cash",
+            "Drawings",
+            "Rent Expense",
+            "Sales Revenue"
+          ],
+          "answer": "Sales Revenue",
+          "explanation": "Sales Revenue is an income account and increases on the credit side, giving it a normal credit balance. Cash, Drawings and Rent Expense are all debit-balance accounts.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q3",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "A business receives R20 000 cash from a debtor. The correct journal entry is:",
+          "options": [
+            "Dr Bank R20 000 / Cr Sales R20 000",
+            "Dr Debtors R20 000 / Cr Bank R20 000",
+            "Dr Bank R20 000 / Cr Debtors R20 000",
+            "Dr Sales R20 000 / Cr Bank R20 000"
+          ],
+          "answer": "Dr Bank R20 000 / Cr Debtors R20 000",
+          "explanation": "Receiving cash from a debtor increases Bank (asset, debit) and decreases Debtors (asset, credit). Revenue was already recorded when the sale was made.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch2-we-1",
+          "chapter": "Chapter 2",
+          "title": "Applying Debit and Credit Rules",
+          "summary": "Identify the accounts affected and the debit/credit rules for a series of transactions.",
+          "problem": "For each transaction, state the accounts affected and whether they are debited or credited: (a) Owner invests R100 000 cash; (b) Business buys equipment for R25 000 cash; (c) Business earns R8 000 service revenue on credit.",
+          "steps": [
+            {
+              "label": "Step 1 — Transaction (a)",
+              "explanation": "Owner invests cash: Bank (asset) increases → Dr Bank R100 000. Capital (equity) increases → Cr Capital R100 000."
+            },
+            {
+              "label": "Step 2 — Transaction (b)",
+              "explanation": "Buy equipment for cash: Equipment (asset) increases → Dr Equipment R25 000. Bank (asset) decreases → Cr Bank R25 000."
+            },
+            {
+              "label": "Step 3 — Transaction (c)",
+              "explanation": "Earn service revenue on credit: Debtors (asset) increases → Dr Debtors R8 000. Service Revenue (income) increases → Cr Service Revenue R8 000."
+            }
+          ],
+          "answer": "(a) Dr Bank / Cr Capital R100 000; (b) Dr Equipment / Cr Bank R25 000; (c) Dr Debtors / Cr Service Revenue R8 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 3",
+      "flashcards": [
+        {
+          "id": "ch3-fc-1",
+          "chapter": "Chapter 3",
+          "front": "What is the general journal?",
+          "back": "The book of original entry where all transactions are recorded chronologically before being posted to the general ledger.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-2",
+          "chapter": "Chapter 3",
+          "front": "Name four common source documents used in accounting.",
+          "back": "Tax invoice, cash receipt, bank statement, credit note.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-3",
+          "chapter": "Chapter 3",
+          "front": "Under the periodic inventory system, how is a credit purchase of inventory recorded?",
+          "back": "Dr Purchases / Cr Creditors (Trade Payables).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-4",
+          "chapter": "Chapter 3",
+          "front": "What is a narration in a journal entry?",
+          "back": "A brief explanation written below the journal entry describing the nature of the transaction and the supporting source document.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-5",
+          "chapter": "Chapter 3",
+          "front": "What is a compound journal entry?",
+          "back": "A journal entry that involves more than one debit or more than one credit account in a single entry.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch3-q1",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "Under the periodic inventory system, a business purchases R12 000 of inventory on credit. The correct journal entry is:",
+          "options": [
+            "Dr Inventory R12 000 / Cr Creditors R12 000",
+            "Dr Purchases R12 000 / Cr Creditors R12 000",
+            "Dr Creditors R12 000 / Cr Purchases R12 000",
+            "Dr Cost of Sales R12 000 / Cr Creditors R12 000"
+          ],
+          "answer": "Dr Purchases R12 000 / Cr Creditors R12 000",
+          "explanation": "Under the periodic system, inventory is not updated with each purchase. Instead, a Purchases account is debited. The liability to the supplier is recorded as a credit to Creditors.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q2",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "Which source document is typically issued by a supplier to notify a business that a previously issued invoice has been reduced?",
+          "options": [
+            "Tax invoice",
+            "Cash receipt",
+            "Credit note",
+            "Remittance advice"
+          ],
+          "answer": "Credit note",
+          "explanation": "A credit note is issued by the supplier to reduce the amount owed on a previous invoice, for example when goods are returned or an overcharge is corrected.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q3",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "A business sells goods for R6 000 cash and R9 000 on credit in the same transaction. The correct compound entry credits:",
+          "options": [
+            "Bank R6 000 and Debtors R9 000",
+            "Sales R15 000 only",
+            "Bank R15 000 only",
+            "Capital R15 000"
+          ],
+          "answer": "Sales R15 000 only",
+          "explanation": "Total sales revenue is R15 000. The credit is to Sales R15 000. The debit side has two entries: Dr Bank R6 000 and Dr Debtors R9 000, making it a compound entry.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch3-we-1",
+          "chapter": "Chapter 3",
+          "title": "Journalising a Series of Transactions",
+          "summary": "Record four transactions in the general journal under the periodic inventory system.",
+          "problem": "Record the following transactions for January 2024: 1 Jan — Owner invests R80 000 cash; 5 Jan — Purchases inventory on credit from Supplier A for R15 000; 10 Jan — Cash sales R22 000; 15 Jan — Pays R8 000 to Supplier A.",
+          "steps": [
+            {
+              "label": "1 Jan — Capital contribution",
+              "explanation": "Dr Bank R80 000 / Cr Capital R80 000. Narration: Owner invested cash to commence business."
+            },
+            {
+              "label": "5 Jan — Credit purchase",
+              "explanation": "Dr Purchases R15 000 / Cr Creditors (Supplier A) R15 000. Narration: Purchased inventory on credit, Invoice #SA001."
+            },
+            {
+              "label": "10 Jan — Cash sales",
+              "explanation": "Dr Bank R22 000 / Cr Sales R22 000. Narration: Cash sales for the period, Cash Receipt #001."
+            },
+            {
+              "label": "15 Jan — Pay creditor",
+              "explanation": "Dr Creditors (Supplier A) R8 000 / Cr Bank R8 000. Narration: Partial payment to Supplier A, Cheque #001."
+            }
+          ],
+          "answer": "Four journal entries as shown, with total debits = total credits in each entry.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 4",
+      "flashcards": [
+        {
+          "id": "ch4-fc-1",
+          "chapter": "Chapter 4",
+          "front": "What is posting in accounting?",
+          "back": "The process of transferring debit and credit amounts from the general journal to the relevant accounts in the general ledger.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-2",
+          "chapter": "Chapter 4",
+          "front": "What is a trial balance?",
+          "back": "A list of all ledger account balances at a specific date used to verify that total debits equal total credits.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-3",
+          "chapter": "Chapter 4",
+          "front": "What is an error of omission?",
+          "back": "An error where a transaction is completely left out of the accounting records. The trial balance will still balance.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-4",
+          "chapter": "Chapter 4",
+          "front": "What is an error of principle?",
+          "back": "An error where a transaction is recorded in the wrong type of account (e.g. capital expenditure recorded as revenue expenditure). The trial balance still balances.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-5",
+          "chapter": "Chapter 4",
+          "front": "How do you calculate the closing balance of a ledger account with a debit normal balance?",
+          "back": "Closing balance = Total Debits − Total Credits. If positive, the account has a debit balance.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch4-q1",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following errors will cause the trial balance to NOT balance?",
+          "options": [
+            "Error of omission",
+            "Error of commission",
+            "Transposition error posted to only one account",
+            "Error of principle"
+          ],
+          "answer": "Transposition error posted to only one account",
+          "explanation": "A transposition error affecting only one side of the ledger creates an unequal total in the trial balance. Errors of omission, commission and principle affect both debits and credits equally, so the trial balance still balances.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q2",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "A Bank account has opening debit balance R15 000, total debits R40 000 and total credits R25 000. What is the closing balance?",
+          "options": [
+            "R30 000 debit",
+            "R10 000 credit",
+            "R30 000 credit",
+            "R10 000 debit"
+          ],
+          "answer": "R30 000 debit",
+          "explanation": "Closing balance = Opening balance + Debits − Credits = 15 000 + 40 000 − 25 000 = R30 000 debit.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q3",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "On the trial balance, a creditors control account with a balance of R18 000 should appear as:",
+          "options": [
+            "A debit of R18 000",
+            "A credit of R18 000",
+            "An asset of R18 000",
+            "An income of R18 000"
+          ],
+          "answer": "A credit of R18 000",
+          "explanation": "Creditors Control is a liability account with a normal credit balance. It therefore appears on the credit side of the trial balance.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch4-we-1",
+          "chapter": "Chapter 4",
+          "title": "Preparing a Trial Balance",
+          "summary": "Post journal entries to T-accounts and prepare a trial balance.",
+          "problem": "Post the following and prepare a trial balance: Dr Bank R80 000 / Cr Capital R80 000; Dr Purchases R15 000 / Cr Creditors R15 000; Dr Bank R22 000 / Cr Sales R22 000; Dr Creditors R8 000 / Cr Bank R8 000.",
+          "steps": [
+            {
+              "label": "Step 1 — Post to Bank",
+              "explanation": "Bank: Dr 80 000 (capital), Dr 22 000 (sales), Cr 8 000 (creditors). Closing balance = 80 000 + 22 000 − 8 000 = R94 000 Dr."
+            },
+            {
+              "label": "Step 2 — Post to Capital",
+              "explanation": "Capital: Cr 80 000. Closing balance = R80 000 Cr."
+            },
+            {
+              "label": "Step 3 — Post to Purchases",
+              "explanation": "Purchases: Dr 15 000. Closing balance = R15 000 Dr."
+            },
+            {
+              "label": "Step 4 — Post to Creditors",
+              "explanation": "Creditors: Cr 15 000, Dr 8 000. Closing balance = 15 000 − 8 000 = R7 000 Cr."
+            },
+            {
+              "label": "Step 5 — Post to Sales",
+              "explanation": "Sales: Cr 22 000. Closing balance = R22 000 Cr."
+            },
+            {
+              "label": "Step 6 — Trial Balance",
+              "explanation": "Debit column: Bank R94 000 + Purchases R15 000 = R109 000. Credit column: Capital R80 000 + Creditors R7 000 + Sales R22 000 = R109 000. Trial balance balances."
+            }
+          ],
+          "answer": "Total debits = Total credits = R109 000. Trial balance balances.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 5",
+      "flashcards": [
+        {
+          "id": "ch5-fc-1",
+          "chapter": "Chapter 5",
+          "front": "What is a sole trader?",
+          "back": "A business owned and operated by a single individual who bears unlimited personal liability for all debts of the business.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-2",
+          "chapter": "Chapter 5",
+          "front": "What are drawings?",
+          "back": "Amounts withdrawn by the owner from the business for personal use. Drawings reduce equity and have a normal debit balance.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-3",
+          "chapter": "Chapter 5",
+          "front": "Write the formula for closing equity of a sole trader.",
+          "back": "Closing Equity = Opening Capital + Additional Capital Contributed + Net Profit − Drawings.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-4",
+          "chapter": "Chapter 5",
+          "front": "Why are drawings NOT classified as an expense?",
+          "back": "Drawings are a withdrawal of equity by the owner, not a cost incurred to earn revenue. They reduce the owner's capital, not the profit of the business.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-5",
+          "chapter": "Chapter 5",
+          "front": "How does net profit affect equity?",
+          "back": "Net profit increases equity because income earned exceeds expenses, adding to the owner's wealth in the business.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch5-q1",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "A sole trader's capital at the start of the year is R60 000. During the year, net profit is R25 000 and drawings are R10 000. What is the closing capital?",
+          "options": [
+            "R75 000",
+            "R85 000",
+            "R35 000",
+            "R95 000"
+          ],
+          "answer": "R75 000",
+          "explanation": "Closing Capital = Opening Capital + Net Profit − Drawings = 60 000 + 25 000 − 10 000 = R75 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q2",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "An owner withdraws R4 000 cash for personal use. The correct journal entry is:",
+          "options": [
+            "Dr Drawings R4 000 / Cr Bank R4 000",
+            "Dr Expenses R4 000 / Cr Bank R4 000",
+            "Dr Capital R4 000 / Cr Drawings R4 000",
+            "Dr Bank R4 000 / Cr Capital R4 000"
+          ],
+          "answer": "Dr Drawings R4 000 / Cr Bank R4 000",
+          "explanation": "Drawings is a contra-equity account debited when the owner withdraws assets. Bank (cash) is credited as it decreases.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q3",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following will DECREASE the owner's equity of a sole trader?",
+          "options": [
+            "Additional capital invested",
+            "Net profit for the period",
+            "Drawings made by the owner",
+            "Revenue earned during the period"
+          ],
+          "answer": "Drawings made by the owner",
+          "explanation": "Drawings reduce the owner's equity. Additional capital, net profit and revenue all increase equity.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch5-we-1",
+          "chapter": "Chapter 5",
+          "title": "Calculating Closing Capital for a Sole Trader",
+          "summary": "Determine the closing equity using the capital account formula.",
+          "problem": "T. Dlamini started a business on 1 January 2024 with R120 000 cash. During January: additional capital of R20 000 was invested; net profit was R35 000; drawings were R15 000. Calculate closing capital at 31 January 2024.",
+          "steps": [
+            {
+              "label": "Step 1 — Opening Capital",
+              "explanation": "Opening Capital = R120 000 (initial investment on 1 January)."
+            },
+            {
+              "label": "Step 2 — Add Additional Capital",
+              "explanation": "Additional capital invested = R20 000. Running total = 120 000 + 20 000 = R140 000."
+            },
+            {
+              "label": "Step 3 — Add Net Profit",
+              "explanation": "Net profit for January = R35 000. Running total = 140 000 + 35 000 = R175 000."
+            },
+            {
+              "label": "Step 4 — Deduct Drawings",
+              "explanation": "Drawings = R15 000. Closing Capital = 175 000 − 15 000 = R160 000."
+            }
+          ],
+          "answer": "Closing Capital at 31 January 2024 = R160 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 6",
+      "flashcards": [
+        {
+          "id": "ch6-fc-1",
+          "chapter": "Chapter 6",
+          "front": "What is the straight-line depreciation formula?",
+          "back": "Annual Depreciation = (Cost − Residual Value) ÷ Useful Life in years.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-2",
+          "chapter": "Chapter 6",
+          "front": "What is carrying amount (book value)?",
+          "back": "Carrying Amount = Cost − Accumulated Depreciation at the reporting date.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-3",
+          "chapter": "Chapter 6",
+          "front": "How is profit or loss on disposal of an asset calculated?",
+          "back": "Profit/Loss on Disposal = Proceeds from sale − Carrying Amount at date of disposal. Positive = profit; Negative = loss.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-4",
+          "chapter": "Chapter 6",
+          "front": "What is accumulated depreciation?",
+          "back": "The total depreciation charged on an asset since it was acquired, shown as a contra-asset on the balance sheet.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-5",
+          "chapter": "Chapter 6",
+          "front": "Under the diminishing balance method, on what amount is depreciation calculated each year?",
+          "back": "Depreciation is calculated on the carrying amount (book value) at the beginning of each year, not on the original cost.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch6-q1",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "A machine costs R200 000, has a residual value of R20 000 and a useful life of 6 years. What is the annual straight-line depreciation?",
+          "options": [
+            "R30 000",
+            "R33 333",
+            "R36 000",
+            "R180 000"
+          ],
+          "answer": "R30 000",
+          "explanation": "Straight-line depreciation = (Cost − Residual Value) ÷ Useful Life = (200 000 − 20 000) ÷ 6 = 180 000 ÷ 6 = R30 000 per year.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q2",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "A vehicle with carrying amount R80 000 is sold for R65 000. What is the result?",
+          "options": [
+            "Profit on disposal R15 000",
+            "Loss on disposal R15 000",
+            "Profit on disposal R65 000",
+            "No gain or loss"
+          ],
+          "answer": "Loss on disposal R15 000",
+          "explanation": "Profit/Loss = Proceeds − Carrying Amount = 65 000 − 80 000 = −R15 000. A negative result means a loss on disposal of R15 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q3",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following best describes the diminishing balance method of depreciation?",
+          "options": [
+            "Depreciation is the same amount every year",
+            "Depreciation is calculated on the original cost each year",
+            "Depreciation decreases each year as it is applied to the reducing carrying amount",
+            "Depreciation is only charged in the year of disposal"
+          ],
+          "answer": "Depreciation decreases each year as it is applied to the reducing carrying amount",
+          "explanation": "The diminishing balance method applies a fixed percentage to the carrying amount each year. As the carrying amount decreases, so does the depreciation charge.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch6-we-1",
+          "chapter": "Chapter 6",
+          "title": "Depreciation Calculation and Disposal Entry",
+          "summary": "Calculate straight-line depreciation and record the disposal of a non-current asset.",
+          "problem": "A business buys equipment on 1 Jan 2022 for R150 000. Residual value R10 000, useful life 7 years (straight-line). On 31 Dec 2023 (after 2 years), the equipment is sold for R120 000 cash. Record the journal entry for the disposal.",
+          "steps": [
+            {
+              "label": "Step 1 — Annual Depreciation",
+              "explanation": "Annual Depreciation = (150 000 − 10 000) ÷ 7 = 140 000 ÷ 7 = R20 000 per year."
+            },
+            {
+              "label": "Step 2 — Accumulated Depreciation after 2 years",
+              "explanation": "Accumulated Depreciation = 20 000 × 2 = R40 000."
+            },
+            {
+              "label": "Step 3 — Carrying Amount at disposal",
+              "explanation": "Carrying Amount = 150 000 − 40 000 = R110 000."
+            },
+            {
+              "label": "Step 4 — Profit or Loss on Disposal",
+              "explanation": "Profit/Loss = Proceeds − Carrying Amount = 120 000 − 110 000 = R10 000 profit."
+            },
+            {
+              "label": "Step 5 — Journal Entry",
+              "explanation": "Dr Bank R120 000; Dr Accumulated Depreciation R40 000; Cr Equipment (Cost) R150 000; Cr Profit on Disposal R10 000."
+            }
+          ],
+          "answer": "Profit on disposal = R10 000. Journal: Dr Bank R120 000; Dr Accum. Dep. R40 000; Cr Equipment R150 000; Cr Profit on Disposal R10 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 7",
+      "flashcards": [
+        {
+          "id": "ch7-fc-1",
+          "chapter": "Chapter 7",
+          "front": "What are trade receivables?",
+          "back": "Amounts owed to the business by customers who purchased goods or services on credit; also called debtors.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-2",
+          "chapter": "Chapter 7",
+          "front": "What is the debtors control account?",
+          "back": "A summary account in the general ledger that records the total balance owed by all individual debtors collectively.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-3",
+          "chapter": "Chapter 7",
+          "front": "Under the periodic inventory system, how is closing inventory determined?",
+          "back": "By conducting a physical count of inventory at the end of the period and valuing it (usually at cost).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-4",
+          "chapter": "Chapter 7",
+          "front": "Name three examples of current assets.",
+          "back": "Cash and cash equivalents, trade receivables (debtors), and inventory.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-5",
+          "chapter": "Chapter 7",
+          "front": "What is the formula to calculate cost of goods sold under the periodic system?",
+          "back": "COGS = Opening Inventory + Net Purchases − Closing Inventory.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch7-q1",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "Opening inventory R30 000, purchases R90 000, closing inventory R25 000. What is the cost of goods sold?",
+          "options": [
+            "R85 000",
+            "R95 000",
+            "R115 000",
+            "R145 000"
+          ],
+          "answer": "R95 000",
+          "explanation": "COGS = Opening Inventory + Purchases − Closing Inventory = 30 000 + 90 000 − 25 000 = R95 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q2",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "A debtor owes R12 000. They pay R7 000. The correct entry in the debtors control account is:",
+          "options": [
+            "Dr Bank R7 000 / Cr Debtors Control R7 000",
+            "Dr Debtors Control R7 000 / Cr Sales R7 000",
+            "Dr Sales R7 000 / Cr Bank R7 000",
+            "Dr Bank R12 000 / Cr Debtors Control R12 000"
+          ],
+          "answer": "Dr Bank R7 000 / Cr Debtors Control R7 000",
+          "explanation": "Receiving cash from a debtor increases Bank (Dr) and reduces the amount owed by the debtor (Cr Debtors Control). The remaining R5 000 stays outstanding.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q3",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is NOT a current asset?",
+          "options": [
+            "Cash",
+            "Inventory",
+            "Prepaid insurance",
+            "Office building"
+          ],
+          "answer": "Office building",
+          "explanation": "An office building is a non-current asset (PPE) because it provides economic benefits over more than one accounting period. Cash, inventory and prepaid insurance are all current assets.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch7-we-1",
+          "chapter": "Chapter 7",
+          "title": "Calculating Cost of Goods Sold and Gross Profit",
+          "summary": "Use the periodic inventory formula to determine COGS and gross profit.",
+          "problem": "A business has the following data for March 2024: Opening inventory R18 000; Purchases R65 000; Purchase returns R3 000; Closing inventory (physical count) R20 000; Sales R110 000. Calculate COGS and gross profit.",
+          "steps": [
+            {
+              "label": "Step 1 — Net Purchases",
+              "explanation": "Net Purchases = Purchases − Purchase Returns = 65 000 − 3 000 = R62 000."
+            },
+            {
+              "label": "Step 2 — Goods Available for Sale",
+              "explanation": "Goods Available = Opening Inventory + Net Purchases = 18 000 + 62 000 = R80 000."
+            },
+            {
+              "label": "Step 3 — COGS",
+              "explanation": "COGS = Goods Available − Closing Inventory = 80 000 − 20 000 = R60 000."
+            },
+            {
+              "label": "Step 4 — Gross Profit",
+              "explanation": "Gross Profit = Sales − COGS = 110 000 − 60 000 = R50 000."
+            }
+          ],
+          "answer": "COGS = R60 000; Gross Profit = R50 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 8",
+      "flashcards": [
+        {
+          "id": "ch8-fc-1",
+          "chapter": "Chapter 8",
+          "front": "What is an accrued expense?",
+          "back": "An expense that has been incurred in the current period but has not yet been paid or recorded by the period end date.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-2",
+          "chapter": "Chapter 8",
+          "front": "What is a prepaid expense?",
+          "back": "A payment made in advance for a benefit to be received in a future period; classified as a current asset on the balance sheet.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-3",
+          "chapter": "Chapter 8",
+          "front": "What is unearned income?",
+          "back": "Cash received in advance for services not yet rendered or goods not yet delivered; a current liability.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-4",
+          "chapter": "Chapter 8",
+          "front": "What is the creditors control account?",
+          "back": "A summary account in the general ledger recording the total amount owed by the business to all trade suppliers.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-5",
+          "chapter": "Chapter 8",
+          "front": "Write the adjusting journal entry for an accrued salary expense of R5 000.",
+          "back": "Dr Salaries Expense R5 000 / Cr Accrued Salaries (Liability) R5 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch8-q1",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "A business pays R24 000 on 1 October for a 12-month insurance policy. At 31 December (year-end), the prepaid insurance amount is:",
+          "options": [
+            "R6 000",
+            "R18 000",
+            "R24 000",
+            "R12 000"
+          ],
+          "answer": "R18 000",
+          "explanation": "From 1 October to 31 December is 3 months. Expense for 3 months = 24 000 × 3/12 = R6 000. Prepaid portion (9 remaining months) = 24 000 × 9/12 = R18 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-q2",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "Unearned revenue received in advance is classified as:",
+          "options": [
+            "A non-current asset",
+            "A current liability",
+            "Income on the income statement",
+            "Equity"
+          ],
+          "answer": "A current liability",
+          "explanation": "Unearned revenue represents an obligation to deliver goods or services in the future. Until the obligation is fulfilled, it is a current liability.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-q3",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "The business owes employees R8 000 in wages at year-end that have not been paid. The adjusting entry is:",
+          "options": [
+            "Dr Wages Expense R8 000 / Cr Accrued Wages R8 000",
+            "Dr Bank R8 000 / Cr Wages Expense R8 000",
+            "Dr Accrued Wages R8 000 / Cr Wages Expense R8 000",
+            "Dr Wages Expense R8 000 / Cr Bank R8 000"
+          ],
+          "answer": "Dr Wages Expense R8 000 / Cr Accrued Wages R8 000",
+          "explanation": "The expense has been incurred (Dr Wages Expense) but not yet paid, so a liability is created (Cr Accrued Wages). No cash movement occurs at year-end.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch8-we-1",
+          "chapter": "Chapter 8",
+          "title": "Adjusting Entries for Accruals and Prepayments",
+          "summary": "Prepare adjusting journal entries at year-end for accrued and prepaid items.",
+          "problem": "At 31 December 2024: (a) Rent of R6 000 per month was last paid on 30 November — December rent is unpaid; (b) On 1 July, the business paid R12 000 for a 12-month internet subscription. Prepare the adjusting entries.",
+          "steps": [
+            {
+              "label": "Step 1 — Identify accrued rent",
+              "explanation": "December rent has been incurred (the month has passed) but not paid. Amount = R6 000."
+            },
+            {
+              "label": "Step 2 — Accrued rent journal entry",
+              "explanation": "Dr Rent Expense R6 000 / Cr Accrued Rent (Liability) R6 000. This recognises the expense in December's accounts."
+            },
+            {
+              "label": "Step 3 — Identify prepaid internet subscription",
+              "explanation": "Internet subscription paid 1 July covers 12 months. By 31 December, 6 months have elapsed (July–December). Remaining prepaid = 6/12 × R12 000 = R6 000."
+            },
+            {
+              "label": "Step 4 — Prepaid internet journal entry",
+              "explanation": "Original entry: Dr Internet Expense R12 000 / Cr Bank R12 000. Adjusting entry: Dr Prepaid Internet R6 000 / Cr Internet Expense R6 000 (to defer unexpired portion)."
+            }
+          ],
+          "answer": "(a) Dr Rent Expense R6 000 / Cr Accrued Rent R6 000; (b) Dr Prepaid Internet R6 000 / Cr Internet Expense R6 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 9",
+      "flashcards": [
+        {
+          "id": "ch9-fc-1",
+          "chapter": "Chapter 9",
+          "front": "State the revenue recognition principle.",
+          "back": "Revenue is recognised when it is earned (i.e. when goods are delivered or services rendered), regardless of when cash is received.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch9-fc-2",
+          "chapter": "Chapter 9",
+          "front": "State the matching principle.",
+          "back": "Expenses must be recognised in the same accounting period as the revenue they helped to generate.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch9-fc-3",
+          "chapter": "Chapter 9",
+          "front": "What is capital expenditure?",
+          "back": "Spending on assets that provide economic benefits over more than one accounting period; recorded as an asset (PPE), not an expense.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch9-fc-4",
+          "chapter": "Chapter 9",
+          "front": "What is revenue expenditure?",
+          "back": "Spending whose benefit is fully consumed within the current accounting period; recorded as an expense on the income statement.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch9-fc-5",
+          "chapter": "Chapter 9",
+          "front": "Write the formula for gross profit.",
+          "back": "Gross Profit = Sales Revenue − Cost of Goods Sold (COGS).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch9-q1",
+          "chapter": "Chapter 9",
+          "questionType": "multiple-choice",
+          "prompt": "A business sells goods worth R50 000 with COGS of R30 000 and operating expenses of R8 000. What is the net profit?",
+          "options": [
+            "R20 000",
+            "R12 000",
+            "R42 000",
+            "R50 000"
+          ],
+          "answer": "R12 000",
+          "explanation": "Gross Profit = 50 000 − 30 000 = R20 000. Net Profit = Gross Profit − Operating Expenses = 20 000 − 8 000 = R12 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch9-q2",
+          "chapter": "Chapter 9",
+          "questionType": "multiple-choice",
+          "prompt": "A business buys a new computer for R18 000. This is best classified as:",
+          "options": [
+            "Revenue expenditure because it is paid in cash",
+            "Capital expenditure because it provides benefits over multiple periods",
+            "An expense in the income statement this year",
+            "A liability on the balance sheet"
+          ],
+          "answer": "Capital expenditure because it provides benefits over multiple periods",
+          "explanation": "A computer is used over multiple years, so it is capitalised (recorded as PPE) and depreciated. It is capital expenditure, not revenue expenditure.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch9-q3",
+          "chapter": "Chapter 9",
+          "questionType": "multiple-choice",
+          "prompt": "Under the accrual basis, when is revenue recognised for a cash sale?",
+          "options": [
+            "When the invoice is sent to the customer",
+            "When cash is received from the customer",
+            "When the goods are delivered or services are rendered",
+            "At the end of the financial year"
+          ],
+          "answer": "When the goods are delivered or services are rendered",
+          "explanation": "The revenue recognition principle requires revenue to be recorded when earned (goods delivered/services rendered), which for a cash sale coincides with cash receipt, but the trigger is earning the revenue, not receiving cash.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch9-we-1",
+          "chapter": "Chapter 9",
+          "title": "Preparing a Simple Income Statement",
+          "summary": "Prepare an income statement for a sole trader using given data.",
+          "problem": "For the year ended 31 December 2024: Sales R200 000; COGS R120 000; Salaries R30 000; Rent R18 000; Depreciation R5 000; Interest income R2 000. Prepare the income statement.",
+          "steps": [
+            {
+              "label": "Step 1 — Gross Profit",
+              "explanation": "Gross Profit = Sales − COGS = 200 000 − 120 000 = R80 000."
+            },
+            {
+              "label": "Step 2 — Operating Expenses",
+              "explanation": "Total Operating Expenses = Salaries (30 000) + Rent (18 000) + Depreciation (5 000) = R53 000."
+            },
+            {
+              "label": "Step 3 — Profit from Operations",
+              "explanation": "Profit from Operations = Gross Profit − Operating Expenses = 80 000 − 53 000 = R27 000."
+            },
+            {
+              "label": "Step 4 — Net Profit",
+              "explanation": "Net Profit = Profit from Operations + Other Income = 27 000 + 2 000 (interest income) = R29 000."
+            }
+          ],
+          "answer": "Gross Profit R80 000; Profit from Operations R27 000; Net Profit R29 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 10",
+      "flashcards": [
+        {
+          "id": "ch10-fc-1",
+          "chapter": "Chapter 10",
+          "front": "What is an adjusting journal entry?",
+          "back": "A journal entry made at the end of an accounting period to update account balances for accruals, prepayments, depreciation and inventory adjustments before preparing financial statements.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch10-fc-2",
+          "chapter": "Chapter 10",
+          "front": "What is a closing entry?",
+          "back": "A journal entry that transfers the balances of all temporary (nominal) accounts — income, expenses and drawings — to the capital account at the end of the period.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch10-fc-3",
+          "chapter": "Chapter 10",
+          "front": "What is a nominal account?",
+          "back": "A temporary account (income or expense) that is closed to zero at the end of each accounting period. Examples: Sales, Wages, Rent.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch10-fc-4",
+          "chapter": "Chapter 10",
+          "front": "What is a post-closing trial balance?",
+          "back": "A trial balance prepared after all closing entries have been posted, containing only permanent (real) accounts with their opening balances for the new period.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch10-fc-5",
+          "chapter": "Chapter 10",
+          "front": "List the eight steps of the accounting cycle.",
+          "back": "1. Identify transactions; 2. Analyse & journalise; 3. Post to ledger; 4. Prepare unadjusted trial balance; 5. Prepare adjusting entries; 6. Prepare adjusted trial balance; 7. Prepare financial statements; 8. Close and prepare post-closing trial balance.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch10-q1",
+          "chapter": "Chapter 10",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following accounts will appear on the post-closing trial balance?",
+          "options": [
+            "Sales Revenue",
+            "Rent Expense",
+            "Drawings",
+            "Accumulated Depreciation"
+          ],
+          "answer": "Accumulated Depreciation",
+          "explanation": "Accumulated Depreciation is a permanent (real) contra-asset account that carries its balance forward. Sales Revenue, Rent Expense and Drawings are all nominal/temporary accounts that are closed at year-end.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch10-q2",
+          "chapter": "Chapter 10",
+          "questionType": "multiple-choice",
+          "prompt": "The closing entry to transfer a net profit of R40 000 to the capital account is:",
+          "options": [
+            "Dr Income Summary R40 000 / Cr Capital R40 000",
+            "Dr Capital R40 000 / Cr Income Summary R40 000",
+            "Dr Sales R40 000 / Cr Capital R40 000",
+            "Dr Expenses R40 000 / Cr Capital R40 000"
+          ],
+          "answer": "Dr Income Summary R40 000 / Cr Capital R40 000",
+          "explanation": "After closing income and expenses to Income Summary, the resulting net profit balance is transferred: Dr Income Summary (debit the profit) / Cr Capital (increases owner's equity).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch10-q3",
+          "chapter": "Chapter 10",
+          "questionType": "multiple-choice",
+          "prompt": "Why are nominal accounts closed at the end of each accounting period?",
+          "options": [
+            "To prevent the ledger from becoming too large",
+            "To ensure each period's income and expenses are measured separately",
+            "To reduce the tax payable to SARS",
+            "Because the bank requires it"
+          ],
+          "answer": "To ensure each period's income and expenses are measured separately",
+          "explanation": "Closing nominal accounts resets them to zero so that the next period starts fresh, ensuring that financial performance is measured for that period only rather than cumulatively.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch10-we-1",
+          "chapter": "Chapter 10",
+          "title": "Preparing Closing Entries for a Sole Trader",
+          "summary": "Record all closing entries to transfer nominal account balances to capital.",
+          "problem": "At 31 December 2024, after adjustments: Sales R180 000; Cost of Sales R100 000; Salaries R40 000; Drawings R15 000. Prepare the closing journal entries.",
+          "steps": [
+            {
+              "label": "Step 1 — Close income to Income Summary",
+              "explanation": "Dr Sales R180 000 / Cr Income Summary R180 000. (Transfers the credit balance of Sales to Income Summary.)"
+            },
+            {
+              "label": "Step 2 — Close expenses to Income Summary",
+              "explanation": "Dr Income Summary R140 000 / Cr Cost of Sales R100 000; Cr Salaries R40 000. (Transfers all expense debit balances to Income Summary.)"
+            },
+            {
+              "label": "Step 3 — Calculate net profit",
+              "explanation": "Income Summary balance = 180 000 − 140 000 = R40 000 credit (net profit)."
+            },
+            {
+              "label": "Step 4 — Close Income Summary to Capital",
+              "explanation": "Dr Income Summary R40 000 / Cr Capital R40 000. (Net profit increases owner's equity.)"
+            },
+            {
+              "label": "Step 5 — Close Drawings to Capital",
+              "explanation": "Dr Capital R15 000 / Cr Drawings R15 000. (Drawings reduce owner's equity.)"
+            }
+          ],
+          "answer": "Four closing entries as shown. Net profit R40 000 credited to capital; drawings R15 000 debited to capital. Net increase in capital = R25 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 11",
+      "flashcards": [
+        {
+          "id": "ch11-fc-1",
+          "chapter": "Chapter 11",
+          "front": "State the accounting equation.",
+          "back": "Assets = Liabilities + Equity. This equation must always balance after every transaction.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch11-fc-2",
+          "chapter": "Chapter 11",
+          "front": "What is double-entry bookkeeping?",
+          "back": "A bookkeeping system where every transaction affects at least two accounts with equal debits and credits, keeping the accounting equation in balance.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch11-fc-3",
+          "chapter": "Chapter 11",
+          "front": "How does paying a liability in cash affect the accounting equation?",
+          "back": "Assets decrease (cash paid) and Liabilities decrease (obligation settled). Equity is unchanged. The equation remains balanced.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch11-fc-4",
+          "chapter": "Chapter 11",
+          "front": "How does earning revenue on credit affect the accounting equation?",
+          "back": "Assets increase (debtors) and Equity increases (revenue increases profit which increases capital). Liabilities are unchanged.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch11-fc-5",
+          "chapter": "Chapter 11",
+          "front": "What financial statement directly reflects the accounting equation?",
+          "back": "The Statement of Financial Position (Balance Sheet), which presents Assets on one side and Liabilities plus Equity on the other.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch11-q1",
+          "chapter": "Chapter 11",
+          "questionType": "multiple-choice",
+          "prompt": "A business borrows R50 000 from the bank. What is the effect on the accounting equation?",
+          "options": [
+            "Assets increase R50 000; Equity increases R50 000",
+            "Assets increase R50 000; Liabilities increase R50 000",
+            "Liabilities increase R50 000; Equity decreases R50 000",
+            "Assets decrease R50 000; Liabilities increase R50 000"
+          ],
+          "answer": "Assets increase R50 000; Liabilities increase R50 000",
+          "explanation": "Borrowing from the bank increases Bank (asset) and creates a loan payable (liability). Equity is unaffected. The equation remains balanced: both sides increase by R50 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch11-q2",
+          "chapter": "Chapter 11",
+          "questionType": "multiple-choice",
+          "prompt": "Total assets are R300 000 and total equity is R180 000. What are total liabilities?",
+          "options": [
+            "R480 000",
+            "R120 000",
+            "R300 000",
+            "R180 000"
+          ],
+          "answer": "R120 000",
+          "explanation": "Liabilities = Assets − Equity = 300 000 − 180 000 = R120 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch11-q3",
+          "chapter": "Chapter 11",
+          "questionType": "multiple-choice",
+          "prompt": "When the owner pays a personal bill of R2 000 using business funds, the effect on the accounting equation is:",
+          "options": [
+            "Assets decrease R2 000; Liabilities decrease R2 000",
+            "Assets decrease R2 000; Equity decreases R2 000",
+            "Assets increase R2 000; Equity decreases R2 000",
+            "No effect on the equation"
+          ],
+          "answer": "Assets decrease R2 000; Equity decreases R2 000",
+          "explanation": "Drawings reduce both assets (cash paid) and equity (owner withdraws from capital). This is recorded as Dr Drawings / Cr Bank.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch11-we-1",
+          "chapter": "Chapter 11",
+          "title": "Analysing Transactions Using the Accounting Equation",
+          "summary": "Show the effect of five transactions on the accounting equation in tabular form.",
+          "problem": "Analyse the following transactions using the accounting equation (Assets = Liabilities + Equity): (a) Owner invests R100 000; (b) Buy vehicle for R40 000 cash; (c) Purchase inventory on credit R12 000; (d) Cash sales R20 000 (COGS R10 000); (e) Pay creditor R5 000.",
+          "steps": [
+            {
+              "label": "(a) Owner invests R100 000",
+              "explanation": "Assets +R100 000 (Bank); Equity +R100 000 (Capital). Equation: 100 000 = 0 + 100 000. ✓"
+            },
+            {
+              "label": "(b) Buy vehicle R40 000 cash",
+              "explanation": "Assets +R40 000 (Vehicle) −R40 000 (Bank) = net zero change. Liabilities unchanged; Equity unchanged. Equation still balances."
+            },
+            {
+              "label": "(c) Purchase inventory on credit R12 000",
+              "explanation": "Assets +R12 000 (Inventory); Liabilities +R12 000 (Creditors). Equity unchanged. Equation: both sides +R12 000. ✓"
+            },
+            {
+              "label": "(d) Cash sales R20 000; COGS R10 000",
+              "explanation": "Assets +R20 000 (Bank) −R10 000 (Inventory). Net asset change +R10 000. Equity +R10 000 (net profit). Equation: both sides +R10 000. ✓"
+            },
+            {
+              "label": "(e) Pay creditor R5 000",
+              "explanation": "Assets −R5 000 (Bank); Liabilities −R5 000 (Creditors). Equity unchanged. Both sides −R5 000. ✓"
+            }
+          ],
+          "answer": "After all transactions: Assets = 100 000 − 40 000 + 40 000 + 12 000 − 10 000 + 20 000 − 5 000 = R117 000. Liabilities = 12 000 − 5 000 = R7 000. Equity = 100 000 + 10 000 = R110 000. Check: 7 000 + 110 000 = R117 000. ✓",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    }
+  ],
+  "discipline": "accounting",
+  "referenceList": [
+    {
+      "title": "IASB Conceptual Framework for Financial Reporting (2018 revised)",
+      "publisher": "IFRS Foundation / International Accounting Standards Board",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/conceptual-framework/",
+      "note": "Authoritative basis for the objective of financial reporting, qualitative characteristics, and definitions of elements.",
+      "sourceHash": "97584ad8516f6354f5c9f552e97f22bc3548a1b5cbe996c39e200eef8db78138"
+    },
+    {
+      "title": "IAS Plus — Conceptual Framework summary & analysis",
+      "publisher": "Deloitte (IAS Plus)",
+      "url": "https://www.iasplus.com/en/standards/other/framework",
+      "note": "Plain-language commentary on the Framework; useful for lecturer preparation.",
+      "sourceHash": "9ab35b1e523d1339fad17dc493091861dadf60e68513617e9b16d2adfcd3c641"
+    },
+    {
+      "title": "IFRS Accounting Standards Navigator",
+      "publisher": "IFRS Foundation",
+      "url": "https://www.ifrs.org/issued-standards/list-of-standards/",
+      "note": "Full list of issued IFRS/IAS standards for cross-referencing specific topics (e.g. IAS 1, IAS 16).",
+      "sourceHash": "6741caf859a4af2a789c235a316225668896364292398484fc34b88c0595d9ef"
+    },
+    {
+      "title": "Weygandt, Kimmel & Kieso — Accounting Principles (Wiley)",
+      "publisher": "John Wiley & Sons",
+      "url": "https://www.wiley.com/en-us/Accounting+Principles%2C+14th+Edition-p-9781119492931",
+      "note": "Widely used introductory financial-accounting textbook; aligns with debit/credit, ledger, and cycle topics.",
+      "sourceHash": "9d976cc6c037e323c33dd5ea0fa230c12e349fec24bf285d7d6c336f14cd3092"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: Financial Accounting 111 (BCom, North-West University). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "Chapter-by-chapter teaching focus (derived from the module's own learning outcomes and key definitions):",
+    "  • Chapter 1 — Conceptual Framework. Emphasise: Explain the objective of general-purpose financial statements; Identify and describe the qualitative characteristics of useful financial information; Define the elements of financial statements: assets, liabilities, equity, income and expenses. Local context: South African companies listed on the JSE prepare financial statements in accordance with IFRS, which is built on the IASB Conceptual Framework. The IASB framework is also the basis for accounting standards used in South African universities including NWU.",
+    "  • Chapter 2 — The Account. Emphasise: Explain the purpose of an account in the accounting system; Draw and label a T-account correctly; Apply the rules of debit and credit to assets, liabilities, equity, income and expenses. Local context: South African sole traders and small businesses, such as a local spaza shop or plumber, use the same debit/credit system as large corporations. Understanding T-accounts is the foundation for all bookkeeping in SA.",
+    "  • Chapter 3 — General Journal. Emphasise: Identify common source documents used in accounting; Record transactions in the general journal using correct format; Journalise transactions under the periodic inventory system. Local context: South African businesses issue tax invoices (as required by SARS for VAT purposes) which serve as source documents. NWU's ACFS111 uses the periodic inventory system to introduce journalising before moving to more complex systems.",
+    "  • Chapter 4 — General Ledger & Trial Balance. Emphasise: Post journal entries to T-accounts in the general ledger; Balance each ledger account correctly; Prepare a trial balance from ledger balances. Local context: South African accounting software such as Sage One and Pastel automatically posts to the general ledger, but BCom students at NWU must master manual posting to understand the underlying logic before using software.",
+    "  • Chapter 5 — Equity (Capital). Emphasise: Explain the concept of owners equity for a sole trader; Record capital contributions and drawings; Show the effect of profit and loss on equity. Local context: Most small South African businesses (spaza shops, tuck shops, self-employed tradespeople) operate as sole traders. Understanding sole trader equity is fundamental before moving to companies and partnerships in later modules.",
+    "  • Chapter 6 — Non-current Assets. Emphasise: Apply the cost model to record property, plant and equipment (PPE); Calculate depreciation using the straight-line and diminishing balance methods; Record depreciation in the journal and ledger. Local context: South African businesses depreciate assets in line with SARS allowances where possible. For accounting purposes, IFRS IAS 16 governs PPE. NWU students apply both straight-line and diminishing balance methods to match common SA practice.",
+    "  • Chapter 7 — Current Assets. Emphasise: Record trade receivables (debtors) transactions; Maintain the debtors control account; Account for inventory under the periodic inventory system. Local context: South African retailers like Pick n Pay and Woolworths carry significant inventory and receivables. Understanding current assets is essential for analysing the liquidity of any South African business.",
+    "  • Chapter 8 — Liabilities. Emphasise: Record trade payables (creditors) transactions; Maintain the creditors control account; Account for accrued expenses and unearned income. Local context: South African businesses must account correctly for accrued liabilities such as leave pay and PAYE payable to SARS. NWU's ACFS111 introduces these concepts using simple sole trader examples.",
+    "  • Chapter 9 — Income & Expenses. Emphasise: Apply the revenue recognition principle; Apply the matching principle to expenses; Distinguish between capital and revenue expenditure. Local context: Revenue recognition is critical for South African businesses reporting under IFRS 15. At ACFS111 level, the focus is on basic cash and credit sales for a sole trader operating in South Africa.",
+    "  • Chapter 10 — Completion of Accounting Cycle. Emphasise: Prepare adjusting journal entries at period end; Prepare closing journal entries for nominal accounts; Prepare a post-closing trial balance. Local context: South African businesses prepare annual financial statements at their financial year-end. The accounting cycle ensures that each year's results are properly isolated and reported to stakeholders and SARS.",
+    "  • Chapter 11 — Accounting Equation. Emphasise: State and apply the accounting equation; Analyse transactions using the accounting equation; Show how every transaction affects at least two elements. Local context: The accounting equation is universal and applies to every South African business regardless of size or sector, from a Soweto street vendor to Naspers. It is the foundation of all financial reporting.",
+    "Pedagogy tip (quantitative): work at least one fully solved example on the board per topic, then assign a parallel guided-practice problem. Common student errors: sign errors in debit/credit (accounting), confusing correlation with causation (stats/econ), and unit/percentage mistakes in ratio work. Build a short weekly formative quiz from the module's own revision prompts.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "97584ad8516f6354f5c9f552e97f22bc3548a1b5cbe996c39e200eef8db78138",
+    "9ab35b1e523d1339fad17dc493091861dadf60e68513617e9b16d2adfcd3c641",
+    "6741caf859a4af2a789c235a316225668896364292398484fc34b88c0595d9ef",
+    "9d976cc6c037e323c33dd5ea0fa230c12e349fec24bf285d7d6c336f14cd3092"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

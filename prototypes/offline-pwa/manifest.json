@@ -1,0 +1,124 @@
+{
+  "name": "SCHOOL Technologies",
+  "short_name": "SCHOOL",
+  "description": "South Africa's AI-powered education and opportunity platform. Learn, discover bursaries, shop, connect, and compete — one app for every South African student.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0F1A",
+  "theme_color": "#00D4AA",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-ZA",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icons/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity", "social"],
+  "screenshots": [
+    {
+      "src": "/screenshots/home-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "SCHOOL Dashboard - Module rooms, AI tutor, past papers"
+    },
+    {
+      "src": "/screenshots/home-narrow.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "SCHOOL Mobile - Community feed and daily quiz"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ask AI Tutor",
+      "short_name": "AI Tutor",
+      "description": "Get help with your specific module",
+      "url": "/assistant",
+      "icons": [{ "src": "/icons/shortcut-ai.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Past Papers",
+      "short_name": "Past Papers",
+      "description": "Browse official past papers by province, grade, subject",
+      "url": "/past-papers",
+      "icons": [{ "src": "/icons/shortcut-papers.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Daily Quiz",
+      "short_name": "Daily Quiz",
+      "description": "Keep your streak alive with today's targeted quiz",
+      "url": "/daily-quiz",
+      "icons": [{ "src": "/icons/shortcut-quiz.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Study Planner",
+      "short_name": "Planner",
+      "description": "CAPS-aligned timetable and task manager",
+      "url": "/planner",
+      "icons": [{ "src": "/icons/shortcut-planner.png", "sizes": "192x192" }]
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=co.za.ditshego.school",
+      "id": "co.za.ditshego.school"
+    }
+  ],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
+}

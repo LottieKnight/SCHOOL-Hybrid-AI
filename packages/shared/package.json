@@ -1,0 +1,60 @@
+{
+  "name": "@saedu/shared",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18 <25"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./curriculum": {
+      "types": "./dist/curriculum.d.ts",
+      "import": "./dist/curriculum.js"
+    },
+    "./sm2": {
+      "types": "./dist/sm2.d.ts",
+      "import": "./dist/sm2.js"
+    },
+    "./content/course_outline.json": "./content/course_outline.json"
+  },
+  "files": [
+    "dist",
+    "content"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsx --test test/run-all.test.ts",
+    "ingest:pdf-lessons": "tsx scripts/ingest-pdf-lessons.ts",
+    "validate:lessons": "tsx scripts/validate-lessons.ts",
+    "content:index": "tsx scripts/generate-content-index.ts",
+    "content:floor": "tsx scripts/generate-content-floor-report.ts",
+    "content:generated-outline": "tsx scripts/generate-generated-outline.ts",
+    "lessons:shells": "tsx scripts/generate-lesson-shells.ts",
+    "content:chunks": "tsx scripts/build-content-chunks.ts",
+    "lessons:generate-week": "tsx scripts/generate-week-lesson.ts",
+    "lessons:generate-term": "tsx scripts/generate-term-lessons.ts",
+    "rag:index": "tsx scripts/rag_build_index.ts",
+    "rag:generate": "tsx scripts/rag_generate_week_lesson.ts",
+    "rag:v1:index": "tsx scripts/rag_v1_build_index.ts",
+    "rag:v1:generate": "tsx scripts/rag_v1_generate_lesson.ts",
+    "rag:v1:generate-university": "tsx scripts/rag_v1_generate_university_module.ts",
+    "caps:scaffold": "tsx scripts/build-caps-scaffold.ts",
+    "seed:caps": "tsx scripts/seedCurriculumFromScaffold.ts",
+    "gen:lesson": "tsx scripts/gen-lesson.ts",
+    "gen:term": "tsx scripts/gen-term.ts"
+  },
+  "dependencies": {
+    "pg": "^8.12.0",
+    "pdf-parse": "^1.1.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.1"
+  }
+}

@@ -1,0 +1,1837 @@
+{
+  "institution": "North-West University",
+  "moduleCode": "ICOM111",
+  "moduleName": "Integrated Communication Skills 111",
+  "semester": "Semester 1, 2025",
+  "programme": "BCom",
+  "confidence": 0.82,
+  "generatedAt": "2026-04-03T00:00:00.000Z",
+  "sourceFiles": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "missingContent": [],
+  "studyUnits": [
+    "Chapter 1 — Academic Communication Fundamentals",
+    "Chapter 2 — Active Reading Strategies",
+    "Chapter 3 — Academic Note-Taking",
+    "Chapter 4 — Oral Communication & Presentations",
+    "Chapter 5 — Professional Writing & Emails",
+    "Chapter 6 — Report Writing",
+    "Chapter 7 — Group Communication & Meetings"
+  ],
+  "chapters": [
+    "Chapter 1",
+    "Chapter 2",
+    "Chapter 3",
+    "Chapter 4",
+    "Chapter 5",
+    "Chapter 6",
+    "Chapter 7"
+  ],
+  "topicSeeds": [
+    "Ch1 - communication process model",
+    "Ch1 - verbal vs non-verbal communication",
+    "Ch2 - SQ3R reading method",
+    "Ch2 - skimming and scanning",
+    "Ch3 - Cornell note-taking system",
+    "Ch3 - mind mapping",
+    "Ch4 - structure of oral presentation",
+    "Ch4 - managing presentation anxiety",
+    "Ch5 - formal email etiquette",
+    "Ch5 - professional tone",
+    "Ch6 - report structure (memo report, formal report)",
+    "Ch6 - executive summary",
+    "Ch7 - meeting roles: chairperson, secretary",
+    "Ch7 - agenda and minutes"
+  ],
+  "keyTopics": [
+    "communication process model",
+    "verbal and non-verbal communication",
+    "SQ3R active reading method",
+    "Cornell note-taking",
+    "oral presentation structure",
+    "professional email etiquette",
+    "formal report structure",
+    "meeting agenda and minutes",
+    "group communication dynamics"
+  ],
+  "quizSignals": [
+    "What are the components of the communication process?",
+    "How does SQ3R work?",
+    "What is the correct structure of a formal report?",
+    "How do you write a professional email?"
+  ],
+  "assessmentPlan": [
+    {
+      "name": "Oral Presentation",
+      "weight": "20%",
+      "due": "Week 8",
+      "scope": "Ch 4"
+    },
+    {
+      "name": "Written Assignments",
+      "weight": "50%",
+      "due": "Various weeks",
+      "scope": "Ch 1-6"
+    },
+    {
+      "name": "Portfolio",
+      "weight": "30%",
+      "due": "End of semester",
+      "scope": "All chapters"
+    }
+  ],
+  "classSchedule": [
+    {
+      "label": "Week 1",
+      "summary": "Introduction to academic communication; communication process model.",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 2",
+      "summary": "Verbal vs non-verbal communication; barriers to communication.",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 3",
+      "summary": "Active reading strategies; SQ3R method.",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 4",
+      "summary": "Skimming, scanning and critical reading.",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 5",
+      "summary": "Note-taking methods: Cornell, mind maps, outlines.",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 6",
+      "summary": "Oral communication fundamentals; structure of a presentation.",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 7",
+      "summary": "Managing presentation anxiety; visual aids.",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 8",
+      "summary": "ORAL PRESENTATIONS — assessed.",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 9",
+      "summary": "Professional writing: tone, style and email etiquette.",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 10",
+      "summary": "Business letters and formal correspondence.",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 11",
+      "summary": "Report writing: memo reports and formal reports.",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 12",
+      "summary": "Executive summary, findings, recommendations.",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 13",
+      "summary": "Group communication; team dynamics and conflict.",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 14",
+      "summary": "Meetings: agenda, minutes, chairperson and secretary roles.",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 15",
+      "summary": "Portfolio completion and final submission.",
+      "chapter": "Chapter 7"
+    }
+  ],
+  "chapterInsights": [
+    {
+      "chapter": "Chapter 1",
+      "title": "Academic Communication Fundamentals",
+      "outcomes": [
+        "Explain the communication process model",
+        "Distinguish verbal from non-verbal communication",
+        "Identify and overcome communication barriers"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Communication",
+          "definition": "The process of transmitting information, ideas and feelings between a sender and receiver using a channel."
+        },
+        {
+          "term": "Noise",
+          "definition": "Any interference that distorts or disrupts a message during transmission (physical, semantic or psychological)."
+        },
+        {
+          "term": "Feedback",
+          "definition": "The receiver's response to the sender's message, confirming understanding or signalling confusion."
+        }
+      ],
+      "revisionPrompts": [
+        "Name the six elements of the communication process.",
+        "What is semantic noise? Give an example."
+      ],
+      "saContext": "In the multilingual SA context, language barriers and code-switching are common forms of noise in academic and professional settings.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html",
+          "https://www.cambridge.org/core/books/academic-writing"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 2",
+      "title": "Active Reading Strategies",
+      "outcomes": [
+        "Apply the SQ3R reading method",
+        "Distinguish skimming from scanning",
+        "Identify the main idea and supporting details in academic texts"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "SQ3R",
+          "definition": "A reading strategy: Survey, Question, Read, Recite, Review — designed to improve comprehension and retention."
+        },
+        {
+          "term": "Skimming",
+          "definition": "Rapidly reading a text to get a general overview of the content."
+        },
+        {
+          "term": "Scanning",
+          "definition": "Quickly searching a text for specific information or keywords."
+        }
+      ],
+      "revisionPrompts": [
+        "What does each letter in SQ3R stand for?",
+        "When would you use scanning rather than skimming?"
+      ],
+      "saContext": "NWU students encounter academic texts in both Afrikaans and English; active reading strategies help navigate content in a second or third language.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html",
+          "https://www.cambridge.org/core/books/academic-writing"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 3",
+      "title": "Academic Note-Taking",
+      "outcomes": [
+        "Apply the Cornell note-taking system",
+        "Create effective mind maps",
+        "Select appropriate note-taking methods for different contexts"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Cornell method",
+          "definition": "A note-taking system dividing the page into a notes column, a cue column, and a summary section at the bottom."
+        },
+        {
+          "term": "Mind map",
+          "definition": "A visual diagram that organises information around a central concept with branches for related ideas."
+        }
+      ],
+      "revisionPrompts": [
+        "Describe the three sections of a Cornell note page.",
+        "What are the advantages of mind mapping for revision?"
+      ],
+      "saContext": "Effective note-taking is critical for NWU students managing large volumes of study material across multiple modules simultaneously.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html",
+          "https://www.cambridge.org/core/books/academic-writing"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 4",
+      "title": "Oral Communication & Presentations",
+      "outcomes": [
+        "Structure an oral presentation effectively",
+        "Apply techniques to manage presentation anxiety",
+        "Use visual aids appropriately"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Introduction",
+          "definition": "The opening of a presentation that grabs attention, states the purpose and previews the structure."
+        },
+        {
+          "term": "Body",
+          "definition": "The main content of the presentation, organised around 2-4 main points with supporting evidence."
+        },
+        {
+          "term": "Conclusion",
+          "definition": "The closing of a presentation that summarises key points and provides a memorable ending."
+        }
+      ],
+      "revisionPrompts": [
+        "What are the three parts of a presentation structure?",
+        "List three techniques to reduce presentation anxiety."
+      ],
+      "saContext": "In the SA business environment, being able to present confidently in English (often a second language) is a valuable professional skill.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html",
+          "https://www.cambridge.org/core/books/academic-writing"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 5",
+      "title": "Professional Writing & Emails",
+      "outcomes": [
+        "Write professional emails using correct tone and format",
+        "Apply the you-attitude in professional correspondence",
+        "Distinguish formal from informal writing register"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "You-attitude",
+          "definition": "A writing approach that focuses on the reader's perspective, benefits and needs rather than the writer's."
+        },
+        {
+          "term": "Register",
+          "definition": "The level of formality in writing — formal, semi-formal or informal — chosen based on audience and context."
+        }
+      ],
+      "revisionPrompts": [
+        "What are the five components of a professional email?",
+        "What is the you-attitude and why is it important?"
+      ],
+      "saContext": "Professional email etiquette is essential in SA business culture where correspondence with employers, clients and lecturers must be appropriately formal.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html",
+          "https://www.cambridge.org/core/books/academic-writing"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 6",
+      "title": "Report Writing",
+      "outcomes": [
+        "Identify the key components of a formal report",
+        "Write a clear executive summary",
+        "Distinguish between memo reports and formal reports"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Executive summary",
+          "definition": "A brief overview (1 page or less) of a report's purpose, key findings and recommendations — written for busy decision-makers."
+        },
+        {
+          "term": "Memo report",
+          "definition": "An internal report formatted as a memorandum, used for routine business communication within an organisation."
+        },
+        {
+          "term": "Formal report",
+          "definition": "A structured document with a cover page, table of contents, executive summary, body sections and appendices."
+        }
+      ],
+      "revisionPrompts": [
+        "List the main sections of a formal report.",
+        "What should an executive summary include?"
+      ],
+      "saContext": "Report writing is a core skill for BCom graduates; in SA companies, reports must often comply with JSE or government reporting standards.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html",
+          "https://www.cambridge.org/core/books/academic-writing"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 7",
+      "title": "Group Communication & Meetings",
+      "outcomes": [
+        "Describe effective group communication dynamics",
+        "Distinguish the roles of chairperson and secretary in a meeting",
+        "Draft a meeting agenda and minutes"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Agenda",
+          "definition": "A list of items to be discussed at a meeting, circulated in advance."
+        },
+        {
+          "term": "Minutes",
+          "definition": "The official written record of what was discussed and decided at a meeting."
+        },
+        {
+          "term": "Chairperson",
+          "definition": "The person who facilitates and controls the meeting, ensuring agenda items are covered and participants are heard."
+        }
+      ],
+      "revisionPrompts": [
+        "What should a meeting agenda include?",
+        "What is the difference between an agenda and minutes?"
+      ],
+      "saContext": "Effective meeting management saves time and money — a critical skill for SA business graduates entering corporate or entrepreneurial environments.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html",
+          "https://www.cambridge.org/core/books/academic-writing"
+        ]
+      }
+    }
+  ],
+  "chapterStudyItems": [
+    {
+      "chapter": "Chapter 1",
+      "flashcards": [
+        {
+          "id": "ch1-fc-1",
+          "chapter": "Chapter 1",
+          "front": "Name the six elements of the communication process.",
+          "back": "Sender, message, encoding, channel, decoding, receiver (+ feedback and noise).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-2",
+          "chapter": "Chapter 1",
+          "front": "What is 'noise' in the communication process?",
+          "back": "Any interference — physical (loud room), semantic (jargon), or psychological (bias) — that distorts the message.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-3",
+          "chapter": "Chapter 1",
+          "front": "What is non-verbal communication?",
+          "back": "Messages conveyed without words — body language, facial expressions, gestures, eye contact, and proxemics (personal space).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-4",
+          "chapter": "Chapter 1",
+          "front": "What is feedback in communication?",
+          "back": "The receiver's response that tells the sender whether the message was understood correctly.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch1-q1",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "In the communication process, the CHANNEL refers to:",
+          "options": [
+            "The meaning behind the message",
+            "The medium through which the message is transmitted",
+            "The person who receives the message",
+            "The noise that distorts the message"
+          ],
+          "answer": "The medium through which the message is transmitted",
+          "explanation": "The channel is the means of transmission — e.g. email, face-to-face conversation, phone call.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q2",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Using technical jargon that the audience does not understand creates which type of noise?",
+          "options": [
+            "Physical noise",
+            "Psychological noise",
+            "Semantic noise",
+            "Channel noise"
+          ],
+          "answer": "Semantic noise",
+          "explanation": "Semantic noise arises from words or symbols that carry different meanings for sender and receiver.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q3",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Which component confirms that the message was correctly received and understood?",
+          "options": [
+            "Encoding",
+            "Channel",
+            "Feedback",
+            "Noise"
+          ],
+          "answer": "Feedback",
+          "explanation": "Feedback closes the communication loop by confirming receipt and comprehension of the message.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch1-we-1",
+          "chapter": "Chapter 1",
+          "title": "Identifying Noise in a Lecture",
+          "summary": "Apply the communication model to a classroom scenario.",
+          "problem": "A lecturer explains a complex accounting concept to 80 students. Some students are chatting; others do not understand the terminology used. Identify the communication elements and any noise present.",
+          "steps": [
+            {
+              "label": "Identify elements",
+              "explanation": "Sender = lecturer; Message = accounting concept; Channel = verbal/visual (lecture + slides); Receivers = students."
+            },
+            {
+              "label": "Identify noise — physical",
+              "explanation": "Students chatting creates physical noise that disrupts reception of the message."
+            },
+            {
+              "label": "Identify noise — semantic",
+              "explanation": "Complex terminology creates semantic noise — students don't know the jargon."
+            },
+            {
+              "label": "Suggest improvement",
+              "explanation": "Lecturer should simplify language, ask for feedback (e.g. 'any questions?') and manage classroom noise."
+            }
+          ],
+          "answer": "Physical noise (chatting) and semantic noise (jargon) are present; feedback is needed to confirm understanding.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 2",
+      "flashcards": [
+        {
+          "id": "ch2-fc-1",
+          "chapter": "Chapter 2",
+          "front": "What does SQ3R stand for?",
+          "back": "Survey, Question, Read, Recite, Review — a structured approach to active reading.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-2",
+          "chapter": "Chapter 2",
+          "front": "What is the difference between skimming and scanning?",
+          "back": "Skimming = reading quickly for an overview of the whole text. Scanning = searching for a specific piece of information.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-3",
+          "chapter": "Chapter 2",
+          "front": "What is the 'Survey' step in SQ3R?",
+          "back": "Skim the text first — read headings, subheadings, first sentences of paragraphs and summaries to get an overview before reading in full.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-4",
+          "chapter": "Chapter 2",
+          "front": "What is an inference in academic reading?",
+          "back": "A conclusion drawn from evidence in the text that is not directly stated — reading between the lines.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch2-q1",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "In SQ3R, the 'Question' step involves:",
+          "options": [
+            "Reading each paragraph carefully",
+            "Turning headings into questions before reading",
+            "Writing a summary of the text",
+            "Reviewing notes after reading"
+          ],
+          "answer": "Turning headings into questions before reading",
+          "explanation": "The Question step converts headings/subheadings into questions to create a reading purpose and improve focus.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q2",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "You need to find the date of a specific event in a history article. You should use:",
+          "options": [
+            "Skimming",
+            "Scanning",
+            "Close reading",
+            "Reciting"
+          ],
+          "answer": "Scanning",
+          "explanation": "Scanning means searching quickly for a specific keyword or fact without reading the whole text.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q3",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "The final step of SQ3R is 'Review', which means:",
+          "options": [
+            "Rereading the text from the beginning",
+            "Scanning for keywords only",
+            "Going back over notes and testing recall of key ideas",
+            "Writing a new question for each paragraph"
+          ],
+          "answer": "Going back over notes and testing recall of key ideas",
+          "explanation": "Review consolidates learning by returning to notes, recalling answers to the questions generated earlier, and identifying gaps.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch2-we-1",
+          "chapter": "Chapter 2",
+          "title": "Applying SQ3R to a Textbook Chapter",
+          "summary": "Walk through the SQ3R method on a business textbook chapter.",
+          "problem": "You must read Chapter 3 of your Business Management textbook ('Forms of Business Ownership') before tomorrow's lecture. Apply SQ3R.",
+          "steps": [
+            {
+              "label": "S — Survey",
+              "explanation": "Read the chapter title, all headings (sole trader, partnership, company), the chapter summary, and any bold terms. Takes 3 minutes."
+            },
+            {
+              "label": "Q — Question",
+              "explanation": "Convert headings to questions: 'What is a sole trader?' 'What are the advantages of a partnership?' Write these in your notes."
+            },
+            {
+              "label": "R — Read",
+              "explanation": "Read each section actively, looking for the answers to your questions. Highlight or underline key definitions."
+            },
+            {
+              "label": "R — Recite",
+              "explanation": "After each section, close the book and recite the answer to your question from memory."
+            },
+            {
+              "label": "R — Review",
+              "explanation": "After finishing the chapter, review all your answers and any sections where you couldn't recite correctly."
+            }
+          ],
+          "answer": "SQ3R turns passive reading into active learning: Survey → Question → Read → Recite → Review.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 3",
+      "flashcards": [
+        {
+          "id": "ch3-fc-1",
+          "chapter": "Chapter 3",
+          "front": "Describe the three sections of the Cornell note-taking page.",
+          "back": "Right column (notes area, 6cm wide): main content. Left column (cue/question area, 3cm): keywords and questions. Bottom strip (summary, 5cm): brief summary of the page.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-2",
+          "chapter": "Chapter 3",
+          "front": "What is the advantage of a mind map over linear notes?",
+          "back": "Mind maps show relationships between ideas visually, use both hemispheres of the brain and are easier to review at a glance.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-3",
+          "chapter": "Chapter 3",
+          "front": "What should go in the 'cue column' of Cornell notes?",
+          "back": "Key terms, questions, and headings that test your recall of the main notes column — used for active self-testing.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-4",
+          "chapter": "Chapter 3",
+          "front": "When should you complete Cornell notes after a lecture?",
+          "back": "Within 24 hours — research shows memory decay is fastest in the first day after learning.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch3-q1",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "In the Cornell system, what belongs in the bottom summary strip?",
+          "options": [
+            "Every detail from the lecture",
+            "A brief 2-4 sentence summary of the page's main idea",
+            "The lecturer's exact words",
+            "A list of all vocabulary terms"
+          ],
+          "answer": "A brief 2-4 sentence summary of the page's main idea",
+          "explanation": "The summary section forces synthesis of the page into a brief overview, aiding long-term retention.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q2",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "A mind map is MOST useful for:",
+          "options": [
+            "Writing a formal academic report",
+            "Organising brainstormed ideas and showing relationships",
+            "Recording exact quotations from a textbook",
+            "Calculating numerical solutions"
+          ],
+          "answer": "Organising brainstormed ideas and showing relationships",
+          "explanation": "Mind maps excel at visually organising concepts and revealing how ideas connect — ideal for brainstorming and revision.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q3",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "The cue column in Cornell notes is used to:",
+          "options": [
+            "Write the full lecture transcript",
+            "Record the date and venue",
+            "Write keywords and self-test questions after the lecture",
+            "Draw diagrams of concepts"
+          ],
+          "answer": "Write keywords and self-test questions after the lecture",
+          "explanation": "The cue column is completed after the lecture and used to test recall by covering the notes column.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch3-we-1",
+          "chapter": "Chapter 3",
+          "title": "Creating Cornell Notes from a Lecture",
+          "summary": "Convert raw lecture notes into a Cornell format.",
+          "problem": "After a lecture on 'Forms of Business Ownership', your raw notes include: 'Sole trader — 1 owner, unlimited liability, easy to start.' Convert this to Cornell format.",
+          "steps": [
+            {
+              "label": "Step 1 — Notes column",
+              "explanation": "Right column: 'Sole trader: owned by 1 person. Advantages: easy to set up, full control. Disadvantage: UNLIMITED LIABILITY — personal assets at risk.'"
+            },
+            {
+              "label": "Step 2 — Cue column",
+              "explanation": "Left column: 'Q: What is the main risk of sole trader?' and keyword: 'unlimited liability'."
+            },
+            {
+              "label": "Step 3 — Summary",
+              "explanation": "Bottom strip: 'A sole trader is a simple one-person business that is easy to start but exposes the owner to unlimited personal liability.'"
+            }
+          ],
+          "answer": "Cornell format separates main content (right), keywords/questions (left), and summary (bottom) for effective review.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 4",
+      "flashcards": [
+        {
+          "id": "ch4-fc-1",
+          "chapter": "Chapter 4",
+          "front": "What are the three main parts of an oral presentation?",
+          "back": "Introduction (attention-getter, purpose, preview), Body (2-4 main points with support), Conclusion (summary, memorable close).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-2",
+          "chapter": "Chapter 4",
+          "front": "Name three techniques to reduce presentation anxiety.",
+          "back": "Preparation and practice; controlled breathing; reframing anxiety as excitement; positive visualisation.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-3",
+          "chapter": "Chapter 4",
+          "front": "What is the 6x6 rule for PowerPoint slides?",
+          "back": "No more than 6 bullet points per slide and no more than 6 words per bullet — keeps slides clean and focused.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-4",
+          "chapter": "Chapter 4",
+          "front": "What is eye contact's role in a presentation?",
+          "back": "Builds credibility and connection with the audience; demonstrates confidence and helps hold attention.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch4-q1",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "What is the PRIMARY purpose of the introduction in an oral presentation?",
+          "options": [
+            "To present all the supporting evidence",
+            "To grab attention, state the purpose and preview the structure",
+            "To summarise the conclusion",
+            "To display all slides"
+          ],
+          "answer": "To grab attention, state the purpose and preview the structure",
+          "explanation": "A strong introduction orients the audience: why should they listen, what will they learn, and how is the presentation structured.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q2",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Reading directly from your notes during a presentation is problematic because it:",
+          "options": [
+            "Increases credibility",
+            "Reduces eye contact and audience engagement",
+            "Is not allowed by NWU",
+            "Makes the presentation too long"
+          ],
+          "answer": "Reduces eye contact and audience engagement",
+          "explanation": "Eye contact and natural delivery are key to audience engagement; reading from notes breaks this connection.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q3",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "The 6x6 rule in slide design recommends:",
+          "options": [
+            "6 slides per presentation and 6 minutes per slide",
+            "No more than 6 bullet points and 6 words per bullet per slide",
+            "Six colours and six fonts per presentation",
+            "6 images and 6 graphs per presentation"
+          ],
+          "answer": "No more than 6 bullet points and 6 words per bullet per slide",
+          "explanation": "The 6x6 rule prevents overcrowded slides and encourages the presenter to speak to points rather than read from the screen.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch4-we-1",
+          "chapter": "Chapter 4",
+          "title": "Structuring a 5-Minute Presentation",
+          "summary": "Plan the structure of a short academic presentation.",
+          "problem": "You must deliver a 5-minute presentation on 'The Importance of Entrepreneurship in SA'. Plan the introduction, body and conclusion.",
+          "steps": [
+            {
+              "label": "Introduction (1 min)",
+              "explanation": "Attention-getter: 'South Africa has a 32% unemployment rate. Entrepreneurs create the jobs we need.' State purpose: 'Today I'll argue that entrepreneurship is SA's best tool against unemployment.' Preview: 'I'll cover 3 reasons.'"
+            },
+            {
+              "label": "Body (3 min)",
+              "explanation": "Point 1: Job creation — cite NBS stats on SMME employment. Point 2: Innovation — SA tech startups (e.g. Yoco, PayFast). Point 3: Economic empowerment — B-BBEE and township entrepreneurship."
+            },
+            {
+              "label": "Conclusion (1 min)",
+              "explanation": "Summarise three points. Memorable close: 'Every great SA business started with one person who decided to begin.'"
+            }
+          ],
+          "answer": "Structure: Introduction (1 min) + Body with 3 points (3 min) + Conclusion (1 min) = 5 minutes.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 5",
+      "flashcards": [
+        {
+          "id": "ch5-fc-1",
+          "chapter": "Chapter 5",
+          "front": "List the five components of a professional email.",
+          "back": "Subject line, salutation, body (opening/middle/close), sign-off, and signature.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-2",
+          "chapter": "Chapter 5",
+          "front": "What is the 'you-attitude' in professional writing?",
+          "back": "Focusing on the reader's needs and benefits rather than the writer's perspective — use 'you' more than 'I'.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-3",
+          "chapter": "Chapter 5",
+          "front": "What is an appropriate salutation in a formal email to a lecturer?",
+          "back": "'Dear Prof. Smith,' or 'Dear Dr. Nkosi,' — use title and surname, not first name or 'Hey'.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-4",
+          "chapter": "Chapter 5",
+          "front": "What makes a subject line effective in a professional email?",
+          "back": "It is specific, concise and informative — e.g. 'BMAN111 Assignment Query — Student 12345678' not just 'Hi' or 'Question'.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch5-q1",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "Which subject line is MOST appropriate for a formal email to your lecturer?",
+          "options": [
+            "Hey!!",
+            "BMAN111 — Assignment 2 Submission Query — 34567890",
+            "Question about stuff",
+            "Reading this?"
+          ],
+          "answer": "BMAN111 — Assignment 2 Submission Query — 34567890",
+          "explanation": "An effective subject line is specific and informative, allowing the recipient to immediately understand the email's purpose.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q2",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "The you-attitude in 'You will benefit from attending this workshop' is better than:",
+          "options": [
+            "We are running a workshop",
+            "I think the workshop is good",
+            "The workshop will occur on Friday",
+            "All employees must attend"
+          ],
+          "answer": "I think the workshop is good",
+          "explanation": "The you-attitude focuses on the reader's benefit ('you will benefit') rather than the writer's perspective ('I think').",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q3",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "In a formal email, the sign-off 'Cheers,' is:",
+          "options": [
+            "Appropriate for any email",
+            "Too informal for a professional or academic email",
+            "Required by NWU email policy",
+            "The same as 'Kind regards'"
+          ],
+          "answer": "Too informal for a professional or academic email",
+          "explanation": "Formal sign-offs include 'Kind regards', 'Yours sincerely', or 'Regards'. 'Cheers' is informal and inappropriate in academic/professional contexts.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch5-we-1",
+          "chapter": "Chapter 5",
+          "title": "Rewriting an Informal Email as a Professional Email",
+          "summary": "Transform a poorly written student email into a professional one.",
+          "problem": "Original email: 'Hey prof!! i missed the test bc i was sick. when can i write?? thx'. Rewrite professionally.",
+          "steps": [
+            {
+              "label": "Subject line",
+              "explanation": "ICOM111 — Missed Class Test — Request for Alternative Assessment — Student 34567890"
+            },
+            {
+              "label": "Salutation",
+              "explanation": "Dear Prof. Van der Merwe,"
+            },
+            {
+              "label": "Body — opening",
+              "explanation": "I am a student in your ICOM111 Tuesday morning class (student number 34567890)."
+            },
+            {
+              "label": "Body — middle",
+              "explanation": "I regret to inform you that I was unable to attend the class test on [date] due to illness. I have attached a medical certificate for your records."
+            },
+            {
+              "label": "Body — close",
+              "explanation": "I would be grateful if you could advise me on the procedure for requesting an alternative assessment opportunity."
+            },
+            {
+              "label": "Sign-off",
+              "explanation": "Kind regards, [Full Name], Student No. 34567890"
+            }
+          ],
+          "answer": "A professional email uses formal salutation, clear purpose, you-attitude, polite close, and appropriate sign-off.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 6",
+      "flashcards": [
+        {
+          "id": "ch6-fc-1",
+          "chapter": "Chapter 6",
+          "front": "List the main sections of a formal report in order.",
+          "back": "Cover page → Table of contents → Executive summary → Introduction → Body (findings) → Conclusions → Recommendations → References → Appendices.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-2",
+          "chapter": "Chapter 6",
+          "front": "What is an executive summary and who reads it?",
+          "back": "A 1-page overview of the report's purpose, key findings and recommendations — written for busy executives and decision-makers who may not read the full report.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-3",
+          "chapter": "Chapter 6",
+          "front": "What is a memo report?",
+          "back": "An internal informal report formatted as a memo (To/From/Date/Subject), used for routine internal business communication.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-4",
+          "chapter": "Chapter 6",
+          "front": "What is the difference between findings and conclusions in a report?",
+          "back": "Findings are the factual results/data gathered. Conclusions are interpretations drawn from the findings. Recommendations follow from conclusions.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch6-q1",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "The executive summary of a report should be written:",
+          "options": [
+            "Before any research is conducted",
+            "After the full report is complete",
+            "As the first step in report planning",
+            "By someone other than the report author"
+          ],
+          "answer": "After the full report is complete",
+          "explanation": "The executive summary summarises the completed report — it cannot be written until all findings and conclusions are known.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q2",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "Which section of a report presents the factual data gathered during research?",
+          "options": [
+            "Introduction",
+            "Executive summary",
+            "Findings",
+            "Recommendations"
+          ],
+          "answer": "Findings",
+          "explanation": "The findings section presents factual, objective results from research or investigation without interpretation.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q3",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "A memo report is BEST suited for:",
+          "options": [
+            "A report submitted to external clients",
+            "Internal communication within an organisation",
+            "Academic research submissions",
+            "Annual financial reporting"
+          ],
+          "answer": "Internal communication within an organisation",
+          "explanation": "Memo reports use the informal To/From/Date/Subject format and are intended for internal audiences only.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch6-we-1",
+          "chapter": "Chapter 6",
+          "title": "Writing an Executive Summary",
+          "summary": "Draft an executive summary from a given set of report facts.",
+          "problem": "A report investigated absenteeism at a call centre. Findings: absenteeism is 18% (target: 5%); main causes are low morale (45%) and long commutes (30%). Recommendation: introduce a hybrid working policy. Write an executive summary (max 100 words).",
+          "steps": [
+            {
+              "label": "Opening sentence — purpose",
+              "explanation": "State what the report investigated."
+            },
+            {
+              "label": "Key finding",
+              "explanation": "Absenteeism is 18%, significantly above the 5% target."
+            },
+            {
+              "label": "Main causes",
+              "explanation": "The primary drivers are low employee morale (45% of cases) and long commute times (30%)."
+            },
+            {
+              "label": "Recommendation",
+              "explanation": "It is recommended that a hybrid working policy be introduced to reduce commute burden and improve morale."
+            }
+          ],
+          "answer": "Executive summary: This report investigated absenteeism at [Call Centre]. Absenteeism stands at 18%, well above the 5% target. Analysis identifies low morale (45%) and long commutes (30%) as primary drivers. It is recommended that a hybrid working policy be implemented to address both factors.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 7",
+      "flashcards": [
+        {
+          "id": "ch7-fc-1",
+          "chapter": "Chapter 7",
+          "front": "What is a meeting agenda?",
+          "back": "A written list of items to be discussed at a meeting, circulated to participants in advance so they can prepare.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-2",
+          "chapter": "Chapter 7",
+          "front": "What are minutes of a meeting?",
+          "back": "The official written record of what was discussed, decided and action items assigned at a meeting.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-3",
+          "chapter": "Chapter 7",
+          "front": "What is the role of the chairperson in a meeting?",
+          "back": "Facilitates the meeting, keeps it on agenda and on time, manages participation, and ensures decisions are made.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-4",
+          "chapter": "Chapter 7",
+          "front": "Name two causes of conflict in groups.",
+          "back": "Differing goals or values; unclear roles or responsibilities; poor communication; competition for resources.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch7-q1",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "Who is responsible for taking minutes during a meeting?",
+          "options": [
+            "The chairperson",
+            "The secretary",
+            "The most senior person present",
+            "Each participant alternately"
+          ],
+          "answer": "The secretary",
+          "explanation": "The secretary is the designated note-taker who records proceedings and produces the official minutes.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q2",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "What should meeting minutes include?",
+          "options": [
+            "Personal opinions of each participant",
+            "Attendance, decisions made, and action items with owners and deadlines",
+            "Only the final decisions, not the discussion",
+            "The full script of everything said"
+          ],
+          "answer": "Attendance, decisions made, and action items with owners and deadlines",
+          "explanation": "Minutes record who was present, what was decided, and who is responsible for each action by when.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q3",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "The first item on most formal meeting agendas is:",
+          "options": [
+            "AOB (Any Other Business)",
+            "Confirmation of previous minutes",
+            "Financial report",
+            "New business items"
+          ],
+          "answer": "Confirmation of previous minutes",
+          "explanation": "Confirming the previous meeting's minutes ensures accuracy of the official record before proceeding with new business.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch7-we-1",
+          "chapter": "Chapter 7",
+          "title": "Drafting a Meeting Agenda",
+          "summary": "Create a structured agenda for a student group project meeting.",
+          "problem": "Your BMAN111 group needs to meet to finalise your group assignment. Draft an agenda for a 45-minute meeting.",
+          "steps": [
+            {
+              "label": "Heading",
+              "explanation": "BMAN111 Group Assignment Meeting | Date: 10 April 2026 | Time: 14:00 | Venue: Library Study Room 3 | Attendees: Sipho, Lerato, James, Fatima"
+            },
+            {
+              "label": "Item 1 — Welcome and apologies (5 min)",
+              "explanation": "Chairperson opens the meeting; note any apologies."
+            },
+            {
+              "label": "Item 2 — Confirm previous actions (5 min)",
+              "explanation": "Review tasks assigned at last meeting; confirm completion."
+            },
+            {
+              "label": "Item 3 — Review draft sections (20 min)",
+              "explanation": "Each member presents their completed section; group provides feedback."
+            },
+            {
+              "label": "Item 4 — Final formatting and submission (10 min)",
+              "explanation": "Agree on formatting, assign final edit to one person, confirm submission date."
+            },
+            {
+              "label": "Item 5 — AOB and close (5 min)",
+              "explanation": "Any other business; chairperson closes meeting."
+            }
+          ],
+          "answer": "A structured 45-minute agenda: Welcome → Confirm actions → Review sections → Finalise submission → AOB.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    }
+  ],
+  "discipline": "communication",
+  "referenceList": [
+    {
+      "title": "Purdue Online Writing Lab (OWL) — Academic Writing",
+      "publisher": "Purdue University",
+      "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html",
+      "note": "Authoritative, free guide to academic writing, structure, and style.",
+      "sourceHash": "9592c0c44a6e1b2bdfe20028587aaac551ca2c6a0540ab140b57689e7144a11c"
+    },
+    {
+      "title": "Hyland, K. — Academic writing (Cambridge / UCL press)",
+      "publisher": "Cambridge University Press",
+      "url": "https://www.cambridge.org/core/books/academic-writing",
+      "note": "Scholarly reference on academic discourse and genres.",
+      "sourceHash": "d0f6c7a6de168e38c71874ced9936c61203e2e52ef0b1a3644484ed6b26c9976"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: Integrated Communication Skills 111 (BCom, North-West University). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "Chapter-by-chapter teaching focus (derived from the module's own learning outcomes and key definitions):",
+    "  • Chapter 1 — Academic Communication Fundamentals. Emphasise: Explain the communication process model; Distinguish verbal from non-verbal communication; Identify and overcome communication barriers. Local context: In the multilingual SA context, language barriers and code-switching are common forms of noise in academic and professional settings.",
+    "  • Chapter 2 — Active Reading Strategies. Emphasise: Apply the SQ3R reading method; Distinguish skimming from scanning; Identify the main idea and supporting details in academic texts. Local context: NWU students encounter academic texts in both Afrikaans and English; active reading strategies help navigate content in a second or third language.",
+    "  • Chapter 3 — Academic Note-Taking. Emphasise: Apply the Cornell note-taking system; Create effective mind maps; Select appropriate note-taking methods for different contexts. Local context: Effective note-taking is critical for NWU students managing large volumes of study material across multiple modules simultaneously.",
+    "  • Chapter 4 — Oral Communication & Presentations. Emphasise: Structure an oral presentation effectively; Apply techniques to manage presentation anxiety; Use visual aids appropriately. Local context: In the SA business environment, being able to present confidently in English (often a second language) is a valuable professional skill.",
+    "  • Chapter 5 — Professional Writing & Emails. Emphasise: Write professional emails using correct tone and format; Apply the you-attitude in professional correspondence; Distinguish formal from informal writing register. Local context: Professional email etiquette is essential in SA business culture where correspondence with employers, clients and lecturers must be appropriately formal.",
+    "  • Chapter 6 — Report Writing. Emphasise: Identify the key components of a formal report; Write a clear executive summary; Distinguish between memo reports and formal reports. Local context: Report writing is a core skill for BCom graduates; in SA companies, reports must often comply with JSE or government reporting standards.",
+    "  • Chapter 7 — Group Communication & Meetings. Emphasise: Describe effective group communication dynamics; Distinguish the roles of chairperson and secretary in a meeting; Draft a meeting agenda and minutes. Local context: Effective meeting management saves time and money — a critical skill for SA business graduates entering corporate or entrepreneurial environments.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "9592c0c44a6e1b2bdfe20028587aaac551ca2c6a0540ab140b57689e7144a11c",
+    "d0f6c7a6de168e38c71874ced9936c61203e2e52ef0b1a3644484ed6b26c9976"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

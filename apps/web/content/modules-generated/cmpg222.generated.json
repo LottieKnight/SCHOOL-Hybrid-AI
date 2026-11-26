@@ -1,0 +1,2270 @@
+{
+  "institution": "North-West University",
+  "moduleCode": "CMPG222",
+  "moduleName": "Data Analysis and Programming 222",
+  "semester": "Semester 2, 2025",
+  "programme": "BCom",
+  "confidence": 0.82,
+  "generatedAt": "2026-04-03T00:00:00.000Z",
+  "sourceFiles": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "missingContent": [],
+  "studyUnits": [
+    "Chapter 1 — Python Basics & Environment",
+    "Chapter 2 — Data Types & Variables",
+    "Chapter 3 — Control Flow",
+    "Chapter 4 — Functions & Modules",
+    "Chapter 5 — Data Structures (Lists/Dicts/Sets)",
+    "Chapter 6 — File I/O & Data Handling",
+    "Chapter 7 — Pandas & Data Analysis",
+    "Chapter 8 — Data Visualisation (Matplotlib)"
+  ],
+  "chapters": [
+    "Chapter 1",
+    "Chapter 2",
+    "Chapter 3",
+    "Chapter 4",
+    "Chapter 5",
+    "Chapter 6",
+    "Chapter 7",
+    "Chapter 8"
+  ],
+  "topicSeeds": [
+    "Ch1 - Python installation and IDE setup",
+    "Ch1 - Running Python scripts vs interactive mode",
+    "Ch2 - Integer, float, string, boolean types",
+    "Ch2 - Variable naming and assignment",
+    "Ch3 - if/elif/else statements",
+    "Ch3 - for and while loops",
+    "Ch4 - Defining and calling functions",
+    "Ch4 - Importing standard library modules",
+    "Ch5 - List operations and methods",
+    "Ch5 - Dictionary key-value access",
+    "Ch6 - Reading and writing CSV files",
+    "Ch6 - Exception handling with try/except",
+    "Ch7 - DataFrame creation and indexing",
+    "Ch7 - Groupby and aggregation",
+    "Ch8 - Line and bar charts with Matplotlib",
+    "Ch8 - Customising plots with labels and titles"
+  ],
+  "keyTopics": [
+    "Python syntax and indentation",
+    "Data types and type conversion",
+    "Conditional statements and loops",
+    "Functions and scope",
+    "Lists, dictionaries, and sets",
+    "File reading and writing",
+    "Pandas DataFrame operations",
+    "Data visualisation with Matplotlib"
+  ],
+  "quizSignals": [
+    "What is the correct way to define a function in Python?",
+    "How do you read a CSV file using Pandas?",
+    "What is the difference between a list and a tuple?",
+    "How do you access a value in a dictionary by its key?",
+    "What does the groupby() method do in Pandas?",
+    "How do you create a bar chart using Matplotlib?"
+  ],
+  "assessmentPlan": [
+    {
+      "name": "Practical Assignment 1",
+      "weight": "12.5%",
+      "due": "August",
+      "scope": "Ch 1-2"
+    },
+    {
+      "name": "Practical Assignment 2",
+      "weight": "12.5%",
+      "due": "September",
+      "scope": "Ch 3-4"
+    },
+    {
+      "name": "Practical Assignment 3",
+      "weight": "12.5%",
+      "due": "October",
+      "scope": "Ch 5-6"
+    },
+    {
+      "name": "Practical Assignment 4",
+      "weight": "12.5%",
+      "due": "November",
+      "scope": "Ch 7-8"
+    },
+    {
+      "name": "Semester Test",
+      "weight": "50%",
+      "due": "November",
+      "scope": "Ch 1-8"
+    }
+  ],
+  "classSchedule": [
+    {
+      "label": "Week 1",
+      "summary": "Introduction to Python, installing Anaconda/VS Code, running first script",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 2",
+      "summary": "Python data types, variables, and type conversion",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 3",
+      "summary": "String operations and input/output",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 4",
+      "summary": "Conditional statements: if, elif, else",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 5",
+      "summary": "Loops: for and while, range(), break/continue",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 6",
+      "summary": "Defining functions, parameters, return values, scope",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 7",
+      "summary": "Importing modules: math, random, datetime",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 8",
+      "summary": "Lists, tuples, and list methods",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 9",
+      "summary": "Dictionaries and sets",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 10",
+      "summary": "Reading and writing text and CSV files",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 11",
+      "summary": "Exception handling and data validation",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 12",
+      "summary": "Introduction to Pandas: Series and DataFrame",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 13",
+      "summary": "Pandas data cleaning, filtering, groupby and aggregation",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 14",
+      "summary": "Data visualisation with Matplotlib: line, bar, scatter plots",
+      "chapter": "Chapter 8"
+    },
+    {
+      "label": "Week 15",
+      "summary": "Customising plots, subplots, saving figures",
+      "chapter": "Chapter 8"
+    }
+  ],
+  "chapterInsights": [
+    {
+      "chapter": "Chapter 1",
+      "title": "Python Basics & Environment",
+      "outcomes": [
+        "Install Python and set up a development environment (Anaconda/VS Code)",
+        "Write and execute basic Python scripts",
+        "Understand the difference between script mode and interactive mode",
+        "Use print() and basic input/output"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "IDE",
+          "definition": "Integrated Development Environment — a software application that provides tools for writing, testing, and debugging code (e.g., VS Code, PyCharm, Jupyter Notebook)."
+        },
+        {
+          "term": "Interpreter",
+          "definition": "A program that executes Python code line-by-line at runtime, rather than compiling to machine code first."
+        },
+        {
+          "term": "Script",
+          "definition": "A Python file (ending in .py) containing a sequence of instructions to be executed."
+        },
+        {
+          "term": "Syntax",
+          "definition": "The set of rules that define the structure and format of valid Python statements."
+        }
+      ],
+      "revisionPrompts": [
+        "What is the purpose of an IDE in Python development?",
+        "How do you run a Python script from the command line?",
+        "What does the print() function do?",
+        "What is the difference between interactive mode and script mode?"
+      ],
+      "saContext": "NWU BCom students typically use Anaconda with Jupyter Notebooks or VS Code as their Python environment. Python is increasingly used in South African business analytics contexts, including financial modelling and data reporting.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://r4ds.hadley.nz/",
+          "https://jakevdp.github.io/PythonDataScienceHandbook/",
+          "https://pandas.pydata.org/docs/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 2",
+      "title": "Data Types & Variables",
+      "outcomes": [
+        "Identify Python's core data types: int, float, str, bool",
+        "Declare and assign variables following naming conventions",
+        "Perform type conversion using int(), float(), str()",
+        "Use string methods and formatting"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Variable",
+          "definition": "A named storage location in memory that holds a value which can change during program execution."
+        },
+        {
+          "term": "Data type",
+          "definition": "A classification of data that determines what operations can be performed on it (e.g., int, float, str, bool)."
+        },
+        {
+          "term": "Type casting",
+          "definition": "Converting a value from one data type to another using functions like int(), float(), or str()."
+        },
+        {
+          "term": "String",
+          "definition": "A sequence of characters enclosed in single or double quotes, used to represent text."
+        }
+      ],
+      "revisionPrompts": [
+        "What are the four primitive data types in Python?",
+        "How do you convert a string '42' to an integer?",
+        "What will type('hello') return?",
+        "How do you concatenate two strings in Python?"
+      ],
+      "saContext": "Understanding data types is fundamental for processing South African business data such as rand amounts (float), customer IDs (int or str), and boolean flags in business rule systems.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://r4ds.hadley.nz/",
+          "https://jakevdp.github.io/PythonDataScienceHandbook/",
+          "https://pandas.pydata.org/docs/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 3",
+      "title": "Control Flow",
+      "outcomes": [
+        "Write conditional logic using if, elif, and else",
+        "Implement for loops to iterate over sequences",
+        "Use while loops for condition-based repetition",
+        "Apply break, continue, and pass statements"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Conditional statement",
+          "definition": "A programming construct (if/elif/else) that executes different code blocks based on whether a condition is True or False."
+        },
+        {
+          "term": "Iteration",
+          "definition": "The process of repeating a block of code multiple times using a loop."
+        },
+        {
+          "term": "break",
+          "definition": "A statement that exits a loop immediately before its natural termination condition."
+        },
+        {
+          "term": "range()",
+          "definition": "A built-in Python function that generates a sequence of numbers, commonly used with for loops."
+        }
+      ],
+      "revisionPrompts": [
+        "What is the syntax for an if-elif-else statement in Python?",
+        "How does a for loop differ from a while loop?",
+        "What does the break statement do inside a loop?",
+        "How would you print numbers 1 to 10 using a for loop?"
+      ],
+      "saContext": "Control flow structures are used in business logic programming, such as applying VAT conditionally on South African transactions or iterating through customer records to calculate balances.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://r4ds.hadley.nz/",
+          "https://jakevdp.github.io/PythonDataScienceHandbook/",
+          "https://pandas.pydata.org/docs/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 4",
+      "title": "Functions & Modules",
+      "outcomes": [
+        "Define and call functions with parameters and return values",
+        "Understand variable scope (local vs global)",
+        "Import and use built-in Python modules",
+        "Create simple custom modules"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Function",
+          "definition": "A named, reusable block of code that performs a specific task, optionally accepting inputs (parameters) and returning a result."
+        },
+        {
+          "term": "Parameter",
+          "definition": "A variable listed in a function's definition that receives a value when the function is called."
+        },
+        {
+          "term": "Return value",
+          "definition": "The value a function sends back to the caller using the return statement."
+        },
+        {
+          "term": "Module",
+          "definition": "A Python file containing functions, classes, and variables that can be imported and used in other scripts."
+        },
+        {
+          "term": "Scope",
+          "definition": "The region of code where a variable is accessible. Local variables exist only within a function; global variables are accessible throughout."
+        }
+      ],
+      "revisionPrompts": [
+        "How do you define a function in Python?",
+        "What is the difference between a parameter and an argument?",
+        "How do you import the math module?",
+        "What does the return statement do?"
+      ],
+      "saContext": "Functions promote code reusability, which is essential in business data processing tasks such as repeatedly calculating tax (15% VAT) or formatting South African rand values.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://r4ds.hadley.nz/",
+          "https://jakevdp.github.io/PythonDataScienceHandbook/",
+          "https://pandas.pydata.org/docs/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 5",
+      "title": "Data Structures (Lists/Dicts/Sets)",
+      "outcomes": [
+        "Create and manipulate Python lists using indexing and methods",
+        "Build and access dictionaries using key-value pairs",
+        "Use sets for unique collections and set operations",
+        "Understand when to use each data structure"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "List",
+          "definition": "An ordered, mutable collection of items enclosed in square brackets, allowing duplicate values."
+        },
+        {
+          "term": "Dictionary",
+          "definition": "An unordered collection of key-value pairs enclosed in curly braces, accessed via unique keys."
+        },
+        {
+          "term": "Set",
+          "definition": "An unordered collection of unique items, useful for removing duplicates and set operations like union and intersection."
+        },
+        {
+          "term": "Index",
+          "definition": "The position of an element in a list, starting from 0 for the first element."
+        },
+        {
+          "term": "Key-value pair",
+          "definition": "A pair of associated data in a dictionary where the key is a unique identifier and the value is the associated data."
+        }
+      ],
+      "revisionPrompts": [
+        "How do you access the third element of a list?",
+        "How do you add a new key-value pair to a dictionary?",
+        "What is the difference between a list and a set?",
+        "How do you remove duplicates from a list using a set?"
+      ],
+      "saContext": "Data structures are used to organise business data such as lists of product prices, dictionaries of customer details, and sets of unique transaction IDs in South African retail analytics.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://r4ds.hadley.nz/",
+          "https://jakevdp.github.io/PythonDataScienceHandbook/",
+          "https://pandas.pydata.org/docs/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 6",
+      "title": "File I/O & Data Handling",
+      "outcomes": [
+        "Open, read, and write text files using Python's open() function",
+        "Read and write CSV files using the csv module and Pandas",
+        "Handle exceptions using try/except blocks",
+        "Validate and clean basic input data"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "File I/O",
+          "definition": "Input/Output operations involving reading data from and writing data to files on disk."
+        },
+        {
+          "term": "CSV",
+          "definition": "Comma-Separated Values — a plain text file format where each line represents a record and values are separated by commas."
+        },
+        {
+          "term": "Exception handling",
+          "definition": "A mechanism using try/except blocks to catch and handle runtime errors gracefully without crashing the program."
+        },
+        {
+          "term": "Context manager",
+          "definition": "A Python construct using the 'with' statement that automatically handles resource management such as closing files."
+        }
+      ],
+      "revisionPrompts": [
+        "How do you open a file for reading in Python?",
+        "What is the advantage of using 'with open()' instead of just 'open()'?",
+        "How do you catch a FileNotFoundError in Python?",
+        "How do you read a CSV file using Pandas?"
+      ],
+      "saContext": "File handling is critical for processing business data files such as CSV exports from South African accounting systems (Pastel, Sage) or government datasets from Stats SA.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://r4ds.hadley.nz/",
+          "https://jakevdp.github.io/PythonDataScienceHandbook/",
+          "https://pandas.pydata.org/docs/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 7",
+      "title": "Pandas & Data Analysis",
+      "outcomes": [
+        "Create and manipulate Pandas Series and DataFrames",
+        "Filter, sort, and index data in a DataFrame",
+        "Perform groupby operations and aggregation",
+        "Handle missing data using fillna() and dropna()"
+      ],
+      "formulas": [
+        "df.groupby('column').agg({'value_col': 'sum'})",
+        "df[df['column'] > threshold]",
+        "df.describe() — summary statistics"
+      ],
+      "definitions": [
+        {
+          "term": "DataFrame",
+          "definition": "A two-dimensional, labelled data structure in Pandas, similar to a spreadsheet or SQL table, with rows and columns."
+        },
+        {
+          "term": "Series",
+          "definition": "A one-dimensional labelled array in Pandas, representing a single column of data."
+        },
+        {
+          "term": "Groupby",
+          "definition": "A Pandas operation that splits data into groups based on a column value, applies a function, and combines the results."
+        },
+        {
+          "term": "Index",
+          "definition": "The row labels of a Pandas DataFrame or Series, used for fast data access and alignment."
+        },
+        {
+          "term": "NaN",
+          "definition": "Not a Number — a special floating-point value used in Pandas to represent missing or undefined data."
+        }
+      ],
+      "revisionPrompts": [
+        "How do you read a CSV file into a Pandas DataFrame?",
+        "How do you filter rows where a column value is greater than 100?",
+        "What does df.groupby('region')['sales'].sum() return?",
+        "How do you handle missing values in a DataFrame?"
+      ],
+      "saContext": "Pandas is widely used for analysing South African business datasets such as JSE stock data, Stats SA survey results, and SARS tax return data.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://r4ds.hadley.nz/",
+          "https://jakevdp.github.io/PythonDataScienceHandbook/",
+          "https://pandas.pydata.org/docs/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 8",
+      "title": "Data Visualisation (Matplotlib)",
+      "outcomes": [
+        "Create line, bar, and scatter plots using Matplotlib",
+        "Customise plots with titles, axis labels, legends, and colours",
+        "Create subplots to display multiple charts",
+        "Save figures to image files"
+      ],
+      "formulas": [
+        "plt.plot(x, y) — line chart",
+        "plt.bar(categories, values) — bar chart",
+        "plt.scatter(x, y) — scatter plot",
+        "plt.savefig('filename.png') — save figure"
+      ],
+      "definitions": [
+        {
+          "term": "Matplotlib",
+          "definition": "A Python library for creating static, animated, and interactive data visualisations."
+        },
+        {
+          "term": "Figure",
+          "definition": "The entire chart window or image area in Matplotlib, which can contain one or more subplots."
+        },
+        {
+          "term": "Axes",
+          "definition": "An individual plot area within a Matplotlib figure, containing the chart elements such as lines, bars, and labels."
+        },
+        {
+          "term": "Legend",
+          "definition": "A guide on a chart that explains what each line, bar, or marker represents."
+        }
+      ],
+      "revisionPrompts": [
+        "What function do you use to create a bar chart in Matplotlib?",
+        "How do you add a title to a Matplotlib plot?",
+        "What is the difference between plt.show() and plt.savefig()?",
+        "How do you create two subplots side by side in Matplotlib?"
+      ],
+      "saContext": "Data visualisation is essential for communicating business insights to South African stakeholders. Charts are used in BCom business reports, marketing dashboards, and economic policy presentations.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://r4ds.hadley.nz/",
+          "https://jakevdp.github.io/PythonDataScienceHandbook/",
+          "https://pandas.pydata.org/docs/"
+        ]
+      }
+    }
+  ],
+  "chapterStudyItems": [
+    {
+      "chapter": "Chapter 1",
+      "flashcards": [
+        {
+          "id": "ch1-fc-1",
+          "chapter": "Chapter 1",
+          "front": "What is an IDE?",
+          "back": "An Integrated Development Environment — software that provides tools for writing, testing, and debugging code. Examples include VS Code, PyCharm, and Jupyter Notebook.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-2",
+          "chapter": "Chapter 1",
+          "front": "How do you print text to the screen in Python?",
+          "back": "Use the print() function. Example: print('Hello, World!')",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-3",
+          "chapter": "Chapter 1",
+          "front": "What file extension do Python scripts use?",
+          "back": ".py — for example, my_script.py",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-4",
+          "chapter": "Chapter 1",
+          "front": "What is Anaconda?",
+          "back": "A Python distribution that includes Python, package manager (conda), and popular data science libraries pre-installed. It is commonly used in academic and data analysis environments.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-5",
+          "chapter": "Chapter 1",
+          "front": "What is a comment in Python and how do you write one?",
+          "back": "A comment is a line of code ignored by the interpreter, used to explain code. Single-line comments start with #. Example: # This is a comment",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch1-q1",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is a Python IDE commonly used for data analysis?",
+          "options": [
+            "Microsoft Word",
+            "Jupyter Notebook",
+            "Adobe Acrobat",
+            "Windows Explorer"
+          ],
+          "answer": "Jupyter Notebook",
+          "explanation": "Jupyter Notebook is a widely used IDE for data analysis in Python, allowing code, text, and visualisations in a single document.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q2",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "What is the correct Python syntax to display 'Hello' on screen?",
+          "options": [
+            "echo('Hello')",
+            "print('Hello')",
+            "display('Hello')",
+            "write('Hello')"
+          ],
+          "answer": "print('Hello')",
+          "explanation": "The print() function is Python's built-in function for outputting text to the console.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q3",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Python scripts are saved with which file extension?",
+          "options": [
+            ".txt",
+            ".java",
+            ".py",
+            ".exe"
+          ],
+          "answer": ".py",
+          "explanation": "Python source code files use the .py extension, e.g., analysis.py.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch1-we-1",
+          "chapter": "Chapter 1",
+          "title": "First Python Script",
+          "summary": "Writing and running a simple Python script that prints a greeting.",
+          "problem": "Write a Python script that prints your name and the current module code.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Open your IDE (e.g., VS Code or Jupyter Notebook)."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Create a new file called greeting.py."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Type the following code: print('My name is Lottie') followed by print('Module: CMPG222')"
+            },
+            {
+              "label": "Step 4",
+              "explanation": "Run the script. The output should display each message on a new line."
+            }
+          ],
+          "answer": "My name is Lottie\nModule: CMPG222",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 2",
+      "flashcards": [
+        {
+          "id": "ch2-fc-1",
+          "chapter": "Chapter 2",
+          "front": "What are the four basic data types in Python?",
+          "back": "int (integers), float (decimal numbers), str (text strings), and bool (True/False values).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-2",
+          "chapter": "Chapter 2",
+          "front": "How do you convert the string '100' to an integer in Python?",
+          "back": "Use int('100'). This returns the integer value 100.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-3",
+          "chapter": "Chapter 2",
+          "front": "What will type(3.14) return?",
+          "back": "<class 'float'> — because 3.14 is a floating-point number.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-4",
+          "chapter": "Chapter 2",
+          "front": "What is the result of 'Hello' + ' ' + 'World'?",
+          "back": "'Hello World' — string concatenation joins the strings together.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-5",
+          "chapter": "Chapter 2",
+          "front": "What is an f-string in Python?",
+          "back": "A formatted string literal that allows embedding expressions inside string literals. Example: f'Price: R{price:.2f}' where price is a variable.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch2-q1",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "What data type is the value 3.14?",
+          "options": [
+            "int",
+            "float",
+            "str",
+            "bool"
+          ],
+          "answer": "float",
+          "explanation": "3.14 is a decimal number, which Python classifies as a float (floating-point number).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q2",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "Which function converts a number to a string in Python?",
+          "options": [
+            "int()",
+            "float()",
+            "str()",
+            "bool()"
+          ],
+          "answer": "str()",
+          "explanation": "The str() function converts other data types to a string representation.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q3",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "What is the result of 5 // 2 in Python?",
+          "options": [
+            "2.5",
+            "3",
+            "2",
+            "1"
+          ],
+          "answer": "2",
+          "explanation": "The // operator performs floor division, which returns the integer part of the division result. 5 // 2 = 2.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch2-we-1",
+          "chapter": "Chapter 2",
+          "title": "Calculating VAT in Python",
+          "summary": "Using variables and data types to calculate South African VAT (15%).",
+          "problem": "A product costs R200. Write Python code to calculate and display the price including 15% VAT.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Assign the price: price = 200.0"
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Define the VAT rate: vat_rate = 0.15"
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Calculate VAT amount: vat = price * vat_rate"
+            },
+            {
+              "label": "Step 4",
+              "explanation": "Calculate total: total = price + vat"
+            },
+            {
+              "label": "Step 5",
+              "explanation": "Display result: print(f'Total price with VAT: R{total:.2f}')"
+            }
+          ],
+          "answer": "Total price with VAT: R230.00",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 3",
+      "flashcards": [
+        {
+          "id": "ch3-fc-1",
+          "chapter": "Chapter 3",
+          "front": "What is the syntax for an if statement in Python?",
+          "back": "if condition:\n    # code block\nelif other_condition:\n    # code block\nelse:\n    # code block\nNote: Python uses indentation (4 spaces) to define code blocks.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-2",
+          "chapter": "Chapter 3",
+          "front": "How does a for loop work in Python?",
+          "back": "A for loop iterates over a sequence (list, range, string). Syntax: for item in sequence: followed by the indented code block.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-3",
+          "chapter": "Chapter 3",
+          "front": "What does range(1, 6) generate?",
+          "back": "The sequence 1, 2, 3, 4, 5. range(start, stop) generates numbers from start up to (but not including) stop.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-4",
+          "chapter": "Chapter 3",
+          "front": "What is the difference between break and continue?",
+          "back": "break exits the loop entirely. continue skips the current iteration and moves to the next one.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch3-q1",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "What will the following code print?\nfor i in range(3):\n    print(i)",
+          "options": [
+            "1 2 3",
+            "0 1 2",
+            "0 1 2 3",
+            "1 2"
+          ],
+          "answer": "0 1 2",
+          "explanation": "range(3) generates 0, 1, 2. The loop prints each value on a new line.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q2",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "Which keyword is used to skip the rest of the current loop iteration and continue with the next?",
+          "options": [
+            "break",
+            "skip",
+            "continue",
+            "pass"
+          ],
+          "answer": "continue",
+          "explanation": "The continue statement skips the remaining code in the current iteration and proceeds to the next iteration of the loop.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q3",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "A while loop continues as long as its condition is:",
+          "options": [
+            "False",
+            "None",
+            "True",
+            "0"
+          ],
+          "answer": "True",
+          "explanation": "A while loop executes its body repeatedly as long as the condition evaluates to True.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch3-we-1",
+          "chapter": "Chapter 3",
+          "title": "Grade Classification",
+          "summary": "Using if/elif/else to classify a student's mark into a grade category.",
+          "problem": "Write Python code that takes a student's percentage mark and prints 'Distinction', 'Merit', 'Pass', or 'Fail'.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Get the mark: mark = int(input('Enter mark: '))"
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Check for Distinction: if mark >= 75: print('Distinction')"
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Check for Merit: elif mark >= 60: print('Merit')"
+            },
+            {
+              "label": "Step 4",
+              "explanation": "Check for Pass: elif mark >= 50: print('Pass')"
+            },
+            {
+              "label": "Step 5",
+              "explanation": "Otherwise it's a Fail: else: print('Fail')"
+            }
+          ],
+          "answer": "For mark = 82: Distinction\nFor mark = 65: Merit\nFor mark = 52: Pass\nFor mark = 40: Fail",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 4",
+      "flashcards": [
+        {
+          "id": "ch4-fc-1",
+          "chapter": "Chapter 4",
+          "front": "What is the correct syntax to define a function in Python?",
+          "back": "def function_name(parameters):\n    # function body\n    return value\nThe def keyword is followed by the function name and parentheses.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-2",
+          "chapter": "Chapter 4",
+          "front": "What is the difference between a local and global variable?",
+          "back": "A local variable is defined inside a function and only accessible within it. A global variable is defined outside functions and accessible throughout the program.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-3",
+          "chapter": "Chapter 4",
+          "front": "How do you import the math module and use the square root function?",
+          "back": "import math\nresult = math.sqrt(16)  # returns 4.0",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-4",
+          "chapter": "Chapter 4",
+          "front": "What does the return statement do in a function?",
+          "back": "It sends a value back to the caller and ends the function's execution. A function without a return statement returns None.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch4-q1",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Which keyword is used to define a function in Python?",
+          "options": [
+            "function",
+            "define",
+            "def",
+            "func"
+          ],
+          "answer": "def",
+          "explanation": "In Python, functions are defined using the 'def' keyword followed by the function name and parentheses.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q2",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "What will the function return if it has no return statement?",
+          "options": [
+            "0",
+            "False",
+            "None",
+            "An error"
+          ],
+          "answer": "None",
+          "explanation": "In Python, a function without a return statement implicitly returns None.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q3",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "How do you import only the sqrt function from the math module?",
+          "options": [
+            "import sqrt from math",
+            "from math import sqrt",
+            "include math.sqrt",
+            "use math import sqrt"
+          ],
+          "answer": "from math import sqrt",
+          "explanation": "The 'from module import function' syntax imports a specific function from a module, allowing you to call it without the module prefix.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch4-we-1",
+          "chapter": "Chapter 4",
+          "title": "VAT Calculator Function",
+          "summary": "Creating a reusable function to calculate VAT-inclusive prices.",
+          "problem": "Write a Python function called calculate_vat that takes a price and VAT rate as parameters and returns the total price including VAT.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Define the function: def calculate_vat(price, vat_rate=0.15):"
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Calculate VAT amount: vat = price * vat_rate"
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Calculate total: total = price + vat"
+            },
+            {
+              "label": "Step 4",
+              "explanation": "Return the result: return total"
+            },
+            {
+              "label": "Step 5",
+              "explanation": "Call the function: result = calculate_vat(200)\nprint(f'R{result:.2f}')"
+            }
+          ],
+          "answer": "R230.00 (for price=200 with default 15% VAT)",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 5",
+      "flashcards": [
+        {
+          "id": "ch5-fc-1",
+          "chapter": "Chapter 5",
+          "front": "How do you create a list in Python and access its first element?",
+          "back": "Create: my_list = [10, 20, 30, 40]\nAccess first element: my_list[0]  # returns 10\nLists use zero-based indexing.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-2",
+          "chapter": "Chapter 5",
+          "front": "How do you add an item to the end of a list?",
+          "back": "Use the append() method: my_list.append(50)\nThis adds 50 to the end of the list.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-3",
+          "chapter": "Chapter 5",
+          "front": "How do you create a dictionary with a student's name and mark?",
+          "back": "student = {'name': 'Thabo', 'mark': 75}\nAccess: student['name']  # returns 'Thabo'",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-4",
+          "chapter": "Chapter 5",
+          "front": "What is the main difference between a list and a set?",
+          "back": "A list is ordered and allows duplicates. A set is unordered and contains only unique values. Sets are useful for removing duplicates.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-5",
+          "chapter": "Chapter 5",
+          "front": "How do you iterate over all key-value pairs in a dictionary?",
+          "back": "Use .items(): for key, value in my_dict.items():\n    print(key, value)",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch5-q1",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "What does my_list[-1] return?",
+          "options": [
+            "An error",
+            "The first element",
+            "The last element",
+            "The second-last element"
+          ],
+          "answer": "The last element",
+          "explanation": "Negative indexing in Python counts from the end. -1 refers to the last element, -2 to the second-last, etc.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q2",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "Which data structure does NOT allow duplicate values?",
+          "options": [
+            "list",
+            "tuple",
+            "set",
+            "dictionary values"
+          ],
+          "answer": "set",
+          "explanation": "A set automatically removes duplicate values and only stores unique elements.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q3",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "How do you access the value associated with key 'age' in a dictionary named 'person'?",
+          "options": [
+            "person.age",
+            "person->age",
+            "person['age']",
+            "person(age)"
+          ],
+          "answer": "person['age']",
+          "explanation": "Dictionary values are accessed using square bracket notation with the key name in quotes.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch5-we-1",
+          "chapter": "Chapter 5",
+          "title": "Student Marks Analysis",
+          "summary": "Using a list and dictionary to store and analyse student marks.",
+          "problem": "Store three students' names and marks in a dictionary, then find the average mark.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Create a dictionary: students = {'Thabo': 72, 'Naledi': 85, 'Johan': 64}"
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Extract marks into a list: marks = list(students.values())"
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Calculate average: average = sum(marks) / len(marks)"
+            },
+            {
+              "label": "Step 4",
+              "explanation": "Print result: print(f'Average mark: {average:.1f}%')"
+            }
+          ],
+          "answer": "Average mark: 73.7%",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 6",
+      "flashcards": [
+        {
+          "id": "ch6-fc-1",
+          "chapter": "Chapter 6",
+          "front": "What are the three modes for opening a file in Python?",
+          "back": "'r' — read (default), 'w' — write (overwrites), 'a' — append (adds to end). Example: open('file.txt', 'r')",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-2",
+          "chapter": "Chapter 6",
+          "front": "Why should you use 'with open()' instead of just 'open()'?",
+          "back": "The 'with' statement automatically closes the file after the block executes, even if an error occurs. This prevents file corruption and resource leaks.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-3",
+          "chapter": "Chapter 6",
+          "front": "How do you handle a FileNotFoundError in Python?",
+          "back": "Use try/except:\ntry:\n    with open('file.txt') as f:\n        data = f.read()\nexcept FileNotFoundError:\n    print('File not found')",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-4",
+          "chapter": "Chapter 6",
+          "front": "What Pandas function reads a CSV file into a DataFrame?",
+          "back": "pd.read_csv('filename.csv') — this reads the CSV and returns a DataFrame. You must first import pandas as pd.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch6-q1",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "Which file mode would you use to add data to an existing file without deleting its contents?",
+          "options": [
+            "'r'",
+            "'w'",
+            "'a'",
+            "'x'"
+          ],
+          "answer": "'a'",
+          "explanation": "Mode 'a' (append) opens the file and adds new data to the end without overwriting existing content.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q2",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "What does the try/except block do?",
+          "options": [
+            "It repeats code until successful",
+            "It catches and handles runtime errors",
+            "It defines a function",
+            "It opens a file"
+          ],
+          "answer": "It catches and handles runtime errors",
+          "explanation": "try/except allows the program to handle exceptions (errors) gracefully instead of crashing.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q3",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "What does CSV stand for?",
+          "options": [
+            "Computer Saved Variables",
+            "Comma-Separated Values",
+            "Calculated Statistical Values",
+            "Column Standard Variables"
+          ],
+          "answer": "Comma-Separated Values",
+          "explanation": "CSV (Comma-Separated Values) is a plain text format where each record is on a new line and fields are separated by commas.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch6-we-1",
+          "chapter": "Chapter 6",
+          "title": "Reading Sales Data from CSV",
+          "summary": "Opening a CSV file and calculating total sales using Pandas.",
+          "problem": "You have a CSV file 'sales.csv' with columns 'product' and 'amount'. Read the file and calculate the total sales amount.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Import pandas: import pandas as pd"
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Read the file: df = pd.read_csv('sales.csv')"
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Calculate total: total = df['amount'].sum()"
+            },
+            {
+              "label": "Step 4",
+              "explanation": "Display result: print(f'Total Sales: R{total:,.2f}')"
+            },
+            {
+              "label": "Step 5",
+              "explanation": "Wrap in try/except to handle missing file gracefully."
+            }
+          ],
+          "answer": "Total Sales: R[sum of all amounts in the CSV]",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 7",
+      "flashcards": [
+        {
+          "id": "ch7-fc-1",
+          "chapter": "Chapter 7",
+          "front": "What is a Pandas DataFrame?",
+          "back": "A two-dimensional, labelled data structure with rows and columns, similar to a spreadsheet. Created using pd.DataFrame() or pd.read_csv().",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-2",
+          "chapter": "Chapter 7",
+          "front": "How do you filter a DataFrame to show only rows where 'sales' > 1000?",
+          "back": "df[df['sales'] > 1000]\nThis uses boolean indexing to return rows satisfying the condition.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-3",
+          "chapter": "Chapter 7",
+          "front": "What does df.groupby('region')['sales'].sum() do?",
+          "back": "It groups the DataFrame by the 'region' column and calculates the total (sum) of 'sales' for each region.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-4",
+          "chapter": "Chapter 7",
+          "front": "How do you remove rows with missing values in Pandas?",
+          "back": "Use df.dropna() to remove all rows with any NaN values. Use df.fillna(value) to replace NaN with a specific value.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-5",
+          "chapter": "Chapter 7",
+          "front": "What does df.describe() return?",
+          "back": "Summary statistics for all numeric columns: count, mean, std, min, 25th percentile, median, 75th percentile, and max.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch7-q1",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "Which Pandas function reads a CSV file into a DataFrame?",
+          "options": [
+            "pd.open_csv()",
+            "pd.load_csv()",
+            "pd.read_csv()",
+            "pd.import_csv()"
+          ],
+          "answer": "pd.read_csv()",
+          "explanation": "pd.read_csv() is the standard Pandas function for reading CSV files into a DataFrame.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q2",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "What does NaN represent in Pandas?",
+          "options": [
+            "A number above average",
+            "A negative number",
+            "A missing or undefined value",
+            "Not a name"
+          ],
+          "answer": "A missing or undefined value",
+          "explanation": "NaN (Not a Number) is used in Pandas to represent missing data points in a dataset.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q3",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "Which method returns descriptive statistics of a DataFrame?",
+          "options": [
+            "df.info()",
+            "df.stats()",
+            "df.describe()",
+            "df.summary()"
+          ],
+          "answer": "df.describe()",
+          "explanation": "df.describe() returns summary statistics (count, mean, std, min, max, percentiles) for numeric columns.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch7-we-1",
+          "chapter": "Chapter 7",
+          "title": "Regional Sales Analysis with Groupby",
+          "summary": "Using Pandas groupby to summarise sales data by region.",
+          "problem": "Given a sales DataFrame with columns 'region', 'product', and 'sales', find the total sales per region and identify the top-performing region.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Import and load: import pandas as pd; df = pd.read_csv('sales.csv')"
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Group by region: regional_sales = df.groupby('region')['sales'].sum()"
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Sort descending: regional_sales = regional_sales.sort_values(ascending=False)"
+            },
+            {
+              "label": "Step 4",
+              "explanation": "Find top region: top_region = regional_sales.index[0]"
+            },
+            {
+              "label": "Step 5",
+              "explanation": "Print result: print(f'Top region: {top_region} with R{regional_sales.iloc[0]:,.2f}')"
+            }
+          ],
+          "answer": "Top region: [region name] with R[highest sales amount]",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 8",
+      "flashcards": [
+        {
+          "id": "ch8-fc-1",
+          "chapter": "Chapter 8",
+          "front": "How do you import Matplotlib and create a basic line chart?",
+          "back": "import matplotlib.pyplot as plt\nplt.plot(x_values, y_values)\nplt.show()",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-2",
+          "chapter": "Chapter 8",
+          "front": "How do you add a title and axis labels to a Matplotlib chart?",
+          "back": "plt.title('My Chart')\nplt.xlabel('X Axis Label')\nplt.ylabel('Y Axis Label')",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-3",
+          "chapter": "Chapter 8",
+          "front": "What is the difference between plt.show() and plt.savefig()?",
+          "back": "plt.show() displays the chart on screen. plt.savefig('chart.png') saves it to a file. Use savefig() before show() to avoid saving a blank image.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-4",
+          "chapter": "Chapter 8",
+          "front": "Which Matplotlib function creates a bar chart?",
+          "back": "plt.bar(x_categories, y_values)\nFor horizontal bars use plt.barh(). Useful for comparing categorical data like sales by province.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch8-q1",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "Which function creates a scatter plot in Matplotlib?",
+          "options": [
+            "plt.scatter()",
+            "plt.points()",
+            "plt.dots()",
+            "plt.xy()"
+          ],
+          "answer": "plt.scatter()",
+          "explanation": "plt.scatter(x, y) creates a scatter plot showing individual data points, useful for identifying correlations.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-q2",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "What is the correct order of operations to save a Matplotlib chart?",
+          "options": [
+            "plt.show() then plt.savefig()",
+            "plt.savefig() then plt.show()",
+            "Either order works",
+            "plt.export() then plt.close()"
+          ],
+          "answer": "plt.savefig() then plt.show()",
+          "explanation": "plt.savefig() must be called before plt.show(), because plt.show() clears the figure. Calling savefig() after show() would save a blank image.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-q3",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "How do you create two subplots side by side in Matplotlib?",
+          "options": [
+            "plt.subplot(1, 2, 1) and plt.subplot(1, 2, 2)",
+            "plt.plot([1,2]) and plt.plot([3,4])",
+            "plt.figure(2)",
+            "plt.double_plot()"
+          ],
+          "answer": "plt.subplot(1, 2, 1) and plt.subplot(1, 2, 2)",
+          "explanation": "plt.subplot(rows, cols, index) creates a subplot grid. subplot(1,2,1) is the first plot in a 1-row, 2-column grid; subplot(1,2,2) is the second.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch8-we-1",
+          "chapter": "Chapter 8",
+          "title": "Monthly Sales Bar Chart",
+          "summary": "Creating a bar chart to visualise monthly sales data for a South African business.",
+          "problem": "Plot a bar chart showing monthly sales (in thousands of rand) for the first six months of 2025.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Import: import matplotlib.pyplot as plt"
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Define data: months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']\nsales = [120, 135, 118, 142, 160, 155]"
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Create chart: plt.bar(months, sales, color='steelblue')"
+            },
+            {
+              "label": "Step 4",
+              "explanation": "Add labels: plt.title('Monthly Sales 2025')\nplt.xlabel('Month')\nplt.ylabel('Sales (R thousands)')"
+            },
+            {
+              "label": "Step 5",
+              "explanation": "Save and display: plt.savefig('sales_chart.png')\nplt.show()"
+            }
+          ],
+          "answer": "A bar chart displaying six bars representing monthly sales from January to June 2025.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    }
+  ],
+  "discipline": "data_programming",
+  "referenceList": [
+    {
+      "title": "R for Data Science (Wickham, Çetinkaya-Rundel & Grolemund) — free online",
+      "publisher": "O'Reilly / Posit",
+      "url": "https://r4ds.hadley.nz/",
+      "note": "Authoritative tidy-data / data-analysis workflow reference.",
+      "sourceHash": "8677a68126fbf86b4c4c2ff057bc266ee688889a5527b32cf0a76afba463491f"
+    },
+    {
+      "title": "Python Data Science Handbook (VanderPlas) — free online",
+      "publisher": "O'Reilly",
+      "url": "https://jakevdp.github.io/PythonDataScienceHandbook/",
+      "note": "NumPy / pandas / matplotlib reference for programming components.",
+      "sourceHash": "f0d0f7cb66b3111a90a4d59fb6c9bcaee670081940c68ce1e74642ce15f21219"
+    },
+    {
+      "title": "Pandas — official documentation",
+      "publisher": "The Pandas Development Team",
+      "url": "https://pandas.pydata.org/docs/",
+      "note": "Canonical API reference for data manipulation.",
+      "sourceHash": "d501dc7e2f03979ed809b5e3f7440c55d2a648e8dd2eace3b4a2e4c526d93c8f"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: Data Analysis and Programming 222 (BCom, North-West University). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "Chapter-by-chapter teaching focus (derived from the module's own learning outcomes and key definitions):",
+    "  • Chapter 1 — Python Basics & Environment. Emphasise: Install Python and set up a development environment (Anaconda/VS Code); Write and execute basic Python scripts; Understand the difference between script mode and interactive mode. Local context: NWU BCom students typically use Anaconda with Jupyter Notebooks or VS Code as their Python environment. Python is increasingly used in South African business analytics contexts, including financial modelling and data reporting.",
+    "  • Chapter 2 — Data Types & Variables. Emphasise: Identify Python's core data types: int, float, str, bool; Declare and assign variables following naming conventions; Perform type conversion using int(), float(), str(). Local context: Understanding data types is fundamental for processing South African business data such as rand amounts (float), customer IDs (int or str), and boolean flags in business rule systems.",
+    "  • Chapter 3 — Control Flow. Emphasise: Write conditional logic using if, elif, and else; Implement for loops to iterate over sequences; Use while loops for condition-based repetition. Local context: Control flow structures are used in business logic programming, such as applying VAT conditionally on South African transactions or iterating through customer records to calculate balances.",
+    "  • Chapter 4 — Functions & Modules. Emphasise: Define and call functions with parameters and return values; Understand variable scope (local vs global); Import and use built-in Python modules. Local context: Functions promote code reusability, which is essential in business data processing tasks such as repeatedly calculating tax (15% VAT) or formatting South African rand values.",
+    "  • Chapter 5 — Data Structures (Lists/Dicts/Sets). Emphasise: Create and manipulate Python lists using indexing and methods; Build and access dictionaries using key-value pairs; Use sets for unique collections and set operations. Local context: Data structures are used to organise business data such as lists of product prices, dictionaries of customer details, and sets of unique transaction IDs in South African retail analytics.",
+    "  • Chapter 6 — File I/O & Data Handling. Emphasise: Open, read, and write text files using Python's open() function; Read and write CSV files using the csv module and Pandas; Handle exceptions using try/except blocks. Local context: File handling is critical for processing business data files such as CSV exports from South African accounting systems (Pastel, Sage) or government datasets from Stats SA.",
+    "  • Chapter 7 — Pandas & Data Analysis. Emphasise: Create and manipulate Pandas Series and DataFrames; Filter, sort, and index data in a DataFrame; Perform groupby operations and aggregation. Local context: Pandas is widely used for analysing South African business datasets such as JSE stock data, Stats SA survey results, and SARS tax return data.",
+    "  • Chapter 8 — Data Visualisation (Matplotlib). Emphasise: Create line, bar, and scatter plots using Matplotlib; Customise plots with titles, axis labels, legends, and colours; Create subplots to display multiple charts. Local context: Data visualisation is essential for communicating business insights to South African stakeholders. Charts are used in BCom business reports, marketing dashboards, and economic policy presentations.",
+    "Pedagogy tip (quantitative): work at least one fully solved example on the board per topic, then assign a parallel guided-practice problem. Common student errors: sign errors in debit/credit (accounting), confusing correlation with causation (stats/econ), and unit/percentage mistakes in ratio work. Build a short weekly formative quiz from the module's own revision prompts.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "8677a68126fbf86b4c4c2ff057bc266ee688889a5527b32cf0a76afba463491f",
+    "f0d0f7cb66b3111a90a4d59fb6c9bcaee670081940c68ce1e74642ce15f21219",
+    "d501dc7e2f03979ed809b5e3f7440c55d2a648e8dd2eace3b4a2e4c526d93c8f"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

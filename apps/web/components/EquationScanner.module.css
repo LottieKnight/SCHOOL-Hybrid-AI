@@ -1,0 +1,39 @@
+.container {
+  padding: 24px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-xl);
+  text-align: center;
+}
+
+.title { margin: 0; font-family: var(--font-display); font-size: 24px; }
+.subtitle { color: var(--text-3); margin-top: 4px; margin-bottom: 20px; font-size: 14px; }
+
+.actions { display: flex; justify-content: center; }
+
+.solution {
+  text-align: left;
+  background: var(--surface-2);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+}
+
+.solHeader {
+  padding: 12px 16px;
+  background: var(--gold-dim);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--gold);
+}
+
+.solBody {
+  padding: 16px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-1);
+  white-space: pre-wrap;
+}

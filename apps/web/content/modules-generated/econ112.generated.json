@@ -1,0 +1,2390 @@
+{
+  "institution": "North-West University",
+  "moduleCode": "ECON112",
+  "moduleName": "Economics 112",
+  "semester": "Semester 1, 2024",
+  "programme": "BCom",
+  "confidence": 0.82,
+  "generatedAt": "2026-04-03T00:00:00.000Z",
+  "sourceFiles": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "missingContent": [],
+  "studyUnits": [
+    "Chapter 1 — Introduction to Economics & Scarcity",
+    "Chapter 2 — Supply & Demand",
+    "Chapter 3 — Elasticity",
+    "Chapter 4 — Consumer Theory & Utility",
+    "Chapter 5 — Production Theory",
+    "Chapter 6 — Cost Theory",
+    "Chapter 7 — Perfect Competition",
+    "Chapter 8 — Monopoly & Imperfect Competition",
+    "Chapter 9 — Market Failure & Government Intervention"
+  ],
+  "chapters": [
+    "Chapter 1",
+    "Chapter 2",
+    "Chapter 3",
+    "Chapter 4",
+    "Chapter 5",
+    "Chapter 6",
+    "Chapter 7",
+    "Chapter 8",
+    "Chapter 9"
+  ],
+  "topicSeeds": [
+    "Ch1 - scarcity and choice",
+    "Ch1 - opportunity cost",
+    "Ch1 - factors of production",
+    "Ch2 - law of demand",
+    "Ch2 - law of supply",
+    "Ch2 - market equilibrium",
+    "Ch2 - shifts in demand and supply",
+    "Ch3 - price elasticity of demand",
+    "Ch3 - income elasticity",
+    "Ch3 - cross elasticity",
+    "Ch4 - total and marginal utility",
+    "Ch4 - law of diminishing marginal utility",
+    "Ch4 - consumer equilibrium",
+    "Ch5 - total product, marginal product, average product",
+    "Ch5 - law of diminishing returns",
+    "Ch6 - fixed and variable costs",
+    "Ch6 - TC AC MC AVC AFC",
+    "Ch6 - short run vs long run costs",
+    "Ch7 - characteristics of perfect competition",
+    "Ch7 - firm vs industry equilibrium",
+    "Ch7 - shutdown rule",
+    "Ch8 - monopoly characteristics",
+    "Ch8 - price discrimination",
+    "Ch8 - oligopoly and game theory",
+    "Ch9 - externalities",
+    "Ch9 - public goods",
+    "Ch9 - government price controls"
+  ],
+  "keyTopics": [
+    "scarcity and opportunity cost",
+    "factors of production",
+    "law of demand and supply",
+    "market equilibrium",
+    "demand and supply shifts",
+    "price elasticity of demand",
+    "total and marginal utility",
+    "law of diminishing marginal utility",
+    "short-run production theory",
+    "law of diminishing returns",
+    "fixed and variable costs",
+    "marginal cost and average cost",
+    "perfect competition equilibrium",
+    "profit maximisation (MR=MC)",
+    "monopoly pricing",
+    "price discrimination",
+    "market failure",
+    "externalities",
+    "public goods"
+  ],
+  "quizSignals": [
+    "What is opportunity cost?",
+    "How do you calculate price elasticity of demand?",
+    "What conditions define perfect competition?",
+    "What is the profit-maximising rule (MR=MC)?",
+    "What is a market failure?"
+  ],
+  "assessmentPlan": [
+    {
+      "name": "Semester Test 1",
+      "weight": "35%",
+      "due": "March",
+      "scope": "Ch 1-4"
+    },
+    {
+      "name": "Semester Test 2",
+      "weight": "35%",
+      "due": "May",
+      "scope": "Ch 5-9"
+    },
+    {
+      "name": "Assignment",
+      "weight": "30%",
+      "due": "April",
+      "scope": "Ch 1-6"
+    }
+  ],
+  "classSchedule": [
+    {
+      "label": "Week 1",
+      "summary": "Introduction to economics; scarcity, choice and opportunity cost.",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 2",
+      "summary": "Factors of production; circular flow model; economic systems.",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 3",
+      "summary": "Demand: law of demand, demand schedule and demand curve.",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 4",
+      "summary": "Supply: law of supply; market equilibrium; shifts in demand and supply.",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 5",
+      "summary": "Price elasticity of demand; income elasticity; cross elasticity.",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 6",
+      "summary": "Consumer theory: total and marginal utility; law of diminishing marginal utility.",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 7",
+      "summary": "Consumer equilibrium; TEST 1 — Ch 1-4.",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 8",
+      "summary": "Production theory: TP, MP, AP; law of diminishing returns.",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 9",
+      "summary": "Cost theory: fixed and variable costs; TC, AC, MC, AVC.",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 10",
+      "summary": "Short-run and long-run cost curves; economies of scale.",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 11",
+      "summary": "Perfect competition: characteristics and short-run equilibrium.",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 12",
+      "summary": "Monopoly: price and output determination; price discrimination.",
+      "chapter": "Chapter 8"
+    },
+    {
+      "label": "Week 13",
+      "summary": "Oligopoly and imperfect competition.",
+      "chapter": "Chapter 8"
+    },
+    {
+      "label": "Week 14",
+      "summary": "Market failure: externalities, public goods, information asymmetry.",
+      "chapter": "Chapter 9"
+    },
+    {
+      "label": "Week 15",
+      "summary": "Government intervention; price controls; TEST 2 — Ch 5-9.",
+      "chapter": "Chapter 9"
+    }
+  ],
+  "chapterInsights": [
+    {
+      "chapter": "Chapter 1",
+      "title": "Introduction to Economics & Scarcity",
+      "outcomes": [
+        "Define economics and scarcity",
+        "Calculate opportunity cost",
+        "Identify the four factors of production"
+      ],
+      "formulas": [
+        "Opportunity cost = Value of next-best alternative forgone"
+      ],
+      "definitions": [
+        {
+          "term": "Scarcity",
+          "definition": "The fundamental economic problem — unlimited human wants face limited resources."
+        },
+        {
+          "term": "Opportunity cost",
+          "definition": "The value of the next-best alternative sacrificed when making a choice."
+        },
+        {
+          "term": "Factors of production",
+          "definition": "Land, Labour, Capital, and Entrepreneurship — the resources used to produce goods and services."
+        }
+      ],
+      "revisionPrompts": [
+        "Distinguish between a positive and normative economic statement.",
+        "Draw a production possibility frontier and explain a point inside vs on the curve."
+      ],
+      "saContext": "SA's unemployment rate (~32%) illustrates the scarcity of labour market opportunities; government must make difficult trade-offs between health, education and infrastructure spending.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 2",
+      "title": "Supply & Demand",
+      "outcomes": [
+        "State the law of demand and supply",
+        "Draw supply and demand curves",
+        "Determine equilibrium price and quantity",
+        "Analyse shifts in demand or supply"
+      ],
+      "formulas": [
+        "At equilibrium: Qd = Qs"
+      ],
+      "definitions": [
+        {
+          "term": "Law of demand",
+          "definition": "As price falls, quantity demanded rises, ceteris paribus — inverse relationship."
+        },
+        {
+          "term": "Law of supply",
+          "definition": "As price rises, quantity supplied rises, ceteris paribus — direct relationship."
+        },
+        {
+          "term": "Market equilibrium",
+          "definition": "The price at which quantity demanded equals quantity supplied — no tendency to change."
+        }
+      ],
+      "revisionPrompts": [
+        "List three non-price determinants of demand.",
+        "What happens to equilibrium when income rises for a normal good?"
+      ],
+      "saContext": "When Eskom raises electricity tariffs (supply-side cost shock), it shifts the supply curve left for SA manufacturers, raising prices and reducing output.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 3",
+      "title": "Elasticity",
+      "outcomes": [
+        "Calculate price elasticity of demand (PED)",
+        "Interpret elastic vs inelastic demand",
+        "Calculate income and cross elasticity"
+      ],
+      "formulas": [
+        "PED = (%ΔQd) / (%ΔP)",
+        "YED = (%ΔQd) / (%ΔY)",
+        "XED = (%ΔQd of A) / (%ΔP of B)"
+      ],
+      "definitions": [
+        {
+          "term": "Price elasticity of demand (PED)",
+          "definition": "Measures the responsiveness of quantity demanded to a change in price. |PED| > 1 = elastic; < 1 = inelastic."
+        },
+        {
+          "term": "Income elasticity (YED)",
+          "definition": "Measures how demand responds to income changes. Positive for normal goods, negative for inferior goods."
+        },
+        {
+          "term": "Cross elasticity (XED)",
+          "definition": "Measures how demand for one good responds to price changes in another. Positive = substitutes; negative = complements."
+        }
+      ],
+      "revisionPrompts": [
+        "If price rises 10% and quantity falls 20%, what is PED?",
+        "Is petrol demand elastic or inelastic in SA? Why?"
+      ],
+      "saContext": "The National Energy Regulator (NERSA) uses elasticity analysis when approving Eskom tariff increases — inelastic demand means large revenue increases are possible.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 4",
+      "title": "Consumer Theory & Utility",
+      "outcomes": [
+        "Define and calculate total and marginal utility",
+        "State the law of diminishing marginal utility",
+        "Identify the condition for consumer equilibrium"
+      ],
+      "formulas": [
+        "MU = ΔTU/ΔQ",
+        "Consumer equilibrium: MUx/Px = MUy/Py (utility maximisation)"
+      ],
+      "definitions": [
+        {
+          "term": "Total utility (TU)",
+          "definition": "The total satisfaction a consumer receives from consuming all units of a good."
+        },
+        {
+          "term": "Marginal utility (MU)",
+          "definition": "The additional satisfaction from consuming one more unit — MU = ΔTU/ΔQ."
+        },
+        {
+          "term": "Law of diminishing marginal utility",
+          "definition": "As more units of a good are consumed, marginal utility eventually falls."
+        }
+      ],
+      "revisionPrompts": [
+        "If TU(3) = 30 and TU(4) = 36, what is MU at Q=4?",
+        "Explain why the demand curve slopes downward using utility theory."
+      ],
+      "saContext": "Diminishing marginal utility explains why SA retailers offer bulk discounts — the 3rd pack of chips provides less utility, so consumers need a lower price to buy it.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 5",
+      "title": "Production Theory",
+      "outcomes": [
+        "Define and calculate TP, MP and AP",
+        "State the law of diminishing returns",
+        "Identify the three stages of production"
+      ],
+      "formulas": [
+        "MP = ΔTP/ΔL",
+        "AP = TP/L"
+      ],
+      "definitions": [
+        {
+          "term": "Marginal product (MP)",
+          "definition": "The additional output produced by employing one more unit of a variable input (e.g. labour)."
+        },
+        {
+          "term": "Average product (AP)",
+          "definition": "Total product per unit of variable input: AP = TP/L."
+        },
+        {
+          "term": "Law of diminishing returns",
+          "definition": "As more variable input is added to a fixed input, marginal product eventually decreases."
+        }
+      ],
+      "revisionPrompts": [
+        "Draw the TP, MP and AP curves and explain their relationship.",
+        "When does the firm enter stage 2 of production?"
+      ],
+      "saContext": "Load-shedding in SA acts like a shock to fixed input (electricity), reducing TP and accelerating the onset of diminishing returns.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 6",
+      "title": "Cost Theory",
+      "outcomes": [
+        "Distinguish fixed from variable costs",
+        "Calculate TC, ATC, AVC, AFC and MC",
+        "Describe short-run and long-run cost curves"
+      ],
+      "formulas": [
+        "TC = FC + VC",
+        "ATC = TC/Q",
+        "AVC = VC/Q",
+        "AFC = FC/Q",
+        "MC = ΔTC/ΔQ"
+      ],
+      "definitions": [
+        {
+          "term": "Fixed costs (FC)",
+          "definition": "Costs that do not change with output in the short run — e.g. rent, insurance."
+        },
+        {
+          "term": "Variable costs (VC)",
+          "definition": "Costs that change directly with output — e.g. raw materials, labour."
+        },
+        {
+          "term": "Marginal cost (MC)",
+          "definition": "The additional cost of producing one more unit: MC = ΔTC/ΔQ."
+        }
+      ],
+      "revisionPrompts": [
+        "If FC=R500, VC at Q=10 is R300, calculate ATC.",
+        "Why is the MC curve U-shaped?"
+      ],
+      "saContext": "SA retailers' fixed costs (leases in malls) remain high even when sales drop — understanding fixed vs variable cost is critical for break-even analysis.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 7",
+      "title": "Perfect Competition",
+      "outcomes": [
+        "List the characteristics of a perfectly competitive market",
+        "Determine short-run equilibrium (P = MC = MR)",
+        "Apply the shutdown rule"
+      ],
+      "formulas": [
+        "Profit max: MR = MC",
+        "In PC: P = MR",
+        "Shutdown if P < AVC"
+      ],
+      "definitions": [
+        {
+          "term": "Perfect competition",
+          "definition": "A market with many sellers, homogeneous products, free entry/exit, and perfect information — price takers."
+        },
+        {
+          "term": "Price taker",
+          "definition": "A firm with no market power that must accept the market price — horizontal demand curve at market P."
+        },
+        {
+          "term": "Shutdown rule",
+          "definition": "A firm shuts down in the short run if P < AVC — better to produce nothing than to not even cover variable costs."
+        }
+      ],
+      "revisionPrompts": [
+        "Why is demand perfectly elastic for a single firm in perfect competition?",
+        "A firm has P = R20, AVC = R18, AFC = R5. Should it shut down?"
+      ],
+      "saContext": "Agricultural markets in SA (maize, wheat on SAFEX) approximate perfect competition — thousands of farmers, standardised product, price set by the exchange.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 8",
+      "title": "Monopoly & Imperfect Competition",
+      "outcomes": [
+        "Describe monopoly characteristics and sources of monopoly power",
+        "Determine monopoly equilibrium (MR=MC)",
+        "Explain price discrimination and its types"
+      ],
+      "formulas": [
+        "Monopoly equilibrium: MR = MC (but P > MC)",
+        "Deadweight loss compared to PC"
+      ],
+      "definitions": [
+        {
+          "term": "Monopoly",
+          "definition": "A market with a single seller of a product with no close substitutes — price maker."
+        },
+        {
+          "term": "Price discrimination",
+          "definition": "Charging different prices to different consumers for the same product (e.g. student discounts) to capture consumer surplus."
+        },
+        {
+          "term": "Oligopoly",
+          "definition": "A market dominated by a few large firms with interdependent decisions."
+        }
+      ],
+      "revisionPrompts": [
+        "Why does a monopoly produce less and charge more than a perfectly competitive firm?",
+        "Give a SA example of price discrimination."
+      ],
+      "saContext": "Eskom is a natural monopoly in SA — single supplier of electricity. The Competition Commission monitors SA firms like Telkom and Pick n Pay for anti-competitive behaviour.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 9",
+      "title": "Market Failure & Government Intervention",
+      "outcomes": [
+        "Identify sources of market failure",
+        "Distinguish between positive and negative externalities",
+        "Explain the characteristics of public goods"
+      ],
+      "formulas": [
+        "Negative externality: MSC = MPC + MEC (social cost includes external cost)"
+      ],
+      "definitions": [
+        {
+          "term": "Market failure",
+          "definition": "A situation in which the free market does not allocate resources efficiently — leading to over- or under-production."
+        },
+        {
+          "term": "Negative externality",
+          "definition": "A cost imposed on third parties not involved in the transaction (e.g. pollution from a factory)."
+        },
+        {
+          "term": "Public good",
+          "definition": "A good that is non-excludable and non-rival — the market under-provides it (e.g. national defence, street lighting)."
+        }
+      ],
+      "revisionPrompts": [
+        "Explain how a carbon tax corrects a negative externality.",
+        "Why will the free market under-provide public goods?"
+      ],
+      "saContext": "SA's national roads are mixed goods. Load-shedding imposes huge negative externalities on SA businesses — estimated to cost the economy R500m+ per day.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+          "https://openstax.org/details/books/principles-economics-2e",
+          "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+          "https://www.statssa.gov.za/"
+        ]
+      }
+    }
+  ],
+  "chapterStudyItems": [
+    {
+      "chapter": "Chapter 1",
+      "flashcards": [
+        {
+          "id": "ch1-fc-1",
+          "chapter": "Chapter 1",
+          "front": "Define opportunity cost.",
+          "back": "The value of the next-best alternative sacrificed when a choice is made due to scarcity.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-2",
+          "chapter": "Chapter 1",
+          "front": "Name the four factors of production.",
+          "back": "Land (natural resources), Labour (human effort), Capital (machinery/buildings), Entrepreneurship (organising ability).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-3",
+          "chapter": "Chapter 1",
+          "front": "What does a point INSIDE the production possibility frontier (PPF) indicate?",
+          "back": "Productive inefficiency — the economy is not using all its resources, or is using them inefficiently.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-4",
+          "chapter": "Chapter 1",
+          "front": "Distinguish a positive from a normative economic statement.",
+          "back": "Positive: factual, testable (e.g. 'Unemployment is 32%'). Normative: value judgement, opinion (e.g. 'Government should reduce unemployment').",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch1-q1",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Scarcity in economics refers to:",
+          "options": [
+            "A shortage caused by natural disasters",
+            "The fact that unlimited wants exceed limited resources",
+            "A situation where prices are too high",
+            "The lack of government funding"
+          ],
+          "answer": "The fact that unlimited wants exceed limited resources",
+          "explanation": "Scarcity is the fundamental economic problem — human wants are unlimited but resources to satisfy them are finite.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q2",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "If a student spends R500 on a textbook instead of a concert ticket, the opportunity cost is:",
+          "options": [
+            "R500",
+            "The concert ticket (experience) forgone",
+            "The textbook knowledge",
+            "Zero, because studying is more important"
+          ],
+          "answer": "The concert ticket (experience) forgone",
+          "explanation": "Opportunity cost is the value of the next-best alternative — the concert experience the student gave up.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q3",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Which factor of production is rewarded with RENT?",
+          "options": [
+            "Labour",
+            "Capital",
+            "Entrepreneurship",
+            "Land"
+          ],
+          "answer": "Land",
+          "explanation": "The four factor rewards are: Land→Rent, Labour→Wages, Capital→Interest, Entrepreneurship→Profit.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch1-we-1",
+          "chapter": "Chapter 1",
+          "title": "Calculating Opportunity Cost",
+          "summary": "Calculate the opportunity cost of a student's choice.",
+          "problem": "Bontle can either work part-time (earning R3 000/month) or study full-time. She chooses full-time study. What is her opportunity cost per month?",
+          "steps": [
+            {
+              "label": "Identify the choice made",
+              "explanation": "Bontle chose full-time study."
+            },
+            {
+              "label": "Identify the next-best alternative",
+              "explanation": "The next-best alternative is part-time work earning R3 000/month."
+            },
+            {
+              "label": "State the opportunity cost",
+              "explanation": "Opportunity cost = R3 000/month (the income she forfeits by choosing to study)."
+            }
+          ],
+          "answer": "Bontle's opportunity cost of studying full-time is R3 000 per month in foregone earnings.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 2",
+      "flashcards": [
+        {
+          "id": "ch2-fc-1",
+          "chapter": "Chapter 2",
+          "front": "State the law of demand.",
+          "back": "As the price of a good falls, the quantity demanded rises, ceteris paribus (all other factors held constant).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-2",
+          "chapter": "Chapter 2",
+          "front": "List three non-price determinants of demand.",
+          "back": "Consumer income, price of related goods (substitutes/complements), consumer tastes/preferences, expectations, number of buyers.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-3",
+          "chapter": "Chapter 2",
+          "front": "What happens at market equilibrium?",
+          "back": "Quantity demanded equals quantity supplied (Qd = Qs). The market clears — no surplus or shortage.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-4",
+          "chapter": "Chapter 2",
+          "front": "If consumer income rises, what happens to the demand curve for a normal good?",
+          "back": "The demand curve shifts RIGHT (increases) — consumers demand more at every price.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch2-q1",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "A movement ALONG a demand curve is caused by a change in:",
+          "options": [
+            "Consumer income",
+            "The price of the good itself",
+            "Consumer tastes",
+            "The price of a substitute"
+          ],
+          "answer": "The price of the good itself",
+          "explanation": "A change in the good's own price causes movement along the curve. All other factors cause the curve to shift.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q2",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "At market equilibrium:",
+          "options": [
+            "Quantity demanded exceeds quantity supplied",
+            "Quantity supplied exceeds quantity demanded",
+            "Quantity demanded equals quantity supplied",
+            "Price is zero"
+          ],
+          "answer": "Quantity demanded equals quantity supplied",
+          "explanation": "Equilibrium is the market-clearing price where Qd = Qs — no surplus or shortage exists.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q3",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "If the price of tea rises, what happens to the demand for coffee (a substitute)?",
+          "options": [
+            "Coffee demand decreases",
+            "Coffee demand stays the same",
+            "Coffee demand increases",
+            "Coffee price falls"
+          ],
+          "answer": "Coffee demand increases",
+          "explanation": "Substitutes move in opposite directions: when tea becomes pricier, consumers switch to coffee — coffee demand rises (curve shifts right).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch2-we-1",
+          "chapter": "Chapter 2",
+          "title": "Supply and Demand Analysis — Maize Market",
+          "summary": "Analyse the impact of a drought on the SA maize market.",
+          "problem": "A drought reduces maize supply in SA. Show the impact on equilibrium price and quantity using supply and demand analysis.",
+          "steps": [
+            {
+              "label": "Initial equilibrium",
+              "explanation": "Maize market starts at equilibrium: Qs = Qd at price P₁."
+            },
+            {
+              "label": "Effect of drought",
+              "explanation": "Drought destroys crops → supply decreases → supply curve shifts LEFT (from S₁ to S₂)."
+            },
+            {
+              "label": "New equilibrium",
+              "explanation": "At the original price, Qs < Qd (shortage). Price rises to P₂ where the new supply curve meets demand."
+            },
+            {
+              "label": "Conclusion",
+              "explanation": "Equilibrium price rises (P₂ > P₁) and equilibrium quantity falls (Q₂ < Q₁) — bad news for food security."
+            }
+          ],
+          "answer": "Drought: supply shifts left → equilibrium price rises, equilibrium quantity falls.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 3",
+      "flashcards": [
+        {
+          "id": "ch3-fc-1",
+          "chapter": "Chapter 3",
+          "front": "Formula for price elasticity of demand (PED).",
+          "back": "PED = (% change in Qd) / (% change in P) = (ΔQd/Qd) ÷ (ΔP/P). Usually negative (downward sloping demand).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-2",
+          "chapter": "Chapter 3",
+          "front": "If |PED| > 1, demand is _____. If |PED| < 1, demand is _____.",
+          "back": "Elastic (responsive to price). Inelastic (not very responsive to price).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-3",
+          "chapter": "Chapter 3",
+          "front": "If price rises 5% and quantity demanded falls 15%, what is PED?",
+          "back": "PED = −15%/5% = −3. |PED| = 3 > 1 → elastic demand.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-4",
+          "chapter": "Chapter 3",
+          "front": "What does a positive cross elasticity of demand indicate?",
+          "back": "The two goods are substitutes — when the price of one rises, demand for the other also rises (e.g. Coca-Cola and Pepsi).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch3-q1",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "Price rises by 10% and quantity demanded falls by 5%. PED = ?",
+          "options": [
+            "-0.5",
+            "-2",
+            "-5",
+            "0.5"
+          ],
+          "answer": "-0.5",
+          "explanation": "PED = %ΔQd / %ΔP = −5% / 10% = −0.5. |PED| = 0.5 < 1 → inelastic.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q2",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "If demand is INELASTIC and price rises, total revenue will:",
+          "options": [
+            "Decrease",
+            "Remain unchanged",
+            "Increase",
+            "Fall to zero"
+          ],
+          "answer": "Increase",
+          "explanation": "With inelastic demand, the % price rise > % Qd fall, so total revenue (P×Q) increases.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q3",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "Income elasticity is NEGATIVE for:",
+          "options": [
+            "Normal goods",
+            "Luxury goods",
+            "Inferior goods",
+            "Complementary goods"
+          ],
+          "answer": "Inferior goods",
+          "explanation": "Inferior goods (e.g. low-grade mealie meal) are consumed less as income rises — YED < 0.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch3-we-1",
+          "chapter": "Chapter 3",
+          "title": "Calculating Price Elasticity of Demand",
+          "summary": "Calculate and interpret PED for a SA product.",
+          "problem": "Petrol price rises from R22/L to R24/L. Monthly petrol sales in a town fall from 100 000L to 95 000L. Calculate PED and classify demand.",
+          "steps": [
+            {
+              "label": "Calculate %ΔP",
+              "explanation": "%ΔP = (24−22)/22 × 100 = 2/22 × 100 ≈ 9.09%."
+            },
+            {
+              "label": "Calculate %ΔQd",
+              "explanation": "%ΔQd = (95000−100000)/100000 × 100 = −5%."
+            },
+            {
+              "label": "Calculate PED",
+              "explanation": "PED = −5% / 9.09% ≈ −0.55."
+            },
+            {
+              "label": "Classify",
+              "explanation": "|PED| = 0.55 < 1 → inelastic demand. Petrol has no close substitutes — consumers cut purchases only slightly despite price rise."
+            }
+          ],
+          "answer": "PED ≈ −0.55. Petrol demand is inelastic in SA. A price rise increases total revenue for petrol stations.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 4",
+      "flashcards": [
+        {
+          "id": "ch4-fc-1",
+          "chapter": "Chapter 4",
+          "front": "Define marginal utility.",
+          "back": "MU = ΔTU/ΔQ — the extra satisfaction from consuming one additional unit of a good.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-2",
+          "chapter": "Chapter 4",
+          "front": "State the law of diminishing marginal utility.",
+          "back": "As more units of a good are consumed (holding other goods constant), marginal utility eventually declines.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-3",
+          "chapter": "Chapter 4",
+          "front": "If TU(4) = 40 and TU(5) = 46, what is MU at Q = 5?",
+          "back": "MU = ΔTU/ΔQ = (46−40)/(5−4) = 6 utils.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-4",
+          "chapter": "Chapter 4",
+          "front": "State the consumer equilibrium condition for two goods X and Y.",
+          "back": "MUx/Px = MUy/Py — the consumer maximises utility when the marginal utility per rand spent is equal across all goods.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch4-q1",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Total utility (TU) reaches its maximum when:",
+          "options": [
+            "Marginal utility is at its highest",
+            "Marginal utility equals zero",
+            "Marginal utility is negative",
+            "Price equals marginal utility"
+          ],
+          "answer": "Marginal utility equals zero",
+          "explanation": "TU peaks when MU = 0 — consuming the next unit adds nothing. After this, consuming more reduces TU (MU becomes negative).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q2",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "The law of diminishing marginal utility helps explain why:",
+          "options": [
+            "Firms maximise profit at MR = MC",
+            "Demand curves slope downward",
+            "Supply curves slope upward",
+            "Monopolies earn supernormal profit"
+          ],
+          "answer": "Demand curves slope downward",
+          "explanation": "As more units are consumed, MU falls — consumers are only willing to pay less for additional units, creating a downward-sloping demand curve.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q3",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "A consumer spends R10 on product X (MU=20) and R5 on product Y (MU=5). Is the consumer in equilibrium?",
+          "options": [
+            "Yes, MUx/Px = MUy/Py",
+            "No, because MUx/Px (2) > MUy/Py (1) — shift spending to X",
+            "No, because MUy/Py > MUx/Px — shift spending to Y",
+            "Yes, as long as total budget is spent"
+          ],
+          "answer": "No, because MUx/Px (2) > MUy/Py (1) — shift spending to X",
+          "explanation": "MUx/Px = 20/10 = 2; MUy/Py = 5/5 = 1. Consumer gets more utility per rand from X — should buy more X, less Y.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch4-we-1",
+          "chapter": "Chapter 4",
+          "title": "Marginal Utility Table Analysis",
+          "summary": "Calculate MU from a TU schedule and identify equilibrium consumption.",
+          "problem": "The following TU schedule is given for cold drinks on a hot day: Q=1: TU=20; Q=2: TU=36; Q=3: TU=48; Q=4: TU=56; Q=5: TU=60; Q=6: TU=60; Q=7: TU=55. Calculate MU for each unit and identify when TU is maximised.",
+          "steps": [
+            {
+              "label": "Calculate MU",
+              "explanation": "Q1: MU=20; Q2: MU=16; Q3: MU=12; Q4: MU=8; Q5: MU=4; Q6: MU=0; Q7: MU=−5."
+            },
+            {
+              "label": "Identify TU maximum",
+              "explanation": "TU is maximised at Q=6 (TU=60) where MU=0."
+            },
+            {
+              "label": "Identify diminishing MU onset",
+              "explanation": "MU falls from Q=1 (MU=20) throughout — diminishing marginal utility applies from the first unit."
+            },
+            {
+              "label": "Interpret Q=7",
+              "explanation": "At Q=7, MU=−5 (negative) — the consumer is over-consuming and total utility falls."
+            }
+          ],
+          "answer": "MU falls throughout. TU is maximised at Q=6 (MU=0). Stop consuming at Q=6.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 5",
+      "flashcards": [
+        {
+          "id": "ch5-fc-1",
+          "chapter": "Chapter 5",
+          "front": "Define marginal product of labour (MP).",
+          "back": "MP = ΔTP/ΔL — the additional output produced by adding one more unit of labour.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-2",
+          "chapter": "Chapter 5",
+          "front": "State the law of diminishing returns.",
+          "back": "As more units of a variable input (labour) are added to a fixed input (capital/land), marginal product eventually falls.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-3",
+          "chapter": "Chapter 5",
+          "front": "When is average product (AP) at its maximum?",
+          "back": "AP is at its maximum when AP = MP (the marginal product curve intersects the average product curve at its peak).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-4",
+          "chapter": "Chapter 5",
+          "front": "If labour input rises from 3 to 4 workers and TP rises from 30 to 38 units, what is MP?",
+          "back": "MP = ΔTP/ΔL = (38−30)/(4−3) = 8 units per worker.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch5-q1",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "The law of diminishing returns states that as more labour is added to fixed capital:",
+          "options": [
+            "Total product eventually falls to zero",
+            "Marginal product eventually decreases",
+            "Average product always increases",
+            "Fixed costs rise proportionally"
+          ],
+          "answer": "Marginal product eventually decreases",
+          "explanation": "Diminishing returns sets in when the variable input (labour) begins to crowd the fixed input — each extra worker adds less output.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q2",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "If TP = 60 and L = 10, what is Average Product (AP)?",
+          "options": [
+            "60",
+            "6",
+            "600",
+            "0.17"
+          ],
+          "answer": "6",
+          "explanation": "AP = TP/L = 60/10 = 6 units per worker.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q3",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "In the short run, which input is FIXED?",
+          "options": [
+            "Labour",
+            "Raw materials",
+            "Capital (machinery)",
+            "All inputs are variable"
+          ],
+          "answer": "Capital (machinery)",
+          "explanation": "In the short run, at least one input (typically capital like machinery or buildings) cannot be varied — only labour and materials are variable.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch5-we-1",
+          "chapter": "Chapter 5",
+          "title": "TP, AP and MP Table",
+          "summary": "Calculate product curves from a labour schedule.",
+          "problem": "A bakery has: L=1: TP=10; L=2: TP=22; L=3: TP=33; L=4: TP=40; L=5: TP=44; L=6: TP=44. Calculate MP and AP for each level of labour.",
+          "steps": [
+            {
+              "label": "Calculate MP",
+              "explanation": "L=1: MP=10; L=2: MP=12; L=3: MP=11; L=4: MP=7; L=5: MP=4; L=6: MP=0."
+            },
+            {
+              "label": "Calculate AP",
+              "explanation": "L=1: AP=10; L=2: AP=11; L=3: AP=11; L=4: AP=10; L=5: AP=8.8; L=6: AP=7.3."
+            },
+            {
+              "label": "Identify key points",
+              "explanation": "MP peaks at L=2 (MP=12). AP peaks at L=2-3 (AP=11). MP crosses AP at L=2-3 peak. Diminishing returns begin at L=2."
+            },
+            {
+              "label": "Identify Stage 2",
+              "explanation": "Stage 2 (rational production): L=2 to L=6 (MP > 0, AP > MP)."
+            }
+          ],
+          "answer": "MP peaks at L=2, then falls. AP peaks at L=2-3. Diminishing returns begin from L=2 onward.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 6",
+      "flashcards": [
+        {
+          "id": "ch6-fc-1",
+          "chapter": "Chapter 6",
+          "front": "How is marginal cost (MC) calculated?",
+          "back": "MC = ΔTC/ΔQ — the change in total cost when output increases by one unit.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-2",
+          "chapter": "Chapter 6",
+          "front": "FC = R600, VC at Q=10 is R400. Calculate ATC, AVC, AFC.",
+          "back": "TC = 600+400=1000. ATC=1000/10=100. AVC=400/10=40. AFC=600/10=60. Check: ATC = AVC + AFC = 100. ✓",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-3",
+          "chapter": "Chapter 6",
+          "front": "Why does AFC always fall as output increases?",
+          "back": "Fixed costs are constant; dividing the same fixed cost by increasing output means AFC falls continuously (hyperbola shape).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-4",
+          "chapter": "Chapter 6",
+          "front": "Why is the MC curve U-shaped?",
+          "back": "MC falls initially (increasing returns/specialisation), then rises as diminishing returns set in — mirroring the inverted-U shape of MP.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch6-q1",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "FC = R1 000, VC at Q = 20 is R600. ATC at Q = 20 is:",
+          "options": [
+            "R80",
+            "R50",
+            "R30",
+            "R100"
+          ],
+          "answer": "R80",
+          "explanation": "TC = 1000+600=1600. ATC = TC/Q = 1600/20 = R80.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q2",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "Which cost does NOT change with output in the short run?",
+          "options": [
+            "Variable cost",
+            "Marginal cost",
+            "Average variable cost",
+            "Fixed cost"
+          ],
+          "answer": "Fixed cost",
+          "explanation": "Fixed costs (rent, insurance, equipment lease) are incurred regardless of output level in the short run.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q3",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "The ATC curve is U-shaped because:",
+          "options": [
+            "FC rises then falls",
+            "MC pulls ATC down then up as output rises",
+            "VC is always greater than FC",
+            "AFC is constant"
+          ],
+          "answer": "MC pulls ATC down then up as output rises",
+          "explanation": "When MC < ATC, ATC falls; when MC > ATC, ATC rises. Since MC is U-shaped, ATC follows — pulled by the MC curve.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch6-we-1",
+          "chapter": "Chapter 6",
+          "title": "Complete Cost Table",
+          "summary": "Fill in a cost table and calculate all cost measures.",
+          "problem": "A firm has FC = R500. VC at Q=5 is R250 and at Q=6 is R320. Calculate TC, ATC, AVC, AFC, and MC at Q=5 and Q=6.",
+          "steps": [
+            {
+              "label": "At Q=5",
+              "explanation": "TC=750. ATC=750/5=150. AVC=250/5=50. AFC=500/5=100. (ATC=AVC+AFC=150 ✓)"
+            },
+            {
+              "label": "At Q=6",
+              "explanation": "TC=820. ATC=820/6≈136.7. AVC=320/6≈53.3. AFC=500/6≈83.3."
+            },
+            {
+              "label": "MC at Q=6",
+              "explanation": "MC = ΔTC/ΔQ = (820−750)/(6−5) = R70."
+            },
+            {
+              "label": "Interpretation",
+              "explanation": "ATC is falling from Q=5 to Q=6 (150→136.7) even though MC (R70) is rising above AVC — the falling AFC is still pulling ATC down."
+            }
+          ],
+          "answer": "Q=5: TC=750, ATC=150, AVC=50, AFC=100. Q=6: TC=820, ATC≈136.7, MC=70.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 7",
+      "flashcards": [
+        {
+          "id": "ch7-fc-1",
+          "chapter": "Chapter 7",
+          "front": "List four characteristics of perfect competition.",
+          "back": "Many buyers and sellers; homogeneous (identical) products; free entry and exit; perfect information; firms are price takers.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-2",
+          "chapter": "Chapter 7",
+          "front": "What is the profit-maximising rule?",
+          "back": "A firm maximises profit where MR = MC. In perfect competition, MR = P, so profit is maximised where P = MC.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-3",
+          "chapter": "Chapter 7",
+          "front": "State the shutdown rule for a perfectly competitive firm.",
+          "back": "Shut down if P < AVC. The firm minimises losses by producing nothing — fixed costs are sunk but variable costs are avoided.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-4",
+          "chapter": "Chapter 7",
+          "front": "Why does a perfectly competitive firm earn zero economic profit in the long run?",
+          "back": "Free entry and exit eliminates supernormal profits and losses. New firms enter when π > 0 (price falls); firms leave when π < 0 (price rises). Long-run: P = ATC → π = 0.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch7-q1",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "In perfect competition, the individual firm's demand curve is:",
+          "options": [
+            "Downward sloping",
+            "Upward sloping",
+            "Perfectly elastic (horizontal) at market price",
+            "U-shaped"
+          ],
+          "answer": "Perfectly elastic (horizontal) at market price",
+          "explanation": "A price-taking firm can sell any quantity at the market price but nothing above it — demand is horizontal (perfectly elastic).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q2",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "A firm should shut down in the short run when:",
+          "options": [
+            "P < ATC",
+            "P < AVC",
+            "P > MC",
+            "MR > MC"
+          ],
+          "answer": "P < AVC",
+          "explanation": "Shutdown rule: if price doesn't cover variable costs (P < AVC), the firm minimises loss by producing zero.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q3",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "The perfectly competitive firm maximises profit by producing where:",
+          "options": [
+            "P = ATC",
+            "P = AFC",
+            "MR = MC",
+            "TR is maximised"
+          ],
+          "answer": "MR = MC",
+          "explanation": "Profit is maximised at MR = MC. In perfect competition, MR = P, so the rule becomes P = MC.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch7-we-1",
+          "chapter": "Chapter 7",
+          "title": "Should the Firm Shut Down?",
+          "summary": "Apply the shutdown rule to a firm's cost data.",
+          "problem": "A perfectly competitive firm has: P = R25, AVC = R28, ATC = R35. Should it produce or shut down?",
+          "steps": [
+            {
+              "label": "Apply shutdown rule",
+              "explanation": "Compare P to AVC: P (R25) vs AVC (R28). Since P < AVC, the firm cannot even cover variable costs."
+            },
+            {
+              "label": "Decision",
+              "explanation": "Shut down. Every unit produced loses R3 in variable costs plus contributes nothing to fixed costs."
+            },
+            {
+              "label": "What if P = R30?",
+              "explanation": "P (R30) > AVC (R28) → continue producing. The R2 per unit above AVC contributes to fixed costs. Loss is smaller than if the firm shuts down."
+            }
+          ],
+          "answer": "At P=R25 < AVC=R28: shut down. At P=R30 > AVC=R28: continue producing despite ATC loss.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 8",
+      "flashcards": [
+        {
+          "id": "ch8-fc-1",
+          "chapter": "Chapter 8",
+          "front": "List four characteristics of a monopoly.",
+          "back": "Single seller; unique product (no close substitutes); high barriers to entry; price maker (faces downward-sloping demand).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-2",
+          "chapter": "Chapter 8",
+          "front": "In monopoly, why is MR < P?",
+          "back": "To sell more, the monopolist must lower price on ALL units — so the extra revenue from one more unit (MR) is less than the new price.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-3",
+          "chapter": "Chapter 8",
+          "front": "What is first-degree price discrimination?",
+          "back": "Charging each consumer their maximum willingness to pay — the firm captures all consumer surplus. E.g. personalised medical pricing.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-4",
+          "chapter": "Chapter 8",
+          "front": "What is deadweight loss in a monopoly?",
+          "back": "The loss of total surplus (value to society) because the monopolist produces less (Qm < Qpc) and charges more (Pm > Ppc) than under perfect competition.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch8-q1",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "A monopolist faces a ________ demand curve.",
+          "options": [
+            "Perfectly elastic (horizontal)",
+            "Perfectly inelastic (vertical)",
+            "Downward-sloping",
+            "Upward-sloping"
+          ],
+          "answer": "Downward-sloping",
+          "explanation": "The monopolist is the sole supplier — it faces the entire market demand curve which is downward sloping. To sell more, it must lower price.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-q2",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "Compared to perfect competition, a monopoly produces:",
+          "options": [
+            "More output at a lower price",
+            "The same output at the same price",
+            "Less output at a higher price",
+            "More output at a higher price"
+          ],
+          "answer": "Less output at a higher price",
+          "explanation": "The monopolist maximises profit at MR=MC, which results in lower quantity and higher price than the competitive outcome, creating deadweight loss.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-q3",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "Eskom charging residential customers lower rates than industrial customers for the same electricity is an example of:",
+          "options": [
+            "Perfect competition",
+            "Collusion",
+            "Price discrimination",
+            "Predatory pricing"
+          ],
+          "answer": "Price discrimination",
+          "explanation": "Price discrimination involves charging different prices to different market segments — Eskom charges different rates to different consumer groups.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch8-we-1",
+          "chapter": "Chapter 8",
+          "title": "Monopoly Equilibrium",
+          "summary": "Find the monopolist's profit-maximising output and price.",
+          "problem": "A monopolist has: P = 100 − 2Q (demand/AR) and TC = 200 + 10Q. Find profit-maximising Q, P and economic profit.",
+          "steps": [
+            {
+              "label": "Find MR",
+              "explanation": "TR = P×Q = (100−2Q)Q = 100Q − 2Q². MR = dTR/dQ = 100 − 4Q."
+            },
+            {
+              "label": "Find MC",
+              "explanation": "TC = 200 + 10Q. MC = dTC/dQ = 10."
+            },
+            {
+              "label": "Set MR = MC",
+              "explanation": "100 − 4Q = 10 → 4Q = 90 → Q = 22.5 ≈ 22 units."
+            },
+            {
+              "label": "Find price",
+              "explanation": "P = 100 − 2(22.5) = 100 − 45 = R55."
+            },
+            {
+              "label": "Calculate profit",
+              "explanation": "TR = 55 × 22.5 = 1237.5. TC = 200 + 10(22.5) = 425. π = 1237.5 − 425 = R812.50."
+            }
+          ],
+          "answer": "Q* = 22.5 units, P* = R55, Economic profit = R812.50.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 9",
+      "flashcards": [
+        {
+          "id": "ch9-fc-1",
+          "chapter": "Chapter 9",
+          "front": "Define a negative externality.",
+          "back": "A cost imposed on third parties not involved in a market transaction — e.g. a factory's pollution harming nearby residents.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch9-fc-2",
+          "chapter": "Chapter 9",
+          "front": "What are the two characteristics of a public good?",
+          "back": "Non-excludable (cannot prevent non-payers from using it) and non-rival (one person's use does not reduce another's).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch9-fc-3",
+          "chapter": "Chapter 9",
+          "front": "How does a carbon tax correct a negative externality?",
+          "back": "A carbon tax raises the private cost of polluting to equal the social cost (MSC = MPC + MEC), reducing production to the socially optimal level.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch9-fc-4",
+          "chapter": "Chapter 9",
+          "front": "What is the free-rider problem?",
+          "back": "When non-payers cannot be excluded from using a public good, individuals have no incentive to pay — the market under-provides the good.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch9-q1",
+          "chapter": "Chapter 9",
+          "questionType": "multiple-choice",
+          "prompt": "Air pollution from a factory is an example of:",
+          "options": [
+            "A positive externality",
+            "A public good",
+            "A negative externality",
+            "A merit good"
+          ],
+          "answer": "A negative externality",
+          "explanation": "Factory pollution imposes costs (health, environment) on third parties who are not part of the production transaction.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch9-q2",
+          "chapter": "Chapter 9",
+          "questionType": "multiple-choice",
+          "prompt": "National defence is a classic example of a public good because it is:",
+          "options": [
+            "Expensive and excludable",
+            "Non-excludable and non-rival",
+            "Produced by private firms",
+            "Subject to congestion"
+          ],
+          "answer": "Non-excludable and non-rival",
+          "explanation": "National defence protects all citizens simultaneously (non-rival) and cannot exclude residents from protection (non-excludable).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch9-q3",
+          "chapter": "Chapter 9",
+          "questionType": "multiple-choice",
+          "prompt": "A negative externality causes the free market to:",
+          "options": [
+            "Under-produce the good",
+            "Over-produce the good",
+            "Produce at the socially optimal level",
+            "Produce at zero output"
+          ],
+          "answer": "Over-produce the good",
+          "explanation": "Producers ignore external costs, so private cost (MPC) < social cost (MSC). This leads to overproduction relative to the socially optimal quantity.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch9-we-1",
+          "chapter": "Chapter 9",
+          "title": "Correcting a Negative Externality with a Tax",
+          "summary": "Analyse market failure and the optimal Pigouvian tax.",
+          "problem": "A factory produces 1 000 units per day. Private marginal cost = R20, but each unit generates R8 in pollution (external cost). What is the socially optimal output? What tax would correct the externality?",
+          "steps": [
+            {
+              "label": "Calculate MSC",
+              "explanation": "MSC = MPC + MEC = R20 + R8 = R28 per unit."
+            },
+            {
+              "label": "Identify the problem",
+              "explanation": "Firm maximises profit at P = MPC (R20), ignoring external costs. It produces more than the socially optimal level."
+            },
+            {
+              "label": "Find optimal output",
+              "explanation": "Socially optimal: produce where P = MSC (R28), not P = MPC (R20). Output falls when the 'true' cost is reflected."
+            },
+            {
+              "label": "Recommend tax",
+              "explanation": "A Pigouvian tax of R8 per unit raises the firm's private cost to R28 = MSC, internalising the externality and reducing production to the social optimum."
+            }
+          ],
+          "answer": "Optimal Pigouvian tax = R8/unit (the external marginal cost). This forces the market to produce at the socially efficient quantity.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    }
+  ],
+  "discipline": "economics",
+  "referenceList": [
+    {
+      "title": "Mankiw, N.G. — Principles of Economics, 9th Edition (Cengage)",
+      "publisher": "Cengage",
+      "url": "https://www.cengage.com/c/principles-of-economics-9e-mankiw/9780357038314/",
+      "note": "Canonical introductory economics text; covers supply/demand, macro measures, and policy.",
+      "sourceHash": "60578e43514380ac67848c11a702b3e079a32e31a815df36d25d1d308aec9341"
+    },
+    {
+      "title": "OpenStax — Principles of Economics 2e (free, CC BY)",
+      "publisher": "OpenStax / Rice University",
+      "url": "https://openstax.org/details/books/principles-economics-2e",
+      "note": "Open-access alternative textbook; peer-reviewed, suitable for student self-study.",
+      "sourceHash": "7a4bb52a2181defcd7dcc29f8b817732bfd3878a2c30c799e4fbca601d09332c"
+    },
+    {
+      "title": "South African Reserve Bank — Quarterly Bulletin & data",
+      "publisher": "SARB",
+      "url": "https://www.resbank.co.za/en/home/publications/quarterly-bulletin",
+      "note": "Primary source for SA macro data (inflation, GDP, interest rates) used in local examples.",
+      "sourceHash": "573ee763894dcff28f43b687c734096359363bc521979b0b5cd61c8c3452e466"
+    },
+    {
+      "title": "Statistics South Africa — GDP & CPI releases",
+      "publisher": "Stats SA",
+      "url": "https://www.statssa.gov.za/",
+      "note": "Official SA economic statistics; cite for any South-Africa-specific macro figures.",
+      "sourceHash": "196b319e1f53048b59686b7ec0bec1696105083f544cd87cd216893c4684c11d"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: Economics 112 (BCom, North-West University). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "Chapter-by-chapter teaching focus (derived from the module's own learning outcomes and key definitions):",
+    "  • Chapter 1 — Introduction to Economics & Scarcity. Emphasise: Define economics and scarcity; Calculate opportunity cost; Identify the four factors of production. Local context: SA's unemployment rate (~32%) illustrates the scarcity of labour market opportunities; government must make difficult trade-offs between health, education and infrastructure spending.",
+    "  • Chapter 2 — Supply & Demand. Emphasise: State the law of demand and supply; Draw supply and demand curves; Determine equilibrium price and quantity. Local context: When Eskom raises electricity tariffs (supply-side cost shock), it shifts the supply curve left for SA manufacturers, raising prices and reducing output.",
+    "  • Chapter 3 — Elasticity. Emphasise: Calculate price elasticity of demand (PED); Interpret elastic vs inelastic demand; Calculate income and cross elasticity. Local context: The National Energy Regulator (NERSA) uses elasticity analysis when approving Eskom tariff increases — inelastic demand means large revenue increases are possible.",
+    "  • Chapter 4 — Consumer Theory & Utility. Emphasise: Define and calculate total and marginal utility; State the law of diminishing marginal utility; Identify the condition for consumer equilibrium. Local context: Diminishing marginal utility explains why SA retailers offer bulk discounts — the 3rd pack of chips provides less utility, so consumers need a lower price to buy it.",
+    "  • Chapter 5 — Production Theory. Emphasise: Define and calculate TP, MP and AP; State the law of diminishing returns; Identify the three stages of production. Local context: Load-shedding in SA acts like a shock to fixed input (electricity), reducing TP and accelerating the onset of diminishing returns.",
+    "  • Chapter 6 — Cost Theory. Emphasise: Distinguish fixed from variable costs; Calculate TC, ATC, AVC, AFC and MC; Describe short-run and long-run cost curves. Local context: SA retailers' fixed costs (leases in malls) remain high even when sales drop — understanding fixed vs variable cost is critical for break-even analysis.",
+    "  • Chapter 7 — Perfect Competition. Emphasise: List the characteristics of a perfectly competitive market; Determine short-run equilibrium (P = MC = MR); Apply the shutdown rule. Local context: Agricultural markets in SA (maize, wheat on SAFEX) approximate perfect competition — thousands of farmers, standardised product, price set by the exchange.",
+    "  • Chapter 8 — Monopoly & Imperfect Competition. Emphasise: Describe monopoly characteristics and sources of monopoly power; Determine monopoly equilibrium (MR=MC); Explain price discrimination and its types. Local context: Eskom is a natural monopoly in SA — single supplier of electricity. The Competition Commission monitors SA firms like Telkom and Pick n Pay for anti-competitive behaviour.",
+    "  • Chapter 9 — Market Failure & Government Intervention. Emphasise: Identify sources of market failure; Distinguish between positive and negative externalities; Explain the characteristics of public goods. Local context: SA's national roads are mixed goods. Load-shedding imposes huge negative externalities on SA businesses — estimated to cost the economy R500m+ per day.",
+    "Pedagogy tip (quantitative): work at least one fully solved example on the board per topic, then assign a parallel guided-practice problem. Common student errors: sign errors in debit/credit (accounting), confusing correlation with causation (stats/econ), and unit/percentage mistakes in ratio work. Build a short weekly formative quiz from the module's own revision prompts.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "60578e43514380ac67848c11a702b3e079a32e31a815df36d25d1d308aec9341",
+    "7a4bb52a2181defcd7dcc29f8b817732bfd3878a2c30c799e4fbca601d09332c",
+    "573ee763894dcff28f43b687c734096359363bc521979b0b5cd61c8c3452e466",
+    "196b319e1f53048b59686b7ec0bec1696105083f544cd87cd216893c4684c11d"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

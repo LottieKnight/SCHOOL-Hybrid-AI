@@ -1,0 +1,2049 @@
+{
+  "institution": "North-West University",
+  "moduleCode": "STTF112",
+  "moduleName": "Statistics 112",
+  "semester": "Semester 1, 2025",
+  "programme": "BCom",
+  "confidence": 0.82,
+  "generatedAt": "2026-04-03T00:00:00.000Z",
+  "sourceFiles": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "missingContent": [],
+  "studyUnits": [
+    "Chapter 1 — Introduction to Statistics",
+    "Chapter 2 — Data Collection & Types",
+    "Chapter 3 — Frequency Distributions & Graphs",
+    "Chapter 4 — Measures of Central Tendency",
+    "Chapter 5 — Measures of Dispersion",
+    "Chapter 6 — Introduction to Probability",
+    "Chapter 7 — Discrete Probability Distributions",
+    "Chapter 8 — Normal Distribution Introduction"
+  ],
+  "chapters": [
+    "Chapter 1",
+    "Chapter 2",
+    "Chapter 3",
+    "Chapter 4",
+    "Chapter 5",
+    "Chapter 6",
+    "Chapter 7",
+    "Chapter 8"
+  ],
+  "topicSeeds": [
+    "Ch1 - population vs sample",
+    "Ch2 - qualitative vs quantitative data",
+    "Ch3 - frequency tables and histograms",
+    "Ch4 - mean, median, mode",
+    "Ch5 - variance and standard deviation",
+    "Ch6 - classical probability",
+    "Ch7 - binomial distribution",
+    "Ch8 - Z-scores and normal curve"
+  ],
+  "keyTopics": [
+    "population vs sample",
+    "parameter vs statistic",
+    "data types",
+    "sampling methods",
+    "frequency distributions",
+    "central tendency",
+    "dispersion measures",
+    "probability rules",
+    "binomial distribution",
+    "Z-score"
+  ],
+  "quizSignals": [
+    "What is the difference between a population and a sample?",
+    "How do you calculate the mean of a dataset?",
+    "When is the median preferred over the mean?",
+    "What does a Z-score represent?"
+  ],
+  "assessmentPlan": [
+    {
+      "name": "Test 1",
+      "weight": "best 3 of 4 = 60%",
+      "due": "Feb–Mar",
+      "scope": "Ch 1–2"
+    },
+    {
+      "name": "Test 2",
+      "weight": "best 3 of 4 = 60%",
+      "due": "Mar",
+      "scope": "Ch 3–4"
+    },
+    {
+      "name": "Test 3",
+      "weight": "best 3 of 4 = 60%",
+      "due": "Apr",
+      "scope": "Ch 5–6"
+    },
+    {
+      "name": "Test 4",
+      "weight": "best 3 of 4 = 60%",
+      "due": "May",
+      "scope": "Ch 7–8"
+    },
+    {
+      "name": "Semester Test",
+      "weight": "40%",
+      "due": "June",
+      "scope": "Ch 1–8"
+    }
+  ],
+  "classSchedule": [
+    {
+      "label": "Week 1",
+      "summary": "Introduction to statistics, population, sample, parameters.",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 2",
+      "summary": "Data types, collection methods, sampling techniques.",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 3",
+      "summary": "Frequency tables, class width, cumulative frequency.",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 4",
+      "summary": "Histograms, ogives, pie charts.",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 5",
+      "summary": "Mean, median, mode and when to use each.",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 6",
+      "summary": "Range, variance, standard deviation, CV.",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 7",
+      "summary": "Classical probability, addition and multiplication rules.",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 8",
+      "summary": "Binomial distribution, mean and variance of X.",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 9",
+      "summary": "Normal curve properties and Z-score calculations.",
+      "chapter": "Chapter 8"
+    }
+  ],
+  "chapterInsights": [
+    {
+      "chapter": "Chapter 1",
+      "title": "Introduction to Statistics",
+      "outcomes": [
+        "Distinguish population from sample.",
+        "Differentiate descriptive and inferential statistics."
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Population",
+          "definition": "The entire group being studied."
+        },
+        {
+          "term": "Sample",
+          "definition": "A subset drawn from the population."
+        },
+        {
+          "term": "Parameter",
+          "definition": "A numerical measure describing a population."
+        },
+        {
+          "term": "Statistic",
+          "definition": "A numerical measure describing a sample."
+        }
+      ],
+      "revisionPrompts": [
+        "What is the difference between a parameter and a statistic?",
+        "Give an example of inferential statistics."
+      ],
+      "saContext": "SA census data illustrates population vs sample: Statistics SA surveys a sample to estimate national unemployment.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/introductory-statistics",
+          "https://www.openintro.org/book/os/",
+          "https://www.macmillanlearning.com/college/us/coursepack/introduction-to-the-practice-of-statistics"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 2",
+      "title": "Data Collection & Types",
+      "outcomes": [
+        "Classify data as qualitative or quantitative.",
+        "Identify primary vs secondary data sources."
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Qualitative data",
+          "definition": "Categorical data describing qualities (e.g. gender)."
+        },
+        {
+          "term": "Quantitative data",
+          "definition": "Numerical data that can be measured."
+        },
+        {
+          "term": "Discrete data",
+          "definition": "Countable values with gaps between them."
+        },
+        {
+          "term": "Continuous data",
+          "definition": "Data that can take any value in a range."
+        }
+      ],
+      "revisionPrompts": [
+        "Distinguish discrete from continuous data with examples.",
+        "What is systematic sampling?"
+      ],
+      "saContext": "SA household income surveys use stratified random sampling to capture different income groups.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/introductory-statistics",
+          "https://www.openintro.org/book/os/",
+          "https://www.macmillanlearning.com/college/us/coursepack/introduction-to-the-practice-of-statistics"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 3",
+      "title": "Frequency Distributions & Graphs",
+      "outcomes": [
+        "Construct a frequency table with class intervals.",
+        "Draw and interpret histograms and ogives."
+      ],
+      "formulas": [
+        "Class width = (Max − Min) / Number of classes",
+        "Relative frequency = f / n"
+      ],
+      "definitions": [
+        {
+          "term": "Class interval",
+          "definition": "A range of values forming one group in a frequency table."
+        },
+        {
+          "term": "Ogive",
+          "definition": "A cumulative frequency graph used to find medians and percentiles."
+        }
+      ],
+      "revisionPrompts": [
+        "How do you determine class width?",
+        "What does an ogive show?"
+      ],
+      "saContext": "Retail sales data (e.g. Shoprite monthly turnover) can be grouped into a frequency table.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/introductory-statistics",
+          "https://www.openintro.org/book/os/",
+          "https://www.macmillanlearning.com/college/us/coursepack/introduction-to-the-practice-of-statistics"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 4",
+      "title": "Measures of Central Tendency",
+      "outcomes": [
+        "Calculate mean, median, and mode.",
+        "Choose the appropriate measure for skewed data."
+      ],
+      "formulas": [
+        "Mean: x̄ = Σx / n",
+        "Median: middle value when data is ordered"
+      ],
+      "definitions": [
+        {
+          "term": "Mean",
+          "definition": "The arithmetic average of all values."
+        },
+        {
+          "term": "Median",
+          "definition": "The middle value in an ordered dataset."
+        },
+        {
+          "term": "Mode",
+          "definition": "The value that occurs most frequently."
+        }
+      ],
+      "revisionPrompts": [
+        "When should you use the median instead of the mean?",
+        "Can a dataset have no mode?"
+      ],
+      "saContext": "Median household income is preferred in SA reports because extreme wealth skews the mean.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/introductory-statistics",
+          "https://www.openintro.org/book/os/",
+          "https://www.macmillanlearning.com/college/us/coursepack/introduction-to-the-practice-of-statistics"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 5",
+      "title": "Measures of Dispersion",
+      "outcomes": [
+        "Calculate range, variance, and standard deviation.",
+        "Interpret the coefficient of variation."
+      ],
+      "formulas": [
+        "Range = Max − Min",
+        "s² = Σ(x − x̄)² / (n − 1)",
+        "s = √s²",
+        "CV = (s / x̄) × 100"
+      ],
+      "definitions": [
+        {
+          "term": "Variance",
+          "definition": "The average squared deviation from the mean."
+        },
+        {
+          "term": "Standard deviation",
+          "definition": "The square root of variance; in original units."
+        },
+        {
+          "term": "Coefficient of variation",
+          "definition": "Standard deviation as a percentage of the mean."
+        }
+      ],
+      "revisionPrompts": [
+        "Why do we divide by n−1 for sample variance?",
+        "When is CV useful for comparison?"
+      ],
+      "saContext": "Comparing salary dispersion between Johannesburg and Durban firms uses CV since means differ.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/introductory-statistics",
+          "https://www.openintro.org/book/os/",
+          "https://www.macmillanlearning.com/college/us/coursepack/introduction-to-the-practice-of-statistics"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 6",
+      "title": "Introduction to Probability",
+      "outcomes": [
+        "Apply classical probability formula.",
+        "Use addition and multiplication rules correctly."
+      ],
+      "formulas": [
+        "P(A) = n(A) / n(S)",
+        "P(A∪B) = P(A) + P(B) − P(A∩B)",
+        "P(A') = 1 − P(A)"
+      ],
+      "definitions": [
+        {
+          "term": "Sample space",
+          "definition": "The set of all possible outcomes of an experiment."
+        },
+        {
+          "term": "Complement",
+          "definition": "All outcomes NOT in event A; P(A') = 1 − P(A)."
+        }
+      ],
+      "revisionPrompts": [
+        "State the addition rule for mutually exclusive events.",
+        "What does P(A∩B) mean?"
+      ],
+      "saContext": "Probability is used in insurance (e.g. Sanlam) to price risk based on historical claim rates.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/introductory-statistics",
+          "https://www.openintro.org/book/os/",
+          "https://www.macmillanlearning.com/college/us/coursepack/introduction-to-the-practice-of-statistics"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 7",
+      "title": "Discrete Probability Distributions",
+      "outcomes": [
+        "Apply the binomial formula to find P(X=x).",
+        "Calculate mean and variance of a binomial variable."
+      ],
+      "formulas": [
+        "P(X=x) = C(n,x) · pˣ · (1−p)^(n−x)",
+        "μ = np",
+        "σ² = np(1−p)"
+      ],
+      "definitions": [
+        {
+          "term": "Binomial distribution",
+          "definition": "Distribution of the number of successes in n independent trials with constant probability p."
+        },
+        {
+          "term": "Bernoulli trial",
+          "definition": "A single trial with exactly two outcomes: success or failure."
+        }
+      ],
+      "revisionPrompts": [
+        "What conditions must hold for a binomial distribution?",
+        "Calculate P(X=3) for n=5, p=0.4."
+      ],
+      "saContext": "Quality control at SA factories uses binomial probability to assess defect rates in production batches.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/introductory-statistics",
+          "https://www.openintro.org/book/os/",
+          "https://www.macmillanlearning.com/college/us/coursepack/introduction-to-the-practice-of-statistics"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 8",
+      "title": "Normal Distribution Introduction",
+      "outcomes": [
+        "Describe properties of the normal curve.",
+        "Calculate Z-scores and find probabilities using tables."
+      ],
+      "formulas": [
+        "Z = (x − μ) / σ",
+        "Standard normal: N(0, 1)"
+      ],
+      "definitions": [
+        {
+          "term": "Normal distribution",
+          "definition": "A symmetric bell-shaped distribution defined by mean μ and standard deviation σ."
+        },
+        {
+          "term": "Z-score",
+          "definition": "The number of standard deviations a value is from the mean."
+        }
+      ],
+      "revisionPrompts": [
+        "What are the three properties of the normal curve?",
+        "Find P(Z < 1.5) using the Z-table."
+      ],
+      "saContext": "Heights of SA adults approximate a normal distribution, used in ergonomic design standards.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/introductory-statistics",
+          "https://www.openintro.org/book/os/",
+          "https://www.macmillanlearning.com/college/us/coursepack/introduction-to-the-practice-of-statistics"
+        ]
+      }
+    }
+  ],
+  "chapterStudyItems": [
+    {
+      "chapter": "Chapter 1",
+      "flashcards": [
+        {
+          "id": "ch1-fc-1",
+          "chapter": "Chapter 1",
+          "front": "What is a population?",
+          "back": "The entire group being studied.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-2",
+          "chapter": "Chapter 1",
+          "front": "What is a sample?",
+          "back": "A subset of the population used to draw conclusions.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-3",
+          "chapter": "Chapter 1",
+          "front": "What is descriptive statistics?",
+          "back": "Methods to summarise and describe data (tables, graphs, averages).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-4",
+          "chapter": "Chapter 1",
+          "front": "What is inferential statistics?",
+          "back": "Using sample data to make predictions or decisions about a population.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch1-q1",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "A numerical measure that describes a population is called a:",
+          "options": [
+            "Statistic",
+            "Parameter",
+            "Variable",
+            "Sample"
+          ],
+          "answer": "Parameter",
+          "explanation": "A parameter describes the population; a statistic describes a sample.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q2",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Using sample data to estimate the average income of all South Africans is an example of:",
+          "options": [
+            "Descriptive statistics",
+            "Inferential statistics",
+            "Population census",
+            "Primary data collection"
+          ],
+          "answer": "Inferential statistics",
+          "explanation": "Inferential statistics uses sample results to make conclusions about the population.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q3",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "A researcher surveys 200 students to represent all 10 000 students at NWU. The 200 students are the:",
+          "options": [
+            "Population",
+            "Parameter",
+            "Sample",
+            "Variable"
+          ],
+          "answer": "Sample",
+          "explanation": "The 200 students are the subset (sample) drawn from the population of 10 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch1-we-1",
+          "chapter": "Chapter 1",
+          "title": "Identifying Population and Sample",
+          "summary": "Classify the population, sample, parameter, and statistic in a scenario.",
+          "problem": "A manager samples 50 of 800 employees and finds average salary = R18 000. Identify the population, sample, parameter, and statistic.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Population = all 800 employees."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Sample = the 50 employees selected."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Parameter = the true average salary of all 800 (unknown)."
+            },
+            {
+              "label": "Step 4",
+              "explanation": "Statistic = the sample average of R18 000."
+            }
+          ],
+          "answer": "Population: 800 employees; Sample: 50 employees; Statistic: R18 000 average salary.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 2",
+      "flashcards": [
+        {
+          "id": "ch2-fc-1",
+          "chapter": "Chapter 2",
+          "front": "What is qualitative data?",
+          "back": "Categorical data that describes a quality or characteristic (e.g. gender, province).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-2",
+          "chapter": "Chapter 2",
+          "front": "What is quantitative data?",
+          "back": "Numerical data that can be measured or counted (e.g. income, age).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-3",
+          "chapter": "Chapter 2",
+          "front": "What is the difference between discrete and continuous data?",
+          "back": "Discrete data is countable (e.g. number of cars); continuous can take any value in a range (e.g. weight).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-4",
+          "chapter": "Chapter 2",
+          "front": "What is stratified random sampling?",
+          "back": "Dividing the population into subgroups (strata) and randomly sampling from each.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch2-q1",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "The number of customers visiting a store each day is an example of:",
+          "options": [
+            "Qualitative data",
+            "Continuous data",
+            "Discrete data",
+            "Secondary data"
+          ],
+          "answer": "Discrete data",
+          "explanation": "Customer counts are whole numbers with no values in between, making it discrete.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q2",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "Data collected by the researcher directly through surveys is called:",
+          "options": [
+            "Secondary data",
+            "Primary data",
+            "Qualitative data",
+            "Continuous data"
+          ],
+          "answer": "Primary data",
+          "explanation": "Primary data is collected first-hand by the researcher for the specific study.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q3",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "Which sampling method assigns every member of the population an equal chance of selection?",
+          "options": [
+            "Convenience sampling",
+            "Quota sampling",
+            "Simple random sampling",
+            "Cluster sampling"
+          ],
+          "answer": "Simple random sampling",
+          "explanation": "Simple random sampling ensures every individual has an equal probability of being chosen.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch2-we-1",
+          "chapter": "Chapter 2",
+          "title": "Classifying Data Types",
+          "summary": "Classify a list of variables by type.",
+          "problem": "Classify each variable: (a) province of residence, (b) monthly salary, (c) number of siblings, (d) temperature in °C.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "(a) Province — qualitative (categorical)."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "(b) Monthly salary — quantitative, continuous."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "(c) Number of siblings — quantitative, discrete."
+            },
+            {
+              "label": "Step 4",
+              "explanation": "(d) Temperature — quantitative, continuous."
+            }
+          ],
+          "answer": "(a) Qualitative; (b) Quantitative continuous; (c) Quantitative discrete; (d) Quantitative continuous.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 3",
+      "flashcards": [
+        {
+          "id": "ch3-fc-1",
+          "chapter": "Chapter 3",
+          "front": "How is class width calculated?",
+          "back": "Class width = (Maximum value − Minimum value) / Number of classes.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-2",
+          "chapter": "Chapter 3",
+          "front": "What is cumulative frequency?",
+          "back": "The running total of frequencies up to and including a class.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-3",
+          "chapter": "Chapter 3",
+          "front": "What is a histogram?",
+          "back": "A bar graph for continuous data where bars represent class frequencies with no gaps.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-4",
+          "chapter": "Chapter 3",
+          "front": "What is an ogive used for?",
+          "back": "An ogive (cumulative frequency graph) estimates medians, percentiles, and cumulative proportions.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch3-q1",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "Data ranges from 20 to 70 and you want 5 classes. The class width is:",
+          "options": [
+            "8",
+            "10",
+            "12",
+            "15"
+          ],
+          "answer": "10",
+          "explanation": "Class width = (70 − 20) / 5 = 50 / 5 = 10.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q2",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "Which graph is used to display cumulative frequencies?",
+          "options": [
+            "Histogram",
+            "Bar chart",
+            "Ogive",
+            "Pie chart"
+          ],
+          "answer": "Ogive",
+          "explanation": "An ogive plots cumulative frequencies against upper class boundaries.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q3",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "A histogram differs from a bar chart because:",
+          "options": [
+            "It uses colours",
+            "It has no gaps between bars",
+            "It shows qualitative data",
+            "It uses a vertical axis"
+          ],
+          "answer": "It has no gaps between bars",
+          "explanation": "Histograms represent continuous data so bars are adjacent with no gaps.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch3-we-1",
+          "chapter": "Chapter 3",
+          "title": "Constructing a Frequency Table",
+          "summary": "Build a grouped frequency table from raw data.",
+          "problem": "Ages of 10 customers: 22, 35, 41, 28, 33, 47, 29, 38, 44, 31. Use 3 classes starting at 20.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Class width = (47 − 22) / 3 ≈ 9; use width = 10."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Classes: 20–29, 30–39, 40–49."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Tally: 20–29 → 3; 30–39 → 4; 40–49 → 3."
+            },
+            {
+              "label": "Step 4",
+              "explanation": "Cumulative frequencies: 3, 7, 10."
+            }
+          ],
+          "answer": "Three classes: [20–29: 3], [30–39: 4], [40–49: 3]; cumulative: 3, 7, 10.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 4",
+      "flashcards": [
+        {
+          "id": "ch4-fc-1",
+          "chapter": "Chapter 4",
+          "front": "What is the formula for the arithmetic mean?",
+          "back": "x̄ = Σx / n (sum of all values divided by the count).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-2",
+          "chapter": "Chapter 4",
+          "front": "How do you find the median for an even number of values?",
+          "back": "Order the data; median = average of the two middle values.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-3",
+          "chapter": "Chapter 4",
+          "front": "What is the mode?",
+          "back": "The value that appears most often; a dataset can have no mode or multiple modes.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-4",
+          "chapter": "Chapter 4",
+          "front": "When is the median preferred over the mean?",
+          "back": "When data is skewed or contains outliers, the median is a better central measure.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch4-q1",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "The dataset is: 4, 7, 7, 9, 13. What is the mean?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "answer": "8",
+          "explanation": "Mean = (4+7+7+9+13)/5 = 40/5 = 8.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q2",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "For the dataset 4, 7, 7, 9, 13, what is the mode?",
+          "options": [
+            "4",
+            "9",
+            "7",
+            "13"
+          ],
+          "answer": "7",
+          "explanation": "7 appears twice, more than any other value.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q3",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "House prices in a suburb are heavily right-skewed. The best measure of centre is:",
+          "options": [
+            "Mean",
+            "Mode",
+            "Median",
+            "Range"
+          ],
+          "answer": "Median",
+          "explanation": "The median is resistant to the pull of extreme high values in a skewed distribution.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch4-we-1",
+          "chapter": "Chapter 4",
+          "title": "Calculating Mean, Median, Mode",
+          "summary": "Find all three measures of central tendency for a small dataset.",
+          "problem": "Dataset: 12, 15, 15, 18, 20, 22, 22, 22, 30.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Mean = (12+15+15+18+20+22+22+22+30)/9 = 176/9 ≈ 19.6."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Ordered data; n=9, median = 5th value = 20."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Mode = 22 (appears 3 times)."
+            }
+          ],
+          "answer": "Mean ≈ 19.6; Median = 20; Mode = 22.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 5",
+      "flashcards": [
+        {
+          "id": "ch5-fc-1",
+          "chapter": "Chapter 5",
+          "front": "What is the range?",
+          "back": "Range = Maximum value − Minimum value.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-2",
+          "chapter": "Chapter 5",
+          "front": "What is the sample variance formula?",
+          "back": "s² = Σ(x − x̄)² / (n − 1).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-3",
+          "chapter": "Chapter 5",
+          "front": "What is the coefficient of variation (CV)?",
+          "back": "CV = (s / x̄) × 100; expresses standard deviation as a percentage of the mean.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-4",
+          "chapter": "Chapter 5",
+          "front": "Why divide by n−1 (not n) for sample variance?",
+          "back": "Dividing by n−1 gives an unbiased estimate of the population variance.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch5-q1",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "Dataset: 5, 9, 11, 13, 17. The range is:",
+          "options": [
+            "8",
+            "10",
+            "12",
+            "17"
+          ],
+          "answer": "12",
+          "explanation": "Range = 17 − 5 = 12.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q2",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "Which measure allows comparison of variability between datasets with different units?",
+          "options": [
+            "Range",
+            "Standard deviation",
+            "Variance",
+            "Coefficient of variation"
+          ],
+          "answer": "Coefficient of variation",
+          "explanation": "CV expresses variability as a percentage, making it unit-free and comparable.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q3",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "If x̄ = 50 and s = 10, the CV is:",
+          "options": [
+            "5%",
+            "10%",
+            "20%",
+            "50%"
+          ],
+          "answer": "20%",
+          "explanation": "CV = (10/50) × 100 = 20%.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch5-we-1",
+          "chapter": "Chapter 5",
+          "title": "Calculating Sample Variance and Standard Deviation",
+          "summary": "Compute s² and s from a small dataset step by step.",
+          "problem": "Dataset: 4, 8, 6, 10, 7. Calculate the sample variance and standard deviation.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "x̄ = (4+8+6+10+7)/5 = 35/5 = 7."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Deviations: (4−7)²=9, (8−7)²=1, (6−7)²=1, (10−7)²=9, (7−7)²=0."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "s² = (9+1+1+9+0)/(5−1) = 20/4 = 5."
+            },
+            {
+              "label": "Step 4",
+              "explanation": "s = √5 ≈ 2.24."
+            }
+          ],
+          "answer": "Sample variance s² = 5; standard deviation s ≈ 2.24.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 6",
+      "flashcards": [
+        {
+          "id": "ch6-fc-1",
+          "chapter": "Chapter 6",
+          "front": "What is the classical probability formula?",
+          "back": "P(A) = n(A) / n(S); number of favourable outcomes over total outcomes.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-2",
+          "chapter": "Chapter 6",
+          "front": "State the addition rule for probability.",
+          "back": "P(A∪B) = P(A) + P(B) − P(A∩B); subtract the intersection to avoid double-counting.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-3",
+          "chapter": "Chapter 6",
+          "front": "What is the complement rule?",
+          "back": "P(A') = 1 − P(A); the probability of A not occurring.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-4",
+          "chapter": "Chapter 6",
+          "front": "When are two events mutually exclusive?",
+          "back": "When they cannot both occur at the same time; P(A∩B) = 0.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch6-q1",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "A fair die is rolled. P(even number) = ?",
+          "options": [
+            "1/6",
+            "1/3",
+            "1/2",
+            "2/3"
+          ],
+          "answer": "1/2",
+          "explanation": "Even outcomes: {2,4,6} = 3 out of 6; P = 3/6 = 1/2.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q2",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "If P(A) = 0.4 and P(B) = 0.3 and A, B are mutually exclusive, then P(A∪B) = ?",
+          "options": [
+            "0.10",
+            "0.12",
+            "0.70",
+            "0.58"
+          ],
+          "answer": "0.70",
+          "explanation": "Mutually exclusive: P(A∪B) = P(A) + P(B) = 0.4 + 0.3 = 0.7.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q3",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "If P(rain) = 0.35, what is P(no rain)?",
+          "options": [
+            "0.35",
+            "0.65",
+            "0.50",
+            "1.35"
+          ],
+          "answer": "0.65",
+          "explanation": "Complement rule: P(no rain) = 1 − 0.35 = 0.65.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch6-we-1",
+          "chapter": "Chapter 6",
+          "title": "Applying the Addition Rule",
+          "summary": "Find the probability of A or B using the general addition rule.",
+          "problem": "P(A)=0.5, P(B)=0.4, P(A∩B)=0.2. Find P(A∪B).",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Use: P(A∪B) = P(A) + P(B) − P(A∩B)."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "P(A∪B) = 0.5 + 0.4 − 0.2 = 0.7."
+            }
+          ],
+          "answer": "P(A∪B) = 0.7.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 7",
+      "flashcards": [
+        {
+          "id": "ch7-fc-1",
+          "chapter": "Chapter 7",
+          "front": "What is the binomial probability formula?",
+          "back": "P(X=x) = C(n,x) · pˣ · (1−p)^(n−x).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-2",
+          "chapter": "Chapter 7",
+          "front": "What is the mean of a binomial distribution?",
+          "back": "μ = np.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-3",
+          "chapter": "Chapter 7",
+          "front": "What is the variance of a binomial distribution?",
+          "back": "σ² = np(1−p).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-4",
+          "chapter": "Chapter 7",
+          "front": "What are the four conditions for a binomial experiment?",
+          "back": "Fixed n trials; each trial is independent; two outcomes only; constant probability p.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch7-q1",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "For a binomial distribution with n=10 and p=0.3, the mean is:",
+          "options": [
+            "3",
+            "0.3",
+            "7",
+            "2.1"
+          ],
+          "answer": "3",
+          "explanation": "Mean = np = 10 × 0.3 = 3.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q2",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "For n=10, p=0.3, the variance is:",
+          "options": [
+            "3.0",
+            "2.1",
+            "0.9",
+            "1.45"
+          ],
+          "answer": "2.1",
+          "explanation": "σ² = np(1−p) = 10 × 0.3 × 0.7 = 2.1.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q3",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "Which condition is NOT required for a binomial experiment?",
+          "options": [
+            "Fixed number of trials",
+            "Constant probability of success",
+            "Normally distributed outcomes",
+            "Only two possible outcomes per trial"
+          ],
+          "answer": "Normally distributed outcomes",
+          "explanation": "Binomial experiments require fixed n, independence, two outcomes, and constant p — not normality.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch7-we-1",
+          "chapter": "Chapter 7",
+          "title": "Binomial Probability Calculation",
+          "summary": "Calculate P(X=x) using the binomial formula.",
+          "problem": "A multiple-choice test has 5 questions each with 4 options. A student guesses all answers. Find P(exactly 2 correct).",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "n=5, p=0.25, x=2. Use P(X=2)=C(5,2)·(0.25)²·(0.75)³."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "C(5,2) = 10."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "(0.25)² = 0.0625; (0.75)³ = 0.4219."
+            },
+            {
+              "label": "Step 4",
+              "explanation": "P(X=2) = 10 × 0.0625 × 0.4219 ≈ 0.2637."
+            }
+          ],
+          "answer": "P(X=2) ≈ 0.264.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 8",
+      "flashcards": [
+        {
+          "id": "ch8-fc-1",
+          "chapter": "Chapter 8",
+          "front": "What is the Z-score formula?",
+          "back": "Z = (x − μ) / σ; measures how many standard deviations x is from the mean.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-2",
+          "chapter": "Chapter 8",
+          "front": "What are the key properties of the normal distribution?",
+          "back": "Bell-shaped, symmetric about μ; mean=median=mode; total area under curve = 1.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-3",
+          "chapter": "Chapter 8",
+          "front": "What is the standard normal distribution?",
+          "back": "A normal distribution with μ=0 and σ=1; written N(0,1).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-4",
+          "chapter": "Chapter 8",
+          "front": "What does the empirical rule state?",
+          "back": "For a normal distribution: 68% within ±1σ, 95% within ±2σ, 99.7% within ±3σ.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch8-q1",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "X ~ N(50, 100). The Z-score for x = 65 is:",
+          "options": [
+            "0.15",
+            "1.5",
+            "1.0",
+            "0.65"
+          ],
+          "answer": "1.5",
+          "explanation": "Z = (65 − 50) / 10 = 15/10 = 1.5. (σ = √100 = 10).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-q2",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "The total area under the normal distribution curve equals:",
+          "options": [
+            "0",
+            "0.5",
+            "1",
+            "100"
+          ],
+          "answer": "1",
+          "explanation": "All probability distributions have a total area (probability) of 1.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-q3",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "The normal distribution is symmetric about:",
+          "options": [
+            "The standard deviation",
+            "The median only",
+            "The mean",
+            "Zero"
+          ],
+          "answer": "The mean",
+          "explanation": "For a normal distribution mean = median = mode, and the curve is symmetric about the mean.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch8-we-1",
+          "chapter": "Chapter 8",
+          "title": "Finding Probability Using Z-score",
+          "summary": "Convert a raw score to Z and use the standard normal table to find a probability.",
+          "problem": "Heights are normally distributed with μ=170 cm, σ=8 cm. Find P(X < 182).",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Calculate Z = (182 − 170) / 8 = 12/8 = 1.5."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Look up Z=1.5 in the standard normal table: P(Z < 1.5) = 0.9332."
+            }
+          ],
+          "answer": "P(X < 182) = 0.9332; about 93.3% of people are shorter than 182 cm.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    }
+  ],
+  "discipline": "statistics",
+  "referenceList": [
+    {
+      "title": "OpenStax — Introductory Statistics 2e (free, CC BY)",
+      "publisher": "OpenStax / Rice University",
+      "url": "https://openstax.org/details/books/introductory-statistics",
+      "note": "Open-access textbook matching typical BCom statistics scope (descriptive stats, inference).",
+      "sourceHash": "5060a14bda0702a03a41aebd676b83f84e1f45cdb8fa584a6dadbd29e8a613ca"
+    },
+    {
+      "title": "Diez, Çetinkaya-Rundel & Barr — OpenIntro Statistics (free, CC BY-SA)",
+      "publisher": "OpenIntro",
+      "url": "https://www.openintro.org/book/os/",
+      "note": "Peer-reviewed open textbook; strong on probability and hypothesis testing.",
+      "sourceHash": "522aaf92cc974e1af72a2e6a9791baecfc4995b4b309c0ce9aa89708bdf4818e"
+    },
+    {
+      "title": "Moore, McCabe & Craig — Introduction to the Practice of Statistics (W.H. Freeman)",
+      "publisher": "W.H. Freeman / Macmillan",
+      "url": "https://www.macmillanlearning.com/college/us/coursepack/introduction-to-the-practice-of-statistics",
+      "note": "Widely adopted applied statistics text.",
+      "sourceHash": "e80ef0c2658cb8379584e58cb1e0f1d42709674b9a85f2c46cba9afc44cae7f2"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: Statistics 112 (BCom, North-West University). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "Chapter-by-chapter teaching focus (derived from the module's own learning outcomes and key definitions):",
+    "  • Chapter 1 — Introduction to Statistics. Emphasise: Distinguish population from sample.; Differentiate descriptive and inferential statistics.. Local context: SA census data illustrates population vs sample: Statistics SA surveys a sample to estimate national unemployment.",
+    "  • Chapter 2 — Data Collection & Types. Emphasise: Classify data as qualitative or quantitative.; Identify primary vs secondary data sources.. Local context: SA household income surveys use stratified random sampling to capture different income groups.",
+    "  • Chapter 3 — Frequency Distributions & Graphs. Emphasise: Construct a frequency table with class intervals.; Draw and interpret histograms and ogives.. Local context: Retail sales data (e.g. Shoprite monthly turnover) can be grouped into a frequency table.",
+    "  • Chapter 4 — Measures of Central Tendency. Emphasise: Calculate mean, median, and mode.; Choose the appropriate measure for skewed data.. Local context: Median household income is preferred in SA reports because extreme wealth skews the mean.",
+    "  • Chapter 5 — Measures of Dispersion. Emphasise: Calculate range, variance, and standard deviation.; Interpret the coefficient of variation.. Local context: Comparing salary dispersion between Johannesburg and Durban firms uses CV since means differ.",
+    "  • Chapter 6 — Introduction to Probability. Emphasise: Apply classical probability formula.; Use addition and multiplication rules correctly.. Local context: Probability is used in insurance (e.g. Sanlam) to price risk based on historical claim rates.",
+    "  • Chapter 7 — Discrete Probability Distributions. Emphasise: Apply the binomial formula to find P(X=x).; Calculate mean and variance of a binomial variable.. Local context: Quality control at SA factories uses binomial probability to assess defect rates in production batches.",
+    "  • Chapter 8 — Normal Distribution Introduction. Emphasise: Describe properties of the normal curve.; Calculate Z-scores and find probabilities using tables.. Local context: Heights of SA adults approximate a normal distribution, used in ergonomic design standards.",
+    "Pedagogy tip (quantitative): work at least one fully solved example on the board per topic, then assign a parallel guided-practice problem. Common student errors: sign errors in debit/credit (accounting), confusing correlation with causation (stats/econ), and unit/percentage mistakes in ratio work. Build a short weekly formative quiz from the module's own revision prompts.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "5060a14bda0702a03a41aebd676b83f84e1f45cdb8fa584a6dadbd29e8a613ca",
+    "522aaf92cc974e1af72a2e6a9791baecfc4995b4b309c0ce9aa89708bdf4818e",
+    "e80ef0c2658cb8379584e58cb1e0f1d42709674b9a85f2c46cba9afc44cae7f2"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

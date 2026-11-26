@@ -1,0 +1,10 @@
+.container { background: var(--surface); border: 1px solid var(--border); }
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.title { margin: 0; font-size: 16px; font-weight: 700; color: var(--text-1); }
+.chip { font-size: 10px; color: var(--gold); border: 1px solid var(--gold-border); padding: 2px 6px; borderRadius: 4px; text-transform: uppercase; font-weight: 700; }
+
+.scoreRow { display: flex; align-items: baseline; gap: 8px; margin-bottom: 8px; }
+.score { font-family: var(--font-mono); font-size: 28px; font-weight: 800; color: var(--gold); }
+.label { font-size: 12px; color: var(--text-3); text-transform: uppercase; font-weight: 600; }
+
+.suggestion { margin: 0; font-size: 13px; color: var(--text-2); line-height: 1.5; font-style: italic; }

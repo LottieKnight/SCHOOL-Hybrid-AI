@@ -1,0 +1,19 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build:web",
+  "installCommand": "cd ../.. && npm install",
+  "outputDirectory": ".next",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "https://ditshego-ventures.co.za/:path*",
+      "permanent": true,
+      "has": [
+        {
+          "type": "host",
+          "value": "www.ditshego-ventures.co.za"
+        }
+      ]
+    }
+  ]
+}

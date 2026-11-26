@@ -1,0 +1,81 @@
+{
+  "title": "Grade 12 English (CAPS-aligned)",
+  "term": 1,
+  "units": [
+    {
+      "title": "Language in Context",
+      "topics": [
+        "Text Analysis & Interpretation",
+        "Language Structures & Conventions",
+        "Writing & Presentation"
+      ],
+      "learningOutcomes": [
+        "Analyze how language constructs meaning in various contexts",
+        "Apply grammatical conventions accurately in writing and speech",
+        "Produce coherent, well-structured texts for different purposes and audiences",
+        "Critically evaluate media messages and bias"
+      ],
+      "assessment": {
+        "formal": [
+          "Transactional writing task (letter/report)",
+          "Prepared speech"
+        ],
+        "informal": [
+          "Text analysis exercises",
+          "Grammar quizzes",
+          "Peer feedback"
+        ],
+        "project": "Media literacy portfolio (analyze 3 advertisements with written commentary)"
+      }
+    },
+    {
+      "title": "Literature Study",
+      "topics": [
+        "Close Reading & Analysis",
+        "Critical Approaches",
+        "Comparative Study"
+      ],
+      "learningOutcomes": [
+        "Demonstrate detailed knowledge of prescribed texts",
+        "Apply literary terminology accurately in analysis",
+        "Evaluate texts using multiple critical perspectives",
+        "Relate literature to contemporary South African issues"
+      ],
+      "assessment": {
+        "formal": [
+          "Literature essay (closed-book, 2 hours)",
+          "Contextualized questions"
+        ],
+        "informal": [
+          "Socratic seminars",
+          "Character journals",
+          "Theme tracking"
+        ],
+        "project": "Comparative analysis podcast/video (2 texts + modern parallel)"
+      }
+    },
+    {
+      "title": "Examination Preparation & Integration",
+      "topics": [
+        "Paper 1: Language in Context",
+        "Paper 2: Literature",
+        "Paper 3: Writing"
+      ],
+      "learningOutcomes": [
+        "Synthesize language and literature skills",
+        "Apply time-management strategies for examinations",
+        "Demonstrate metacognitive awareness of learning progress"
+      ],
+      "assessment": {
+        "formal": [
+          "Mid-year trial examinations (all 3 papers)"
+        ],
+        "informal": [
+          "Timed practice sessions",
+          "Error analysis workshops"
+        ],
+        "project": "Exam preparation guide (student-created study resource)"
+      }
+    }
+  ]
+}

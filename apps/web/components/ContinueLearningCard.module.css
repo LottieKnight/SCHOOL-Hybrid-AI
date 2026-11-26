@@ -1,0 +1,67 @@
+.card {
+  display: grid;
+  gap: 6px;
+  padding: 16px 18px;
+  border-radius: var(--r-lg, 18px);
+  border: 1px solid var(--gold-border);
+  background: var(--gold-dim);
+  text-decoration: none;
+  color: var(--text-1);
+  transition: border-color 0.15s, background 0.15s, transform 0.12s;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+
+.card:hover {
+  border-color: var(--gold);
+  background: rgba(255, 215, 0, 0.1);
+  transform: translateY(-1px);
+}
+
+.eyebrow {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gold);
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-1);
+  text-transform: capitalize;
+}
+
+.topic {
+  font-size: 0.85rem;
+  color: var(--text-2);
+  line-height: 1.4;
+}
+
+.reason {
+  font-size: 0.78rem;
+  color: var(--text-3, var(--text-2));
+  font-style: italic;
+}
+
+.cta {
+  margin-top: 4px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--gold);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

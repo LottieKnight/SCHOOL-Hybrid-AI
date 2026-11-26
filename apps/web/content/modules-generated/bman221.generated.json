@@ -1,0 +1,2006 @@
+{
+  "institution": "North-West University",
+  "moduleCode": "BMAN221",
+  "moduleName": "Business Management 221",
+  "semester": "Semester 2, 2025",
+  "programme": "BCom",
+  "confidence": 0.83,
+  "generatedAt": "2026-04-02T00:00:00.000Z",
+  "sourceFiles": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "missingContent": [
+    "Official study guide",
+    "Past exam papers",
+    "Prescribed textbook details"
+  ],
+  "studyUnits": [
+    "Strategic Management",
+    "Organisational Structure",
+    "Human Resources Management",
+    "Leadership and Motivation",
+    "Controlling",
+    "Operations Management",
+    "Marketing Management"
+  ],
+  "chapters": [
+    "Strategic Management",
+    "Organisational Structure",
+    "Human Resources Management",
+    "Leadership and Motivation",
+    "Controlling",
+    "Operations Management",
+    "Marketing Management"
+  ],
+  "topicSeeds": [
+    "Ch1 - Strategic Management",
+    "Ch2 - Organisational Structure",
+    "Ch3 - Human Resources Management",
+    "Ch4 - Leadership and Motivation",
+    "Ch5 - Controlling",
+    "Ch6 - Operations Management",
+    "Ch7 - Marketing Management"
+  ],
+  "keyTopics": [
+    "Definition and levels of strategy",
+    "Mission, vision and objectives",
+    "Environmental analysis (SWOT, PESTEL)",
+    "Porter's Five Forces",
+    "Competitive strategies (cost leadership, differentiation, focus)",
+    "Strategy formulation and implementation",
+    "Strategic planning process",
+    "Corporate vs business vs functional strategy",
+    "Principles of organisational design",
+    "Mechanistic vs organic structures",
+    "Functional departmentalisation",
+    "Divisional and matrix structures",
+    "Span of control and chain of command",
+    "Centralisation vs decentralisation",
+    "Line and staff authority",
+    "Virtual and network organisations",
+    "HR planning and job analysis",
+    "Recruitment and selection process",
+    "Training and development methods",
+    "Performance management and appraisal",
+    "Compensation and benefits",
+    "Labour legislation in South Africa (LRA, BCEA, EEA)",
+    "Employee relations and discipline",
+    "Human resources in the SA context",
+    "Trait, behavioural and contingency leadership theories",
+    "Transactional vs transformational leadership",
+    "Maslow's hierarchy of needs",
+    "Herzberg's two-factor theory",
+    "Expectancy theory (Vroom)",
+    "Goal-setting theory",
+    "McClelland's acquired needs theory",
+    "Employee engagement and motivation strategies",
+    "Nature and importance of control",
+    "Control process: standards, measurement, comparison, action",
+    "Types of control (feedforward, concurrent, feedback)",
+    "Balanced scorecard",
+    "Financial controls and budgeting",
+    "Quality control and management",
+    "Benchmarking",
+    "Key performance indicators (KPIs)",
+    "Operations management definition and scope",
+    "Capacity planning",
+    "Facility layout types",
+    "Inventory management (EOQ, JIT)",
+    "Supply chain management",
+    "Quality management (TQM, ISO)",
+    "Lean operations and waste reduction",
+    "Operations strategy and productivity",
+    "Marketing concept and philosophy",
+    "Marketing environment analysis",
+    "Consumer buying behaviour",
+    "STP: segmentation, targeting, positioning",
+    "Marketing mix (7 Ps)",
+    "Product life cycle",
+    "Pricing strategies",
+    "Integrated marketing communications"
+  ],
+  "quizSignals": [
+    "Conduct a SWOT analysis for a South African retail company and recommend an appropriate competitive strategy.",
+    "Distinguish between mechanistic and organic organisational structures and identify which is suited to a dynamic environment.",
+    "Describe the South African legal framework governing human resources management, including the LRA and BCEA.",
+    "Compare Maslow's hierarchy of needs with Herzberg's two-factor theory in the context of employee motivation.",
+    "Explain the four-step control process and apply it to a quality control scenario in a SA manufacturing firm.",
+    "Calculate the Economic Order Quantity (EOQ) given demand, ordering cost and holding cost data.",
+    "Apply the STP process to develop a marketing strategy for a new South African product.",
+    "Distinguish between transactional and transformational leadership with examples from the South African business context.",
+    "Explain Porter's Five Forces and apply it to the South African banking industry.",
+    "Describe the product life cycle and explain appropriate marketing strategies for each stage."
+  ],
+  "assessmentPlan": [
+    {
+      "name": "Class Tests",
+      "weight": "Varies",
+      "scope": "Chapters covered to date",
+      "format": "Written tests — NWU standard format"
+    },
+    {
+      "name": "Assignments",
+      "weight": "Varies",
+      "scope": "Applied business management tasks",
+      "format": "Written assignments submitted per NWU guidelines"
+    },
+    {
+      "name": "Semester Examination",
+      "weight": "Varies",
+      "scope": "Full module",
+      "format": "Formal examination"
+    }
+  ],
+  "classSchedule": [
+    {
+      "label": "Week 1",
+      "summary": "Strategic Management: definition, levels of strategy, mission, vision and objectives",
+      "chapter": "Strategic Management"
+    },
+    {
+      "label": "Week 2",
+      "summary": "Strategic Management: SWOT, PESTEL, Porter's Five Forces, competitive strategies",
+      "chapter": "Strategic Management"
+    },
+    {
+      "label": "Week 3",
+      "summary": "Organisational Structure: principles of design, mechanistic vs organic structures",
+      "chapter": "Organisational Structure"
+    },
+    {
+      "label": "Week 4",
+      "summary": "Organisational Structure: departmentalisation, matrix, span of control, authority",
+      "chapter": "Organisational Structure"
+    },
+    {
+      "label": "Week 5",
+      "summary": "Human Resources Management: HR planning, recruitment, selection, job analysis",
+      "chapter": "Human Resources Management"
+    },
+    {
+      "label": "Week 6",
+      "summary": "HRM: training, performance appraisal, compensation, SA labour legislation; TEST 1",
+      "chapter": "Human Resources Management"
+    },
+    {
+      "label": "Week 7",
+      "summary": "Leadership and Motivation: leadership theories — trait, behavioural, contingency",
+      "chapter": "Leadership and Motivation"
+    },
+    {
+      "label": "Week 8",
+      "summary": "Leadership and Motivation: Maslow, Herzberg, Vroom expectancy theory, transformational leadership",
+      "chapter": "Leadership and Motivation"
+    },
+    {
+      "label": "Week 9",
+      "summary": "Controlling: nature of control, control process, types of control, balanced scorecard",
+      "chapter": "Controlling"
+    },
+    {
+      "label": "Week 10",
+      "summary": "Controlling: financial controls, budgeting, KPIs, benchmarking; TEST 2",
+      "chapter": "Controlling"
+    },
+    {
+      "label": "Week 11",
+      "summary": "Operations Management: capacity planning, facility layout, inventory management (EOQ, JIT)",
+      "chapter": "Operations Management"
+    },
+    {
+      "label": "Week 12",
+      "summary": "Operations Management: supply chain management, TQM, lean operations",
+      "chapter": "Operations Management"
+    },
+    {
+      "label": "Week 13",
+      "summary": "Marketing Management: marketing concept, environment analysis, consumer behaviour, STP",
+      "chapter": "Marketing Management"
+    },
+    {
+      "label": "Week 14",
+      "summary": "Marketing Management: marketing mix, product life cycle, pricing, IMC; TEST 3",
+      "chapter": "Marketing Management"
+    }
+  ],
+  "chapterInsights": [
+    {
+      "chapter": "Ch1",
+      "title": "Strategic Management",
+      "outcomes": [
+        "Define strategic management and explain its importance to organisations",
+        "Distinguish between corporate, business and functional levels of strategy",
+        "Conduct a SWOT and PESTEL analysis for a business",
+        "Apply Porter's Five Forces to a South African industry",
+        "Describe Porter's generic competitive strategies",
+        "Explain the strategic planning process from mission to implementation"
+      ],
+      "definitions": [
+        {
+          "term": "Strategic management",
+          "definition": "The process of formulating and implementing strategies to achieve organisational goals in a competitive environment."
+        },
+        {
+          "term": "SWOT analysis",
+          "definition": "A strategic planning tool that evaluates internal Strengths and Weaknesses, and external Opportunities and Threats."
+        },
+        {
+          "term": "Competitive advantage",
+          "definition": "A unique edge that allows a firm to outperform its rivals and create superior value for customers."
+        },
+        {
+          "term": "Mission statement",
+          "definition": "A concise declaration of an organisation's purpose, values and reason for existence."
+        },
+        {
+          "term": "Porter's Five Forces",
+          "definition": "A framework for analysing industry competitiveness: threat of new entrants, bargaining power of suppliers/buyers, threat of substitutes and rivalry among competitors."
+        }
+      ],
+      "revisionPrompts": [
+        "Explain the difference between a mission statement and a vision statement using a South African company example.",
+        "Apply Porter's Five Forces to the South African retail banking industry.",
+        "Conduct a SWOT analysis for Shoprite Holdings.",
+        "Distinguish between cost leadership, differentiation and focus strategies, providing SA examples of each.",
+        "Outline the six steps in the strategic planning process."
+      ],
+      "saContext": "South African companies like MTN, Sasol and Pick n Pay operate in dynamic environments where strategic management is critical. BBBEE requirements and the SA Consumer Protection Act are key external factors in PESTEL analysis.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.83,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    },
+    {
+      "chapter": "Ch2",
+      "title": "Organisational Structure",
+      "outcomes": [
+        "Explain the key principles of organisational design",
+        "Distinguish between mechanistic and organic organisational structures",
+        "Describe functional, divisional and matrix departmentalisation",
+        "Explain concepts of span of control, authority and delegation",
+        "Distinguish between centralised and decentralised decision-making",
+        "Identify the most appropriate structure for different organisational contexts"
+      ],
+      "definitions": [
+        {
+          "term": "Organisational structure",
+          "definition": "The formal system defining how tasks are divided, grouped and coordinated within an organisation."
+        },
+        {
+          "term": "Span of control",
+          "definition": "The number of subordinates a manager directly supervises; narrow spans create taller hierarchies, wide spans create flatter structures."
+        },
+        {
+          "term": "Decentralisation",
+          "definition": "The delegation of decision-making authority to lower levels of the organisational hierarchy."
+        },
+        {
+          "term": "Matrix structure",
+          "definition": "An organisational design combining functional and divisional structures, where employees report to both a functional manager and a project/product manager."
+        },
+        {
+          "term": "Departmentalisation",
+          "definition": "The process of grouping jobs and activities into departments based on function, product, geography or customer."
+        }
+      ],
+      "revisionPrompts": [
+        "Compare mechanistic and organic organisational structures and identify which is more appropriate for a technology startup.",
+        "Draw and explain a matrix organisational structure and identify one advantage and one disadvantage.",
+        "Define span of control and explain how it affects the shape of an organisational hierarchy.",
+        "Distinguish between line authority and staff authority with examples.",
+        "Explain why many large South African companies are moving towards flatter, more decentralised structures."
+      ],
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    },
+    {
+      "chapter": "Ch3",
+      "title": "Human Resources Management",
+      "outcomes": [
+        "Explain the purpose and scope of human resources management",
+        "Describe the HR planning and job analysis process",
+        "Outline the recruitment, selection and onboarding process",
+        "Explain training and development methods used in organisations",
+        "Describe performance appraisal methods and their purposes",
+        "Identify key South African labour legislation affecting HRM"
+      ],
+      "definitions": [
+        {
+          "term": "Human resources management (HRM)",
+          "definition": "The strategic approach to managing people in an organisation to achieve competitive advantage."
+        },
+        {
+          "term": "Job analysis",
+          "definition": "The process of systematically collecting information about the duties, responsibilities and requirements of a job."
+        },
+        {
+          "term": "Labour Relations Act (LRA)",
+          "definition": "South African legislation (Act 66 of 1995) that regulates collective bargaining, trade unions and dispute resolution."
+        },
+        {
+          "term": "Performance appraisal",
+          "definition": "A formal process of evaluating an employee's job performance against set standards and objectives."
+        },
+        {
+          "term": "Employment Equity Act (EEA)",
+          "definition": "SA legislation (Act 55 of 1998) that promotes equal opportunity and fair treatment in employment, addressing historical workplace inequalities."
+        }
+      ],
+      "revisionPrompts": [
+        "Describe the five steps in the recruitment and selection process.",
+        "Explain three methods of performance appraisal and identify the strengths and weaknesses of each.",
+        "Outline the key provisions of the Basic Conditions of Employment Act (BCEA) relevant to a South African employee.",
+        "Distinguish between training and development and explain why both are important in contemporary organisations.",
+        "Explain how the Employment Equity Act affects recruitment and selection practices in South African companies."
+      ],
+      "saContext": "South African HRM is shaped by legislation including the LRA, BCEA, EEA, Skills Development Act and Occupational Health and Safety Act. BBBEE scorecards include skills development components, making training investment strategically important.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.84,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    },
+    {
+      "chapter": "Ch4",
+      "title": "Leadership and Motivation",
+      "outcomes": [
+        "Distinguish between management and leadership",
+        "Compare trait, behavioural and contingency theories of leadership",
+        "Distinguish between transactional and transformational leadership",
+        "Apply Maslow's hierarchy of needs to workplace motivation",
+        "Explain Herzberg's two-factor theory and its managerial implications",
+        "Apply Vroom's expectancy theory to understand employee motivation",
+        "Identify practical motivation strategies for South African managers"
+      ],
+      "definitions": [
+        {
+          "term": "Leadership",
+          "definition": "The ability to influence others towards the achievement of goals through inspiration, direction and motivation."
+        },
+        {
+          "term": "Transformational leadership",
+          "definition": "Leadership style that motivates followers by inspiring a shared vision, fostering creativity and appealing to higher-order needs."
+        },
+        {
+          "term": "Maslow's hierarchy of needs",
+          "definition": "A motivational theory proposing that human needs are arranged in a hierarchy from physiological to self-actualisation needs."
+        },
+        {
+          "term": "Herzberg's two-factor theory",
+          "definition": "Theory distinguishing between hygiene factors (which prevent dissatisfaction) and motivators (which create satisfaction and motivation)."
+        },
+        {
+          "term": "Expectancy theory (Vroom)",
+          "definition": "Motivation theory proposing that effort depends on the belief that effort leads to performance, performance leads to reward, and the reward is valued."
+        }
+      ],
+      "revisionPrompts": [
+        "Compare Maslow's and Herzberg's motivation theories, highlighting their similarities and differences.",
+        "Explain expectancy theory and describe how a South African manager could use it to improve employee performance.",
+        "Distinguish between transactional and transformational leadership with examples from South African business leaders.",
+        "Apply contingency leadership theory to determine the most appropriate leadership style for a team of skilled professionals.",
+        "Explain how poor hygiene factors in a South African workplace might lead to employee dissatisfaction and turnover."
+      ],
+      "saContext": "South African leadership is influenced by Ubuntu philosophy — a communal, collaborative approach. Leaders like former President Nelson Mandela exemplified transformational leadership. SA managers must also navigate diverse workforces with different cultural value systems.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.84,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    },
+    {
+      "chapter": "Ch5",
+      "title": "Controlling",
+      "outcomes": [
+        "Define controlling and explain its importance in management",
+        "Describe the four-step control process",
+        "Distinguish between feedforward, concurrent and feedback controls",
+        "Explain the balanced scorecard and its four perspectives",
+        "Apply financial controls including budgeting and variance analysis",
+        "Describe quality management tools and techniques",
+        "Develop key performance indicators (KPIs) for a business unit"
+      ],
+      "definitions": [
+        {
+          "term": "Controlling",
+          "definition": "The management function of monitoring performance, comparing it to standards and taking corrective action when necessary."
+        },
+        {
+          "term": "Feedforward control",
+          "definition": "Preventive control that identifies and addresses potential problems before they occur."
+        },
+        {
+          "term": "Balanced scorecard",
+          "definition": "A strategic performance measurement tool that evaluates performance from four perspectives: financial, customer, internal processes and learning/growth."
+        },
+        {
+          "term": "Key performance indicator (KPI)",
+          "definition": "A measurable value that demonstrates how effectively an organisation is achieving its key objectives."
+        },
+        {
+          "term": "Total Quality Management (TQM)",
+          "definition": "An organisation-wide approach to continuous improvement in quality of products, services and processes."
+        }
+      ],
+      "revisionPrompts": [
+        "Outline the four steps in the control process and apply them to a customer service quality scenario.",
+        "Explain the balanced scorecard's four perspectives and develop one KPI for each perspective for a South African bank.",
+        "Distinguish between feedforward, concurrent and feedback controls with practical examples.",
+        "Explain how budgetary control works and describe the concept of variance analysis.",
+        "Describe TQM and explain how a South African manufacturer could implement it to improve product quality."
+      ],
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    },
+    {
+      "chapter": "Ch6",
+      "title": "Operations Management",
+      "outcomes": [
+        "Define operations management and describe its scope",
+        "Explain capacity planning and its importance",
+        "Describe the main types of facility layout",
+        "Apply the EOQ model to minimise inventory costs",
+        "Explain Just-In-Time (JIT) inventory management",
+        "Describe supply chain management and its components",
+        "Explain lean operations and the elimination of waste"
+      ],
+      "formulas": [
+        "EOQ = √(2DS/H), where D = annual demand, S = ordering cost per order, H = holding cost per unit per year",
+        "Total Inventory Cost = (D/Q)×S + (Q/2)×H"
+      ],
+      "definitions": [
+        {
+          "term": "Operations management",
+          "definition": "The management of processes that transform inputs (materials, labour, information) into outputs (goods and services)."
+        },
+        {
+          "term": "Economic Order Quantity (EOQ)",
+          "definition": "The optimal order quantity that minimises total inventory costs (ordering + holding costs)."
+        },
+        {
+          "term": "Just-In-Time (JIT)",
+          "definition": "An inventory management system where materials are received just as they are needed in the production process, minimising holding costs."
+        },
+        {
+          "term": "Supply chain management",
+          "definition": "The coordination and oversight of all activities from raw material sourcing to delivery to the end customer."
+        },
+        {
+          "term": "Lean operations",
+          "definition": "An approach focused on eliminating waste (muda) from all processes to improve efficiency and create customer value."
+        }
+      ],
+      "revisionPrompts": [
+        "Calculate the EOQ for a company with annual demand of 10 000 units, ordering cost of R500 per order and holding cost of R20 per unit per year.",
+        "Compare process layout and product layout, identifying an appropriate South African industry for each.",
+        "Explain JIT inventory management and describe the key requirements for its successful implementation.",
+        "Describe three types of waste in lean operations and explain how they could be eliminated in a South African manufacturing context.",
+        "Explain how supply chain disruptions (such as port strikes) affect South African manufacturing operations."
+      ],
+      "saContext": "South African operations managers face unique challenges including load-shedding, unreliable logistics infrastructure and port congestion at Durban Port. These factors make capacity planning, supply chain resilience and inventory management critical.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.83,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    },
+    {
+      "chapter": "Ch7",
+      "title": "Marketing Management",
+      "outcomes": [
+        "Explain the marketing concept and its evolution",
+        "Analyse the marketing environment using relevant frameworks",
+        "Explain consumer buying behaviour and its determinants",
+        "Apply the STP process (segmentation, targeting, positioning)",
+        "Describe the extended marketing mix (7 Ps)",
+        "Explain the product life cycle and appropriate strategies for each stage",
+        "Describe integrated marketing communications and its tools"
+      ],
+      "definitions": [
+        {
+          "term": "Marketing",
+          "definition": "The process of creating, communicating, delivering and exchanging offerings that have value for customers and society."
+        },
+        {
+          "term": "Market segmentation",
+          "definition": "The process of dividing a heterogeneous market into distinct groups of buyers with similar needs or characteristics."
+        },
+        {
+          "term": "Positioning",
+          "definition": "The process of designing an offering so that it occupies a distinct and valued place in the minds of target customers."
+        },
+        {
+          "term": "Marketing mix (4 Ps)",
+          "definition": "The set of controllable marketing tools — Product, Price, Place and Promotion — used to pursue marketing objectives in the target market."
+        },
+        {
+          "term": "Product life cycle (PLC)",
+          "definition": "The stages a product goes through from introduction to decline: Introduction, Growth, Maturity and Decline."
+        }
+      ],
+      "revisionPrompts": [
+        "Apply the STP process to develop a marketing strategy for a new South African mobile payment app.",
+        "Explain the four stages of the product life cycle and describe appropriate pricing and promotion strategies for each stage.",
+        "Distinguish between geographic, demographic, psychographic and behavioural segmentation bases with South African examples.",
+        "Explain the extended marketing mix (7 Ps) and apply it to a South African service business of your choice.",
+        "Describe the consumer decision-making process and identify how cultural factors in South Africa influence buying behaviour."
+      ],
+      "saContext": "South African marketing is influenced by 11 official languages, diverse cultures and high income inequality. Marketers must consider the LSM (Living Standards Measure) framework to segment SA consumers. Digital marketing through platforms like WhatsApp and Facebook is critical for reaching SA consumers.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.84,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    }
+  ],
+  "chapterStudyItems": [
+    {
+      "chapter": "Ch1",
+      "flashcards": [
+        {
+          "id": "bman221-ch1-fc1",
+          "chapter": "Ch1",
+          "front": "What are the three levels of strategy in an organisation?",
+          "back": "Corporate strategy (overall direction), Business strategy (how to compete in each market), Functional strategy (how each department supports business strategy).",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.85,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch1-fc2",
+          "chapter": "Ch1",
+          "front": "What does SWOT stand for?",
+          "back": "Strengths, Weaknesses, Opportunities, Threats. Strengths and Weaknesses are internal factors; Opportunities and Threats are external.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.95,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch1-fc3",
+          "chapter": "Ch1",
+          "front": "What are Porter's three generic competitive strategies?",
+          "back": "1) Cost leadership — lowest cost producer. 2) Differentiation — unique product/service. 3) Focus — serving a narrow market segment.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch1-fc4",
+          "chapter": "Ch1",
+          "front": "What does PESTEL stand for in strategic analysis?",
+          "back": "Political, Economic, Social, Technological, Environmental, Legal factors in the macro-environment.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "bman221-ch1-q1",
+          "chapter": "Ch1",
+          "questionType": "multiple-choice",
+          "prompt": "Which of Porter's Five Forces refers to the ease with which new competitors can enter an industry?",
+          "options": [
+            "Bargaining power of suppliers",
+            "Threat of new entrants",
+            "Rivalry among existing competitors",
+            "Threat of substitute products"
+          ],
+          "answer": "Threat of new entrants",
+          "explanation": "The threat of new entrants refers to how easily new competitors can enter the industry. High barriers to entry reduce this threat.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch1-q2",
+          "chapter": "Ch1",
+          "questionType": "multiple-choice",
+          "prompt": "A company decides to produce at the lowest possible cost to offer the cheapest prices in the market. This is an example of which generic strategy?",
+          "options": [
+            "Differentiation strategy",
+            "Focus strategy",
+            "Cost leadership strategy",
+            "Blue ocean strategy"
+          ],
+          "answer": "Cost leadership strategy",
+          "explanation": "Cost leadership involves becoming the lowest-cost producer in the industry, allowing the firm to compete on price.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch1-q3",
+          "chapter": "Ch1",
+          "questionType": "multiple-choice",
+          "prompt": "A SWOT analysis consists of internal and external factors. Which pair are EXTERNAL factors?",
+          "options": [
+            "Strengths and Weaknesses",
+            "Opportunities and Threats",
+            "Strengths and Opportunities",
+            "Weaknesses and Threats"
+          ],
+          "answer": "Opportunities and Threats",
+          "explanation": "Opportunities and Threats are external factors from the environment. Strengths and Weaknesses are internal to the organisation.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.95,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "bman221-ch1-we1",
+          "chapter": "Ch1",
+          "title": "SWOT Analysis for a South African Retailer",
+          "summary": "Conducting a SWOT analysis and recommending a competitive strategy.",
+          "problem": "Conduct a brief SWOT analysis for Pick n Pay and recommend an appropriate Porter's generic strategy.",
+          "steps": [
+            {
+              "label": "Identify Strengths",
+              "explanation": "Strong brand recognition, extensive store network, established supply chain, loyalty programme (Smart Shopper)."
+            },
+            {
+              "label": "Identify Weaknesses",
+              "explanation": "Higher prices than Shoprite, legacy IT systems, recent operational inefficiencies."
+            },
+            {
+              "label": "Identify Opportunities",
+              "explanation": "Online grocery market growth, expansion into Africa, private label product development."
+            },
+            {
+              "label": "Identify Threats",
+              "explanation": "Intense competition from Shoprite and Checkers, load-shedding impacts, rising input costs."
+            },
+            {
+              "label": "Recommend strategy",
+              "explanation": "Given strong brand and customer loyalty, a differentiation strategy focusing on quality, convenience and private labels would suit Pick n Pay's position."
+            }
+          ],
+          "answer": "Pick n Pay should pursue a differentiation strategy, leveraging brand trust and customer loyalty to justify premium positioning against low-cost rivals.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.83,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Ch2",
+      "flashcards": [
+        {
+          "id": "bman221-ch2-fc1",
+          "chapter": "Ch2",
+          "front": "What is the difference between a mechanistic and an organic organisational structure?",
+          "back": "Mechanistic: rigid, hierarchical, centralised, high specialisation — suited to stable environments. Organic: flexible, decentralised, cross-functional — suited to dynamic environments.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch2-fc2",
+          "chapter": "Ch2",
+          "front": "What is span of control?",
+          "back": "The number of subordinates a manager directly supervises. Wide span = fewer management levels (flat); narrow span = more levels (tall hierarchy).",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch2-fc3",
+          "chapter": "Ch2",
+          "front": "What is a matrix organisational structure?",
+          "back": "A structure combining functional and divisional approaches, where employees report to both a functional manager and a project manager simultaneously.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch2-fc4",
+          "chapter": "Ch2",
+          "front": "What is decentralisation?",
+          "back": "The delegation of decision-making authority to lower levels of the organisation. Increases responsiveness and employee empowerment.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "bman221-ch2-q1",
+          "chapter": "Ch2",
+          "questionType": "multiple-choice",
+          "prompt": "Which organisational structure is MOST appropriate for a company operating in a rapidly changing, innovative industry?",
+          "options": [
+            "Mechanistic structure",
+            "Organic structure",
+            "Tall hierarchy structure",
+            "Functional structure only"
+          ],
+          "answer": "Organic structure",
+          "explanation": "Organic structures are flexible, decentralised and encourage cross-functional teamwork — well suited to dynamic and innovative environments.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch2-q2",
+          "chapter": "Ch2",
+          "questionType": "multiple-choice",
+          "prompt": "The main DISADVANTAGE of a matrix organisational structure is:",
+          "options": [
+            "Poor departmental specialisation",
+            "Dual reporting relationships causing role conflict",
+            "Inability to use functional expertise",
+            "Excessive decentralisation"
+          ],
+          "answer": "Dual reporting relationships causing role conflict",
+          "explanation": "In a matrix structure, employees report to two managers (functional and project), which can create confusion, conflict and power struggles.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch2-q3",
+          "chapter": "Ch2",
+          "questionType": "multiple-choice",
+          "prompt": "Grouping employees based on the functions they perform (e.g. marketing, finance, production) is called:",
+          "options": [
+            "Product departmentalisation",
+            "Geographic departmentalisation",
+            "Functional departmentalisation",
+            "Customer departmentalisation"
+          ],
+          "answer": "Functional departmentalisation",
+          "explanation": "Functional departmentalisation groups employees by their specialised function or discipline, such as marketing, finance, HR or production.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "bman221-ch2-we1",
+          "chapter": "Ch2",
+          "title": "Choosing an Organisational Structure",
+          "summary": "Selecting and justifying an appropriate organisational structure for a given business context.",
+          "problem": "A large South African bank has 5 000 employees, operates in a stable regulatory environment and offers standardised banking products. It is considering restructuring. Should it adopt a mechanistic or organic structure? Justify your answer.",
+          "steps": [
+            {
+              "label": "Analyse the environment",
+              "explanation": "The bank operates in a stable, highly regulated environment with standardised products — conditions that favour mechanistic structures."
+            },
+            {
+              "label": "Consider the size",
+              "explanation": "With 5 000 employees, a formal hierarchy with clear roles, policies and procedures is necessary for coordination."
+            },
+            {
+              "label": "Consider the industry",
+              "explanation": "Banking requires strict compliance, risk management and audit trails — all of which benefit from centralised control and clear authority lines."
+            },
+            {
+              "label": "Recommendation",
+              "explanation": "A mechanistic structure is appropriate: clear hierarchy, specialised departments (retail banking, commercial, risk, compliance, HR, IT), centralised decision-making."
+            }
+          ],
+          "answer": "A mechanistic structure is recommended for the bank due to its stable environment, large size and need for strict regulatory compliance and standardised processes.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.83,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Ch3",
+      "flashcards": [
+        {
+          "id": "bman221-ch3-fc1",
+          "chapter": "Ch3",
+          "front": "What is the purpose of a job analysis?",
+          "back": "To systematically gather information about the duties, responsibilities and requirements of a job, resulting in a job description and job specification.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch3-fc2",
+          "chapter": "Ch3",
+          "front": "What does the Labour Relations Act (LRA) regulate?",
+          "back": "The LRA (Act 66 of 1995) regulates trade unions, collective bargaining, strikes, lockouts and the resolution of labour disputes in South Africa.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch3-fc3",
+          "chapter": "Ch3",
+          "front": "What is the difference between recruitment and selection?",
+          "back": "Recruitment is attracting a pool of qualified candidates. Selection is choosing the best candidate from the pool through interviews, tests and background checks.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch3-fc4",
+          "chapter": "Ch3",
+          "front": "What is the purpose of the Employment Equity Act (EEA)?",
+          "back": "The EEA (Act 55 of 1998) promotes equal opportunity and fair treatment in employment and redresses historical disadvantages by promoting BBBEE and affirmative action.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "bman221-ch3-q1",
+          "chapter": "Ch3",
+          "questionType": "multiple-choice",
+          "prompt": "Which South African legislation sets minimum employment conditions such as working hours, leave and notice periods?",
+          "options": [
+            "Labour Relations Act (LRA)",
+            "Employment Equity Act (EEA)",
+            "Basic Conditions of Employment Act (BCEA)",
+            "Skills Development Act (SDA)"
+          ],
+          "answer": "Basic Conditions of Employment Act (BCEA)",
+          "explanation": "The BCEA (Act 75 of 1997) establishes minimum employment conditions including working hours (45 per week), annual leave (21 days), sick leave and notice periods.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch3-q2",
+          "chapter": "Ch3",
+          "questionType": "multiple-choice",
+          "prompt": "Which performance appraisal method compares employees against each other, ranking them from best to worst?",
+          "options": [
+            "Management by objectives (MBO)",
+            "Ranking method",
+            "360-degree feedback",
+            "Critical incident method"
+          ],
+          "answer": "Ranking method",
+          "explanation": "The ranking method involves comparing employees to each other and placing them in order from highest to lowest performer.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch3-q3",
+          "chapter": "Ch3",
+          "questionType": "multiple-choice",
+          "prompt": "The process of attracting a pool of suitable candidates for a job vacancy is called:",
+          "options": [
+            "Selection",
+            "Job analysis",
+            "Recruitment",
+            "Onboarding"
+          ],
+          "answer": "Recruitment",
+          "explanation": "Recruitment is the process of generating a pool of qualified candidates from which to select the best person for a job.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "bman221-ch3-we1",
+          "chapter": "Ch3",
+          "title": "Recruitment and Selection Process",
+          "summary": "Outlining the steps to recruit and select a candidate for a management position.",
+          "problem": "A South African retail company needs to fill a Branch Manager position. Outline the recruitment and selection process it should follow.",
+          "steps": [
+            {
+              "label": "Step 1: Job analysis",
+              "explanation": "Define the role — create a job description (duties, responsibilities) and job specification (qualifications, experience, skills required)."
+            },
+            {
+              "label": "Step 2: Recruit candidates",
+              "explanation": "Advertise internally (notice boards, intranet) and externally (online job portals like Pnet, LinkedIn, newspaper adverts)."
+            },
+            {
+              "label": "Step 3: Screen applications",
+              "explanation": "Review CVs against job specification criteria; shortlist candidates who meet minimum requirements."
+            },
+            {
+              "label": "Step 4: Selection interviews",
+              "explanation": "Conduct structured interviews (panel preferred). May include psychometric tests, case studies or competency-based questions."
+            },
+            {
+              "label": "Step 5: Background checks and reference checks",
+              "explanation": "Verify qualifications, employment history and conduct criminal record check (important in retail for fraud prevention)."
+            },
+            {
+              "label": "Step 6: Job offer and onboarding",
+              "explanation": "Extend written offer, negotiate terms and implement a structured onboarding programme to integrate the new manager."
+            }
+          ],
+          "answer": "A structured six-step recruitment and selection process ensures the best candidate is identified while complying with the EEA and avoiding unfair discrimination.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.85,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Ch4",
+      "flashcards": [
+        {
+          "id": "bman221-ch4-fc1",
+          "chapter": "Ch4",
+          "front": "What are the five levels of Maslow's hierarchy of needs?",
+          "back": "1) Physiological (food, shelter) → 2) Safety → 3) Social (belonging) → 4) Esteem → 5) Self-actualisation. Lower needs must be satisfied before higher needs motivate.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch4-fc2",
+          "chapter": "Ch4",
+          "front": "What are Herzberg's hygiene factors vs motivators?",
+          "back": "Hygiene factors (salary, working conditions, supervision) prevent dissatisfaction but don't motivate. Motivators (achievement, recognition, responsibility, growth) create genuine motivation.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch4-fc3",
+          "chapter": "Ch4",
+          "front": "What are the three elements of Vroom's expectancy theory?",
+          "back": "1) Expectancy: effort → performance. 2) Instrumentality: performance → reward. 3) Valence: value of the reward. Motivation = E × I × V.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch4-fc4",
+          "chapter": "Ch4",
+          "front": "What is transformational leadership?",
+          "back": "Leadership that motivates followers to exceed expectations by inspiring a compelling vision, challenging the status quo and building strong relationships based on trust.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "bman221-ch4-q1",
+          "chapter": "Ch4",
+          "questionType": "multiple-choice",
+          "prompt": "According to Herzberg, which of the following is a MOTIVATOR (not a hygiene factor)?",
+          "options": [
+            "Company policy",
+            "Working conditions",
+            "Recognition for achievement",
+            "Salary"
+          ],
+          "answer": "Recognition for achievement",
+          "explanation": "Motivators such as recognition, achievement, responsibility and advancement create genuine job satisfaction. Hygiene factors like salary and working conditions only prevent dissatisfaction.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch4-q2",
+          "chapter": "Ch4",
+          "questionType": "multiple-choice",
+          "prompt": "According to Maslow, which need must be satisfied FIRST?",
+          "options": [
+            "Esteem needs",
+            "Safety needs",
+            "Physiological needs",
+            "Self-actualisation needs"
+          ],
+          "answer": "Physiological needs",
+          "explanation": "Physiological needs (food, water, shelter, sleep) are at the base of Maslow's hierarchy and must be satisfied before higher-level needs can motivate behaviour.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.95,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch4-q3",
+          "chapter": "Ch4",
+          "questionType": "multiple-choice",
+          "prompt": "A manager who relies on rewards, punishments and formal authority to influence behaviour is demonstrating:",
+          "options": [
+            "Transformational leadership",
+            "Servant leadership",
+            "Transactional leadership",
+            "Laissez-faire leadership"
+          ],
+          "answer": "Transactional leadership",
+          "explanation": "Transactional leadership is based on exchange — leaders motivate through rewards for compliance and punishment for non-compliance, relying on formal authority.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "bman221-ch4-we1",
+          "chapter": "Ch4",
+          "title": "Applying Maslow to Workplace Motivation",
+          "summary": "Using Maslow's hierarchy to diagnose and address employee motivation issues.",
+          "problem": "As an HR manager at a South African call centre, you notice high absenteeism and low morale. Employees complain about poor salaries, an unsafe building and lack of recognition. Using Maslow's hierarchy, diagnose the problem and recommend solutions.",
+          "steps": [
+            {
+              "label": "Physiological needs",
+              "explanation": "Poor salaries mean employees cannot adequately meet basic needs. Recommendation: Review and increase wages to at least the minimum wage."
+            },
+            {
+              "label": "Safety needs",
+              "explanation": "Unsafe building directly threatens safety needs. Recommendation: Address structural safety immediately — conduct a OHSAS audit per the SA OHS Act."
+            },
+            {
+              "label": "Social needs",
+              "explanation": "Low morale may indicate poor team cohesion. Recommendation: Team-building activities, open communication and supportive supervisors."
+            },
+            {
+              "label": "Esteem needs",
+              "explanation": "Lack of recognition addresses esteem needs. Recommendation: Implement a recognition programme, employee-of-the-month awards and performance bonuses."
+            },
+            {
+              "label": "Conclusion",
+              "explanation": "The lower-order (physiological and safety) needs are unmet, preventing higher-order needs from motivating. Managers must address deficiency needs first."
+            }
+          ],
+          "answer": "Lower-order needs (physiological, safety) are unmet. Addressing salary levels and physical safety are the immediate priorities before employee recognition programmes can have meaningful motivational impact.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.85,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Ch5",
+      "flashcards": [
+        {
+          "id": "bman221-ch5-fc1",
+          "chapter": "Ch5",
+          "front": "What are the four steps in the control process?",
+          "back": "1) Set performance standards. 2) Measure actual performance. 3) Compare actual to standards. 4) Take corrective action if needed.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch5-fc2",
+          "chapter": "Ch5",
+          "front": "What is the balanced scorecard?",
+          "back": "A strategic performance tool with four perspectives: Financial (profits), Customer (satisfaction), Internal Processes (efficiency), Learning & Growth (innovation/employees).",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch5-fc3",
+          "chapter": "Ch5",
+          "front": "What is feedforward control?",
+          "back": "Control that anticipates and prevents problems BEFORE they occur. Example: quality inspection of raw materials before they enter production.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch5-fc4",
+          "chapter": "Ch5",
+          "front": "What is a KPI?",
+          "back": "Key Performance Indicator — a measurable value that tracks how effectively an organisation is achieving its key business objectives.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "bman221-ch5-q1",
+          "chapter": "Ch5",
+          "questionType": "multiple-choice",
+          "prompt": "A quality inspector checks products on the assembly line WHILE they are being manufactured. This is an example of:",
+          "options": [
+            "Feedforward control",
+            "Feedback control",
+            "Concurrent control",
+            "Post-hoc control"
+          ],
+          "answer": "Concurrent control",
+          "explanation": "Concurrent (real-time) control monitors processes while they are happening, allowing immediate correction. Feedforward prevents problems before they start; feedback evaluates after the fact.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch5-q2",
+          "chapter": "Ch5",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the balanced scorecard perspectives focuses on customer satisfaction and retention?",
+          "options": [
+            "Financial perspective",
+            "Customer perspective",
+            "Internal process perspective",
+            "Learning and growth perspective"
+          ],
+          "answer": "Customer perspective",
+          "explanation": "The customer perspective of the balanced scorecard measures how well the organisation delivers value to customers, including satisfaction, retention and market share.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch5-q3",
+          "chapter": "Ch5",
+          "questionType": "multiple-choice",
+          "prompt": "Which is the FIRST step in the management control process?",
+          "options": [
+            "Measure actual performance",
+            "Take corrective action",
+            "Set performance standards",
+            "Compare performance to standards"
+          ],
+          "answer": "Set performance standards",
+          "explanation": "The first step is establishing clear, measurable performance standards. Without standards, there is nothing to compare actual performance against.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "bman221-ch5-we1",
+          "chapter": "Ch5",
+          "title": "The Control Process in a SA Restaurant Chain",
+          "summary": "Applying the four-step control process to a business scenario.",
+          "problem": "Nando's regional manager notices that food quality complaints at one branch have increased by 30% over the past month. Apply the four-step control process to address this issue.",
+          "steps": [
+            {
+              "label": "Step 1: Set standards",
+              "explanation": "Standard: Customer complaint rate should not exceed 2% of orders served monthly."
+            },
+            {
+              "label": "Step 2: Measure actual performance",
+              "explanation": "Actual complaint rate this month = 2.6% (a 30% increase above the 2% standard)."
+            },
+            {
+              "label": "Step 3: Compare to standard",
+              "explanation": "Actual (2.6%) > Standard (2%). Negative variance of 0.6 percentage points — performance is below standard."
+            },
+            {
+              "label": "Step 4: Corrective action",
+              "explanation": "Investigate root cause: kitchen staff retraining, equipment maintenance, ingredient quality check, and implement concurrent quality checks during food preparation."
+            }
+          ],
+          "answer": "The deviation triggers corrective action: immediate investigation, staff retraining and implementation of additional quality control checkpoints to bring performance back within the 2% standard.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.85,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Ch6",
+      "flashcards": [
+        {
+          "id": "bman221-ch6-fc1",
+          "chapter": "Ch6",
+          "front": "What is the EOQ formula?",
+          "back": "EOQ = √(2DS/H), where D = annual demand, S = ordering cost per order, H = annual holding cost per unit.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch6-fc2",
+          "chapter": "Ch6",
+          "front": "What is Just-In-Time (JIT) inventory management?",
+          "back": "An inventory system where materials arrive exactly when needed in production, minimising holding costs and waste. Requires reliable suppliers.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch6-fc3",
+          "chapter": "Ch6",
+          "front": "What is supply chain management?",
+          "back": "The coordination of all activities from sourcing raw materials through production to delivering the final product to the end customer.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch6-fc4",
+          "chapter": "Ch6",
+          "front": "What is TQM?",
+          "back": "Total Quality Management — an organisation-wide philosophy of continuous quality improvement involving all employees at all levels.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "bman221-ch6-q1",
+          "chapter": "Ch6",
+          "questionType": "multiple-choice",
+          "prompt": "A company has annual demand of 3 600 units, ordering cost of R200 per order and holding cost of R18 per unit per year. What is the EOQ?",
+          "options": [
+            "200 units",
+            "283 units",
+            "300 units",
+            "400 units"
+          ],
+          "answer": "283 units",
+          "explanation": "EOQ = √(2 × 3600 × 200 / 18) = √(1 440 000 / 18) = √80 000 ≈ 283 units.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch6-q2",
+          "chapter": "Ch6",
+          "questionType": "multiple-choice",
+          "prompt": "Which facility layout arranges equipment and workstations in a sequence that matches the production flow of the product?",
+          "options": [
+            "Process layout",
+            "Fixed-position layout",
+            "Product layout",
+            "Cellular layout"
+          ],
+          "answer": "Product layout",
+          "explanation": "Product (line) layout arranges workstations sequentially according to the steps required to produce a specific product — typical of assembly lines.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.88,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch6-q3",
+          "chapter": "Ch6",
+          "questionType": "multiple-choice",
+          "prompt": "The primary goal of lean operations is to:",
+          "options": [
+            "Maximise production volume",
+            "Eliminate waste and create more value for customers",
+            "Minimise labour costs only",
+            "Reduce product quality standards"
+          ],
+          "answer": "Eliminate waste and create more value for customers",
+          "explanation": "Lean operations focus on identifying and eliminating all forms of waste (muda) in processes to improve efficiency and deliver greater value to customers.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "bman221-ch6-we1",
+          "chapter": "Ch6",
+          "title": "EOQ Calculation",
+          "summary": "Applying the Economic Order Quantity model to optimise inventory ordering.",
+          "problem": "A South African food manufacturer uses 12 000 kg of raw sugar annually. Each order costs R400 to place and holding costs are R8 per kg per year. Calculate the EOQ and the number of orders per year.",
+          "steps": [
+            {
+              "label": "Identify variables",
+              "explanation": "D = 12 000 kg/year; S = R400 per order; H = R8 per kg per year"
+            },
+            {
+              "label": "Apply EOQ formula",
+              "explanation": "EOQ = √(2DS/H) = √(2 × 12 000 × 400 / 8) = √(9 600 000 / 8) = √1 200 000"
+            },
+            {
+              "label": "Calculate EOQ",
+              "explanation": "EOQ = √1 200 000 ≈ 1 095 kg per order"
+            },
+            {
+              "label": "Calculate number of orders per year",
+              "explanation": "Number of orders = D / EOQ = 12 000 / 1 095 ≈ 11 orders per year"
+            }
+          ],
+          "answer": "The optimal order quantity is approximately 1 095 kg per order, placing approximately 11 orders per year.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Ch7",
+      "flashcards": [
+        {
+          "id": "bman221-ch7-fc1",
+          "chapter": "Ch7",
+          "front": "What is the STP process in marketing?",
+          "back": "Segmentation (dividing the market into groups), Targeting (selecting which segment(s) to serve), Positioning (creating a distinct image in the target market's mind).",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch7-fc2",
+          "chapter": "Ch7",
+          "front": "What are the 4 Ps of the marketing mix?",
+          "back": "Product (what you sell), Price (what you charge), Place (how it reaches customers), Promotion (how you communicate). Extended to 7 Ps with People, Process and Physical evidence.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.95,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch7-fc3",
+          "chapter": "Ch7",
+          "front": "What are the four stages of the product life cycle?",
+          "back": "1) Introduction — slow sales, high costs, losses. 2) Growth — rapid sales increase, profits emerge. 3) Maturity — peak sales, intense competition. 4) Decline — falling sales and profits.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch7-fc4",
+          "chapter": "Ch7",
+          "front": "What is positioning in marketing?",
+          "back": "The process of designing the company's offering and image to occupy a distinctive and desirable place in the minds of the target market relative to competitors.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "bman221-ch7-q1",
+          "chapter": "Ch7",
+          "questionType": "multiple-choice",
+          "prompt": "During which stage of the product life cycle are marketing costs typically HIGHEST relative to sales revenue?",
+          "options": [
+            "Growth stage",
+            "Maturity stage",
+            "Introduction stage",
+            "Decline stage"
+          ],
+          "answer": "Introduction stage",
+          "explanation": "During the introduction stage, high marketing expenditure is needed to build awareness. Sales volumes are low, resulting in losses or very low profits.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.9,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch7-q2",
+          "chapter": "Ch7",
+          "questionType": "multiple-choice",
+          "prompt": "Dividing a market based on age, income, gender and occupation is called:",
+          "options": [
+            "Geographic segmentation",
+            "Behavioural segmentation",
+            "Psychographic segmentation",
+            "Demographic segmentation"
+          ],
+          "answer": "Demographic segmentation",
+          "explanation": "Demographic segmentation divides markets based on measurable population characteristics such as age, income, gender, education and occupation.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "bman221-ch7-q3",
+          "chapter": "Ch7",
+          "questionType": "multiple-choice",
+          "prompt": "The marketing concept holds that organisations should:",
+          "options": [
+            "Produce as much as possible and push products to consumers",
+            "Focus on identifying and satisfying customer needs profitably",
+            "Prioritise production efficiency above all else",
+            "Compete only on price"
+          ],
+          "answer": "Focus on identifying and satisfying customer needs profitably",
+          "explanation": "The marketing concept states that achieving organisational goals depends on identifying and satisfying target market needs and wants better than competitors do.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.92,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "bman221-ch7-we1",
+          "chapter": "Ch7",
+          "title": "Applying the STP Process",
+          "summary": "Using segmentation, targeting and positioning to develop a marketing strategy.",
+          "problem": "A South African company wants to launch a new premium bottled water brand. Apply the STP process to develop a basic marketing strategy.",
+          "steps": [
+            {
+              "label": "Segmentation",
+              "explanation": "Segment the market by: Demographics (LSM 8-10, aged 25-45, urban professionals); Psychographics (health-conscious, environmentally aware, premium lifestyle); Behavioural (gym-goers, office workers, sports enthusiasts)."
+            },
+            {
+              "label": "Targeting",
+              "explanation": "Target urban professionals aged 25-45 in LSM 8-10 who prioritise health and are willing to pay a premium. This segment is growing in South Africa due to rising health consciousness."
+            },
+            {
+              "label": "Positioning",
+              "explanation": "Position as South Africa's purest, most sustainable premium water — 'Hydrate Naturally, Live Powerfully.' Differentiate through unique SA mountain source, eco-friendly packaging and superior taste."
+            },
+            {
+              "label": "Marketing mix implication",
+              "explanation": "Product: premium glass/eco bottle. Price: skimming strategy at R25-35 per 750ml. Place: upmarket Woolworths, Checkers FreshX, gyms and business districts. Promotion: social media influencers, health events."
+            }
+          ],
+          "answer": "Target health-conscious urban professionals (LSM 8-10) and position as South Africa's premium natural water, supported by a premium pricing and selective distribution strategy.",
+          "source": "curriculum-knowledge",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.85,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    }
+  ],
+  "discipline": "business_management",
+  "referenceList": [
+    {
+      "title": "Hellriegel, Jackson, Slocum et al. — Management (Cengage/South-Western)",
+      "publisher": "Cengage",
+      "url": "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+      "note": "Common management principles text; covers planning, organising, leading, control.",
+      "sourceHash": "5e4d986d79e9444e49ba9782014662b62dcf2f5f722112bc02a4e3f7130dc959"
+    },
+    {
+      "title": "Robbins, Coulter & DeCenzo — Fundamentals of Management (Pearson)",
+      "publisher": "Pearson",
+      "url": "https://www.pearson.com/en-us/subjects/business-management.html",
+      "note": "Accessible intro to the management function and behavioural foundations.",
+      "sourceHash": "bff5850e007137dfcdd05eac9d8a82fc7ddb24b8e6dc1430d1df4fe25d3a4255"
+    },
+    {
+      "title": "Society for Human Resource Management — HR Topics",
+      "publisher": "SHRM",
+      "url": "https://www.shrm.org/topics-tools",
+      "note": "Practitioner source for organisational-behaviour and HR concepts.",
+      "sourceHash": "7481bdca31c549d29dc810d62032fbb80a184db30593d9c0b43375394d7cfa44"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: Business Management 221 (BCom, North-West University). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "Chapter-by-chapter teaching focus (derived from the module's own learning outcomes and key definitions):",
+    "  • Ch1 — Strategic Management. Emphasise: Define strategic management and explain its importance to organisations; Distinguish between corporate, business and functional levels of strategy; Conduct a SWOT and PESTEL analysis for a business. Local context: South African companies like MTN, Sasol and Pick n Pay operate in dynamic environments where strategic management is critical. BBBEE requirements and the SA Consumer Protection Act are key external factors in PESTEL analysis.",
+    "  • Ch2 — Organisational Structure. Emphasise: Explain the key principles of organisational design; Distinguish between mechanistic and organic organisational structures; Describe functional, divisional and matrix departmentalisation.",
+    "  • Ch3 — Human Resources Management. Emphasise: Explain the purpose and scope of human resources management; Describe the HR planning and job analysis process; Outline the recruitment, selection and onboarding process. Local context: South African HRM is shaped by legislation including the LRA, BCEA, EEA, Skills Development Act and Occupational Health and Safety Act. BBBEE scorecards include skills development components, making training investment strategically important.",
+    "  • Ch4 — Leadership and Motivation. Emphasise: Distinguish between management and leadership; Compare trait, behavioural and contingency theories of leadership; Distinguish between transactional and transformational leadership. Local context: South African leadership is influenced by Ubuntu philosophy — a communal, collaborative approach. Leaders like former President Nelson Mandela exemplified transformational leadership. SA managers must also navigate diverse workforces with different cultural value systems.",
+    "  • Ch5 — Controlling. Emphasise: Define controlling and explain its importance in management; Describe the four-step control process; Distinguish between feedforward, concurrent and feedback controls.",
+    "  • Ch6 — Operations Management. Emphasise: Define operations management and describe its scope; Explain capacity planning and its importance; Describe the main types of facility layout. Local context: South African operations managers face unique challenges including load-shedding, unreliable logistics infrastructure and port congestion at Durban Port. These factors make capacity planning, supply chain resilience and inventory management critical.",
+    "  • Ch7 — Marketing Management. Emphasise: Explain the marketing concept and its evolution; Analyse the marketing environment using relevant frameworks; Explain consumer buying behaviour and its determinants. Local context: South African marketing is influenced by 11 official languages, diverse cultures and high income inequality. Marketers must consider the LSM (Living Standards Measure) framework to segment SA consumers. Digital marketing through platforms like WhatsApp and Facebook is critical for reaching SA consumers.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "5e4d986d79e9444e49ba9782014662b62dcf2f5f722112bc02a4e3f7130dc959",
+    "bff5850e007137dfcdd05eac9d8a82fc7ddb24b8e6dc1430d1df4fe25d3a4255",
+    "7481bdca31c549d29dc810d62032fbb80a184db30593d9c0b43375394d7cfa44"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

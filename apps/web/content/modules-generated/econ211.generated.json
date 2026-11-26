@@ -1,0 +1,1700 @@
+{
+  "institution": "North-West University",
+  "moduleCode": "ECON211",
+  "moduleName": "Macroeconomics",
+  "lecturer": "Dr. Khwazi Magubane",
+  "programme": "B.Com Economic Sciences",
+  "semester": "Semester 1",
+  "currentWeek": 9,
+  "sourceFiles": [],
+  "classSchedule": [],
+  "assessmentPlan": [
+    {
+      "name": "Semester Test 1",
+      "weight": "25%",
+      "chaptersCovered": "Chapters 1, 2, 3, 4",
+      "format": "MCQ + short answer + calculations + graph questions"
+    },
+    {
+      "name": "Semester Test 2",
+      "weight": "25%",
+      "chaptersCovered": "Chapter 6 + cumulative",
+      "format": "MCQ + long answer + dual-panel diagram questions"
+    },
+    {
+      "name": "Assignment",
+      "weight": "10%",
+      "chaptersCovered": "All chapters",
+      "format": "Written policy analysis with chain reactions"
+    },
+    {
+      "name": "Final Examination",
+      "weight": "40%",
+      "chaptersCovered": "All chapters",
+      "format": "Full paper — all question types"
+    }
+  ],
+  "questionTypes": [
+    "True/False with written justification",
+    "Multiple choice (15–20 marks)",
+    "Chain reaction questions (written, full PE and SE required)",
+    "Diagram questions (fully labelled — axes, curves, equilibrium points, shift arrows)",
+    "Calculation questions",
+    "Long essay — policy analysis using IS-LM or AD-AS framework"
+  ],
+  "studyUnits": [],
+  "chapters": [
+    "Chapter 1",
+    "Chapter 2A",
+    "Chapter 2B",
+    "Chapter 3",
+    "Chapter 4",
+    "Chapter 6"
+  ],
+  "topicSeeds": [],
+  "keyTopics": [
+    "Macroeconomics definition and scope",
+    "SA Five Macroeconomic Policy Objectives",
+    "GDP expenditure approach: Y = C + I + G + (X-M)",
+    "Real vs nominal GDP",
+    "Business cycle phases",
+    "Circular flow of income: S + T + M = I + G + X",
+    "Chain reaction method (PE and SE)",
+    "Consumption function: C = a + b(1-t)Y",
+    "Investment function: I = Ia - hr",
+    "Expenditure multiplier: KE = 1/(1 - b(1-t) + m)",
+    "Keynesian Cross equilibrium",
+    "Fisher equation: r = i - pi",
+    "Money demand: MD/P = kY - li",
+    "MD curve shift vs movement along",
+    "SARB monetary policy tools",
+    "Credit multiplier",
+    "IS curve derivation and shifts",
+    "LM curve derivation and shifts",
+    "IS-LM equilibrium",
+    "Golden Rule: fiscal vs monetary direction",
+    "Crowding out mechanism",
+    "Policy effectiveness and IS/LM slopes",
+    "Liquidity trap and classical range",
+    "Balance of Payments: BoP = CA + FA",
+    "BP curve and capital mobility",
+    "Mundell-Fleming theorem",
+    "Exchange rate transmission",
+    "AD curve derivation from IS-LM",
+    "SRAS vs LRAS",
+    "Stagflation and supply shocks",
+    "Accommodation dilemma",
+    "Long-run demand neutrality",
+    "Dual-panel IS-LM + AD-AS diagram"
+  ],
+  "quizSignals": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "commonExamErrors": [
+    "Using nominal interest rate (i) in the investment function instead of real rate (r). Always use r ≈ i − π.",
+    "Omitting the Secondary Effect entirely. Both PE and SE are required for full marks.",
+    "Drawing a new MD curve when the interest rate (i) changes. i changes = movement ALONG existing MD curve, not a shift.",
+    "Claiming the SE equals the PE in magnitude. SE is always smaller than PE.",
+    "Assigning fiscal policy to the LM curve or monetary policy to the IS curve. Fiscal = IS. Monetary = LM. No exceptions.",
+    "Forgetting crowding out in fiscal policy analysis. Always identify that r rises (SE) and reduces I.",
+    "Confusing BoP deficit with CA deficit. BoP includes both CA AND FA. SA often has CA deficit but overall BoP can be in surplus if FA inflows are large enough.",
+    "Claiming monetary policy permanently raises output (Y). In the long run, Y returns to Y*. Only P is permanently affected by demand management.",
+    "Incomplete diagram labelling. Always label: both axes, all curves (IS₀, IS₁, LM₀, LM₁, BP), equilibrium points (E₀, E₁), dashed projection lines from equilibrium to axes, shift arrows with direction labels.",
+    "Saying the Rand appreciates when the R/$ exchange rate number rises. When the number rises (e.g. R14 → R18 per dollar), the rand has DEPRECIATED (more rand per dollar = rand is worth less)."
+  ],
+  "policyEffectsTable": [
+    {
+      "shock": "Repo rate cut (exp. MP)",
+      "curvesShifting": "LM → right",
+      "primaryEffect": "r↓ → I↑ → Y↑",
+      "secondaryEffect": "Y↑ → MD↑ → r↑ (partial)",
+      "netR": "↓ Falls",
+      "netY": "↑ Rises",
+      "netP": "↑ Rises"
+    },
+    {
+      "shock": "Repo rate hike (con. MP)",
+      "curvesShifting": "LM → left",
+      "primaryEffect": "r↑ → I↓ → Y↓",
+      "secondaryEffect": "Y↓ → MD↓ → r↓ (partial)",
+      "netR": "↑ Rises",
+      "netY": "↓ Falls",
+      "netP": "↓ Falls"
+    },
+    {
+      "shock": "G↑ or t↓ (exp. FP)",
+      "curvesShifting": "IS → right",
+      "primaryEffect": "G↑ → E↑ → Y↑",
+      "secondaryEffect": "Y↑ → MD↑ → r↑ → I↓ (crowding out)",
+      "netR": "↑ Rises",
+      "netY": "↑ Rises",
+      "netP": "↑ Rises"
+    },
+    {
+      "shock": "G↓ or t↑ (con. FP)",
+      "curvesShifting": "IS → left",
+      "primaryEffect": "G↓ → E↓ → Y↓",
+      "secondaryEffect": "Y↓ → MD↓ → r↓ → I↑ (partial)",
+      "netR": "↓ Falls",
+      "netY": "↓ Falls",
+      "netP": "↓ Falls"
+    },
+    {
+      "shock": "Negative supply shock",
+      "curvesShifting": "SRAS → left",
+      "primaryEffect": "Costs↑ → Y↓ AND P↑",
+      "secondaryEffect": "Stagflation — both worsen simultaneously",
+      "netR": "—",
+      "netY": "↓ Falls",
+      "netP": "↑ Rises"
+    },
+    {
+      "shock": "Rand depreciation",
+      "curvesShifting": "IS → right",
+      "primaryEffect": "NX↑ → E↑ → Y↑",
+      "secondaryEffect": "Y↑ → MD↑ → r↑ → I↓ (partial)",
+      "netR": "↑ Rises",
+      "netY": "↑ Rises",
+      "netP": "↑ Rises (imported inflation)"
+    },
+    {
+      "shock": "Rand appreciation",
+      "curvesShifting": "IS → left",
+      "primaryEffect": "NX↓ → E↓ → Y↓",
+      "secondaryEffect": "Y↓ → MD↓ → r↓ → I↑ (partial)",
+      "netR": "↓ Falls",
+      "netY": "↓ Falls",
+      "netP": "↓ Falls"
+    },
+    {
+      "shock": "Gold price rise",
+      "curvesShifting": "IS → right",
+      "primaryEffect": "X↑ → E↑ → Y↑",
+      "secondaryEffect": "Y↑ → MD↑ → r↑ → I↓ (partial)",
+      "netR": "↑ Rises",
+      "netY": "↑ Rises",
+      "netP": "↑ Rises"
+    }
+  ],
+  "chapterInsights": [
+    {
+      "chapter": "Chapter 1",
+      "title": "Introduction to Macroeconomics",
+      "outcomes": [
+        "Define macroeconomics and distinguish it from microeconomics",
+        "State South Africa's five macroeconomic policy objectives with brief explanation of each",
+        "Calculate GDP using the expenditure approach: Y = C + I + G + (X − M)",
+        "Distinguish nominal GDP from real GDP and explain why real GDP is used for comparisons",
+        "Identify the four phases of the business cycle and give SA historical examples of each",
+        "Explain the circular flow of income. Identify three leakages (S, T, M) and three injections (I, G, X)",
+        "State the equilibrium condition: S + T + M = I + G + X",
+        "Apply the chain reaction method to trace any macroeconomic shock step-by-step"
+      ],
+      "formulas": [
+        "Y = C + I + G + (X − M)  [Expenditure Approach to GDP]",
+        "S + T + M = I + G + X  [Circular Flow Equilibrium: Leakages = Injections]",
+        "Real GDP = Nominal GDP ÷ (Price Level / 100)"
+      ],
+      "definitions": [
+        "Macroeconomics: The study of the performance of the national economy as a whole, and the government policies used to influence that performance.",
+        "GDP (Gross Domestic Product): The total market value of all final goods and services produced within a country's borders in a given period.",
+        "Real GDP: Nominal GDP adjusted for inflation using constant base-year prices. Used for genuine output comparisons across time or countries.",
+        "Business cycle: Short-run fluctuations in real GDP around its long-run trend, consisting of phases: expansion, peak, contraction (recession), trough, and recovery.",
+        "Circular flow of income: The continuous flow of income and expenditure between households and firms. Every rand of spending becomes income for someone else."
+      ],
+      "chainReactions": [
+        {
+          "title": "SARB cuts repo rate — Chain Reaction Example",
+          "pe": "Repo↓ → MS/P↑ → r↓ → I↑ → E↑ → Y↑",
+          "se": "Y↑ → MD↑ → r↑ (partial) → I↓ (partial) → Y↓ (partial)",
+          "net": "r↓, Y↑"
+        }
+      ],
+      "saContext": "SA 2020 Q2: GDP contracted at an annualised rate of 51.7% — the deepest single-quarter fall ever recorded in SA. The SARB responded by cutting the repo rate from 6.25% to 3.5% (lowest since 1973). The National Treasury launched a R500 billion relief package. By 2021, real GDP rebounded 4.9% — a textbook post-trough recovery.",
+      "revisionPrompts": [
+        "Name SA's five macroeconomic policy objectives",
+        "Calculate GDP using the expenditure approach given C, I, G, X, M values",
+        "Explain the difference between nominal and real GDP",
+        "Trace a chain reaction for a SARB repo rate cut showing PE, SE and net result",
+        "State the circular flow equilibrium condition and name the six components"
+      ],
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 1.0,
+        "version": 2,
+        "generatedBy": "manual-curation",
+        "generatedFrom": [
+          "module-guide"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-macroeconomics-9e-mankiw/9780357133498/",
+          "https://openstax.org/details/books/principles-macroeconomics-2e",
+          "https://www.resbank.co.za/en/home/publications",
+          "https://www.oecd.org/economic-outlook/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 2A",
+      "title": "The Simple Keynesian Model",
+      "outcomes": [
+        "State and interpret the consumption function C = a + b(1−t)Y. Identify each parameter.",
+        "State and interpret the investment function I = Ia − hr. Explain why I falls when r rises.",
+        "Derive the expenditure multiplier KE = 1/(1 − b(1−t) + m). Calculate KE given parameters.",
+        "Explain why three leakages (savings, taxes, imports) reduce the multiplier.",
+        "Draw and label the Keynesian Cross diagram. Show equilibrium where E = Y.",
+        "Show how G↑ shifts the expenditure function and raises equilibrium Y* by KE × ΔG.",
+        "State and interpret the import function M = ma + mY."
+      ],
+      "formulas": [
+        "C = a + b(1−t)Y  [Consumption Function; slope = b(1−t)]",
+        "I = Ia − hr  [Investment Function]",
+        "M = ma + mY  [Import Function]",
+        "KE = 1 / (1 − b(1−t) + m)  [Expenditure Multiplier]",
+        "Y* = KE × Autonomous Expenditure  [Keynesian Cross Equilibrium]",
+        "ΔY = KE × ΔG  [Effect of government spending change]"
+      ],
+      "definitions": [
+        "Autonomous consumption (a): The level of consumption when income Y = 0. Funded through past savings or credit. Positive even at zero income.",
+        "Marginal Propensity to Consume (MPC, b): The fraction of each additional rand of disposable income that households spend on consumption. 0 < b < 1 always.",
+        "Expenditure multiplier (KE): The factor by which a change in autonomous spending is amplified into a larger change in equilibrium income Y*.",
+        "Marginal Propensity to Import (MPM, m): The fraction of each additional rand of income spent on imports. A leakage from the circular flow.",
+        "Keynesian Cross: A diagram showing equilibrium where the expenditure function E intersects the 45° line (the E = Y condition)."
+      ],
+      "chainReactions": [
+        {
+          "title": "Fiscal Expansion (G increases) — Simple Keynesian Model",
+          "pe": "G↑ → E↑ → Y↑ = KE × ΔG (expenditure function shifts up; new equilibrium Y*)",
+          "se": "Note: No interest rate in the simple Keynesian model — this is the full multiplier effect. In IS-LM (Chapter 3), the Secondary Effect (crowding out) reduces this.",
+          "net": "Y↑ by full multiplier amount"
+        }
+      ],
+      "saContext": "SA's open economy with high import propensity (m) and high tax rates (t) means the actual multiplier is typically 1.5–2.0 — much less than simple textbook examples that ignore leakages.",
+      "revisionPrompts": [
+        "Calculate KE given b = 0.80, t = 0.25, m = 0.10",
+        "Explain why higher t reduces the expenditure multiplier",
+        "What is the difference between autonomous and induced imports?",
+        "Draw the Keynesian Cross and show the effect of G increasing by R100",
+        "Why are exports exogenous in the Keynesian model?"
+      ],
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 1.0,
+        "version": 2,
+        "generatedBy": "manual-curation",
+        "generatedFrom": [
+          "module-guide"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-macroeconomics-9e-mankiw/9780357133498/",
+          "https://openstax.org/details/books/principles-macroeconomics-2e",
+          "https://www.resbank.co.za/en/home/publications",
+          "https://www.oecd.org/economic-outlook/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 2B",
+      "title": "The Money Market",
+      "outcomes": [
+        "Apply the Fisher equation r ≈ i − π. Explain why the investment function uses r, not i.",
+        "State Keynes's three motives for holding money. Write the money demand function MD/P = kY − li.",
+        "CRITICAL: Distinguish a SHIFT of the MD curve (caused by Y changing) from a MOVEMENT ALONG the MD curve (caused by i or r changing).",
+        "Explain why MS is treated as exogenous and drawn as a vertical line.",
+        "Describe SARB's three monetary policy tools: repo rate, reserve requirements, OMOs.",
+        "Calculate the theoretical credit multiplier = 1/R.",
+        "Draw the money market diagram and show equilibrium r*.",
+        "Trace the full effect of a repo rate hike and a repo rate cut on r* and the LM curve."
+      ],
+      "formulas": [
+        "r ≈ i − π  [Fisher Equation]",
+        "MD/P = kY − li  [Money Demand Function]",
+        "Credit Multiplier = 1/R  [SA: R = 2.5% → CM = 40 theoretical maximum]"
+      ],
+      "definitions": [
+        "Nominal interest rate (i): The rate quoted by financial institutions — what the bank charges.",
+        "Real interest rate (r): The actual cost of borrowing in real terms, adjusted for inflation. r ≈ i − π.",
+        "Transactions demand for money: Money held to conduct day-to-day purchases. Rises with income Y.",
+        "Precautionary demand for money: Money held for unexpected emergencies. Rises with income Y.",
+        "Speculative demand for money: Money held as an asset when bond prices are expected to fall (interest rates expected to rise). Falls as i rises.",
+        "Liquidity preference: Keynes's term for the overall demand for money. Rises with Y, falls with i."
+      ],
+      "criticalRule": {
+        "title": "Shift vs Movement — CRITICAL EXAM RULE",
+        "shift": "Y changes → MD curve SHIFTS (draw a new curve). Reason: Y determines the POSITION of the MD curve.",
+        "movement": "i or r changes → MOVEMENT ALONG the existing MD curve. Reason: i is on the Y-axis — it cannot shift its own curve.",
+        "warning": "NEVER draw a new MD curve when only interest rates change. This is one of the most common errors in ECON211 exams."
+      },
+      "sarbTools": [
+        {
+          "tool": "Repo Rate",
+          "description": "The rate at which commercial banks borrow overnight from the SARB. Primary monetary policy tool. Raising repo → lending rates rise → less credit → MS growth slows → r* rises."
+        },
+        {
+          "tool": "Reserve Requirements",
+          "description": "Minimum cash reserves banks must hold. SA: currently 2.5%. Raising requirement → less available for lending → MS contracts → r* rises."
+        },
+        {
+          "tool": "Open Market Operations (OMOs)",
+          "description": "SARB buys or sells government bonds. Buy bonds → MS↑ → r* falls → LM right (expansionary). Sell bonds → MS↓ → r* rises → LM left (contractionary). Most flexible and frequently used."
+        }
+      ],
+      "saContext": "SA 2024: Repo rate i = 8.25%, inflation π ≈ 5.5% → r ≈ 2.75%. Theoretical credit multiplier = 40, but actual money creation is much less due to excess reserves and weak loan demand.",
+      "revisionPrompts": [
+        "Calculate r given i = 10.5% and π = 6.0%",
+        "What causes the MD curve to shift vs what causes movement along it?",
+        "Explain what happens in the money market when SARB sells government bonds (OMO)",
+        "Name Keynes's three motives for holding money",
+        "Calculate the theoretical credit multiplier if R = 2.5%"
+      ],
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 1.0,
+        "version": 2,
+        "generatedBy": "manual-curation",
+        "generatedFrom": [
+          "module-guide"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-macroeconomics-9e-mankiw/9780357133498/",
+          "https://openstax.org/details/books/principles-macroeconomics-2e",
+          "https://www.resbank.co.za/en/home/publications",
+          "https://www.oecd.org/economic-outlook/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 3",
+      "title": "The IS-LM Model",
+      "outcomes": [
+        "Explain why the IS curve slopes downward (r↑ → I↓ → E↓ → Y↓)",
+        "Explain why the LM curve slopes upward (Y↑ → MD↑ → r↑)",
+        "State what shifts IS vs what shifts LM",
+        "Draw IS-LM equilibrium. Find the unique (r*, Y*) combination where both markets clear simultaneously",
+        "Trace the full Primary Effect and Secondary Effect (crowding out) for a fiscal expansion",
+        "Trace the full Primary Effect and Secondary Effect for a monetary expansion",
+        "State the Golden Rule: fiscal → r and Y same direction; monetary → r and Y opposite directions",
+        "Explain crowding out: G↑ raises r → reduces private I → limits net Y increase",
+        "Analyse policy effectiveness using IS/LM slopes. Identify the liquidity trap and classical range"
+      ],
+      "formulas": [
+        "IS: r↑ → I↓ → E↓ → Y↓ (downward sloping in r-Y space)",
+        "LM: Y↑ → MD↑ → r↑ (upward sloping in r-Y space)",
+        "IS-LM Equilibrium: set IS equation = LM equation, solve for r* and Y*"
+      ],
+      "goldenRule": "Fiscal policy: r and Y move in the SAME direction. Monetary policy: r and Y move in OPPOSITE directions. Violating this means an error was made.",
+      "chainReactions": [
+        {
+          "title": "FISCAL EXPANSION (G↑) — Full IS-LM Analysis",
+          "pe": "G↑ → E↑ → IS shifts RIGHT → Y↑ (full Keynesian multiplier)",
+          "se": "Y↑ → MD↑ (transactions demand rises) → excess demand for money → r↑ → I↓ (crowding out) → E↓ → Y↓ (partial)",
+          "net": "r↑, Y↑ (net Y increase is less than KE × ΔG due to crowding out)"
+        },
+        {
+          "title": "CONTRACTIONARY FISCAL POLICY (G↓ or t↑)",
+          "pe": "G↓ → E↓ → IS shifts LEFT → Y↓",
+          "se": "Y↓ → MD↓ → r↓ → I↑ → Y↑ (partial)",
+          "net": "r↓, Y↓"
+        },
+        {
+          "title": "MONETARY EXPANSION (Repo↓) — Full IS-LM Analysis",
+          "pe": "Repo↓ → MS/P↑ → LM shifts RIGHT → r↓ → I↑ → E↑ → Y↑",
+          "se": "Y↑ → MD↑ → r↑ (partial) → I↓ (partial) → Y↓ (partial)",
+          "net": "r↓, Y↑"
+        },
+        {
+          "title": "CONTRACTIONARY MONETARY POLICY (Repo↑)",
+          "pe": "Repo↑ → MS/P↓ → LM shifts LEFT → r↑ → I↓ → Y↓",
+          "se": "Y↓ → MD↓ → r↓ (partial) → I↑ (partial) → Y↑ (partial)",
+          "net": "r↑, Y↓"
+        }
+      ],
+      "policyEffectivenessTable": [
+        {
+          "condition": "Flat LM (large l)",
+          "fiscalEffect": "More effective (less crowding out)",
+          "monetaryEffect": "Less effective (r barely changes)",
+          "reason": "Large l absorbs Y↑ without big r↑"
+        },
+        {
+          "condition": "Steep LM (small l)",
+          "fiscalEffect": "Less effective (more crowding out)",
+          "monetaryEffect": "More effective (r changes a lot)",
+          "reason": "Small l means Y↑ causes large r↑"
+        },
+        {
+          "condition": "Flat IS (large h)",
+          "fiscalEffect": "Less effective (r↑ kills I strongly)",
+          "monetaryEffect": "More effective (r↓ boosts I strongly)",
+          "reason": "Investment highly responsive to r"
+        },
+        {
+          "condition": "Steep IS (small h)",
+          "fiscalEffect": "More effective (r↑ barely reduces I)",
+          "monetaryEffect": "Less effective (r↓ barely boosts I)",
+          "reason": "Investment unresponsive to r"
+        },
+        {
+          "condition": "Liquidity Trap (LM horizontal)",
+          "fiscalEffect": "MAXIMUM effectiveness",
+          "monetaryEffect": "Monetary policy USELESS",
+          "reason": "Any MS increase absorbed into money holdings"
+        },
+        {
+          "condition": "Classical Range (LM vertical)",
+          "fiscalEffect": "COMPLETE crowding out",
+          "monetaryEffect": "Maximum monetary effectiveness",
+          "reason": "Any Y↑ requires massive r↑"
+        }
+      ],
+      "revisionPrompts": [
+        "Why does the IS curve slope downward? Write out the logic chain.",
+        "Why does the LM curve slope upward? Write out the logic chain.",
+        "State the Golden Rule for IS-LM policy direction.",
+        "Explain crowding out — what causes it and how does it reduce fiscal policy effectiveness?",
+        "Solve: IS: r = 10 − 0.02Y; LM: r = −2 + 0.01Y. Find r* and Y*.",
+        "Under what condition is fiscal policy at maximum effectiveness? What is this called?"
+      ],
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 1.0,
+        "version": 2,
+        "generatedBy": "manual-curation",
+        "generatedFrom": [
+          "module-guide"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-macroeconomics-9e-mankiw/9780357133498/",
+          "https://openstax.org/details/books/principles-macroeconomics-2e",
+          "https://www.resbank.co.za/en/home/publications",
+          "https://www.oecd.org/economic-outlook/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 4",
+      "title": "The Foreign Sector & IS-LM-BP",
+      "outcomes": [
+        "Define the Balance of Payments: BoP = CA + FA. State what is in each account.",
+        "Explain SA's structural CA deficit and how it is financed by portfolio capital inflows",
+        "Explain and draw the BP curve. State what causes it to slope upward.",
+        "State the effect of capital mobility on BP slope: high mobility = flatter BP",
+        "Apply the Mundell-Fleming theorem under fixed and floating regimes",
+        "Trace the full IS-LM-BP chain reaction for both fiscal and monetary policy under both regimes",
+        "Explain the exchange rate transmission: rand depreciation → X↑, M↓ → IS shifts right → Y↑",
+        "Calculate rand prices of imported goods before and after exchange rate changes",
+        "Explain SA's 'hot money' vulnerability and the Fed rate hike transmission chain"
+      ],
+      "formulas": [
+        "BoP = CA + FA",
+        "CA = (X − M) + NFP + NCT",
+        "Rand price = Dollar price × Exchange rate (R per $)",
+        "M = ma + mY  [Import function]"
+      ],
+      "definitions": [
+        "Current Account (CA): Records trade in goods and services, net factor payments (NFP), and net current transfers (NCT). SA typically runs a CA deficit.",
+        "Financial Account (FA): Records capital flows — foreign direct investment (FDI) and portfolio investment. SA finances its CA deficit primarily through portfolio inflows.",
+        "Hot money: Short-term portfolio capital that flows into SA for higher yields. Highly volatile — exits rapidly when global risk appetite falls or US rates rise.",
+        "BP curve: Shows all (r, Y) combinations consistent with BoP equilibrium (CA + FA = 0). Upward sloping because Y↑ worsens CA, requiring higher r to attract capital inflows."
+      ],
+      "bpPositioning": {
+        "above": "BoP SURPLUS — Memory: 'Above = Abundant' (excess foreign exchange)",
+        "below": "BoP DEFICIT — Memory: 'Below BP = Broke' (shortage of foreign exchange)"
+      },
+      "mundellFleming": {
+        "fixed": {
+          "fiscal": "HIGHLY EFFECTIVE — G↑ → IS right → BoP surplus → SARB buys FX → MS↑ → LM right (automatic) → Y↑↑",
+          "monetary": "COMPLETELY INEFFECTIVE — Repo↓ → LM right → BoP deficit → SARB sells FX → MS↓ → LM back left → Y unchanged"
+        },
+        "floating": {
+          "fiscal": "LARGELY INEFFECTIVE — G↑ → IS right → r↑ → capital inflows → Rand appreciates → X↓, M↑ → IS shifts back left → Y barely changes",
+          "monetary": "HIGHLY EFFECTIVE — Repo↓ → LM right → r↓ → capital outflows → Rand depreciates → X↑, M↓ → IS shifts right → Y↑↑"
+        },
+        "mnemonic": "Fix Fiscal, Float Monetary — Under FIXED rates → FISCAL works. Under FLOATING rates → MONETARY works."
+      },
+      "saContext": "SA operates a managed float (dirty float). SA's hot money vulnerability: when the US Federal Reserve raises rates, portfolio capital exits SA rapidly → Rand depreciates 15–25% in weeks → imported inflation rises → SARB must raise repo rate → SA I↓ → SA Y↓. This is SA's structural financial vulnerability.",
+      "revisionPrompts": [
+        "Calculate the rand price of a $300 good at R14.91/$ and at R18.50/$",
+        "What is the Mundell-Fleming result for fixed exchange rate + fiscal policy?",
+        "Why is monetary policy ineffective under a fixed exchange rate?",
+        "Explain SA's hot money vulnerability and the US Fed rate hike transmission chain",
+        "Above the BP curve: BoP surplus or deficit?"
+      ],
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 1.0,
+        "version": 2,
+        "generatedBy": "manual-curation",
+        "generatedFrom": [
+          "module-guide"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-macroeconomics-9e-mankiw/9780357133498/",
+          "https://openstax.org/details/books/principles-macroeconomics-2e",
+          "https://www.resbank.co.za/en/home/publications",
+          "https://www.oecd.org/economic-outlook/"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 6",
+      "title": "Aggregate Demand and Aggregate Supply",
+      "outcomes": [
+        "Derive the AD curve from IS-LM. Explain why AD slopes downward in (P, Y) space.",
+        "Explain what shifts the AD curve vs what causes movement along it.",
+        "Distinguish SRAS (upward sloping) from LRAS (vertical at Y* — potential output).",
+        "Explain why SRAS slopes up (nominal wage stickiness in the short run).",
+        "Explain why LRAS is vertical (all prices flexible in the long run).",
+        "Analyse a negative supply shock: simultaneous Y↓ and P↑ = stagflation.",
+        "Explain the accommodation dilemma.",
+        "Show that demand expansions only permanently affect P in the long run.",
+        "Draw and label the dual-panel diagram: IS-LM (top panel) linked to AD-AS (bottom panel)."
+      ],
+      "formulas": [
+        "AD derivation: P↑ → MS/P↓ → LM left → r↑ → I↓ → Y↓ (traces downward-sloping AD)",
+        "Long-run neutrality: demand policy cannot permanently raise Y above Y*"
+      ],
+      "definitions": [
+        "AD Curve: Derived from IS-LM. Shows inverse relationship between P and Y. Slopes down via the interest rate channel: P↑ → real MS falls → LM left → r↑ → I↓ → Y↓.",
+        "SRAS: Short Run Aggregate Supply. Upward sloping. Reason: nominal wages are sticky in the short run. P↑ → firm revenues rise but nominal wages unchanged → real wage falls → firms hire more → Q↑.",
+        "LRAS: Long Run Aggregate Supply. Vertical at Y* (potential output). All prices flexible in long run. Y determined by technology, capital, labour — not demand conditions.",
+        "Stagflation: Simultaneous inflation (P↑) and recession (Y↓). Caused by a negative supply shock shifting SRAS left. Demand policy cannot fix both at once."
+      ],
+      "chainReactions": [
+        {
+          "title": "NEGATIVE SUPPLY SHOCK (oil price spike, load-shedding)",
+          "pe": "Production costs↑ → SRAS shifts LEFT → P↑ AND Y↓ simultaneously → STAGFLATION",
+          "se": "No traditional SE — both Y and P move in damaging directions simultaneously",
+          "net": "Y↓, P↑ (stagflation)"
+        },
+        {
+          "title": "DEMAND EXPANSION (AD right) — Long Run Adjustment",
+          "pe": "G↑ or Repo↓ → AD shifts right → P↑, Y↑ (above Y*)",
+          "se": "Y > Y* → labour market tight → nominal wages rise → SRAS shifts left → Y↓ back toward Y*",
+          "net": "LR: Y = Y* (back to potential). Only P remains permanently higher. Long-run demand neutrality."
+        }
+      ],
+      "accommodationDilemma": {
+        "situation": "SRAS shifts left → Y↓ below Y*, P↑ (stagflation)",
+        "accommodate": "SARB cuts repo or government raises G → AD shifts right → Y returns quickly to Y*. BUT: P is now even higher — accommodation permanently validates the higher price level.",
+        "doNotAccommodate": "Keep AD unchanged. Y stays below Y* (recession). Over time, nominal wages fall → SRAS drifts right → Y gradually returns to Y*. Very slow, very painful.",
+        "saImplication": "SA's load-shedding-induced stagflation: SARB cannot cut rates (worsens inflation). Government cannot expand spending (budget constraints). Only real solution: fix Eskom (positive supply shock — SRAS right → Y↑ AND P↓ simultaneously)."
+      },
+      "saContext": "Load-shedding and Eskom tariff increases are classic negative supply shocks for SA. They shift SRAS left, creating stagflation — rising prices AND falling output simultaneously. SA's fiscal constraints (debt-to-GDP ~70%) and inflation mandate prevent traditional policy responses.",
+      "revisionPrompts": [
+        "Derive the AD curve from IS-LM — what is the transmission mechanism?",
+        "What causes stagflation and why can't demand policy fix it?",
+        "Explain the accommodation dilemma after a negative supply shock",
+        "What happens to Y in the LONG RUN after an AD expansion?",
+        "Draw the dual-panel IS-LM + AD-AS diagram for a repo rate cut"
+      ],
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 1.0,
+        "version": 2,
+        "generatedBy": "manual-curation",
+        "generatedFrom": [
+          "module-guide"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/principles-of-macroeconomics-9e-mankiw/9780357133498/",
+          "https://openstax.org/details/books/principles-macroeconomics-2e",
+          "https://www.resbank.co.za/en/home/publications",
+          "https://www.oecd.org/economic-outlook/"
+        ]
+      }
+    }
+  ],
+  "chapterStudyItems": [
+    {
+      "chapter": "Chapter 1",
+      "flashcards": [
+        {
+          "id": "ch1-fc-1",
+          "chapter": "Chapter 1",
+          "front": "What are SA's five macroeconomic policy objectives?",
+          "back": "(1) Price stability — SARB targets CPI inflation within a 3–6% band. (2) Economic growth — sustaining real GDP growth above population growth. (3) Full employment — SA's structural unemployment rate exceeds 30% (expanded definition). (4) Balance of Payments equilibrium — a sustainable external position. (5) Equitable income distribution — reduction of SA's high Gini coefficient.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-2",
+          "chapter": "Chapter 1",
+          "front": "State the expenditure approach to GDP and define each component.",
+          "back": "Y = C + I + G + (X − M). C = private consumption (largest component; ~60–65% of SA GDP). I = gross fixed capital formation (investment in machinery, buildings, infrastructure). G = government spending on goods/services (NOT transfer payments). (X−M) = net exports (negative when SA imports exceed exports — SA's typical position).",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-3",
+          "chapter": "Chapter 1",
+          "front": "What is the difference between nominal and real GDP?",
+          "back": "Nominal GDP uses current prices — rises with both output AND inflation. Real GDP uses constant base-year prices — measures only actual output changes. Always use Real GDP to compare growth over time. Real GDP = Nominal GDP ÷ (Price Level / 100).",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-4",
+          "chapter": "Chapter 1",
+          "front": "State the circular flow equilibrium condition and identify all six components.",
+          "back": "S + T + M = I + G + X (Leakages = Injections). Leakages: savings (S), taxes (T), imports (M). Injections: investment (I), government spending (G), exports (X). At equilibrium, total leakages equal total injections.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-5",
+          "chapter": "Chapter 1",
+          "front": "Name the phases of the business cycle in order and give an SA example.",
+          "back": "Expansion → Peak → Contraction (recession) → Trough → Recovery. SA example: 2001–2007 expansion; 2020 Q2 trough (GDP fell 51.7% annualised — worst since 1945, caused by COVID-19 lockdown). SARB responded with repo cut from 6.25% to 3.5%.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch1-q1",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is NOT one of SA's five macroeconomic policy objectives?",
+          "options": [
+            "Price stability within the SARB's 3–6% band",
+            "Maximum government revenue collection",
+            "Balance of Payments equilibrium",
+            "Equitable income distribution"
+          ],
+          "answer": "Maximum government revenue collection",
+          "explanation": "SA's objectives are price stability, economic growth, full employment, BoP equilibrium, and equitable income distribution. Maximising revenue is not a macroeconomic objective — it is a fiscal consideration.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q2",
+          "chapter": "Chapter 1",
+          "questionType": "short-answer",
+          "prompt": "True or False: Government transfer payments (e.g., social grants) are included in the G component of the expenditure approach to GDP.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "False",
+          "explanation": "G in Y = C + I + G + (X−M) represents government spending on goods and services only. Transfer payments (grants, pensions, subsidies) are excluded because they involve no production of goods or services — they simply redistribute income.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q3",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "In the chain reaction method, the Secondary Effect (SE) is best described as:",
+          "options": [
+            "Always equal to and in the same direction as the Primary Effect",
+            "Always opposite to the Primary Effect but smaller in magnitude",
+            "Always larger than the Primary Effect",
+            "The same as the Primary Effect but delayed by one period"
+          ],
+          "answer": "Always opposite to the Primary Effect but smaller in magnitude",
+          "explanation": "The SE always works opposite to the PE. If the PE raises Y, the SE reduces Y (partially). The SE is always smaller than the PE — which is why the net effect remains in the same direction as the PE.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q4",
+          "chapter": "Chapter 1",
+          "questionType": "short-answer",
+          "prompt": "Calculate Real GDP given: Nominal GDP = R2 000 billion; Price level index = 125 (base year = 100).",
+          "options": [
+            "Real GDP = R1 600 billion",
+            "Real GDP = R2 000 billion",
+            "Real GDP = R2 500 billion",
+            "Real GDP = R1 000 billion"
+          ],
+          "answer": "Real GDP = R1 600 billion",
+          "explanation": "Real GDP = Nominal GDP ÷ (P/100) = 2 000 ÷ 1.25 = R1 600 billion. The price level of 125 means prices are 25% higher than the base year — dividing removes this inflation component.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 2A",
+      "flashcards": [
+        {
+          "id": "ch2a-fc-1",
+          "chapter": "Chapter 2A",
+          "front": "Write the consumption function and identify every parameter.",
+          "back": "C = a + b(1−t)Y. a = autonomous consumption (floor; positive at Y=0). b = MPC (0 < b < 1). t = tax rate. (1−t)Y = disposable income. Slope of C function = b(1−t).",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2a-fc-2",
+          "chapter": "Chapter 2A",
+          "front": "Write the expenditure multiplier formula. What makes it larger or smaller?",
+          "back": "KE = 1/(1 − b(1−t) + m). Larger when: b is high (spend more of each rand), t is low (less tax), m is low (less spent on imports). SA's open economy and high tax rates mean KE is typically 1.5–2.0 — much less than the simple 1/(1−b).",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2a-fc-3",
+          "chapter": "Chapter 2A",
+          "front": "In the Keynesian Cross, what does the 45° line represent?",
+          "back": "The 45° line shows all points where E = Y — the equilibrium condition. At any point on this line, total expenditure exactly equals total output. Equilibrium Y* is where the expenditure function crosses this 45° line.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2a-fc-4",
+          "chapter": "Chapter 2A",
+          "front": "What is the difference between autonomous and induced imports?",
+          "back": "Autonomous imports (ma): essential goods imported regardless of income level (oil, capital equipment). Induced imports (mY): imports that rise as income rises. m = MPM. Exports X are fully exogenous — a horizontal line, not a function of Y.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2a-fc-5",
+          "chapter": "Chapter 2A",
+          "front": "If G increases by R100 and KE = 2.5, what happens to Y?",
+          "back": "ΔY = KE × ΔG = 2.5 × 100 = R250. The expenditure function shifts UP by R100. Because of the multiplier effect, equilibrium Y* rises by R250 — each rand of government spending generates additional rounds of spending in the circular flow.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch2a-q1",
+          "chapter": "Chapter 2A",
+          "questionType": "short-answer",
+          "prompt": "Given: MPC (b) = 0.80, tax rate (t) = 0.25, MPM (m) = 0.10. Calculate: (a) the slope of the expenditure function; (b) the expenditure multiplier KE.",
+          "options": [
+            "(a) Slope = 0.50; (b) KE = 2.00",
+            "(a) Slope = 0.80; (b) KE = 5.00",
+            "(a) Slope = 0.45; (b) KE = 2.22",
+            "(a) Slope = 0.60; (b) KE = 1.67"
+          ],
+          "answer": "(a) Slope = 0.50; (b) KE = 2.00",
+          "explanation": "Step 1: disposable income fraction = 1−t = 0.75. Step 2: induced consumption per rand = b(1−t) = 0.80 × 0.75 = 0.60. Step 3: slope = 0.60 − 0.10 (MPM) = 0.50. Step 4: KE = 1/(1 − 0.50) = 2.00. For every R1 increase in G, Y* rises by R2.00 (before IS-LM crowding out).",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2a-q2",
+          "chapter": "Chapter 2A",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following causes the expenditure multiplier (KE) to be SMALLER?",
+          "options": [
+            "A higher marginal propensity to consume (b)",
+            "A higher marginal propensity to import (m)",
+            "A lower tax rate (t)",
+            "A lower marginal propensity to save"
+          ],
+          "answer": "A higher marginal propensity to import (m)",
+          "explanation": "Higher m increases the denominator of KE → smaller KE (spending leaks overseas). Higher b would INCREASE KE. Lower t increases disposable income → larger KE. SA has high m and high t, which is why our actual multiplier is much smaller than textbook examples assume.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2a-q3",
+          "chapter": "Chapter 2A",
+          "questionType": "short-answer",
+          "prompt": "True or False: Exports (X) in the Keynesian model are a function of domestic income Y, just like imports.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "False",
+          "explanation": "Exports are EXOGENOUS — determined by foreign income and foreign demand, not by domestic Y. X appears as a horizontal line in the three-diagram model. Depreciation of the rand can increase X because it makes SA goods cheaper for foreigners — depreciation affects foreign demand, not domestic Y directly.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 2B",
+      "flashcards": [
+        {
+          "id": "ch2b-fc-1",
+          "chapter": "Chapter 2B",
+          "front": "State the Fisher equation and give a numerical SA example.",
+          "back": "r ≈ i − π. Real rate = nominal rate minus inflation. SA 2024: i = 8.25% (repo), π = 5.5% → r ≈ 2.75%. Firms compare r with expected project returns. If a project yields 4% and r = 2.75%, it is profitable to borrow and invest.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2b-fc-2",
+          "chapter": "Chapter 2B",
+          "front": "State the three motives for holding money (Keynes).",
+          "back": "(1) Transactions demand: hold money for daily purchases (rises with Y). (2) Precautionary demand: hold cash for emergencies (rises with Y). (3) Speculative demand: hold cash when bonds seem risky / rates expected to rise (falls as i rises). Together: MD/P = kY − li.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2b-fc-3",
+          "chapter": "Chapter 2B",
+          "front": "CRITICAL: What causes the MD curve to SHIFT vs. what causes a movement ALONG it?",
+          "back": "SHIFT (new curve): Income Y changes → transactions and precautionary demand change → entire MD curve moves left or right. MOVEMENT ALONG: Interest rate i or r changes → already shown by the slope of the curve — move up or down the existing MD curve. NEVER draw a new MD curve when only i changes.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2b-fc-4",
+          "chapter": "Chapter 2B",
+          "front": "SARB sells government bonds (OMO). What happens in the money market?",
+          "back": "SARB sells bonds → removes money from the banking system → MS/P decreases → MS vertical line shifts LEFT → at existing MD, there is excess demand for money → people sell other assets → r* rises to restore equilibrium → LM shifts LEFT (contractionary monetary policy).",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2b-fc-5",
+          "chapter": "Chapter 2B",
+          "front": "What is the theoretical credit multiplier and what limits it in practice?",
+          "back": "Credit Multiplier = 1/R. SA: R = 2.5% → CM = 40. In theory, R1 of reserves supports R40 of deposits/loans. In practice: banks hold excess reserves, loan demand may be low, borrowers may default. Actual money multiplier is much less than 40.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch2b-q1",
+          "chapter": "Chapter 2B",
+          "questionType": "multiple-choice",
+          "prompt": "Income in the economy rises significantly. What happens in the money market diagram?",
+          "options": [
+            "The MD curve shifts right (new curve); r* rises",
+            "There is a movement up along the existing MD curve; r* rises",
+            "The MS curve shifts right; r* falls",
+            "The MD curve shifts right; r* falls"
+          ],
+          "answer": "The MD curve shifts right (new curve); r* rises",
+          "explanation": "Y↑ → transactions demand and precautionary demand both rise → MD curve SHIFTS right (entirely new curve). At the existing MS, there is now excess demand for money → r* rises to a new higher equilibrium. This is a SHIFT of MD, not a movement along it.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2b-q2",
+          "chapter": "Chapter 2B",
+          "questionType": "short-answer",
+          "prompt": "True or False: A rise in the interest rate causes the money demand (MD) curve to shift to the left.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "False",
+          "explanation": "A rise in the interest rate causes a MOVEMENT ALONG the existing MD curve. The MD curve only SHIFTS when income Y changes. Interest rate i is on the Y-axis — it cannot shift its own curve.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2b-q3",
+          "chapter": "Chapter 2B",
+          "questionType": "short-answer",
+          "prompt": "Given: nominal interest rate i = 10.5%; inflation rate π = 6.0%. Calculate the real interest rate r. If a firm expects a 5% return on a new machine, should it borrow to invest?",
+          "options": [
+            "r = 4.5%; YES, the firm should invest (expected return 5% > real borrowing cost 4.5%)",
+            "r = 4.5%; NO, the expected return does not exceed the real rate",
+            "r = 6%; YES, the firm should invest",
+            "r = 10.5%; NO, nominal rate exceeds expected return"
+          ],
+          "answer": "r = 4.5%; YES, the firm should invest (expected return 5% > real borrowing cost 4.5%)",
+          "explanation": "r = i − π = 10.5% − 6.0% = 4.5%. Since the expected return on the project (5%) exceeds the real borrowing cost (4.5%), it IS profitable to borrow and invest. High nominal rates with high inflation may still be cheap in real terms.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 3",
+      "flashcards": [
+        {
+          "id": "ch3-fc-1",
+          "chapter": "Chapter 3",
+          "front": "Why does the IS curve slope downward?",
+          "back": "r↑ → I↓ (investment function: I = Ia − hr). Lower I → lower E → lower equilibrium Y. So higher r is associated with lower Y. This negative relationship between r and Y traces the downward-sloping IS curve.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-2",
+          "chapter": "Chapter 3",
+          "front": "Why does the LM curve slope upward?",
+          "back": "Y↑ → MD↑ (transactions and precautionary demand rise). At existing MS, there is excess demand for money. To restore money market equilibrium, r must rise. So higher Y requires higher r. This positive relationship between Y and r traces the upward-sloping LM curve.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-3",
+          "chapter": "Chapter 3",
+          "front": "State the Golden Rule for IS-LM policy analysis.",
+          "back": "Fiscal policy: r and Y move in the SAME direction (G↑ → r↑, Y↑; G↓ → r↓, Y↓). Monetary policy: r and Y move in OPPOSITE directions (Repo↓ → r↓, Y↑; Repo↑ → r↑, Y↓). Violating this rule means an error was made.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-4",
+          "chapter": "Chapter 3",
+          "front": "What is 'crowding out' and when does it occur?",
+          "back": "Crowding out occurs when G↑ raises r (via secondary effect), which then reduces private investment I. Government spending partially displaces private spending in credit markets. Occurs with fiscal expansion. Severity depends on LM slope: steeper LM = more crowding out = less effective fiscal policy.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-5",
+          "chapter": "Chapter 3",
+          "front": "What causes IS to shift vs what causes LM to shift?",
+          "back": "IS shifts: G↑ or t↓ (fiscal policy), Ia↑ (investment confidence), X↑ (rand depreciates), consumer spending changes. LM shifts: MS changes (repo rate, OMOs, reserve requirements). Key rule: fiscal policy shifts IS, NOT LM. Monetary policy shifts LM, NOT IS.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch3-q1",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "Government spending (G) increases. What is the correct sequence for the SECONDARY EFFECT in the IS-LM model?",
+          "options": [
+            "G↑ → IS shifts right → Y↑ → r↑",
+            "Y↑ → MD↑ → r↑ → I↓ → Y↓ (partial)",
+            "LM shifts left → r↑ → Y↓",
+            "IS shifts right → LM shifts right → Y↑↑"
+          ],
+          "answer": "Y↑ → MD↑ → r↑ → I↓ → Y↓ (partial)",
+          "explanation": "After the Primary Effect (IS shifts right, Y rises), the SE begins: Y↑ → MD↑ (more transactions) → excess demand for money → r↑ → I↓ (crowding out) → Y↓ partially. This SE reduces the PE but does not eliminate it. Net result: r↑ and Y↑ (less than the full Keynesian multiplier).",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q2",
+          "chapter": "Chapter 3",
+          "questionType": "short-answer",
+          "prompt": "True or False: Under the Liquidity Trap, monetary policy is completely effective and fiscal policy is completely ineffective.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "False",
+          "explanation": "It is the OPPOSITE. In the Liquidity Trap, the LM curve is horizontal. Any increase in MS is absorbed into money holdings — r does not fall — so monetary policy is USELESS. Fiscal policy (IS shifts right) is at MAXIMUM effectiveness because there is no crowding out (r cannot rise above the trap rate).",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q3",
+          "chapter": "Chapter 3",
+          "questionType": "short-answer",
+          "prompt": "The IS curve is given by: r = 10 − 0.02Y. The LM curve is given by: r = −2 + 0.01Y. Find equilibrium r* and Y*.",
+          "options": [
+            "Y* = 400; r* = 2%",
+            "Y* = 300; r* = 4%",
+            "Y* = 500; r* = 0%",
+            "Y* = 200; r* = 6%"
+          ],
+          "answer": "Y* = 400; r* = 2%",
+          "explanation": "Set IS = LM: 10 − 0.02Y = −2 + 0.01Y → 12 = 0.03Y → Y* = 400. Then r* = 10 − 0.02(400) = 10 − 8 = 2%. Check with LM: r = −2 + 0.01(400) = 2% ✓.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 4",
+      "flashcards": [
+        {
+          "id": "ch4-fc-1",
+          "chapter": "Chapter 4",
+          "front": "State the structure of the Balance of Payments. What does SA's BoP look like?",
+          "back": "BoP = CA + FA. SA: CA = typically DEFICIT (imports > exports + NFP + NCT). FA = typically SURPLUS (portfolio inflows finance the CA deficit). The FA surplus covers the CA deficit — but hot money is volatile and can exit suddenly, leaving SA exposed.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-2",
+          "chapter": "Chapter 4",
+          "front": "What determines the slope of the BP curve? What does SA's BP look like?",
+          "back": "Steeper BP = low capital mobility. Flatter BP = high capital mobility. SA has HIGH capital mobility (large portfolio flows respond strongly to interest rate differentials). Therefore SA's BP curve is relatively FLAT. A small rise in r attracts large capital inflows → BoP balance is restored quickly.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-3",
+          "chapter": "Chapter 4",
+          "front": "Above the BP curve: BoP surplus or deficit? Memory aid?",
+          "back": "ABOVE BP = BoP SURPLUS. Memory: 'Above = Abundant' (excess foreign exchange). BELOW BP = BoP DEFICIT. Memory: 'Below BP = Broke' (shortage of foreign exchange). If your IS-LM equilibrium lands above BP, the country has a BoP surplus at that (r, Y) combination.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-4",
+          "chapter": "Chapter 4",
+          "front": "State the Mundell-Fleming result. What is the SA implication?",
+          "back": "Fixed regime: fiscal effective, monetary ineffective. Floating regime: monetary effective, fiscal ineffective. Mnemonic: 'Fix Fiscal, Float Monetary'. SA has a managed float (dirty float) → closer to floating → monetary policy (repo rate) has more stabilisation power than fiscal policy in SA.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-5",
+          "chapter": "Chapter 4",
+          "front": "How does rand DEPRECIATION affect the IS curve?",
+          "back": "Rand depreciates → SA exports cheaper for foreigners → X↑ → Net exports NX↑ → E↑ → IS shifts RIGHT → Y↑. Also: rand depreciates → imports more expensive → M↓ (volume falls) → NX improves further. Net: depreciation is expansionary (shifts IS right, raises Y). But: also raises import prices → inflation risk.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch4-q1",
+          "chapter": "Chapter 4",
+          "questionType": "short-answer",
+          "prompt": "The rand depreciates from R14.91/$ to R18.50/$. Calculate the new rand price of an imported good that costs $300.",
+          "options": [
+            "Original: R4 473. New price: R5 550. Increase: R1 077.",
+            "Original: R4 200. New price: R5 000. Increase: R800.",
+            "Original: R4 473. New price: R6 000. Increase: R1 527.",
+            "Original: R3 000. New price: R4 000. Increase: R1 000."
+          ],
+          "answer": "Original: R4 473. New price: R5 550. Increase: R1 077.",
+          "explanation": "Rand price = dollar price × exchange rate. Original: 300 × 14.91 = R4 473. New: 300 × 18.50 = R5 550. Increase of R1 077. Depreciation means more rand per dollar → each imported good costs more rands. This is imported inflation — petrol becomes immediately more expensive when the rand depreciates.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q2",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Under a FLOATING exchange rate, expansionary monetary policy (repo rate cut) is effective because:",
+          "options": [
+            "The SARB defends the exchange rate by buying foreign exchange, expanding MS further",
+            "r↓ → capital outflows → rand depreciates → X↑, M↓ → IS shifts right, reinforcing the output effect",
+            "r↓ attracts capital inflows → rand appreciates → makes SA exports competitive",
+            "The fiscal multiplier amplifies the initial monetary stimulus"
+          ],
+          "answer": "r↓ → capital outflows → rand depreciates → X↑, M↓ → IS shifts right, reinforcing the output effect",
+          "explanation": "Repo↓ → LM right → r↓ → capital outflows (SA less attractive vs abroad) → rand depreciates → exports cheaper, imports dearer → X↑, M↓ → NX↑ → IS shifts right. This IS shift reinforces the original LM shift → Y rises more than under a closed economy. The exchange rate acts as an amplifier of monetary policy under floating.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q3",
+          "chapter": "Chapter 4",
+          "questionType": "short-answer",
+          "prompt": "True or False: Under a fixed exchange rate regime, expansionary monetary policy is highly effective because the SARB supports both the fixed rate and the monetary expansion simultaneously.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "False",
+          "explanation": "Under fixed rates, expansionary monetary policy is INEFFECTIVE. Repo↓ → LM right → r↓ → capital outflows → BoP deficit → SARB must sell foreign exchange to maintain the fixed rate → this withdraws money from the economy → MS↓ → LM shifts back LEFT to original. The SARB's obligation to defend the exchange rate automatically undoes the monetary expansion.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 6",
+      "flashcards": [
+        {
+          "id": "ch6-fc-1",
+          "chapter": "Chapter 6",
+          "front": "How is the AD curve derived from IS-LM? Why does it slope down?",
+          "back": "P↑ → MS/P↓ (real money supply falls) → LM shifts left → r↑ → I↓ → E↓ → Y↓. Each time P is assumed higher in IS-LM, we get a lower equilibrium Y. Plotting (P, Y) combinations traces the downward-sloping AD curve. AD slopes down through the INTEREST RATE channel, not a simple price-quantity relationship.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-2",
+          "chapter": "Chapter 6",
+          "front": "What is stagflation? What causes it?",
+          "back": "Stagflation = simultaneous inflation (P↑) and recession (Y↓). Caused by a NEGATIVE SUPPLY SHOCK that shifts SRAS left. Examples: oil price spikes (1973, 2022), load-shedding increasing firm costs. Demand policy cannot fix both problems simultaneously — cutting rates helps Y but worsens inflation; raising rates helps P but deepens recession.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-3",
+          "chapter": "Chapter 6",
+          "front": "What happens in the LONG RUN after an AD expansion?",
+          "back": "SR: AD right → Y rises above Y*, P rises. Y > Y* → labour market tight → nominal wages rise → production costs up → SRAS shifts left → Y falls back toward Y*. LR: Y = Y* (back to potential). Only P remains permanently higher. Long-run demand neutrality: you cannot permanently raise output above potential through demand management.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-4",
+          "chapter": "Chapter 6",
+          "front": "Explain the accommodation dilemma after a negative supply shock.",
+          "back": "After SRAS shifts left (stagflation): Accommodate (AD right) → Y quickly restored to Y*, but P even higher (validates the shock price level). Don't accommodate → Y stays below Y* (recession) until wages fall slowly and SRAS drifts right. Trade-off: price stability vs immediate output recovery. SA's dilemma: load-shedding shock; only real fix is a positive supply-side reform (fix Eskom → SRAS right → Y↑ AND P↓).",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-5",
+          "chapter": "Chapter 6",
+          "front": "What shifts SRAS left vs what shifts it right?",
+          "back": "SRAS shifts LEFT (worse): input cost increases (oil price↑, electricity tariffs↑, wage settlements above productivity, rand depreciation raising import costs). SRAS shifts RIGHT (better): input cost decreases, technology improvements, energy cost reductions, labour market reforms. LRAS shifts right only through: capital accumulation, technology, labour force growth, institutional improvement.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch6-q1",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "After a positive demand shock shifts AD right, what happens in the LONG RUN?",
+          "options": [
+            "Y permanently remains above Y* and P stays at its new higher level",
+            "Wages rise → SRAS shifts left → Y returns to Y*, only P remains permanently higher",
+            "LRAS shifts right to accommodate the higher demand permanently",
+            "The SARB intervenes to keep Y above Y* through continued monetary expansion"
+          ],
+          "answer": "Wages rise → SRAS shifts left → Y returns to Y*, only P remains permanently higher",
+          "explanation": "LR adjustment: Y > Y* → labour market tightens → nominal wages rise → SRAS shifts left → Y returns to Y*. LRAS does not shift (it requires structural supply-side changes). The demand expansion permanently raises P but not Y. This is long-run demand neutrality.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q2",
+          "chapter": "Chapter 6",
+          "questionType": "short-answer",
+          "prompt": "True or False: A negative supply shock is beneficial for the central bank because falling output reduces inflationary pressure.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "False",
+          "explanation": "A negative supply shock shifts SRAS left → Y↓ AND P↑ simultaneously (stagflation). The price level rises DESPITE falling output. The SARB faces a dilemma: cut rates to fight recession (but P rises further) or raise rates to fight inflation (but Y falls further). There is no demand policy that can fix both simultaneously.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q3",
+          "chapter": "Chapter 6",
+          "questionType": "short-answer",
+          "prompt": "In the AD-AS model, a negative supply shock (e.g. oil price spike) causes:",
+          "options": [
+            "AD shifts right, output rises, price level falls",
+            "SRAS shifts left, output falls, price level rises (stagflation)",
+            "LRAS shifts right, potential output increases",
+            "AD shifts left, output falls, price level falls (deflation)"
+          ],
+          "answer": "SRAS shifts left, output falls, price level rises (stagflation)",
+          "explanation": "Step 1: Higher electricity tariffs = negative supply shock → SRAS shifts LEFT. Step 2 (SR): SRAS left → Y↓ AND P↑ simultaneously = STAGFLATION. In IS-LM panel: no direct shift to IS or LM from the supply shock itself. Step 3 (Accommodation dilemma): Option A (accommodate) — SARB cuts repo → LM right → r↓ → I↑ → AD shifts right → Y returns to Y*. BUT: P rises even further. Option B (don't accommodate) — AD unchanged, Y stays below Y* (recession). Slow wage deflation eventually → SRAS drifts right → Y gradually recovers. Step 4 (LR, no accommodation): wages fall → SRAS drifts right → Y returns to Y*, P returns closer to original level. Best permanent solution: fix Eskom → SRAS shifts right → Y↑ AND P↓ simultaneously.",
+          "source": "Structured curriculum content",
+          "metadata": {
+            "reviewStatus": "reviewed",
+            "confidence": 1.0,
+            "version": 2,
+            "generatedBy": "manual-curation",
+            "generatedFrom": [
+              "module-guide"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [],
+      "calculators": [],
+      "graphs": []
+    }
+  ],
+  "resourcePointers": [],
+  "confidence": 1.0,
+  "missingContent": [],
+  "generatedAt": "2026-04-02T04:51:22.467713Z",
+  "discipline": "macroeconomics",
+  "referenceList": [
+    {
+      "title": "Mankiw, N.G. — Macroeconomics (Cengage)",
+      "publisher": "Cengage",
+      "url": "https://www.cengage.com/c/principles-of-macroeconomics-9e-mankiw/9780357133498/",
+      "note": "Standard macro text covering GDP, growth, unemployment, monetary & fiscal policy.",
+      "sourceHash": "51f4ef78d89acc0a1aac4e138afbe2b1367c68734986906859565ceb2a0437df"
+    },
+    {
+      "title": "OpenStax — Principles of Macroeconomics 2e (free, CC BY)",
+      "publisher": "OpenStax / Rice University",
+      "url": "https://openstax.org/details/books/principles-macroeconomics-2e",
+      "note": "Open-access macro textbook; good for worked examples and self-test.",
+      "sourceHash": "ef264d0495ed9240649f43066bdc0b22614886745bf35c418c21e79954eb1cc1"
+    },
+    {
+      "title": "South African Reserve Bank — Monetary Policy Review",
+      "publisher": "SARB",
+      "url": "https://www.resbank.co.za/en/home/publications",
+      "note": "Authoritative SA monetary-policy context.",
+      "sourceHash": "7e2a0c45aaefabbcde873f5a88f7d8fb2397d14f0458e03bc8775c1c1de120d7"
+    },
+    {
+      "title": "OECD — Economic Outlook & data",
+      "publisher": "OECD",
+      "url": "https://www.oecd.org/economic-outlook/",
+      "note": "Comparative international macro data and forecasts.",
+      "sourceHash": "6c5705d3bed8a4fa4e1ece7d3599c3db12612a58afe721aa7108f0e810a23c4c"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: Macroeconomics (B.Com Economic Sciences, North-West University). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "Chapter-by-chapter teaching focus (derived from the module's own learning outcomes and key definitions):",
+    "  • Chapter 1 — Introduction to Macroeconomics. Emphasise: Define macroeconomics and distinguish it from microeconomics; State South Africa's five macroeconomic policy objectives with brief explanation of each; Calculate GDP using the expenditure approach: Y = C + I + G + (X − M). Local context: SA 2020 Q2: GDP contracted at an annualised rate of 51.7% — the deepest single-quarter fall ever recorded in SA. The SARB responded by cutting the repo rate from 6.25% to 3.5% (lowest since 1973). The National Treasury launched a R500 billion relief package. By 2021, real GDP rebounded 4.9% — a textbook post-trough recovery.",
+    "  • Chapter 2A — The Simple Keynesian Model. Emphasise: State and interpret the consumption function C = a + b(1−t)Y. Identify each parameter.; State and interpret the investment function I = Ia − hr. Explain why I falls when r rises.; Derive the expenditure multiplier KE = 1/(1 − b(1−t) + m). Calculate KE given parameters.. Local context: SA's open economy with high import propensity (m) and high tax rates (t) means the actual multiplier is typically 1.5–2.0 — much less than simple textbook examples that ignore leakages.",
+    "  • Chapter 2B — The Money Market. Emphasise: Apply the Fisher equation r ≈ i − π. Explain why the investment function uses r, not i.; State Keynes's three motives for holding money. Write the money demand function MD/P = kY − li.; CRITICAL: Distinguish a SHIFT of the MD curve (caused by Y changing) from a MOVEMENT ALONG the MD curve (caused by i or r changing).. Local context: SA 2024: Repo rate i = 8.25%, inflation π ≈ 5.5% → r ≈ 2.75%. Theoretical credit multiplier = 40, but actual money creation is much less due to excess reserves and weak loan demand.",
+    "  • Chapter 3 — The IS-LM Model. Emphasise: Explain why the IS curve slopes downward (r↑ → I↓ → E↓ → Y↓); Explain why the LM curve slopes upward (Y↑ → MD↑ → r↑); State what shifts IS vs what shifts LM.",
+    "  • Chapter 4 — The Foreign Sector & IS-LM-BP. Emphasise: Define the Balance of Payments: BoP = CA + FA. State what is in each account.; Explain SA's structural CA deficit and how it is financed by portfolio capital inflows; Explain and draw the BP curve. State what causes it to slope upward.. Local context: SA operates a managed float (dirty float). SA's hot money vulnerability: when the US Federal Reserve raises rates, portfolio capital exits SA rapidly → Rand depreciates 15–25% in weeks → imported inflation rises → SARB must raise repo rate → SA I↓ → SA Y↓. This is SA's structural financial vulnerability.",
+    "  • Chapter 6 — Aggregate Demand and Aggregate Supply. Emphasise: Derive the AD curve from IS-LM. Explain why AD slopes downward in (P, Y) space.; Explain what shifts the AD curve vs what causes movement along it.; Distinguish SRAS (upward sloping) from LRAS (vertical at Y* — potential output).. Local context: Load-shedding and Eskom tariff increases are classic negative supply shocks for SA. They shift SRAS left, creating stagflation — rising prices AND falling output simultaneously. SA's fiscal constraints (debt-to-GDP ~70%) and inflation mandate prevent traditional policy responses.",
+    "Pedagogy tip (quantitative): work at least one fully solved example on the board per topic, then assign a parallel guided-practice problem. Common student errors: sign errors in debit/credit (accounting), confusing correlation with causation (stats/econ), and unit/percentage mistakes in ratio work. Build a short weekly formative quiz from the module's own revision prompts.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "51f4ef78d89acc0a1aac4e138afbe2b1367c68734986906859565ceb2a0437df",
+    "ef264d0495ed9240649f43066bdc0b22614886745bf35c418c21e79954eb1cc1",
+    "7e2a0c45aaefabbcde873f5a88f7d8fb2397d14f0458e03bc8775c1c1de120d7",
+    "6c5705d3bed8a4fa4e1ece7d3599c3db12612a58afe721aa7108f0e810a23c4c"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

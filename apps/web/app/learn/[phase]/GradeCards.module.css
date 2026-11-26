@@ -1,0 +1,92 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  border-radius: var(--r-lg, 18px);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  text-decoration: none;
+  color: var(--text-1);
+  transition: transform 0.13s, box-shadow 0.13s, border-color 0.13s;
+  box-shadow: var(--sh-sm, 0 2px 6px rgba(0,0,0,0.05));
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+  border-color: var(--gold-border);
+}
+
+.badge {
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  border-radius: var(--r-md, 12px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.02em;
+}
+
+/* phase-tinted grade badge */
+.badge[data-phase="foundation"] { background: linear-gradient(135deg, #1a6b45, #3dbf7a); }
+.badge[data-phase="intermediate"] { background: linear-gradient(135deg, #1a3a6b, #3572c6); }
+.badge[data-phase="senior"] { background: linear-gradient(135deg, #7a3e0e, #e07024); }
+.badge[data-phase="fet"] { background: linear-gradient(135deg, #4a3800, #b89000); }
+
+.info {
+  flex: 1;
+  min-width: 0;
+  display: grid;
+  gap: 3px;
+}
+
+.name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-1);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.meta {
+  font-size: 0.78rem;
+  color: var(--text-2);
+}
+
+.arrow {
+  color: var(--text-3, var(--text-2));
+  font-size: 1rem;
+  flex-shrink: 0;
+  transition: transform 0.13s;
+}
+
+.card:hover .arrow {
+  transform: translateX(3px);
+  color: var(--gold);
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .badge {
+    width: 44px;
+    height: 44px;
+    font-size: 1.15rem;
+  }
+}

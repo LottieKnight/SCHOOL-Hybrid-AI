@@ -1,0 +1,15 @@
+import * as Sentry from "@sentry/react-native";
+
+const DSN = process.env.EXPO_PUBLIC_SENTRY_DSN ?? "";
+
+export function initSentry() {
+  if (!DSN) return;
+  Sentry.init({
+    dsn: DSN,
+    tracesSampleRate: __DEV__ ? 1.0 : 0.1,
+    enabled: !__DEV__,
+    debug: false,
+  });
+}
+
+export { Sentry };

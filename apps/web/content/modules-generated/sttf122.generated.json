@@ -1,0 +1,2027 @@
+{
+  "institution": "North-West University",
+  "moduleCode": "STTF122",
+  "moduleName": "Statistics 122",
+  "semester": "Semester 2, 2025",
+  "programme": "BCom",
+  "confidence": 0.82,
+  "generatedAt": "2026-04-03T00:00:00.000Z",
+  "sourceFiles": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "missingContent": [],
+  "studyUnits": [
+    "Chapter 1 — Probability Distributions",
+    "Chapter 2 — Normal Distribution & Standard Normal",
+    "Chapter 3 — Sampling Distributions & CLT",
+    "Chapter 4 — Confidence Intervals",
+    "Chapter 5 — Hypothesis Testing (one-sample)",
+    "Chapter 6 — Two-sample Tests",
+    "Chapter 7 — Chi-Square Tests",
+    "Chapter 8 — Simple Linear Regression"
+  ],
+  "chapters": [
+    "Chapter 1",
+    "Chapter 2",
+    "Chapter 3",
+    "Chapter 4",
+    "Chapter 5",
+    "Chapter 6",
+    "Chapter 7",
+    "Chapter 8"
+  ],
+  "topicSeeds": [
+    "Ch1 - expected value and variance of discrete distributions",
+    "Ch2 - Z-scores and standard normal table",
+    "Ch3 - Central Limit Theorem and standard error",
+    "Ch4 - confidence intervals for mean",
+    "Ch5 - hypothesis testing H0 vs H1",
+    "Ch6 - independent and paired t-tests",
+    "Ch7 - chi-square goodness-of-fit and independence",
+    "Ch8 - simple linear regression and correlation"
+  ],
+  "keyTopics": [
+    "expected value",
+    "normal distribution",
+    "Z-score",
+    "CLT",
+    "standard error",
+    "confidence interval",
+    "hypothesis testing",
+    "Type I error",
+    "chi-square",
+    "regression"
+  ],
+  "quizSignals": [
+    "What does the Central Limit Theorem state?",
+    "How do you interpret a 95% confidence interval?",
+    "What is a Type I error?",
+    "What does R² measure in regression?"
+  ],
+  "assessmentPlan": [
+    {
+      "name": "Test 1",
+      "weight": "best 3 of 4 = 60%",
+      "due": "Jul–Aug",
+      "scope": "Ch 1–2"
+    },
+    {
+      "name": "Test 2",
+      "weight": "best 3 of 4 = 60%",
+      "due": "Aug",
+      "scope": "Ch 3–4"
+    },
+    {
+      "name": "Test 3",
+      "weight": "best 3 of 4 = 60%",
+      "due": "Sep",
+      "scope": "Ch 5–6"
+    },
+    {
+      "name": "Test 4",
+      "weight": "best 3 of 4 = 60%",
+      "due": "Oct",
+      "scope": "Ch 7–8"
+    },
+    {
+      "name": "Semester Test",
+      "weight": "40%",
+      "due": "Nov",
+      "scope": "Ch 1–8"
+    }
+  ],
+  "classSchedule": [
+    {
+      "label": "Week 1",
+      "summary": "Discrete distributions, expected value, and variance.",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 2",
+      "summary": "Normal distribution properties, Z-scores, table reading.",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 3",
+      "summary": "Sampling distributions and the Central Limit Theorem.",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 4",
+      "summary": "Confidence intervals for μ (σ known and unknown).",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 5",
+      "summary": "One-sample hypothesis tests, p-values, decision rules.",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 6",
+      "summary": "Independent and paired two-sample t-tests.",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 7",
+      "summary": "Chi-square goodness-of-fit and test of independence.",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 8",
+      "summary": "Simple linear regression, correlation, and R².",
+      "chapter": "Chapter 8"
+    }
+  ],
+  "chapterInsights": [
+    {
+      "chapter": "Chapter 1",
+      "title": "Probability Distributions",
+      "outcomes": [
+        "Calculate E(X) and Var(X) for discrete distributions.",
+        "Distinguish continuous from discrete distributions."
+      ],
+      "formulas": [
+        "E(X) = Σ x · P(x)",
+        "Var(X) = Σ(x − μ)² · P(x)"
+      ],
+      "definitions": [
+        {
+          "term": "Expected value",
+          "definition": "The long-run average value of a random variable."
+        },
+        {
+          "term": "Probability distribution",
+          "definition": "A table or function listing all values of X and their probabilities."
+        }
+      ],
+      "revisionPrompts": [
+        "How do you verify a valid probability distribution?",
+        "Calculate E(X) given a probability table."
+      ],
+      "saContext": "Insurance companies (e.g. Sanlam) use expected value to price premiums based on claim probabilities.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/introductory-statistics",
+          "https://www.openintro.org/book/os/",
+          "https://www.macmillanlearning.com/college/us/coursepack/introduction-to-the-practice-of-statistics"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 2",
+      "title": "Normal Distribution & Standard Normal",
+      "outcomes": [
+        "Convert values to Z-scores.",
+        "Find probabilities using the standard normal table and reverse lookup."
+      ],
+      "formulas": [
+        "Z = (x − μ) / σ",
+        "x = μ + Z · σ (reverse lookup)"
+      ],
+      "definitions": [
+        {
+          "term": "Standard normal distribution",
+          "definition": "Normal distribution with μ=0 and σ=1; written N(0,1)."
+        },
+        {
+          "term": "Z-score",
+          "definition": "Number of standard deviations a value lies from the mean."
+        }
+      ],
+      "revisionPrompts": [
+        "Find P(X > 75) for X~N(60,25).",
+        "Find the value of x such that P(X < x) = 0.90."
+      ],
+      "saContext": "Z-scores are used in SA credit scoring models to standardise variables from different scales.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/introductory-statistics",
+          "https://www.openintro.org/book/os/",
+          "https://www.macmillanlearning.com/college/us/coursepack/introduction-to-the-practice-of-statistics"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 3",
+      "title": "Sampling Distributions & CLT",
+      "outcomes": [
+        "Explain what a sampling distribution of x̄ is.",
+        "Apply the CLT to find probabilities for sample means."
+      ],
+      "formulas": [
+        "Standard error: SE = σ / √n",
+        "Z = (x̄ − μ) / (σ/√n)"
+      ],
+      "definitions": [
+        {
+          "term": "Central Limit Theorem",
+          "definition": "For large n, the sampling distribution of x̄ is approximately normal regardless of population shape."
+        },
+        {
+          "term": "Standard error",
+          "definition": "The standard deviation of the sampling distribution of x̄; equals σ/√n."
+        }
+      ],
+      "revisionPrompts": [
+        "How large must n be for the CLT to apply?",
+        "How does increasing n affect the standard error?"
+      ],
+      "saContext": "Statistics SA applies CLT when estimating national unemployment from provincial random samples.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/introductory-statistics",
+          "https://www.openintro.org/book/os/",
+          "https://www.macmillanlearning.com/college/us/coursepack/introduction-to-the-practice-of-statistics"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 4",
+      "title": "Confidence Intervals",
+      "outcomes": [
+        "Construct CI for μ when σ is known (z) and unknown (t).",
+        "Interpret a confidence interval correctly."
+      ],
+      "formulas": [
+        "CI (σ known): x̄ ± z · (σ/√n)",
+        "CI (σ unknown): x̄ ± t_(α/2, n−1) · (s/√n)"
+      ],
+      "definitions": [
+        {
+          "term": "Confidence interval",
+          "definition": "A range of values that is likely to contain the true population parameter with a stated confidence level."
+        },
+        {
+          "term": "Margin of error",
+          "definition": "The half-width of the confidence interval: z · (σ/√n) or t · (s/√n)."
+        }
+      ],
+      "revisionPrompts": [
+        "When do you use a t-distribution instead of Z?",
+        "Interpret: 'We are 95% confident that μ lies between 48 and 56.'"
+      ],
+      "saContext": "SA market researchers report 95% confidence intervals when publishing consumer spending estimates.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/introductory-statistics",
+          "https://www.openintro.org/book/os/",
+          "https://www.macmillanlearning.com/college/us/coursepack/introduction-to-the-practice-of-statistics"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 5",
+      "title": "Hypothesis Testing (one-sample)",
+      "outcomes": [
+        "Set up H₀ and H₁ correctly.",
+        "Apply decision rules using p-value and α."
+      ],
+      "formulas": [
+        "z = (x̄ − μ₀) / (σ/√n)",
+        "t = (x̄ − μ₀) / (s/√n)"
+      ],
+      "definitions": [
+        {
+          "term": "Type I error",
+          "definition": "Rejecting H₀ when it is actually true; probability = α."
+        },
+        {
+          "term": "Type II error",
+          "definition": "Failing to reject H₀ when it is actually false; probability = β."
+        },
+        {
+          "term": "p-value",
+          "definition": "The probability of observing a test statistic as extreme as the sample result, given H₀ is true."
+        }
+      ],
+      "revisionPrompts": [
+        "What does it mean to reject H₀?",
+        "If p-value < α, what decision do you make?"
+      ],
+      "saContext": "SA pharmaceutical trials use hypothesis testing to decide whether a new drug improves outcomes over a control.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/introductory-statistics",
+          "https://www.openintro.org/book/os/",
+          "https://www.macmillanlearning.com/college/us/coursepack/introduction-to-the-practice-of-statistics"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 6",
+      "title": "Two-sample Tests",
+      "outcomes": [
+        "Distinguish independent from paired samples.",
+        "Conduct independent and paired t-tests."
+      ],
+      "formulas": [
+        "Independent: t = (x̄₁ − x̄₂) / √(s₁²/n₁ + s₂²/n₂)",
+        "Paired: t = d̄ / (s_d/√n)"
+      ],
+      "definitions": [
+        {
+          "term": "Independent samples",
+          "definition": "Two samples drawn from different, unrelated groups."
+        },
+        {
+          "term": "Paired samples",
+          "definition": "Two measurements taken on the same subject (before/after)."
+        }
+      ],
+      "revisionPrompts": [
+        "Why use a paired test instead of an independent test?",
+        "What is the degrees of freedom for a paired t-test?"
+      ],
+      "saContext": "Woolworths could use a paired t-test to compare sales before and after a promotional campaign in the same stores.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/introductory-statistics",
+          "https://www.openintro.org/book/os/",
+          "https://www.macmillanlearning.com/college/us/coursepack/introduction-to-the-practice-of-statistics"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 7",
+      "title": "Chi-Square Tests",
+      "outcomes": [
+        "Apply chi-square goodness-of-fit test.",
+        "Conduct chi-square test of independence using a contingency table."
+      ],
+      "formulas": [
+        "χ² = Σ (O − E)² / E",
+        "Expected frequency: E = (row total × column total) / grand total"
+      ],
+      "definitions": [
+        {
+          "term": "Chi-square statistic",
+          "definition": "Measures the difference between observed and expected frequencies."
+        },
+        {
+          "term": "Contingency table",
+          "definition": "A cross-tabulation showing observed frequencies for two categorical variables."
+        }
+      ],
+      "revisionPrompts": [
+        "What is the expected frequency formula for a contingency table?",
+        "State the H₀ for a chi-square test of independence."
+      ],
+      "saContext": "MTN could test whether brand preference is independent of age group using a chi-square test.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/introductory-statistics",
+          "https://www.openintro.org/book/os/",
+          "https://www.macmillanlearning.com/college/us/coursepack/introduction-to-the-practice-of-statistics"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 8",
+      "title": "Simple Linear Regression",
+      "outcomes": [
+        "Estimate regression coefficients a and b.",
+        "Interpret r and R² in context."
+      ],
+      "formulas": [
+        "b = Σ(x−x̄)(y−ȳ) / Σ(x−x̄)²",
+        "a = ȳ − b·x̄",
+        "R² = r²"
+      ],
+      "definitions": [
+        {
+          "term": "Regression line",
+          "definition": "The line ŷ = a + bx that best fits the data by minimising squared residuals."
+        },
+        {
+          "term": "R²",
+          "definition": "Proportion of variation in y explained by x; ranges from 0 to 1."
+        },
+        {
+          "term": "Correlation coefficient r",
+          "definition": "Measures the strength and direction of a linear relationship; ranges from −1 to +1."
+        }
+      ],
+      "revisionPrompts": [
+        "Interpret b = 2.5 in the context of sales vs advertising spend.",
+        "What does R² = 0.81 mean?"
+      ],
+      "saContext": "Sasol analysts use regression to model how oil price changes (x) affect fuel production costs (y).",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/introductory-statistics",
+          "https://www.openintro.org/book/os/",
+          "https://www.macmillanlearning.com/college/us/coursepack/introduction-to-the-practice-of-statistics"
+        ]
+      }
+    }
+  ],
+  "chapterStudyItems": [
+    {
+      "chapter": "Chapter 1",
+      "flashcards": [
+        {
+          "id": "ch1-fc-1",
+          "chapter": "Chapter 1",
+          "front": "What is E(X) for a discrete distribution?",
+          "back": "E(X) = Σ x · P(x); the weighted average of all possible values.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-2",
+          "chapter": "Chapter 1",
+          "front": "How do you verify a valid probability distribution?",
+          "back": "Each P(x) ≥ 0 and Σ P(x) = 1.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-3",
+          "chapter": "Chapter 1",
+          "front": "What is Var(X) for a discrete distribution?",
+          "back": "Var(X) = Σ(x − μ)² · P(x).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-4",
+          "chapter": "Chapter 1",
+          "front": "How does a continuous distribution differ from a discrete one?",
+          "back": "Continuous distributions use density functions; probabilities are areas under the curve, not point values.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch1-q1",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "X has values 1, 2, 3 with P(1)=0.2, P(2)=0.5, P(3)=0.3. E(X) = ?",
+          "options": [
+            "1.8",
+            "2.0",
+            "2.1",
+            "2.5"
+          ],
+          "answer": "2.1",
+          "explanation": "E(X) = 1×0.2 + 2×0.5 + 3×0.3 = 0.2 + 1.0 + 0.9 = 2.1.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q2",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is NOT a valid probability distribution?",
+          "options": [
+            "P(1)=0.3, P(2)=0.7",
+            "P(1)=0.5, P(2)=0.5",
+            "P(1)=0.4, P(2)=0.7",
+            "P(1)=1.0"
+          ],
+          "answer": "P(1)=0.4, P(2)=0.7",
+          "explanation": "0.4 + 0.7 = 1.1 ≠ 1; probabilities must sum to exactly 1.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q3",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "The expected value of a discrete random variable represents:",
+          "options": [
+            "The most likely outcome",
+            "The long-run average value",
+            "The maximum value",
+            "The median value"
+          ],
+          "answer": "The long-run average value",
+          "explanation": "E(X) is the theoretical average over infinitely many repetitions of the experiment.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch1-we-1",
+          "chapter": "Chapter 1",
+          "title": "Calculating E(X) and Var(X)",
+          "summary": "Compute expected value and variance from a probability table.",
+          "problem": "X: values 0,1,2 with P(0)=0.3, P(1)=0.4, P(2)=0.3. Find E(X) and Var(X).",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "E(X) = 0×0.3 + 1×0.4 + 2×0.3 = 0 + 0.4 + 0.6 = 1.0."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Var(X) = (0−1)²×0.3 + (1−1)²×0.4 + (2−1)²×0.3 = 0.3 + 0 + 0.3 = 0.6."
+            }
+          ],
+          "answer": "E(X) = 1.0; Var(X) = 0.6.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 2",
+      "flashcards": [
+        {
+          "id": "ch2-fc-1",
+          "chapter": "Chapter 2",
+          "front": "How do you find P(X > a) using Z-tables?",
+          "back": "Convert to Z, then P(X>a) = 1 − P(Z < z_a).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-2",
+          "chapter": "Chapter 2",
+          "front": "How do you find P(a < X < b)?",
+          "back": "P(a<X<b) = P(Z < z_b) − P(Z < z_a).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-3",
+          "chapter": "Chapter 2",
+          "front": "What is reverse lookup in normal tables?",
+          "back": "Given a probability, find the corresponding Z-value, then convert back to x using x = μ + Z·σ.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-4",
+          "chapter": "Chapter 2",
+          "front": "What Z-value corresponds to the 95th percentile?",
+          "back": "Z ≈ 1.645 (from standard normal table: P(Z<1.645) ≈ 0.95).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch2-q1",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "X~N(100, 225). The Z-score for x=115 is:",
+          "options": [
+            "0.67",
+            "1.0",
+            "1.5",
+            "0.15"
+          ],
+          "answer": "1.0",
+          "explanation": "σ = √225 = 15; Z = (115−100)/15 = 15/15 = 1.0.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q2",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "P(Z < −1.5) equals:",
+          "options": [
+            "0.9332",
+            "0.4332",
+            "0.0668",
+            "0.5000"
+          ],
+          "answer": "0.0668",
+          "explanation": "By symmetry, P(Z<−1.5) = 1 − P(Z<1.5) = 1 − 0.9332 = 0.0668.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q3",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "If P(Z < z) = 0.9772, then z = ?",
+          "options": [
+            "1.0",
+            "1.5",
+            "2.0",
+            "2.5"
+          ],
+          "answer": "2.0",
+          "explanation": "From the Z-table, P(Z < 2.0) = 0.9772.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch2-we-1",
+          "chapter": "Chapter 2",
+          "title": "Finding P(a < X < b)",
+          "summary": "Calculate the probability between two values for a normal distribution.",
+          "problem": "Exam marks X~N(60,100). Find P(50 < X < 70).",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "σ=10. Z₁=(50−60)/10=−1; Z₂=(70−60)/10=1."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "P(Z<1)=0.8413; P(Z<−1)=0.1587."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "P(50<X<70) = 0.8413 − 0.1587 = 0.6826."
+            }
+          ],
+          "answer": "P(50<X<70) = 0.6826 (the empirical 68% rule).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 3",
+      "flashcards": [
+        {
+          "id": "ch3-fc-1",
+          "chapter": "Chapter 3",
+          "front": "What does the CLT state?",
+          "back": "For large n (≥30), the sampling distribution of x̄ is approximately N(μ, σ²/n) regardless of population shape.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-2",
+          "chapter": "Chapter 3",
+          "front": "What is the standard error of the mean?",
+          "back": "SE = σ / √n; it decreases as sample size increases.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-3",
+          "chapter": "Chapter 3",
+          "front": "How do you find P(x̄ > k)?",
+          "back": "Convert x̄ to Z: Z = (x̄ − μ) / (σ/√n), then use the Z-table.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-4",
+          "chapter": "Chapter 3",
+          "front": "What happens to SE when n is quadrupled?",
+          "back": "SE halves; SE = σ/√n, so quadrupling n halves the standard error.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch3-q1",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "Population: μ=80, σ=20. For n=100, the standard error is:",
+          "options": [
+            "20",
+            "4",
+            "2",
+            "0.2"
+          ],
+          "answer": "2",
+          "explanation": "SE = 20 / √100 = 20/10 = 2.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q2",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "The CLT is important because it allows us to:",
+          "options": [
+            "Avoid sampling",
+            "Use normal probabilities for x̄ even with non-normal populations",
+            "Reduce population variance",
+            "Eliminate Type I errors"
+          ],
+          "answer": "Use normal probabilities for x̄ even with non-normal populations",
+          "explanation": "The CLT guarantees approximate normality of x̄ for large n regardless of population shape.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q3",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "As sample size n increases, the standard error:",
+          "options": [
+            "Increases",
+            "Stays the same",
+            "Decreases",
+            "Doubles"
+          ],
+          "answer": "Decreases",
+          "explanation": "SE = σ/√n; larger n gives a smaller denominator and thus a smaller SE.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch3-we-1",
+          "chapter": "Chapter 3",
+          "title": "Probability for a Sample Mean",
+          "summary": "Use CLT to find the probability that a sample mean exceeds a value.",
+          "problem": "Population: μ=500, σ=50. Sample n=25. Find P(x̄ > 510).",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "SE = 50/√25 = 50/5 = 10."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Z = (510 − 500)/10 = 1.0."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "P(x̄>510) = P(Z>1.0) = 1 − 0.8413 = 0.1587."
+            }
+          ],
+          "answer": "P(x̄ > 510) = 0.1587.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 4",
+      "flashcards": [
+        {
+          "id": "ch4-fc-1",
+          "chapter": "Chapter 4",
+          "front": "What is the CI formula when σ is known?",
+          "back": "x̄ ± z_(α/2) · (σ/√n); use z=1.96 for 95% confidence.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-2",
+          "chapter": "Chapter 4",
+          "front": "When do you use the t-distribution for a CI?",
+          "back": "When σ is unknown and must be estimated by s; use t with df = n−1.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-3",
+          "chapter": "Chapter 4",
+          "front": "How do you interpret a 95% CI?",
+          "back": "If we repeated sampling many times, 95% of the resulting intervals would contain the true μ.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-4",
+          "chapter": "Chapter 4",
+          "front": "What z-value is used for a 95% confidence interval?",
+          "back": "z_(0.025) = 1.96.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch4-q1",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "x̄=100, σ=20, n=64. The 95% CI for μ is:",
+          "options": [
+            "(95.1, 104.9)",
+            "(96.1, 103.9)",
+            "  (94.0, 106.0)",
+            "(98.0, 102.0)"
+          ],
+          "answer": "(95.1, 104.9)",
+          "explanation": "SE=20/8=2.5; margin=1.96×2.5=4.9; CI=(100−4.9, 100+4.9)=(95.1,104.9).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q2",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Which distribution should be used for a CI when σ is unknown and n=15?",
+          "options": [
+            "Standard normal (Z)",
+            "t-distribution with df=14",
+            "t-distribution with df=15",
+            "Chi-square"
+          ],
+          "answer": "t-distribution with df=14",
+          "explanation": "With unknown σ and n=15, use t with df = n−1 = 14.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q3",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Increasing the confidence level from 95% to 99% will:",
+          "options": [
+            "Narrow the interval",
+            "Widen the interval",
+            "Keep the interval unchanged",
+            "Reduce the sample size"
+          ],
+          "answer": "Widen the interval",
+          "explanation": "Higher confidence requires a larger z-value, which increases the margin of error.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch4-we-1",
+          "chapter": "Chapter 4",
+          "title": "95% Confidence Interval (σ Unknown)",
+          "summary": "Construct a CI for μ using the t-distribution.",
+          "problem": "Sample: n=20, x̄=85, s=12. Construct a 95% CI for μ.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "df = 19; t_(0.025,19) = 2.093 (from t-table)."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "SE = 12/√20 = 12/4.47 ≈ 2.68."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "Margin = 2.093 × 2.68 ≈ 5.61."
+            },
+            {
+              "label": "Step 4",
+              "explanation": "CI = (85 − 5.61, 85 + 5.61) = (79.39, 90.61)."
+            }
+          ],
+          "answer": "95% CI for μ: (79.39, 90.61).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 5",
+      "flashcards": [
+        {
+          "id": "ch5-fc-1",
+          "chapter": "Chapter 5",
+          "front": "What is the null hypothesis H₀?",
+          "back": "A statement of no effect or no difference; the default assumption to be tested.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-2",
+          "chapter": "Chapter 5",
+          "front": "What is a Type I error?",
+          "back": "Rejecting H₀ when it is true; the probability of this error equals α.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-3",
+          "chapter": "Chapter 5",
+          "front": "What is the decision rule using the p-value?",
+          "back": "If p-value < α, reject H₀; if p-value ≥ α, fail to reject H₀.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-4",
+          "chapter": "Chapter 5",
+          "front": "What is a two-tailed test?",
+          "back": "A test where H₁ states μ ≠ μ₀; rejection regions are in both tails of the distribution.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch5-q1",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "If p-value = 0.03 and α = 0.05, you should:",
+          "options": [
+            "Fail to reject H₀",
+            "Reject H₀",
+            "Increase the sample size",
+            "Accept H₁ without testing"
+          ],
+          "answer": "Reject H₀",
+          "explanation": "p-value (0.03) < α (0.05), so there is sufficient evidence to reject H₀.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q2",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "Rejecting H₀ when it is actually true is a:",
+          "options": [
+            "Correct decision",
+            "Type II error",
+            "Type I error",
+            "Power error"
+          ],
+          "answer": "Type I error",
+          "explanation": "A Type I error occurs when we incorrectly reject a true null hypothesis.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q3",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "Which hypothesis is always an equality statement?",
+          "options": [
+            "H₁",
+            "H₀",
+            "Both",
+            "Neither"
+          ],
+          "answer": "H₀",
+          "explanation": "H₀ always contains an equality (=, ≤, or ≥); H₁ is the directional or inequality alternative.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch5-we-1",
+          "chapter": "Chapter 5",
+          "title": "One-Sample Z-Test",
+          "summary": "Perform a full hypothesis test for a population mean with σ known.",
+          "problem": "H₀: μ=50; H₁: μ≠50; σ=10, n=100, x̄=52.5, α=0.05.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "z = (52.5−50)/(10/√100) = 2.5/1 = 2.5."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Critical values: ±1.96 for two-tailed test at α=0.05."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "|z|=2.5 > 1.96, so reject H₀."
+            }
+          ],
+          "answer": "Reject H₀; sufficient evidence that μ ≠ 50.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 6",
+      "flashcards": [
+        {
+          "id": "ch6-fc-1",
+          "chapter": "Chapter 6",
+          "front": "When do you use an independent two-sample t-test?",
+          "back": "When comparing means from two separate, unrelated groups (e.g. males vs females).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-2",
+          "chapter": "Chapter 6",
+          "front": "When do you use a paired t-test?",
+          "back": "When each observation in one group is matched with an observation in the other (e.g. before/after).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-3",
+          "chapter": "Chapter 6",
+          "front": "What is the test statistic for a paired t-test?",
+          "back": "t = d̄ / (s_d / √n), where d̄ is the mean difference and s_d is the SD of differences.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-4",
+          "chapter": "Chapter 6",
+          "front": "What are the degrees of freedom for a paired t-test?",
+          "back": "df = n − 1, where n is the number of pairs.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch6-q1",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "Blood pressure is measured on the same patients before and after a drug. The appropriate test is:",
+          "options": [
+            "Independent t-test",
+            "Paired t-test",
+            "Chi-square test",
+            "Z-test"
+          ],
+          "answer": "Paired t-test",
+          "explanation": "The same subjects are measured twice, making the samples paired (dependent).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q2",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "For a paired t-test with 10 pairs, the degrees of freedom are:",
+          "options": [
+            "18",
+            "9",
+            "10",
+            "8"
+          ],
+          "answer": "9",
+          "explanation": "df = n − 1 = 10 − 1 = 9 for paired tests.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q3",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "Two independent groups of students take different courses. Comparing their final marks requires:",
+          "options": [
+            "Paired t-test",
+            "Chi-square test",
+            "Independent t-test",
+            "Regression"
+          ],
+          "answer": "Independent t-test",
+          "explanation": "The groups are separate (unrelated), so an independent samples t-test is appropriate.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch6-we-1",
+          "chapter": "Chapter 6",
+          "title": "Paired t-Test",
+          "summary": "Test whether a training programme improved scores using a paired t-test.",
+          "problem": "5 employees: before=[60,70,65,80,75], after=[65,72,70,85,80]. Test H₀: μ_d=0 at α=0.05.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Differences d: 5,2,5,5,5. d̄ = 22/5 = 4.4."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "s_d = 1.34 (calculated from deviations). t = 4.4/(1.34/√5) = 4.4/0.599 ≈ 7.35."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "df=4; t-critical (two-tailed, α=0.05) = 2.776. Since 7.35 > 2.776, reject H₀."
+            }
+          ],
+          "answer": "Reject H₀; training significantly improved scores.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 7",
+      "flashcards": [
+        {
+          "id": "ch7-fc-1",
+          "chapter": "Chapter 7",
+          "front": "What is the chi-square test statistic?",
+          "back": "χ² = Σ (O − E)² / E, summed over all cells.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-2",
+          "chapter": "Chapter 7",
+          "front": "How are expected frequencies calculated in a contingency table?",
+          "back": "E = (row total × column total) / grand total.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-3",
+          "chapter": "Chapter 7",
+          "front": "What is H₀ for a chi-square test of independence?",
+          "back": "H₀: The two categorical variables are independent (not associated).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-4",
+          "chapter": "Chapter 7",
+          "front": "What are the degrees of freedom for a chi-square test of independence?",
+          "back": "df = (rows − 1)(columns − 1).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch7-q1",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "In a 3×2 contingency table, the degrees of freedom are:",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "6"
+          ],
+          "answer": "2",
+          "explanation": "df = (3−1)(2−1) = 2×1 = 2.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q2",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "A cell has row total=60, column total=40, grand total=200. The expected frequency is:",
+          "options": [
+            "12",
+            "24",
+            "100",
+            "30"
+          ],
+          "answer": "12",
+          "explanation": "E = (60 × 40)/200 = 2400/200 = 12.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q3",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "The chi-square distribution is:",
+          "options": [
+            "Symmetric and bell-shaped",
+            "Always negative",
+            "Right-skewed and always non-negative",
+            "Uniform"
+          ],
+          "answer": "Right-skewed and always non-negative",
+          "explanation": "Chi-square values are squared quantities, so they are ≥ 0 and the distribution is right-skewed.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch7-we-1",
+          "chapter": "Chapter 7",
+          "title": "Chi-Square Test of Independence",
+          "summary": "Test whether gender and product preference are independent.",
+          "problem": "Observed (Male/Female vs Prefer A/B): O = [[30,20],[20,30]]. Grand total=100. Test at α=0.05.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Row totals: M=50, F=50. Column totals: A=50, B=50."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "E for each cell = (50×50)/100 = 25."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "χ² = (30−25)²/25 + (20−25)²/25 + (20−25)²/25 + (30−25)²/25 = 1+1+1+1 = 4."
+            },
+            {
+              "label": "Step 4",
+              "explanation": "df=1; χ²_critical(α=0.05)=3.841. Since 4 > 3.841, reject H₀."
+            }
+          ],
+          "answer": "Reject H₀; gender and product preference are not independent.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 8",
+      "flashcards": [
+        {
+          "id": "ch8-fc-1",
+          "chapter": "Chapter 8",
+          "front": "What is the slope formula in simple regression?",
+          "back": "b = Σ(x−x̄)(y−ȳ) / Σ(x−x̄)².",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-2",
+          "chapter": "Chapter 8",
+          "front": "What does the slope b represent?",
+          "back": "The change in ŷ for a one-unit increase in x, holding all else constant.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-3",
+          "chapter": "Chapter 8",
+          "front": "What does R² measure?",
+          "back": "The proportion of total variation in y explained by x; ranges from 0 to 1.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-fc-4",
+          "chapter": "Chapter 8",
+          "front": "What does r = −0.85 indicate?",
+          "back": "A strong negative linear relationship between x and y.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch8-q1",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "The regression equation is ŷ = 5 + 3x. If x=4, then ŷ = ?",
+          "options": [
+            "12",
+            "17",
+            "20",
+            "7"
+          ],
+          "answer": "17",
+          "explanation": "ŷ = 5 + 3(4) = 5 + 12 = 17.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-q2",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "R² = 0.81 means:",
+          "options": [
+            "81% of variation in y is explained by x",
+            "r = 0.81",
+            "The model predicts 19% of values correctly",
+            "x and y are 81% correlated"
+          ],
+          "answer": "81% of variation in y is explained by x",
+          "explanation": "R² is the coefficient of determination; it measures the explained proportion of variability in y.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch8-q3",
+          "chapter": "Chapter 8",
+          "questionType": "multiple-choice",
+          "prompt": "If r = 0.9, then R² = ?",
+          "options": [
+            "0.9",
+            "0.81",
+            "0.45",
+            "1.8"
+          ],
+          "answer": "0.81",
+          "explanation": "R² = r² = (0.9)² = 0.81.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch8-we-1",
+          "chapter": "Chapter 8",
+          "title": "Fitting a Simple Regression Line",
+          "summary": "Estimate a and b, then predict a value.",
+          "problem": "Data: x=[1,2,3,4,5], y=[2,4,5,4,5]. Find the regression equation.",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "x̄=3, ȳ=4. Σ(x−x̄)(y−ȳ)=0+0+0+0+1→compute: (−2)(−2)+(−1)(0)+(0)(1)+(1)(0)+(2)(1)=4+0+0+0+2=6."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Σ(x−x̄)²=4+1+0+1+4=10. b=6/10=0.6."
+            },
+            {
+              "label": "Step 3",
+              "explanation": "a = ȳ − b·x̄ = 4 − 0.6×3 = 4 − 1.8 = 2.2."
+            },
+            {
+              "label": "Step 4",
+              "explanation": "Equation: ŷ = 2.2 + 0.6x. For x=6: ŷ = 2.2+3.6=5.8."
+            }
+          ],
+          "answer": "ŷ = 2.2 + 0.6x; predicted y at x=6 is 5.8.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    }
+  ],
+  "discipline": "statistics",
+  "referenceList": [
+    {
+      "title": "OpenStax — Introductory Statistics 2e (free, CC BY)",
+      "publisher": "OpenStax / Rice University",
+      "url": "https://openstax.org/details/books/introductory-statistics",
+      "note": "Open-access textbook matching typical BCom statistics scope (descriptive stats, inference).",
+      "sourceHash": "5060a14bda0702a03a41aebd676b83f84e1f45cdb8fa584a6dadbd29e8a613ca"
+    },
+    {
+      "title": "Diez, Çetinkaya-Rundel & Barr — OpenIntro Statistics (free, CC BY-SA)",
+      "publisher": "OpenIntro",
+      "url": "https://www.openintro.org/book/os/",
+      "note": "Peer-reviewed open textbook; strong on probability and hypothesis testing.",
+      "sourceHash": "522aaf92cc974e1af72a2e6a9791baecfc4995b4b309c0ce9aa89708bdf4818e"
+    },
+    {
+      "title": "Moore, McCabe & Craig — Introduction to the Practice of Statistics (W.H. Freeman)",
+      "publisher": "W.H. Freeman / Macmillan",
+      "url": "https://www.macmillanlearning.com/college/us/coursepack/introduction-to-the-practice-of-statistics",
+      "note": "Widely adopted applied statistics text.",
+      "sourceHash": "e80ef0c2658cb8379584e58cb1e0f1d42709674b9a85f2c46cba9afc44cae7f2"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: Statistics 122 (BCom, North-West University). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "Chapter-by-chapter teaching focus (derived from the module's own learning outcomes and key definitions):",
+    "  • Chapter 1 — Probability Distributions. Emphasise: Calculate E(X) and Var(X) for discrete distributions.; Distinguish continuous from discrete distributions.. Local context: Insurance companies (e.g. Sanlam) use expected value to price premiums based on claim probabilities.",
+    "  • Chapter 2 — Normal Distribution & Standard Normal. Emphasise: Convert values to Z-scores.; Find probabilities using the standard normal table and reverse lookup.. Local context: Z-scores are used in SA credit scoring models to standardise variables from different scales.",
+    "  • Chapter 3 — Sampling Distributions & CLT. Emphasise: Explain what a sampling distribution of x̄ is.; Apply the CLT to find probabilities for sample means.. Local context: Statistics SA applies CLT when estimating national unemployment from provincial random samples.",
+    "  • Chapter 4 — Confidence Intervals. Emphasise: Construct CI for μ when σ is known (z) and unknown (t).; Interpret a confidence interval correctly.. Local context: SA market researchers report 95% confidence intervals when publishing consumer spending estimates.",
+    "  • Chapter 5 — Hypothesis Testing (one-sample). Emphasise: Set up H₀ and H₁ correctly.; Apply decision rules using p-value and α.. Local context: SA pharmaceutical trials use hypothesis testing to decide whether a new drug improves outcomes over a control.",
+    "  • Chapter 6 — Two-sample Tests. Emphasise: Distinguish independent from paired samples.; Conduct independent and paired t-tests.. Local context: Woolworths could use a paired t-test to compare sales before and after a promotional campaign in the same stores.",
+    "  • Chapter 7 — Chi-Square Tests. Emphasise: Apply chi-square goodness-of-fit test.; Conduct chi-square test of independence using a contingency table.. Local context: MTN could test whether brand preference is independent of age group using a chi-square test.",
+    "  • Chapter 8 — Simple Linear Regression. Emphasise: Estimate regression coefficients a and b.; Interpret r and R² in context.. Local context: Sasol analysts use regression to model how oil price changes (x) affect fuel production costs (y).",
+    "Pedagogy tip (quantitative): work at least one fully solved example on the board per topic, then assign a parallel guided-practice problem. Common student errors: sign errors in debit/credit (accounting), confusing correlation with causation (stats/econ), and unit/percentage mistakes in ratio work. Build a short weekly formative quiz from the module's own revision prompts.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "5060a14bda0702a03a41aebd676b83f84e1f45cdb8fa584a6dadbd29e8a613ca",
+    "522aaf92cc974e1af72a2e6a9791baecfc4995b4b309c0ce9aa89708bdf4818e",
+    "e80ef0c2658cb8379584e58cb1e0f1d42709674b9a85f2c46cba9afc44cae7f2"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

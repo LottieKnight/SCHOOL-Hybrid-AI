@@ -1,0 +1,1856 @@
+{
+  "institution": "North-West University",
+  "moduleCode": "BMAN121",
+  "moduleName": "Business Management 121",
+  "semester": "Semester 2, 2024",
+  "programme": "BCom",
+  "confidence": 0.82,
+  "generatedAt": "2026-04-03T00:00:00.000Z",
+  "sourceFiles": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "missingContent": [],
+  "studyUnits": [
+    "Chapter 1 — Strategic Management",
+    "Chapter 2 — Marketing Management",
+    "Chapter 3 — Financial Management Basics",
+    "Chapter 4 — Human Resources Management",
+    "Chapter 5 — Operations Management",
+    "Chapter 6 — Information Management",
+    "Chapter 7 — Social Responsibility & Sustainability"
+  ],
+  "chapters": [
+    "Chapter 1",
+    "Chapter 2",
+    "Chapter 3",
+    "Chapter 4",
+    "Chapter 5",
+    "Chapter 6",
+    "Chapter 7"
+  ],
+  "topicSeeds": [
+    "Ch1 - strategic planning process",
+    "Ch1 - SWOT vs PESTLE",
+    "Ch2 - marketing mix 4Ps",
+    "Ch2 - market segmentation",
+    "Ch3 - working capital",
+    "Ch3 - sources of finance",
+    "Ch4 - recruitment and selection",
+    "Ch4 - performance appraisal",
+    "Ch5 - production process",
+    "Ch5 - inventory management",
+    "Ch6 - management information systems",
+    "Ch7 - CSR and B-BBEE"
+  ],
+  "keyTopics": [
+    "strategic planning process",
+    "SWOT analysis",
+    "4Ps marketing mix",
+    "market segmentation",
+    "sources of finance",
+    "working capital management",
+    "recruitment and selection",
+    "performance appraisal",
+    "operations and supply chain",
+    "management information systems",
+    "corporate social responsibility",
+    "B-BBEE in South Africa"
+  ],
+  "quizSignals": [
+    "What is the difference between a strategic plan and an operational plan?",
+    "What are the 4Ps of marketing?",
+    "How does a company raise finance?",
+    "What is B-BBEE?"
+  ],
+  "assessmentPlan": [
+    {
+      "name": "Test 1",
+      "weight": "35%",
+      "due": "August",
+      "scope": "Ch 1-3"
+    },
+    {
+      "name": "Test 2",
+      "weight": "35%",
+      "due": "October",
+      "scope": "Ch 4-7"
+    },
+    {
+      "name": "Assignment",
+      "weight": "20%",
+      "due": "September",
+      "scope": "Ch 1-5"
+    },
+    {
+      "name": "Participation",
+      "weight": "10%",
+      "due": "Ongoing",
+      "scope": "All chapters"
+    }
+  ],
+  "classSchedule": [
+    {
+      "label": "Week 1",
+      "summary": "Introduction to strategic management; the strategic planning process.",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 2",
+      "summary": "SWOT analysis and competitive advantage.",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 3",
+      "summary": "Marketing management introduction; consumer behaviour.",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 4",
+      "summary": "The marketing mix: Product, Price, Place, Promotion.",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 5",
+      "summary": "Financial management: sources of finance and capital structure.",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 6",
+      "summary": "Working capital and financial statements overview.",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 7",
+      "summary": "TEST 1 — Ch 1-3.",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 8",
+      "summary": "Human resources: recruitment, selection and onboarding.",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 9",
+      "summary": "Training, performance appraisal and labour law.",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 10",
+      "summary": "Operations management: production process and capacity.",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 11",
+      "summary": "Inventory management and supply chain.",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 12",
+      "summary": "Management information systems; role of data.",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 13",
+      "summary": "Corporate social responsibility and sustainability.",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 14",
+      "summary": "B-BBEE in South Africa; triple bottom line.",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 15",
+      "summary": "TEST 2 — Ch 4-7 + revision.",
+      "chapter": "Chapter 7"
+    }
+  ],
+  "chapterInsights": [
+    {
+      "chapter": "Chapter 1",
+      "title": "Strategic Management",
+      "outcomes": [
+        "Define strategic management",
+        "Conduct a SWOT analysis",
+        "Distinguish strategic from operational plans"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Strategic management",
+          "definition": "The ongoing process of formulating, implementing and evaluating strategies to achieve long-term organisational objectives."
+        },
+        {
+          "term": "Competitive advantage",
+          "definition": "A unique strength that allows a business to outperform competitors (e.g. lower cost or differentiated product)."
+        },
+        {
+          "term": "SWOT",
+          "definition": "A strategic analysis tool identifying internal Strengths and Weaknesses, and external Opportunities and Threats."
+        }
+      ],
+      "revisionPrompts": [
+        "List the steps in the strategic planning process.",
+        "What is the difference between a mission and a vision?"
+      ],
+      "saContext": "South African companies use the National Development Plan (NDP 2030) as a macro strategic context when formulating their own strategies.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 2",
+      "title": "Marketing Management",
+      "outcomes": [
+        "Explain the marketing concept",
+        "Apply the 4Ps to a SA business",
+        "Describe market segmentation bases"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Marketing mix",
+          "definition": "The combination of Product, Price, Place and Promotion used to meet the target market's needs."
+        },
+        {
+          "term": "Market segmentation",
+          "definition": "Dividing the total market into distinct groups of buyers with similar needs or characteristics."
+        },
+        {
+          "term": "Target market",
+          "definition": "The specific segment of the market a business decides to serve with its marketing mix."
+        }
+      ],
+      "revisionPrompts": [
+        "Describe the four bases of market segmentation.",
+        "How does the product life cycle affect pricing strategy?"
+      ],
+      "saContext": "SA marketers must understand diversity — segmenting by language, LSM (living standards measure), and geographic area (urban/rural/township) is common.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 3",
+      "title": "Financial Management Basics",
+      "outcomes": [
+        "Identify sources of short- and long-term finance",
+        "Explain the concept of working capital",
+        "Interpret a basic income statement"
+      ],
+      "formulas": [
+        "Working Capital = Current Assets − Current Liabilities",
+        "Gross Profit = Revenue − Cost of Goods Sold"
+      ],
+      "definitions": [
+        {
+          "term": "Working capital",
+          "definition": "The difference between current assets and current liabilities — measures short-term liquidity."
+        },
+        {
+          "term": "Equity financing",
+          "definition": "Raising capital by selling shares, which means sharing ownership but not requiring repayment."
+        },
+        {
+          "term": "Debt financing",
+          "definition": "Raising capital through loans or bonds, which must be repaid with interest."
+        }
+      ],
+      "revisionPrompts": [
+        "What is the difference between equity and debt financing?",
+        "Calculate working capital if current assets = R80 000 and current liabilities = R35 000."
+      ],
+      "saContext": "The JSE (Johannesburg Stock Exchange) is where SA public companies raise equity capital. SMMEs typically rely on SEFA loans or commercial bank finance.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 4",
+      "title": "Human Resources Management",
+      "outcomes": [
+        "Describe the recruitment and selection process",
+        "Explain performance appraisal",
+        "Identify key SA labour legislation"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Recruitment",
+          "definition": "The process of attracting qualified candidates for a job vacancy."
+        },
+        {
+          "term": "Selection",
+          "definition": "The process of choosing the best candidate from applicants, using interviews, tests and reference checks."
+        },
+        {
+          "term": "Performance appraisal",
+          "definition": "A formal evaluation of an employee's job performance against set criteria."
+        }
+      ],
+      "revisionPrompts": [
+        "List the stages of the recruitment and selection process.",
+        "What is the purpose of an employment contract?"
+      ],
+      "saContext": "SA HR managers must comply with the Labour Relations Act (LRA 66/1995), Basic Conditions of Employment Act (BCEA), and Employment Equity Act (EEA).",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 5",
+      "title": "Operations Management",
+      "outcomes": [
+        "Describe the production process",
+        "Explain inventory management concepts",
+        "Apply basic capacity planning"
+      ],
+      "formulas": [
+        "Capacity Utilisation (%) = (Actual Output / Design Capacity) × 100"
+      ],
+      "definitions": [
+        {
+          "term": "Operations management",
+          "definition": "The management of processes that transform inputs into goods and services."
+        },
+        {
+          "term": "Just-in-time (JIT)",
+          "definition": "An inventory strategy that reduces holding costs by receiving goods only as they are needed in production."
+        },
+        {
+          "term": "Quality control",
+          "definition": "The process of monitoring and testing products to ensure they meet required standards."
+        }
+      ],
+      "revisionPrompts": [
+        "What are the advantages of JIT inventory management?",
+        "What is capacity utilisation and why does it matter?"
+      ],
+      "saContext": "Load-shedding directly impacts SA operations management — businesses must factor power outages into capacity planning and consider generator or solar backup.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 6",
+      "title": "Information Management",
+      "outcomes": [
+        "Explain the role of a management information system (MIS)",
+        "Distinguish data from information",
+        "Identify levels of information needs in an organisation"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Management information system (MIS)",
+          "definition": "A system that collects, processes and presents information to support management decision-making at different organisational levels."
+        },
+        {
+          "term": "Data",
+          "definition": "Raw, unprocessed facts and figures (e.g. individual sales transactions)."
+        },
+        {
+          "term": "Information",
+          "definition": "Data that has been processed and given meaning (e.g. total monthly sales by region)."
+        }
+      ],
+      "revisionPrompts": [
+        "How does a MIS differ from a transaction processing system?",
+        "What information do operational, tactical and strategic managers need?"
+      ],
+      "saContext": "SA businesses increasingly use cloud-based MIS (e.g. SAP, Sage, Microsoft Dynamics) to manage operations and comply with SARS e-filing requirements.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 7",
+      "title": "Social Responsibility & Sustainability",
+      "outcomes": [
+        "Define corporate social responsibility (CSR)",
+        "Explain B-BBEE and its scorecard",
+        "Apply the triple bottom line concept"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Corporate social responsibility (CSR)",
+          "definition": "A business's commitment to operating ethically and contributing positively to economic development, environmental sustainability, and community wellbeing."
+        },
+        {
+          "term": "B-BBEE",
+          "definition": "Broad-Based Black Economic Empowerment — SA government policy to redress economic inequality by improving black participation in the economy."
+        },
+        {
+          "term": "Triple bottom line",
+          "definition": "A framework measuring organisational performance on three dimensions: People (social), Planet (environmental), Profit (economic)."
+        }
+      ],
+      "revisionPrompts": [
+        "What are the seven elements of the B-BBEE scorecard?",
+        "How does the triple bottom line differ from traditional profit-only reporting?"
+      ],
+      "saContext": "B-BBEE compliance is legally required for businesses contracting with the SA government. JSE-listed companies must report on sustainability via integrated reporting under King IV.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+          "https://www.pearson.com/en-us/subjects/business-management.html",
+          "https://www.shrm.org/topics-tools"
+        ]
+      }
+    }
+  ],
+  "chapterStudyItems": [
+    {
+      "chapter": "Chapter 1",
+      "flashcards": [
+        {
+          "id": "ch1-fc-1",
+          "chapter": "Chapter 1",
+          "front": "What is competitive advantage?",
+          "back": "A unique strength allowing a firm to outperform rivals — achieved through lower cost or differentiated product/service.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-2",
+          "chapter": "Chapter 1",
+          "front": "List the steps in the strategic planning process.",
+          "back": "1) Define mission/vision 2) Analyse environment (SWOT/PESTLE) 3) Set strategic goals 4) Formulate strategies 5) Implement 6) Monitor and evaluate.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-3",
+          "chapter": "Chapter 1",
+          "front": "What does the 'T' in SWOT stand for?",
+          "back": "Threats — external factors that could negatively impact the organisation's goals (e.g. new competitor, load-shedding).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-4",
+          "chapter": "Chapter 1",
+          "front": "What is a strategic plan?",
+          "back": "A long-term (3-5+ year) plan setting the overall direction of the organisation, formulated by top management.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch1-q1",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "SWOT analysis identifies factors in which two categories?",
+          "options": [
+            "Internal and external",
+            "Short-term and long-term",
+            "Financial and non-financial",
+            "Controllable and uncontrollable"
+          ],
+          "answer": "Internal and external",
+          "explanation": "SWOT: Strengths and Weaknesses are internal; Opportunities and Threats are external.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q2",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "Which level of management is responsible for strategic planning?",
+          "options": [
+            "Operational management",
+            "Middle management",
+            "Top management",
+            "Supervisory management"
+          ],
+          "answer": "Top management",
+          "explanation": "Strategic planning is a top management function, setting the long-term direction for the entire organisation.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q3",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "A business's mission statement PRIMARILY describes:",
+          "options": [
+            "The current share price",
+            "The organisation's purpose and reason for existence",
+            "Next year's budget",
+            "The number of employees"
+          ],
+          "answer": "The organisation's purpose and reason for existence",
+          "explanation": "A mission statement answers 'why does this organisation exist?' and guides all strategic decisions.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch1-we-1",
+          "chapter": "Chapter 1",
+          "title": "SWOT Analysis for a SA Retailer",
+          "summary": "Conduct a SWOT for Pick n Pay.",
+          "problem": "Conduct a brief SWOT analysis for Pick n Pay in the current SA environment.",
+          "steps": [
+            {
+              "label": "Strengths",
+              "explanation": "Strong brand recognition; nationwide store network; established loyalty programme (Smart Shopper)."
+            },
+            {
+              "label": "Weaknesses",
+              "explanation": "Higher prices than Shoprite/Checkers in some segments; ageing IT systems."
+            },
+            {
+              "label": "Opportunities",
+              "explanation": "Growing online grocery market; expansion into Africa; private label brand growth."
+            },
+            {
+              "label": "Threats",
+              "explanation": "Load-shedding increases operational costs; intense competition from Shoprite and Woolworths; rising inflation reducing consumer spending."
+            }
+          ],
+          "answer": "SWOT provides a structured internal/external analysis to inform Pick n Pay's strategic choices.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 2",
+      "flashcards": [
+        {
+          "id": "ch2-fc-1",
+          "chapter": "Chapter 2",
+          "front": "What are the 4Ps of the marketing mix?",
+          "back": "Product (what is sold), Price (cost to customer), Place (distribution channel), Promotion (communication/advertising).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-2",
+          "chapter": "Chapter 2",
+          "front": "What is market segmentation?",
+          "back": "Dividing the total market into distinct groups of buyers with similar needs, allowing tailored marketing strategies.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-3",
+          "chapter": "Chapter 2",
+          "front": "Name four bases of market segmentation.",
+          "back": "Geographic (location), demographic (age/income/gender), psychographic (lifestyle/values), and behavioural (usage/loyalty).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-4",
+          "chapter": "Chapter 2",
+          "front": "What is the product life cycle?",
+          "back": "The stages a product goes through: introduction, growth, maturity, and decline. Marketing strategies change at each stage.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch2-q1",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "MTN targets young urban professionals with affordable data bundles. This is an example of:",
+          "options": [
+            "Geographic segmentation",
+            "Psychographic segmentation",
+            "Demographic segmentation",
+            "Behavioural segmentation"
+          ],
+          "answer": "Demographic segmentation",
+          "explanation": "Targeting young urban professionals uses demographic variables (age, occupation/income).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q2",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "The 'Place' element of the marketing mix refers to:",
+          "options": [
+            "The physical location of the factory",
+            "How the product is distributed and made available to customers",
+            "The price charged at each location",
+            "Product design"
+          ],
+          "answer": "How the product is distributed and made available to customers",
+          "explanation": "Place covers distribution channels — online, wholesale, retail — ensuring the product is accessible to the target market.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q3",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "During the MATURITY stage of the product life cycle, sales typically:",
+          "options": [
+            "Are increasing rapidly",
+            "Have peaked and are stable or starting to decline",
+            "Are at their lowest",
+            "Are negative"
+          ],
+          "answer": "Have peaked and are stable or starting to decline",
+          "explanation": "In the maturity stage, market saturation means sales growth slows; competition intensifies and profit margins squeeze.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch2-we-1",
+          "chapter": "Chapter 2",
+          "title": "Applying the 4Ps to a SA Product Launch",
+          "summary": "Design a marketing mix for a new energy drink targeting SA youth.",
+          "problem": "Zap Energy is a new SA energy drink targeting 18-25-year-old students. Design a marketing mix.",
+          "steps": [
+            {
+              "label": "Product",
+              "explanation": "330ml canned energy drink in 3 flavours; packaged with bold SA-themed design; tested to SABS standards."
+            },
+            {
+              "label": "Price",
+              "explanation": "R15 per can — competitive with Red Bull; introductory 2-for-R25 promotion at launch."
+            },
+            {
+              "label": "Place",
+              "explanation": "Distributed through Checkers, Shoprite and campus tuck shops; available on Checkers Sixty60 app."
+            },
+            {
+              "label": "Promotion",
+              "explanation": "Instagram and TikTok influencer campaign targeting students; sponsorship of NWU sports events."
+            }
+          ],
+          "answer": "4Ps: Zap Energy uses competitive pricing, student-targeted retail distribution, and social media promotion.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 3",
+      "flashcards": [
+        {
+          "id": "ch3-fc-1",
+          "chapter": "Chapter 3",
+          "front": "What is working capital?",
+          "back": "Working Capital = Current Assets − Current Liabilities. It measures the short-term liquidity available to fund day-to-day operations.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-2",
+          "chapter": "Chapter 3",
+          "front": "What is the difference between equity and debt financing?",
+          "back": "Equity financing raises capital by selling shares (no repayment, but ownership is shared). Debt financing raises capital through loans (must be repaid with interest, but ownership is not diluted).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-3",
+          "chapter": "Chapter 3",
+          "front": "What is gross profit?",
+          "back": "Gross Profit = Revenue − Cost of Goods Sold (COGS). It is the profit before deducting operating expenses.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-4",
+          "chapter": "Chapter 3",
+          "front": "Name two short-term sources of finance.",
+          "back": "Bank overdraft; trade credit (creditors); short-term bank loan; factoring of debtors.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch3-q1",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "If a business has current assets of R120 000 and current liabilities of R45 000, the working capital is:",
+          "options": [
+            "R165 000",
+            "R75 000",
+            "R45 000",
+            "R120 000"
+          ],
+          "answer": "R75 000",
+          "explanation": "Working Capital = Current Assets − Current Liabilities = R120 000 − R45 000 = R75 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q2",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "A business issues new shares to raise R2 million. This is an example of:",
+          "options": [
+            "Debt financing",
+            "Equity financing",
+            "Trade credit",
+            "Factoring"
+          ],
+          "answer": "Equity financing",
+          "explanation": "Issuing shares raises equity capital — investors receive ownership stake, not a loan repayment claim.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q3",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "Revenue was R500 000 and cost of goods sold was R320 000. What is the gross profit?",
+          "options": [
+            "R820 000",
+            "R320 000",
+            "R180 000",
+            "R500 000"
+          ],
+          "answer": "R180 000",
+          "explanation": "Gross Profit = Revenue − COGS = R500 000 − R320 000 = R180 000.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch3-we-1",
+          "chapter": "Chapter 3",
+          "title": "Working Capital Calculation",
+          "summary": "Calculate and interpret working capital for a small business.",
+          "problem": "Sunshine Bakery has: cash R10 000, inventory R25 000, debtors R15 000, creditors R20 000, bank overdraft R8 000. Calculate working capital and comment on liquidity.",
+          "steps": [
+            {
+              "label": "Step 1 — Identify current assets",
+              "explanation": "Current assets = Cash (R10 000) + Inventory (R25 000) + Debtors (R15 000) = R50 000."
+            },
+            {
+              "label": "Step 2 — Identify current liabilities",
+              "explanation": "Current liabilities = Creditors (R20 000) + Bank overdraft (R8 000) = R28 000."
+            },
+            {
+              "label": "Step 3 — Calculate working capital",
+              "explanation": "Working Capital = R50 000 − R28 000 = R22 000."
+            },
+            {
+              "label": "Step 4 — Interpret",
+              "explanation": "Positive working capital of R22 000 means the bakery can cover short-term obligations. However, much of the current assets are tied in inventory — monitoring cash flow remains important."
+            }
+          ],
+          "answer": "Working capital = R22 000 (positive) — Sunshine Bakery is solvent in the short term.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 4",
+      "flashcards": [
+        {
+          "id": "ch4-fc-1",
+          "chapter": "Chapter 4",
+          "front": "List the stages of the recruitment and selection process.",
+          "back": "1) Identify vacancy 2) Job analysis 3) Advertise 4) Receive applications 5) Shortlist 6) Interviews/tests 7) Reference checks 8) Offer of employment 9) Onboarding.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-2",
+          "chapter": "Chapter 4",
+          "front": "What is a job description?",
+          "back": "A document outlining the duties, responsibilities, reporting relationships, and conditions of a specific job position.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-3",
+          "chapter": "Chapter 4",
+          "front": "What is the purpose of a performance appraisal?",
+          "back": "To formally evaluate an employee's performance against objectives; provides feedback, identifies training needs and informs promotion/reward decisions.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-4",
+          "chapter": "Chapter 4",
+          "front": "Name two key SA labour laws that HR must comply with.",
+          "back": "Labour Relations Act (LRA 66/1995) — governs collective bargaining and dismissal. Basic Conditions of Employment Act (BCEA) — sets minimum employment standards (hours, leave, pay).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch4-q1",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "A job specification differs from a job description in that it focuses on:",
+          "options": [
+            "The duties and tasks of the job",
+            "The minimum qualifications and skills required of the candidate",
+            "The salary offered",
+            "The working hours"
+          ],
+          "answer": "The minimum qualifications and skills required of the candidate",
+          "explanation": "A job specification lists the person requirements (qualifications, skills, experience) needed to perform the job described in the job description.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q2",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "The Employment Equity Act (EEA) in SA requires employers to:",
+          "options": [
+            "Pay all employees equally",
+            "Promote equal opportunity and eliminate unfair discrimination; implement affirmative action",
+            "Only hire South African citizens",
+            "Consult with SARS before hiring"
+          ],
+          "answer": "Promote equal opportunity and eliminate unfair discrimination; implement affirmative action",
+          "explanation": "The EEA aims to achieve equity in the workplace by promoting fair treatment and removing barriers for designated groups.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q3",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Onboarding refers to:",
+          "options": [
+            "The process of retrenching employees",
+            "Integrating a new employee into the organisation and their role",
+            "Conducting annual performance reviews",
+            "Advertising a job vacancy externally"
+          ],
+          "answer": "Integrating a new employee into the organisation and their role",
+          "explanation": "Onboarding covers orientation, training and support to help new employees become productive team members quickly.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch4-we-1",
+          "chapter": "Chapter 4",
+          "title": "Designing a Recruitment Process",
+          "summary": "Plan a recruitment process for a marketing position.",
+          "problem": "A SA retail company needs to hire a Marketing Coordinator. Design the key steps of the recruitment and selection process.",
+          "steps": [
+            {
+              "label": "Step 1 — Job analysis",
+              "explanation": "HR and line manager identify duties, responsibilities and required qualifications/skills."
+            },
+            {
+              "label": "Step 2 — Advertise",
+              "explanation": "Post on LinkedIn, Pnet and company website; include job description and specification."
+            },
+            {
+              "label": "Step 3 — Screen applications",
+              "explanation": "HR screens CVs against minimum requirements (e.g. BCom Marketing, 1-year experience)."
+            },
+            {
+              "label": "Step 4 — Interviews",
+              "explanation": "Shortlist 5 candidates; conduct structured interviews with standardised questions to ensure fairness under EEA."
+            },
+            {
+              "label": "Step 5 — Reference checks",
+              "explanation": "Verify employment history and qualifications with previous employers."
+            },
+            {
+              "label": "Step 6 — Offer and onboard",
+              "explanation": "Send written offer; prepare induction programme for first week."
+            }
+          ],
+          "answer": "Structured recruitment: Job analysis → Advertise → Screen → Interview → Reference check → Offer → Onboard.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 5",
+      "flashcards": [
+        {
+          "id": "ch5-fc-1",
+          "chapter": "Chapter 5",
+          "front": "What is operations management?",
+          "back": "The management of processes that transform inputs (materials, labour, capital) into outputs (goods/services) efficiently and effectively.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-2",
+          "chapter": "Chapter 5",
+          "front": "What is Just-in-Time (JIT) inventory management?",
+          "back": "An approach where materials and inventory are ordered and received only when needed for production, minimising holding costs.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-3",
+          "chapter": "Chapter 5",
+          "front": "Calculate capacity utilisation if actual output is 800 units and design capacity is 1 000 units.",
+          "back": "Capacity Utilisation = (800/1000) × 100 = 80%.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-4",
+          "chapter": "Chapter 5",
+          "front": "What is quality control?",
+          "back": "Monitoring and testing outputs to ensure they meet required standards before delivery to customers.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch5-q1",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "JIT inventory management reduces:",
+          "options": [
+            "Product quality",
+            "Inventory holding costs",
+            "Sales revenue",
+            "Employee training costs"
+          ],
+          "answer": "Inventory holding costs",
+          "explanation": "JIT minimises stock held at any time, reducing warehouse space, insurance and spoilage costs.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q2",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "A factory has a design capacity of 500 units/day but is producing 400 units/day. Capacity utilisation is:",
+          "options": [
+            "80%",
+            "125%",
+            "20%",
+            "400%"
+          ],
+          "answer": "80%",
+          "explanation": "Capacity Utilisation = (400/500) × 100 = 80%.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q3",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is a PRIMARY input in the operations process?",
+          "options": [
+            "Revenue",
+            "Raw materials",
+            "Profit",
+            "Customer satisfaction"
+          ],
+          "answer": "Raw materials",
+          "explanation": "Inputs in operations include raw materials, labour, equipment and capital — these are transformed into outputs.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch5-we-1",
+          "chapter": "Chapter 5",
+          "title": "Capacity Utilisation at a Bakery",
+          "summary": "Calculate and interpret capacity utilisation.",
+          "problem": "Sunshine Bakery can bake 1 200 loaves per day (design capacity) but due to load-shedding bakes only 900. Calculate capacity utilisation and suggest a solution.",
+          "steps": [
+            {
+              "label": "Calculate",
+              "explanation": "Capacity Utilisation = (900/1200) × 100 = 75%."
+            },
+            {
+              "label": "Interpret",
+              "explanation": "The bakery is operating at 75% of capacity — underperforming by 25% due to power outages."
+            },
+            {
+              "label": "Solution",
+              "explanation": "Install a backup generator or solar inverter to maintain full capacity during load-shedding; this is an increasingly common SA operations response."
+            }
+          ],
+          "answer": "Capacity utilisation = 75%. Load-shedding is the cause; a backup power solution is recommended.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 6",
+      "flashcards": [
+        {
+          "id": "ch6-fc-1",
+          "chapter": "Chapter 6",
+          "front": "What is a management information system (MIS)?",
+          "back": "A system that collects, processes and presents information to support decision-making at different management levels.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-2",
+          "chapter": "Chapter 6",
+          "front": "Distinguish data from information.",
+          "back": "Data = raw facts (e.g. individual sales transactions). Information = processed data with meaning (e.g. total sales by region this month).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-3",
+          "chapter": "Chapter 6",
+          "front": "What type of information does top management need?",
+          "back": "Strategic information — broad, long-term, summarised data about the external environment and overall performance (e.g. annual market share trends).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-4",
+          "chapter": "Chapter 6",
+          "front": "What is a transaction processing system (TPS)?",
+          "back": "An operational-level system that records and processes routine daily transactions (e.g. POS systems recording each sale).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch6-q1",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "The main purpose of a management information system (MIS) is to:",
+          "options": [
+            "Automate all business processes",
+            "Support decision-making by providing relevant information to managers",
+            "Replace human managers with computers",
+            "Process customer payments"
+          ],
+          "answer": "Support decision-making by providing relevant information to managers",
+          "explanation": "A MIS transforms raw data into meaningful information that managers at all levels use to make better decisions.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q2",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "Daily cash register sales records are an example of:",
+          "options": [
+            "Strategic information",
+            "Tactical information",
+            "Transaction data",
+            "Management reports"
+          ],
+          "answer": "Transaction data",
+          "explanation": "Individual sales records are raw transaction data — they need to be aggregated and processed to become useful information.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q3",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "Middle managers typically need which type of information?",
+          "options": [
+            "Highly detailed transaction data",
+            "Broad strategic summaries about the global economy",
+            "Tactical information comparing actual performance to targets",
+            "Only financial information"
+          ],
+          "answer": "Tactical information comparing actual performance to targets",
+          "explanation": "Middle managers use tactical information (monthly performance reports, budget variances) to coordinate activities and report upward.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch6-we-1",
+          "chapter": "Chapter 6",
+          "title": "Information Needs at Different Management Levels",
+          "summary": "Match information types to management levels at a SA bank.",
+          "problem": "Standard Bank has a branch teller, a branch manager, and the CEO. Describe the information each person needs from the bank's information systems.",
+          "steps": [
+            {
+              "label": "Teller (operational)",
+              "explanation": "Real-time transaction data: current account balances, today's exchange rates, cash-on-hand — processed by the TPS."
+            },
+            {
+              "label": "Branch manager (tactical)",
+              "explanation": "Weekly summary of branch deposits, loan applications processed, teller productivity vs targets — from the MIS."
+            },
+            {
+              "label": "CEO (strategic)",
+              "explanation": "Quarterly market share across all branches, interest rate trends, competitor analysis, regulatory changes from SARB — from executive dashboards."
+            }
+          ],
+          "answer": "Operational=detailed real-time transactions; Tactical=periodic performance summaries; Strategic=broad external trends.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 7",
+      "flashcards": [
+        {
+          "id": "ch7-fc-1",
+          "chapter": "Chapter 7",
+          "front": "What is corporate social responsibility (CSR)?",
+          "back": "A business's voluntary commitment to ethical behaviour and contributing to economic development, environment and community wellbeing — beyond legal compliance.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-2",
+          "chapter": "Chapter 7",
+          "front": "What is B-BBEE?",
+          "back": "Broad-Based Black Economic Empowerment — SA policy aimed at increasing black participation in the economy through ownership, management, employment equity, skills and enterprise development.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-3",
+          "chapter": "Chapter 7",
+          "front": "What is the triple bottom line?",
+          "back": "A framework measuring performance on three dimensions: People (social impact), Planet (environmental sustainability), and Profit (financial performance).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-4",
+          "chapter": "Chapter 7",
+          "front": "Name three elements of the B-BBEE scorecard.",
+          "back": "Ownership (25 pts), Management control (19 pts), Skills development (20 pts); also Enterprise & supplier development (40 pts), Socio-economic development (5 pts).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch7-q1",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "B-BBEE is primarily aimed at:",
+          "options": [
+            "Reducing corporate tax",
+            "Increasing black participation in the SA economy",
+            "Attracting foreign investment",
+            "Reducing inflation"
+          ],
+          "answer": "Increasing black participation in the SA economy",
+          "explanation": "B-BBEE addresses SA's historical economic inequality by promoting black ownership, management control and skills development.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q2",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "The triple bottom line measures business performance in terms of:",
+          "options": [
+            "Revenue, profit and market share",
+            "People, Planet and Profit",
+            "Short-term, medium-term and long-term goals",
+            "Cost, quality and speed"
+          ],
+          "answer": "People, Planet and Profit",
+          "explanation": "The triple bottom line (3Ps) evaluates a business's social, environmental and financial performance together.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q3",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "A business donating R500 000 to build a school in a local community is an example of:",
+          "options": [
+            "B-BBEE ownership element",
+            "Corporate social responsibility",
+            "Profit maximisation",
+            "Statutory compliance"
+          ],
+          "answer": "Corporate social responsibility",
+          "explanation": "Community investment such as school building is a voluntary CSR activity beyond legal requirements.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch7-we-1",
+          "chapter": "Chapter 7",
+          "title": "Applying the Triple Bottom Line",
+          "summary": "Evaluate Sasol's performance using the triple bottom line.",
+          "problem": "Evaluate Sasol using the triple bottom line framework: People, Planet, Profit.",
+          "steps": [
+            {
+              "label": "Profit",
+              "explanation": "Sasol reported strong revenue (R230bn in recent years) from fuel, chemicals, and gas — financially profitable."
+            },
+            {
+              "label": "People",
+              "explanation": "Sasol employs over 30 000 people, invests in skills development (meeting B-BBEE targets), and supports community health/education initiatives."
+            },
+            {
+              "label": "Planet",
+              "explanation": "Sasol is SA's largest single emitter of greenhouse gases; it faces pressure to reduce emissions and invest in green hydrogen — a significant environmental challenge."
+            }
+          ],
+          "answer": "Sasol scores well on Profit and People but faces criticism on Planet — illustrating the tension in the triple bottom line.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    }
+  ],
+  "discipline": "business_management",
+  "referenceList": [
+    {
+      "title": "Hellriegel, Jackson, Slocum et al. — Management (Cengage/South-Western)",
+      "publisher": "Cengage",
+      "url": "https://www.cengage.com/c/management-15e-hellriegel/9780357033856/",
+      "note": "Common management principles text; covers planning, organising, leading, control.",
+      "sourceHash": "5e4d986d79e9444e49ba9782014662b62dcf2f5f722112bc02a4e3f7130dc959"
+    },
+    {
+      "title": "Robbins, Coulter & DeCenzo — Fundamentals of Management (Pearson)",
+      "publisher": "Pearson",
+      "url": "https://www.pearson.com/en-us/subjects/business-management.html",
+      "note": "Accessible intro to the management function and behavioural foundations.",
+      "sourceHash": "bff5850e007137dfcdd05eac9d8a82fc7ddb24b8e6dc1430d1df4fe25d3a4255"
+    },
+    {
+      "title": "Society for Human Resource Management — HR Topics",
+      "publisher": "SHRM",
+      "url": "https://www.shrm.org/topics-tools",
+      "note": "Practitioner source for organisational-behaviour and HR concepts.",
+      "sourceHash": "7481bdca31c549d29dc810d62032fbb80a184db30593d9c0b43375394d7cfa44"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: Business Management 121 (BCom, North-West University). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "Chapter-by-chapter teaching focus (derived from the module's own learning outcomes and key definitions):",
+    "  • Chapter 1 — Strategic Management. Emphasise: Define strategic management; Conduct a SWOT analysis; Distinguish strategic from operational plans. Local context: South African companies use the National Development Plan (NDP 2030) as a macro strategic context when formulating their own strategies.",
+    "  • Chapter 2 — Marketing Management. Emphasise: Explain the marketing concept; Apply the 4Ps to a SA business; Describe market segmentation bases. Local context: SA marketers must understand diversity — segmenting by language, LSM (living standards measure), and geographic area (urban/rural/township) is common.",
+    "  • Chapter 3 — Financial Management Basics. Emphasise: Identify sources of short- and long-term finance; Explain the concept of working capital; Interpret a basic income statement. Local context: The JSE (Johannesburg Stock Exchange) is where SA public companies raise equity capital. SMMEs typically rely on SEFA loans or commercial bank finance.",
+    "  • Chapter 4 — Human Resources Management. Emphasise: Describe the recruitment and selection process; Explain performance appraisal; Identify key SA labour legislation. Local context: SA HR managers must comply with the Labour Relations Act (LRA 66/1995), Basic Conditions of Employment Act (BCEA), and Employment Equity Act (EEA).",
+    "  • Chapter 5 — Operations Management. Emphasise: Describe the production process; Explain inventory management concepts; Apply basic capacity planning. Local context: Load-shedding directly impacts SA operations management — businesses must factor power outages into capacity planning and consider generator or solar backup.",
+    "  • Chapter 6 — Information Management. Emphasise: Explain the role of a management information system (MIS); Distinguish data from information; Identify levels of information needs in an organisation. Local context: SA businesses increasingly use cloud-based MIS (e.g. SAP, Sage, Microsoft Dynamics) to manage operations and comply with SARS e-filing requirements.",
+    "  • Chapter 7 — Social Responsibility & Sustainability. Emphasise: Define corporate social responsibility (CSR); Explain B-BBEE and its scorecard; Apply the triple bottom line concept. Local context: B-BBEE compliance is legally required for businesses contracting with the SA government. JSE-listed companies must report on sustainability via integrated reporting under King IV.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "5e4d986d79e9444e49ba9782014662b62dcf2f5f722112bc02a4e3f7130dc959",
+    "bff5850e007137dfcdd05eac9d8a82fc7ddb24b8e6dc1430d1df4fe25d3a4255",
+    "7481bdca31c549d29dc810d62032fbb80a184db30593d9c0b43375394d7cfa44"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

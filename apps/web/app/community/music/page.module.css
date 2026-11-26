@@ -1,0 +1,117 @@
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ── Page header ── */
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary, #1a1a1a);
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: var(--muted, #888);
+  margin: 0;
+}
+
+/* ── Toggle row ── */
+.toggleRow {
+  display: flex;
+  gap: 8px;
+}
+
+.toggleActive,
+.toggleGhost {
+  padding: 7px 18px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.toggleActive {
+  background: var(--accent, #f5c04f);
+  color: #1a1a1a;
+  border-color: var(--accent, #f5c04f);
+}
+
+.toggleGhost {
+  background: transparent;
+  color: var(--text-primary, #1a1a1a);
+  border-color: rgba(54, 45, 30, 0.2);
+}
+.toggleGhost:hover {
+  background: rgba(54, 45, 30, 0.06);
+}
+
+/* ── Results grid ── */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+/* ── Empty / error / loading states ── */
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 32px 16px;
+  text-align: center;
+  color: var(--muted, #888);
+  font-size: 0.875rem;
+}
+
+.errorText {
+  color: var(--danger, #e74c3c);
+  margin: 0;
+}
+
+.emptyLink {
+  font-size: 0.85rem;
+  color: var(--accent, #f5c04f);
+  text-decoration: none;
+}
+.emptyLink:hover {
+  text-decoration: underline;
+}
+
+/* ── Load more ── */
+.loadMoreRow {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.loadMoreBtn {
+  width: 100%;
+  max-width: 260px;
+  padding: 10px 0;
+  border-radius: 8px;
+  border: 1px solid rgba(54, 45, 30, 0.2);
+  background: transparent;
+  color: var(--text-primary, #1a1a1a);
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.loadMoreBtn:hover {
+  background: rgba(54, 45, 30, 0.06);
+}

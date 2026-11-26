@@ -1,0 +1,174 @@
+.wrapper {
+  position: relative;
+}
+
+.pill {
+  background: var(--gold-dim);
+  color: var(--gold);
+  border: 1px solid var(--gold-border);
+  border-radius: 99px;
+  padding: 4px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: var(--font-mono);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all var(--t) var(--ease);
+}
+
+.pill:hover {
+  background: rgba(255, 215, 0, 0.18);
+  box-shadow: 0 0 0 1px var(--gold-border);
+}
+
+.pillOpen {
+  box-shadow: 0 0 0 1px var(--gold-border);
+}
+
+.chevron {
+  transition: transform var(--t) var(--ease);
+}
+
+.chevronOpen {
+  transform: rotate(180deg);
+}
+
+.panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  min-width: 260px;
+  background: var(--surface-3);
+  border: 1px solid var(--border-2);
+  border-radius: var(--r-xl);
+  box-shadow: var(--sh-lg);
+  padding: 6px;
+  z-index: 300;
+  animation: fadeUp 200ms var(--ease) both;
+}
+
+.header {
+  padding: 10px 12px 6px;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  font-family: var(--font-mono);
+}
+
+.options {
+  display: grid;
+  gap: 4px;
+}
+
+.option {
+  padding: 10px 12px;
+  border-radius: var(--r-md);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: all var(--t) var(--ease);
+  width: 100%;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-2);
+  text-align: left;
+}
+
+.option:hover {
+  background: var(--gold-dim);
+  color: var(--text-1);
+}
+
+.optionSelected {
+  background: var(--gold-dim);
+  border-color: var(--gold-border);
+  color: var(--gold);
+}
+
+.optionIcon {
+  width: 18px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.optionCopy {
+  display: grid;
+  gap: 3px;
+  flex: 1;
+}
+
+.optionTitle {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-1);
+}
+
+.optionDescription {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--text-3);
+}
+
+.optionCheck {
+  width: 16px;
+  height: 16px;
+  color: var(--gold);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.divider {
+  height: 1px;
+  background: var(--border);
+  margin: 4px 6px;
+}
+
+.currentPeriod {
+  padding: 10px 12px;
+  background: var(--surface-2);
+  border-radius: var(--r-md);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.currentPeriod span {
+  color: var(--text-3);
+  font-size: 10px;
+}
+
+.currentPeriod strong {
+  color: var(--gold);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.plannerLink {
+  padding: 8px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  color: var(--text-3);
+  font-size: 11px;
+  font-family: var(--font-mono);
+  border-top: 1px solid var(--border);
+  margin-top: 4px;
+  transition: all var(--t) var(--ease);
+  width: 100%;
+}
+
+.plannerLink:hover {
+  color: var(--gold);
+}

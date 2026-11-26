@@ -1,0 +1,1812 @@
+{
+  "institution": "North-West University",
+  "moduleCode": "MTHS123",
+  "moduleName": "Mathematics 123",
+  "semester": "Semester 2, 2025",
+  "programme": "BCom",
+  "confidence": 0.82,
+  "generatedAt": "2026-04-03T00:00:00.000Z",
+  "sourceFiles": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "missingContent": [],
+  "studyUnits": [
+    "Chapter 1 — Limits & Continuity",
+    "Chapter 2 — Derivatives & Differentiation Rules",
+    "Chapter 3 — Applications of Derivatives",
+    "Chapter 4 — Optimisation",
+    "Chapter 5 — Indefinite Integration",
+    "Chapter 6 — Definite Integration",
+    "Chapter 7 — Applications of Integration"
+  ],
+  "chapters": [
+    "Chapter 1",
+    "Chapter 2",
+    "Chapter 3",
+    "Chapter 4",
+    "Chapter 5",
+    "Chapter 6",
+    "Chapter 7"
+  ],
+  "topicSeeds": [
+    "Ch1 - limit definition",
+    "Ch1 - continuity",
+    "Ch2 - power product quotient chain rules",
+    "Ch3 - critical points second derivative test",
+    "Ch4 - business optimisation profit cost",
+    "Ch5 - antiderivatives power rule",
+    "Ch6 - fundamental theorem",
+    "Ch7 - area consumer surplus"
+  ],
+  "keyTopics": [
+    "limits and continuity",
+    "differentiation rules",
+    "critical points",
+    "second derivative test",
+    "profit maximisation",
+    "indefinite integrals",
+    "definite integrals",
+    "area between curves",
+    "consumer surplus"
+  ],
+  "quizSignals": [
+    "How do you evaluate a limit?",
+    "How do you find the maximum of a function?",
+    "What is the fundamental theorem of calculus?",
+    "How do you calculate consumer surplus?"
+  ],
+  "assessmentPlan": [
+    {
+      "name": "Class Test 1",
+      "weight": "20%",
+      "due": "August",
+      "scope": "Ch 1-2"
+    },
+    {
+      "name": "Class Test 2",
+      "weight": "20%",
+      "due": "September",
+      "scope": "Ch 3-4"
+    },
+    {
+      "name": "Class Test 3",
+      "weight": "20%",
+      "due": "October",
+      "scope": "Ch 5-6"
+    },
+    {
+      "name": "Assignment",
+      "weight": "20%",
+      "due": "September",
+      "scope": "Ch 1-5"
+    },
+    {
+      "name": "Semester Test",
+      "weight": "20%",
+      "due": "November",
+      "scope": "Ch 1-7"
+    }
+  ],
+  "classSchedule": [
+    {
+      "label": "Week 1",
+      "summary": "Limits: evaluation by substitution and factorisation.",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 2",
+      "summary": "Continuity; limits at infinity.",
+      "chapter": "Chapter 1"
+    },
+    {
+      "label": "Week 3",
+      "summary": "Power, constant and sum rules of differentiation.",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 4",
+      "summary": "Product, quotient and chain rules; TEST 1.",
+      "chapter": "Chapter 2"
+    },
+    {
+      "label": "Week 5",
+      "summary": "Critical points; first derivative test.",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 6",
+      "summary": "Second derivative test; concavity.",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 7",
+      "summary": "Optimisation: profit max, cost min; TEST 2.",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 8",
+      "summary": "Business optimisation applications.",
+      "chapter": "Chapter 4"
+    },
+    {
+      "label": "Week 9",
+      "summary": "Indefinite integrals; power rule for integration.",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 10",
+      "summary": "Integration techniques; total cost from MC.",
+      "chapter": "Chapter 5"
+    },
+    {
+      "label": "Week 11",
+      "summary": "Definite integrals; fundamental theorem; TEST 3.",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 12",
+      "summary": "Area under a curve; total revenue from MR.",
+      "chapter": "Chapter 6"
+    },
+    {
+      "label": "Week 13",
+      "summary": "Area between curves.",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 14",
+      "summary": "Consumer and producer surplus.",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 15",
+      "summary": "Revision and Semester Test.",
+      "chapter": "Chapter 7"
+    }
+  ],
+  "chapterInsights": [
+    {
+      "chapter": "Chapter 1",
+      "title": "Limits & Continuity",
+      "outcomes": [
+        "Evaluate limits by substitution and factorisation",
+        "State conditions for continuity",
+        "Evaluate limits at infinity"
+      ],
+      "formulas": [
+        "lim[x→a] f(x) = L",
+        "Continuity: f(a) defined, limit exists, and equals f(a)"
+      ],
+      "definitions": [
+        {
+          "term": "Limit",
+          "definition": "The value f(x) approaches as x→a, regardless of f(a)."
+        },
+        {
+          "term": "Continuity",
+          "definition": "f is continuous at a if all three conditions hold: defined, limit exists, limit=f(a)."
+        }
+      ],
+      "revisionPrompts": [
+        "Evaluate lim[x→2](x²−4)/(x−2).",
+        "Is f(x)=1/(x−3) continuous everywhere?"
+      ],
+      "saContext": "Limits underpin marginal analysis — SA economists use calculus-based models for policy impact assessment.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 2",
+      "title": "Derivatives & Differentiation Rules",
+      "outcomes": [
+        "Apply power, product, quotient and chain rules",
+        "Differentiate polynomial and composite functions"
+      ],
+      "formulas": [
+        "Power: d/dx[xⁿ]=nxⁿ⁻¹",
+        "Product: (fg)'=f'g+fg'",
+        "Quotient: (f/g)'=(f'g−fg')/g²",
+        "Chain: d/dx[f(g(x))]=f'(g(x))·g'(x)"
+      ],
+      "definitions": [
+        {
+          "term": "Derivative",
+          "definition": "The instantaneous rate of change: f'(x)=lim[h→0][f(x+h)−f(x)]/h."
+        }
+      ],
+      "revisionPrompts": [
+        "Differentiate f(x)=(2x+1)⁴.",
+        "Use the quotient rule on f(x)=(x²+1)/(x−2)."
+      ],
+      "saContext": "Marginal cost and revenue functions — core to SA business pricing decisions — are derivatives of TC and TR.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 3",
+      "title": "Applications of Derivatives",
+      "outcomes": [
+        "Find critical points by setting f'(x)=0",
+        "Classify using second derivative test",
+        "Determine intervals of increase/decrease"
+      ],
+      "formulas": [
+        "Critical point: f'(x)=0",
+        "f''(c)>0 → minimum; f''(c)<0 → maximum"
+      ],
+      "definitions": [
+        {
+          "term": "Critical point",
+          "definition": "A point where f'(x)=0 or undefined — candidate for local max/min."
+        }
+      ],
+      "revisionPrompts": [
+        "Find and classify the critical points of f(x)=x³−3x.",
+        "At what x does f(x)=−2x²+8x−3 reach its maximum?"
+      ],
+      "saContext": "SA managers use the second derivative test to confirm that a proposed production level truly maximises profit.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 4",
+      "title": "Optimisation",
+      "outcomes": [
+        "Formulate and solve business optimisation problems",
+        "Find profit-maximising output",
+        "Minimise cost functions"
+      ],
+      "formulas": [
+        "Max profit: π'(x)=0, π''(x)<0",
+        "Break-even: TR=TC"
+      ],
+      "definitions": [
+        {
+          "term": "Optimisation",
+          "definition": "Finding the input value (e.g. output quantity) that maximises or minimises an objective function."
+        }
+      ],
+      "revisionPrompts": [
+        "If π(x)=−3x²+18x−10, find the profit-maximising x.",
+        "A cost function C(x)=x²−4x+20. Find the minimum cost."
+      ],
+      "saContext": "SA firms in competitive markets face razor-thin margins — calculus-based profit optimisation is applied in financial modelling and pricing.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 5",
+      "title": "Indefinite Integration",
+      "outcomes": [
+        "Find antiderivatives using the power rule",
+        "Apply the constant of integration",
+        "Recover TC from MC"
+      ],
+      "formulas": [
+        "∫xⁿdx=xⁿ⁺¹/(n+1)+C  (n≠−1)",
+        "∫kdx=kx+C"
+      ],
+      "definitions": [
+        {
+          "term": "Antiderivative",
+          "definition": "F(x) where F'(x)=f(x); indefinite integral gives F(x)+C."
+        },
+        {
+          "term": "Constant of integration",
+          "definition": "Arbitrary constant C added because differentiation destroys constants."
+        }
+      ],
+      "revisionPrompts": [
+        "Find ∫(3x²−4x+7)dx.",
+        "If MC=2x+5 and FC=R400, find TC(x)."
+      ],
+      "saContext": "Integrating MC gives TC — used in SA cost accounting and managerial economics for pricing decisions.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 6",
+      "title": "Definite Integration",
+      "outcomes": [
+        "Evaluate definite integrals using the fundamental theorem",
+        "Interpret result as area under a curve",
+        "Calculate total revenue from MR"
+      ],
+      "formulas": [
+        "∫[a,b]f(x)dx=F(b)−F(a)"
+      ],
+      "definitions": [
+        {
+          "term": "Definite integral",
+          "definition": "∫[a,b]f(x)dx gives a numerical value — the signed area between f(x) and the x-axis from a to b."
+        }
+      ],
+      "revisionPrompts": [
+        "Evaluate ∫[0,4](2x+1)dx.",
+        "If MR=50−2x, find total revenue from x=0 to x=10."
+      ],
+      "saContext": "Definite integrals compute total revenue or total cost over an output range — standard in SA business analytics.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    },
+    {
+      "chapter": "Chapter 7",
+      "title": "Applications of Integration",
+      "outcomes": [
+        "Find area between two curves",
+        "Calculate consumer and producer surplus"
+      ],
+      "formulas": [
+        "Area=∫[a,b][f(x)−g(x)]dx (f≥g)",
+        "CS=∫[0,x*]D(x)dx−p*x*",
+        "PS=p*x*−∫[0,x*]S(x)dx"
+      ],
+      "definitions": [
+        {
+          "term": "Consumer surplus",
+          "definition": "Area below demand curve and above equilibrium price — benefit to consumers."
+        },
+        {
+          "term": "Producer surplus",
+          "definition": "Area above supply curve and below equilibrium price — benefit to producers."
+        }
+      ],
+      "revisionPrompts": [
+        "Find area between y=x and y=x² on [0,1].",
+        "If D(x)=60−2x and p*=R20, find consumer surplus."
+      ],
+      "saContext": "Consumer/producer surplus analysis is used by SA Competition Commission to assess welfare effects of mergers and price controls.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://openstax.org/details/books/college-algebra",
+          "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+          "https://www.pearson.com/en-us/subjects/mathematics.html"
+        ]
+      }
+    }
+  ],
+  "chapterStudyItems": [
+    {
+      "chapter": "Chapter 1",
+      "flashcards": [
+        {
+          "id": "ch1-fc-1",
+          "chapter": "Chapter 1",
+          "front": "lim[x→5](x²−25)/(x−5) = ?",
+          "back": "Factor: (x−5)(x+5)/(x−5)=x+5. Limit = 5+5 = 10.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-2",
+          "chapter": "Chapter 1",
+          "front": "State the three conditions for continuity at x=a.",
+          "back": "1) f(a) is defined. 2) lim[x→a]f(x) exists. 3) The limit equals f(a).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-3",
+          "chapter": "Chapter 1",
+          "front": "lim[x→∞](5x²)/(x²+1) = ?",
+          "back": "Divide top and bottom by x²: 5/(1+1/x²) → 5/1 = 5 as x→∞.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-fc-4",
+          "chapter": "Chapter 1",
+          "front": "Why can't you just substitute x=a when the limit gives 0/0?",
+          "back": "0/0 is indeterminate — you must factorise and cancel the common factor first, then substitute.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch1-q1",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "lim[x→3](x²−9)/(x−3) = ?",
+          "options": [
+            "0",
+            "3",
+            "6",
+            "9"
+          ],
+          "answer": "6",
+          "explanation": "Factor (x−3)(x+3)/(x−3)=x+3; substitute x=3: 3+3=6.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q2",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "f(x)=1/(x−4) is discontinuous at:",
+          "options": [
+            "x=0",
+            "x=1",
+            "x=4",
+            "x=−4"
+          ],
+          "answer": "x=4",
+          "explanation": "The denominator is zero at x=4 — f(4) is undefined, so the function is discontinuous there.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch1-q3",
+          "chapter": "Chapter 1",
+          "questionType": "multiple-choice",
+          "prompt": "lim[x→∞](3/x) = ?",
+          "options": [
+            "3",
+            "0",
+            "∞",
+            "−3"
+          ],
+          "answer": "0",
+          "explanation": "As x grows without bound, 3/x shrinks to 0. The x-axis is a horizontal asymptote.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch1-we-1",
+          "chapter": "Chapter 1",
+          "title": "Evaluating a Limit by Factorising",
+          "summary": "Remove 0/0 indeterminate form.",
+          "problem": "Evaluate lim[x→2](x²−4)/(x−2).",
+          "steps": [
+            {
+              "label": "Factor numerator",
+              "explanation": "x²−4=(x−2)(x+2)."
+            },
+            {
+              "label": "Cancel",
+              "explanation": "(x−2)(x+2)/(x−2)=x+2 for x≠2."
+            },
+            {
+              "label": "Substitute",
+              "explanation": "lim[x→2](x+2)=4."
+            }
+          ],
+          "answer": "4",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 2",
+      "flashcards": [
+        {
+          "id": "ch2-fc-1",
+          "chapter": "Chapter 2",
+          "front": "Differentiate f(x)=(3x+5)⁴ using the chain rule.",
+          "back": "f'(x)=4(3x+5)³·3=12(3x+5)³.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-2",
+          "chapter": "Chapter 2",
+          "front": "State the product rule.",
+          "back": "d/dx[f·g]=f'g+fg'. Differentiate first×second + first×differentiate second.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-3",
+          "chapter": "Chapter 2",
+          "front": "d/dx[8x³−5x²+2x−7] = ?",
+          "back": "24x²−10x+2.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-fc-4",
+          "chapter": "Chapter 2",
+          "front": "d/dx[constant] = ?",
+          "back": "0. Constants have zero rate of change.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch2-q1",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "d/dx[5x⁴] = ?",
+          "options": [
+            "20x³",
+            "5x³",
+            "20x⁵",
+            "4x³"
+          ],
+          "answer": "20x³",
+          "explanation": "Power rule: 5·4·x³=20x³.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q2",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "Using chain rule, d/dx[(x²+1)³]=",
+          "options": [
+            "3(x²+1)²",
+            "6x(x²+1)²",
+            "2x(x²+1)³",
+            "3x(x²+1)"
+          ],
+          "answer": "6x(x²+1)²",
+          "explanation": "Outer: 3(x²+1)². Inner: 2x. Product: 6x(x²+1)².",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch2-q3",
+          "chapter": "Chapter 2",
+          "questionType": "multiple-choice",
+          "prompt": "The quotient rule for d/dx[f/g] is:",
+          "options": [
+            "f'g+fg'",
+            "(f'g−fg')/g²",
+            "(fg'−f'g)/g",
+            "f'/g'"
+          ],
+          "answer": "(f'g−fg')/g²",
+          "explanation": "Quotient rule: numerator = f'g − fg', denominator = g².",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch2-we-1",
+          "chapter": "Chapter 2",
+          "title": "Chain Rule",
+          "summary": "Differentiate a composite function.",
+          "problem": "Find dy/dx for y=(4x²−1)⁵.",
+          "steps": [
+            {
+              "label": "Outer derivative",
+              "explanation": "5(4x²−1)⁴."
+            },
+            {
+              "label": "Inner derivative",
+              "explanation": "d/dx[4x²−1]=8x."
+            },
+            {
+              "label": "Multiply",
+              "explanation": "dy/dx=5(4x²−1)⁴·8x=40x(4x²−1)⁴."
+            }
+          ],
+          "answer": "40x(4x²−1)⁴",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 3",
+      "flashcards": [
+        {
+          "id": "ch3-fc-1",
+          "chapter": "Chapter 3",
+          "front": "How do you find critical points?",
+          "back": "Set f'(x)=0 and solve for x. Also check where f'(x) is undefined.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-2",
+          "chapter": "Chapter 3",
+          "front": "If f''(c)>0 at a critical point, the point is a:",
+          "back": "Local minimum (curve is concave up at that point).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-3",
+          "chapter": "Chapter 3",
+          "front": "f(x)=−x²+6x−5. Find the maximum value.",
+          "back": "f'(x)=−2x+6=0 → x=3. f(3)=−9+18−5=4. Maximum value=4.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-fc-4",
+          "chapter": "Chapter 3",
+          "front": "Where is f(x)=x³−6x increasing?",
+          "back": "f'(x)=3x²−6. f'>0 when x²>2, i.e. x<−√2 or x>√2.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch3-q1",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "To find critical points of f(x), solve:",
+          "options": [
+            "f(x)=0",
+            "f'(x)=0",
+            "f''(x)=0",
+            "f'(x)=f(x)"
+          ],
+          "answer": "f'(x)=0",
+          "explanation": "Critical points occur where the first derivative is zero or undefined.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q2",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "If f''(c)<0 at a critical point, x=c is a:",
+          "options": [
+            "Local minimum",
+            "Local maximum",
+            "Point of inflection",
+            "Global minimum"
+          ],
+          "answer": "Local maximum",
+          "explanation": "Negative second derivative means the curve is concave down → local maximum.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch3-q3",
+          "chapter": "Chapter 3",
+          "questionType": "multiple-choice",
+          "prompt": "f(x)=2x³−3x² has critical points at:",
+          "options": [
+            "x=0 only",
+            "x=1 only",
+            "x=0 and x=1",
+            "x=−1 and x=1"
+          ],
+          "answer": "x=0 and x=1",
+          "explanation": "f'(x)=6x²−6x=6x(x−1)=0 → x=0 or x=1.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch3-we-1",
+          "chapter": "Chapter 3",
+          "title": "Finding and Classifying Critical Points",
+          "summary": "Locate and classify all critical points.",
+          "problem": "Find and classify all critical points of f(x)=x³−9x²+24x−10.",
+          "steps": [
+            {
+              "label": "Find f'(x)",
+              "explanation": "f'(x)=3x²−18x+24=3(x²−6x+8)=3(x−2)(x−4)."
+            },
+            {
+              "label": "Critical points",
+              "explanation": "f'(x)=0 at x=2 and x=4."
+            },
+            {
+              "label": "Second derivative test",
+              "explanation": "f''(x)=6x−18. f''(2)=−6<0 → local max. f''(4)=6>0 → local min."
+            },
+            {
+              "label": "Values",
+              "explanation": "f(2)=8−36+48−10=10 (max). f(4)=64−144+96−10=6 (min)."
+            }
+          ],
+          "answer": "Local maximum (2,10); local minimum (4,6).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 4",
+      "flashcards": [
+        {
+          "id": "ch4-fc-1",
+          "chapter": "Chapter 4",
+          "front": "π(x)=−2x²+20x−30. Find profit-maximising output.",
+          "back": "π'(x)=−4x+20=0 → x=5. Confirm: π''(5)=−4<0 ✓ maximum.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-2",
+          "chapter": "Chapter 4",
+          "front": "R(x)=40x−x², C(x)=8x+100. Find profit-max output.",
+          "back": "π(x)=R−C=−x²+32x−100. π'(x)=−2x+32=0 → x=16.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-3",
+          "chapter": "Chapter 4",
+          "front": "What is break-even output?",
+          "back": "Where TR=TC (profit=0). Solve R(x)=C(x) for x.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-fc-4",
+          "chapter": "Chapter 4",
+          "front": "How do you minimise cost C(x)?",
+          "back": "Set C'(x)=0 (find critical point) and confirm C''(x)>0 (minimum).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch4-q1",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Profit π(x)=−x²+10x−16 is maximised at:",
+          "options": [
+            "x=5",
+            "x=10",
+            "x=4",
+            "x=8"
+          ],
+          "answer": "x=5",
+          "explanation": "π'(x)=−2x+10=0 → x=5. π''(5)=−2<0 → maximum.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q2",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "Maximum profit π at x=5 for π(x)=−x²+10x−16 is:",
+          "options": [
+            "R9",
+            "R16",
+            "R25",
+            "R0"
+          ],
+          "answer": "R9",
+          "explanation": "π(5)=−25+50−16=9.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch4-q3",
+          "chapter": "Chapter 4",
+          "questionType": "multiple-choice",
+          "prompt": "A cost function is minimised when:",
+          "options": [
+            "C'(x)>0",
+            "C'(x)=0 and C''(x)>0",
+            "C(x)=0",
+            "C''(x)<0"
+          ],
+          "answer": "C'(x)=0 and C''(x)>0",
+          "explanation": "Critical point at C'(x)=0; positive second derivative confirms a minimum.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch4-we-1",
+          "chapter": "Chapter 4",
+          "title": "Profit Maximisation",
+          "summary": "Find profit-maximising output and profit.",
+          "problem": "R(x)=60x−2x², C(x)=12x+200. Find profit-maximising output and maximum profit.",
+          "steps": [
+            {
+              "label": "Write profit",
+              "explanation": "π(x)=60x−2x²−12x−200=−2x²+48x−200."
+            },
+            {
+              "label": "Find critical point",
+              "explanation": "π'(x)=−4x+48=0 → x=12."
+            },
+            {
+              "label": "Confirm max",
+              "explanation": "π''(12)=−4<0 ✓."
+            },
+            {
+              "label": "Calculate π",
+              "explanation": "π(12)=−2(144)+48(12)−200=−288+576−200=R88."
+            }
+          ],
+          "answer": "x=12 units; maximum profit=R88.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 5",
+      "flashcards": [
+        {
+          "id": "ch5-fc-1",
+          "chapter": "Chapter 5",
+          "front": "∫(4x³−3x²+2)dx = ?",
+          "back": "x⁴−x³+2x+C.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-2",
+          "chapter": "Chapter 5",
+          "front": "MC(x)=6x+10, FC=R300. Find TC(x).",
+          "back": "TC=∫(6x+10)dx=3x²+10x+C. TC(0)=300 → C=300. TC(x)=3x²+10x+300.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-3",
+          "chapter": "Chapter 5",
+          "front": "Why is C added to every indefinite integral?",
+          "back": "Differentiation eliminates constants, so there is a whole family of antiderivatives — C represents the unknown constant.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-fc-4",
+          "chapter": "Chapter 5",
+          "front": "∫6 dx = ?",
+          "back": "6x+C.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch5-q1",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "∫9x² dx = ?",
+          "options": [
+            "18x+C",
+            "3x³+C",
+            "9x³+C",
+            "27x+C"
+          ],
+          "answer": "3x³+C",
+          "explanation": "∫9x² dx=9·x³/3+C=3x³+C.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q2",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "∫(2x+5)dx = ?",
+          "options": [
+            "2+C",
+            "x²+5x+C",
+            "2x²+5+C",
+            "x+5x+C"
+          ],
+          "answer": "x²+5x+C",
+          "explanation": "∫2x dx=x²; ∫5 dx=5x. Total: x²+5x+C.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch5-q3",
+          "chapter": "Chapter 5",
+          "questionType": "multiple-choice",
+          "prompt": "Integration is the __________ of differentiation.",
+          "options": [
+            "extension",
+            "inverse",
+            "derivative",
+            "limit"
+          ],
+          "answer": "inverse",
+          "explanation": "The fundamental theorem links them: integrating f(x) recovers F(x)+C where F'(x)=f(x).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch5-we-1",
+          "chapter": "Chapter 5",
+          "title": "TC from MC",
+          "summary": "Integrate marginal cost to find total cost.",
+          "problem": "MC(x)=4x+8. Fixed costs=R500. Find TC(x) and TC at x=10.",
+          "steps": [
+            {
+              "label": "Integrate",
+              "explanation": "TC=∫(4x+8)dx=2x²+8x+C."
+            },
+            {
+              "label": "Apply FC",
+              "explanation": "TC(0)=C=500 → TC(x)=2x²+8x+500."
+            },
+            {
+              "label": "Evaluate",
+              "explanation": "TC(10)=200+80+500=R780."
+            }
+          ],
+          "answer": "TC(x)=2x²+8x+500; TC(10)=R780.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 6",
+      "flashcards": [
+        {
+          "id": "ch6-fc-1",
+          "chapter": "Chapter 6",
+          "front": "State the fundamental theorem of calculus.",
+          "back": "∫[a,b]f(x)dx=F(b)−F(a) where F is any antiderivative of f.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-2",
+          "chapter": "Chapter 6",
+          "front": "Evaluate ∫[1,4](3x²)dx.",
+          "back": "F(x)=x³. F(4)−F(1)=64−1=63.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-3",
+          "chapter": "Chapter 6",
+          "front": "What does the definite integral represent geometrically?",
+          "back": "The signed area between the curve and the x-axis from x=a to x=b.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-fc-4",
+          "chapter": "Chapter 6",
+          "front": "MR(x)=80−4x. Find TR from x=0 to x=10.",
+          "back": "TR=∫[0,10](80−4x)dx=[80x−2x²] from 0 to 10=(800−200)−0=R600.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch6-q1",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "∫[0,3](2x)dx = ?",
+          "options": [
+            "6",
+            "9",
+            "3",
+            "18"
+          ],
+          "answer": "9",
+          "explanation": "F(x)=x². F(3)−F(0)=9−0=9.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q2",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "∫[1,2](x²+1)dx = ?",
+          "options": [
+            "10/3",
+            "7/3",
+            "4",
+            "5/3"
+          ],
+          "answer": "10/3",
+          "explanation": "F(x)=x³/3+x. F(2)−F(1)=(8/3+2)−(1/3+1)=14/3−4/3=10/3.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch6-q3",
+          "chapter": "Chapter 6",
+          "questionType": "multiple-choice",
+          "prompt": "A definite integral always gives a:",
+          "options": [
+            "Function+C",
+            "Numerical value",
+            "Derivative",
+            "Vector"
+          ],
+          "answer": "Numerical value",
+          "explanation": "Unlike indefinite integrals, a definite integral evaluates to a specific number via F(b)−F(a).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch6-we-1",
+          "chapter": "Chapter 6",
+          "title": "Total Revenue from MR",
+          "summary": "Use definite integral to find TR.",
+          "problem": "MR(x)=50−2x. Find TR from producing 0 to 15 units.",
+          "steps": [
+            {
+              "label": "Set up",
+              "explanation": "TR=∫[0,15](50−2x)dx."
+            },
+            {
+              "label": "Antiderivative",
+              "explanation": "F(x)=50x−x²."
+            },
+            {
+              "label": "Evaluate",
+              "explanation": "F(15)−F(0)=(750−225)−0=525."
+            }
+          ],
+          "answer": "TR=R525.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 7",
+      "flashcards": [
+        {
+          "id": "ch7-fc-1",
+          "chapter": "Chapter 7",
+          "front": "Area between f(x)≥g(x) on [a,b] = ?",
+          "back": "∫[a,b][f(x)−g(x)]dx. Find intersection points to determine a and b.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-2",
+          "chapter": "Chapter 7",
+          "front": "Consumer surplus formula.",
+          "back": "CS=∫[0,x*]D(x)dx−p*·x*, where x* is equilibrium quantity and p* is equilibrium price.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-3",
+          "chapter": "Chapter 7",
+          "front": "Area between y=x² and y=x on [0,1] = ?",
+          "back": "∫[0,1](x−x²)dx=[x²/2−x³/3] from 0 to 1=1/2−1/3=1/6.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-fc-4",
+          "chapter": "Chapter 7",
+          "front": "D(x)=40−x, p*=R25. Find consumer surplus.",
+          "back": "x*=15. CS=∫[0,15](40−x)dx−25·15=[40x−x²/2] from 0 to 15−375=(600−112.5)−375=R112.50.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "ch7-q1",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "Consumer surplus is the area:",
+          "options": [
+            "Above demand curve and below price",
+            "Below demand curve and above equilibrium price",
+            "Above supply curve and below price",
+            "Under the x-axis"
+          ],
+          "answer": "Below demand curve and above equilibrium price",
+          "explanation": "CS is the triangle-like area between what consumers were willing to pay (demand) and what they actually paid (p*).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q2",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "To find where y=x and y=x² intersect, solve:",
+          "options": [
+            "x=x²",
+            "x'=2x",
+            "x²=0",
+            "x+x²=0"
+          ],
+          "answer": "x=x²",
+          "explanation": "Set the two functions equal: x=x² → x(x−1)=0 → x=0 or x=1.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "ch7-q3",
+          "chapter": "Chapter 7",
+          "questionType": "multiple-choice",
+          "prompt": "Area between y=6 and y=x² on [0,√6] is:",
+          "options": [
+            "4√6",
+            "6√6",
+            "4√6 (approximately 9.8)",
+            "2√6"
+          ],
+          "answer": "4√6",
+          "explanation": "∫[0,√6](6−x²)dx=[6x−x³/3] from 0 to √6=6√6−(6√6)/3=6√6−2√6=4√6.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "ch7-we-1",
+          "chapter": "Chapter 7",
+          "title": "Consumer Surplus",
+          "summary": "Calculate CS using a definite integral.",
+          "problem": "D(x)=100−4x. Equilibrium price p*=R60. Find consumer surplus.",
+          "steps": [
+            {
+              "label": "Find x*",
+              "explanation": "100−4x=60 → 4x=40 → x*=10."
+            },
+            {
+              "label": "Set up CS",
+              "explanation": "CS=∫[0,10](100−4x)dx−60·10."
+            },
+            {
+              "label": "Evaluate",
+              "explanation": "[100x−2x²] from 0 to 10=(1000−200)=800. CS=800−600=R200."
+            }
+          ],
+          "answer": "Consumer surplus = R200.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    }
+  ],
+  "discipline": "mathematics",
+  "referenceList": [
+    {
+      "title": "OpenStax — College Algebra 2e (free, CC BY)",
+      "publisher": "OpenStax / Rice University",
+      "url": "https://openstax.org/details/books/college-algebra",
+      "note": "Open-access algebra text; functions, equations, finance mathematics foundations.",
+      "sourceHash": "5c526129f1e660d5277f4706dbad3197819fd851b169dbe1e6c42b6d55d2dc10"
+    },
+    {
+      "title": "Stewart — Calculus (Cengage)",
+      "publisher": "Cengage",
+      "url": "https://www.cengage.com/c/calculus-9e-stewart/9780357043397/",
+      "note": "Standard calculus reference for optimisation topics in business maths.",
+      "sourceHash": "e6948dab9afd03707e7aec29dea9872228d540028424ec9ad5fdb4b76fbf3c7f"
+    },
+    {
+      "title": "Lial, Greenwell & Ritchey — Finite Mathematics and Calculus with Applications (Pearson)",
+      "publisher": "Pearson",
+      "url": "https://www.pearson.com/en-us/subjects/mathematics.html",
+      "note": "Business-oriented maths text (linear programming, finance, probability).",
+      "sourceHash": "cdfa4011fe4f116fa419cc3910682ef95a8bc7723d0e4820446f1734ae386b6e"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: Mathematics 123 (BCom, North-West University). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "Chapter-by-chapter teaching focus (derived from the module's own learning outcomes and key definitions):",
+    "  • Chapter 1 — Limits & Continuity. Emphasise: Evaluate limits by substitution and factorisation; State conditions for continuity; Evaluate limits at infinity. Local context: Limits underpin marginal analysis — SA economists use calculus-based models for policy impact assessment.",
+    "  • Chapter 2 — Derivatives & Differentiation Rules. Emphasise: Apply power, product, quotient and chain rules; Differentiate polynomial and composite functions. Local context: Marginal cost and revenue functions — core to SA business pricing decisions — are derivatives of TC and TR.",
+    "  • Chapter 3 — Applications of Derivatives. Emphasise: Find critical points by setting f'(x)=0; Classify using second derivative test; Determine intervals of increase/decrease. Local context: SA managers use the second derivative test to confirm that a proposed production level truly maximises profit.",
+    "  • Chapter 4 — Optimisation. Emphasise: Formulate and solve business optimisation problems; Find profit-maximising output; Minimise cost functions. Local context: SA firms in competitive markets face razor-thin margins — calculus-based profit optimisation is applied in financial modelling and pricing.",
+    "  • Chapter 5 — Indefinite Integration. Emphasise: Find antiderivatives using the power rule; Apply the constant of integration; Recover TC from MC. Local context: Integrating MC gives TC — used in SA cost accounting and managerial economics for pricing decisions.",
+    "  • Chapter 6 — Definite Integration. Emphasise: Evaluate definite integrals using the fundamental theorem; Interpret result as area under a curve; Calculate total revenue from MR. Local context: Definite integrals compute total revenue or total cost over an output range — standard in SA business analytics.",
+    "  • Chapter 7 — Applications of Integration. Emphasise: Find area between two curves; Calculate consumer and producer surplus. Local context: Consumer/producer surplus analysis is used by SA Competition Commission to assess welfare effects of mergers and price controls.",
+    "Pedagogy tip (quantitative): work at least one fully solved example on the board per topic, then assign a parallel guided-practice problem. Common student errors: sign errors in debit/credit (accounting), confusing correlation with causation (stats/econ), and unit/percentage mistakes in ratio work. Build a short weekly formative quiz from the module's own revision prompts.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "5c526129f1e660d5277f4706dbad3197819fd851b169dbe1e6c42b6d55d2dc10",
+    "e6948dab9afd03707e7aec29dea9872228d540028424ec9ad5fdb4b76fbf3c7f",
+    "cdfa4011fe4f116fa419cc3910682ef95a8bc7723d0e4820446f1734ae386b6e"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

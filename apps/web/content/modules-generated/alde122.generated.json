@@ -1,0 +1,2204 @@
+{
+  "institution": "North-West University",
+  "moduleCode": "ALDE122",
+  "moduleName": "Academic Literacy Development 122",
+  "semester": "Semester 2, 2024",
+  "programme": "BCom",
+  "confidence": 0.82,
+  "generatedAt": "2026-04-03T00:00:00.000Z",
+  "sourceFiles": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "missingContent": [],
+  "studyUnits": [
+    "Week 1 — Academic Acculturation",
+    "Week 2 — Task Analysis & Academic Writing",
+    "Week 3 — Reading Strategies & Text Types",
+    "Week 4 — Referencing & Academic Integrity",
+    "Week 5 — Text Structure & Academic Introductions",
+    "Week 6 — Paragraph Writing (PEEL)",
+    "Week 7 — Writing Conclusions",
+    "Week 8 — Revision & Editing",
+    "Week 9 — Visual Literacy"
+  ],
+  "chapters": [
+    {
+      "id": "week-1",
+      "title": "Week 1 — Academic Acculturation"
+    },
+    {
+      "id": "week-2",
+      "title": "Week 2 — Task Analysis & Academic Writing"
+    },
+    {
+      "id": "week-3",
+      "title": "Week 3 — Reading Strategies & Text Types"
+    },
+    {
+      "id": "week-4",
+      "title": "Week 4 — Referencing & Academic Integrity"
+    },
+    {
+      "id": "week-5",
+      "title": "Week 5 — Text Structure & Academic Introductions"
+    },
+    {
+      "id": "week-6",
+      "title": "Week 6 — Paragraph Writing (PEEL)"
+    },
+    {
+      "id": "week-7",
+      "title": "Week 7 — Writing Conclusions"
+    },
+    {
+      "id": "week-8",
+      "title": "Week 8 — Revision & Editing"
+    },
+    {
+      "id": "week-9",
+      "title": "Week 9 — Visual Literacy"
+    }
+  ],
+  "topicSeeds": [],
+  "keyTopics": [],
+  "quizSignals": [],
+  "assessmentPlan": [
+    {
+      "name": "CA1 Turnitin & Referencing",
+      "weight": 5
+    },
+    {
+      "name": "Visual Literacy",
+      "weight": 5
+    },
+    {
+      "name": "Overview Assessment",
+      "weight": 20
+    },
+    {
+      "name": "Guided Writing",
+      "weight": 20
+    },
+    {
+      "name": "CI Skills",
+      "weight": 20
+    },
+    {
+      "name": "Class Assessments",
+      "weight": 20
+    },
+    {
+      "name": "Participation",
+      "split": 60
+    },
+    {
+      "name": "Exam",
+      "split": 40
+    }
+  ],
+  "classSchedule": [],
+  "chapterInsights": [
+    {
+      "chapter": "Week 1",
+      "title": "Academic Acculturation",
+      "outcomes": [
+        "Distinguish academic culture from school culture",
+        "Identify features of academic discourse communities",
+        "Reflect on student identity transition"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Academic discourse community",
+          "definition": "A group sharing academic conventions, norms, and communication practices."
+        },
+        {
+          "term": "Academic acculturation",
+          "definition": "The process of adapting to norms and expectations of university life."
+        }
+      ],
+      "revisionPrompts": [
+        "How does university culture differ from high school?",
+        "What is a discourse community?"
+      ],
+      "saContext": "South African first-generation students often face significant acculturation challenges when entering historically advantaged universities.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html",
+          "https://www.macmillanlearning.com/college/us/coursepack/the-study-skills-handbook"
+        ]
+      }
+    },
+    {
+      "chapter": "Week 2",
+      "title": "Task Analysis & Academic Writing",
+      "outcomes": [
+        "Interpret task words correctly",
+        "Apply the SMART approach to assignments",
+        "Plan an academic writing task"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Task word",
+          "definition": "An instruction verb in an assignment (e.g. analyse, evaluate, discuss) that specifies the required cognitive operation."
+        },
+        {
+          "term": "SMART approach",
+          "definition": "Assignment planning framework: Specific, Manageable, Accurate, Relevant, Timed."
+        }
+      ],
+      "revisionPrompts": [
+        "What is the difference between 'discuss' and 'evaluate'?",
+        "List the SMART criteria."
+      ],
+      "saContext": "NWU assignments frequently use task words like 'critically discuss' and 'compare'; misreading these is a common student error.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html",
+          "https://www.macmillanlearning.com/college/us/coursepack/the-study-skills-handbook"
+        ]
+      }
+    },
+    {
+      "chapter": "Week 3",
+      "title": "Reading Strategies & Text Types",
+      "outcomes": [
+        "Apply the SQ3R method",
+        "Distinguish expository, argumentative, and descriptive texts",
+        "Use skimming and scanning strategically"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "SQ3R",
+          "definition": "Survey, Question, Read, Recite, Review — a structured reading strategy."
+        },
+        {
+          "term": "Skimming",
+          "definition": "Reading quickly for the general idea of a text."
+        },
+        {
+          "term": "Scanning",
+          "definition": "Reading quickly to locate specific information."
+        }
+      ],
+      "revisionPrompts": [
+        "What are the five steps of SQ3R?",
+        "When would you skim vs scan a text?"
+      ],
+      "saContext": "Many SA students read textbooks linearly; SQ3R improves comprehension and exam preparation efficiency.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html",
+          "https://www.macmillanlearning.com/college/us/coursepack/the-study-skills-handbook"
+        ]
+      }
+    },
+    {
+      "chapter": "Week 4",
+      "title": "Referencing & Academic Integrity",
+      "outcomes": [
+        "Apply APA 7th edition in-text citations and reference lists",
+        "Use Turnitin to check originality",
+        "Define plagiarism and academic integrity"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "APA 7th edition",
+          "definition": "American Psychological Association referencing style, 7th edition, used widely in social sciences."
+        },
+        {
+          "term": "Plagiarism",
+          "definition": "Presenting another person's ideas or words as your own without acknowledgement."
+        },
+        {
+          "term": "In-text citation",
+          "definition": "A brief reference within the text, e.g. (Smith, 2020, p. 5)."
+        }
+      ],
+      "revisionPrompts": [
+        "Write an APA 7 in-text citation for a book by Jones published in 2021, page 10.",
+        "What is Turnitin used for?"
+      ],
+      "saContext": "NWU uses Turnitin for all major submissions; a similarity score above 20% typically triggers review.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html",
+          "https://www.macmillanlearning.com/college/us/coursepack/the-study-skills-handbook"
+        ]
+      }
+    },
+    {
+      "chapter": "Week 5",
+      "title": "Text Structure & Academic Introductions",
+      "outcomes": [
+        "Identify intro-body-conclusion structure",
+        "Recognise the IMRAD format",
+        "Write an academic introduction using context-gap-purpose"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "IMRAD",
+          "definition": "Introduction, Methods, Results, and Discussion — a common structure in academic research articles."
+        },
+        {
+          "term": "Context-gap-purpose",
+          "definition": "An introduction strategy: establish context, identify a gap in knowledge, state the purpose of the paper."
+        }
+      ],
+      "revisionPrompts": [
+        "What three moves make up a strong academic introduction?",
+        "Where is IMRAD typically used?"
+      ],
+      "saContext": "BCom essays at NWU are expected to follow intro-body-conclusion; IMRAD is introduced as a research literacy skill.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html",
+          "https://www.macmillanlearning.com/college/us/coursepack/the-study-skills-handbook"
+        ]
+      }
+    },
+    {
+      "chapter": "Week 6",
+      "title": "Paragraph Writing (PEEL)",
+      "outcomes": [
+        "Apply the PEEL paragraph structure",
+        "Write clear topic sentences",
+        "Achieve coherence within paragraphs"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "PEEL",
+          "definition": "Point, Evidence, Explanation, Link — a paragraph writing framework."
+        },
+        {
+          "term": "Topic sentence",
+          "definition": "The opening sentence of a paragraph that states its main idea."
+        },
+        {
+          "term": "Coherence",
+          "definition": "Logical flow and connection of ideas within and between paragraphs."
+        }
+      ],
+      "revisionPrompts": [
+        "What does each letter of PEEL stand for?",
+        "Why is a topic sentence important?"
+      ],
+      "saContext": "PEEL is widely used at South African universities to help students structure academic arguments clearly.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html",
+          "https://www.macmillanlearning.com/college/us/coursepack/the-study-skills-handbook"
+        ]
+      }
+    },
+    {
+      "chapter": "Week 7",
+      "title": "Writing Conclusions",
+      "outcomes": [
+        "Describe the functions of a conclusion",
+        "Distinguish synthesising from summarising",
+        "Avoid common conclusion errors"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Synthesis",
+          "definition": "Combining ideas from multiple sources or arguments into a unified statement."
+        },
+        {
+          "term": "Summary",
+          "definition": "A brief restatement of main points already made in the essay."
+        }
+      ],
+      "revisionPrompts": [
+        "What should a conclusion NOT include?",
+        "What is the difference between a summary and a synthesis?"
+      ],
+      "saContext": "Students in SA often introduce new arguments in conclusions; this weakens the essay structure significantly.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html",
+          "https://www.macmillanlearning.com/college/us/coursepack/the-study-skills-handbook"
+        ]
+      }
+    },
+    {
+      "chapter": "Week 8",
+      "title": "Revision & Editing",
+      "outcomes": [
+        "Distinguish revision from editing",
+        "Correct subject-verb agreement errors",
+        "Apply proofreading strategies"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Revision",
+          "definition": "Rethinking content, structure, and argument at a macro level."
+        },
+        {
+          "term": "Editing",
+          "definition": "Correcting grammar, spelling, and punctuation at a sentence level."
+        },
+        {
+          "term": "Subject-verb agreement",
+          "definition": "The grammatical rule that a subject and its verb must match in number (singular/plural)."
+        }
+      ],
+      "revisionPrompts": [
+        "What is the difference between revising and editing?",
+        "Give an example of a subject-verb agreement error."
+      ],
+      "saContext": "Many NWU students writing in a second or third language benefit greatly from structured proofreading checklists.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html",
+          "https://www.macmillanlearning.com/college/us/coursepack/the-study-skills-handbook"
+        ]
+      }
+    },
+    {
+      "chapter": "Week 9",
+      "title": "Visual Literacy",
+      "outcomes": [
+        "Read and interpret graphs, tables, and figures",
+        "Describe visual data accurately",
+        "Incorporate visuals into academic writing"
+      ],
+      "formulas": [],
+      "definitions": [
+        {
+          "term": "Visual literacy",
+          "definition": "The ability to read, interpret, and communicate meaning using visual formats such as graphs and tables."
+        },
+        {
+          "term": "Data description",
+          "definition": "A written account of trends, patterns, or key figures shown in a visual."
+        }
+      ],
+      "revisionPrompts": [
+        "How do you refer to a figure in academic writing?",
+        "What are the key features to mention when describing a bar graph?"
+      ],
+      "saContext": "BCom students in SA frequently encounter graphs in economics and business reports; visual literacy is a key graduate attribute.",
+      "metadata": {
+        "reviewStatus": "references-linked",
+        "confidence": 0.82,
+        "version": 1,
+        "generatedBy": "ai-curriculum",
+        "generatedFrom": [
+          "curriculum-knowledge"
+        ],
+        "sources": [
+          "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html",
+          "https://www.macmillanlearning.com/college/us/coursepack/the-study-skills-handbook"
+        ]
+      }
+    }
+  ],
+  "chapterStudyItems": [
+    {
+      "chapter": "Week 1",
+      "flashcards": [
+        {
+          "id": "w1-fc-1",
+          "chapter": "Week 1",
+          "front": "What is academic acculturation?",
+          "back": "Adapting to the norms, expectations, and practices of university academic life.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w1-fc-2",
+          "chapter": "Week 1",
+          "front": "What is a discourse community?",
+          "back": "A group that shares goals, genres, vocabulary, and communication conventions.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w1-fc-3",
+          "chapter": "Week 1",
+          "front": "Name two differences between school and university culture.",
+          "back": "University requires independent learning and critical thinking; school is more teacher-directed.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w1-fc-4",
+          "chapter": "Week 1",
+          "front": "What is student identity transition?",
+          "back": "The shift in self-perception as one moves from being a school learner to a university student.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "w1-q1",
+          "chapter": "Week 1",
+          "questionType": "multiple-choice",
+          "prompt": "What does 'academic acculturation' refer to?",
+          "options": [
+            "Adapting to university norms and expectations",
+            "Learning a new language",
+            "Completing first-year modules",
+            "Joining a student society"
+          ],
+          "answer": "Adapting to university norms and expectations",
+          "explanation": "Acculturation is the process of adjusting to a new cultural environment — in this case, university academic culture.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w1-q2",
+          "chapter": "Week 1",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following best describes a discourse community?",
+          "options": [
+            "A group sharing communication norms and goals",
+            "A social media platform",
+            "A university library",
+            "A group of friends"
+          ],
+          "answer": "A group sharing communication norms and goals",
+          "explanation": "Discourse communities share conventions, vocabulary, and genres that govern how members communicate.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w1-q3",
+          "chapter": "Week 1",
+          "questionType": "multiple-choice",
+          "prompt": "University academic culture differs from school culture mainly because it requires:",
+          "options": [
+            "Independent critical thinking",
+            "Memorisation only",
+            "Teacher-directed learning",
+            "Less reading"
+          ],
+          "answer": "Independent critical thinking",
+          "explanation": "University expects students to engage critically and independently with knowledge, unlike the more directed nature of schooling.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "w1-we-1",
+          "chapter": "Week 1",
+          "title": "Identifying discourse community features",
+          "summary": "Identify whether a given scenario reflects academic discourse community membership.",
+          "problem": "A student always cites sources, uses formal language in essays, and attends academic seminars. Is this student part of an academic discourse community?",
+          "steps": [
+            {
+              "label": "Step 1",
+              "explanation": "Check for shared goals: the student engages with academic knowledge production."
+            },
+            {
+              "label": "Step 2",
+              "explanation": "Check for shared conventions: citation, formal register, and seminar participation are all academic norms."
+            }
+          ],
+          "answer": "Yes. The student demonstrates key features of academic discourse community membership through citation, formal language, and seminar engagement.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Week 2",
+      "flashcards": [
+        {
+          "id": "w2-fc-1",
+          "chapter": "Week 2",
+          "front": "What does the task word 'analyse' require?",
+          "back": "Break a topic into parts and examine each part in detail.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w2-fc-2",
+          "chapter": "Week 2",
+          "front": "What does 'evaluate' mean in an assignment?",
+          "back": "Judge the worth or validity of something using criteria and evidence.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w2-fc-3",
+          "chapter": "Week 2",
+          "front": "What does the 'S' in SMART stand for?",
+          "back": "Specific — the task/goal must be clearly defined.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w2-fc-4",
+          "chapter": "Week 2",
+          "front": "What is the difference between 'discuss' and 'compare'?",
+          "back": "'Discuss' requires exploring a topic broadly; 'compare' requires showing similarities and differences between two things.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "w2-q1",
+          "chapter": "Week 2",
+          "questionType": "multiple-choice",
+          "prompt": "Which task word asks you to judge the merit of something?",
+          "options": [
+            "Evaluate",
+            "Describe",
+            "List",
+            "Define"
+          ],
+          "answer": "Evaluate",
+          "explanation": "'Evaluate' requires making a judgement based on criteria and evidence, going beyond mere description.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w2-q2",
+          "chapter": "Week 2",
+          "questionType": "multiple-choice",
+          "prompt": "What does 'T' stand for in the SMART approach?",
+          "options": [
+            "Timed",
+            "Thoughtful",
+            "Technical",
+            "Textual"
+          ],
+          "answer": "Timed",
+          "explanation": "The T in SMART stands for Timed, meaning the work must be completed within the given deadline.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w2-q3",
+          "chapter": "Week 2",
+          "questionType": "multiple-choice",
+          "prompt": "A student is asked to 'compare' two theories. What should the response include?",
+          "options": [
+            "Similarities and differences between the two theories",
+            "A definition of each theory only",
+            "An argument for one theory only",
+            "A list of all economic theories"
+          ],
+          "answer": "Similarities and differences between the two theories",
+          "explanation": "'Compare' requires examining both theories and highlighting their similarities and differences systematically.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "w2-we-1",
+          "chapter": "Week 2",
+          "title": "Applying SMART to an assignment brief",
+          "summary": "Use the SMART framework to plan a response to an assignment question.",
+          "problem": "Assignment: 'Discuss the impact of social media on academic performance. (500 words, due in 5 days)'",
+          "steps": [
+            {
+              "label": "Step 1 — Specific",
+              "explanation": "Identify the topic: social media's impact on academic performance."
+            },
+            {
+              "label": "Step 2 — Manageable",
+              "explanation": "500 words is achievable: plan intro (100), two body paragraphs (150 each), conclusion (100)."
+            },
+            {
+              "label": "Step 3 — Timed",
+              "explanation": "5 days: research day 1-2, draft day 3, revise day 4, final edit day 5."
+            }
+          ],
+          "answer": "A SMART plan breaks the task into specific, manageable chunks aligned to the deadline, reducing procrastination and improving quality.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Week 3",
+      "flashcards": [
+        {
+          "id": "w3-fc-1",
+          "chapter": "Week 3",
+          "front": "What are the 5 steps of SQ3R?",
+          "back": "Survey, Question, Read, Recite, Review.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w3-fc-2",
+          "chapter": "Week 3",
+          "front": "What is an expository text?",
+          "back": "A text that explains or informs without arguing a position.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w3-fc-3",
+          "chapter": "Week 3",
+          "front": "What is skimming?",
+          "back": "Reading quickly to get the general idea or gist of a text.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w3-fc-4",
+          "chapter": "Week 3",
+          "front": "When would you use scanning?",
+          "back": "When searching for a specific fact, name, date, or keyword in a text.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "w3-q1",
+          "chapter": "Week 3",
+          "questionType": "multiple-choice",
+          "prompt": "Which reading strategy involves quickly looking for a specific piece of information?",
+          "options": [
+            "Scanning",
+            "Skimming",
+            "Close reading",
+            "Summarising"
+          ],
+          "answer": "Scanning",
+          "explanation": "Scanning targets specific information (e.g. a date or name), unlike skimming which seeks the overall gist.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w3-q2",
+          "chapter": "Week 3",
+          "questionType": "multiple-choice",
+          "prompt": "An argumentative text primarily aims to:",
+          "options": [
+            "Persuade the reader to accept a position",
+            "Describe a process step by step",
+            "Explain a concept neutrally",
+            "List facts without analysis"
+          ],
+          "answer": "Persuade the reader to accept a position",
+          "explanation": "Argumentative texts present a claim and use evidence and reasoning to persuade the reader.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w3-q3",
+          "chapter": "Week 3",
+          "questionType": "multiple-choice",
+          "prompt": "In SQ3R, what does the first 'R' stand for?",
+          "options": [
+            "Read",
+            "Recall",
+            "Revise",
+            "Reflect"
+          ],
+          "answer": "Read",
+          "explanation": "The 5 steps are Survey, Question, Read, Recite, Review. The first R is Read.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "w3-we-1",
+          "chapter": "Week 3",
+          "title": "Applying SQ3R to a textbook chapter",
+          "summary": "Demonstrate SQ3R on a textbook chapter before a test.",
+          "problem": "You have one hour to study a 20-page chapter on monetary policy before a test. Apply SQ3R.",
+          "steps": [
+            {
+              "label": "Survey (5 min)",
+              "explanation": "Read headings, subheadings, bold terms, and the chapter summary."
+            },
+            {
+              "label": "Question (5 min)",
+              "explanation": "Turn each heading into a question, e.g. 'What is the repo rate?'"
+            },
+            {
+              "label": "Read (30 min)",
+              "explanation": "Read actively, seeking answers to your questions."
+            },
+            {
+              "label": "Recite (10 min)",
+              "explanation": "Close the book and recall answers aloud or in notes."
+            },
+            {
+              "label": "Review (10 min)",
+              "explanation": "Re-read sections where recall was weak."
+            }
+          ],
+          "answer": "SQ3R transforms passive reading into active learning, improving retention for the test.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Week 4",
+      "flashcards": [
+        {
+          "id": "w4-fc-1",
+          "chapter": "Week 4",
+          "front": "What referencing style is used at NWU for ALDE122?",
+          "back": "APA 7th edition (American Psychological Association).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w4-fc-2",
+          "chapter": "Week 4",
+          "front": "What is the format for an APA 7 in-text citation (paraphrase)?",
+          "back": "(Author Surname, Year) — e.g. (Smith, 2020).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w4-fc-3",
+          "chapter": "Week 4",
+          "front": "What is Turnitin?",
+          "back": "An online plagiarism detection tool that compares submitted work against a database of sources.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w4-fc-4",
+          "chapter": "Week 4",
+          "front": "Define plagiarism.",
+          "back": "Using another person's ideas, words, or work without proper acknowledgement.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "w4-q1",
+          "chapter": "Week 4",
+          "questionType": "multiple-choice",
+          "prompt": "Which is the correct APA 7 in-text citation for a direct quote from page 15 of a book by Dube published in 2022?",
+          "options": [
+            "(Dube, 2022, p. 15)",
+            "(Dube 2022:15)",
+            "Dube (2022) p.15",
+            "[Dube, 2022, 15]"
+          ],
+          "answer": "(Dube, 2022, p. 15)",
+          "explanation": "APA 7 direct quote format: (Author, Year, p. page number).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w4-q2",
+          "chapter": "Week 4",
+          "questionType": "multiple-choice",
+          "prompt": "What does a high Turnitin similarity score indicate?",
+          "options": [
+            "Much of the text matches existing sources",
+            "The essay is well-written",
+            "The references are correct",
+            "The essay is original"
+          ],
+          "answer": "Much of the text matches existing sources",
+          "explanation": "A high similarity score means large portions of the submission match other texts, which may indicate plagiarism.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w4-q3",
+          "chapter": "Week 4",
+          "questionType": "multiple-choice",
+          "prompt": "Academic integrity means:",
+          "options": [
+            "Submitting honest, original work with proper acknowledgement of sources",
+            "Getting the highest possible mark",
+            "Submitting work before the deadline",
+            "Using only online sources"
+          ],
+          "answer": "Submitting honest, original work with proper acknowledgement of sources",
+          "explanation": "Academic integrity encompasses honesty, proper attribution, and avoiding plagiarism.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "w4-we-1",
+          "chapter": "Week 4",
+          "title": "Building an APA 7 reference list entry",
+          "summary": "Construct a correct APA 7 reference for a journal article.",
+          "problem": "Article: 'Financial literacy in SA schools' by Mokoena and Dlamini, published in 2021 in the South African Journal of Education, volume 41, issue 2, pages 1–12. DOI: 10.15700/saje.v41n2a1890",
+          "steps": [
+            {
+              "label": "Step 1 — Authors",
+              "explanation": "Mokoena, A., & Dlamini, B."
+            },
+            {
+              "label": "Step 2 — Year",
+              "explanation": "(2021)."
+            },
+            {
+              "label": "Step 3 — Title",
+              "explanation": "Financial literacy in SA schools."
+            },
+            {
+              "label": "Step 4 — Journal & volume",
+              "explanation": "South African Journal of Education, 41(2), 1–12."
+            },
+            {
+              "label": "Step 5 — DOI",
+              "explanation": "https://doi.org/10.15700/saje.v41n2a1890"
+            }
+          ],
+          "answer": "Mokoena, A., & Dlamini, B. (2021). Financial literacy in SA schools. South African Journal of Education, 41(2), 1–12. https://doi.org/10.15700/saje.v41n2a1890",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Week 5",
+      "flashcards": [
+        {
+          "id": "w5-fc-1",
+          "chapter": "Week 5",
+          "front": "What does IMRAD stand for?",
+          "back": "Introduction, Methods, Results, and Discussion.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w5-fc-2",
+          "chapter": "Week 5",
+          "front": "What are the three moves in the context-gap-purpose introduction model?",
+          "back": "Establish context, identify a gap in existing knowledge, state the purpose of the paper.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w5-fc-3",
+          "chapter": "Week 5",
+          "front": "What is the basic structure of an academic essay?",
+          "back": "Introduction, body paragraphs, conclusion.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w5-fc-4",
+          "chapter": "Week 5",
+          "front": "What is a 'gap' in an academic introduction?",
+          "back": "A problem, question, or limitation in existing research that the paper aims to address.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "w5-q1",
+          "chapter": "Week 5",
+          "questionType": "multiple-choice",
+          "prompt": "What is the correct order of the context-gap-purpose introduction model?",
+          "options": [
+            "Context → Gap → Purpose",
+            "Purpose → Context → Gap",
+            "Gap → Purpose → Context",
+            "Purpose → Gap → Context"
+          ],
+          "answer": "Context → Gap → Purpose",
+          "explanation": "The model moves from broad context, to identifying what is missing, to stating what the paper will do.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w5-q2",
+          "chapter": "Week 5",
+          "questionType": "multiple-choice",
+          "prompt": "IMRAD is most commonly used in:",
+          "options": [
+            "Scientific and research articles",
+            "Narrative essays",
+            "Reflective journals",
+            "Business letters"
+          ],
+          "answer": "Scientific and research articles",
+          "explanation": "IMRAD organises empirical research into Introduction, Methods, Results, and Discussion sections.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w5-q3",
+          "chapter": "Week 5",
+          "questionType": "multiple-choice",
+          "prompt": "Which section of an essay outlines what the paper will argue?",
+          "options": [
+            "Introduction",
+            "Body",
+            "Conclusion",
+            "Abstract"
+          ],
+          "answer": "Introduction",
+          "explanation": "The introduction presents the topic, context, and thesis/purpose, signalling the paper's direction.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "w5-we-1",
+          "chapter": "Week 5",
+          "title": "Writing an academic introduction using context-gap-purpose",
+          "summary": "Draft a short introduction for an essay on youth unemployment in SA.",
+          "problem": "Write a 3-sentence academic introduction on the topic: 'The impact of youth unemployment on economic development in South Africa.'",
+          "steps": [
+            {
+              "label": "Context",
+              "explanation": "South Africa faces one of the highest youth unemployment rates globally, exceeding 60% in 2023."
+            },
+            {
+              "label": "Gap",
+              "explanation": "While macro-level economic policies have been studied, the long-term developmental consequences for individuals remain underexplored."
+            },
+            {
+              "label": "Purpose",
+              "explanation": "This essay examines how youth unemployment hinders human capital development and economic growth in South Africa."
+            }
+          ],
+          "answer": "South Africa faces one of the highest youth unemployment rates globally, exceeding 60% in 2023. While macro-level economic policies have been studied, the long-term developmental consequences for individuals remain underexplored. This essay examines how youth unemployment hinders human capital development and economic growth in South Africa.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Week 6",
+      "flashcards": [
+        {
+          "id": "w6-fc-1",
+          "chapter": "Week 6",
+          "front": "What does PEEL stand for?",
+          "back": "Point, Evidence, Explanation, Link.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w6-fc-2",
+          "chapter": "Week 6",
+          "front": "What is a topic sentence?",
+          "back": "The first sentence of a paragraph that states the paragraph's main idea.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w6-fc-3",
+          "chapter": "Week 6",
+          "front": "What is the 'L' in PEEL?",
+          "back": "Link — connecting the paragraph's point back to the overall argument or to the next paragraph.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w6-fc-4",
+          "chapter": "Week 6",
+          "front": "What is coherence in academic writing?",
+          "back": "The logical and smooth flow of ideas within and between paragraphs.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "w6-q1",
+          "chapter": "Week 6",
+          "questionType": "multiple-choice",
+          "prompt": "In a PEEL paragraph, what comes after stating the Point?",
+          "options": [
+            "Evidence",
+            "Explanation",
+            "Link",
+            "Another Point"
+          ],
+          "answer": "Evidence",
+          "explanation": "PEEL: Point → Evidence → Explanation → Link. Evidence supports the point with facts or quotes.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w6-q2",
+          "chapter": "Week 6",
+          "questionType": "multiple-choice",
+          "prompt": "A topic sentence should appear:",
+          "options": [
+            "At the beginning of the paragraph",
+            "At the end of the paragraph",
+            "In the middle of the paragraph",
+            "Only in the conclusion"
+          ],
+          "answer": "At the beginning of the paragraph",
+          "explanation": "The topic sentence opens the paragraph, telling the reader what the paragraph is about.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w6-q3",
+          "chapter": "Week 6",
+          "questionType": "multiple-choice",
+          "prompt": "Which component of PEEL analyses and unpacks the evidence provided?",
+          "options": [
+            "Explanation",
+            "Point",
+            "Link",
+            "Evidence"
+          ],
+          "answer": "Explanation",
+          "explanation": "The Explanation shows the reader how the evidence supports the Point, making the argument explicit.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "w6-we-1",
+          "chapter": "Week 6",
+          "title": "Writing a PEEL paragraph",
+          "summary": "Construct a complete PEEL paragraph on the effect of load-shedding on business.",
+          "problem": "Write a PEEL paragraph arguing that load-shedding negatively affects small businesses in South Africa.",
+          "steps": [
+            {
+              "label": "Point",
+              "explanation": "Load-shedding severely disrupts the operations of small businesses in South Africa."
+            },
+            {
+              "label": "Evidence",
+              "explanation": "According to the South African Chamber of Commerce (2023), small businesses lose an average of R500 per load-shedding episode."
+            },
+            {
+              "label": "Explanation",
+              "explanation": "These losses accumulate rapidly, eroding profit margins and forcing some businesses to close."
+            },
+            {
+              "label": "Link",
+              "explanation": "This economic damage highlights the urgent need for reliable energy infrastructure to support business sustainability."
+            }
+          ],
+          "answer": "Load-shedding severely disrupts the operations of small businesses in South Africa. According to the South African Chamber of Commerce (2023), small businesses lose an average of R500 per load-shedding episode. These losses accumulate rapidly, eroding profit margins and forcing some businesses to close. This economic damage highlights the urgent need for reliable energy infrastructure to support business sustainability.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Week 7",
+      "flashcards": [
+        {
+          "id": "w7-fc-1",
+          "chapter": "Week 7",
+          "front": "What are the three main functions of a conclusion?",
+          "back": "Summarise main points, synthesise the argument, and (optionally) make recommendations.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w7-fc-2",
+          "chapter": "Week 7",
+          "front": "What should a conclusion NOT contain?",
+          "back": "New information or arguments not discussed in the body of the essay.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w7-fc-3",
+          "chapter": "Week 7",
+          "front": "What is the difference between summarising and synthesising?",
+          "back": "Summarising restates main points; synthesising integrates them into a unified insight or conclusion.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w7-fc-4",
+          "chapter": "Week 7",
+          "front": "Why should new information be avoided in a conclusion?",
+          "back": "It undermines the essay's structure; new ideas require their own body paragraph with evidence.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "w7-q1",
+          "chapter": "Week 7",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following is NOT appropriate in a conclusion?",
+          "options": [
+            "Introducing a new argument",
+            "Summarising main points",
+            "Making a recommendation",
+            "Restating the thesis"
+          ],
+          "answer": "Introducing a new argument",
+          "explanation": "New arguments belong in body paragraphs. Conclusions should close the discussion, not open new ones.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w7-q2",
+          "chapter": "Week 7",
+          "questionType": "multiple-choice",
+          "prompt": "Synthesising in a conclusion means:",
+          "options": [
+            "Combining ideas from the essay into a broader insight",
+            "Repeating each paragraph's topic sentence",
+            "Adding new research findings",
+            "Listing references"
+          ],
+          "answer": "Combining ideas from the essay into a broader insight",
+          "explanation": "Synthesis goes beyond summary to show how the essay's arguments connect to produce a larger understanding.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w7-q3",
+          "chapter": "Week 7",
+          "questionType": "multiple-choice",
+          "prompt": "A recommendation in a conclusion is:",
+          "options": [
+            "A suggestion for future action or further research",
+            "A list of sources used",
+            "A restatement of the introduction",
+            "A new definition"
+          ],
+          "answer": "A suggestion for future action or further research",
+          "explanation": "Recommendations point forward, suggesting what could or should be done based on the essay's findings.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "w7-we-1",
+          "chapter": "Week 7",
+          "title": "Evaluating a weak conclusion",
+          "summary": "Identify errors in a student conclusion and improve it.",
+          "problem": "Student conclusion: 'In conclusion, load-shedding is bad. Also, another issue in SA is poverty, which affects millions. Researchers should study this more.'",
+          "steps": [
+            {
+              "label": "Error 1",
+              "explanation": "'Also, another issue in SA is poverty' — this is new information not discussed in the essay body."
+            },
+            {
+              "label": "Error 2",
+              "explanation": "'Load-shedding is bad' is vague; it does not synthesise the essay's specific arguments."
+            },
+            {
+              "label": "Improvement",
+              "explanation": "Remove poverty reference. Synthesise: 'This essay demonstrated that load-shedding erodes small business revenue, increases unemployment, and slows economic recovery, underscoring the need for urgent energy policy reform.'"
+            }
+          ],
+          "answer": "This essay demonstrated that load-shedding erodes small business revenue, increases unemployment, and slows economic recovery, underscoring the need for urgent energy policy reform.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Week 8",
+      "flashcards": [
+        {
+          "id": "w8-fc-1",
+          "chapter": "Week 8",
+          "front": "What is the difference between revision and editing?",
+          "back": "Revision = rethinking content and structure (macro); editing = fixing grammar and punctuation (micro).",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w8-fc-2",
+          "chapter": "Week 8",
+          "front": "What is subject-verb agreement?",
+          "back": "The grammatical rule that a singular subject takes a singular verb and a plural subject takes a plural verb.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w8-fc-3",
+          "chapter": "Week 8",
+          "front": "What is tense consistency?",
+          "back": "Using the same tense throughout a piece of writing unless a shift in time requires a change.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w8-fc-4",
+          "chapter": "Week 8",
+          "front": "Name one proofreading strategy.",
+          "back": "Read the text aloud to catch awkward phrasing, or read from the last sentence backwards to focus on individual sentences.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "w8-q1",
+          "chapter": "Week 8",
+          "questionType": "multiple-choice",
+          "prompt": "Which sentence contains a subject-verb agreement error?",
+          "options": [
+            "The students was late.",
+            "The student was late.",
+            "The students were late.",
+            "A student is late."
+          ],
+          "answer": "The students was late.",
+          "explanation": "'Students' is plural and requires 'were', not 'was'. Correct: 'The students were late.'",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w8-q2",
+          "chapter": "Week 8",
+          "questionType": "multiple-choice",
+          "prompt": "Revision primarily involves:",
+          "options": [
+            "Rethinking the argument and structure of an essay",
+            "Correcting spelling mistakes",
+            "Checking punctuation",
+            "Formatting the reference list"
+          ],
+          "answer": "Rethinking the argument and structure of an essay",
+          "explanation": "Revision is a macro-level process concerned with content, argument, and organisation.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w8-q3",
+          "chapter": "Week 8",
+          "questionType": "multiple-choice",
+          "prompt": "Which is a useful proofreading strategy?",
+          "options": [
+            "Reading the text aloud",
+            "Submitting immediately after writing",
+            "Only checking the introduction",
+            "Ignoring grammar tools"
+          ],
+          "answer": "Reading the text aloud",
+          "explanation": "Reading aloud slows you down and makes it easier to catch errors your eyes skim over silently.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "w8-we-1",
+          "chapter": "Week 8",
+          "title": "Identifying and correcting grammar errors",
+          "summary": "Correct subject-verb agreement and tense errors in a student paragraph.",
+          "problem": "Original: 'The results shows that many students struggles with academic writing. They did not understood the requirements and fails to plan effectively.'",
+          "steps": [
+            {
+              "label": "Error 1",
+              "explanation": "'results shows' → 'results show' (plural subject requires plural verb)."
+            },
+            {
+              "label": "Error 2",
+              "explanation": "'students struggles' → 'students struggle' (plural subject)."
+            },
+            {
+              "label": "Error 3",
+              "explanation": "'did not understood' → 'did not understand' (past simple: auxiliary 'did' takes base form)."
+            },
+            {
+              "label": "Error 4",
+              "explanation": "'fails' → 'failed' (tense consistency: paragraph is in past tense)."
+            }
+          ],
+          "answer": "The results show that many students struggle with academic writing. They did not understand the requirements and failed to plan effectively.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    },
+    {
+      "chapter": "Week 9",
+      "flashcards": [
+        {
+          "id": "w9-fc-1",
+          "chapter": "Week 9",
+          "front": "What is visual literacy?",
+          "back": "The ability to read, interpret, and communicate meaning using visual formats such as graphs, charts, and tables.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w9-fc-2",
+          "chapter": "Week 9",
+          "front": "How should a figure be referenced in academic writing?",
+          "back": "Refer to it in the text (e.g. 'As shown in Figure 1...') and include a figure label and source below it.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w9-fc-3",
+          "chapter": "Week 9",
+          "front": "Name three things to mention when describing a graph.",
+          "back": "The overall trend, the highest/lowest values, and any notable exceptions or turning points.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w9-fc-4",
+          "chapter": "Week 9",
+          "front": "What is the difference between a graph and a table?",
+          "back": "A graph shows trends and relationships visually; a table organises precise numerical data in rows and columns.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "quizItems": [
+        {
+          "id": "w9-q1",
+          "chapter": "Week 9",
+          "questionType": "multiple-choice",
+          "prompt": "When incorporating a graph into an essay, you should:",
+          "options": [
+            "Refer to it in the text and provide a caption with the source",
+            "Paste it without any explanation",
+            "Only mention it in the reference list",
+            "Place it before the introduction"
+          ],
+          "answer": "Refer to it in the text and provide a caption with the source",
+          "explanation": "Every figure must be introduced in the text and labelled with a caption and source for academic credibility.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w9-q2",
+          "chapter": "Week 9",
+          "questionType": "multiple-choice",
+          "prompt": "Which of the following best describes 'data description' in academic writing?",
+          "options": [
+            "A written account of trends or patterns shown in a visual",
+            "A copy of the raw data",
+            "A definition of graph terminology",
+            "A list of all figures used"
+          ],
+          "answer": "A written account of trends or patterns shown in a visual",
+          "explanation": "Data description translates visual information into academic prose, highlighting key trends and figures.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        },
+        {
+          "id": "w9-q3",
+          "chapter": "Week 9",
+          "questionType": "multiple-choice",
+          "prompt": "A bar graph showing SA unemployment rates from 2018–2023 is best described by noting:",
+          "options": [
+            "The overall trend, peak values, and any significant changes",
+            "Only the 2023 value",
+            "The graph's colour scheme",
+            "The number of bars"
+          ],
+          "answer": "The overall trend, peak values, and any significant changes",
+          "explanation": "A complete graph description identifies the trend, highest and lowest points, and noteworthy changes.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "workedExamples": [
+        {
+          "id": "w9-we-1",
+          "chapter": "Week 9",
+          "title": "Describing a bar graph in academic writing",
+          "summary": "Write a data description for a bar graph showing SA youth unemployment.",
+          "problem": "A bar graph shows SA youth unemployment: 2019=55%, 2020=63%, 2021=66%, 2022=62%, 2023=60%. Write a 2–3 sentence academic description.",
+          "steps": [
+            {
+              "label": "Step 1 — Overall trend",
+              "explanation": "Identify the dominant pattern: unemployment rose sharply then began to decline."
+            },
+            {
+              "label": "Step 2 — Peak and trough",
+              "explanation": "Highest point: 66% in 2021; lowest in the range: 55% in 2019."
+            },
+            {
+              "label": "Step 3 — Integrate into prose",
+              "explanation": "Frame with 'As shown in Figure 1...' and cite the source."
+            }
+          ],
+          "answer": "As shown in Figure 1, South African youth unemployment rose sharply from 55% in 2019 to a peak of 66% in 2021, likely reflecting the economic impact of the COVID-19 pandemic. A modest recovery is evident from 2022, with the rate declining to 60% in 2023, though levels remain critically high.",
+          "source": "NWU curriculum",
+          "metadata": {
+            "reviewStatus": "draft",
+            "confidence": 0.82,
+            "version": 1,
+            "generatedBy": "ai-curriculum",
+            "generatedFrom": [
+              "curriculum-knowledge"
+            ],
+            "sources": []
+          }
+        }
+      ],
+      "calculators": [],
+      "graphs": []
+    }
+  ],
+  "discipline": "academic_literacy",
+  "referenceList": [
+    {
+      "title": "Purdue OWL — Academic Writing & Research",
+      "publisher": "Purdue University",
+      "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html",
+      "note": "Free, authoritative writing and citation support.",
+      "sourceHash": "3bbc3c16ac136381a8cbc073c834fb36be037ab5f33d321d0f30b1c139e9cda7"
+    },
+    {
+      "title": "Cottrell, S. — The Study Skills Handbook (Palgrave Macmillan)",
+      "publisher": "Palgrave",
+      "url": "https://www.macmillanlearning.com/college/us/coursepack/the-study-skills-handbook",
+      "note": "Practical academic-literacy and study-strategy reference.",
+      "sourceHash": "84b428019b1d8245db46f760e994ade7a3b006a9663756bee71acd5bad1ff0f8"
+    }
+  ],
+  "teacherNotes": [
+    "Module overview: Academic Literacy Development 122 (BCom, North-West University). This study-guide was auto-generated from the module outline and should be reviewed against the current year's official module guide before use. Pair every chapter with the reference list (see 'referenceList') so students can read the primary/standard source.",
+    "Chapter-by-chapter teaching focus (derived from the module's own learning outcomes and key definitions):",
+    "  • Week 1 — Academic Acculturation. Emphasise: Distinguish academic culture from school culture; Identify features of academic discourse communities; Reflect on student identity transition. Local context: South African first-generation students often face significant acculturation challenges when entering historically advantaged universities.",
+    "  • Week 2 — Task Analysis & Academic Writing. Emphasise: Interpret task words correctly; Apply the SMART approach to assignments; Plan an academic writing task. Local context: NWU assignments frequently use task words like 'critically discuss' and 'compare'; misreading these is a common student error.",
+    "  • Week 3 — Reading Strategies & Text Types. Emphasise: Apply the SQ3R method; Distinguish expository, argumentative, and descriptive texts; Use skimming and scanning strategically. Local context: Many SA students read textbooks linearly; SQ3R improves comprehension and exam preparation efficiency.",
+    "  • Week 4 — Referencing & Academic Integrity. Emphasise: Apply APA 7th edition in-text citations and reference lists; Use Turnitin to check originality; Define plagiarism and academic integrity. Local context: NWU uses Turnitin for all major submissions; a similarity score above 20% typically triggers review.",
+    "  • Week 5 — Text Structure & Academic Introductions. Emphasise: Identify intro-body-conclusion structure; Recognise the IMRAD format; Write an academic introduction using context-gap-purpose. Local context: BCom essays at NWU are expected to follow intro-body-conclusion; IMRAD is introduced as a research literacy skill.",
+    "  • Week 6 — Paragraph Writing (PEEL). Emphasise: Apply the PEEL paragraph structure; Write clear topic sentences; Achieve coherence within paragraphs. Local context: PEEL is widely used at South African universities to help students structure academic arguments clearly.",
+    "  • Week 7 — Writing Conclusions. Emphasise: Describe the functions of a conclusion; Distinguish synthesising from summarising; Avoid common conclusion errors. Local context: Students in SA often introduce new arguments in conclusions; this weakens the essay structure significantly.",
+    "  • Week 8 — Revision & Editing. Emphasise: Distinguish revision from editing; Correct subject-verb agreement errors; Apply proofreading strategies. Local context: Many NWU students writing in a second or third language benefit greatly from structured proofreading checklists.",
+    "  • Week 9 — Visual Literacy. Emphasise: Read and interpret graphs, tables, and figures; Describe visual data accurately; Incorporate visuals into academic writing. Local context: BCom students in SA frequently encounter graphs in economics and business reports; visual literacy is a key graduate attribute.",
+    "Assessment alignment: confirm the scope and weighting of each test/exam against the official assessment plan; the generated 'assessmentPlan' here is a draft and must be validated by the lecturer. Cite the reference list for any externally sourced figures."
+  ],
+  "sourceHashes": [
+    "3bbc3c16ac136381a8cbc073c834fb36be037ab5f33d321d0f30b1c139e9cda7",
+    "84b428019b1d8245db46f760e994ade7a3b006a9663756bee71acd5bad1ff0f8"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

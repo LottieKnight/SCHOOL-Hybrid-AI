@@ -1,0 +1,45 @@
+.container {
+  padding: 16px;
+  background: var(--surface);
+  border-radius: var(--r-lg);
+  border: 1px solid var(--border);
+}
+
+.title { margin: 0 0 16px; font-size: 14px; font-weight: 600; color: var(--text-2); text-transform: uppercase; }
+
+.tree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.nodeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.node {
+  width: 200px;
+  padding: 12px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  text-align: center;
+  display: grid;
+  gap: 2px;
+}
+
+.node[data-status="completed"] { border-color: var(--green-border); background: rgba(16, 185, 129, 0.05); }
+.node[data-status="current"] { border-color: var(--gold-border); background: rgba(255, 215, 0, 0.05); box-shadow: 0 0 15px rgba(255, 215, 0, 0.1); }
+.node[data-status="locked"] { opacity: 0.5; }
+
+.code { font-family: var(--font-mono); font-size: 12px; font-weight: 700; color: var(--gold); }
+.name { font-size: 13px; color: var(--text-1); }
+
+.connector {
+  width: 2px;
+  height: 24px;
+  background: var(--border);
+}

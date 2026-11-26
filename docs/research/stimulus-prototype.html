@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Observational Silence v1 — stimulus prototype</title>
+<!--
+  Reference renderer for the "Observational Silence v1" inattentional-blindness
+  stimulus. See docs/research/stimulus-observational-silence-v1.md.
+
+  This is a deterministic, original animation (procedurally drawn shapes — no
+  filmed footage, no resemblance to Simons' copyrighted video). Engineers should
+  port the trajectory/timing logic here into the web (canvas) and mobile (Skia)
+  Game Center renderers, emitting the trial events listed in the spec (§8) to
+  POST /research/sessions/:id/events.
+
+  NOTE: opening and watching this yourself does not measure inattentional
+  blindness — you already know the intruder is coming. It validates mechanics.
+-->
+<style>
+  :root{ --bg:#1b1d24; --surface:#23262f; --line:rgba(255,255,255,.12);
+         --text:#e9e7df; --muted:#a7a59c; --teal:#1D9E75; --intruder:#D4537E; }
+  html,body{margin:0;background:var(--bg);color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;}
+  .wrap{max-width:680px;margin:32px auto;padding:0 16px;}
+  h1{font-size:20px;font-weight:500;margin:0 0 4px;}
+  .sub{color:var(--muted);font-size:13px;margin:0 0 20px;}
+  .stage{background:var(--surface);border-radius:12px;padding:14px;}
+  canvas{display:block;width:100%;aspect-ratio:640/380;border-radius:8px;}
+  .panel{margin-top:14px;font-size:15px;line-height:1.6;}
+  .muted{color:var(--muted);}
+  .track{height:6px;background:var(--line);border-radius:6px;overflow:hidden;margin-top:10px;}
+  .bar{height:100%;width:0%;background:var(--teal);}
+  button{font:inherit;font-size:14px;color:var(--text);background:transparent;
+    border:1px solid var(--line);border-radius:8px;padding:8px 14px;cursor:pointer;}
+  button:hover{background:rgba(255,255,255,.06);}
+  input[type=number]{font:inherit;width:90px;padding:7px 10px;background:#13151b;
+    color:var(--text);border:1px solid var(--line);border-radius:8px;}
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 14px;}
+  .card{background:#13151b;border-radius:8px;padding:10px;}
+  .card .k{color:var(--muted);font-size:13px;} .card .v{font-size:24px;font-weight:500;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Observational Silence — stimulus v1 (prototype)</h1>
+  <p class="sub">Count the passes between the teal orbs. Reference renderer; not a data-collection run.</p>
+  <div class="stage"><canvas id="ibCanvas" width="640" height="380"></canvas></div>
+  <div class="panel" id="ibPanel"></div>
+</div>
+<script>
+(function(){
+  var TEAL="#1D9E75",TEAL2="#5DCAA5",AMBER="#EF9F27",AMBER2="#BA7517",TOKEN="#E1F5EE",INTRUDER="#D4537E",INTRUDER2="#ED93B1";
+  var DURATION=22000, IN_ON=7500, IN_CENTER=9500, IN_DWELL=11500, IN_OFF=13500, SHIFT_ON=16000;
+  var cv=document.getElementById("ibCanvas"), ctx=cv.getContext("2d"), panel=document.getElementById("ibPanel");
+  var DPR=Math.min(window.devicePixelRatio||1,2); cv.width=640*DPR; cv.height=380*DPR; ctx.scale(DPR,DPR);
+  var W=640,H=380, AX0=56,AX1=584,AY0=64,AY1=320;
+  var agents,tealHolder,amberHolder,tealPass,amberPass,tealTrue,nextTeal,nextAmber,t0,raf,running,reported,noticed,bar;
+  function rnd(a,b){return a+Math.random()*(b-a);}
+  function ease(t){return t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2;}
+  function mk(team){return {team:team,x:rnd(AX0,AX1),y:rnd(AY0,AY1),tx:rnd(AX0,AX1),ty:rnd(AY0,AY1)};}
+  function reset(){
+    agents=[mk("teal"),mk("teal"),mk("teal"),mk("amber"),mk("amber"),mk("amber")];
+    tealHolder=0;amberHolder=3;tealPass=null;amberPass=null;tealTrue=0;
+    nextTeal=1200;nextAmber=1700;reported=null;noticed=null;
+  }
+  function moveAgent(a,dt){
+    var dx=a.tx-a.x,dy=a.ty-a.y,d=Math.hypot(dx,dy);
+    if(d<6){a.tx=rnd(AX0,AX1);a.ty=rnd(AY0,AY1);}
+    else{var s=Math.min(d,62*dt);a.x+=dx/d*s;a.y+=dy/d*s;}
+  }
+  function startPass(team){
+    if(team==="teal"){var o=[0,1,2].filter(function(i){return i!==tealHolder;});var t=o[Math.floor(Math.random()*o.length)];tealPass={from:tealHolder,to:t,start:performance.now()};tealTrue++;}
+    else{var o2=[3,4,5].filter(function(i){return i!==amberHolder;});var t2=o2[Math.floor(Math.random()*o2.length)];amberPass={from:amberHolder,to:t2,start:performance.now()};}
+  }
+  function tokenPos(pass,holderIdx){
+    if(!pass)return {x:agents[holderIdx].x,y:agents[holderIdx].y};
+    var p=Math.min(1,(performance.now()-pass.start)/600),e=ease(p),f=agents[pass.from],t=agents[pass.to];
+    return {x:f.x+(t.x-f.x)*e,y:f.y+(t.y-f.y)*e};
+  }
+  function orb(a){
+    ctx.beginPath();ctx.arc(a.x,a.y,18,0,7);ctx.fillStyle=a.team==="teal"?TEAL:AMBER;ctx.fill();
+    ctx.lineWidth=2;ctx.strokeStyle=a.team==="teal"?TEAL2:AMBER2;ctx.stroke();
+  }
+  function dot(p){ctx.beginPath();ctx.arc(p.x,p.y,6,0,7);ctx.fillStyle=TOKEN;ctx.fill();}
+  function kite(cx,cy,r,rot){
+    ctx.save();ctx.translate(cx,cy);ctx.rotate(rot);ctx.beginPath();
+    for(var i=0;i<8;i++){var ang=i*Math.PI/4,rr=i%2?r*0.42:r;ctx.lineTo(Math.cos(ang)*rr,Math.sin(ang)*rr);}
+    ctx.closePath();ctx.fillStyle=INTRUDER;ctx.fill();ctx.lineWidth=2;ctx.strokeStyle=INTRUDER2;ctx.stroke();ctx.restore();
+  }
+  function field(el){
+    var base=[27,29,36];if(el>SHIFT_ON){var k=Math.min(1,(el-SHIFT_ON)/1500);base=[27+10*k,29-6*k,36-16*k];}
+    ctx.fillStyle="rgb("+(base[0]|0)+","+(base[1]|0)+","+(base[2]|0)+")";ctx.fillRect(0,0,W,H);
+    ctx.strokeStyle="rgba(255,255,255,0.08)";ctx.lineWidth=1;ctx.strokeRect(8,8,W-16,H-16);
+  }
+  function frame(now){
+    var el=now-t0,dt=Math.min(0.05,(now-(frame.last||now))/1000);frame.last=now;
+    field(el);
+    if(el>nextTeal&&!tealPass){startPass("teal");nextTeal=el+600+rnd(1000,1500);}
+    if(el>nextAmber&&!amberPass){startPass("amber");nextAmber=el+600+rnd(900,1400);}
+    if(tealPass&&performance.now()-tealPass.start>=600){tealHolder=tealPass.to;tealPass=null;}
+    if(amberPass&&performance.now()-amberPass.start>=600){amberHolder=amberPass.to;amberPass=null;}
+    var exited=el>21000;
+    for(var i=0;i<agents.length;i++){if(exited&&i===5)continue;moveAgent(agents[i],dt);orb(agents[i]);}
+    dot(tokenPos(tealPass,tealHolder));dot(tokenPos(amberPass,amberHolder));
+    if(el>=IN_ON&&el<=IN_OFF){
+      var ix;
+      if(el<IN_CENTER)ix=700+(320-700)*ease((el-IN_ON)/(IN_CENTER-IN_ON));
+      else if(el<IN_DWELL)ix=320;
+      else ix=320+(-90-320)*ease((el-IN_DWELL)/(IN_OFF-IN_DWELL));
+      var iy=190+Math.sin(el/300)*10, sc=1+Math.sin(el/180)*0.06;
+      kite(ix,iy,26*sc,el/600);
+    }
+    if(bar)bar.style.width=Math.min(100,Math.round(el/DURATION*100))+"%";
+    if(el>=DURATION){running=false;cancelAnimationFrame(raf);askCount();return;}
+    raf=requestAnimationFrame(frame);
+  }
+  function staticScene(){field(0);for(var i=0;i<6;i++)orb(agents[i]);kite(320,190,28,0.4);}
+  function start(){reset();t0=performance.now();frame.last=null;running=true;
+    panel.innerHTML='<p class="muted" style="margin:0">Counting in progress — keep your eyes on the teal orbs.</p><div class="track"><div class="bar" id="ibBar"></div></div>';
+    bar=document.getElementById("ibBar");raf=requestAnimationFrame(frame);}
+  function intro(){
+    reset();staticScene();bar=null;
+    panel.innerHTML='<p style="margin:0 0 4px">Your task: count how many times the teal orbs pass their token to each other. Ignore the amber orbs.</p><p class="muted" style="margin:0 0 12px;font-size:13px">~22 seconds. Count silently — you will report at the end.</p><button id="ibStart">Start the trial</button>';
+    document.getElementById("ibStart").addEventListener("click",start);
+  }
+  function askCount(){staticScene();
+    panel.innerHTML='<p style="margin:0 0 10px">How many teal passes did you count?</p><input id="ibNum" type="number" min="0" max="99"/> <button id="ibNumGo">Continue</button>';
+    document.getElementById("ibNumGo").addEventListener("click",function(){var v=parseInt(document.getElementById("ibNum").value,10);reported=isNaN(v)?null:v;askNotice();});
+  }
+  function askNotice(){
+    panel.innerHTML='<p style="margin:0 0 10px">While counting, did you notice anything that was not a teal or amber orb?</p><button id="ibYes">Yes, I saw something</button> <button id="ibNo" style="margin-left:8px">No</button>';
+    document.getElementById("ibYes").addEventListener("click",function(){noticed=true;reveal();});
+    document.getElementById("ibNo").addEventListener("click",function(){noticed=false;reveal();});
+  }
+  function reveal(){staticScene();
+    var err=(reported==null)?"—":Math.abs(reported-tealTrue);
+    var verdict=noticed?'You caught it. In a naive run you would not have been told to look.':'Inattentional blindness: the magenta kite was fully visible for ~6 seconds, crossing the centre.';
+    panel.innerHTML='<p style="margin:0 0 10px">'+verdict+'</p>'+
+      '<div class="cards">'+
+      '<div class="card"><div class="k">True teal passes</div><div class="v">'+tealTrue+'</div></div>'+
+      '<div class="card"><div class="k">You counted</div><div class="v">'+(reported==null?"—":reported)+'</div></div>'+
+      '<div class="card"><div class="k">Pass-count error</div><div class="v">'+err+'</div></div>'+
+      '</div>'+
+      '<p class="muted" style="font-size:13px;margin:0 0 12px">Prototype only — validates mechanics, trajectories and timing, not the blindness effect (you read about the intruder first).</p>'+
+      '<button id="ibAgain">Run again</button>';
+    document.getElementById("ibAgain").addEventListener("click",intro);
+  }
+  intro();
+})();
+</script>
+</body>
+</html>

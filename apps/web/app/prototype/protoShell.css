@@ -1,0 +1,282 @@
+/* ============================================================
+   SCHOOL x Focus&Flow — UI PROTOTYPE (does not ship)
+   ------------------------------------------------------------
+   A reversible, parallel design direction: "Modern vibrant youth".
+   Calm daylight canvas, one confident electric accent, editorial
+   Playfair headings, content-native cards. No gilded surfaces.
+
+   The prototype owns the whole shell, so these classes are scoped
+   under .proto-root to avoid leaking into the live app.
+   ============================================================ */
+
+/* ---- Tokens ------------------------------------------------ */
+.proto-root {
+  /* Canvas */
+  --pf-bg: #fbf7f0;        /* warm paper */
+  --pf-bg-raised: #ffffff;
+  --pf-bg-tint: #f3ecdf;
+  --pf-ink: #211d17;       /* warm near-black */
+  --pf-ink-2: #57503f;
+  --pf-ink-3: #8d846f;
+  --pf-line: #e7ddc9;
+
+  /* Accent — house gold for energy */
+  --pf-accent: #b8862f;
+  --pf-accent-strong: #9a6b1f;
+  --pf-accent-soft: #f7ecc9;
+
+  /* Secondary warmth */
+  --pf-coral: #ff5c8a;
+  --pf-amber: #ffb020;
+  --pf-mint: #22c48a;
+
+  /* Random tint palette (per-card delight) */
+  --pf-tint-1: #f7ecc9;
+  --pf-tint-2: #ffeff4;
+  --pf-tint-3: #fff6e6;
+  --pf-tint-4: #e7fbf2;
+
+  --pf-radius: 18px;
+  --pf-radius-sm: 12px;
+  --pf-space: 16px;
+  --pf-header: var(--font-playfair), Georgia, serif;
+  --pf-body: var(--font-archivo), system-ui, sans-serif;
+}
+
+/* ---- Shell frame ------------------------------------------ */
+.proto-root {
+  min-height: 100vh;
+  background: var(--pf-bg);
+  color: var(--pf-ink);
+  font-family: var(--pf-body);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.proto-topbar {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: color-mix(in srgb, var(--pf-bg) 82%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--pf-line);
+}
+
+.proto-topbar__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--pf-header);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.proto-topbar__spacer { flex: 1; }
+
+.proto-topbar__avatar {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  background: var(--pf-accent);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+/* ---- Journey nav (Now / Explore / Grow / Staff) ------------ */
+.proto-journey {
+  position: sticky;
+  top: 58px;
+  z-index: 30;
+  display: flex;
+  gap: 0.4rem;
+  padding: 0.6rem 1.5rem;
+  background: var(--pf-bg);
+  border-bottom: 1px solid var(--pf-line);
+  overflow-x: auto;
+}
+
+.proto-navpad {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  color: var(--pf-ink-2);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.proto-navpad:hover { background: var(--pf-bg-tint); color: var(--pf-ink); }
+.proto-navpad[data-active="true"] {
+  background: var(--pf-accent);
+  color: #fff;
+}
+
+/* ---- Start of Now (the dashboard moment) ------------------ */
+.proto-hero {
+  display: grid;
+  gap: 1.25rem;
+  padding: 2rem 1.5rem 1rem;
+}
+
+.proto-hero__row {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.proto-eyebrow {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--pf-accent);
+}
+
+.proto-hero h1 {
+  margin: 0.25rem 0 0;
+  font-family: var(--pf-header);
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.proto-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  background: var(--pf-amber);
+  color: #43300a;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* ---- Content grid ----------------------------------------- */
+.proto-main {
+  padding: 0 1.5rem 2rem;
+  display: grid;
+  gap: 1.25rem;
+}
+
+.proto-section-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--pf-ink-3);
+  margin: 0.5rem 0 0.75rem;
+}
+
+.proto-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr));
+}
+
+/* ---- Cards ------------------------------------------------ */
+.proto-card {
+  border: 1px solid var(--pf-line);
+  border-radius: var(--pf-radius);
+  padding: 1.1rem;
+  background: var(--pf-bg-raised);
+  display: grid;
+  gap: 0.6rem;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.proto-card:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--pf-accent) 45%, var(--pf-line));
+  box-shadow: 0 14px 30px -18px rgba(33, 29, 23, 0.35);
+}
+
+.proto-card--tint1 { background: var(--pf-tint-1); }
+.proto-card--tint2 { background: var(--pf-tint-2); }
+.proto-card--tint3 { background: var(--pf-tint-3); }
+.proto-card--tint4 { background: var(--pf-tint-4); }
+
+.proto-card__icon {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--pf-radius-sm);
+  background: var(--pf-accent);
+  color: #fff;
+  font-size: 1.15rem;
+}
+
+.proto-card h3 {
+  margin: 0;
+  font-family: var(--pf-header);
+  font-size: 1.15rem;
+}
+
+.proto-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--pf-ink-2);
+  line-height: 1.45;
+}
+
+.proto-card__meta {
+  font-size: 0.8rem;
+  color: var(--pf-ink-3);
+  font-weight: 600;
+}
+
+/* ---- Primary CTA (AI tutor) ------------------------------- */
+.proto-cta {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.4rem;
+  border-radius: 999px;
+  background: var(--pf-coral);
+  color: #fff;
+  font-weight: 700;
+}
+
+/* ---- Progress rows ---------------------------------------- */
+.proto-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.16rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+.proto-tag--mint { background: var(--pf-mint); color: #0b3d2a; }
+.proto-tag--amber { background: var(--pf-amber); color: #43300a; }
+
+.proto-footer {
+  padding: 1.25rem 1.5rem;
+  color: var(--pf-ink-3);
+  font-size: 0.85rem;
+  border-top: 1px solid var(--pf-line);
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .proto-card { transition: none; }
+  .proto-card:hover { transform: none; }
+}

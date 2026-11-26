@@ -1,0 +1,253 @@
+.page {
+  display: grid;
+  gap: 28px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.gameCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardLive {
+  border-color: var(--brand-primary);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--brand-primary) 30%, transparent);
+}
+
+.cardSoon {
+  opacity: 0.7;
+}
+
+.cardTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.cardMeta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.gameEmoji {
+  font-size: 2.4rem;
+  line-height: 1;
+}
+
+.tag {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+.tagLive {
+  background: color-mix(in srgb, var(--brand-primary) 15%, transparent);
+  color: var(--brand-primary);
+  border: 1px solid color-mix(in srgb, var(--brand-primary) 40%, transparent);
+}
+
+.tagSoon {
+  background: color-mix(in srgb, var(--text-2) 10%, transparent);
+  color: var(--text-2);
+  border: 1px solid color-mix(in srgb, var(--text-2) 20%, transparent);
+}
+
+.genre {
+  font-size: 0.72rem;
+  color: var(--text-2);
+}
+
+.gameTitle {
+  margin-top: 4px;
+}
+
+.gameSubtitle {
+  font-size: 0.85rem;
+  color: var(--text-2);
+  margin-top: 2px;
+}
+
+.gameDesc {
+  font-size: 0.9rem;
+  color: var(--text-2);
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+.playBtn {
+  width: 100%;
+  text-align: center;
+}
+
+.soonBtn {
+  width: 100%;
+  cursor: not-allowed;
+  opacity: 0.5;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+.note {
+  max-width: 600px;
+}
+
+/* ── Daily Challenge ────────────────────────── */
+.dailyChallenge {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.12), rgba(234, 88, 12, 0.08));
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.dailyTag {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #f59e0b;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.dailyTitle {
+  font-size: 1.1rem;
+  margin: 0 0 4px;
+}
+
+.dailyDesc {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin: 0;
+  max-width: 400px;
+}
+
+.dailyBtn {
+  flex-shrink: 0;
+}
+
+/* ── Category filter ────────────────────────── */
+.categoryStrip {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+
+.catBtn {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  font: inherit;
+  font-size: 0.82rem;
+  cursor: pointer;
+  color: var(--text);
+  transition: all 0.15s;
+}
+
+.catBtn[data-active="true"] {
+  background: var(--surface-3);
+  border-color: var(--brand-primary);
+  font-weight: 600;
+}
+
+/* ── Game card extras ───────────────────────── */
+.gameHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.gameBadge {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 999px;
+}
+
+.gameBadge[data-variant="live"] {
+  background: rgba(34, 197, 94, 0.12);
+  color: #4ade80;
+  border: 1px solid rgba(34, 197, 94, 0.25);
+}
+
+.gameBadge[data-variant="gold"] {
+  background: rgba(245, 158, 11, 0.12);
+  color: #f59e0b;
+  border: 1px solid rgba(245, 158, 11, 0.25);
+}
+
+.gameBadge[data-variant="default"] {
+  background: rgba(54, 45, 30, 0.07);
+  color: var(--muted);
+  border: 1px solid rgba(54, 45, 30, 0.12);
+}
+
+.gameTitle { font-size: 1rem; margin: 8px 0 2px; }
+.gameSubtitle { font-size: 0.8rem; color: var(--muted); margin: 0 0 8px; }
+.gameDescription { font-size: 0.85rem; color: var(--muted); margin: 0 0 10px; line-height: 1.5; }
+
+.gameFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.gameGenre {
+  font-size: 0.72rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.creditsPreview {
+  font-size: 0.72rem;
+  color: #f59e0b;
+  font-weight: 600;
+}
+
+.playButton {
+  display: block;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+/* Leaderboard */
+.container {
+  display: grid;
+  gap: 24px;
+}
+
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dailyChallenge {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,171 @@
+/* ============================================================
+   Ditshego Ventures — Design System for SCHOOL (Scholar)
+   ------------------------------------------------------------
+   Core values: Integrity, Excellence, Service (Philanthropy)
+   Symbols: 
+     • Caduceus (Hermes’ staff) – wisdom, commerce, balance
+     • Olive branch – peace, growth, prosperity, African heritage
+   This file defines the token layer that powers the entire UI.
+   ============================================================ */
+
+/* ---- Root (light theme fallback) ------------------------------------ */
+:root {
+  /* --- Value & Excellence (Gold) -------------------------------------- */
+  --dv-value-700: #9a6b1f;   /* deep gold */
+  --dv-value-600: #b8862f;   /* gold-600 */
+  --dv-value-500: #e8c15a;   /* house gold */
+  --dv-value-400: #f0d27a;   /* champagne highlight */
+  --dv-value-300: #fff3c4;   /* highlight tint */
+
+  /* --- Peace, Growth, Prosperity (Olive) ------------------------------ */
+  --dv-olive-700: #556B2F;   /* Dark Olive Green */
+  --dv-olive-600: #6B8E23;   /* Olive Drab */
+  --dv-olive-500: #808000;   /* Olive */
+  --dv-olive-400: #9ACD32;   /* Yellow Green */
+  --dv-olive-300: #C2D696;   /* Pale Green */
+
+  /* --- Trust, Stability, Authority (Deep Blue) ----------------------- */
+  --dv-trust-700: #001F3F;   /* Navy */
+  --dv-trust-600: #003366;
+  --dv-trust-500: #004080;
+  --dv-trust-400: #005CE6;
+  --dv-trust-300: #3399FF;
+
+  /* --- Status / Feedback ---------------------------------------------- */
+  --dv-success: #2E8B57;     /* Sea Green */
+  --dv-warning: #FF8C00;     /* Dark Orange */
+  --dv-error:    #DC143C;    /* Crimson */
+  --dv-info:     #4682B4;    /* Steel Blue */
+
+  /* --- Neutrals ------------------------------------------------------- */
+  --dv-gray-900: #0F172A;    /* Slate 900 */
+  --dv-gray-800: #1E293B;
+  --dv-gray-700: #334155;
+  --dv-gray-600: #475569;
+  --dv-gray-500: #64748B;
+  --dv-gray-400: #94A3B8;
+  --dv-gray-300: #CBD5E1;
+  --dv-gray-200: #E2E8F0;
+  --dv-gray-100: #F1F5F9;
+  --dv-gray-050: #F8FAFC;
+
+  /* --- Backgrounds & Surfaces ---------------------------------------- */
+  --dv-bg-page:    #FFFFFF;
+  --dv-bg-card:    #F8FAFC;
+  --dv-bg-muted:   #F1F5F9;
+  --dv-bg-hover:   #E2E8F0;
+
+  /* --- Text ----------------------------------------------------------- */
+  --dv-text-primary:   #0F172A;
+  --dv-text-secondary: #334155;
+  --dv-text-muted:     #64748B;
+  --dv-text-invert:    #FFFFFF;
+
+  /* --- Shadows -------------------------------------------------------- */
+  --dv-shadow-sm: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  --dv-shadow-md: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  --dv-shadow-lg: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  --dv-shadow-xl: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+  /* --- Radii ---------------------------------------------------------- */
+  --dv-radius-xs: 4px;
+  --dv-radius-sm: 8px;
+  --dv-radius-md: 12px;
+  --dv-radius-lg: 16px;
+  --dv-radius-pill: 9999px;
+
+  /* --- Icon placeholders (SVG data URIs) ------------------------------ */
+  /* Caduceus: staff with two serpents and wings (simplified) */
+  --dv-icon-caduceus: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23e8c15a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5'/%3E%3Cpath d='M2 12l10-5 10 5'/%3E%3C/svg%3E");
+  /* Olive branch: simple branch with leaves */
+  --dv-icon-olive: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23808000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 12l8-4 8 4'/%3E%3Ccircle cx='8' cy='10' r='2'/%3E%3Ccircle cx='12' cy='14' r='2'/%3E%3Ccircle cx='16' cy='10' r='2'/%3E%3C/svg%3E");
+
+  /* --- Transition & Timing ------------------------------------------- */
+  --dv-transition-fast: 150ms ease-in-out;
+  --dv-transition-normal: 250ms ease-in-out;
+  --dv-transition-slow: 350ms ease-in-out;
+}
+
+/* ---- Dark theme (scholar) ------------------------------------------- */
+[data-theme="scholar"] {
+  /* Use darker surface, invert text for contrast */
+  --dv-bg-page:    #0A0F1C;
+  --dv-bg-card:    #111827;
+  --dv-bg-muted:   #0F172A;
+  --dv-bg-hover:   #1E293B;
+
+  --dv-text-primary:   #E2E8F0;
+  --dv-text-secondary: #CBD5E1;
+  --dv-text-muted:     #94A3B8;
+  --dv-text-invert:    #FFFFFF;
+
+  /* Keep accent colors vivid on dark */
+  --dv-value-500: #e8c15a;
+  --dv-olive-500: #808000;
+  --dv-trust-500: #004080;
+
+  /* Shadows stay the same (they work on dark) */
+}
+
+/* ---- Semantic aliases for components (used globally) ---------------- */
+:root, [data-theme="scholar"] {
+  --color-primary:   var(--dv-value-500);
+  --color-primary-fg: #0a0a0a;
+  --color-primary-dark: var(--dv-value-600);
+  --color-primary-light: var(--dv-value-400);
+  --color-secondary:   var(--dv-olive-500);
+  --color-secondary-dark: var(--dv-olive-600);
+  --color-secondary-light: var(--dv-olive-400);
+  --color-accent:      var(--dv-trust-500);
+  --color-accent-dark: var(--dv-trust-600);
+  --color-accent-light: var(--dv-trust-400);
+
+  --color-background: var(--dv-bg-page);
+  --color-surface:    var(--dv-bg-card);
+  --color-muted:      var(--dv-bg-muted);
+  --color-border:     var(--dv-gray-200);
+  --color-border-dark: var(--dv-gray-300);
+
+  --color-text:       var(--dv-text-primary);
+  --color-text-muted: var(--dv-text-muted);
+  --color-text-invert:var(--dv-text-invert);
+
+  --shadow-sm: var(--dv-shadow-sm);
+  --shadow-md: var(--dv-shadow-md);
+  --shadow-lg: var(--dv-shadow-lg);
+  --shadow-xl: var(--dv-shadow-xl);
+
+  --radius-xs: var(--dv-radius-xs);
+  --radius-sm: var(--dv-radius-sm);
+  --radius-md: var(--dv-radius-md);
+  --radius-lg: var(--dv-radius-lg);
+  --radius-pill: var(--dv-radius-pill);
+
+  /* Icon helpers – can be used as background-image or mask */
+  --icon-caduceus: var(--dv-icon-caduceus);
+  --icon-olive:    var(--dv-icon-olive);
+}
+
+/* ---- Utility classes for icons (optional) --------------------------- */
+.icon-caduceus {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-image: var(--icon-caduceus);
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+.icon-olive {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-image: var(--icon-olive);
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+/* ============================================================
+   End of Ditshego Ventures Design System
+   ============================================================ */

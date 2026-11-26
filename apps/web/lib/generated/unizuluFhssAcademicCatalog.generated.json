@@ -1,0 +1,5067 @@
+{
+  "institutionName": "University of Zululand",
+  "displayName": "University of Zululand",
+  "academicPeriodType": "semester",
+  "academicUnitLabel": "Faculty",
+  "campuses": [
+    "KwaDlangezwa",
+    "Richards Bay"
+  ],
+  "faculties": [
+    "Humanities and Social Sciences",
+    "Commerce, Administration and Law",
+    "Education",
+    "Science, Agriculture and Engineering"
+  ],
+  "courses": [
+    {
+      "id": "unizulu-fhss-1ddeg1",
+      "name": "Bachelor of Arts in Development Studies",
+      "qualificationCode": "1DDEG1",
+      "faculty": "Humanities and Social Sciences",
+      "school": null,
+      "campuses": [
+        "KwaDlangezwa"
+      ],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "University of Zululand FHSS Handbook 2026",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\sa-universities-academic-docs-organized\\University of Zululand\\2026\\Yearbooks and Handbooks\\FHSS Undergrad Handbook 2026.pdf",
+      "modules": [
+        {
+          "code": "1ANT111",
+          "name": "Introduction to Anthropology",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1DEV111",
+          "name": "NGO Sector, Development and Underdevelopment",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1ENG121",
+          "name": "Practical English 1A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "2PAD101",
+          "name": "Introduction to Public Administration",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1ANT112",
+          "name": "Culture and Society in Africa",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1DEV112",
+          "name": "Community Project Development and Facilitation",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1ENG122",
+          "name": "Practical English 1B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "2PAD102",
+          "name": "Introduction to Public Management",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1DEV211",
+          "name": "Development Concepts: Economic and Social",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1DEV221",
+          "name": "Integrated Local Economic Development",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "2ECN101",
+          "name": "Principles of Microeconomics",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "2PAD101",
+          "name": "OR",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "2PAD201",
+          "name": "Basic Personnel Administration",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "2PLG201",
+          "name": "Municipal Structure and Administration",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "4GES111",
+          "name": "Intro to Physical and Environmental Geography",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1DEV212",
+          "name": "Population Studies and South Africa's Population Policy",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1DEV222",
+          "name": "Integrated Rural Development",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "2ECN102",
+          "name": "Principles of Macroeconomics",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "2PAD202",
+          "name": "Introduction to Public Finance Management",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "2PLG202",
+          "name": "Municipal Finance & Management",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "4GES112",
+          "name": "Introduction to Human Geography",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1DEV311",
+          "name": "Integrated Urban Development",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1DEV321",
+          "name": "Industry and Development",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "2ECN102",
+          "name": "OR",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "2ECN201",
+          "name": "Intermediate Microeconomics",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "2PAD201",
+          "name": "OR",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "2PAD301",
+          "name": "Public Service Delivery: Theory and Policy",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "2PLG301",
+          "name": "Local Government Management 3A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "4GES211",
+          "name": "Global Landforms and Cartography",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1DEV222",
+          "name": "CECN202",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1DEV312",
+          "name": "Project Management and Evaluation",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1DEV322",
+          "name": "Research Methodology",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "2PAD202",
+          "name": "OR",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "4GES212",
+          "name": "SGES212",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "unizulu-fhss-1cmdp1",
+      "name": "Diploma in Media Studies",
+      "qualificationCode": "1CMDP1",
+      "faculty": "Humanities and Social Sciences",
+      "school": null,
+      "campuses": [
+        "KwaDlangezwa"
+      ],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "University of Zululand FHSS Handbook 2026",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\sa-universities-academic-docs-organized\\University of Zululand\\2026\\Yearbooks and Handbooks\\FHSS Undergrad Handbook 2026.pdf",
+      "modules": [
+        {
+          "code": "1CCS111",
+          "name": "Communication Studies 1",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COM141",
+          "name": "Communication Skills 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COM151",
+          "name": "Digital Communication 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1HIV111",
+          "name": "HIV/AIDS Literacy",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1CAS112",
+          "name": "Advertising Skills 1",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1CJS112",
+          "name": "Journalism Skills 1",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1CMS112",
+          "name": "Media Skills 1",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1CPR112",
+          "name": "Public Relations Skills 1",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1CCS211",
+          "name": "Communication Studies 2",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1CJS211",
+          "name": "Journalism Skills 2",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1CMS211",
+          "name": "Media Skills 2",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PHS211",
+          "name": "Philosophy of Communication",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1CAS212",
+          "name": "Advertising Skills 2",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COM252",
+          "name": "Digital Communication 2",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1CPR212",
+          "name": "Public Relations Skills 2",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PHS212",
+          "name": "Media Ethics",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1CJS311",
+          "name": "Journalism Skills 3",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1CMS311",
+          "name": "Media Skills 3",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COM341",
+          "name": "Business Studies 1B",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COM351",
+          "name": "Communication Research Methods C",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1CEL312",
+          "name": "Experiential Learning for Media Studies 1A",
+          "credits": 60,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COM332",
+          "name": "Rules",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COM341",
+          "name": "Diploma in Public Relations Management - 1CPDP1; NQF Level 6",
+          "credits": 367,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "unizulu-fhss-1cpdp1",
+      "name": "Diploma in Public Relations Management",
+      "qualificationCode": "1CPDP1",
+      "faculty": "Humanities and Social Sciences",
+      "school": null,
+      "campuses": [
+        "Richards Bay"
+      ],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "University of Zululand FHSS Handbook 2026",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\sa-universities-academic-docs-organized\\University of Zululand\\2026\\Yearbooks and Handbooks\\FHSS Undergrad Handbook 2026.pdf",
+      "modules": [
+        {
+          "code": "1CCC111",
+          "name": "Corporate Communication 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1CCS111",
+          "name": "Communication Studies 1",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COM141",
+          "name": "Communication Skills 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COM151",
+          "name": "Digital Communication 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1CJS112",
+          "name": "Journalism Skills 1",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COM132",
+          "name": "Public Relations 1B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COM172",
+          "name": "Marketing and Advertising 1C",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COM182",
+          "name": "Communication Skills 2",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1CCS211",
+          "name": "Communication Studies 2",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1CJS211",
+          "name": "Journalism Skills 2",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COM241",
+          "name": "Marketing & Advertising 2A",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COM291",
+          "name": "Communication Research",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COM142",
+          "name": "Law for Public Relations",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COM222",
+          "name": "Public Relations 2B",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COM262",
+          "name": "Communication Research Methods A",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PHS112",
+          "name": "Public Relations Ethics",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1CCS211",
+          "name": "1COM2",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COM222",
+          "name": "1CCS31",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1HIV111",
+          "name": "HIV/AIDS Literacy",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COM221",
+          "name": "Advanced Diploma in Communication Science - 1CADP1; NQF Level 7",
+          "credits": 120,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "unizulu-fhss-1cadp1",
+      "name": "Advanced Diploma in Communication Science",
+      "qualificationCode": "1CADP1",
+      "faculty": "Humanities and Social Sciences",
+      "school": null,
+      "campuses": [
+        "Richards Bay"
+      ],
+      "deliveryMode": "Yearbook",
+      "durationYears": 1,
+      "source": "yearbook",
+      "sourceLabel": "University of Zululand FHSS Handbook 2026",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\sa-universities-academic-docs-organized\\University of Zululand\\2026\\Yearbooks and Handbooks\\FHSS Undergrad Handbook 2026.pdf",
+      "modules": [
+        {
+          "code": "1CCM111",
+          "name": "Communication Management",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1CMC111",
+          "name": "Mass Communication",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COC111",
+          "name": "Organisational Communication",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1CPR111",
+          "name": "Strategic Public Relations & Public Speaking",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1CAR112",
+          "name": "Advanced Research in Communication Strategies",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1CEC112",
+          "name": "Electronic Communication",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1CIC112",
+          "name": "Intercultural communication",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1CVC112",
+          "name": "Visual Communication",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "unizulu-fhss-1cdeg1",
+      "name": "Bachelor of Arts in Intercultural Communication",
+      "qualificationCode": "1CDEG1",
+      "faculty": "Humanities and Social Sciences",
+      "school": null,
+      "campuses": [
+        "KwaDlangezwa"
+      ],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "University of Zululand FHSS Handbook 2026",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\sa-universities-academic-docs-organized\\University of Zululand\\2026\\Yearbooks and Handbooks\\FHSS Undergrad Handbook 2026.pdf",
+      "modules": [
+        {
+          "code": "1COM111",
+          "name": "Communication Science 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COM151",
+          "name": "Digital Communication 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1ENG121",
+          "name": "Practical English 1A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1ZUL151",
+          "name": "Sounds, Words and their Dynamics A (IsiZulu)",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1CMS112",
+          "name": "Media Skills 1",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COM112",
+          "name": "Journalism 1",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1ENG121",
+          "name": "Study material will be relevant to the student's specific programme",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1ENG122",
+          "name": "Practical English 1B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1HIV112",
+          "name": "HIV/AIDS Literacy",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COM211",
+          "name": "Communication Science 2",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COM271",
+          "name": "International Communication 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COR131",
+          "name": "Communications in Safety and Security",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1ZUL211",
+          "name": "Sounds, Words and their Dynamics & Syntax B",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1CAR112",
+          "name": "Advanced Research in Communication Strategies",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COM212",
+          "name": "Public Relations 1A",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COM252",
+          "name": "Digital Communication 2",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COR132",
+          "name": "The Media and Investigations",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1CCC111",
+          "name": "Corporate Communication 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COM311",
+          "name": "Communication Science 3",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COM321",
+          "name": "Marketing & Advertising 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COM351",
+          "name": "Communication Research Methods C",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1CCC112",
+          "name": "Corporate Communication 2",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COM312",
+          "name": "Public Relations 2A",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COM362",
+          "name": "International Communication 2",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PHI322",
+          "name": "Ethics of Business Environment",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "unizulu-fhss-1udeg2",
+      "name": "Bachelor of Arts in Drama, Theatre and Performance",
+      "qualificationCode": "1UDEG2",
+      "faculty": "Humanities and Social Sciences",
+      "school": null,
+      "campuses": [
+        "KwaDlangezwa"
+      ],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "University of Zululand FHSS Handbook 2026",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\sa-universities-academic-docs-organized\\University of Zululand\\2026\\Yearbooks and Handbooks\\FHSS Undergrad Handbook 2026.pdf",
+      "modules": [
+        {
+          "code": "1CPS121",
+          "name": "Computer Literacy I",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PVA111",
+          "name": "Introduction to Drama & Theatre Studies",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PVA121",
+          "name": "African & Contemporary Movement Studies 1A",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PVA141",
+          "name": "Musical Theatre 1A",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1CPS122",
+          "name": "Computer Literacy II",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PVA111",
+          "name": "introduces students to the history and development of Drama and Theatre. It traces",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PVA112",
+          "name": "Drama and Theatre Studies 1B",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PVA122",
+          "name": "African & Contemporary Movements Studies 1B",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PVA142",
+          "name": "Musical Theatre 1B",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PVA211",
+          "name": "Advanced Acting 1",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PVA221",
+          "name": "Choreographic Principles 2A",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PVA261",
+          "name": "Musical Theatre 2A",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PVV131",
+          "name": "Visual Arts 1A",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PVA212",
+          "name": "Advanced Acting 2",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PVA222",
+          "name": "body of knowledge acquired in semester 1. Focusing on the practical implementation of",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PVA262",
+          "name": "Musical Theatre 2B",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PVV132",
+          "name": "Visual Arts 1B",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PVA251",
+          "name": "Visual Arts 2A",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PVA311",
+          "name": "Theatre Performance 1",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PVA321",
+          "name": "Directing 3A",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PVA351",
+          "name": "Musical Theatre 3A",
+          "credits": 15,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PVA252",
+          "name": "Visual Arts 2B",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PVA312",
+          "name": "Theatre Performance 2",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PVA322",
+          "name": "Directing 3B",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PVA352",
+          "name": "Musical Theatre 3B",
+          "credits": 15,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "unizulu-fhss-1jdeg2",
+      "name": "Bachelor of Arts in Correctional Studies",
+      "qualificationCode": "1JDEG2",
+      "faculty": "Humanities and Social Sciences",
+      "school": null,
+      "campuses": [
+        "KwaDlangezwa"
+      ],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "University of Zululand FHSS Handbook 2026",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\sa-universities-academic-docs-organized\\University of Zululand\\2026\\Yearbooks and Handbooks\\FHSS Undergrad Handbook 2026.pdf",
+      "modules": [
+        {
+          "code": "1COR111",
+          "name": "Introduction to Criminology and Research",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COR121",
+          "name": "Introduction to Punishment",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY111",
+          "name": "Introduction to Law A (Credits: 12)",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COR112",
+          "name": "History of the Criminal Justice System",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COR122",
+          "name": "Introduction to Corrections",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COR211",
+          "name": "Crime Prevention",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COR221",
+          "name": "Offender Policies",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COR212",
+          "name": "Socio-Criminology",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COR222",
+          "name": "Professional Skills Development for Correctional Officials",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COR311",
+          "name": "Psycho-Criminology",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COR321",
+          "name": "Correctional Management",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "2LCC201",
+          "name": "Communications in Safety and Security",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COR312",
+          "name": "Monistic Studies on Crime and Victimology",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COR321",
+          "name": "Those students that completed 'Law' elective modules in the first year and second year, as well as",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COR322",
+          "name": "Administering Community Corrections: (A) Assessing Offenders",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COR332",
+          "name": "Administering Community Corrections: (B) Assessing Communities",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "2LCP301",
+          "name": "during the second semester of the third year",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "unizulu-fhss-1bdeg3",
+      "name": "Bachelor of Arts (Linguistics and English)",
+      "qualificationCode": "1BDEG3",
+      "faculty": "Humanities and Social Sciences",
+      "school": null,
+      "campuses": [
+        "KwaDlangezwa"
+      ],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "University of Zululand FHSS Handbook 2026",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\sa-universities-academic-docs-organized\\University of Zululand\\2026\\Yearbooks and Handbooks\\FHSS Undergrad Handbook 2026.pdf",
+      "modules": [
+        {
+          "code": "1GEN111",
+          "name": "Writing and Oral Communication Skills",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1GEN112",
+          "name": "An Introduction to Language",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1GEN211",
+          "name": "An Introduction to Morphology & Syntax",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1GEN212",
+          "name": "Language & Learning",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1GEN311",
+          "name": "Language Policy and Language Planning",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1GEN321",
+          "name": "Language & Culture",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1GEN312",
+          "name": "Language Diversity in SA & in the Global Context",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1GEN322",
+          "name": "Translation Studies",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "unizulu-fhss-1gba01",
+      "name": "Bachelor of Arts in Environmental Planning and Development",
+      "qualificationCode": "1GBA01",
+      "faculty": "Humanities and Social Sciences",
+      "school": null,
+      "campuses": [
+        "KwaDlangezwa"
+      ],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "University of Zululand FHSS Handbook 2026",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\sa-universities-academic-docs-organized\\University of Zululand\\2026\\Yearbooks and Handbooks\\FHSS Undergrad Handbook 2026.pdf",
+      "modules": [
+        {
+          "code": "1DEV111",
+          "name": "NGO Sector, Development & Underdevelopment",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1ENG121",
+          "name": "Practical English 1A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1HIS111",
+          "name": "History 1: Theory and Methods of History",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1RTO111",
+          "name": "Introduction to Tourism",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "4GES111",
+          "name": "Introduction to Physical & Environmental Geography",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1DEV112",
+          "name": "Community Project Development & Facilitation",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1ENG122",
+          "name": "Practical English 1B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1RTO112",
+          "name": "Business Tourism & Entrepreneurship",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "4GES112",
+          "name": "Introduction to Human Geography",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1DEV211",
+          "name": "Integrated Local Economic Development",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1DEV221",
+          "name": "OR",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1RTO211",
+          "name": "Tourism Marketing A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "4GES211",
+          "name": "Global Landforms & Cartography",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "4STT111",
+          "name": "Elementary Statistics for Science Students",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1DEV212",
+          "name": "Integrated Rural Development",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1DEV222",
+          "name": "OR",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1RTO212",
+          "name": "OR",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "4CPS122",
+          "name": "Tourism marketing B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "4GES111",
+          "name": "Choose ONE Elective",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "4GES212",
+          "name": "Demographics, Health & Sustainable Development",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "4HYD222",
+          "name": "Geographical Information Systems",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1DEV311",
+          "name": "Integrated Urban Development",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1DEV321",
+          "name": "Industry & Development",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "4GES311",
+          "name": "Urban Environment & Recreation Planning",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "4GES331",
+          "name": "Land Use & Natural Resource Management",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1DEV312",
+          "name": "Project Management & Evaluation",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1DEV322",
+          "name": "Research Methodology",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "4GES211",
+          "name": "and",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "4GES312",
+          "name": "Environmental Management",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "4GES322",
+          "name": "Environmental Fieldwork & Research",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "unizulu-fhss-1ideg1",
+      "name": "Bachelor of Arts in Information Studies",
+      "qualificationCode": "1IDEG1",
+      "faculty": "Humanities and Social Sciences",
+      "school": null,
+      "campuses": [
+        "KwaDlangezwa"
+      ],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "University of Zululand FHSS Handbook 2026",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\sa-universities-academic-docs-organized\\University of Zululand\\2026\\Yearbooks and Handbooks\\FHSS Undergrad Handbook 2026.pdf",
+      "modules": [
+        {
+          "code": "1ENG121",
+          "name": "Practical English A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF111",
+          "name": "Information Science and Information Literacy",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF121",
+          "name": "Computer Mediated Communication",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF131",
+          "name": "Computer Literacy for Information Studies 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1ENG121",
+          "name": "Study material will be relevant to the student's specific programme.",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1ENG122",
+          "name": "Practical English B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF112",
+          "name": "Information Searching and Retrieval",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF122",
+          "name": "Electronic Publishing",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF132",
+          "name": "Computer Literacy for Information Studies 2",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COM111",
+          "name": "Communication Science 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF111",
+          "name": "ELECTIVES: Choose any TWO",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF141",
+          "name": "Library and Information Centres",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF211",
+          "name": "Management Principles and Practices",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF221",
+          "name": "Information Seeking Behaviour",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF241",
+          "name": "Multi-media I",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF251",
+          "name": "Assembling and upgrading of computers",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COM112",
+          "name": "Journalism",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF132",
+          "name": "ELECTIVES: Choose any TWO",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF212",
+          "name": "Knowledge Management",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF222",
+          "name": "Records Management",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF242",
+          "name": "Multi-media II",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF252",
+          "name": "Computer troubleshooting and repairs",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COM211",
+          "name": "Communication Science 2",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF221",
+          "name": "ELECTIVES: Choose any TWO",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF301",
+          "name": "Multi-media III",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF311",
+          "name": "Research Methodology",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF321",
+          "name": "Information Retrieval I",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF331",
+          "name": "Marketing principles and applications",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF361",
+          "name": "Networks and networking",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF391",
+          "name": "Readership and children's literature",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COM212",
+          "name": "Public Relations 1A",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF221",
+          "name": "CORE: Choose any TWO",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF302",
+          "name": "Multimedia IV",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF312",
+          "name": "Infopreneurship and Experiential Learning",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF322",
+          "name": "Information Retrieval II",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF332",
+          "name": "Informetrics",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF362",
+          "name": "Networks and Computer Centre Management",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF392",
+          "name": "Information Collection Development",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "unizulu-fhss-1ideg2",
+      "name": "Bachelor of Library and Information Science",
+      "qualificationCode": "1IDEG2",
+      "faculty": "Humanities and Social Sciences",
+      "school": null,
+      "campuses": [
+        "KwaDlangezwa"
+      ],
+      "deliveryMode": "Yearbook",
+      "durationYears": 4,
+      "source": "yearbook",
+      "sourceLabel": "University of Zululand FHSS Handbook 2026",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\sa-universities-academic-docs-organized\\University of Zululand\\2026\\Yearbooks and Handbooks\\FHSS Undergrad Handbook 2026.pdf",
+      "modules": [
+        {
+          "code": "1ENG121",
+          "name": "Practical English A",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF111",
+          "name": "Information Science and Information Literacy",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF131",
+          "name": "Computer Literacy for Information Studies 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF141",
+          "name": "Libraries and Information Centres",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1ENG121",
+          "name": "Study material will be relevant to the student's specific programme.",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1ENG122",
+          "name": "Practical English B",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF112",
+          "name": "Information Searching and Retrieval.",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF122",
+          "name": "Electronic Publishing",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF132",
+          "name": "Computer Literacy for Information Studies 2",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF211",
+          "name": "Management Principles and Practices",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF221",
+          "name": "Information Seeking behavior",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF212",
+          "name": "Knowledge Management",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF222",
+          "name": "Records Management",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF311",
+          "name": "Research Methodology",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF371",
+          "name": "Cataloguing",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF391",
+          "name": "Readership and Children's Literature",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF312",
+          "name": "Infopreneurship and Experiential Learning",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF372",
+          "name": "Classification",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF392",
+          "name": "Credit: 16",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF331",
+          "name": "Marketing principles and applications",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 4,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1INF410",
+          "name": "Experiential learning",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 4,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1ANT212",
+          "name": "Households",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 4,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1ANT312",
+          "name": "Special Topic",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 4,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1ANT322",
+          "name": "Thought",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 4,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COM212",
+          "name": "3. 1PSY 232: Developmental Psychology",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 4,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1HIS111",
+          "name": "History",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 4,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1HIS212",
+          "name": "Century SA",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 4,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1HIS311",
+          "name": "Muse",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 4,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1HIS312",
+          "name": "Africa",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 4,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1HIS321",
+          "name": "leaders in retrospective",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 4,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1HIS322",
+          "name": "Nuclear Age",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 4,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF412",
+          "name": "Information ethics",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 4,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1INF422",
+          "name": "Advanced information retrieval, indexing and abstracting",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 4,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PSY231",
+          "name": "Early Childhood",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 4,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "unizulu-fhss-1pdeg1",
+      "name": "Bachelor of Social Science in Political and International Studies",
+      "qualificationCode": "1PDEG1",
+      "faculty": "Humanities and Social Sciences",
+      "school": null,
+      "campuses": [
+        "KwaDlangezwa"
+      ],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "University of Zululand FHSS Handbook 2026",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\sa-universities-academic-docs-organized\\University of Zululand\\2026\\Yearbooks and Handbooks\\FHSS Undergrad Handbook 2026.pdf",
+      "modules": [
+        {
+          "code": "1COM141",
+          "name": "OR",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1ENG121",
+          "name": "OR",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1POL111",
+          "name": "Introduction to Political Science",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1POL121",
+          "name": "African Political Thought",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1POL131",
+          "name": "Introduction to International Development",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "4CPS121",
+          "name": "1HIS 111: Theory and Method of History",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1CJS112",
+          "name": "OR",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1CPR112",
+          "name": "OR",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1ENG122",
+          "name": "OR",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1POL112",
+          "name": "Introduction to South African Politics",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1CCS211",
+          "name": "OR",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1CJS211",
+          "name": "OR",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1HIS211",
+          "name": "OR",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1POL211",
+          "name": "Introduction to International Relations",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1POL221",
+          "name": "Politics & Public Policy In Southern Africa",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1POL231",
+          "name": "African Politics & Development",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1POL212",
+          "name": "Introduction to Political Sociology (South Africa)",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1POL222",
+          "name": "Themes in Contemporary Middle East Politics",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1POL232",
+          "name": "Corruption & Development in Africa",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1POL311",
+          "name": "Foreign Policy Analysis",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1POL321",
+          "name": "Comparative Politics (Africa)",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1POL331",
+          "name": "Public Policy Analysis",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1POL312",
+          "name": "Geopolitics",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1POL322",
+          "name": "Introduction to Political Enquiry and Research",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1POL332",
+          "name": "Themes in Conflict Transformation",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1POL342",
+          "name": "Policy Papers On Global Affairs",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "unizulu-fhss-1ydeg1",
+      "name": "Bachelor of Arts in Psychology",
+      "qualificationCode": "1YDEG1",
+      "faculty": "Humanities and Social Sciences",
+      "school": null,
+      "campuses": [
+        "KwaDlangezwa"
+      ],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "University of Zululand FHSS Handbook 2026",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\sa-universities-academic-docs-organized\\University of Zululand\\2026\\Yearbooks and Handbooks\\FHSS Undergrad Handbook 2026.pdf",
+      "modules": [
+        {
+          "code": "1GEN111",
+          "name": "Writing & Oral Communication Skills",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PHP111",
+          "name": "Introduction to Business Management 101",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PSY121",
+          "name": "Introduction to Psychology A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PSY131",
+          "name": "Computer Literacy for Psychology A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "2BMG101",
+          "name": "OR",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1GEN112",
+          "name": "Introduction to Language",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PHP112",
+          "name": "Introduction to Business Management 102",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PSY122",
+          "name": "Introduction to Psychology B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PSY132",
+          "name": "Computer Literacy for Psychology B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "2BMG101",
+          "name": "OR",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "2BMG102",
+          "name": "OR",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PSY211",
+          "name": "Social Psychology",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PSY231",
+          "name": "Developmental Psychology - Early Childhood",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PSY251",
+          "name": "Gender Studies & HIV/AIDS",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "2HRM201",
+          "name": "Foundation & Challenges of Human Resource Management",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PSY232",
+          "name": "Developmental Psychology - Adulthood & Aging",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PSY242",
+          "name": "Personality Psychology",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PSY252",
+          "name": "Labour Relations Management",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PSY262",
+          "name": "Cognitive Psychology",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PSY341",
+          "name": "Abnormal Psychology",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PSY351",
+          "name": "Cross-Cultural Psychology",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PSY361",
+          "name": "Health Psychology.",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PSY371",
+          "name": "Introduction to Research Methodology in Psychology",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PSY342",
+          "name": "Psychological Assessment Theory",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PSY352",
+          "name": "Organizational Behaviour",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PSY362",
+          "name": "Counselling & Psychotherapy",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PSY372",
+          "name": "Career Psychology",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "unizulu-fhss-1dptm1",
+      "name": "Diploma in Tourism Management",
+      "qualificationCode": "1DPTM1",
+      "faculty": "Humanities and Social Sciences",
+      "school": null,
+      "campuses": [
+        "Richards Bay"
+      ],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "University of Zululand FHSS Handbook 2026",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\sa-universities-academic-docs-organized\\University of Zululand\\2026\\Yearbooks and Handbooks\\FHSS Undergrad Handbook 2026.pdf",
+      "modules": [
+        {
+          "code": "1TEM111",
+          "name": "Tourism Events Management A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1TPR111",
+          "name": "Travel Practice 1A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1TTD111",
+          "name": "Travel & Tourism Development 1A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1TTM111",
+          "name": "Travel & Tourism Management 1A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "4HMI111",
+          "name": "Hospitality Information Systems 1",
+          "credits": 8,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1TEM112",
+          "name": "Tourism Events Management B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1TPR112",
+          "name": "Travel Practice 1B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1TTD112",
+          "name": "Travel & Tourism Development 1B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1TTM112",
+          "name": "Travel & Tourism Management 1B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "4HMI112",
+          "name": "Hospitality Information Systems 2",
+          "credits": 8,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1COM141",
+          "name": "Communication Skills 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1TEM211",
+          "name": "Travel & Tourism Marketing A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1TPR211",
+          "name": "Travel Practice 2A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1TTD211",
+          "name": "Travel & Tourism Development 2A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1TTM211",
+          "name": "Travel & Tourism Management 2A",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1COM182",
+          "name": "Communication Skills 2",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1TEM212",
+          "name": "Travel & Tourism Marketing B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1TPR212",
+          "name": "Travel Practice 2B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1TTD212",
+          "name": "Travel & Tourism Development 2B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1TTM212",
+          "name": "Travel & Tourism Management 2B",
+          "credits": 12,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1TES311",
+          "name": "Tourism Employability Skills",
+          "credits": 30,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1TIF311",
+          "name": "Travel & Tourism Information Systems",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1TPR311",
+          "name": "Travel Practice 3",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1TTD311",
+          "name": "Travel & Tourism Development 3",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1TTM311",
+          "name": "Travel & Tourism Management 3",
+          "credits": 12,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1TWL312",
+          "name": "Tourism Work Integrated Learning",
+          "credits": 60,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "unizulu-fhss-1rdeg1",
+      "name": "Bachelor of Tourism Studies",
+      "qualificationCode": "1RDEG1",
+      "faculty": "Humanities and Social Sciences",
+      "school": null,
+      "campuses": [
+        "KwaDlangezwa"
+      ],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "University of Zululand FHSS Handbook 2026",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\sa-universities-academic-docs-organized\\University of Zululand\\2026\\Yearbooks and Handbooks\\FHSS Undergrad Handbook 2026.pdf",
+      "modules": [
+        {
+          "code": "1RTO111",
+          "name": "Introduction to Tourism",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1RTO121",
+          "name": "Tourism Development",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1ZUL151",
+          "name": "English 1 Part A; OR",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "4CPS121",
+          "name": "Computer Literacy 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1RTO112",
+          "name": "Business Tourism & Entrepreneurship",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1RTO122",
+          "name": "Tourism Management",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1ZUL152",
+          "name": "English 1 Part B; OR",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "4CPS122",
+          "name": "Computer Literacy 2",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1RRE111",
+          "name": "Introduction to Recreation",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1RTO211",
+          "name": "Tourism Marketing A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1RTO221",
+          "name": "Recreation & Tourism Events Management A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1ZUL241",
+          "name": "English 2 Part A; OR",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1RRE112",
+          "name": "Recreation Management",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1RTO212",
+          "name": "Tourism Marketing B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1RTO222",
+          "name": "Recreation & Tourism Events Management B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1ZUL242",
+          "name": "English 2 Part B; OR",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1DEV111",
+          "name": "OR",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": false,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1RTO311",
+          "name": "Tourism Research A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1RTO312",
+          "name": "Tourism Research B",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1RTO321",
+          "name": "Information Technology & Distribution Channels",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1RTO322",
+          "name": "Tourism Experiential Learning A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1RTO331",
+          "name": "Tourism Practices & Customer Services",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1RTO332",
+          "name": "Tourism Experiential Learning B",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1RTO342",
+          "name": "Tourism Experiential Learning C",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "4CHT111",
+          "name": "NGO Sector, Development & Underdevelopment",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        }
+      ]
+    },
+    {
+      "id": "unizulu-fhss-1wdeg1",
+      "name": "Bachelor of Social Work",
+      "qualificationCode": "1WDEG1",
+      "faculty": "Humanities and Social Sciences",
+      "school": null,
+      "campuses": [
+        "KwaDlangezwa"
+      ],
+      "deliveryMode": "Yearbook",
+      "durationYears": 4,
+      "source": "yearbook",
+      "sourceLabel": "University of Zululand FHSS Handbook 2026",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\sa-universities-academic-docs-organized\\University of Zululand\\2026\\Yearbooks and Handbooks\\FHSS Undergrad Handbook 2026.pdf",
+      "modules": [
+        {
+          "code": "1DEV111",
+          "name": "Development and underdevelopment",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1ENG121",
+          "name": "Practical English 1A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PSY121",
+          "name": "Introduction to Psychology A",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY111",
+          "name": "Introduction to Sociology",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SWK111",
+          "name": "Introduction to Social Work",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1DEV112",
+          "name": "Community project development and facilitation",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1ENG122",
+          "name": "Practical English 1B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PSY122",
+          "name": "Introduction to Psychology B",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY122",
+          "name": "Social change & Development",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SWK112",
+          "name": "Introduction to Social Work and Practicum",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1DEV211",
+          "name": "Development concept: economic and social",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PSY121",
+          "name": "ELECTIVES",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PSY231",
+          "name": "Developmental Psychology - Early Childhood",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY111",
+          "name": "OR",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY221",
+          "name": "Sociological theories and Social institutions",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SWK211",
+          "name": "Social Work Intervention with individuals (Concurrent Case Work Theory and",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SWK221",
+          "name": "Human Behaviour and Social Environment",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1DEV112",
+          "name": "Note - the 2nd semester elective must be the same subject as the 1st semester subject",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1DEV222",
+          "name": "Integrated Rural Development",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PSY122",
+          "name": "ELECTIVES",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PSY242",
+          "name": "Developmental Psychology",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY122",
+          "name": "OR",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY222",
+          "name": "Integrated Rural Development",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SWK212",
+          "name": "Social Justice and Human Rights",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SWK222",
+          "name": "Social Work Field Practice (Casework)",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1DEV311",
+          "name": "Integrated urban development",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PSY231",
+          "name": "OR",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1PSY341",
+          "name": "Abnormal Psychology",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY221",
+          "name": "OR",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY321",
+          "name": "Theories of Development & Social Change 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SWK221",
+          "name": "Choose one 2nd major (All level 2 modules are pre-requisites)",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SWK311",
+          "name": "Community Work Theory",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SWK321",
+          "name": "Integrated Social Work Practice with Individuals and Groups (Theory)",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SWK331",
+          "name": "Developmental Social Welfare and Policy",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1DEV222",
+          "name": "Note - the 2nd semester elective must be the same subject as the 1st semester subject",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1DEV312",
+          "name": "Project management and evaluation",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PSY242",
+          "name": "OR",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1PSY362",
+          "name": "Counselling and Psychotherapy",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY222",
+          "name": "OR",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY322",
+          "name": "Theories of Development & Social Change 2",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SWK222",
+          "name": "Choose one 2nd major (All level 2 modules are pre-requisites)",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SWK312",
+          "name": "Introduction to Social Work Research",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SWK322",
+          "name": "Community Work Practice (Practical)",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SWK332",
+          "name": "Integrated Social Work Practice with Individuals and Groups (Field Work)",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SWK411",
+          "name": "Advanced Child and Youth Practice",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 4,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SWK421",
+          "name": "Supervision, Management and Administration in Social Work",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 4,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SWK431",
+          "name": "Social Work Fields of Practice and Areas of Specialisations",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 4,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SWK440",
+          "name": "Field Work Practicum-Block Placement (Work Integrated Learning)",
+          "credits": 75,
+          "semester": 1,
+          "yearOfStudy": 4,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SWK450",
+          "name": "Social Work Research Project",
+          "credits": 30,
+          "semester": 1,
+          "yearOfStudy": 4,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        }
+      ]
+    },
+    {
+      "id": "unizulu-fhss-1sdeg1",
+      "name": "Bachelor of Arts in Sociology",
+      "qualificationCode": "1SDEG1",
+      "faculty": "Humanities and Social Sciences",
+      "school": null,
+      "campuses": [
+        "KwaDlangezwa"
+      ],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "University of Zululand FHSS Handbook 2026",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\sa-universities-academic-docs-organized\\University of Zululand\\2026\\Yearbooks and Handbooks\\FHSS Undergrad Handbook 2026.pdf",
+      "modules": [
+        {
+          "code": "1SGY111",
+          "name": "Introduction to Sociology",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY121",
+          "name": "Human Societies",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY131",
+          "name": "Social Policy & Policy Implementation",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY141",
+          "name": "Service Provisioning",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY112",
+          "name": "Industrial Societies",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY122",
+          "name": "Social Change & Development",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY132",
+          "name": "Introduction to Integrated Rural Development",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY142",
+          "name": "Introduction to Local Government",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY131",
+          "name": "1Sgy 132",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY211",
+          "name": "History of Sociological thoughts & Sociological Theories",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY221",
+          "name": "Sociological Theories & Social Institutions",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY231",
+          "name": "Social Change & Development The module aims",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY241",
+          "name": "Research Methods 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY212",
+          "name": "Advanced Social Policy & Policy implementation",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY222",
+          "name": "Integrated Rural Development",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY232",
+          "name": "South African Local Government",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY241",
+          "name": "concepts used in soc ial research, philosophical worldviews and research approaches.",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY242",
+          "name": "Research Methods 2",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY211",
+          "name": "SGY212",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY242",
+          "name": "module is",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY311",
+          "name": "Research Methods & Modern Social Problems",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY321",
+          "name": "Theories of Development & Social Change 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY331",
+          "name": "Democracy & Society 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY341",
+          "name": "Research Methods 3",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY241",
+          "name": "would have attained knowledge of research approaches, research philosophies and academic",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY312",
+          "name": "Research Methodology & Statistics",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY322",
+          "name": "Theories of Development & Social Change 2",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY332",
+          "name": "Democracy & Society 2",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY341",
+          "name": "BA in INDUSTRIAL SOCIOLOGY PROGRAMME",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY342",
+          "name": "Research Methods 4",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    },
+    {
+      "id": "unizulu-fhss-1sdeg2",
+      "name": "Bachelor of Arts in Industrial Sociology",
+      "qualificationCode": "1SDEG2",
+      "faculty": "Humanities and Social Sciences",
+      "school": null,
+      "campuses": [
+        "KwaDlangezwa"
+      ],
+      "deliveryMode": "Yearbook",
+      "durationYears": 3,
+      "source": "yearbook",
+      "sourceLabel": "University of Zululand FHSS Handbook 2026",
+      "sourceDocument": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\sa-universities-academic-docs-organized\\University of Zululand\\2026\\Yearbooks and Handbooks\\FHSS Undergrad Handbook 2026.pdf",
+      "modules": [
+        {
+          "code": "1SGY111",
+          "name": "Introduction to Sociology",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY121",
+          "name": "Human Societies",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY131",
+          "name": "Social Policy & Policy Implementation",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY141",
+          "name": "Service Provisioning.",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY112",
+          "name": "Industrial Societies",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY122",
+          "name": "Social Change & Development",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY132",
+          "name": "Introduction to Integrated Rural Development",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY142",
+          "name": "Introduction to Local Government",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 1,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGI211",
+          "name": "Industrial Relations System",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGI221",
+          "name": "Selection Process, Recruitment & Training",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGI231",
+          "name": "Organizations Theory",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY241",
+          "name": "Research Methods 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGI212",
+          "name": "Labour Arbitration & Conflict Resolution",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGI222",
+          "name": "Bargaining Levels in South African",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGI232",
+          "name": "South African Labour Market",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY241",
+          "name": "students to the concepts used in social research, philosophical worldviews and research",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY242",
+          "name": "Research Methods 2",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 2,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGI231",
+          "name": "GI232",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGI311",
+          "name": "Introduction to Labour Law 1",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGI331",
+          "name": "Advanced Analysis of Organizational Change & Development",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGI341",
+          "name": "Managerial Strategies, Compensation & Rewards",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY242",
+          "name": "module is",
+          "credits": null,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGY341",
+          "name": "Research Methods 3",
+          "credits": 16,
+          "semester": 1,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 1"
+        },
+        {
+          "code": "1SGI322",
+          "name": "Multinational Companies",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGI332",
+          "name": "Workers and Managerial Participation",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGI342",
+          "name": "Labour Law 2",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY242",
+          "name": "approaches, research philosophies and academic research proposal. The students will go",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY341",
+          "name": "philosophies and academic research proposal. The students will go through the process",
+          "credits": null,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        },
+        {
+          "code": "1SGY342",
+          "name": "Research Methods 4",
+          "credits": 16,
+          "semester": 2,
+          "yearOfStudy": 3,
+          "isCore": true,
+          "durationType": "semester",
+          "durationLabel": "Semester 2"
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "source": "C:\\Users\\molot\\Desktop\\AI LAB\\downloads\\sa-universities-academic-docs-organized\\University of Zululand\\2026\\Yearbooks and Handbooks\\FHSS Undergrad Handbook 2026.pdf"
+  }
+}

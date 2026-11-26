@@ -1,0 +1,434 @@
+{
+  "institution": "unknown",
+  "moduleCode": "WVES312",
+  "sourceFiles": [
+    {
+      "path": "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/WVES 312_2025_ Class Schedule.pdf",
+      "name": "WVES 312_2025_ Class Schedule.pdf",
+      "ext": ".pdf",
+      "kind": "schedule",
+      "moduleCode": "WVES312",
+      "sourceType": "workplan",
+      "sourceLabel": "WVES312 class schedule",
+      "provenance": {
+        "manifestPath": "content/module-source-manifest.json",
+        "manifestVersion": 2,
+        "manifestModuleCode": "WVES312",
+        "manifestSourceType": "workplan",
+        "manifestLabel": "WVES312 class schedule",
+        "resolvedFromManifest": true,
+        "sourcePath": "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/WVES 312_2025_ Class Schedule.pdf"
+      }
+    },
+    {
+      "path": "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/WVES 312_2025_Assessment Plan and Schedule.pdf",
+      "name": "WVES 312_2025_Assessment Plan and Schedule.pdf",
+      "ext": ".pdf",
+      "kind": "assessment-plan",
+      "moduleCode": "WVES312",
+      "sourceType": "assessment-plan",
+      "sourceLabel": "WVES312 assessment plan",
+      "provenance": {
+        "manifestPath": "content/module-source-manifest.json",
+        "manifestVersion": 2,
+        "manifestModuleCode": "WVES312",
+        "manifestSourceType": "assessment-plan",
+        "manifestLabel": "WVES312 assessment plan",
+        "resolvedFromManifest": true,
+        "sourcePath": "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/WVES 312_2025_Assessment Plan and Schedule.pdf"
+      }
+    }
+  ],
+  "classSchedule": [
+    {
+      "label": "Week 1:",
+      "summary": "9 – 13 Feb Orientation & Welcome Please familiarise yourself with the class and assessment schedule, as well as the contact sessions and consultation times."
+    },
+    {
+      "label": "Week 2:",
+      "summary": "16– 20 Feb Study Unit 1, Study Section 1.1: Chapter 3 Understanding business ethics, responsibility, and accountability eFundi: Preparation exercises and additional learning materials available on efundi",
+      "chapter": "Chapter 3"
+    },
+    {
+      "label": "Week 3:",
+      "summary": "23 – 27 Feb Study Unit 1, Study Section 1.2: Concepts in ethical theories Chapter 7 eFundi: Preparation exercises and additional learning materials available on efundi",
+      "chapter": "Chapter 7"
+    },
+    {
+      "label": "Week 4:",
+      "summary": "2 – 6 Mar Study Unit 1, Study Section 1.3: African Moral Theory (AMT) Chapter 8 eFundi: Preparation exercises and additional learning materials available on efundi Sit-down assessment: Quiz scheduled for Friday, 6 March 16h30",
+      "chapter": "Chapter 8"
+    },
+    {
+      "label": "Week 5:",
+      "summary": "9 – 13 Mar Study Unit 2, Study Section 2.1: Business Theories Chapter 9 eFundi: Preparation exercises and additional learning materials available on efundi",
+      "chapter": "Chapter 9"
+    },
+    {
+      "label": "Week 6:",
+      "summary": "16 – 20 Mar Study Unit 2, Study Section 2.2: Ethics culture and climate: management of ethics Chapter 10 eFundi: Preparation exercises and additional learning materials available on efundi Sit-down Assessment: Class test scheduled for Friday, 20 March 16h00",
+      "chapter": "Chapter 10"
+    },
+    {
+      "label": "Week 7:",
+      "summary": "23 – 27 Mar Semester Test Prep Class Assessment week 30 Mar – 13 Apr Assessment week Sit-down Assessment: Semester test scheduled during Assessment week."
+    },
+    {
+      "label": "Week 8:",
+      "summary": "14 – 17 Apr Group assignment Q&A Class"
+    },
+    {
+      "label": "Week 9:",
+      "summary": "20 – 24 Apr Study Unit 3, Study Section 3.1: Organisational governance Chapter 12 eFundi: Preparation exercises and additional learning materials available on efundi",
+      "chapter": "Chapter 12"
+    },
+    {
+      "label": "Week 10:",
+      "summary": "4 – 8 May Study Unit 3, Study Section 3.1: Strategic communication Chapter 13 eFundi: Preparation exercises and additional learning materials available on efundi",
+      "chapter": "Chapter 13"
+    },
+    {
+      "label": "Week 11:",
+      "summary": "11 – 15 May Study Unit 3, Study Section 3.2: The role of business in contemporary technology Chapter 18 eFundi: Preparation exercises and additional learning materials available on efundi Online Submission: Group Assignment due 11 May 09h00",
+      "chapter": "Chapter 18"
+    },
+    {
+      "label": "Week 12:",
+      "summary": "18 – 22 May EXAM PREP CLASS Please bring your preparation exercises and learning materials to class."
+    }
+  ],
+  "assessmentPlan": [
+    {
+      "name": "Assessment 1",
+      "weight": "10%",
+      "due": "6 March 16h30",
+      "scope": "Study Units: 1 Chapters 3, 7 & 8 6 March 16h30 Assessment 2: Sit-Down Class Test"
+    },
+    {
+      "name": "Assessment 2",
+      "weight": "25%",
+      "due": "20 March 16h00",
+      "scope": "Study Units: 2 Chapters 9, 10 20 March 16h00 Assessment 3: Group"
+    },
+    {
+      "name": "Assessment 3",
+      "weight": "30%",
+      "due": "11 May 09h00",
+      "scope": "Study Units: 1 & 2 Chapters: 3, 7, 8,"
+    },
+    {
+      "name": "Assessment 4",
+      "weight": "35%",
+      "due": "Assessment week",
+      "scope": "Study Units: 1 & 2 Chapters: 3, 7, 8, 9 & 10 Assessment week Exam: 70 50% contribution"
+    },
+    {
+      "name": "Exam",
+      "weight": "50% contribution to the module mark",
+      "due": "Exam Scheduled",
+      "scope": "Study Units: 1, 2 & 3 Chapters 3, 7, 8, 9, 10, 12, 13 & 18 Exam Scheduled"
+    },
+    {
+      "name": "Exam",
+      "due": "Exam Scheduled Opportunity"
+    }
+  ],
+  "studyUnits": [
+    "Study Unit 1",
+    "Study Unit 2",
+    "Study Unit 3",
+    "Study Units: 1",
+    "Study Units: 2",
+    "Study Units: 1 & 2",
+    "Study Units: 1, 2 & 3"
+  ],
+  "chapters": [
+    "Chapter 3",
+    "Chapter 7",
+    "Chapter 8",
+    "Chapter 9",
+    "Chapter 10",
+    "Chapter 12",
+    "Chapter 13",
+    "Chapter 18"
+  ],
+  "topicSeeds": [
+    "WVES 312 2025 Class Schedule",
+    "WVES 312 2025 Assessment Plan and Schedule"
+  ],
+  "keyTopics": [],
+  "quizSignals": [],
+  "chapterPacks": [],
+  "examPacks": [],
+  "chapterInsights": [],
+  "chapterStudyItems": [
+    {
+      "chapter": "Chapter 3",
+      "flashcards": [],
+      "quizItems": [],
+      "workedExamples": [],
+      "calculators": [
+        {
+          "id": "wves312-stakeholder-risk",
+          "chapter": "Chapter 3",
+          "title": "Stakeholder risk score",
+          "description": "Weight stakeholder impact, likelihood, and severity to see where ethical accountability pressure is highest.",
+          "calculatorType": "stakeholder-risk-score",
+          "formulaLabel": "Risk score = stakeholder impact x likelihood x severity",
+          "outputLabel": "Risk score",
+          "inputs": [
+            {
+              "key": "stakeholderImpact",
+              "label": "Stakeholder impact",
+              "defaultValue": 4,
+              "min": 1,
+              "max": 5,
+              "step": 1
+            },
+            {
+              "key": "likelihood",
+              "label": "Likelihood",
+              "defaultValue": 3,
+              "min": 1,
+              "max": 5,
+              "step": 1
+            },
+            {
+              "key": "severity",
+              "label": "Severity",
+              "defaultValue": 4,
+              "min": 1,
+              "max": 5,
+              "step": 1
+            }
+          ]
+        }
+      ],
+      "graphs": [
+        {
+          "id": "wves312-stakeholder-balance",
+          "chapter": "Chapter 3",
+          "title": "Stakeholder balance map",
+          "description": "Shift pressure between shareholders, workers, customers, and community to expose the ethical trade-off profile of a decision.",
+          "graphType": "stakeholder-balance",
+          "controls": [
+            {
+              "key": "shareholders",
+              "label": "Shareholders",
+              "defaultValue": 3,
+              "min": 0,
+              "max": 5,
+              "step": 1
+            },
+            {
+              "key": "workers",
+              "label": "Workers",
+              "defaultValue": 4,
+              "min": 0,
+              "max": 5,
+              "step": 1
+            },
+            {
+              "key": "customers",
+              "label": "Customers",
+              "defaultValue": 4,
+              "min": 0,
+              "max": 5,
+              "step": 1
+            },
+            {
+              "key": "community",
+              "label": "Community",
+              "defaultValue": 5,
+              "min": 0,
+              "max": 5,
+              "step": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Chapter 7",
+      "flashcards": [],
+      "quizItems": [],
+      "workedExamples": [],
+      "calculators": [
+        {
+          "id": "wves312-ethical-balance-7",
+          "chapter": "Chapter 7",
+          "title": "Ethical decision balance",
+          "description": "Compare principle, consequence, and community weightings to rehearse how different ethical lenses change a recommendation.",
+          "calculatorType": "ethical-decision-balance",
+          "formulaLabel": "Decision score = principle + consequence + community alignment",
+          "outputLabel": "Decision balance score",
+          "inputs": [
+            {
+              "key": "principle",
+              "label": "Principle / duty weight",
+              "defaultValue": 4,
+              "min": 0,
+              "max": 5,
+              "step": 1
+            },
+            {
+              "key": "consequence",
+              "label": "Outcome weight",
+              "defaultValue": 3,
+              "min": 0,
+              "max": 5,
+              "step": 1
+            },
+            {
+              "key": "community",
+              "label": "Community / ubuntu weight",
+              "defaultValue": 4,
+              "min": 0,
+              "max": 5,
+              "step": 1
+            }
+          ]
+        }
+      ],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 8",
+      "flashcards": [],
+      "quizItems": [],
+      "workedExamples": [],
+      "calculators": [
+        {
+          "id": "wves312-ethical-balance-8",
+          "chapter": "Chapter 8",
+          "title": "Ethical decision balance",
+          "description": "Compare principle, consequence, and community weightings to rehearse how different ethical lenses change a recommendation.",
+          "calculatorType": "ethical-decision-balance",
+          "formulaLabel": "Decision score = principle + consequence + community alignment",
+          "outputLabel": "Decision balance score",
+          "inputs": [
+            {
+              "key": "principle",
+              "label": "Principle / duty weight",
+              "defaultValue": 4,
+              "min": 0,
+              "max": 5,
+              "step": 1
+            },
+            {
+              "key": "consequence",
+              "label": "Outcome weight",
+              "defaultValue": 3,
+              "min": 0,
+              "max": 5,
+              "step": 1
+            },
+            {
+              "key": "community",
+              "label": "Community / ubuntu weight",
+              "defaultValue": 4,
+              "min": 0,
+              "max": 5,
+              "step": 1
+            }
+          ]
+        }
+      ],
+      "graphs": []
+    },
+    {
+      "chapter": "Chapter 9",
+      "flashcards": [],
+      "quizItems": [],
+      "workedExamples": [],
+      "calculators": [
+        {
+          "id": "wves312-ethical-balance-9",
+          "chapter": "Chapter 9",
+          "title": "Ethical decision balance",
+          "description": "Compare principle, consequence, and community weightings to rehearse how different ethical lenses change a recommendation.",
+          "calculatorType": "ethical-decision-balance",
+          "formulaLabel": "Decision score = principle + consequence + community alignment",
+          "outputLabel": "Decision balance score",
+          "inputs": [
+            {
+              "key": "principle",
+              "label": "Principle / duty weight",
+              "defaultValue": 4,
+              "min": 0,
+              "max": 5,
+              "step": 1
+            },
+            {
+              "key": "consequence",
+              "label": "Outcome weight",
+              "defaultValue": 3,
+              "min": 0,
+              "max": 5,
+              "step": 1
+            },
+            {
+              "key": "community",
+              "label": "Community / ubuntu weight",
+              "defaultValue": 4,
+              "min": 0,
+              "max": 5,
+              "step": 1
+            }
+          ]
+        }
+      ],
+      "graphs": []
+    }
+  ],
+  "resourcePointers": [
+    "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/WVES 312_2025_ Class Schedule.pdf",
+    "/mnt/c/Users/molot/Desktop/TDBS/sa-edu-platform/WVES 312_2025_Assessment Plan and Schedule.pdf"
+  ],
+  "confidence": 0.7999999999999999,
+  "missingContent": [
+    "chapter notes / study materials"
+  ],
+  "generatedAt": "2026-03-22T17:24:02.065Z",
+  "discipline": "generic",
+  "referenceList": [
+    {
+      "title": "CAPS — Curriculum Assessment Policy Statements (Grades R–12)",
+      "publisher": "Department of Basic Education (DBE), South Africa",
+      "url": "https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx",
+      "note": "The official national curriculum policy for every SA school subject. Cite the subject-specific CAPS document for any outcomes or assessment claims.",
+      "sourceHash": "354820b125ce93617bd6cadc52c8ed956bc3d65fafb5c3a230c739bd55569cfa",
+      "isAcademic": true
+    },
+    {
+      "title": "DBE Learning & Teaching Support Materials (LTSM): Workbooks, Mind the Gap, Graded Readers",
+      "publisher": "Department of Basic Education (DBE), South Africa",
+      "url": "https://www.education.gov.za/Curriculum/LearningandTeachingSupportMaterials(LTSM).aspx",
+      "note": "Free official workbooks and study guides per phase/subject; the canonical companion to CAPS.",
+      "sourceHash": "82fa3696fbee654cba6e86afef17e4f60d5e409fc522241fe093f24abec27033",
+      "isAcademic": true
+    },
+    {
+      "title": "Thutong Education Portal — Curriculum resources",
+      "publisher": "Department of Basic Education (DBE), South Africa",
+      "url": "https://www.thutong.doe.gov.za/",
+      "note": "Official DBE portal for CAPS-aligned lesson resources and papers.",
+      "sourceHash": "f5bc33ac394c828626056ea1c2aef46cd2778baea50c108b5339d513a1bd97f1",
+      "isAcademic": true
+    }
+  ],
+  "teacherNotes": [
+    "Lesson: this lesson (Grade ?). This lesson was auto-generated and must be validated against the official DBE CAPS document for the subject before classroom use. Pair it with the reference list (academic / DBE sources only — no crowd-sourced encyclopaedias).",
+    "Differentiation: provide DBE workbook exercises (see reference list) for reinforcement and extend stronger learners with the open Siyavula examples where the subject applies.",
+    "Source discipline key: generic_sa. All references are official DBE/government or peer-reviewed open-education resources — verifiable and academically recognised."
+  ],
+  "sourceHashes": [
+    "354820b125ce93617bd6cadc52c8ed956bc3d65fafb5c3a230c739bd55569cfa",
+    "82fa3696fbee654cba6e86afef17e4f60d5e409fc522241fe093f24abec27033",
+    "f5bc33ac394c828626056ea1c2aef46cd2778baea50c108b5339d513a1bd97f1"
+  ],
+  "enrichedAt": "2026-08-23",
+  "enrichmentVersion": 1,
+  "academicReferenceOnly": true,
+  "wikipediaExcluded": true
+}

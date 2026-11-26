@@ -1,0 +1,263 @@
+.backRow {
+  margin-bottom: 16px;
+}
+
+.notice {
+  margin: 10px 0;
+  padding: 10px 12px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+}
+
+.error {
+  background: rgba(255, 0, 0, 0.1);
+  color: var(--red);
+}
+
+/* ── Hero ───────────────────────────────────── */
+.hero {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(54, 45, 30, 0.1);
+  margin-bottom: 20px;
+}
+
+.avatarWrap {
+  flex-shrink: 0;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: rgba(54, 45, 30, 0.06);
+  border: 2px solid rgba(54, 45, 30, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatarFigure {
+  transform: scale(0.85);
+  transform-origin: center bottom;
+}
+
+.heroInfo {
+  display: grid;
+  gap: 6px;
+  flex: 1;
+  min-width: 0;
+}
+
+.displayName {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.joined {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+.followingBtn {
+  opacity: 0.7;
+}
+
+.mutualBadge {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text);
+  background: rgba(232, 193, 90, 0.12);
+  border: 1px solid rgba(232, 193, 90, 0.35);
+  border-radius: 999px;
+  padding: 5px 12px;
+  white-space: nowrap;
+}
+
+.mutualRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.mutualLink {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent, #e8c15a);
+  background: var(--surface-2, rgba(255, 255, 255, 0.05));
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 12px;
+}
+
+.activityList {
+  display: grid;
+  gap: 10px;
+}
+
+.activityItem {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface-2, rgba(255, 255, 255, 0.03));
+}
+
+.activityKind {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--accent, #e8c15a);
+  flex-shrink: 0;
+  padding-top: 2px;
+}
+
+.activityBody {
+  min-width: 0;
+}
+
+.activityContent {
+  margin: 0;
+  font-size: 0.84rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.activityMeta {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--muted);
+}
+
+/* ── Social counts ──────────────────────────── */
+.socialRow {
+  display: flex;
+  gap: 20px;
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+
+.socialRow strong {
+  color: var(--text);
+}
+
+/* ── Sections ───────────────────────────────── */
+.section {
+  margin-bottom: 24px;
+}
+
+.sectionTitle {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 12px;
+}
+
+/* ── Tags (interests) ───────────────────────── */
+.tagRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(54, 45, 30, 0.12);
+  background: rgba(255, 255, 255, 0.6);
+  color: var(--text);
+}
+
+/* ── Games (Xbox GameBar-like) ──────────────── */
+.gameGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.gameCard {
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(54, 45, 30, 0.12);
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.gameLabel {
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.gameScore {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+/* ── Achievements ───────────────────────────── */
+.achievementList {
+  display: grid;
+  gap: 10px;
+}
+
+.achievement {
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(54, 45, 30, 0.12);
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.achievement strong {
+  font-size: 0.9rem;
+}
+
+/* ── Empty state ────────────────────────────── */
+.empty {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-top: 8px;
+}
+
+@media (max-width: 480px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .displayName {
+    white-space: normal;
+  }
+}
+
+.addMusicBtn {
+  margin-top: 1rem;
+  padding: 0.6rem 1.25rem;
+  border-radius: 10px;
+  border: 1px dashed var(--accent, #f5c04f88);
+  background: transparent;
+  color: var(--accent, #f5c04f);
+  cursor: pointer;
+  font-size: 0.85rem;
+  width: 100%;
+  text-align: center;
+}
+.addMusicBtn:hover { background: var(--accent-dim, #f5c04f11); }

@@ -1,0 +1,77 @@
+.intro { display: grid; gap: 16px; max-width: 560px; }
+.intro h1 { font-size: 1.6rem; margin: 0; }
+
+.howTo {
+  padding: 14px 16px; border-radius: 14px;
+  background: rgba(255,255,255,0.5);
+  border: 1px solid rgba(54,45,30,0.1);
+}
+.howTo h3 { margin: 0 0 8px; font-size: 0.9rem; }
+.howTo ul { margin: 0; padding-left: 18px; font-size: 0.82rem; color: var(--muted); display: grid; gap: 4px; }
+
+.header {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 14px; flex-wrap: wrap; gap: 8px;
+}
+.round { font-size: 0.85rem; color: var(--muted); font-weight: 600; }
+.score { font-size: 0.85rem; font-weight: 600; }
+.timer {
+  font-size: 1rem; font-weight: 700;
+  padding: 3px 10px; border-radius: 999px;
+  background: rgba(54,45,30,0.07);
+}
+.timerUrgent { background: rgba(239,68,68,0.15); color: var(--red, #dc2626); }
+
+.employerCard {
+  padding: 14px 16px; border-radius: 14px;
+  background: rgba(255,255,255,0.6);
+  border: 1px solid rgba(54,45,30,0.12);
+  margin-bottom: 14px;
+}
+.employerCard h3 { margin: 0 0 4px; font-size: 1rem; }
+.employerCard p { margin: 0 0 8px; font-size: 0.82rem; color: var(--muted); }
+.keywords { display: flex; flex-wrap: wrap; gap: 6px; }
+.keyword {
+  font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;
+  padding: 2px 8px; border-radius: 999px;
+  background: rgba(232, 193, 90,0.1); color: #e8c15a;
+  border: 1px solid rgba(232, 193, 90,0.2);
+}
+
+.atsBar {
+  margin-bottom: 16px;
+}
+.atsLabel {
+  display: flex; justify-content: space-between;
+  font-size: 0.82rem; font-weight: 600; margin-bottom: 6px;
+}
+.atsTrack {
+  height: 10px; border-radius: 999px;
+  background: rgba(54,45,30,0.1); overflow: hidden;
+}
+.atsFill {
+  height: 100%; border-radius: 999px;
+  background: linear-gradient(90deg, #e8c15a, #10b981);
+  transition: width 0.25s ease;
+}
+
+.blocksGrid { display: grid; gap: 8px; margin-bottom: 16px; }
+.block {
+  padding: 10px 14px; border-radius: 10px;
+  border: 1px solid rgba(54,45,30,0.15);
+  background: rgba(255,255,255,0.5);
+  font-size: 0.82rem; cursor: pointer;
+  transition: background 0.12s, border-color 0.12s;
+  display: flex; justify-content: space-between; align-items: center; gap: 8px;
+}
+.blockSelected {
+  background: rgba(232, 193, 90,0.08) !important;
+  border-color: rgba(232, 193, 90,0.35) !important;
+}
+.blockLabel { flex: 1; }
+.blockCheck { font-size: 1rem; flex-shrink: 0; }
+
+.done { display: grid; gap: 16px; text-align: center; max-width: 480px; margin: 0 auto; padding: 32px 0; }
+.done h1 { font-size: 1.5rem; margin: 0; }
+.finalScore { font-size: 1.8rem; font-weight: 700; margin: 0; }
+.doneActions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }

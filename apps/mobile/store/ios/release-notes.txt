@@ -1,0 +1,9 @@
+First release of SCHOOL on iOS.
+
+- Past papers library with offline download
+- AI tutor for step-by-step explanations
+- Module flashcards and quizzes with XP tracking
+- Community Q&A with leaderboard
+- Music discovery — find students with similar study vibes
+- Tutor booking and SCHOOL Wallet
+- Student bookstore

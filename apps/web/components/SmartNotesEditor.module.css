@@ -1,0 +1,36 @@
+.container {
+  display: grid;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title { margin: 0; font-size: 13px; font-weight: 700; color: var(--text-2); text-transform: uppercase; }
+.hint { font-size: 10px; color: var(--gold); font-weight: 600; text-transform: uppercase; }
+
+.editor {
+  min-height: 120px;
+  padding: 12px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-1);
+  outline: none;
+}
+
+.editor:focus { border-color: var(--gold-border); }
+
+.highlight {
+  color: var(--gold);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}

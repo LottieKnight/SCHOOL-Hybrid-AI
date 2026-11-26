@@ -1,0 +1,200 @@
+.page {
+  display: grid;
+  gap: 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.headerCopy {
+  display: grid;
+  gap: 10px;
+  max-width: 64ch;
+}
+
+.headerTitle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.subtitle {
+  color: var(--text-2);
+  max-width: 58ch;
+}
+
+.pillRow,
+.actionRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(280px, 0.85fr);
+  gap: 20px;
+  align-items: start;
+}
+
+.mainColumn,
+.sideColumn {
+  display: grid;
+  gap: 20px;
+  align-content: start;
+}
+
+.tabRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tabButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text-2);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: all var(--t) var(--ease);
+}
+
+.tabButton:hover {
+  border-color: var(--inst-border);
+  background: var(--inst-surface);
+  color: var(--inst-primary);
+  opacity: 1;
+}
+
+.tabButtonActive {
+  border-color: var(--inst-border);
+  background: var(--inst-surface);
+  color: var(--inst-primary);
+}
+
+.tabCount {
+  color: inherit;
+  opacity: 0.75;
+}
+
+.feed {
+  display: grid;
+  gap: 16px;
+}
+
+.postWrap {
+  display: grid;
+  gap: 10px;
+}
+
+.postMetaRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.quickLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.roomList {
+  display: grid;
+  gap: 10px;
+}
+
+.roomLink {
+  display: grid;
+  gap: 5px;
+  padding: 12px 14px;
+  border-radius: var(--r-md);
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  transition:
+    border-color var(--t) var(--ease),
+    background var(--t) var(--ease),
+    transform var(--t) var(--ease);
+}
+
+.roomLink:hover {
+  border-color: var(--inst-border);
+  background: var(--inst-surface);
+  transform: translateY(-1px);
+  opacity: 1;
+}
+
+.roomLink strong {
+  color: var(--text-1);
+}
+
+.roomLink span {
+  color: var(--text-3);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.emptyState,
+.emptyStateCompact {
+  display: grid;
+  gap: 10px;
+  padding: 26px 22px;
+  border-radius: var(--r-xl);
+  border: 1px dashed var(--inst-border);
+  background: color-mix(in srgb, var(--inst-surface) 55%, var(--surface));
+}
+
+.emptyStateCompact {
+  padding: 14px;
+  border-radius: var(--r-md);
+}
+
+.emptyTitle {
+  font-family: var(--font-display);
+  font-size: 20px;
+  color: var(--text-1);
+}
+
+.emptyCopy {
+  color: var(--text-2);
+  line-height: 1.7;
+}
+
+@media (max-width: 1024px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tabRow,
+  .actionRow {
+    width: 100%;
+  }
+
+  .tabButton {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
