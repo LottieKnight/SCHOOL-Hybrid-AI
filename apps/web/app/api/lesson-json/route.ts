@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
-import { readLessonJson } from "@saedu/shared";
+import { readLessonJsonSafe } from "@/lib/server/lessonContent";
+
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
 
 export function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
@@ -17,7 +20,7 @@ export function GET(request: NextRequest) {
     return NextResponse.json({ error: "Invalid week" }, { status: 400 });
   }
 
-  const lesson = readLessonJson({
+  const lesson = readLessonJsonSafe({
     gradeKey: grade,
     subjectKey: subject,
     termKey: term,

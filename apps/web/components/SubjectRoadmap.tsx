@@ -2,6 +2,10 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { useLearnProgress } from "@/components/learn/useLearnProgress";
+import { parseGradeSlug } from "@/lib/lessons/catalogue";
+import { lessonStatus } from "@/lib/lessons/progress";
+import { buildLessonId } from "@/lib/lessons/schema";
 import styles from "./SubjectRoadmap.module.css";
 
 type WeekInfo = {
@@ -76,6 +80,8 @@ export function SubjectRoadmap({
   terms,
 }: SubjectRoadmapProps) {
   const termStatuses = useTermStatuses(subject, gradeNumber);
+  const { store } = useLearnProgress();
+  const parsedGrade = parseGradeSlug(grade) ?? gradeNumber;
 
   return (
     <div className={styles.wrap}>
@@ -112,8 +118,34 @@ export function SubjectRoadmap({
       <div className={styles.grid}>
         {terms.map((term) => {
           const status = termStatuses[term.termNumber];
-          const done = status?.done ?? 0;
-          const inProg = status?.inProgress ?? 0;
+          const localDone = term.weeks.filter(
+            (week) =>
+              lessonStatus(
+                store,
+                buildLessonId({
+                  phase,
+                  grade: parsedGrade,
+                  subjectKey: subject,
+                  term: term.termNumber,
+                  week: week.index,
+                })
+              ) === "completed"
+          ).length;
+          const localActive = term.weeks.filter(
+            (week) =>
+              lessonStatus(
+                store,
+                buildLessonId({
+                  phase,
+                  grade: parsedGrade,
+                  subjectKey: subject,
+                  term: term.termNumber,
+                  week: week.index,
+                })
+              ) === "in_progress"
+          ).length;
+          const done = localDone || (status?.done ?? 0);
+          const inProg = localActive || (status?.inProgress ?? 0);
           const pct = term.weekCount > 0 ? Math.round((done / term.weekCount) * 100) : 0;
 
           return (
@@ -130,8 +162,19 @@ export function SubjectRoadmap({
 
               <div className={styles.dots}>
                 {term.weeks.map((week) => {
-                  // approximate status from aggregated counts
+                  const localStatus = lessonStatus(
+                    store,
+                    buildLessonId({
+                      phase,
+                      grade: parsedGrade,
+                      subjectKey: subject,
+                      term: term.termNumber,
+                      week: week.index,
+                    })
+                  );
                   const dotStatus =
+                    localStatus === "completed" ? "done" :
+                    localStatus === "in_progress" ? "active" :
                     week.index <= done ? "done" :
                     week.index <= done + inProg ? "active" :
                     "default";

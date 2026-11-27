@@ -1,7 +1,9 @@
 import { Suspense } from "react";
-import { searchPastPapers } from "@/lib/pastPapers/catalog";
+import { getCatalogFilterOptions, searchPastPapers } from "@/lib/pastPapers/catalog";
+import { parseGradeQuery } from "@/lib/pastPapers/indexing";
 import { PastPapersFilterBar } from "@/components/PastPapersFilterBar";
 import { PastPaperCard } from "@/components/PastPaperCard";
+import { ProfilePathHint } from "@/components/profile/ProfilePathHint";
 
 export const dynamic = "force-dynamic";
 
@@ -16,10 +18,10 @@ type SearchParams = {
   page?: string;
 };
 
-function toInt(v: string | undefined): number | undefined {
-  if (!v) return undefined;
-  const n = Number(v);
-  return Number.isFinite(n) ? n : undefined;
+function toInt(value: string | undefined): number | undefined {
+  if (!value) return undefined;
+  const parsed = Number(value);
+  return Number.isFinite(parsed) ? parsed : undefined;
 }
 
 const PAGE_SIZE = 24;
@@ -32,33 +34,42 @@ export default async function PastPapersPage({
   const sp = await searchParams;
   const page = Math.max(1, Number(sp.page ?? "1") || 1);
   const offset = (page - 1) * PAGE_SIZE;
+  const gradeQuery = parseGradeQuery(sp.grade);
 
-  const { items, total } = await searchPastPapers({
-    grade: toInt(sp.grade),
-    subject: sp.subject || undefined,
-    year: toInt(sp.year),
-    session: sp.session || undefined,
-    language: sp.language || undefined,
-    hasMemo: sp.hasMemo === "1" ? true : undefined,
-    q: sp.q || undefined,
-    limit: PAGE_SIZE,
-    offset,
-  });
+  const [{ items, total }, filters] = await Promise.all([
+    searchPastPapers({
+      grade: gradeQuery.grade,
+      allGrades: gradeQuery.allGrades,
+      subject: sp.subject || undefined,
+      year: toInt(sp.year),
+      session: sp.session || undefined,
+      language: sp.language || undefined,
+      hasMemo: sp.hasMemo === "1" ? true : undefined,
+      q: sp.q || undefined,
+      limit: PAGE_SIZE,
+      offset,
+    }),
+    getCatalogFilterOptions(),
+  ]);
 
   const totalPages = Math.ceil(total / PAGE_SIZE);
+  const scopeLabel = sp.grade === "all" ? "All grades" : sp.grade ? `Grade ${sp.grade}` : "Grades 10–12";
 
   return (
     <div className="past-papers-root">
-      <div className="past-papers-header">
-        <h1 className="title">Past Papers</h1>
-        <p className="subtitle">
-          {total > 0
-            ? `${total.toLocaleString()} paper${total !== 1 ? "s" : ""} available`
-            : "Search and filter to find papers"}
+      <header className="pp-head">
+        <div>
+          <p className="pp-kicker">NSC catalogue</p>
+          <h1 className="pp-title">Past papers</h1>
+        </div>
+        <p className="pp-count">
+          {total > 0 ? `${total.toLocaleString()} papers` : "No matches"}
+          <span>{scopeLabel}</span>
         </p>
-      </div>
+      </header>
 
       <Suspense>
+        <ProfilePathHint surface="past-papers" />
         <PastPapersFilterBar
           activeGrade={sp.grade}
           activeSubject={sp.subject}
@@ -67,12 +78,14 @@ export default async function PastPapersPage({
           activeLanguage={sp.language}
           activeMemo={sp.hasMemo}
           activeQ={sp.q}
+          subjects={filters.subjects}
+          years={filters.years}
         />
       </Suspense>
 
       {items.length === 0 ? (
         <div className="past-papers-empty">
-          <p>No papers match these filters — try widening your search.</p>
+          <p>No papers match these filters. Clear one and try again.</p>
         </div>
       ) : (
         <>
@@ -82,29 +95,27 @@ export default async function PastPapersPage({
             ))}
           </div>
 
-          {totalPages > 1 && (
+          {totalPages > 1 ? (
             <div className="past-papers-pagination">
-              {page > 1 && (
-                <a
-                  className="button"
-                  href={buildPageHref(sp, page - 1)}
-                >
-                  ← Previous
+              {page > 1 ? (
+                <a className="pp-action" href={buildPageHref(sp, page - 1)}>
+                  Previous
                 </a>
+              ) : (
+                <span />
               )}
               <span className="past-papers-page-info">
-                Page {page} of {totalPages}
+                {page} / {totalPages}
               </span>
-              {page < totalPages && (
-                <a
-                  className="button"
-                  href={buildPageHref(sp, page + 1)}
-                >
-                  Next →
+              {page < totalPages ? (
+                <a className="pp-action" href={buildPageHref(sp, page + 1)}>
+                  Next
                 </a>
+              ) : (
+                <span />
               )}
             </div>
-          )}
+          ) : null}
         </>
       )}
     </div>

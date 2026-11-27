@@ -32,8 +32,8 @@ export default function FeaturesPage() {
           <Link className={`${styles.secondaryButton} ${styles.topLinksHideOnMobile}`} href="#sign-in" prefetch={false}>
             Sign in
           </Link>
-          <Link className="button prestigious-shine" href="/onboarding" prefetch={false}>
-            Join free
+          <Link className="button prestigious-shine" href="/learn" prefetch={false}>
+            Start learning
           </Link>
         </div>
       </section>
@@ -123,13 +123,12 @@ export default function FeaturesPage() {
 
       {/* ── Footer CTA ── */}
       <div className={styles.footerCta}>
-        <h2 className={styles.footerCtaTitle}>Ready to join your campus?</h2>
+        <h2 className={styles.footerCtaTitle}>Start with the subject in front of you.</h2>
         <p className={styles.footerCtaSubtitle}>
-          Free to sign up. No credit card. No trial period. Your campus room is already here —
-          classmates are posting and answering questions right now.
+          Lessons, past papers, and the tutor are open. Add a name and a grade when you want the app to remember you.
         </p>
-        <Link className="button prestigious-shine" href="/onboarding" prefetch={false}>
-          Join free →
+        <Link className="button prestigious-shine" href="/learn" prefetch={false}>
+          Start learning
         </Link>
       </div>
 

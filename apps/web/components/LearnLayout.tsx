@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { BackLink } from "@/components/BackLink";
+import styles from "./LearnLayout.module.css";
 
 type LearnLayoutProps = {
   title: string;
@@ -9,14 +11,37 @@ type LearnLayoutProps = {
   children: React.ReactNode;
 };
 
-export function LearnLayout({ title, subtitle, backHref, actions, children }: LearnLayoutProps) {
+function formatCrumb(label: string) {
+  if (label === "foundation") return "Foundation";
+  if (label === "intermediate") return "Intermediate";
+  if (label === "senior") return "Senior";
+  if (label === "fet") return "FET";
+  return label;
+}
+
+export function LearnLayout({ title, subtitle, backHref, breadcrumbs, actions, children }: LearnLayoutProps) {
   return (
-    <div className="glass card card-with-back">
+    <div className={styles.page}>
+      {breadcrumbs?.length ? (
+        <nav className={styles.crumbs} aria-label="Breadcrumb">
+          <ol>
+            {breadcrumbs.map((crumb, index) => {
+              const last = index === breadcrumbs.length - 1;
+              return (
+                <li key={`${crumb.label}-${index}`}>
+                  {crumb.href && !last ? <Link href={crumb.href}>{formatCrumb(crumb.label)}</Link> : <span>{formatCrumb(crumb.label)}</span>}
+                </li>
+              );
+            })}
+          </ol>
+        </nav>
+      ) : null}
       {backHref ? <BackLink href={backHref} /> : null}
-      <h1 className="title">{title}</h1>
-      {subtitle ? <p className="subtitle">{subtitle}</p> : null}
-      {actions ? <div className="outline-actions">{actions}</div> : null}
-      <div className="spacer" />
+      <header className={styles.header}>
+        <h1 className={styles.title}>{title}</h1>
+        {subtitle ? <p className={styles.subtitle}>{subtitle}</p> : null}
+        {actions ? <div className={styles.actions}>{actions}</div> : null}
+      </header>
       {children}
     </div>
   );

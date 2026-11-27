@@ -32,7 +32,7 @@ npx opennextjs-cloudflare build
 npx opennextjs-cloudflare deploy
 ```
 
-That needs a Cloudflare API token for the account that owns the zone. `NEXT_PUBLIC_FIREBASE_*` and the reCAPTCHA Enterprise site key are public and are committed in `apps/web/.env.production` (inlined by `next build`) and repeated in `wrangler.jsonc` `vars` for the Worker runtime. Do not add the App Check debug token. Remote Config is already published in Firebase (`prefer_on_device`, 600 characters, `gemini-2.5-flash`, `ai_enabled=true`).
+That needs a Cloudflare API token for the account that owns the zone. `NEXT_PUBLIC_FIREBASE_*` and the reCAPTCHA Enterprise site key are public and are committed in `apps/web/.env.production` (inlined by `next build`) and repeated in `wrangler.jsonc` `vars` for the Worker runtime. Do not add the App Check debug token. Remote Config is already published in Firebase (`prefer_on_device`, 600 characters, `cloud_model=gemini-2.5-flash`, `ai_enabled=true`). That published `cloud_model` is retired for new users. The tutor remaps it to `gemini-3.5-flash-lite` before the Firebase AI Logic call. Publish `cloud_model` as `gemini-3.5-flash-lite` in the Firebase Console for `school-academic-platform7` so the stored value matches the model that actually runs.
 
 ## Android and Best Android
 

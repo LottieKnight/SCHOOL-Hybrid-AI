@@ -6,7 +6,7 @@ import {
   type HybridParams,
   type Part,
 } from "firebase/ai";
-import type { TutorSettings } from "./routing";
+import { resolveCloudModel, type TutorSettings } from "./routing";
 
 const MODE = {
   PREFER_ON_DEVICE: InferenceMode.PREFER_ON_DEVICE,
@@ -52,7 +52,7 @@ export function hybridModel(input: {
       promptOptions: { responseConstraint: input.schema },
     },
     inCloudParams: {
-      model: input.settings.cloud_model || "gemini-3.5-flash-lite",
+      model: resolveCloudModel(input.settings.cloud_model),
       systemInstruction: input.systemInstruction,
       generationConfig: {
         responseMimeType: "application/json",

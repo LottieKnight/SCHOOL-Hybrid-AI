@@ -6,6 +6,7 @@ import { MobileBottomNav } from "@/components/MobileBottomNav";
 import { Sidebar } from "@/components/Sidebar";
 import { Topbar } from "@/components/Topbar";
 import { SiteFooter } from "@/components/ui/SiteFooter";
+import { shouldShowCompanyFooter } from "@/lib/shell/companyFooter";
 import { CelebrationOverlay } from "@/components/CelebrationOverlay";
 import { NpsSurveyModal } from "@/components/NpsSurveyModal";
 import { WellnessTimers } from "@/components/WellnessTimers";
@@ -14,6 +15,7 @@ import { OfflineUnlockQueueFlusher } from "@/components/OfflineUnlockQueueFlushe
 import { IdleWarningBanner } from "@/components/IdleWarningBanner";
 import { CommandPalette } from "@/components/CommandPalette";
 import { useRouteScrollMemory } from "@/lib/navigation/useRouteScrollMemory";
+import { MinimalProfileSync } from "@/components/profile/MinimalProfileSync";
 import { OpenedLessonMemory } from "@/components/tutor/OpenedLessonMemory";
 import { useKeyboardInset } from "@/components/tutor/useKeyboardInset";
 import { useUiStore } from "../store/uiStore";
@@ -87,8 +89,9 @@ export function ShellLayout({ children }: { children: React.ReactNode }) {
           <PostOnboardingReferralBanner />
         </Suspense>
         <main className="shell-main">{children}</main>
-        <SiteFooter />
+        {shouldShowCompanyFooter(pathname) ? <SiteFooter /> : null}
       </div>
+      <MinimalProfileSync />
       <OpenedLessonMemory />
       <MobileBottomNav />
       <CelebrationOverlay />

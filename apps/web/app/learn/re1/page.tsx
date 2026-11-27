@@ -1,7 +1,5 @@
 import Link from "next/link";
 import { SchoolLogo } from "@/components/ui/SchoolLogo";
-import { SiteFooter } from "@/components/ui/SiteFooter";
-
 export const metadata = {
   title: "RE1 Exam Preparation - SCHOOL",
   description: "Prepare for Regulatory Examination 1 (RE1) with SCHOOL's comprehensive study materials, practice exams, and expert guidance.",
@@ -391,10 +389,6 @@ export default function RE1PrepPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-gray-100">
-        <SiteFooter />
-      </footer>
     </div>
   );
 }

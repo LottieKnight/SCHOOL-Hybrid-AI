@@ -18,18 +18,18 @@ export function GuestPrompt({ reason, compact = false }: GuestPromptProps) {
 
   if (compact) {
     return (
-      <Link href={`/onboarding?returnUrl=${returnUrl}`} className={styles.compactBtn}>
-        <span className={styles.lock} aria-hidden="true">🔒</span> Sign up to {reason} →
+      <Link href={`/settings?returnUrl=${returnUrl}`} className={styles.compactBtn}>
+        <span className={styles.lock} aria-hidden="true">•</span> Save a profile to {reason}
       </Link>
     );
   }
 
   return (
     <div className={styles.card}>
-      <p className={styles.title}>Create an account to {reason}</p>
-      <p className={styles.sub}>It takes 2 minutes. No credit card.</p>
-      <Link href={`/onboarding?returnUrl=${returnUrl}`} className="button prestigious-shine">
-        Join free →
+      <p className={styles.title}>Save a profile to {reason}</p>
+      <p className={styles.sub}>Optional. You can keep going without an account.</p>
+      <Link href="/settings" className="button prestigious-shine">
+        Set up profile
       </Link>
       <p className={styles.signInRow}>
         Already have one?{" "}

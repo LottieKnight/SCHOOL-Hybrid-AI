@@ -1,5 +1,15 @@
 import type { PastPaper, PastPaperSource } from "@prisma/client";
-import { db, type Where } from "@/lib/pastPapers/db";
+import { db, ensurePastPaperIndexes } from "@/lib/pastPapers/db";
+import {
+  buildCatalogSearch,
+  formatPaperTitle,
+  isNonPaperRecord,
+  languageLabel,
+  memoStatus,
+  normalizeSubjectName,
+  sessionLabel,
+  type CatalogSearchInput,
+} from "@/lib/pastPapers/indexing";
 import { buildPastPaperWhere } from "@/lib/pastPapers/query";
 import { memoryCached } from "@/lib/pastPapers/memoryCache";
 
@@ -53,12 +63,14 @@ export async function getPastPaperSubjects(
 ): Promise<{ subject: string }[]> {
   return unstable_cache(
     async () =>
-      (await db.findMany("PastPaper", {
-        where: { ...buildPastPaperWhere(false), province, grade },
-        distinct: ["subject"],
-        select: ["subject"],
-        orderBy: { subject: "asc" },
-      })) as { subject: string }[],
+      (
+        (await db.findMany("PastPaper", {
+          where: { ...buildPastPaperWhere(false), province, grade },
+          distinct: ["subject"],
+          select: ["subject"],
+          orderBy: { subject: "asc" },
+        })) as { subject: string }[]
+      ).filter((row) => !isNonPaperRecord({ subject: row.subject, title: row.subject })),
     [`past-papers:subjects:${province}:${grade}`],
     { revalidate: CATALOG_REVALIDATE_SECONDS, tags: ["past-papers-catalog"] }
   )();
@@ -110,17 +122,19 @@ export async function getPastPapers(
 ): Promise<PastPaper[]> {
   return unstable_cache(
     async () =>
-      (await db.findMany("PastPaper", {
-        where: {
-          ...buildPastPaperWhere(false),
-          province,
-          grade,
-          subject,
-          year,
-          session,
-        },
-        orderBy: [{ paperNumber: "asc" }, { language: "asc" }],
-      })) as PastPaper[],
+      (
+        (await db.findMany("PastPaper", {
+          where: {
+            ...buildPastPaperWhere(false),
+            province,
+            grade,
+            subject,
+            year,
+            session,
+          },
+          orderBy: [{ paperNumber: "asc" }, { language: "asc" }],
+        })) as PastPaper[]
+      ).filter((row) => !isNonPaperRecord({ subject: row.subject, title: row.title })),
     [`past-papers:list:${province}:${grade}:${subject}:${year}:${session}`],
     { revalidate: CATALOG_REVALIDATE_SECONDS, tags: ["past-papers-catalog"] }
   )();
@@ -153,20 +167,28 @@ export async function getPastPaperById(id: string): Promise<PastPaper | null> {
   )();
 }
 
-export type PastPaperSearchFilters = {
-  grade?: number;
-  subject?: string;
-  year?: number;
-  session?: string;
-  language?: string;
-  hasMemo?: boolean;
-  q?: string;
-  institutionType?: string;
-  limit?: number;
-  offset?: number;
-};
+export type PastPaperSearchFilters = CatalogSearchInput;
 
 export type PastPaperListItem = {
+  id: string;
+  title: string;
+  rawTitle: string;
+  subject: string;
+  grade: number | null;
+  year: number | null;
+  session: string;
+  sessionCode: string;
+  paperNumber: string;
+  language: string;
+  languageCode: string;
+  hasMemo: boolean;
+  memoStatus: "available" | "missing" | "unlinked";
+  institutionType: string | null;
+  moduleCode: string | null;
+  province: string | null;
+};
+
+type CatalogRow = {
   id: string;
   title: string;
   subject: string;
@@ -175,77 +197,93 @@ export type PastPaperListItem = {
   session: string;
   paperNumber: string;
   language: string;
-  hasMemo: boolean;
+  memoStorageKey: string | null;
   institutionType: string | null;
   moduleCode: string | null;
+  province: string | null;
 };
+
+function toListItem(row: CatalogRow): PastPaperListItem {
+  const status = memoStatus(row.memoStorageKey, row.year);
+  const subject = normalizeSubjectName(row.subject);
+  return {
+    id: row.id,
+    rawTitle: row.title,
+    title: formatPaperTitle(row),
+    subject,
+    grade: row.grade,
+    year: row.year,
+    session: sessionLabel(row.session),
+    sessionCode: row.session,
+    paperNumber: row.paperNumber,
+    language: languageLabel(row.language),
+    languageCode: row.language,
+    hasMemo: status === "available",
+    memoStatus: status,
+    institutionType: row.institutionType,
+    moduleCode: row.moduleCode,
+    province: row.province,
+  };
+}
 
 export async function searchPastPapers(
   filters: PastPaperSearchFilters
 ): Promise<{ items: PastPaperListItem[]; total: number }> {
-  const limit = Math.min(filters.limit ?? 24, 100);
-  const offset = filters.offset ?? 0;
-
-  const where: Record<string, unknown> = {
-    paperStorageKey: { not: null },
-  };
-
-  if (filters.grade !== undefined) where.grade = filters.grade;
-  if (filters.year !== undefined) where.year = filters.year;
-  if (filters.session) where.session = filters.session;
-  if (filters.language) where.language = filters.language;
-  if (filters.institutionType) where.institutionType = filters.institutionType;
-  if (filters.hasMemo) where.memoStorageKey = { not: null };
-
-  if (filters.subject) where.subject = filters.subject;
-  else if (filters.q) where.subject = { contains: filters.q };
-
-  const cacheKey = JSON.stringify({ ...filters, limit, offset });
+  const plan = buildCatalogSearch(filters);
 
   return unstable_cache(
     async () => {
-      const [rows, total] = await Promise.all([
-        db.findMany("PastPaper", {
-          where: where as Where,
-          orderBy: [{ year: "desc" }, { subject: "asc" }, { paperNumber: "asc" }],
-          take: limit,
-          skip: offset,
-          select: [
-            "id",
-            "title",
-            "subject",
-            "grade",
-            "year",
-            "session",
-            "paperNumber",
-            "language",
-            "memoStorageKey",
-            "institutionType",
-            "moduleCode",
-          ],
-        }),
-        db.count("PastPaper", where as Where),
+      await ensurePastPaperIndexes();
+      const [rows, countRows] = await Promise.all([
+        db.raw(plan.listSql, plan.listParams),
+        db.raw(plan.countSql, plan.countParams),
       ]);
-
       return {
-        items: (rows as Array<{
-          id: string;
-          title: string;
-          subject: string;
-          grade: number | null;
-          year: number | null;
-          session: string;
-          paperNumber: string;
-          language: string;
-          memoStorageKey: string | null;
-          institutionType: string | null;
-          moduleCode: string | null;
-        }>).map((r) => ({ ...r, hasMemo: r.memoStorageKey !== null })),
-        total,
+        items: (rows as CatalogRow[]).map(toListItem),
+        total: Number((countRows[0] as { n?: number } | undefined)?.n ?? 0),
       };
     },
-    [`past-papers:search:${cacheKey}`],
+    [`past-papers:search:v2:${plan.cacheKey}`],
     { revalidate: 60 * 5, tags: ["past-papers-catalog"] }
+  )();
+}
+
+export async function getCatalogFilterOptions(): Promise<{
+  grades: number[];
+  subjects: string[];
+  years: number[];
+}> {
+  return unstable_cache(
+    async () => {
+      await ensurePastPaperIndexes();
+      const plan = buildCatalogSearch({ allGrades: true, limit: 1, offset: 0 });
+      const [grades, subjects, years] = await Promise.all([
+        db.raw(
+          `SELECT DISTINCT grade AS grade FROM PastPaper WHERE ${plan.whereSql} AND grade IS NOT NULL ORDER BY grade ASC`,
+          plan.whereParams
+        ),
+        db.raw(
+          `SELECT DISTINCT subject AS subject FROM PastPaper WHERE ${plan.whereSql} ORDER BY subject ASC`,
+          plan.whereParams
+        ),
+        db.raw(
+          `SELECT DISTINCT year AS year FROM PastPaper WHERE ${plan.whereSql} AND year IS NOT NULL ORDER BY year DESC`,
+          plan.whereParams
+        ),
+      ]);
+      const subjectNames = new Set<string>();
+      for (const row of subjects as Array<{ subject: string }>) {
+        if (isNonPaperRecord({ subject: row.subject, title: row.subject })) continue;
+        subjectNames.add(normalizeSubjectName(row.subject));
+      }
+      return {
+        grades: (grades as Array<{ grade: number }>).map((row) => row.grade),
+        subjects: [...subjectNames].sort((a, b) => a.localeCompare(b, "en")),
+        years: (years as Array<{ year: number }>).map((row) => row.year),
+      };
+    },
+    ["past-papers:filters:v2"],
+    { revalidate: 60 * 30, tags: ["past-papers-catalog"] }
   )();
 }
 

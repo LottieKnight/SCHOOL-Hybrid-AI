@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { searchPastPapers } from "@/lib/pastPapers/catalog";
+import { parseGradeQuery } from "@/lib/pastPapers/indexing";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -15,9 +16,11 @@ export async function GET(request: NextRequest) {
   const page = Math.max(1, toInt(searchParams.get("page")) ?? 1);
   const pageSize = Math.min(Math.max(toInt(searchParams.get("limit")) ?? 20, 1), 50);
   const offset = (page - 1) * pageSize;
+  const gradeQuery = parseGradeQuery(searchParams.get("grade") || undefined);
 
   const { items, total } = await searchPastPapers({
-    grade: toInt(searchParams.get("grade")),
+    grade: gradeQuery.grade,
+    allGrades: gradeQuery.allGrades,
     subject: searchParams.get("subject") || undefined,
     year: toInt(searchParams.get("year")),
     session: searchParams.get("session") || undefined,

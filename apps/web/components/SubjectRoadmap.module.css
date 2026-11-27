@@ -185,13 +185,9 @@
 }
 
 .topicTitle {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   color: var(--text-2);
   line-height: 1.35;
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 .topicMore {

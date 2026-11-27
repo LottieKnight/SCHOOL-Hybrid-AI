@@ -263,7 +263,7 @@ function mergeKnownPreferenceBranches(existing: Record<string, unknown>, patch: 
     ...patch,
   };
 
-  for (const branch of ["academics", "dailyQuiz", "profileSettings", "notifications", "onboarding", "personalisation"]) {
+  for (const branch of ["academics", "dailyQuiz", "profileSettings", "notifications", "onboarding", "personalisation", "learnProgress"]) {
     if (branch in patch) {
       merged[branch] = {
         ...asRecord(existing[branch]),

@@ -1,6 +1,6 @@
 import "server-only";
 
-import { readLessonJson } from "@saedu/shared";
+import { readLessonJsonSafe } from "./lessonContent";
 import { listGeneratedModuleCodes, loadGeneratedModuleContent } from "./languageContent";
 
 type GeneratedModuleContent = {
@@ -73,7 +73,7 @@ function toModuleSummary(content: GeneratedModuleContent, fallbackCode: string):
   let availableCount = 0;
 
   for (let index = 0; index < chapterTotal; index += 1) {
-    const lesson = readLessonJson({
+    const lesson = readLessonJsonSafe({
       gradeKey: moduleCode.match(/\d/)?.[0] ?? "2",
       subjectKey: moduleCode,
       termKey: "1",

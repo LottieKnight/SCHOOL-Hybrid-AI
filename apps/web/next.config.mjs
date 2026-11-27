@@ -27,6 +27,9 @@ const securityHeaders = [
   { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
   { key: "X-Content-Type-Options", value: "nosniff" },
   { key: "X-Frame-Options", value: "SAMEORIGIN" },
+  // same-origin would sever postMessage from the Google OAuth popup.
+  // Keep this value aligned with CROSS_ORIGIN_OPENER_POLICY in lib/coopPolicy.ts.
+  { key: "Cross-Origin-Opener-Policy", value: "same-origin-allow-popups" },
   {
     key: "Permissions-Policy",
     value: "camera=(), microphone=(), geolocation=(), payment=(), usb=()",

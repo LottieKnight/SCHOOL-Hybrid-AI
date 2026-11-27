@@ -145,7 +145,7 @@ export default async function HomePage() {
           <Link className={`${styles.secondaryButton} ${styles.topLinksHideOnMobile}`} href="#sign-in" prefetch={false}>
             {t("navSignIn")}
           </Link>
-          <Link className="button prestigious-shine" href="/onboarding" prefetch={false}>
+          <Link className="button prestigious-shine" href="/learn" prefetch={false}>
             {t("navJoin")}
           </Link>
         </div>
@@ -169,7 +169,7 @@ export default async function HomePage() {
           </div>
 
           <div className={styles.ctaRow}>
-            <Link className={`button prestigious-shine ${styles.primaryCta}`} href="/onboarding" prefetch={false}>
+            <Link className={`button prestigious-shine ${styles.primaryCta}`} href="/learn" prefetch={false}>
               {t("heroPrimaryCtaLabel")}
             </Link>
             <Link className={styles.secondaryButton} href="/tutor" prefetch={false}>

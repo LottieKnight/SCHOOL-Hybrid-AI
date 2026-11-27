@@ -1,18 +1,13 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { getPastPaperWithSourceById, getPastPaperAttemptStats } from "@/lib/pastPapers/catalog";
+import { formatGradeLabel, formatPaperTitle, languageLabel, memoStatus, memoStatusLabel, sessionLabel } from "@/lib/pastPapers/indexing";
 import { getStorageProvider } from "@/lib/storage";
 import { getUserContextFromRequest } from "@/lib/pastPapers/auth";
 import { pastPapersOpsLog } from "@/lib/pastPapers/opsLogger";
 import { PastPaperBookmarkButton } from "@/components/PastPaperBookmarkButton";
 
 export const runtime = "nodejs";
-
-function formatGrade(grade: number | null): string {
-  if (grade === null) return "";
-  if (grade === 0) return "Grade R";
-  return `Grade ${grade}`;
-}
 
 function buildViewerHref(fileUrl: string, title: string, memoUrl?: string | null): string {
   let url = "/past-papers/viewer?file=" + encodeURIComponent(fileUrl) + "&title=" + encodeURIComponent(title);
@@ -55,10 +50,13 @@ async function safeGetSignedUrl(
 
 export default async function PastPaperDetailPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ id: string }>;
+  searchParams: Promise<{ doc?: string }>;
 }) {
   const { id } = await params;
+  const query = await searchParams;
 
   const paper = await getPastPaperWithSourceById(id);
   if (!paper) notFound();
@@ -71,26 +69,33 @@ export default async function PastPaperDetailPage({
     userId ? getPastPaperAttemptStats(userId, paper.id) : Promise.resolve({ count: 0, bestScore: null }),
   ]);
 
-  const gradeLabel = formatGrade(paper.grade);
+  const gradeLabel = formatGradeLabel(paper.grade);
+  const session = sessionLabel(paper.session);
+  const language = languageLabel(paper.language);
+  const status = memoStatus(paper.memoStorageKey, paper.year);
+  const displayTitle = formatPaperTitle(paper);
   const metaParts = [
     gradeLabel,
     paper.year ? String(paper.year) : null,
-    paper.session || null,
+    session || null,
     `Paper ${paper.paperNumber}`,
-    paper.language,
+    language,
     paper.totalMarks ? `${paper.totalMarks} marks` : null,
     paper.durationMinutes ? `${paper.durationMinutes} min` : null,
   ].filter(Boolean);
 
   const paperViewerHref = paperUrl
-    ? buildViewerHref(paperUrl, `${paper.subject} — ${paper.year} ${paper.session} (Paper)`)
+    ? buildViewerHref(paperUrl, `${displayTitle} (Paper)`)
     : null;
-  const memoViewerHref = memoUrl
-    ? buildViewerHref(memoUrl, `${paper.subject} — ${paper.year} ${paper.session} (Memo)`)
+  const memoViewerHref = memoUrl && status === "available"
+    ? buildViewerHref(memoUrl, `${displayTitle} (Memo)`)
     : null;
-  const splitViewerHref = paperUrl && memoUrl
-    ? buildViewerHref(paperUrl, `${paper.subject} — ${paper.year} ${paper.session}`, memoUrl)
+  const splitViewerHref = paperUrl && memoViewerHref
+    ? buildViewerHref(paperUrl, displayTitle, memoUrl)
     : null;
+
+  if (query.doc === "paper" && paperViewerHref) redirect(paperViewerHref);
+  if (query.doc === "memo" && memoViewerHref) redirect(memoViewerHref);
   const attemptHref = `/past-papers/${paper.id}/attempt`;
 
   return (
@@ -102,18 +107,13 @@ export default async function PastPaperDetailPage({
         <PastPaperBookmarkButton paperId={paper.id} />
       </div>
 
-      <h1 className="title pp-detail-title">
-        {paper.subject}
-        {gradeLabel ? ` — ${gradeLabel}` : ""}
-      </h1>
+      <h1 className="title pp-detail-title">{displayTitle}</h1>
 
       <div className="pp-detail-meta-row">
         {metaParts.map((part) => (
           <span key={part} className="pp-badge">{part}</span>
         ))}
-        <span className={`pp-memo-badge ${paper.memoStorageKey ? "pp-memo-available" : "pp-memo-pending"}`}>
-          {paper.memoStorageKey ? "✓ Memo available" : "Memo not yet available"}
-        </span>
+        <span className={`pp-memo-badge pp-memo-${status}`}>{memoStatusLabel(status)}</span>
       </div>
 
       <div className="pp-detail-actions">
@@ -151,7 +151,11 @@ export default async function PastPaperDetailPage({
               </a>
             </>
           ) : (
-            <span className="pp-badge pp-badge-muted">Memo not yet available — we fetch it when DBE updates</span>
+            <span className="pp-badge pp-badge-muted">
+              {status === "unlinked"
+                ? "Memo is not paired with this paper yet"
+                : "Memo not yet available — we fetch it when DBE updates"}
+            </span>
           )}
         </div>
       </div>

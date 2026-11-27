@@ -111,6 +111,10 @@ export function SessionProvider({ children }: { children: React.ReactNode }) {
         headers: { "x-csrf-token": csrfToken },
       });
     } catch { /* best-effort — cookie will still expire */ }
+    try {
+      const { signOutFirebase } = await import("@/lib/firebaseGoogleAuth");
+      await signOutFirebase();
+    } catch { /* still leave the signed-in app */ }
     setSession(null);
     router.push("/auth?session_expired=true");
   }, [router]);

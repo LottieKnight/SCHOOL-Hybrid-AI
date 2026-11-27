@@ -58,6 +58,9 @@ model PastPaper {
   @@unique([sourceId, province, grade, subject, year, session, paperNumber, language])
   @@index([province, grade, subject, year])
   @@index([institutionType, subject, year])
+  // Browse indexes (year/grade/subject/language/session/memo), including partial
+  // indexes SQLite and D1 can use for the catalogue sort, live in
+  // prisma/migrations/past_paper_catalog_indexes.sql and are created on open.
 }
 
 model PastPaperQuestion {

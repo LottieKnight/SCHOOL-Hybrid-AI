@@ -16,6 +16,9 @@ import { PushNotificationsPanel } from "@/components/settings/PushNotificationsP
 import { DSARRequestsPanel } from "@/components/settings/DSARRequestsPanel";
 import { BursaryRedemptionPanel } from "@/components/settings/BursaryRedemptionPanel";
 import { UpgradePanel } from "@/components/settings/UpgradePanel";
+import { AboutLegal } from "@/components/ui/AboutLegal";
+import { GoogleSyncPrompt } from "@/components/profile/GoogleSyncPrompt";
+import { MinimalProfileForm } from "@/components/profile/MinimalProfileForm";
 
 type ProfileSettings = {
   preferenceOnboardingStatus?: "pending" | "completed" | "declined";
@@ -270,12 +273,26 @@ export default function SettingsPage() {
   if (!session) {
     return (
       <div className="route-lock-dock">
-        <div className="route-lock-frame glass card card-with-back">
-          <h1 className="title">Settings</h1>
-          <p className="subtitle">Sign in to manage profile settings.</p>
-          <Link className="button" href="/">
-            Back home
-          </Link>
+        <div className="route-lock-frame glass card card-with-back" data-testid="settings-open">
+          <div style={{ display: "flex", alignItems: "center", gap: "var(--space-3)", marginBottom: "var(--space-3)", flexWrap: "wrap" }}>
+            <SchoolLogo size={72} />
+            <div>
+              <span className="eyebrow">Settings</span>
+              <h1 className="title" style={{ marginTop: "0.2rem" }}>Your profile, on this device.</h1>
+            </div>
+          </div>
+          <p className="subtitle">
+            Learn, past papers, the tutor, and this page work without an account. A name and a grade are enough to personalise them.
+          </p>
+          <MinimalProfileForm />
+          <GoogleSyncPrompt />
+          <ThemePicker />
+          <p className="subtitle">Password, billing, and signed-in device sessions appear here after you sign in.</p>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
+            <Link className="button" href="/learn">Continue without an account</Link>
+            <Link className="button" href="/login">Sign in with email</Link>
+          </div>
+          <AboutLegal />
         </div>
       </div>
     );
@@ -294,6 +311,8 @@ export default function SettingsPage() {
         <p className="subtitle">
           Profile settings were moved here from Profile so messaging remains focused on conversations.
         </p>
+        <MinimalProfileForm showSkip={false} />
+        <GoogleSyncPrompt compact />
         {notice ? (
           <p
             className="badge"
@@ -515,6 +534,8 @@ export default function SettingsPage() {
         <DSARRequestsPanel />
 
         <DangerZone />
+
+        <AboutLegal />
       </div>
     </div>
   );

@@ -5,8 +5,10 @@ import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { NavIcon } from "@/components/nav/NavIcon";
+import { AboutLegal } from "@/components/ui/AboutLegal";
 import { ProfileSidebarItem } from "@/components/ProfileSidebarItem";
 import { SidebarLogoutButton } from "@/components/SidebarLogoutButton";
+import { useMinimalProfile } from "@/components/profile/useMinimalProfile";
 import { useSession } from "@/components/SessionProvider";
 import { moreLinks, practiceLinks, studyLinks, type SidebarLink } from "@/lib/navigation/sidebarModel";
 import { useUiStore } from "../store/uiStore";
@@ -17,14 +19,16 @@ type SidebarProps = {
   entered?: boolean;
 };
 
-function cleanName(user: Record<string, unknown> | undefined) {
-  if (!user) return "Guest";
+function cleanName(user: Record<string, unknown> | undefined, profileName?: string | null) {
+  const nickname = profileName?.trim() || "";
+  if (nickname) return nickname;
+  if (!user) return "Learner";
   const first = typeof user.firstName === "string" ? user.firstName.trim() : "";
   const last = typeof user.lastName === "string" ? user.lastName.trim() : "";
   const full = `${first} ${last}`.trim();
   if (full) return full;
   const email = typeof user.email === "string" ? user.email.trim() : "";
-  return email || "Guest";
+  return email || "Learner";
 }
 
 function initials(name: string) {
@@ -66,10 +70,11 @@ export function Sidebar({ open, onClose, entered = false }: SidebarProps) {
   const pathname = usePathname() || "/";
   const t = useTranslations("nav");
   const { session } = useSession();
+  const { profile } = useMinimalProfile();
   const collapsed = useUiStore((state) => state.sidebarCollapsed);
   const toggleCollapsed = useUiStore((state) => state.toggleSidebarCollapsed);
   const [touchStart, setTouchStart] = useState<number | null>(null);
-  const name = cleanName(session?.user as Record<string, unknown> | undefined);
+  const name = cleanName(session?.user as Record<string, unknown> | undefined, profile?.displayName);
   const moreOpen = moreLinks.some((item) => item.match(pathname));
 
   return (
@@ -130,6 +135,7 @@ export function Sidebar({ open, onClose, entered = false }: SidebarProps) {
             </div>
           </details>
         </nav>
+        <AboutLegal variant="drawer" />
       </div>
 
       <footer className="nav-foot">

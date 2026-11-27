@@ -3,11 +3,14 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { AcademicPeriodSelector } from "@/components/AcademicPeriodSelector";
+import periodStyles from "@/components/AcademicPeriodSelector.module.css";
 import { NotificationBell } from "@/components/NotificationBell";
 import { ZenFocusToggle } from "@/components/ZenFocusToggle";
+import { useMinimalProfile } from "@/components/profile/useMinimalProfile";
 import { useSession } from "@/components/SessionProvider";
 import { buttonClassName } from "@/components/ui/Button";
 import { ExamCountdown } from "@/components/ExamCountdown";
+import { topbarIdentity } from "@/lib/minimalProfile";
 import { learnerPrimaryAction } from "@/lib/navigation/navManifest";
 
 function getFirstName(user: Record<string, unknown> | undefined) {
@@ -15,8 +18,8 @@ function getFirstName(user: Record<string, unknown> | undefined) {
   if (firstName) return firstName;
 
   const email = typeof user?.email === "string" ? user.email.trim() : "";
-  if (!email) return "Scholar";
-  return email.split("@")[0] || "Scholar";
+  if (!email) return "";
+  return email.split("@")[0] || "";
 }
 
 function formatClock(now: Date) {
@@ -36,6 +39,7 @@ type TopbarProps = {
 
 export function Topbar({ onMenuClick, average }: TopbarProps) {
   const { session } = useSession();
+  const { profile } = useMinimalProfile();
   const user = (session?.user ?? null) as Record<string, unknown> | null;
   const [now, setNow] = useState<Date | null>(null);
 
@@ -46,7 +50,11 @@ export function Topbar({ onMenuClick, average }: TopbarProps) {
     return () => window.clearInterval(timer);
   }, []);
 
-  const firstName = useMemo(() => getFirstName(user ?? undefined), [user]);
+  const sessionName = useMemo(() => getFirstName(user ?? undefined), [user]);
+  const identity = useMemo(
+    () => topbarIdentity({ profile, sessionFirstName: sessionName }),
+    [profile, sessionName],
+  );
   const clockLabel = useMemo(() => (now ? formatClock(now) : ""), [now]);
   const userRole = typeof user?.role === "string" ? user.role : null;
   const gradeLabel =
@@ -69,14 +77,23 @@ export function Topbar({ onMenuClick, average }: TopbarProps) {
           onClick={onMenuClick}
           aria-label="Toggle navigation"
         >
-          Menu
+          <svg className="topbar-menu-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+          </svg>
+          <span className="topbar-menu-label">Menu</span>
         </button>
         <div className="topbar-title">
           <div className="topbar-greeting">
-            <span>Welcome back,</span>
-            <span className="topbar-name">{firstName}</span>
+            <span>{identity.greetingName ? "Welcome back," : "Welcome"}</span>
+            {identity.greetingName ? <span className="topbar-name">{identity.greetingName}</span> : null}
           </div>
-          <AcademicPeriodSelector userRole={userRole} gradeLabel={gradeLabel} />
+          {identity.showAcademicPeriod ? (
+            <AcademicPeriodSelector userRole={userRole || "university"} gradeLabel={gradeLabel ?? "university"} />
+          ) : (
+            <Link href="/settings" className={periodStyles.pill} data-testid="topbar-profile-badge" prefetch={false}>
+              {identity.badge}
+            </Link>
+          )}
         </div>
       </div>
 

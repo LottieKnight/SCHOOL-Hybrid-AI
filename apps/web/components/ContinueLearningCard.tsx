@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { continueTarget } from "@/lib/lessons/progress";
+import { readStoredProgress } from "@/lib/lessons/progressStorage";
 import styles from "./ContinueLearningCard.module.css";
 
 type AdaptivePathItem = {
@@ -20,6 +22,12 @@ export function ContinueLearningCard({ phase, grade }: { phase: string; grade: s
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    const local = continueTarget(readStoredProgress());
+    if (local?.href.includes(`/learn/${phase}/${grade}/`)) {
+      setItem({ href: local.href, topicTitle: local.topic, reason: local.reason, subject: local.title });
+      setLoading(false);
+      return;
+    }
     let cancelled = false;
     async function fetchPath() {
       try {

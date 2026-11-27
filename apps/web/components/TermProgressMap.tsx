@@ -2,6 +2,10 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { useLearnProgress } from "@/components/learn/useLearnProgress";
+import { parseGradeSlug } from "@/lib/lessons/catalogue";
+import { lessonStatus } from "@/lib/lessons/progress";
+import { buildLessonId } from "@/lib/lessons/schema";
 import styles from "./TermProgressMap.module.css";
 
 type WeekNode = {
@@ -77,7 +81,20 @@ function useWeekStatuses(subject: string, grade: string, termNumber: number, wee
 }
 
 export function TermProgressMap({ phase, grade, subject, termNumber, weeks }: TermProgressMapProps) {
-  const statuses = useWeekStatuses(subject, grade, termNumber, weeks.length);
+  const remoteStatuses = useWeekStatuses(subject, grade, termNumber, weeks.length);
+  const { store } = useLearnProgress();
+  const gradeNumber = parseGradeSlug(grade);
+  const statuses: Record<number, WeekStatus> = { ...remoteStatuses };
+  if (gradeNumber !== null) {
+    for (const week of weeks) {
+      const status = lessonStatus(
+        store,
+        buildLessonId({ phase, grade: gradeNumber, subjectKey: subject, term: termNumber, week: week.index })
+      );
+      if (status === "completed") statuses[week.index] = "done";
+      else if (status === "in_progress") statuses[week.index] = "active";
+    }
+  }
 
   return (
     <div className={styles.wrap}>

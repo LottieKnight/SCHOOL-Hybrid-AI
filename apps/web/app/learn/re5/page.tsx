@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { SchoolLogo } from "@/components/ui/SchoolLogo";
-import { SiteFooter } from "@/components/ui/SiteFooter";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -454,10 +453,6 @@ export default function RE5PrepPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-gray-100">
-        <SiteFooter />
-      </footer>
     </div>
   );
 }

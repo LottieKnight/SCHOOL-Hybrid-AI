@@ -3,12 +3,21 @@
 import Link from "next/link";
 import { useDeferredValue, useEffect, useId, useState } from "react";
 import type { LearnSubjectGroupCategory } from "@/lib/learnV2";
+import { useLearnProgress } from "@/components/learn/useLearnProgress";
+import { enumerateLessonIds } from "@/lib/lessons/schema";
+import { completionFor } from "@/lib/lessons/progress";
 import styles from "./LearnSubjectGroupsExplorer.module.css";
+
+type SubjectTermPlan = {
+  term: number;
+  weeks: number;
+};
 
 type SubjectListItem = {
   key: string;
   name: string;
   termCount: number;
+  terms?: SubjectTermPlan[];
 };
 
 type SubjectGroupItem = {
@@ -21,6 +30,7 @@ type SubjectGroupItem = {
 type LearnSubjectGroupsExplorerProps = {
   phase: string;
   grade: string;
+  gradeNumber: number;
   gradeName: string;
   groups: SubjectGroupItem[];
 };
@@ -65,59 +75,56 @@ function normalize(value: string) {
   return value.toLowerCase().trim();
 }
 
-function subjectIcon(key: string, name: string): string {
-  const k = key.toLowerCase();
-  const n = name.toLowerCase();
-  if (k.includes("math") || n.includes("math")) return "📐";
-  if (k.includes("english") || n.includes("english")) return "📖";
-  if (k.includes("afrikaans") || n.includes("afrikaans")) return "🗣️";
-  if ((k.includes("physical") && k.includes("science")) || (n.includes("physical") && n.includes("science"))) return "⚗️";
-  if (k.includes("life-science") || n.includes("life sciences") || (k.includes("life") && k.includes("sci"))) return "🔬";
-  if (k.includes("geog") || n.includes("geography")) return "🌍";
-  if (k.includes("hist") || n.includes("history")) return "📜";
-  if (k.includes("account") || n.includes("accounting")) return "💰";
-  if (k.includes("business") || n.includes("business studies")) return "💼";
-  if (k.includes("econom") || n.includes("economics")) return "📈";
-  if (k.includes("ems") || n.includes("economic and management")) return "📊";
-  if (n.includes("computer applications") || k.includes("cat")) return "💻";
-  if (k.includes("informat") || n.includes("information technology")) return "🖥️";
-  if (k.includes("tourism") || n.includes("tourism")) return "✈️";
-  if (k.includes("consumer") || n.includes("consumer studies") || n.includes("hospitality")) return "🍳";
-  if (k.includes("visual") || n.includes("visual arts") || (k.includes("art") && !k.includes("earth"))) return "🎨";
-  if (k.includes("music") || n.includes("music")) return "🎵";
-  if (k.includes("drama") || n.includes("drama")) return "🎭";
-  if (k.includes("life-orient") || n.includes("life orientation")) return "🌟";
-  if (k.includes("natural") || n.includes("natural sciences")) return "🔭";
-  if (k.includes("technolog") || n.includes("technology")) return "⚙️";
-  if (k.includes("social") || n.includes("social sciences")) return "🗺️";
-  if (k.includes("agricult") || n.includes("agriculture")) return "🌾";
-  if (k.includes("egdn") || n.includes("engineering graphics")) return "📏";
-  if (k.includes("sport") || n.includes("sport and recreation")) return "⚽";
-  if (k.includes("religion") || n.includes("religion")) return "☮️";
-  if (n.includes("zulu") || n.includes("xhosa") || n.includes("sotho") || n.includes("tswana") || n.includes("venda") || n.includes("tsonga") || n.includes("swati") || n.includes("ndebele") || n.includes("pedi")) return "🗣️";
-  return "📚";
-}
-
-function categoryLabel(category: LearnSubjectGroupCategory) {
-  if (category === "core") return "Core";
-  if (category === "elective") return "Elective Group";
-  return "Subject Group";
+function isCoreGroup(group: Pick<SubjectGroupItem, "key" | "name" | "category">) {
+  if (group.category === "core") return true;
+  const value = `${group.key} ${group.name}`.toLowerCase();
+  return value.includes("language") || value.includes("mathemat") || value.includes("life orientation");
 }
 
 export function LearnSubjectGroupsExplorer({
   phase,
   grade,
-  gradeName,
+  gradeNumber,
   groups,
 }: LearnSubjectGroupsExplorerProps) {
   const searchId = useId();
   const [query, setQuery] = useState("");
+  const [filter, setFilter] = useState("all");
   const allSubjectKeys = groups.flatMap((g) => g.subjects.map((s) => s.key));
   const biasMap = useSubjectBias(phase, grade, allSubjectKeys);
+  const { store, ready } = useLearnProgress();
+  const progressBySubject = new Map<string, number>();
+  if (ready) {
+    for (const group of groups) {
+      for (const subject of group.subjects) {
+        const plans = (subject.terms ?? []).map((term) => ({
+          phase,
+          grade: gradeNumber,
+          subjectKey: subject.key,
+          term: term.term,
+          weeks: term.weeks,
+        }));
+        if (!plans.length) continue;
+        progressBySubject.set(subject.key, completionFor(store, enumerateLessonIds(plans)).percent);
+      }
+    }
+  }
   const deferredQuery = useDeferredValue(query);
   const normalizedQuery = normalize(deferredQuery);
 
+  const hasCore = groups.some((group) => isCoreGroup(group));
+  const chips = [
+    { id: "all", label: "All" },
+    ...(hasCore ? [{ id: "core", label: "Core" }] : []),
+    ...groups.map((group) => ({ id: group.key, label: group.name })),
+  ];
+
   const filteredGroups = groups
+    .filter((group) => {
+      if (filter === "all") return true;
+      if (filter === "core") return isCoreGroup(group);
+      return group.key === filter;
+    })
     .map((group) => ({
       ...group,
       subjects: normalizedQuery
@@ -126,137 +133,93 @@ export function LearnSubjectGroupsExplorer({
     }))
     .filter((group) => group.subjects.length > 0);
 
-  const totalSubjects = groups.reduce((sum, group) => sum + group.subjects.length, 0);
-  const filteredCount = filteredGroups.reduce((sum, group) => sum + group.subjects.length, 0);
-
   return (
     <div className={styles.wrap}>
-      <div className={styles.tools}>
-        <div className={styles.summaryCard}>
-          <div className={styles.summaryTitle}>Subject groups</div>
-          <p className="subtitle">
-            Browse by group instead of one long list. Core subjects are shown first, then elective
-            groups where applicable.
-          </p>
-          <div className={styles.metaRow}>
-            <span className="pill">{groups.length} groups</span>
-            <span className="pill">
-              {filteredCount} / {totalSubjects} subjects
-            </span>
-          </div>
-        </div>
-
-        <div className={styles.searchCard}>
-          <label className={styles.searchLabel} htmlFor={searchId}>
-            Find a subject in {gradeName}
-          </label>
-          <div className={styles.searchInputWrap}>
-            <span className={styles.searchIcon} aria-hidden="true">
-              <svg viewBox="0 0 24 24" focusable="false">
-                <circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" strokeWidth="1.7" />
-                <path
-                  d="M16.2 16.2 21 21"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.7"
-                  strokeLinecap="round"
-                />
-              </svg>
-            </span>
-            <input
-              id={searchId}
-              className={styles.searchInput}
-              type="search"
-              value={query}
-              onChange={(event) => setQuery(event.target.value)}
-              placeholder="Search subjects (e.g. Mathematics, EMS, Tourism)"
-            />
-            {query ? (
-              <button className={styles.clearButton} type="button" onClick={() => setQuery("")}>
-                Clear
-              </button>
-            ) : null}
-          </div>
-          <p className={styles.searchHint}>
-            Search across all subject groups to find a subject faster.
-          </p>
-        </div>
+      <label className={styles.searchLabel} htmlFor={searchId}>
+        Search subjects
+      </label>
+      <div className={styles.searchBar}>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" strokeWidth="1.7" />
+          <path d="M16.2 16.2 21 21" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" />
+        </svg>
+        <input
+          id={searchId}
+          className={styles.searchInput}
+          type="search"
+          value={query}
+          onChange={(event) => setQuery(event.target.value)}
+          placeholder="Search subjects"
+          enterKeyHint="search"
+        />
+        {query ? (
+          <button className={styles.clearButton} type="button" onClick={() => setQuery("")}>
+            Clear
+          </button>
+        ) : null}
       </div>
 
-      {groups.length > 1 ? (
-        <nav className={styles.groupNav} aria-label="Subject groups">
-          {groups.map((group) => (
-            <a key={group.key} className={styles.groupNavChip} href={`#group-${group.key}`}>
-              <span>{group.name}</span>
-              <small>{group.subjects.length}</small>
-            </a>
-          ))}
-        </nav>
-      ) : null}
+      <div className={styles.chips} role="group" aria-label="Filter subjects">
+        {chips.map((chip) => {
+          const selected = filter === chip.id;
+          return (
+            <button
+              key={chip.id}
+              type="button"
+              className={styles.chip}
+              aria-pressed={selected}
+              data-active={selected ? "true" : "false"}
+              onClick={() => setFilter(chip.id)}
+            >
+              {chip.label}
+            </button>
+          );
+        })}
+      </div>
 
       {filteredGroups.length ? (
         <div className={styles.groupStack}>
           {filteredGroups.map((group) => (
-            <section className={styles.groupCard} key={group.key} id={`group-${group.key}`}>
-              <header className={styles.groupHeader}>
-                <div>
-                  <h2 className={styles.groupTitle}>{group.name}</h2>
-                  <p className="subtitle">
-                    {categoryLabel(group.category)} · {group.subjects.length} subjects
-                  </p>
-                </div>
-                <div className={styles.groupBadges}>
-                  <span className={styles.groupTag} data-kind={group.category}>
-                    {categoryLabel(group.category)}
-                  </span>
-                  <span className="pill">{group.subjects.length} items</span>
-                </div>
-              </header>
-
-              <div className={styles.subjectGrid}>
-                {group.subjects.map((subject) => (
-                  <Link
-                    key={subject.key}
-                    href={`/learn/${phase}/${grade}/${subject.key}`}
-                    className={`list-item ${styles.subjectCard}`}
-                    prefetch={false}
-                  >
-                    <div className={styles.subjectTop}>
-                      <span className={styles.subjectEmoji} aria-hidden="true">
-                        {subjectIcon(subject.key, subject.name)}
+            <section className={styles.group} key={group.key} id={`group-${group.key}`}>
+              <h2 className={styles.groupTitle}>{group.name}</h2>
+              <div className={styles.subjectList}>
+                {group.subjects.map((subject) => {
+                  const progress = progressBySubject.get(subject.key);
+                  const bias = biasMap[subject.key];
+                  return (
+                    <Link
+                      key={subject.key}
+                      href={`/learn/${phase}/${grade}/${subject.key}`}
+                      className={styles.subjectRow}
+                      prefetch={false}
+                    >
+                      <span className={styles.subjectCopy}>
+                        <span className={styles.subjectName}>{subject.name}</span>
+                        <span className={styles.subjectMeta}>
+                          {subject.termCount} terms
+                          {progress ? ` · ${progress}% complete` : ""}
+                        </span>
                       </span>
-                      {biasMap[subject.key] && (
+                      {bias ? (
                         <span
                           className={styles.biasDot}
-                          data-bias={biasMap[subject.key]}
-                          title={
-                            biasMap[subject.key] === "strong"
-                              ? "Performing well"
-                              : biasMap[subject.key] === "struggling"
-                              ? "Needs attention"
-                              : "In progress"
-                          }
-                          aria-hidden="true"
+                          data-bias={bias}
+                          title={bias === "strong" ? "Performing well" : bias === "struggling" ? "Needs attention" : "In progress"}
                         />
-                      )}
-                    </div>
-                    <div className={styles.subjectNameRow}>
-                      <div className={styles.subjectName}>{subject.name}</div>
-                    </div>
-                    <div className={styles.subjectMeta}>
-                      <span className="badge">{subject.termCount} terms</span>
-                      <span className={styles.subjectArrow} aria-hidden="true">→</span>
-                    </div>
-                  </Link>
-                ))}
+                      ) : null}
+                      <svg className={styles.subjectArrow} width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <path d="m9 6 6 6-6 6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    </Link>
+                  );
+                })}
               </div>
             </section>
           ))}
         </div>
       ) : (
         <div className={styles.emptyState}>
-          <strong>No subjects match "{deferredQuery.trim()}".</strong>
-          <p className="subtitle">Try a shorter name, acronym, or a different keyword.</p>
+          <strong>No subjects match{deferredQuery.trim() ? ` “${deferredQuery.trim()}”` : ""}.</strong>
         </div>
       )}
     </div>

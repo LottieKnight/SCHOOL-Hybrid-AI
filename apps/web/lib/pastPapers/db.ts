@@ -1,6 +1,7 @@
 import "server-only";
 
 import { initPastPapersEnv } from "@/lib/env";
+import { CATALOG_INDEX_SQL } from "@/lib/pastPapers/indexing";
 
 type Scalar = string | number | null | boolean;
 export type Row = Record<string, unknown>;
@@ -194,6 +195,25 @@ function getBackend(): Backend {
   return cachedBackend;
 }
 
+let indexPromise: Promise<void> | null = null;
+
+/** Create catalogue indexes once per isolate. Safe on SQLite and D1. */
+export function ensurePastPaperIndexes(): Promise<void> {
+  if (!indexPromise) {
+    indexPromise = (async () => {
+      const backend = getBackend();
+      for (const sql of CATALOG_INDEX_SQL) {
+        try {
+          await backend.run(sql, []);
+        } catch (error) {
+          console.error("past-papers catalogue index skipped", error);
+        }
+      }
+    })();
+  }
+  return indexPromise;
+}
+
 type FindArgs = {
   where?: Where;
   select?: string[];
@@ -204,6 +224,7 @@ type FindArgs = {
 };
 
 async function findMany(table: string, args: FindArgs = {}) {
+  if (table === "PastPaper") await ensurePastPaperIndexes();
   const where = whereClause(table, args.where ?? {});
   const base = `FROM \`${table}\`` + (where.clause ? ` WHERE ${where.clause}` : "");
   const cols = args.distinct
@@ -221,6 +242,7 @@ async function findMany(table: string, args: FindArgs = {}) {
 }
 
 async function count(table: string, where: Where = {}) {
+  if (table === "PastPaper") await ensurePastPaperIndexes();
   const w = whereClause(table, where);
   const sql = `SELECT COUNT(*) AS n FROM \`${table}\`` + (w.clause ? ` WHERE ${w.clause}` : "");
   const rows = await getBackend().all(sql, w.params);
@@ -307,6 +329,7 @@ async function run(sql: string, params: Scalar[] = []) {
 }
 
 async function raw(sql: string, params: Scalar[] = []) {
+  if (/\bPastPaper\b/.test(sql)) await ensurePastPaperIndexes();
   return getBackend().all(sql, params);
 }
 

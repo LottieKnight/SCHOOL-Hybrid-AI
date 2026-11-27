@@ -1,7 +1,8 @@
 import { LearnLayout } from "@/components/LearnLayout";
 import { LearnSubjectGroupsExplorer } from "@/components/LearnSubjectGroupsExplorer";
 import { ContinueLearningCard } from "@/components/ContinueLearningCard";
-import { getLearnGrades, getLearnSubjectGroups, type LearnGrade } from "@/lib/learnV2";
+import { termPlansFromTerms } from "@/lib/lessons/catalogue";
+import { getLearnGrades, getLearnSubjectGroups, parseGradeParam, type LearnGrade } from "@/lib/learnV2";
 
 export default async function LearnGradePage({
   params,
@@ -34,31 +35,34 @@ export default async function LearnGradePage({
 
   return (
     <LearnLayout
-      title={`${gradeEntry.name} subjects`}
+      title={gradeEntry.name}
       backHref={`/learn/${phase}`}
       breadcrumbs={[
-        { label: "Home", href: "/" },
         { label: "Learn", href: "/learn" },
         { label: phase, href: `/learn/${phase}` },
         { label: gradeEntry.name },
       ]}
-      subtitle="Choose a subject to explore terms. Subjects are grouped so electives and core subjects are easier to scan."
     >
       <ContinueLearningCard phase={phase} grade={grade} />
       {subjectCount > 0 ? (
         <LearnSubjectGroupsExplorer
           phase={phase}
           grade={grade}
+          gradeNumber={parseGradeParam(grade) ?? 0}
           gradeName={gradeEntry.name}
           groups={subjectGroups.map((group) => ({
             key: group.key,
             name: group.name,
             category: group.category,
-            subjects: group.subjects.map((subject) => ({
-              key: subject.key,
-              name: subject.name,
-              termCount: Object.keys(subject.terms || {}).length || 4,
-            })),
+            subjects: group.subjects.map((subject) => {
+              const terms = termPlansFromTerms(subject.terms);
+              return {
+                key: subject.key,
+                name: subject.name,
+                termCount: terms.length,
+                terms,
+              };
+            }),
           }))}
         />
       ) : (

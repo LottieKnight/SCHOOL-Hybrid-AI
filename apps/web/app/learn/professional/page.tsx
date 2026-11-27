@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SchoolLogo } from "@/components/ui/SchoolLogo";
-import { SiteFooter } from "@/components/ui/SiteFooter";
-
 export const metadata: Metadata = {
   title: "Professional Qualifications - SCHOOL",
   description: "Prepare for industry-recognized certifications and regulatory exams including RE1 and RE5 with SCHOOL's comprehensive learning paths.",
@@ -463,10 +461,6 @@ export default function ProfessionalLearningPath() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-gray-100">
-        <SiteFooter />
-      </footer>
     </div>
   );
 }

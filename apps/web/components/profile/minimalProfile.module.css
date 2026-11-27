@@ -1,0 +1,82 @@
+.form {
+  display: grid;
+  gap: 16px;
+  min-width: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.choice,
+.chip {
+  border: 1px solid var(--line, rgba(255, 255, 255, 0.14));
+  background: transparent;
+  color: inherit;
+  border-radius: 999px;
+  padding: 8px 14px;
+  min-height: 44px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.choice[aria-pressed="true"],
+.chip[aria-pressed="true"] {
+  border-color: var(--gold, #e8c15a);
+  color: var(--gold, #e8c15a);
+}
+
+.field {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.hint {
+  margin: 0;
+  color: var(--text-2, #bdbdbd);
+  font-size: 0.92rem;
+}
+
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  min-width: 0;
+}
+
+.sync {
+  display: grid;
+  gap: 8px;
+  padding: 12px 0 4px;
+  min-width: 0;
+}
+
+.sync p {
+  margin: 0;
+  color: var(--text-2, #bdbdbd);
+  font-size: 0.92rem;
+}
+
+.error {
+  color: #f2b8b5;
+  margin: 0;
+}

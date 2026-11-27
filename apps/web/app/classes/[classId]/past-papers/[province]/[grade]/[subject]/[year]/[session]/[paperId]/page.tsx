@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPastPaperWithSourceById } from "@/lib/pastPapers/catalog";
+import { languageLabel } from "@/lib/pastPapers/indexing";
 import { getStorageProvider } from "@/lib/storage";
 import { PastPaperStartClient } from "@/components/PastPaperStartClient";
 import { pastPapersOpsLog } from "@/lib/pastPapers/opsLogger";
@@ -130,7 +131,7 @@ export default async function PastPaperDetailPage({
       </div>
       <h1 className="title">{paper.title}</h1>
       <p className="subtitle">
-        Paper {paper.paperNumber} - {paper.language.toUpperCase()}
+        Paper {paper.paperNumber} · {languageLabel(paper.language)}
       </p>
       <div className="outline-actions">
         {paperUrl && paperViewerHref ? (

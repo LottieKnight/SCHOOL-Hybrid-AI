@@ -1,0 +1,23 @@
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 36px;
+  padding: 0 2px;
+  color: var(--text-2);
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.back svg {
+  flex-shrink: 0;
+  color: var(--gold);
+}
+
+.back:hover {
+  color: var(--gold);
+  opacity: 1;
+}

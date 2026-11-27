@@ -1,6 +1,8 @@
 import { LearnLayout } from "@/components/LearnLayout";
 import { TermProgressMap } from "@/components/TermProgressMap";
+import { ScopeProgress } from "@/components/learn/ScopeProgress";
 import { findLearnSubject, formatTermLabel, getTermInfo, parseGradeParam } from "@/lib/learnV2";
+import { enumerateLessonIds } from "@/lib/lessons/schema";
 import { cookies } from "next/headers";
 import { isLocale as isLessonLocale, type Locale } from "@/lib/locale";
 import { LessonLanguageSelector } from "@/components/LessonLanguageSelector";
@@ -59,11 +61,30 @@ export default async function LearnTermPage({
         { label: subjectEntry.name, href: `/learn/${phase}/${grade}/${subject}` },
         { label: formatTermLabel(termNumber, termEntry?.name) },
       ]}
-      subtitle="Follow the path — each node is a week. Gold means done, pulsing means in progress."
     >
       <div style={{ marginBottom: 16 }}>
         <LessonLanguageSelector current={lessonLanguage} />
       </div>
+      {gradeNumber !== null ? (
+        <ScopeProgress
+          label={`${formatTermLabel(termNumber, termEntry?.name)} progress`}
+          groups={[
+            {
+              key: String(termNumber),
+              label: formatTermLabel(termNumber, termEntry?.name),
+              lessonIds: enumerateLessonIds([
+                {
+                  phase,
+                  grade: gradeNumber,
+                  subjectKey: subject,
+                  term: termNumber,
+                  weeks: weeks.length,
+                },
+              ]),
+            },
+          ]}
+        />
+      ) : null}
       <TermProgressMap
         phase={phase}
         grade={grade}

@@ -20,19 +20,30 @@ export default async function LearnPhasePage({ params }: { params: Promise<{ pha
         backHref="/learn"
         subtitle="No grades available for this phase yet."
       >
-        <p className="badge">Check the phase value or scaffold data.</p>
+        <p className="badge">This phase does not have grades yet.</p>
       </LearnLayout>
     );
   }
 
+  const phaseTitle =
+    phase === "foundation"
+      ? "Foundation"
+      : phase === "intermediate"
+        ? "Intermediate"
+        : phase === "senior"
+          ? "Senior"
+          : phase === "fet"
+            ? "FET"
+            : phase;
+  const orderedGrades = [...grades].sort((a, b) => {
+    const rank = (key: string) => (key === "R" ? -1 : Number(key));
+    return rank(a.key) - rank(b.key);
+  });
+
   return (
-    <LearnLayout
-      title="Grades"
-      backHref="/learn"
-      subtitle="Choose a grade to explore subjects."
-    >
+    <LearnLayout title={phaseTitle} backHref="/learn">
       <div className={styles.grid}>
-        {grades.map((grade) => {
+        {orderedGrades.map((grade) => {
           const num = grade.key === "R" ? "R" : grade.key;
           const count = gradeSubjectCounts[grade.key];
           return (
@@ -42,12 +53,16 @@ export default async function LearnPhasePage({ params }: { params: Promise<{ pha
               className={styles.card}
               prefetch={false}
             >
-              <div className={styles.badge} data-phase={phase}>{num}</div>
+              <div className={styles.badge}>{num}</div>
               <div className={styles.info}>
                 <strong className={styles.name}>{grade.name}</strong>
                 <span className={styles.meta}>{count ? `${count} subjects` : "View subjects"}</span>
               </div>
-              <span className={styles.arrow} aria-hidden="true">→</span>
+              <span className={styles.arrow} aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <path d="m9 6 6 6-6 6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </span>
             </Link>
           );
         })}

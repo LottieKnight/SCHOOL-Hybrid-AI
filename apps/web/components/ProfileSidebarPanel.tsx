@@ -10,6 +10,7 @@ import { BadgeWall } from "@/components/BadgeWall";
 import { StreakHeatmap } from "@/components/StreakHeatmap";
 import { LearningPathTree } from "@/components/LearningPathTree";
 import { PdfExportButton } from "@/components/PdfExportButton";
+import { GoogleSyncPrompt } from "@/components/profile/GoogleSyncPrompt";
 
 type Session = {
   user: {
@@ -623,6 +624,8 @@ export function ProfileSidebarPanel({ onClose }: { onClose: () => void }): React
       if (!response.ok) {
         throw new Error(data?.error || "Logout failed.");
       }
+      const { signOutFirebase } = await import("@/lib/firebaseGoogleAuth");
+      await signOutFirebase();
       await refresh();
       setProfile(null);
       setNotice({ type: "info", message: "Signed out." });
@@ -973,8 +976,9 @@ export function ProfileSidebarPanel({ onClose }: { onClose: () => void }): React
           <div>
             <h2>Profile</h2>
             <p className="profile-subtitle">
-              {session ? `Joined ${formatJoinDate(joinDate)}` : "Sign in to begin"}
+              {session ? `Joined ${formatJoinDate(joinDate)}` : "This device already remembers a local profile."}
             </p>
+            <GoogleSyncPrompt compact />
             <div className="profile-stats">
               <div>
                 <strong>{stats.followersCount}</strong>

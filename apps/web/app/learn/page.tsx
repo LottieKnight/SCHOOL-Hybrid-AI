@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import type { ReactNode } from "react";
+import { Suspense, type ReactNode } from "react";
 import Link from "next/link";
 import { headers } from "next/headers";
 import { Badge } from "@/components/ui/Badge";
@@ -8,6 +8,8 @@ import { SectionCard } from "@/components/ui/SectionCard";
 import styles from "./PhaseCards.module.css";
 import universityStyles from "./UniversityLearn.module.css";
 import { LearningStyleOnboarding } from "@/components/LearningStyleOnboarding";
+import { ProfilePathHint } from "@/components/profile/ProfilePathHint";
+import { LearnHomeGuidance } from "@/components/learn/LearnHomeGuidance";
 import { getLearnPhases } from "@/lib/learnV2";
 import { getBackendSessionFromCookieHeader } from "@/lib/server/backendSession";
 import { getInstitutionContextForUser } from "@/lib/server/institutions";
@@ -42,8 +44,8 @@ type LearnModule = {
 };
 
 type PhaseVisual = {
-  icon: string;
-  gradeRange: string;
+  mark: string;
+  title: string;
   description: string;
 };
 
@@ -315,121 +317,42 @@ export default async function LearnIndexPage() {
 
   const phases = getLearnPhases();
   const phaseVisuals: Record<string, PhaseVisual> = {
-    foundation: { icon: "🌱", gradeRange: "Grades R–3", description: "Literacy, numeracy, and life skills for early learners." },
-    intermediate: { icon: "🚀", gradeRange: "Grades 4–6", description: "Expanding knowledge across all CAPS learning areas." },
-    senior: { icon: "🔭", gradeRange: "Grades 7–9", description: "Deeper study across core and elective subjects." },
-    fet: { icon: "🎓", gradeRange: "Grades 10–12", description: "Matric-focused study with subject specialisation." },
+    foundation: { mark: "R–3", title: "Foundation", description: "Grades R–3 · literacy, numeracy, and life skills" },
+    intermediate: { mark: "4–6", title: "Intermediate", description: "Grades 4–6 · CAPS learning areas" },
+    senior: { mark: "7–9", title: "Senior", description: "Grades 7–9 · core and elective subjects" },
+    fet: { mark: "10–12", title: "FET", description: "Grades 10–12 · matric study" },
   };
 
-  const heroActions = (
-    <>
-        <Link className="button skeu-btn" href={`/learn/${phases[0]?.key ?? "foundation"}`} prefetch={false}>
-        Start learning
-      </Link>
-      <Link className={outlineGhostButtonClassName()} href="/dashboard">
-        Dashboard
-      </Link>
-      <Link className={outlineGhostButtonClassName()} href="/university/learning">
-        University path
-      </Link>
-    </>
-  );
-
-  const heroPanel = (
-    <>
-      <div style={{ display: "grid", gap: 8 }}>
-        <span className="assistant-context-chip">Choose a phase</span>
-        <h2 className={universityStyles.heroPanelTitle}>Four learning bands, one clear entry point</h2>
-        <p className={universityStyles.heroPanelCopy}>
-          SCHOOL keeps the phase chooser visible and expands each phase into a focused study surface when you open it.
-        </p>
-      </div>
-
-      <div className={universityStyles.stats}>
-        <div className={universityStyles.statRow}>
-          <span className="text-dim">Phases</span>
-          <strong>{phases.length}</strong>
-        </div>
-        <div className={universityStyles.statRow}>
-          <span className="text-dim">Best on mobile</span>
-          <strong>Yes</strong>
-        </div>
-        <div className={universityStyles.statRow}>
-          <span className="text-dim">Route</span>
-          <strong>/learn</strong>
-        </div>
-      </div>
-    </>
-  );
-
-  const content = (
-    <>
+  return (
+    <div className={styles.page}>
+      <Suspense>
+        <ProfilePathHint surface="learn" />
+      </Suspense>
+      <LearnHomeGuidance />
       <LearningStyleOnboarding />
-
       <div className={styles.grid}>
         {phases.map((phase) => {
-          const visual = phaseVisuals[phase.key] ?? { icon: "📚", gradeRange: "", description: "" };
+          const visual = phaseVisuals[phase.key] ?? { mark: "•", title: phase.name, description: "" };
           return (
             <Link key={phase.key} href={`/learn/${phase.key}`} className={styles.card} prefetch={false}>
-              <div className={styles.banner} data-phase={phase.key}>
-                <span className={styles.icon}>{visual.icon}</span>
-                {visual.gradeRange ? <span className={styles.gradeRange}>{visual.gradeRange}</span> : null}
-              </div>
-              <div className={styles.body}>
-                <p className={styles.name}>{phase.name}</p>
-                <p className={styles.desc}>{visual.description}</p>
-                <div className={styles.footer}>
-                  <span className={styles.cta}>Explore grades →</span>
-                </div>
-              </div>
+              <span className={styles.mark}>{visual.mark}</span>
+              <span className={styles.body}>
+                <span className={styles.name}>{visual.title}</span>
+                {visual.description ? <span className={styles.desc}>{visual.description}</span> : null}
+              </span>
+              <svg className={styles.chevron} width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="m9 6 6 6-6 6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
             </Link>
           );
         })}
       </div>
-
-      <div style={{ display: "grid", gap: 16, gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))" }}>
-        <SectionCard title="What each phase does" description="The route stays simple up front, then expands when you pick a band.">
-          <div style={{ display: "grid", gap: 10 }}>
-            {phases.map((phase) => {
-              const visual = phaseVisuals[phase.key] ?? { icon: "📚", gradeRange: "", description: "" };
-              return (
-                <div key={`phase-summary-${phase.key}`} className="glass" style={{ borderRadius: 14, padding: 12, display: "grid", gap: 6 }}>
-                  <div style={{ display: "flex", justifyContent: "space-between", gap: 10, alignItems: "center" }}>
-                    <strong>{phase.name}</strong>
-                    {visual.gradeRange ? <Badge variant="neutral" className="skeu-badge">{visual.gradeRange}</Badge> : null}
-                  </div>
-                  <span style={{ lineHeight: 1.5 }}>{visual.description}</span>
-                </div>
-              );
-            })}
-          </div>
-        </SectionCard>
-
-        <SectionCard title="If you want the richer route" description="The university module pages carry the formatted study content and image-backed cover treatment.">
-          <div style={{ display: "grid", gap: 10 }}>
-            <Link className="button skeu-btn" href="/university/modules/ekip212">
-              Open EKIP212 preview
-            </Link>
-            <Link className="button skeu-btn-ghost" href="/university/learning">
-              Open university learning path
-            </Link>
-            <Link className="button skeu-btn-ghost" href="/university/modules/econ211">
-              Open ECON211 study surface
-            </Link>
-          </div>
-        </SectionCard>
-      </div>
-    </>
+      <Link href="/university/learning" className={styles.university} prefetch={false}>
+        <span className={styles.universityName}>University path</span>
+        <svg className={styles.chevron} width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="m9 6 6 6-6 6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      </Link>
+    </div>
   );
-
-  return renderCuratedShell({
-    title: "Learn",
-    subtitle: "Choose a phase to begin your CAPS-aligned learning journey.",
-    heroTitle: "Find the right entry point, then move into the right study surface.",
-    heroCopy:
-      "SCHOOL now gives `/learn` a more intentional front door: a clearer phase chooser, a stronger visual frame, and direct access into the richer module pages when you need them.",
-    heroActions,
-    heroPanel,
-    content,
-  });
 }

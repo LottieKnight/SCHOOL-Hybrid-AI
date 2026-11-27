@@ -1,6 +1,8 @@
 import { LearnLayout } from "@/components/LearnLayout";
 import { SubjectRoadmap } from "@/components/SubjectRoadmap";
+import { ScopeProgress } from "@/components/learn/ScopeProgress";
 import { findLearnSubject, formatTermLabel, getTermInfo, parseGradeParam } from "@/lib/learnV2";
+import { enumerateLessonIds } from "@/lib/lessons/schema";
 import { cookies } from "next/headers";
 import { isLocale as isLessonLocale, type Locale } from "@/lib/locale";
 import { LessonLanguageSelector } from "@/components/LessonLanguageSelector";
@@ -82,11 +84,26 @@ export default async function LearnSubjectPage({
         { label: `Grade ${gradeNumber}`, href: `/learn/${phase}/${grade}` },
         { label: subjectEntry.name },
       ]}
-      subtitle="Your full-year roadmap. Pick a term to start, or jump straight into practice."
     >
       <div style={{ marginBottom: 16 }}>
         <LessonLanguageSelector current={lessonLanguage} />
       </div>
+      <ScopeProgress
+        label={`${subjectEntry.name} progress`}
+        groups={termPanels.map((term) => ({
+          key: String(term.termNumber),
+          label: term.termName,
+          lessonIds: enumerateLessonIds([
+            {
+              phase,
+              grade: gradeNumber,
+              subjectKey: subject,
+              term: term.termNumber,
+              weeks: term.weekCount,
+            },
+          ]),
+        }))}
+      />
       <SubjectRoadmap
         phase={phase}
         grade={grade}

@@ -1,0 +1,341 @@
+.studio {
+  display: grid;
+  gap: 16px;
+  min-width: 0;
+  color: var(--text-1);
+}
+
+.header,
+.block,
+.teacher {
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+  padding: 16px;
+  border-radius: 18px;
+  border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+  background: var(--surface, #111);
+}
+
+.kicker {
+  margin: 0;
+  color: var(--gold);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.titleRow {
+  display: grid;
+  gap: 12px;
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  line-height: 1.05;
+}
+
+.summary,
+.note,
+.progressLabel,
+.block p,
+.teacher p,
+.glossary dd {
+  margin: 0;
+  color: var(--text-2);
+  line-height: 1.55;
+  white-space: pre-line;
+}
+
+.note {
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: var(--gold-dim);
+  border: 1px solid var(--gold-border);
+}
+
+.meta,
+.actions,
+.pager,
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  border-radius: 999px;
+  padding: 4px 10px;
+  border: 1px solid var(--gold-border);
+  background: var(--gold-dim);
+  color: var(--gold);
+  font-size: 0.75rem;
+  text-transform: capitalize;
+}
+
+.track {
+  height: 8px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.fill {
+  display: block;
+  height: 100%;
+  background: var(--gold);
+}
+
+.toggle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.toggleCompact {
+  display: inline-flex;
+  width: auto;
+  flex-shrink: 0;
+  gap: 0;
+  padding: 3px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+}
+
+.toggleCompact .toggleButton {
+  min-height: 44px;
+  min-width: 44px;
+  padding: 8px 14px;
+  border: 0;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  line-height: 1.1;
+}
+
+.toggleButton,
+.option,
+.primary,
+.secondary {
+  min-height: 44px;
+  border-radius: 12px;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  font: inherit;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.toggleButton,
+.option,
+.secondary {
+  color: var(--text-1);
+  background: transparent;
+  border: 1px solid var(--border, rgba(255, 255, 255, 0.12));
+}
+
+.toggleButton[data-active="true"] {
+  color: #0a0a0a;
+  background: var(--gold);
+  border-color: var(--gold);
+}
+
+.primary {
+  color: #0a0a0a;
+  background: var(--gold);
+  border: 1px solid var(--gold);
+}
+
+.sectionNav {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.sectionNav a {
+  flex: 0 0 auto;
+  color: var(--text-2);
+  text-decoration: none;
+  border: 1px solid var(--border, rgba(255, 255, 255, 0.1));
+  border-radius: 999px;
+  padding: 8px 12px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.layout {
+  display: grid;
+  gap: 16px;
+}
+
+.main {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+}
+
+.block h3,
+.teacher h3,
+.teacher h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.block ul,
+.block ol,
+.teacher ul,
+.teacher ol {
+  margin: 0;
+  padding-left: 1.1rem;
+  display: grid;
+  gap: 6px;
+}
+
+.glossary {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+}
+
+.glossary div {
+  display: grid;
+  gap: 2px;
+}
+
+.glossary dt {
+  font-weight: 700;
+}
+
+.block[data-kind="exam_tip"] {
+  border-color: var(--gold-border);
+  background: var(--gold-dim);
+}
+
+.example {
+  display: grid;
+  gap: 8px;
+}
+
+.example summary {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--gold);
+  font-weight: 700;
+}
+
+.check {
+  margin: 0;
+  padding: 12px;
+  border-radius: 14px;
+  border: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+  display: grid;
+  gap: 8px;
+}
+
+.check legend {
+  padding: 0;
+  font-weight: 650;
+}
+
+.option[data-result="correct"] {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+.option[data-result="incorrect"] {
+  border-color: #c45c5c;
+}
+
+.checks {
+  display: grid;
+  gap: 10px;
+}
+
+.pager {
+  display: grid;
+  gap: 8px;
+}
+
+.teacher {
+  align-content: start;
+}
+
+.teacherHead {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: center;
+}
+
+.partnership {
+  display: grid;
+  gap: 8px;
+}
+
+.partnership label {
+  display: grid;
+  gap: 4px;
+  font-size: 0.82rem;
+  color: var(--text-2);
+}
+
+.partnership input {
+  min-height: 44px;
+  border-radius: 10px;
+  border: 1px solid var(--border, rgba(255, 255, 255, 0.12));
+  background: var(--bg, #0a0a0a);
+  color: var(--text-1);
+  padding: 8px 10px;
+  font: inherit;
+}
+
+.studio[data-present="true"] .title {
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.studio[data-present="true"] .summary,
+.studio[data-present="true"] .block p,
+.studio[data-present="true"] .block li {
+  font-size: 1.08rem;
+}
+
+@media (min-width: 900px) {
+  .titleRow {
+    grid-template-columns: 1fr auto;
+    align-items: start;
+  }
+
+  .layout {
+    grid-template-columns: minmax(0, 1.5fr) minmax(260px, 0.8fr);
+  }
+
+  .pager {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .studio[data-present="true"] .layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 420px) {
+  .header,
+  .block,
+  .teacher {
+    padding: 14px;
+  }
+
+  .primary,
+  .secondary,
+  .option {
+    width: 100%;
+  }
+}

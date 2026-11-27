@@ -1,45 +1,39 @@
 import Link from "next/link";
 import type { PastPaperListItem } from "@/lib/pastPapers/catalog";
-
-function formatGrade(grade: number | null): string {
-  if (grade === null) return "University";
-  if (grade === 0) return "Grade R";
-  return `Grade ${grade}`;
-}
+import { formatGradeLabel, memoStatusLabel, practiceHref } from "@/lib/pastPapers/indexing";
 
 type Props = { paper: PastPaperListItem };
 
 export function PastPaperCard({ paper }: Props) {
+  const detailHref = `/past-papers/${paper.id}`;
+  const paperHref = `${detailHref}?doc=paper`;
+  const memoHref = `${detailHref}?doc=memo`;
+
   return (
-    <Link href={`/past-papers/${paper.id}`} className="pp-card">
-      <div className="pp-card-subject">{paper.subject}</div>
-
+    <article className="pp-card">
+      <Link href={detailHref} className="pp-card-open">
+        <h2 className="pp-card-title">{paper.title}</h2>
+      </Link>
       <div className="pp-card-badges">
-        <span className="pp-badge pp-badge-grade">{formatGrade(paper.grade)}</span>
-        {paper.year && <span className="pp-badge">{paper.year}</span>}
-        {paper.session && <span className="pp-badge">{paper.session}</span>}
+        <span className="pp-badge pp-badge-grade">{formatGradeLabel(paper.grade)}</span>
+        {paper.year ? <span className="pp-badge">{paper.year}</span> : null}
+        {paper.session ? <span className="pp-badge">{paper.session}</span> : null}
+        <span className="pp-badge">{paper.language}</span>
       </div>
-
-      <div className="pp-card-meta">
-        <span className="pp-badge pp-badge-muted">
-          Paper {paper.paperNumber}
-        </span>
-        <span className="pp-badge pp-badge-muted">
-          {paper.language}
-        </span>
-        {paper.moduleCode && (
-          <span className="pp-badge pp-badge-muted">{paper.moduleCode}</span>
-        )}
+      <div className="pp-card-actions">
+        <span className={`pp-memo-badge pp-memo-${paper.memoStatus}`}>{memoStatusLabel(paper.memoStatus)}</span>
+        <Link className="pp-action" href={paperHref}>
+          Paper
+        </Link>
+        {paper.memoStatus === "available" ? (
+          <Link className="pp-action" href={memoHref}>
+            Memo
+          </Link>
+        ) : null}
+        <Link className="pp-action pp-action-practice" href={practiceHref(paper)}>
+          Practice
+        </Link>
       </div>
-
-      <div className="pp-card-footer">
-        {paper.hasMemo ? (
-          <span className="pp-memo-badge pp-memo-available">✓ Memo</span>
-        ) : (
-          <span className="pp-memo-badge pp-memo-pending">Memo pending</span>
-        )}
-        <span className="pp-card-cta">View Paper →</span>
-      </div>
-    </Link>
+    </article>
   );
 }

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getPastPapers } from "@/lib/pastPapers/catalog";
+import { languageLabel, sessionLabel } from "@/lib/pastPapers/indexing";
 import { PastPapersPrefetchLinks } from "@/components/PastPapersPrefetchLinks";
 
 type PaperItem = Awaited<ReturnType<typeof getPastPapers>>[number];
@@ -101,7 +102,7 @@ export default async function PastPaperSessionPage({
           {yearNumber}
         </Link>
         <span>/</span>
-        <span>{session}</span>
+        <span>{sessionLabel(session)}</span>
       </div>
       <h1 className="title">Available papers</h1>
       <p className="subtitle">Select a paper to view details and start a live attempt.</p>
@@ -131,7 +132,7 @@ export default async function PastPaperSessionPage({
               <div>
                 <strong>{paper.title}</strong>
                 <div className="badge">
-                  Paper {paper.paperNumber} - {paper.language.toUpperCase()}
+                  Paper {paper.paperNumber} · {languageLabel(paper.language)}
                 </div>
               </div>
             </Link>

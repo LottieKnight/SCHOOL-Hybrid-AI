@@ -38,6 +38,8 @@ export function SidebarLogoutButton() {
         credentials: "include",
         headers: csrfToken ? { "x-csrf-token": csrfToken } : undefined,
       }).catch(() => null);
+      const { signOutFirebase } = await import("@/lib/firebaseGoogleAuth");
+      await signOutFirebase();
     } catch {
       // best-effort — session clears on refresh below
     } finally {

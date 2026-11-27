@@ -1,5 +1,52 @@
 export const DEFAULT_LONG_ANSWER_CHARS = 600;
 
+/**
+ * Cloud model for Firebase AI Logic (`GoogleAIBackend` / Gemini Developer API).
+ * `gemini-2.5-flash` returns 404 for projects that have not used it before:
+ * it is shut down on the Agent Platform and blocked for new users on the
+ * Gemini Developer API until the 1 Dec 2026 auto-route. The documented
+ * replacement is `gemini-3.5-flash-lite` (stable, no shutdown date, billing
+ * not required). `gemini-3.0-flash` is not a Firebase AI Logic model id.
+ * `gemini-3.8-flash` is the current full Flash and stays valid as an override.
+ */
+export const CLOUD_MODEL = "gemini-3.5-flash-lite";
+
+/** Ids that must not be sent. Includes the bogus id from the 2.5 Flash 404 body. */
+const RETIRED_CLOUD_MODELS = new Set([
+  "gemini-1.0-pro",
+  "gemini-1.0-pro-001",
+  "gemini-1.0-pro-002",
+  "gemini-1.0-pro-vision",
+  "gemini-1.0-pro-vision-001",
+  "gemini-1.5-flash",
+  "gemini-1.5-flash-001",
+  "gemini-1.5-flash-002",
+  "gemini-1.5-pro",
+  "gemini-1.5-pro-001",
+  "gemini-1.5-pro-002",
+  "gemini-2.0-flash",
+  "gemini-2.0-flash-001",
+  "gemini-2.0-flash-lite",
+  "gemini-2.0-flash-lite-001",
+  "gemini-2.5-flash",
+  "gemini-2.5-flash-lite",
+  "gemini-2.5-pro",
+  "gemini-3-flash",
+  "gemini-3.0-flash",
+]);
+
+/**
+ * Model id actually passed to `getGenerativeModel`. Empty and retired ids
+ * (including a Remote Config value that is still `gemini-2.5-flash`) become
+ * {@link CLOUD_MODEL}. Any other id is kept so a Console override such as
+ * `gemini-3.8-flash` still applies.
+ */
+export function resolveCloudModel(requested: string | null | undefined): string {
+  const name = (requested ?? "").trim().replace(/^models\//i, "").toLowerCase();
+  if (!name || RETIRED_CLOUD_MODELS.has(name)) return CLOUD_MODEL;
+  return name;
+}
+
 export type TutorTask = "hint" | "mark" | "plan";
 
 export type TutorSettings = {
@@ -12,7 +59,7 @@ export type TutorSettings = {
 export const DEFAULT_SETTINGS: TutorSettings = {
   inference_mode: "PREFER_ON_DEVICE",
   long_answer_chars: DEFAULT_LONG_ANSWER_CHARS,
-  cloud_model: "gemini-2.5-flash",
+  cloud_model: CLOUD_MODEL,
   ai_enabled: true,
 };
 

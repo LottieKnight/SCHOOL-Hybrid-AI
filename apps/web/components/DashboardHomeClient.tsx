@@ -34,7 +34,9 @@ import { LoadsheddingTracker } from "@/components/LoadsheddingTracker";
 import { GradeCalculator } from "@/components/GradeCalculator";
 import { ReadinessEvidenceCard } from "@/components/ReadinessEvidenceCard";
 import { InstitutionInsightCard } from "@/components/InstitutionInsightCard";
+import { useMinimalProfile } from "@/components/profile/useMinimalProfile";
 import { getCurrentPeriod, type CalendarFormat } from "@/lib/academicPeriod";
+import { topbarIdentity } from "@/lib/minimalProfile";
 import { API_BASE, getApiErrorMessage } from "@/lib/apiBase";
 import { derivePhaseFromGrade } from "@/lib/nextBestAction";
 import type { AcademicState } from "@/lib/server/userProfileState";
@@ -171,9 +173,9 @@ function getFirstName(user: Record<string, unknown> | undefined) {
   if (firstName) return firstName;
 
   const email = typeof user?.email === "string" ? user.email.trim() : "";
-  if (email) return email.split("@")[0] || "Scholar";
+  if (email) return email.split("@")[0] || "";
 
-  return "Scholar";
+  return "";
 }
 
 function greetingTime() {
@@ -508,6 +510,7 @@ export default function DashboardHomeClient({
 }) {
   const t = useTranslations("dashboard");
   const { session } = useSession();
+  const { profile } = useMinimalProfile();
   const user = (session?.user ?? null) as Record<string, unknown> | null;
   const [summary, setSummary] = useState<DashboardSummary | null>(null);
   const [memorySummary, setMemorySummary] = useState<MemorySummary | null>(null);
@@ -610,7 +613,8 @@ export default function DashboardHomeClient({
   }, [session]);
 
   const signedIn = Boolean(session);
-  const firstName = getFirstName(user ?? undefined);
+  const identity = topbarIdentity({ profile, sessionFirstName: getFirstName(user ?? undefined) });
+  const firstName = identity.greetingName || "";
   const average = averageScore(summary?.activity.scores);
   const dueCount = summary
     ? (summary.activity.dueReviews?.length ?? 0) + (summary.meta.unreadAssignmentReminders ?? 0)
@@ -674,7 +678,7 @@ export default function DashboardHomeClient({
   ] as const;
 
   return (
-    <div className="dashboard-page" style={dashboardStyle}>
+    <div className="dashboard-page" style={dashboardStyle} data-testid="dashboard-open">
       <header className="dashboard-header">
         <div
           className="animate-fade-up"
@@ -692,10 +696,16 @@ export default function DashboardHomeClient({
               <Skeleton style={{ width: "240px", height: "40px" }} />
             ) : (
               <>
-                {t("greeting", { time: greetingTime() })}{" "}
-                <span className="dashboard-title-accent" style={{ color: "var(--institution-primary)" }}>
-                  {firstName}.
-                </span>
+                {firstName ? (
+                  <>
+                    {t("greeting", { time: greetingTime() })}{" "}
+                    <span className="dashboard-title-accent" style={{ color: "var(--institution-primary)" }}>
+                      {firstName}.
+                    </span>
+                  </>
+                ) : (
+                  <>Good {greetingTime()}.</>
+                )}
               </>
             )}
           </h1>
@@ -834,11 +844,14 @@ export default function DashboardHomeClient({
               <CardBody>
                 <p className="dashboard-intro" style={{ marginTop: 0 }}>{t("guestCtaCopy")}</p>
                 <div style={{ display: "flex", flexWrap: "wrap", gap: "10px", alignItems: "center" }}>
-                  <Link className={buttonClassName({ variant: "gold" })} href="/signup" prefetch={false}>
-                    {t("guestCtaButton")}
+                  <Link className={buttonClassName({ variant: "gold" })} href="/learn" prefetch={false}>
+                    Continue without an account
                   </Link>
                   <Link className={buttonClassName({ variant: "outline" })} href="/login" prefetch={false}>
                     {t("guestCtaSecondary")}
+                  </Link>
+                  <Link className={buttonClassName({ variant: "outline" })} href="/signup" prefetch={false}>
+                    {t("guestCtaButton")}
                   </Link>
                 </div>
               </CardBody>
